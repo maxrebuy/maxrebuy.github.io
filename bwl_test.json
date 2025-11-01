@@ -1,0 +1,677 @@
+[
+  {
+    "id": "bwl-01",
+    "typ": "input",
+    "tag": "Wirtschaften",
+    "frage": "Warum müssen Menschen bzw. Wirtschaftssubjekte überhaupt wirtschaften?",
+    "schluesselwoerter": ["knapp", "bedürfnisse"],
+    "korrekteAntworten": [
+      "weil bedürfnisse unbegrenzt sind aber die mittel knapp",
+      "weil güter knapp sind und bedürfnisse befriedigt werden sollen",
+      "weil bedürfnisse größer sind als die verfügbaren ressourcen"
+    ],
+    "esel": "Ohne Knappheit keine BWL.",
+    "erklaerung": "Kern der BWL ist die Annahme: Bedürfnisse der Menschen sind tendenziell unbegrenzt, die verfügbaren Mittel (Güter, Zeit, Geld) aber begrenzt. Aus diesem Spannungsverhältnis entsteht das ‚Wirtschaften‘ – also das planvolle Entscheiden, wie knappe Mittel so eingesetzt werden, dass möglichst viele Bedürfnisse befriedigt werden. Gäbe es keine Knappheit, müsste niemand wirtschaften."
+  },
+  {
+    "id": "bwl-02",
+    "typ": "mc",
+    "tag": "Bedürfnisse",
+    "frage": "Welche Aussage zu Bedürfnissen trifft zu?",
+    "optionen": [
+      "Bedürfnisse sind der Ausgangspunkt des Wirtschaftens.",
+      "Bedürfnisse entstehen nur bei Unternehmen.",
+      "Bedürfnisse sind immer materiell.",
+      "Bedürfnisse sind immer wirtschaftlich erfüllbar."
+    ],
+    "loesung": "Bedürfnisse sind der Ausgangspunkt des Wirtschaftens.",
+    "esel": "Erst wollen, dann wirtschaften.",
+    "erklaerung": "In der BWL beginnt alles mit dem Bedürfnis: Menschen haben Wünsche bzw. Mängelgefühle. Daraus entsteht Nachfrage nach Gütern und Dienstleistungen. Unternehmen existieren letztlich, um diese Bedürfnisse zu decken. Viele Bedürfnisse sind außerdem nicht oder nur begrenzt wirtschaftlich erfüllbar (z. B. Liebe, Anerkennung), deshalb sind die anderen Antwortmöglichkeiten falsch."
+  },
+  {
+    "id": "bwl-03",
+    "typ": "mc",
+    "tag": "Güterarten",
+    "frage": "Welches der folgenden Güter ist KEIN freies Gut?",
+    "optionen": [
+      "Sonnenlicht",
+      "Wind",
+      "Trinkwasser aus der Leitung",
+      "Bergluft im Gebirge"
+    ],
+    "loesung": "Trinkwasser aus der Leitung",
+    "esel": "Sobald jemand es bereitstellen muss → nicht frei.",
+    "erklaerung": "Freie Güter stehen in der Regel in ausreichender Menge kostenlos zur Verfügung (z. B. Luft, Sonnenlicht). Sobald aber ein Versorger dahintersteht, Infrastruktur nötig ist oder ein Preis verlangt wird (wie bei Leitungswasser), handelt es sich nicht mehr um ein freies Gut, sondern um ein wirtschaftliches Gut."
+  },
+  {
+    "id": "bwl-04",
+    "typ": "input",
+    "tag": "Ökonomisches Prinzip",
+    "frage": "Formuliere das Maximalprinzip des ökonomischen Prinzips.",
+    "schluesselwoerter": ["gegebene mittel", "maximal", "erfolg"],
+    "korrekteAntworten": [
+      "mit gegebenen mitteln einen maximalen erfolg erzielen",
+      "aus vorgegebenen ressourcen das beste ergebnis herausholen"
+    ],
+    "esel": "Fixe Mittel → größter Output.",
+    "erklaerung": "Beim Maximalprinzip steht eine feste Input-Menge zur Verfügung (z. B. 1.000 € Werbebudget). Mit genau diesem Einsatz soll der größtmögliche Output erreicht werden (höchster Umsatz, größte Reichweite, höchster Gewinn). Merken: Maximal = Input fest, Output soll rauf."
+  },
+  {
+    "id": "bwl-05",
+    "typ": "input",
+    "tag": "Ökonomisches Prinzip",
+    "frage": "Formuliere das Minimalprinzip des ökonomischen Prinzips.",
+    "schluesselwoerter": ["bestimmtes ziel", "geringstmöglichen", "mitteleinsatz"],
+    "korrekteAntworten": [
+      "ein fest vorgegebenes ziel mit möglichst wenig mitteln erreichen",
+      "ein bestimmtes ergebnis mit dem geringsten aufwand erzielen"
+    ],
+    "esel": "Ziel fest → Kosten runter.",
+    "erklaerung": "Beim Minimalprinzip ist das Ergebnis vorgegeben (z. B. 1.000 Flyer drucken), aber der Mitteleinsatz soll so klein wie möglich bleiben (günstigste Druckerei, bessere Auslastung, weniger Material). Merken: Minimal = Output fest, Input soll runter."
+  },
+  {
+    "id": "bwl-06",
+    "typ": "mc",
+    "tag": "Unternehmensziele",
+    "frage": "Welches der folgenden Ziele ist ein strategisches Ziel?",
+    "optionen": [
+      "Reduzierung des Papierverbrauchs im nächsten Monat um 5 %",
+      "Einführung einer neuen Produktlinie für den asiatischen Markt in 3 Jahren",
+      "Senkung der Ausschussquote in dieser Woche",
+      "Krankheitsquote im Lager im Februar senken"
+    ],
+    "loesung": "Einführung einer neuen Produktlinie für den asiatischen Markt in 3 Jahren",
+    "esel": "Strategisch = langfristig + neu.",
+    "erklaerung": "Strategische Ziele sind langfristig (mehrere Jahre), betreffen oft die Ausrichtung des Unternehmens und haben meist hohen Ressourceneinsatz. Operative Ziele dagegen sind kurzfristig (Tag, Woche, Monat). Eine neue Produktlinie für einen neuen Markt aufzubauen ist klar strategisch."
+  },
+  {
+    "id": "bwl-07",
+    "typ": "mc",
+    "tag": "Zielbeziehungen",
+    "frage": "Wenn zwei Ziele sich gegenseitig verstärken, spricht man von …",
+    "optionen": [
+      "Zielkonkurrenz",
+      "Zielharmonie",
+      "Zielneutralität",
+      "Zielaufspaltung"
+    ],
+    "loesung": "Zielharmonie",
+    "esel": "Harmonie = hilft sich.",
+    "erklaerung": "Zielharmonie bedeutet: Die Erreichung des einen Ziels begünstigt das andere (z. B. bessere Qualität → zufriedenere Kunden → höherer Umsatz). Das Gegenteil wäre Zielkonkurrenz, wenn die Erreichung eines Ziels das andere erschwert."
+  },
+  {
+    "id": "bwl-08",
+    "typ": "mc",
+    "tag": "Zielbeziehungen",
+    "frage": "Wenn die Erreichung eines Ziels ein anderes Ziel erschwert, liegt … vor.",
+    "optionen": [
+      "Zielkonkurrenz",
+      "Zielharmonie",
+      "Zielkomplementarität",
+      "Zieltransparenz"
+    ],
+    "loesung": "Zielkonkurrenz",
+    "esel": "Mehr von A = weniger von B.",
+    "erklaerung": "Zielkonkurrenz findest du oft bei Lagerhaltung: Hoher Servicegrad (viel auf Lager) widerspricht geringer Kapitalbindung (wenig auf Lager). Beides gleichzeitig geht nur begrenzt. Deshalb spricht man von konkurrierenden Zielen."
+  },
+  {
+    "id": "bwl-09",
+    "typ": "input",
+    "tag": "Standortwahl",
+    "frage": "Nenne ein typisches Kriterium für die Wahl eines Unternehmensstandortes.",
+    "schluesselwoerter": ["verkehr", "kund", "arbeitskräfte"],
+    "korrekteAntworten": [
+      "gute verkehrsanbindung",
+      "kundennähe",
+      "verfügbarkeit von arbeitskräften"
+    ],
+    "esel": "Standort = erreichbar + verkaufbar.",
+    "erklaerung": "Bei der Standortwahl werden harte und weiche Faktoren betrachtet. Klassisch: Verkehrsanbindung, Nähe zum Markt/Kunden, verfügbare und qualifizierte Arbeitskräfte, Infrastruktur, Steuern. Solche Kriterien senken Kosten oder erhöhen Absatzchancen."
+  },
+  {
+    "id": "bwl-10",
+    "typ": "mc",
+    "tag": "Rechtsformen",
+    "frage": "Welche Aussage zur Personengesellschaft ist richtig?",
+    "optionen": [
+      "Die Gesellschafter haften in der Regel persönlich.",
+      "Es muss immer Grundkapital eingezahlt werden.",
+      "Sie ist zwingend börsennotiert.",
+      "Die Haftung ist immer beschränkt."
+    ],
+    "loesung": "Die Gesellschafter haften in der Regel persönlich.",
+    "esel": "Person = persönlich.",
+    "erklaerung": "Bei Personengesellschaften (z. B. OHG, meist auch KG für Komplementär) steht die Person der Gesellschafter im Vordergrund, nicht das Kapital. Daher haften diese i. d. R. unbeschränkt und persönlich. Das unterscheidet sie von Kapitalgesellschaften (GmbH, AG), wo nur das Gesellschaftsvermögen haftet."
+  },
+  {
+    "id": "bwl-11",
+    "typ": "mc",
+    "tag": "Rechtsformen",
+    "frage": "Welche der folgenden Rechtsformen gehört zu den Kapitalgesellschaften?",
+    "optionen": [
+      "OHG",
+      "KG",
+      "GmbH",
+      "GbR"
+    ],
+    "loesung": "GmbH",
+    "esel": "G = Gesellschaft, m.b.H. = Haftung gedeckelt.",
+    "erklaerung": "Kapitalgesellschaften zeichnen sich durch eigene Rechtspersönlichkeit und beschränkte Haftung aus. Die GmbH ist die klassische Form im Mittelstand. OHG, KG, GbR sind Personengesellschaften."
+  },
+  {
+    "id": "bwl-12",
+    "typ": "input",
+    "tag": "Rechtsformwahl",
+    "frage": "Nenne einen wesentlichen Grund, warum die Wahl der Rechtsform wichtig ist.",
+    "schluesselwoerter": ["haftung", "besteuerung", "finanzierung"],
+    "korrekteAntworten": [
+      "weil die haftung geregelt wird",
+      "weil die rechtsform die steuerliche behandlung beeinflusst",
+      "weil die rechtsform den zugang zu kapital beeinflusst"
+    ],
+    "esel": "Rechtsform = Haftung + Steuern + Kapital.",
+    "erklaerung": "Die Rechtsform entscheidet u. a. darüber, wer haftet (privat oder nicht), wie Gewinne versteuert werden und wie leicht neues Kapital aufgenommen werden kann. Deshalb ist sie eine strategische Grundsatzentscheidung."
+  },
+  {
+    "id": "bwl-13",
+    "typ": "mc",
+    "tag": "Betriebliche Funktionen",
+    "frage": "Welche betriebliche Funktion ist vor allem für die Versorgung mit Roh-, Hilfs- und Betriebsstoffen zuständig?",
+    "optionen": [
+      "Absatz/Marketing",
+      "Beschaffung und Materialwirtschaft",
+      "Rechnungswesen",
+      "Personalwesen"
+    ],
+    "loesung": "Beschaffung und Materialwirtschaft",
+    "esel": "Material = besorgen.",
+    "erklaerung": "Die Materialwirtschaft plant, steuert und überwacht den Materialfluss im Unternehmen. Sie beschafft die benötigten Güter, lagert sie und stellt sie der Produktion bereit. Absatz und Marketing stehen am anderen Ende der Kette."
+  },
+  {
+    "id": "bwl-14",
+    "typ": "mc",
+    "tag": "Marketing",
+    "frage": "Welche Aussage zum Marketing-Mix ist korrekt?",
+    "optionen": [
+      "Er besteht nur aus Werbung.",
+      "Er besteht aus Produkt-, Preis-, Kommunikations- und Distributionspolitik.",
+      "Er wird nur im B2B-Bereich eingesetzt.",
+      "Er ist nur für Großunternehmen relevant."
+    ],
+    "loesung": "Er besteht aus Produkt-, Preis-, Kommunikations- und Distributionspolitik.",
+    "esel": "4P merken.",
+    "erklaerung": "Der klassische Marketing-Mix besteht aus 4 Instrumenten: Product (Produkt), Price (Preis), Place (Vertrieb/Distribution) und Promotion (Kommunikation/Werbung). Werbung ist also nur ein Teil davon. Deshalb sind die anderen Antworten zu eng."
+  },
+  {
+    "id": "bwl-15",
+    "typ": "input",
+    "tag": "Rechnungswesen",
+    "frage": "Warum wird das externe Rechnungswesen so genannt?",
+    "schluesselwoerter": ["externe adressaten", "jahresabschluss", "gesetzlich"],
+    "korrekteAntworten": [
+      "weil es vor allem informationen für externe adressaten bereitstellt",
+      "weil jahresabschluss und bilanz nach außen gerichtet sind"
+    ],
+    "esel": "Extern = nach draußen berichten.",
+    "erklaerung": "Das externe Rechnungswesen (z. B. Finanzbuchhaltung, Jahresabschluss) soll vor allem außenstehende Interessenten informieren: Banken, Gläubiger, Finanzamt, Anteilseigner. Es ist stark gesetzlich geregelt (HGB). Im Gegensatz dazu ist das interne Rechnungswesen für die Unternehmenssteuerung gedacht."
+  },
+  {
+    "id": "bwl-16",
+    "typ": "mc",
+    "tag": "Rechnungswesen",
+    "frage": "Welche Aufgabe hat das interne Rechnungswesen (z. B. Kosten- und Leistungsrechnung)?",
+    "optionen": [
+      "Erstellung des handelsrechtlichen Jahresabschlusses",
+      "Planung, Kontrolle und Steuerung im Unternehmen",
+      "Bekanntgabe des Gewinns an das Finanzamt",
+      "Festlegung der Rechtsform"
+    ],
+    "loesung": "Planung, Kontrolle und Steuerung im Unternehmen",
+    "esel": "Intern = managen.",
+    "erklaerung": "Das interne Rechnungswesen liefert Informationen für die Unternehmensleitung, z. B. zur Kalkulation, zur Kostenkontrolle oder zur Budgetplanung. Es ist nicht gesetzlich vorgeschrieben und kann sehr individuell gestaltet werden."
+  },
+  {
+    "id": "bwl-17",
+    "typ": "mc",
+    "tag": "Investition",
+    "frage": "Was versteht man unter Bruttoinvestition?",
+    "optionen": [
+      "Nur Investitionen zur Erweiterung der Kapazität",
+      "Gesamtheit aller Investitionen einer Periode",
+      "Nur Ersatzinvestitionen",
+      "Nur Rationalisierungsinvestitionen"
+    ],
+    "loesung": "Gesamtheit aller Investitionen einer Periode",
+    "esel": "Brutto = alles drin.",
+    "erklaerung": "Bruttoinvestition umfasst Ersatz-, Erweiterungs- und Rationalisierungsinvestitionen zusammen. Nettoinvestition wäre dagegen Bruttoinvestition minus Ersatzinvestitionen – also der tatsächliche Kapazitätszuwachs."
+  },
+  {
+    "id": "bwl-18",
+    "typ": "input",
+    "tag": "Investition",
+    "frage": "Worin unterscheiden sich Ersatzinvestitionen und Nettoinvestitionen?",
+    "schluesselwoerter": ["ersatz", "alte anlage", "netto", "kapazität"],
+    "esel": "Ersatz = halten, Netto = wachsen.",
+    "erklaerung": "Ersatzinvestitionen ersetzen nur verschlissene oder technisch veraltete Anlagen – die Kapazität bleibt gleich. Nettoinvestitionen (oder Erweiterungsinvestitionen) erhöhen wirklich die Kapazität des Unternehmens, weil zusätzlich investiert wird."
+  },
+  {
+    "id": "bwl-19",
+    "typ": "input",
+    "tag": "Finanzierung",
+    "frage": "Nenne einen Vorteil von Eigenkapital gegenüber Fremdkapital.",
+    "schluesselwoerter": ["keine rückzahlung", "unbefristet", "liquidität"],
+    "korrekteAntworten": [
+      "eigenkapital muss nicht zurückgezahlt werden",
+      "eigenkapital belastet die liquidität weniger",
+      "eigenkapital stärkt die kreditwürdigkeit"
+    ],
+    "esel": "EK drückt nicht sofort.",
+    "erklaerung": "Eigenkapital bleibt dauerhaft im Unternehmen, muss nicht zwingend verzinst oder zurückgeführt werden und verbessert die Bonität. Fremdkapital dagegen muss fristgerecht getilgt werden und belastet die Liquidität."
+  },
+  {
+    "id": "bwl-20",
+    "typ": "mc",
+    "tag": "Finanzierung",
+    "frage": "Warum belastet Eigenkapital die Liquidität in der Regel weniger als Fremdkapital?",
+    "optionen": [
+      "Weil es sofort zurückgezahlt werden muss",
+      "Weil es nicht zurückgezahlt werden muss",
+      "Weil es nie verzinst wird",
+      "Weil es steuerfrei ist"
+    ],
+    "loesung": "Weil es nicht zurückgezahlt werden muss",
+    "esel": "EK = bleibt drin.",
+    "erklaerung": "Fremdkapital erfordert Tilgung und Zinszahlungen – beides reduziert die verfügbaren Zahlungsmittel. Eigenkapital bleibt grundsätzlich im Unternehmen, Ausschüttungen sind freiwillig. Darum schont es die Liquidität."
+  },
+  {
+    "id": "bwl-21",
+    "typ": "mc",
+    "tag": "Unternehmenszusammenschlüsse",
+    "frage": "Was unterscheidet einen Konzern von einem Kartell?",
+    "optionen": [
+      "Im Kartell verlieren alle Unternehmen ihre rechtliche Selbstständigkeit.",
+      "Im Konzern gibt es eine einheitliche Leitung.",
+      "Im Kartell werden Unternehmen immer kapitalmäßig verschmolzen.",
+      "Im Konzern bleiben die Unternehmen völlig unabhängig."
+    ],
+    "loesung": "Im Konzern gibt es eine einheitliche Leitung.",
+    "esel": "Konzern = eine Chefebene.",
+    "erklaerung": "Beim Konzern bleiben die Unternehmen rechtlich selbstständig, werden aber einheitlich geleitet (z. B. Mutter-Tochter-Verhältnis). Beim Kartell bleibt nicht nur die rechtliche, sondern auch die wirtschaftliche Selbstständigkeit in vielen Bereichen stärker erhalten – hier werden meist nur Preise oder Mengen abgesprochen."
+  },
+  {
+    "id": "bwl-22",
+    "typ": "input",
+    "tag": "Unternehmenszusammenschlüsse",
+    "frage": "Nenne einen möglichen gesamtwirtschaftlichen Nachteil von Unternehmenszusammenschlüssen.",
+    "schluesselwoerter": ["wettbewerb", "marktbeherrschung", "preisdruck"],
+    "esel": "Zu viel Macht = weniger Markt.",
+    "erklaerung": "Große Zusammenschlüsse können zu Marktmacht führen. Das kann den Wettbewerb einschränken, kleinere Unternehmen verdrängen und langfristig zu höheren Preisen und weniger Innovation führen. Darum prüft das Kartellamt solche Zusammenschlüsse."
+  },
+  {
+    "id": "bwl-23",
+    "typ": "mc",
+    "tag": "Organisation",
+    "frage": "Was kennzeichnet eine funktionale Organisation?",
+    "optionen": [
+      "Gliederung nach Produkten oder Sparten",
+      "Gliederung nach Verrichtungen (Einkauf, Produktion, Absatz …)",
+      "Gliederung nach Regionen",
+      "Gliederung nach Kundengruppen"
+    ],
+    "loesung": "Gliederung nach Verrichtungen (Einkauf, Produktion, Absatz …)",
+    "esel": "Funktional = Was wird getan?",
+    "erklaerung": "Bei der funktionalen Organisation werden die Abteilungen nach gleichartigen Tätigkeiten (Verrichtungen) gebildet – z. B. Einkauf, Produktion, Vertrieb. Das ist in kleineren und mittleren Unternehmen sehr häufig. Divisional wäre es nach Produkten/Sparten."
+  },
+  {
+    "id": "bwl-24",
+    "typ": "mc",
+    "tag": "Organisation",
+    "frage": "Was kennzeichnet eine divisionale (Sparten-)Organisation?",
+    "optionen": [
+      "Gliederung nach Funktionen",
+      "Gliederung nach Produkten oder Geschäftsbereichen",
+      "Gliederung nach Kostenstellen",
+      "Gliederung nach Projektgruppen"
+    ],
+    "loesung": "Gliederung nach Produkten oder Geschäftsbereichen",
+    "esel": "Division = Produkt-Schubladen.",
+    "erklaerung": "Bei der divisionalen Organisation haben z. B. jede Produktgruppe oder jede Region eine eigene ‚kleine Firma‘ mit fast allen Funktionen (Einkauf, Vertrieb etc.). Das erhöht Marktnähe und Ergebnisverantwortung, ist aber teurer."
+  },
+  {
+    "id": "bwl-25",
+    "typ": "calc",
+    "tag": "Kennzahlen",
+    "frage": "Eine Investition bringt 12.000 € Gewinn bei 80.000 € eingesetztem Kapital. Berechne die Rentabilität in Prozent.",
+    "loesungNumerisch": 15,
+    "toleranz": 0.5,
+    "esel": "Gewinn ÷ Kapital × 100.",
+    "erklaerung": "Formel: Rentabilität = (Gewinn / eingesetztes Kapital) × 100. → (12.000 / 80.000) × 100 = 0,15 × 100 = 15 %. Eine kleine Abweichung lassen wir über die Toleranz zu."
+  },
+  {
+    "id": "bwl-26",
+    "typ": "calc",
+    "tag": "Liquidität",
+    "frage": "Flüssige Mittel: 30.000 €, kurzfristige Forderungen: 20.000 €, kurzfristige Verbindlichkeiten: 40.000 €. Berechne die Liquidität 2. Grades in Prozent.",
+    "loesungNumerisch": 125,
+    "toleranz": 2,
+    "esel": "(flüssig + forderungen) ÷ kurzfristig.",
+    "erklaerung": "Formel: Liquidität 2. Grades = (flüssige Mittel + kurzfristige Forderungen) / kurzfristige Verbindlichkeiten × 100. → (30.000 + 20.000) / 40.000 × 100 = 50.000 / 40.000 × 100 = 1,25 × 100 = 125 %."
+  },
+  {
+    "id": "bwl-27",
+    "typ": "mc",
+    "tag": "Materialwirtschaft",
+    "frage": "Wozu dient der Sicherheitsbestand im Lager?",
+    "optionen": [
+      "Zur Erhöhung der Werbeausgaben",
+      "Zur Absicherung gegen Lieferverzögerungen und Bedarfsunsicherheiten",
+      "Zur Verbesserung der Personalplanung",
+      "Zur Senkung der Lohnkosten"
+    ],
+    "loesung": "Zur Absicherung gegen Lieferverzögerungen und Bedarfsunsicherheiten",
+    "esel": "Sicherheitsbestand = Puffer.",
+    "erklaerung": "Der Sicherheitsbestand ist eine Art Mindestlagerbestand, der nicht angetastet werden soll. Er schützt vor unerwartet hohem Verbrauch oder verspäteten Lieferungen. So bleibt das Unternehmen liefer- bzw. produktionsfähig."
+  },
+  {
+    "id": "bwl-28",
+    "typ": "mc",
+    "tag": "Logistik",
+    "frage": "Was ist die Hauptaufgabe der Logistik im Unternehmen?",
+    "optionen": [
+      "Nur die Finanzbuchhaltung zu entlasten",
+      "Die betrieblichen Bereiche entlang der Wertschöpfung zu verbinden",
+      "Nur die Produktion mit dem Absatz zu verknüpfen",
+      "Nur externe Transporte zu überwachen"
+    ],
+    "loesung": "Die betrieblichen Bereiche entlang der Wertschöpfung zu verbinden",
+    "esel": "Logistik = verbindet.",
+    "erklaerung": "Logistik hat eine Querschnittsfunktion: Sie sorgt dafür, dass die richtigen Güter zur richtigen Zeit am richtigen Ort sind – vom Einkauf bis zum Kunden. Sie verbindet also mehrere Bereiche, nicht nur einen."
+  },
+  {
+    "id": "bwl-29",
+    "typ": "mc",
+    "tag": "Marketing · Preispolitik",
+    "frage": "Welche Maßnahme gehört zur Preispolitik?",
+    "optionen": [
+      "Änderung der Verpackungsgröße",
+      "Einführung von Rabatten und Skonti",
+      "Auswahl eines Lieferanten",
+      "Gestaltung des Logos"
+    ],
+    "loesung": "Einführung von Rabatten und Skonti",
+    "esel": "Preis = Zahl + Konditionen.",
+    "erklaerung": "Zur Preispolitik gehören nicht nur der eigentliche Preis, sondern auch Zahlungsbedingungen, Rabatte, Skonti, Boni. Verpackung oder Logo sind Produkt- bzw. Kommunikationspolitik."
+  },
+  {
+    "id": "bwl-30",
+    "typ": "mc",
+    "tag": "Marktforschung",
+    "frage": "Was ist Primärforschung?",
+    "optionen": [
+      "Nutzung bereits vorhandener Daten",
+      "Eigene, originäre Datenerhebung",
+      "Nur Internetrecherche",
+      "Nur Auswertung von Statistiken des Statistischen Bundesamtes"
+    ],
+    "loesung": "Eigene, originäre Datenerhebung",
+    "esel": "Primär = selber machen.",
+    "erklaerung": "Primärforschung (Field Research) bedeutet: Daten werden extra für die aktuelle Fragestellung erhoben (Befragung, Beobachtung, Experiment). Sekundärforschung nutzt dagegen vorhandene Daten."
+  },
+  {
+    "id": "bwl-31",
+    "typ": "mc",
+    "tag": "Marktforschung",
+    "frage": "Was ist Sekundärforschung?",
+    "optionen": [
+      "Selbst erhobene Befragung",
+      "Experimente im Labor",
+      "Nutzung bereits vorhandener interner oder externer Quellen",
+      "Nur Testkäufe im Handel"
+    ],
+    "loesung": "Nutzung bereits vorhandener interner oder externer Quellen",
+    "esel": "Sekundär = schon da.",
+    "erklaerung": "Bei der Sekundärforschung werden vorhandene Informationen genutzt, z. B. Verkaufsstatistiken, Studien, Marktberichte. Sie ist günstiger und schneller, aber nicht immer so passgenau wie Primärforschung."
+  },
+  {
+    "id": "bwl-32",
+    "typ": "input",
+    "tag": "Produktion/Logistik",
+    "frage": "Nenne ein Ziel der Produktionslogistik.",
+    "schluesselwoerter": ["richtige menge", "richtigen zeit", "versorgung"],
+    "esel": "Produktion muss fließen.",
+    "erklaerung": "Die Produktionslogistik sorgt dafür, dass Materialien und Teile in der richtigen Menge, Qualität und zum richtigen Zeitpunkt am richtigen Produktionsplatz sind. So werden Stillstände verhindert und Durchlaufzeiten verkürzt."
+  },
+  {
+    "id": "bwl-33",
+    "typ": "input",
+    "tag": "Materialwirtschaft",
+    "frage": "Worin unterscheiden sich Rohstoffe und Hilfsstoffe?",
+    "schluesselwoerter": ["rohstoffe", "hauptbestandteil", "hilfsstoffe", "untergeordnet"],
+    "esel": "Roh = drin, Hilfs = nur dabei.",
+    "erklaerung": "Rohstoffe gehen als Hauptbestandteil in das Endprodukt ein (z. B. Holz beim Tisch). Hilfsstoffe werden zwar auch verbraucht, sind aber nur nebensächlich (z. B. Schrauben, Leim). Betriebsstoffe dagegen dienen dem Betrieb der Maschinen."
+  },
+  {
+    "id": "bwl-34",
+    "typ": "mc",
+    "tag": "Güterarten",
+    "frage": "Was kennzeichnet Verbrauchsgüter?",
+    "optionen": [
+      "Sie können mehrfach genutzt werden.",
+      "Sie werden bei der Nutzung verbraucht.",
+      "Sie sind immer kostenlos.",
+      "Sie sind immateriell."
+    ],
+    "loesung": "Sie werden bei der Nutzung verbraucht.",
+    "esel": "Verbrauch = weg.",
+    "erklaerung": "Verbrauchsgüter gehen bei der Nutzung unter, z. B. Lebensmittel oder Treibstoff. Gebrauchsgüter können mehrfach genutzt werden (z. B. Maschinen, Möbel)."
+  },
+  {
+    "id": "bwl-35",
+    "typ": "mc",
+    "tag": "Güterarten",
+    "frage": "Was kennzeichnet Sachgüter?",
+    "optionen": [
+      "Sie sind immateriell.",
+      "Sie sind körperlich vorhanden.",
+      "Sie sind Dienstleistungen.",
+      "Sie sind immer gratis."
+    ],
+    "loesung": "Sie sind körperlich vorhanden.",
+    "esel": "Sach = anfassen.",
+    "erklaerung": "Sachgüter sind materielle Güter, die man anfassen kann (z. B. Maschinen, Kleidung, Autos). Dienstleistungen sind dagegen immateriell."
+  },
+  {
+    "id": "bwl-36",
+    "typ": "input",
+    "tag": "Wirtschaftssubjekte",
+    "frage": "Nenne ein Beispiel für ein Wirtschaftssubjekt.",
+    "schluesselwoerter": ["haushalt", "unternehmen", "staat"],
+    "korrekteAntworten": [
+      "privater haushalt",
+      "unternehmen",
+      "staat"
+    ],
+    "esel": "Die drei Spieler: Haushalt – Unternehmen – Staat.",
+    "erklaerung": "In der VWL/BWL unterscheidet man grob drei große Wirtschaftsakteure: private Haushalte (konsumieren, bieten Arbeit an), Unternehmen (produzieren), Staat (regelt, verteilt, konsumiert). Alle drei treffen wirtschaftliche Entscheidungen."
+  },
+  {
+    "id": "bwl-37",
+    "typ": "mc",
+    "tag": "Standortfaktoren",
+    "frage": "Welcher Faktor ist ein harter Standortfaktor?",
+    "optionen": [
+      "Image der Stadt",
+      "Kulturangebot",
+      "Gewerbesteuerhebesatz",
+      "Freizeitwert"
+    ],
+    "loesung": "Gewerbesteuerhebesatz",
+    "esel": "Hart = in € messbar.",
+    "erklaerung": "Harte Standortfaktoren sind quantitativ messbar (Steuern, Mieten, Löhne, Verkehrsanbindung). Weiche Faktoren sind eher subjektiv (Lebensqualität, Image, Kultur)."
+  },
+  {
+    "id": "bwl-38",
+    "typ": "mc",
+    "tag": "Standortfaktoren",
+    "frage": "Welcher Faktor ist ein weicher Standortfaktor?",
+    "optionen": [
+      "Höhe der Sozialabgaben",
+      "Grundstückspreis",
+      "Lebensqualität",
+      "Entfernung zur Autobahn"
+    ],
+    "loesung": "Lebensqualität",
+    "esel": "Weich = attraktiv.",
+    "erklaerung": "Weiche Standortfaktoren sind nicht direkt in Geld messbar, spielen aber bei der Mitarbeitergewinnung und bei modernen Unternehmen eine große Rolle (Kitas, Wohnen, Freizeit, Stadtimage)."
+  },
+  {
+    "id": "bwl-39",
+    "typ": "mc",
+    "tag": "Rechnungswesen",
+    "frage": "Welche Aufgabe hat die Finanzbuchhaltung?",
+    "optionen": [
+      "Ermittlung von Stückkosten",
+      "Externe, lückenlose Dokumentation aller Geschäftsvorfälle",
+      "Planung der Produktion",
+      "Personalentwicklung"
+    ],
+    "loesung": "Externe, lückenlose Dokumentation aller Geschäftsvorfälle",
+    "esel": "Fibu = was passiert ist.",
+    "erklaerung": "Die Finanzbuchhaltung erfasst alle Geschäftsvorfälle chronologisch und systematisch und bildet die Grundlage für Jahresabschluss, Bilanz und GuV. Sie richtet sich an externe Adressaten und ist gesetzlich geregelt."
+  },
+  {
+    "id": "bwl-40",
+    "typ": "input",
+    "tag": "Zielsystem",
+    "frage": "Was versteht man unter einem Zielsystem in der BWL?",
+    "schluesselwoerter": ["ordnung", "hierarchie", "unternehmensziele"],
+    "esel": "Ziele nicht einzeln, sondern geordnet denken.",
+    "erklaerung": "Ein Zielsystem stellt die verschiedenen Unternehmensziele (ökonomisch, sozial, ökologisch) in eine Ordnung: übergeordnete Ziele, abgeleitete Unterziele, ggf. Zeitbezug. So wird klar, welche Ziele wichtiger sind und welche im Konflikt stehen."
+  },
+  {
+    "id": "bwl-41",
+    "typ": "mc",
+    "tag": "Produktion",
+    "frage": "Welche Produktionsform ist typisch für gleichbleibendes Produkt in sehr hohen Stückzahlen?",
+    "optionen": [
+      "Einzelfertigung",
+      "Serienfertigung",
+      "Massenfertigung",
+      "Projektfertigung"
+    ],
+    "loesung": "Massenfertigung",
+    "esel": "Masse = immer dasselbe.",
+    "erklaerung": "Massenfertigung bedeutet, dass ein Produkt über längere Zeit in sehr großen Mengen ohne große Varianten hergestellt wird (z. B. Schrauben, Standardteile). Serienfertigung hätte mehrere Lose."
+  },
+  {
+    "id": "bwl-42",
+    "typ": "mc",
+    "tag": "Investition",
+    "frage": "Welche Investition dient in erster Linie der Rationalisierung?",
+    "optionen": [
+      "Kauf einer Maschine, die Personal einspart",
+      "Kauf eines Dienstwagens für die Geschäftsführung",
+      "Erweiterung des Verwaltungsgebäudes",
+      "Kauf eines Grundstücks zur Wertanlage"
+    ],
+    "loesung": "Kauf einer Maschine, die Personal einspart",
+    "esel": "Rational = billiger arbeiten.",
+    "erklaerung": "Rationalisierungsinvestitionen sollen Kosten senken oder Prozesse effizienter machen (z. B. Automatisierung, neue Software). Ein Dienstwagen hat eher Repräsentations- oder Motivationsfunktion."
+  },
+  {
+    "id": "bwl-43",
+    "typ": "calc",
+    "tag": "Kalkulation",
+    "frage": "Ein Produkt hat Selbstkosten von 28 €, der Gewinnzuschlag soll 25 % betragen. Wie hoch ist der Nettoverkaufspreis?",
+    "loesungNumerisch": 35,
+    "toleranz": 1,
+    "esel": "Selbstkosten × (1 + Zuschlag).",
+    "erklaerung": "Nettoverkaufspreis = Selbstkosten × (1 + Gewinnzuschlag). → 28 € × 1,25 = 35 €. In der Praxis kommen oft noch Skonto, Rabatt und USt dazu."
+  },
+  {
+    "id": "bwl-44",
+    "typ": "calc",
+    "tag": "Kalkulation",
+    "frage": "Listenpreis 1.200 €, 5 % Rabatt, danach 2 % Skonto. Wie hoch ist der Zielverkaufspreis (netto)?",
+    "loesungNumerisch": 1115.4,
+    "toleranz": 2,
+    "esel": "Erst Rabatt, dann Skonto.",
+    "erklaerung": "1. Schritt: Rabatt abziehen: 1.200 € × 0,95 = 1.140 €. 2. Schritt: Skonto auf den bereits rabattierten Preis: 1.140 € × 0,98 = 1.117,2 € (je nach Rundung ca. 1.115–1.117). Wichtig ist die Reihenfolge."
+  },
+  {
+    "id": "bwl-45",
+    "typ": "input",
+    "tag": "Rechnungswesen · Adressaten",
+    "frage": "Nenne zwei typische Adressaten des externen Rechnungswesens.",
+    "schluesselwoerter": ["banken", "gläubiger", "finanzamt", "investoren"],
+    "esel": "Extern = alle, die Geld oder Infos wollen.",
+    "erklaerung": "Typische Adressaten: Banken (Kreditwürdigkeit), Gläubiger, Anteilseigner, Finanzbehörden. Sie brauchen verlässliche und vergleichbare Infos über die Vermögens-, Finanz- und Ertragslage."
+  },
+  {
+    "id": "bwl-46",
+    "typ": "mc",
+    "tag": "Marketing · Preisstrategien",
+    "frage": "Welche Preisstrategie zielt auf einen hohen Einführungspreis und späteres Absenken?",
+    "optionen": [
+      "Penetrationsstrategie",
+      "Skimming-Strategie",
+      "Neutralstrategie",
+      "Rabattstrategie"
+    ],
+    "loesung": "Skimming-Strategie",
+    "esel": "Skimming = oben abschöpfen.",
+    "erklaerung": "Bei der Skimming- bzw. Abschöpfungsstrategie wird der Preis anfangs hoch angesetzt, um die zahlungsbereiten Kunden zuerst mitzunehmen (‚Abschöpfen‘). Später wird der Preis gesenkt, um weitere Kundensegmente zu erschließen. Typisch bei Innovationen und technischen Produkten."
+  },
+  {
+    "id": "bwl-47",
+    "typ": "mc",
+    "tag": "Marketing · Produktpolitik",
+    "frage": "Welche Maßnahme gehört zur Produktpolitik?",
+    "optionen": [
+      "Erhöhung des Rabattsatzes",
+      "Änderung des Verpackungsdesigns",
+      "Verlängerung der Zahlungsziele",
+      "Auswahl des Absatzkanals"
+    ],
+    "loesung": "Änderung des Verpackungsdesigns",
+    "esel": "Produkt = auch Hülle.",
+    "erklaerung": "Zur Produktpolitik gehören nicht nur Eigenschaften des Produkts selbst, sondern auch Design, Verpackung, Marke, Service. Rabatte und Zahlungsziele gehören zur Preis-/Konditionenpolitik."
+  },
+  {
+    "id": "bwl-48",
+    "typ": "input",
+    "tag": "Unternehmen",
+    "frage": "Definiere kurz den Begriff ‚Unternehmen‘ aus betriebswirtschaftlicher Sicht.",
+    "schluesselwoerter": ["planvoll", "wirtschaftseinheit", "ziele", "güter"],
+    "korrekteAntworten": [
+      "planvolle wirtschaftseinheit zur erstellung und verwertung von gütern und dienstleistungen zur zielerreichung",
+      "eine organisation die güter oder dienstleistungen zur befriedigung von bedürfnissen bereitstellt"
+    ],
+    "esel": "Unternehmen = geplant Güter für Ziele.",
+    "erklaerung": "Ein Unternehmen ist eine auf Dauer angelegte, planvoll organisierte Wirtschaftseinheit, die Güter oder Dienstleistungen erstellt und verwertet, um bestimmte Ziele (meist Gewinn, aber auch soziale/ökologische Ziele) zu erreichen."
+  },
+  {
+    "id": "bwl-49",
+    "typ": "mc",
+    "tag": "Finanzkennzahlen",
+    "frage": "Was beschreibt das Working Capital?",
+    "optionen": [
+      "Langfristiges Kapital",
+      "Umlaufvermögen minus kurzfristige Verbindlichkeiten",
+      "Eigenkapital plus Gewinnvortrag",
+      "Anlagevermögen minus Abschreibungen"
+    ],
+    "loesung": "Umlaufvermögen minus kurzfristige Verbindlichkeiten",
+    "esel": "Working = was zum Arbeiten übrig bleibt.",
+    "erklaerung": "Working Capital zeigt, ob das kurzfristige Vermögen die kurzfristigen Schulden deckt. Ein positives Working Capital bedeutet: Es ist noch Spielraum zur Finanzierung des laufenden Geschäfts vorhanden."
+  },
+  {
+    "id": "bwl-50",
+    "typ": "input",
+    "tag": "Organisation · Stab",
+    "frage": "Wozu dienen Stabsstellen bzw. Stabsfunktionen in einer Organisation?",
+    "schluesselwoerter": ["beratung", "unterstützung", "entscheidungsvorbereitung"],
+    "esel": "Stab berät, Linienstelle entscheidet.",
+    "erklaerung": "Stabsstellen haben in der Regel keine eigene Weisungsbefugnis gegenüber der Linie. Sie unterstützen die Führung durch Analysen, Fachwissen oder Projektarbeit (z. B. Rechtsabteilung, Controlling). So werden Entscheidungen fachlich besser vorbereitet."
+  }
+]
