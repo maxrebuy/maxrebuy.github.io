@@ -1,0 +1,948 @@
+[
+  {
+    "id": "fall-01",
+    "typ": "input",
+    "tag": "Begriff Anspruch",
+    "frage": "Was ist ein Anspruch im Sinne des § 194 BGB?",
+    "korrekteAntworten": ["Das Recht, von einem anderen ein Tun oder Unterlassen zu verlangen"],
+    "erklaerung": "§ 194 BGB definiert den Anspruch als das Recht, von einem anderen ein Tun oder Unterlassen zu verlangen. Auf diesem Anspruch baut die gesamte zivilrechtliche Fallbearbeitung auf.",
+    "esel": "Anspruch = Forderung auf Handlung oder Unterlassung."
+  },
+  {
+    "id": "fall-02",
+    "typ": "mc",
+    "tag": "Grundschema",
+    "frage": "Welches Schema ist für die zivilrechtliche Anspruchsprüfung typisch?",
+    "optionen": [
+      "Anspruch entstanden – Anspruch erloschen – Anspruch durchsetzbar",
+      "Anspruch entstanden – Anspruch durchsetzbar – Anspruch erloschen",
+      "Sachverhalt – Schlussfolgerung – Einleitung",
+      "Tenor – Tatbestand – Entscheidungsgründe"
+    ],
+    "loesung": "Anspruch entstanden – Anspruch erloschen – Anspruch durchsetzbar",
+    "erklaerung": "Die klassische Prüfung folgt diesem Dreischritt. Zuerst wird geprüft, ob überhaupt ein Anspruch entstanden ist. Dann, ob er wieder weggefallen ist. Dann, ob er noch durchsetzbar ist.",
+    "esel": "E-E-D = Entstanden, Erloschen, Durchsetzbar."
+  },
+  {
+    "id": "fall-03",
+    "typ": "mc",
+    "tag": "Anspruch entstanden",
+    "frage": "Was wird beim Prüfungspunkt 'Anspruch entstanden' geprüft?",
+    "optionen": [
+      "Ob eine Anspruchsgrundlage vorliegt und ihre Tatbestandsmerkmale erfüllt sind",
+      "Ob der Schuldner bereits gezahlt hat",
+      "Ob die Verjährung eingetreten ist",
+      "Ob der Gläubiger eine Einrede erhoben hat"
+    ],
+    "loesung": "Ob eine Anspruchsgrundlage vorliegt und ihre Tatbestandsmerkmale erfüllt sind",
+    "erklaerung": "Beim Entstehen geht es darum, ob der Sachverhalt alle Merkmale einer Anspruchsgrundlage erfüllt. Erst wenn die Anspruchsgrundlage erfüllt ist, kann man zu Erlöschen und Durchsetzbarkeit übergehen.",
+    "esel": "Erst Grundlage, dann Probleme."
+  },
+  {
+    "id": "fall-04",
+    "typ": "input",
+    "tag": "Anspruchsgrundlage",
+    "frage": "Was ist der erste Schritt der juristischen Fallbearbeitung?",
+    "korrekteAntworten": [
+      "Die passende Anspruchsgrundlage finden",
+      "Anspruchsgrundlage ermitteln"
+    ],
+    "erklaerung": "Ohne Anspruchsgrundlage keine Prüfung. Man fragt: Wer will was von wem woraus?",
+    "esel": "Wer will was von wem woraus?"
+  },
+  {
+    "id": "fall-05",
+    "typ": "mc",
+    "tag": "Obersatz",
+    "frage": "Wozu dient der sogenannte Obersatz in der Fallbearbeitung?",
+    "optionen": [
+      "Er leitet die Prüfung ein und nennt Anspruchsgrundlage sowie Beteiligte",
+      "Er fasst am Ende das Ergebnis zusammen",
+      "Er dient nur der sprachlichen Verschönerung",
+      "Er ersetzt die Subsumtion"
+    ],
+    "loesung": "Er leitet die Prüfung ein und nennt Anspruchsgrundlage sowie Beteiligte",
+    "erklaerung": "Der Obersatz macht klar, was jetzt geprüft wird: 'A könnte gegen B einen Anspruch aus § ... BGB haben.'",
+    "esel": "Obersatz = Was will wer woraus?"
+  },
+  {
+    "id": "fall-06",
+    "typ": "input",
+    "tag": "Subsumtion",
+    "frage": "Wie nennt man das juristische 'Drunterlegen' des Sachverhalts unter ein Tatbestandsmerkmal?",
+    "korrekteAntworten": ["Subsumtion", "subsumieren"],
+    "erklaerung": "Subsumtion heißt: Man legt die Fakten unter die Norm und prüft, ob sie passen.",
+    "esel": "Sub-statt drüber: Subsumtion = drunterlegen."
+  },
+  {
+    "id": "fall-07",
+    "typ": "mc",
+    "tag": "Falltechnik",
+    "frage": "Welche Reihenfolge ist in Klausuren üblich?",
+    "optionen": [
+      "Obersatz – Definition – Subsumtion – Ergebnis",
+      "Ergebnis – Subsumtion – Definition – Obersatz",
+      "Subsumtion – Ergebnis – Obersatz – Definition",
+      "Definition – Ergebnis – Obersatz – Subsumtion"
+    ],
+    "loesung": "Obersatz – Definition – Subsumtion – Ergebnis",
+    "erklaerung": "Das ist der klassische Gutachtenstil.",
+    "esel": "O-D-S-E – Oder: Oma denkt sehr ernst."
+  },
+  {
+    "id": "fall-08",
+    "typ": "mc",
+    "tag": "Mehrere Anspruchsgrundlagen",
+    "frage": "Wie geht man vor, wenn mehrere Anspruchsgrundlagen denkbar sind?",
+    "optionen": [
+      "Man prüft sie nacheinander",
+      "Man wählt eine zufällig aus",
+      "Man schreibt alle nur in den Obersatz",
+      "Man prüft gar nicht, wenn eine passt"
+    ],
+    "loesung": "Man prüft sie nacheinander",
+    "erklaerung": "Vertragliche, quasivertragliche, dingliche, deliktische und bereicherungsrechtliche Ansprüche werden regelmäßig nacheinander geprüft.",
+    "esel": "Von nah nach fern: erst Vertrag, dann Delikt, dann Bereicherung."
+  },
+  {
+    "id": "fall-09",
+    "typ": "input",
+    "tag": "Rechtsfolge",
+    "frage": "Welcher Teil einer Anspruchsgrundlage regelt, was passiert, wenn alle Tatbestandsmerkmale erfüllt sind?",
+    "korrekteAntworten": ["Die Rechtsfolge", "Rechtsfolgenregelung"],
+    "erklaerung": "Jede Anspruchsgrundlage besteht aus Tatbestand und Rechtsfolge.",
+    "esel": "Tatbestand = wenn; Rechtsfolge = dann."
+  },
+  {
+    "id": "fall-10",
+    "typ": "mc",
+    "tag": "Erlöschen",
+    "frage": "Was wird beim Prüfungspunkt 'Anspruch erloschen' typischerweise geprüft?",
+    "optionen": [
+      "Erfüllung, Aufrechnung, Rücktritt oder Anfechtung",
+      "Verjährung",
+      "Zuständiges Gericht",
+      "Obersatz"
+    ],
+    "loesung": "Erfüllung, Aufrechnung, Rücktritt oder Anfechtung",
+    "erklaerung": "Nach Entstehen fragt man, ob der Anspruch wieder untergegangen ist.",
+    "esel": "Erloschen = irgendwas ist dazwischen passiert."
+  },
+
+  {
+    "id": "fall-11",
+    "typ": "mc",
+    "tag": "Durchsetzbarkeit",
+    "frage": "Welche Aspekte gehören zur Frage der Durchsetzbarkeit?",
+    "optionen": [
+      "Einreden wie Verjährung oder Zurückbehaltungsrecht",
+      "Ob der Gläubiger sympathisch ist",
+      "Ob der Schuldner im Ausland wohnt",
+      "Ob der Richter Zeit hat"
+    ],
+    "loesung": "Einreden wie Verjährung oder Zurückbehaltungsrecht",
+    "erklaerung": "Durchsetzbarkeit meint: Der Anspruch besteht noch, aber der Schuldner kann sich (temporär) wehren.",
+    "esel": "Er ist da, aber nicht holbar."
+  },
+  {
+    "id": "fall-12",
+    "typ": "input",
+    "tag": "Anspruch entstanden",
+    "frage": "Nenne die drei großen Prüfungsblöcke der zivilrechtlichen Anspruchsprüfung.",
+    "korrekteAntworten": [
+      "Anspruch entstanden",
+      "Anspruch erloschen",
+      "Anspruch durchsetzbar"
+    ],
+    "erklaerung": "Das ist das Grundgerüst fast aller Zivilrechtsfälle.",
+    "esel": "3A: Alt – Weg – Holbar."
+  },
+  {
+    "id": "fall-13",
+    "typ": "mc",
+    "tag": "Vertragliche Ansprüche",
+    "frage": "Welche Anspruchsgrundlage ist bei einer Kaufpreiszahlungspflicht einschlägig?",
+    "optionen": [
+      "§ 433 II BGB",
+      "§ 823 I BGB",
+      "§ 280 I BGB",
+      "§ 812 I 1 1. Fall BGB"
+    ],
+    "loesung": "§ 433 II BGB",
+    "erklaerung": "Beim Kauf schuldet der Käufer die Zahlung des Kaufpreises nach § 433 II BGB.",
+    "esel": "Kaufpreis = 433 II."
+  },
+  {
+    "id": "fall-14",
+    "typ": "mc",
+    "tag": "Delikt oder Vertrag?",
+    "frage": "Wann sind deliktische Ansprüche (z. B. § 823 I BGB) vorrangig zu prüfen?",
+    "optionen": [
+      "Wenn keine vertragliche Beziehung besteht",
+      "Wenn der Vertrag schon gekündigt ist",
+      "Wenn es um den Kaufpreis geht",
+      "Wenn immer beide im BGB stehen"
+    ],
+    "loesung": "Wenn keine vertragliche Beziehung besteht",
+    "erklaerung": "Delikt ist das Auffangbecken, wenn keine vertragliche Anspruchsgrundlage greift.",
+    "esel": "Kein Vertrag? Dann Delikt."
+  },
+  {
+    "id": "fall-15",
+    "typ": "input",
+    "tag": "Bereicherungsrecht",
+    "frage": "Welche Anspruchsgrundlage wird bei einer Leistung ohne Rechtsgrund typischerweise geprüft?",
+    "korrekteAntworten": [
+      "§ 812 I 1 Alt. 1 BGB",
+      "§ 812 Abs. 1 S. 1 1. Fall BGB"
+    ],
+    "erklaerung": "Wenn jemand etwas ohne Rechtsgrund erlangt hat, ist regelmäßig § 812 einschlägig.",
+    "esel": "Ohne Grund? 812."
+  },
+
+  {
+    "id": "fall-16",
+    "typ": "mc",
+    "tag": "Aufbau",
+    "frage": "Warum arbeitet man im Gutachtenstil und nicht im Urteilsstil?",
+    "optionen": [
+      "Weil im Studium der Begründungsweg bewertet wird",
+      "Weil es schöner klingt",
+      "Weil die IHK das so sagt",
+      "Weil man dann weniger schreiben muss"
+    ],
+    "loesung": "Weil im Studium der Begründungsweg bewertet wird",
+    "erklaerung": "In Klausuren kommt es auf den Weg zum Ergebnis an, nicht nur auf das Ergebnis.",
+    "esel": "Weg zählt!"
+  },
+  {
+    "id": "fall-17",
+    "typ": "input",
+    "tag": "Klagearten",
+    "frage": "Wie heißt die Klageart, mit der der Kläger eine Leistung (z. B. Zahlung) verlangt?",
+    "korrekteAntworten": [
+      "Leistungsklage"
+    ],
+    "erklaerung": "Die Leistungsklage zielt auf ein Tun/Unterlassen.",
+    "esel": "Ich will was: Leistungsklage."
+  },
+  {
+    "id": "fall-18",
+    "typ": "mc",
+    "tag": "Aufbau Anspruch",
+    "frage": "Welcher Satz eignet sich gut als Obersatz?",
+    "optionen": [
+      "A könnte gegen B einen Anspruch auf Zahlung von 500 € aus § 433 II BGB haben.",
+      "B ist doof, daher muss er zahlen.",
+      "Nach gesundem Menschenverstand ist das so.",
+      "Der Richter könnte so entscheiden."
+    ],
+    "loesung": "A könnte gegen B einen Anspruch auf Zahlung von 500 € aus § 433 II BGB haben.",
+    "erklaerung": "So wird es in Klausuren formuliert.",
+    "esel": "A könnte gegen B … haben."
+  },
+  {
+    "id": "fall-19",
+    "typ": "input",
+    "tag": "Beweislast",
+    "frage": "Wer trägt grundsätzlich die Beweislast für die anspruchsbegründenden Tatsachen?",
+    "korrekteAntworten": [
+      "Der Anspruchsteller",
+      "Der Kläger"
+    ],
+    "erklaerung": "Wer etwas will, muss es beweisen.",
+    "esel": "Willst du was – beweis es."
+  },
+  {
+    "id": "fall-20",
+    "typ": "mc",
+    "tag": "Einreden",
+    "frage": "Welche Rechtsfigur hindert die Durchsetzbarkeit eines bestehenden Anspruchs?",
+    "optionen": [
+      "Die Einrede",
+      "Die Aufrechnung",
+      "Die Abtretung",
+      "Die Genehmigung"
+    ],
+    "loesung": "Die Einrede",
+    "erklaerung": "Einreden lassen einen Anspruch bestehen, machen ihn aber (vorübergehend) undurchsetzbar.",
+    "esel": "Einrede = Stopp-Schild."
+  },
+
+  {
+    "id": "fall-21",
+    "typ": "mc",
+    "tag": "Schadensersatz",
+    "frage": "Was muss bei einem vertraglichen Schadensersatzanspruch nach § 280 I BGB u. a. vorliegen?",
+    "optionen": [
+      "Schuldverhältnis, Pflichtverletzung, Vertretenmüssen, Schaden",
+      "Delikt, Schaden, Rechtswidrigkeit",
+      "Verschulden, Kausalität, Schmerzensgeld",
+      "Klage, Anwalt, Gericht"
+    ],
+    "loesung": "Schuldverhältnis, Pflichtverletzung, Vertretenmüssen, Schaden",
+    "erklaerung": "§ 280 I ist eine typische Anspruchsgrundlage, die in der Fallbearbeitung oft herangezogen wird.",
+    "esel": "§ 280 = SV + PV + VM + S"
+  },
+  {
+    "id": "fall-22",
+    "typ": "input",
+    "tag": "Aufrechnung",
+    "frage": "Wie nennt man das Erlöschen zweier Forderungen, wenn sich zwei Personen gegenseitig etwas schulden?",
+    "korrekteAntworten": [
+      "Aufrechnung"
+    ],
+    "erklaerung": "Durch Aufrechnung kann ein entstandener Anspruch wieder erlöschen.",
+    "esel": "Gegenseitig? Aufrechnen."
+  },
+  {
+    "id": "fall-23",
+    "typ": "mc",
+    "tag": "Verjährung",
+    "frage": "Wozu dient die Verjährung im Rahmen der Durchsetzbarkeit?",
+    "optionen": [
+      "Sie gibt dem Schuldner eine dauerhafte Einrede in die Hand",
+      "Sie lässt den Anspruch automatisch untergehen",
+      "Sie ändert die Anspruchsgrundlage",
+      "Sie ersetzt die Subsumtion"
+    ],
+    "loesung": "Sie gibt dem Schuldner eine dauerhafte Einrede in die Hand",
+    "erklaerung": "Verjährung = Anspruch besteht, aber Schuldner muss nicht mehr leisten.",
+    "esel": "Verjährt? Dann wehren."
+  },
+  {
+    "id": "fall-24",
+    "typ": "input",
+    "tag": "Fehlerquelle",
+    "frage": "Welcher typische Fehler passiert oft bei Anfängern in der Fallbearbeitung?",
+    "korrekteAntworten": [
+      "Es wird ohne Anspruchsgrundlage geprüft",
+      "Es wird sofort das Ergebnis hingeschrieben"
+    ],
+    "erklaerung": "Man darf nicht einfach 'ich denke, B muss zahlen' schreiben – erst die Norm, dann die Subsumtion.",
+    "esel": "Ohne Norm keine Note."
+  },
+  {
+    "id": "fall-25",
+    "typ": "mc",
+    "tag": "Klageziel",
+    "frage": "Was ist bei der Fallbearbeitung stets zu klären?",
+    "optionen": [
+      "Wer was von wem will",
+      "Wie lang der Sachverhalt ist",
+      "Welche Schriftart genutzt wird",
+      "Welche Gefühle die Parteien haben"
+    ],
+    "loesung": "Wer was von wem will",
+    "erklaerung": "Das ist die juristische Leitfrage.",
+    "esel": "WWvW = Wer was von wem."
+  },
+
+  {
+    "id": "fall-26",
+    "typ": "input",
+    "tag": "Gesetzliche Ansprüche",
+    "frage": "Wie nennt man Ansprüche, die nicht aus einem Vertrag, sondern direkt aus dem Gesetz folgen?",
+    "korrekteAntworten": [
+      "Gesetzliche Ansprüche"
+    ],
+    "erklaerung": "Deliktische, bereicherungsrechtliche und geschäftsführungsrechtliche Ansprüche sind gesetzliche.",
+    "esel": "Kein Vertrag? Gesetz."
+  },
+  {
+    "id": "fall-27",
+    "typ": "mc",
+    "tag": "Struktur",
+    "frage": "Warum ist es sinnvoll, immer dieselbe Prüfungsreihenfolge zu verwenden?",
+    "optionen": [
+      "Um nichts zu vergessen",
+      "Um die Korrektorin zu ärgern",
+      "Um mehr Platz auf dem Blatt zu haben",
+      "Um weniger Definitionen zu lernen"
+    ],
+    "loesung": "Um nichts zu vergessen",
+    "erklaerung": "Eine feste Struktur schützt vor Punktverlusten.",
+    "esel": "Routine rettet Punkte."
+  },
+  {
+    "id": "fall-28",
+    "typ": "input",
+    "tag": "Gestaltungsklage",
+    "frage": "Wie heißt die Klage, mit der ein Rechtsverhältnis geändert oder aufgehoben werden soll?",
+    "korrekteAntworten": [
+      "Gestaltungsklage"
+    ],
+    "erklaerung": "Beispiele: Ehescheidung, Anfechtung, Auflösung.",
+    "esel": "Gestalten = verändern."
+  },
+  {
+    "id": "fall-29",
+    "typ": "mc",
+    "tag": "Feststellungsklage",
+    "frage": "Wann kommt eine Feststellungsklage in Betracht?",
+    "optionen": [
+      "Wenn nur festgestellt werden soll, ob ein Rechtsverhältnis besteht",
+      "Wenn bereits gezahlt wurde",
+      "Wenn es um die Versteigerung geht",
+      "Wenn Strafrecht anwendbar ist"
+    ],
+    "loesung": "Wenn nur festgestellt werden soll, ob ein Rechtsverhältnis besteht",
+    "erklaerung": "§ 256 ZPO: Wer ein rechtliches Interesse an der baldigen Feststellung hat.",
+    "esel": "Nur wissen wollen = Feststellungsklage."
+  },
+  {
+    "id": "fall-30",
+    "typ": "input",
+    "tag": "Abgrenzung",
+    "frage": "Wie grenzt man vertragliche und deliktische Ansprüche in der Fallbearbeitung ab?",
+    "schluesselwoerter": [
+      "vorrang",
+      "vertrag",
+      "delikt",
+      "wenn kein vertrag"
+    ],
+    "erklaerung": "Grundsatz: erst Vertrag (lex specialis), dann Delikt.",
+    "esel": "Erst Vertrag, dann Verletzung."
+  },
+  {
+    "id": "fall-31",
+    "typ": "mc",
+    "tag": "GoA",
+    "frage": "Welche Anspruchsgrundlage gehört zur Geschäftsführung ohne Auftrag?",
+    "optionen": [
+      "§ 683 i.V.m. § 670 BGB",
+      "§ 433 I BGB",
+      "§ 823 II BGB",
+      "§ 280 I BGB"
+    ],
+    "loesung": "§ 683 i.V.m. § 670 BGB",
+    "erklaerung": "Bei GoA kann ein Aufwendungsersatzanspruch entstehen.",
+    "esel": "GoA = 683, 670."
+  },
+  {
+    "id": "fall-32",
+    "typ": "mc",
+    "tag": "Reihenfolge",
+    "frage": "In welcher Reihenfolge prüft man typischerweise mehrere Ansprüche?",
+    "optionen": [
+      "Vertraglich – vertragsähnlich – dinglich – deliktisch – bereicherungsrechtlich",
+      "Deliktisch – vertraglich – dinglich",
+      "Bereicherungsrechtlich – vertraglich – deliktisch",
+      "Alphabetisch"
+    ],
+    "loesung": "Vertraglich – vertragsähnlich – dinglich – deliktisch – bereicherungsrechtlich",
+    "erklaerung": "So verhindern wir Doppelansprüche und prüfen vom 'stärksten' zum 'schwächsten' Anspruch.",
+    "esel": "VVDDb – Vertrag vor Delikt."
+  },
+  {
+    "id": "fall-33",
+    "typ": "input",
+    "tag": "Tenor",
+    "frage": "Wie nennt man den Entscheidungssatz eines Urteils?",
+    "korrekteAntworten": [
+      "Tenor"
+    ],
+    "erklaerung": "Der Tenor ist das, was das Gericht 'ausspricht'.",
+    "esel": "Was steht vorne? Tenor."
+  },
+  {
+    "id": "fall-34",
+    "typ": "mc",
+    "tag": "Tatbestandsmerkmale",
+    "frage": "Was macht man mit einem Tatbestandsmerkmal, das im Sachverhalt nicht erfüllt ist?",
+    "optionen": [
+      "Man verneint den Anspruch",
+      "Man schreibt trotzdem 'ja'",
+      "Man lässt es weg",
+      "Man nimmt ein anderes Gesetz"
+    ],
+    "loesung": "Man verneint den Anspruch",
+    "erklaerung": "Fehlt ein Merkmal, ist die Anspruchsgrundlage nicht erfüllt.",
+    "esel": "Ein Merkmal fehlt = Ende."
+  },
+  {
+    "id": "fall-35",
+    "typ": "input",
+    "tag": "ZPO-Bezug",
+    "frage": "Welches Gesetz regelt im Regelfall das gerichtliche Verfahren in Zivilsachen?",
+    "korrekteAntworten": [
+      "Zivilprozessordnung",
+      "ZPO"
+    ],
+    "erklaerung": "Materielles Recht: BGB, HGB; Formelles Recht: ZPO.",
+    "esel": "Prozess? ZPO."
+  },
+
+  {
+    "id": "fall-36",
+    "typ": "mc",
+    "tag": "Begründetheit",
+    "frage": "Was bedeutet es, dass eine Klage 'begründet' ist?",
+    "optionen": [
+      "Dass die geltend gemachten Ansprüche bestehen",
+      "Dass der Kläger nett ist",
+      "Dass die Zuständigkeit fehlt",
+      "Dass der Rechtsweg unzulässig ist"
+    ],
+    "loesung": "Dass die geltend gemachten Ansprüche bestehen",
+    "erklaerung": "Begründet ist die Klage, wenn der materielle Anspruch besteht.",
+    "esel": "Begründet = Anspruch da."
+  },
+  {
+    "id": "fall-37",
+    "typ": "input",
+    "tag": "Zulässigkeit",
+    "frage": "Welcher Prüfungspunkt wird häufig VOR der Begründetheit geprüft, wenn man im prozessualen Stil arbeitet?",
+    "korrekteAntworten": [
+      "Die Zulässigkeit",
+      "Zulässigkeit der Klage"
+    ],
+    "erklaerung": "Ohne Zulässigkeit keine Sachprüfung.",
+    "esel": "Zuerst: darf ich? Dann: hast du Recht?"
+  },
+  {
+    "id": "fall-38",
+    "typ": "mc",
+    "tag": "Auslegung",
+    "frage": "Welche Norm ist Grundlage für die Auslegung von Willenserklärungen?",
+    "optionen": [
+      "§ 133 BGB",
+      "§ 433 BGB",
+      "§ 280 I BGB",
+      "§ 812 I 1 1. Fall BGB"
+    ],
+    "loesung": "§ 133 BGB",
+    "erklaerung": "§ 133 und § 157 BGB werden oft genannt.",
+    "esel": "Auslegen? 133."
+  },
+  {
+    "id": "fall-39",
+    "typ": "mc",
+    "tag": "Anspruchskonkurrenz",
+    "frage": "Wie geht man vor, wenn ein Sachverhalt sowohl einen vertraglichen als auch einen deliktischen Anspruch ermöglicht?",
+    "optionen": [
+      "Beide prüfen und am Ende sagen, dass beide nebeneinander bestehen können",
+      "Nur einen prüfen",
+      "Delikt immer streichen",
+      "Vertrag immer streichen"
+    ],
+    "loesung": "Beide prüfen und am Ende sagen, dass beide nebeneinander bestehen können",
+    "erklaerung": "Ansprüche können konkurrieren.",
+    "esel": "Mehr Ansprüche = mehr Punkte."
+  },
+  {
+    "id": "fall-40",
+    "typ": "input",
+    "tag": "Rechtsnatur",
+    "frage": "Wie nennt man die rechtliche Einordnung eines Lebenssachverhalts unter eine Norm?",
+    "korrekteAntworten": [
+      "Subsumtion"
+    ],
+    "erklaerung": "Das ist das Kerngeschäft der Fallbearbeitung.",
+    "esel": "Subsumtion = Fall unter Paragraph."
+  },
+
+  {
+    "id": "fall-41",
+    "typ": "input",
+    "tag": "Rechtsgeschäft",
+    "frage": "Wie nennt man die aus mindestens einer Willenserklärung bestehende Handlung, die eine Rechtsfolge herbeiführen soll?",
+    "korrekteAntworten": [
+      "Rechtsgeschäft"
+    ],
+    "erklaerung": "Vertrag = zweiseitiges Rechtsgeschäft.",
+    "esel": "Willen + Wirkung = Rechtsgeschäft."
+  },
+  {
+    "id": "fall-42",
+    "typ": "mc",
+    "tag": "Willenserklärung",
+    "frage": "Was ist KEIN wesentliches Merkmal einer Willenserklärung?",
+    "optionen": [
+      "Sie muss immer schriftlich sein",
+      "Sie muss einen Rechtsfolgewillen haben",
+      "Sie muss einen äußeren Erklärungstatbestand haben",
+      "Sie muss einen inneren Willen haben"
+    ],
+    "loesung": "Sie muss immer schriftlich sein",
+    "erklaerung": "Mündlich oder konkludent geht auch.",
+    "esel": "Nicht alles muss schriftlich sein."
+  },
+  {
+    "id": "fall-43",
+    "typ": "mc",
+    "tag": "Anfechtung",
+    "frage": "Welche Wirkung hat eine wirksame Anfechtung?",
+    "optionen": [
+      "Das Rechtsgeschäft ist von Anfang an nichtig",
+      "Das Rechtsgeschäft wird nur geändert",
+      "Das Rechtsgeschäft bleibt bestehen",
+      "Die Leistungspflicht verdoppelt sich"
+    ],
+    "loesung": "Das Rechtsgeschäft ist von Anfang an nichtig",
+    "erklaerung": "§ 142 BGB: Anfechtung = ex tunc.",
+    "esel": "Anfechtung macht es weg."
+  },
+  {
+    "id": "fall-44",
+    "typ": "input",
+    "tag": "Anfechtungsgrund",
+    "frage": "Nenne einen typischen Anfechtungsgrund.",
+    "korrekteAntworten": [
+      "Inhaltsirrtum",
+      "Erklärungsirrtum",
+      "Eigenschaftsirrtum",
+      "arglistige Täuschung",
+      "widerrechtliche Drohung"
+    ],
+    "erklaerung": "§§ 119, 123 BGB.",
+    "esel": "I E E T D – Irrtum oder Täuschung/Drohung."
+  },
+  {
+    "id": "fall-45",
+    "typ": "mc",
+    "tag": "Verzug",
+    "frage": "Wann befindet sich der Schuldner grundsätzlich im Verzug?",
+    "optionen": [
+      "Wenn er trotz Fälligkeit und Mahnung nicht leistet",
+      "Immer sofort nach Vertragsschluss",
+      "Wenn er kündigt",
+      "Wenn der Gläubiger keine Lust mehr hat"
+    ],
+    "loesung": "Wenn er trotz Fälligkeit und Mahnung nicht leistet",
+    "erklaerung": "§ 286 BGB.",
+    "esel": "Fällig + Mahnung = Verzug."
+  },
+  {
+    "id": "fall-46",
+    "typ": "input",
+    "tag": "Fälligkeit",
+    "frage": "Was bedeutet Fälligkeit einer Forderung?",
+    "korrekteAntworten": [
+      "Der Gläubiger kann die Leistung verlangen",
+      "Die Leistung ist zu erbringen"
+    ],
+    "erklaerung": "Fälligkeit = Leistungszeitpunkt.",
+    "esel": "Fällig = jetzt."
+  },
+  {
+    "id": "fall-47",
+    "typ": "mc",
+    "tag": "Mitverschulden",
+    "frage": "Welche Vorschrift regelt das Mitverschulden des Geschädigten?",
+    "optionen": [
+      "§ 254 BGB",
+      "§ 433 I BGB",
+      "§ 812 BGB",
+      "§ 823 II BGB"
+    ],
+    "loesung": "§ 254 BGB",
+    "erklaerung": "Das gilt auch bei vertraglichen Schadensersatzansprüchen.",
+    "esel": "254 = selbst schuld."
+  },
+  {
+    "id": "fall-48",
+    "typ": "input",
+    "tag": "Sicherungsrechte",
+    "frage": "Wie heißt das Recht, eine Leistung verweigern zu dürfen, bis die Gegenleistung erbracht ist?",
+    "korrekteAntworten": [
+      "Zurückbehaltungsrecht"
+    ],
+    "erklaerung": "§ 273 BGB.",
+    "esel": "Du erst – dann ich."
+  },
+  {
+    "id": "fall-49",
+    "typ": "mc",
+    "tag": "Gefährdung",
+    "frage": "Welche Anspruchsart greift, wenn jemand eine fremde Sache beschädigt, ohne vertragliche Beziehung?",
+    "optionen": [
+      "§ 823 I BGB",
+      "§ 433 II BGB",
+      "§ 280 I BGB",
+      "§ 812 I 1 2. Fall BGB"
+    ],
+    "loesung": "§ 823 I BGB",
+    "erklaerung": "Typischer deliktischer Anspruch.",
+    "esel": "Kaputt ohne Vertrag = 823."
+  },
+  {
+    "id": "fall-50",
+    "typ": "input",
+    "tag": "Vertragsschluss",
+    "frage": "Wie kommt ein Vertrag zustande?",
+    "schluesselwoerter": [
+      "Angebot",
+      "Annahme"
+    ],
+    "erklaerung": "§§ 145 ff. BGB.",
+    "esel": "A + A = V."
+  },
+
+  {
+    "id": "fall-51",
+    "typ": "mc",
+    "tag": "Atypische Fälle",
+    "frage": "Wie geht man mit Informationen im Sachverhalt um, die scheinbar 'überflüssig' sind?",
+    "optionen": [
+      "Man prüft, ob sie für eine andere Anspruchsgrundlage relevant sein können",
+      "Man ignoriert sie immer",
+      "Man schreibt sie in die Einleitung",
+      "Man löscht sie"
+    ],
+    "loesung": "Man prüft, ob sie für eine andere Anspruchsgrundlage relevant sein können",
+    "erklaerung": "Oft verstecken sich dort Hinweise auf Delikt oder Bereicherung.",
+    "esel": "Nichts ist zufällig im SV."
+  },
+  {
+    "id": "fall-52",
+    "typ": "input",
+    "tag": "Rangfolge",
+    "frage": "Welche Ansprüche prüft man in der Regel zuerst: vertragliche oder bereicherungsrechtliche?",
+    "korrekteAntworten": [
+      "Vertragliche Ansprüche"
+    ],
+    "erklaerung": "Bereicherungsrecht ist subsidiär.",
+    "esel": "Vertrag vor Bereicherung."
+  },
+  {
+    "id": "fall-53",
+    "typ": "mc",
+    "tag": "Schuldverhältnis",
+    "frage": "Welcher Begriff ist Oberbegriff für Vertrag, vorvertragliches Schuldverhältnis und gesetzliche Schuldverhältnisse?",
+    "optionen": [
+      "Schuldverhältnis",
+      "Delikt",
+      "Klageschrift",
+      "Rücktritt"
+    ],
+    "loesung": "Schuldverhältnis",
+    "erklaerung": "§ 241 BGB.",
+    "esel": "Schuldverhältnis = Dach."
+  },
+  {
+    "id": "fall-54",
+    "typ": "input",
+    "tag": "c.i.c.",
+    "frage": "Wie nennt man das vorvertragliche Schuldverhältnis nach deutschem Recht?",
+    "korrekteAntworten": [
+      "culpa in contrahendo",
+      "c.i.c."
+    ],
+    "erklaerung": "§ 311 II, § 241 II BGB.",
+    "esel": "Vor dem Vertrag schon Pflichten."
+  },
+  {
+    "id": "fall-55",
+    "typ": "mc",
+    "tag": "Gutachtenstil",
+    "frage": "Wann wechselt man in den Urteilsstil?",
+    "optionen": [
+      "Nur bei unproblematischen Punkten oder am Ende",
+      "Immer",
+      "Gar nicht",
+      "Nur bei Strafrecht"
+    ],
+    "loesung": "Nur bei unproblematischen Punkten oder am Ende",
+    "erklaerung": "Hauptsache Begründungsweg bleibt sichtbar.",
+    "esel": "Problem = ausformulieren."
+  },
+  {
+    "id": "fall-56",
+    "typ": "input",
+    "tag": "Sachenrechtlicher Anspruch",
+    "frage": "Welche Anspruchsgrundlage ist einschlägig, wenn der Eigentümer die Sache vom Besitzer herausverlangen will?",
+    "korrekteAntworten": [
+      "§ 985 BGB"
+    ],
+    "erklaerung": "Der dingliche Herausgabeanspruch.",
+    "esel": "Eigentum + Besitz? 985."
+  },
+  {
+    "id": "fall-57",
+    "typ": "mc",
+    "tag": "Gestaltung",
+    "frage": "Was ist typisch für Gestaltungsrechte?",
+    "optionen": [
+      "Sie verändern die Rechtslage durch einseitige Erklärung",
+      "Sie sind immer klagbar",
+      "Sie entstehen nur aus Delikt",
+      "Sie sind immer widerruflich"
+    ],
+    "loesung": "Sie verändern die Rechtslage durch einseitige Erklärung",
+    "erklaerung": "Beispiele: Rücktritt, Anfechtung, Kündigung.",
+    "esel": "Ein Satz – neue Lage."
+  },
+  {
+    "id": "fall-58",
+    "typ": "input",
+    "tag": "Schadensbegriff",
+    "frage": "Wie lautet eine kurze Definition von 'Schaden' im Zivilrecht?",
+    "korrekteAntworten": [
+      "Jede unfreiwillige Einbuße an rechtlich geschützten Gütern",
+      "Vermögenseinbuße"
+    ],
+    "erklaerung": "Je nach Anspruch kann eine genauere Definition nötig sein.",
+    "esel": "Schaden = weniger als vorher."
+  },
+  {
+    "id": "fall-59",
+    "typ": "mc",
+    "tag": "Haftungsbegründung",
+    "frage": "Was prüft man zuerst: Haftungsbegründung oder Haftungsausfüllung?",
+    "optionen": [
+      "Zuerst die Haftungsbegründung",
+      "Zuerst die Haftungsausfüllung",
+      "Beides gleichzeitig",
+      "Gar nicht"
+    ],
+    "loesung": "Zuerst die Haftungsbegründung",
+    "erklaerung": "Erst muss feststehen, dass überhaupt gehaftet wird.",
+    "esel": "Erst ob – dann wie viel."
+  },
+  {
+    "id": "fall-60",
+    "typ": "input",
+    "tag": "Mitverschulden 2",
+    "frage": "Was passiert mit dem Anspruch, wenn ein Mitverschulden des Gläubigers vorliegt?",
+    "schluesselwoerter": [
+      "kürzung",
+      "anteilig",
+      "minderung"
+    ],
+    "erklaerung": "§ 254 BGB: Anspruch wird gekürzt.",
+    "esel": "Selbst schuld = weniger Geld."
+  },
+
+  {
+    "id": "fall-61",
+    "typ": "mc",
+    "tag": "Sicherheiten",
+    "frage": "Welche Sicherungsmittel können im Rahmen der Fallbearbeitung eine Rolle spielen?",
+    "optionen": [
+      "Pfandrecht, Bürgschaft, Zurückbehaltungsrecht",
+      "Urlaub, Weihnachtsgeld, Kantine",
+      "Zeugnis, Empfehlung, Visitenkarte",
+      "Mahngebühren, Porto, IT"
+    ],
+    "loesung": "Pfandrecht, Bürgschaft, Zurückbehaltungsrecht",
+    "erklaerung": "Sicherheiten können die Durchsetzbarkeit beeinflussen.",
+    "esel": "Sicher = Pfand oder Bürge."
+  },
+  {
+    "id": "fall-62",
+    "typ": "input",
+    "tag": "Einwendung",
+    "frage": "Wie nennt man rechtshindernde oder rechtsvernichtende Einwände des Schuldners?",
+    "korrekteAntworten": [
+      "Einwendungen"
+    ],
+    "erklaerung": "Einwendungen: Anspruch entsteht nicht oder geht unter.",
+    "esel": "Ein-wendung: wirkt auf den Anspruch ein."
+  },
+  {
+    "id": "fall-63",
+    "typ": "mc",
+    "tag": "Einrede vs. Einwendung",
+    "frage": "Worin liegt der Unterschied zwischen Einrede und Einwendung?",
+    "optionen": [
+      "Einreden müssen geltend gemacht werden, Einwendungen gelten von Amts wegen",
+      "Es gibt keinen Unterschied",
+      "Einreden gibt es nur im Strafrecht",
+      "Einwendungen gelten nur bei Verträgen"
+    ],
+    "loesung": "Einreden müssen geltend gemacht werden, Einwendungen gelten von Amts wegen",
+    "erklaerung": "Das ist wichtig beim Punkt 'Anspruch durchsetzbar'.",
+    "esel": "Einrede = aktiv, Einwendung = automatisch."
+  },
+  {
+    "id": "fall-64",
+    "typ": "input",
+    "tag": "Verzugsschaden",
+    "frage": "Welche Art von Schaden kann neben der Hauptleistung bei Verzug verlangt werden?",
+    "korrekteAntworten": [
+      "Verzögerungsschaden"
+    ],
+    "erklaerung": "§ 280 II, § 286 BGB.",
+    "esel": "Zu spät = Verzugsschaden."
+  },
+  {
+    "id": "fall-65",
+    "typ": "mc",
+    "tag": "AGB",
+    "frage": "Welche Voraussetzung muss für die Einbeziehung von AGB erfüllt sein?",
+    "optionen": [
+      "Hinweis, Möglichkeit der Kenntnisnahme, Einverständnis",
+      "Unterschrift von zwei Zeugen",
+      "Notarielle Beurkundung",
+      "Eintrag im Handelsregister"
+    ],
+    "loesung": "Hinweis, Möglichkeit der Kenntnisnahme, Einverständnis",
+    "erklaerung": "§ 305 II BGB.",
+    "esel": "Hinweis + lesen können + ok."
+  },
+  {
+    "id": "fall-66",
+    "typ": "input",
+    "tag": "Konkurrenz",
+    "frage": "Wie nennt man das Nebeneinander mehrerer Ansprüche aus verschiedenen Anspruchsgrundlagen?",
+    "korrekteAntworten": [
+      "Anspruchskonkurrenz",
+      "Anspruchskumulation"
+    ],
+    "erklaerung": "Oft: vertraglich + deliktisch + Bereicherung.",
+    "esel": "Mehr Wege – gleiche Richtung."
+  },
+  {
+    "id": "fall-67",
+    "typ": "mc",
+    "tag": "Begründung",
+    "frage": "Was gehört NICHT zu einer guten Subsumtion?",
+    "optionen": [
+      "Reines Abschreiben des Gesetzestextes ohne Bezug zum Sachverhalt",
+      "Nennung der Norm",
+      "Benennen des Tatbestandsmerkmals",
+      "Anwendung auf den Sachverhalt"
+    ],
+    "loesung": "Reines Abschreiben des Gesetzestextes ohne Bezug zum Sachverhalt",
+    "erklaerung": "Subsumtion muss Bezug zum SV haben.",
+    "esel": "Paragraph runterbeten reicht nicht."
+  },
+  {
+    "id": "fall-68",
+    "typ": "input",
+    "tag": "Tenorformel",
+    "frage": "Wie lautet in der Regel der erste Satz im Tenor einer Leistungsklage?",
+    "korrekteAntworten": [
+      "Der Beklagte wird verurteilt, an den Kläger ... zu zahlen."
+    ],
+    "erklaerung": "Das ist Standardform.",
+    "esel": "Verurteilt zu zahlen."
+  },
+  {
+    "id": "fall-69",
+    "typ": "mc",
+    "tag": "Rechtsbehelf",
+    "frage": "Welches Rechtsmittel kann gegen ein zivilrechtliches Urteil eingelegt werden?",
+    "optionen": [
+      "Berufung",
+      "Einspruch gegen Bußgeld",
+      "Revision zum BVerfG",
+      "Anzeige bei der Polizei"
+    ],
+    "loesung": "Berufung",
+    "erklaerung": "ZPO sieht verschiedene Rechtsmittel vor.",
+    "esel": "Unzufrieden? Berufung."
+  },
+  {
+    "id": "fall-70",
+    "typ": "input",
+    "tag": "Klausurtipp",
+    "frage": "Welcher Satz hilft dir immer, wenn du nicht weiterweißt?",
+    "korrekteAntworten": [
+      "A könnte gegen B einen Anspruch aus ... BGB haben."
+    ],
+    "erklaerung": "Mit diesem Obersatz kommst du immer wieder in den Prüfungsaufbau zurück.",
+    "esel": "A könnte gegen B … haben."
+  }
+]
