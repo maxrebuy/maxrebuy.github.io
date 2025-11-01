@@ -2,33 +2,38 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8" />
-  <title>Grundlagen der Betriebswirtschaftslehre – Test</title>
+  <title>LernApp – Deine Tests</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Futuristische Schrift -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+
   <style>
     :root {
-      --bg: #0f172a;
+      --bg: #0f172a;         /* dunkelblau */
       --card: #1e293b;
       --border: #334155;
-      --accent: #38bdf8;
+      --accent: #38bdf8;     /* cyan/blau */
       --good: #22c55e;
       --bad: #ef4444;
       --text: #e2e8f0;
     }
-body {
-  background: var(--bg);
-  color: var(--text);
-  font-family: system-ui, -apple-system, sans-serif;
-  margin: 0;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 16px;
-}
 
-.hidden {
-  display: none;
-}
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, sans-serif;
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 16px;
+    }
+
+    .hidden {
+      display: none;
+    }
 
     .app {
       background: var(--card);
@@ -39,6 +44,84 @@ body {
       box-shadow: 0 20px 40px rgba(0,0,0,.25);
       position: relative;
     }
+
+    /* HOME SCREEN */
+    #homeScreen {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      align-items: center;
+      justify-content: center;
+      min-height: 520px;
+    }
+
+    /* Buttons auf der Startseite */
+    .test-list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      width: 100%;
+    }
+
+    .test-list button {
+      position: relative;
+      overflow: hidden;
+      width: 70%;
+      max-width: 520px;
+      height: 56px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      white-space: nowrap;
+      background: #f8f7f3; /* eierschalen-weiß, aber auf blau gut lesbar */
+      color: #111;
+      font-weight: 700;
+      font-family: 'Orbitron', sans-serif;
+      border: none;
+      border-radius: 9999px;
+      padding: 0 20px;
+      cursor: pointer;
+      box-shadow: 0 0 20px rgba(255,255,255,0.15);
+      transition: all 0.3s ease;
+    }
+
+    .test-list button::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -75%;
+      width: 50%;
+      height: 100%;
+      background: linear-gradient(
+        120deg,
+        rgba(255, 255, 255, 0.35),
+        rgba(255, 255, 255, 0)
+      );
+      transform: skewX(-25deg);
+    }
+
+    .test-list button:hover::before {
+      animation: shine 1.5s forwards;
+    }
+
+    @keyframes shine {
+      0% { left: -75%; }
+      100% { left: 125%; }
+    }
+
+    .test-list button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px rgba(255,255,255,0.4);
+      background: #ffffff;
+    }
+
+    .test-list button:active {
+      transform: scale(0.97);
+    }
+
     .topbar {
       display: flex;
       justify-content: space-between;
@@ -46,10 +129,12 @@ body {
       gap: 10px;
       margin-bottom: 12px;
     }
+
     .title {
       font-weight: 700;
       font-size: 1rem;
     }
+
     .timer {
       background: rgba(248, 113, 113, 0.08);
       border: 1px solid rgba(248, 113, 113, 0.3);
@@ -59,11 +144,13 @@ body {
       min-width: 70px;
       text-align: center;
     }
+
     .info-line {
       font-size: .8rem;
       opacity: .75;
       margin-bottom: 12px;
     }
+
     .question-box {
       background: rgba(15,23,42,.3);
       border: 1px solid rgba(148,163,184,.1);
@@ -71,6 +158,7 @@ body {
       padding: 14px 14px 10px 14px;
       margin-bottom: 14px;
     }
+
     .tag {
       text-transform: uppercase;
       letter-spacing: .12em;
@@ -78,11 +166,13 @@ body {
       opacity: .6;
       margin-bottom: .35rem;
     }
+
     .frage {
       font-size: 1.05rem;
       font-weight: 600;
       margin-bottom: .75rem;
     }
+
     .input-box, .mc-box {
       background: #0f172a;
       border: 1px solid #334155;
@@ -90,6 +180,7 @@ body {
       padding: 10px;
       margin-bottom: .75rem;
     }
+
     .input-box input {
       width: 100%;
       background: rgba(15,23,42,0);
@@ -99,6 +190,7 @@ body {
       color: #e2e8f0;
       outline: none;
     }
+
     .mc-option {
       display: block;
       width: 100%;
@@ -109,15 +201,17 @@ body {
       padding: 8px 10px;
       margin-bottom: 6px;
       cursor: pointer;
-      color: #e2e8f0;   /* sichtbar machen */
+      color: #e2e8f0;
       font-weight: 500;
     }
+
     .buttons {
       display: flex;
       gap: .5rem;
       flex-wrap: wrap;
       margin-top: .5rem;
     }
+
     button {
       background: var(--accent);
       border: none;
@@ -127,35 +221,42 @@ body {
       cursor: pointer;
       color: #0f172a;
     }
+
     button.secondary {
       background: transparent;
       border: 1px solid var(--accent);
       color: #e2e8f0;
     }
+
     button.danger {
       background: var(--bad);
       color: #0f172a;
     }
+
     button:disabled {
       opacity: .45;
       cursor: not-allowed;
     }
+
     .scoreline {
       font-size: .8rem;
       margin-top: .6rem;
       opacity: .75;
     }
+
     .finished {
       font-size: 1.1rem;
       font-weight: 600;
       margin-top: 1rem;
     }
+
     .esel {
       margin-top: .5rem;
       font-size: .75rem;
       opacity: .7;
     }
-    /* Popup */
+
+    /* Erklärung-Popup */
     #explainOverlay {
       display: none;
       position: fixed;
@@ -178,34 +279,57 @@ body {
 </head>
 <body>
   <div class="app">
-    <div class="topbar">
-      <div class="title">Grundlagen der Betriebswirtschaftslehre – Test</div>
-      <div id="timer" class="timer">90:00</div>
-    </div>
-    <div class="info-line" id="infoLine">Frage 1 von 20 · 90 Minuten Prüfungszeit.</div>
-    <div id="questionBox" class="question-box">
-      <div id="tag" class="tag"></div>
-      <div id="frage" class="frage"></div>
 
-      <div id="inputBox" class="input-box hidden">
-        <input id="userInput" type="text" placeholder="Antwort eingeben …" />
-        <button id="checkInputBtn" style="margin-top:6px;">Prüfen</button>
-        <div id="inputFeedback" class="feedback"></div>
+    <!-- STARTSEITE -->
+    <div id="homeScreen">
+      <div style="font-size:32px; color:#38bdf8; text-shadow:0 0 15px rgba(56,189,248,0.5); font-family:'Orbitron',sans-serif; line-height:1.3; opacity:0; transform:translateY(-15px); animation:fadeInTop 1.3s ease-out forwards;">
+        Willkommen Meister,<br>
+        It´s time to lean!
       </div>
 
-      <div id="mcBox" class="mc-box hidden"></div>
+      <div class="test-list">
+        <button onclick="selectTest('bwl')">Grundlagen der Betriebswirtschaftslehre</button>
+        <button onclick="selectTest('fall')">Die Systematik der Fallbearbeitung</button>
+      </div>
 
-      <div id="esel" class="esel"></div>
+      <div style="font-size:24px; margin-top:2rem; color:#38bdf8; opacity:0; transform:translateY(15px); animation:fadeInBottom 1.3s ease-out forwards; animation-delay:.4s; font-family:'Orbitron',sans-serif;">
+        Weitere Tests folgen, sobald du deine Hefte fertig gelesen hast!!<br>
+        Also häng dich rein, mein Bester.
+      </div>
     </div>
-    <div class="buttons">
-      <button id="nextBtn" class="secondary">Nächste Frage</button>
-      <button id="showSolutionBtn" class="secondary">Lösung anzeigen</button>
-      <button id="showExplainBtn" class="secondary" disabled>Erklärung</button>
-      <button id="restartBtn" class="danger">Test neu starten</button>
-      <button id="exportBtn" class="secondary">Ergebnisse exportieren</button>
+
+    <!-- TEST-SCREEN -->
+    <div id="testScreen" class="hidden">
+      <div class="topbar">
+        <div class="title" id="testTitle">Test</div>
+        <div id="timer" class="timer">90:00</div>
+      </div>
+      <div class="info-line" id="infoLine">Frage 1 von 20 · 90 Minuten Prüfungszeit.</div>
+      <div id="questionBox" class="question-box">
+        <div id="tag" class="tag"></div>
+        <div id="frage" class="frage"></div>
+
+        <div id="inputBox" class="input-box hidden">
+          <input id="userInput" type="text" placeholder="Antwort eingeben …" />
+          <button id="checkInputBtn" style="margin-top:6px;">Prüfen</button>
+          <div id="inputFeedback" class="feedback"></div>
+        </div>
+
+        <div id="mcBox" class="mc-box hidden"></div>
+
+        <div id="esel" class="esel"></div>
+      </div>
+      <div class="buttons">
+        <button id="backHomeBtn" class="secondary">Zur Startseite</button>
+        <button id="nextBtn" class="secondary">Nächste Frage</button>
+        <button id="showSolutionBtn" class="secondary">Lösung anzeigen</button>
+        <button id="showExplainBtn" class="secondary" disabled>Erklärung</button>
+        <button id="restartBtn" class="danger">Test neu starten</button>
+        <button id="exportBtn" class="secondary">Ergebnisse exportieren</button>
+      </div>
+      <div id="scoreline" class="scoreline">Punkte: 0 / 0 (0%)</div>
+      <div id="finalBox" class="finished hidden"></div>
     </div>
-    <div id="scoreline" class="scoreline">Punkte: 0 / 0 (0%)</div>
-    <div id="finalBox" class="finished hidden"></div>
   </div>
 
   <!-- Erklärung-Popup -->
@@ -217,11 +341,38 @@ body {
     </div>
   </div>
 
-  <script>
-    const MAX_TIME_SECONDS = 90 * 60; // 90 Minuten
-    const QUESTIONS_PER_TEST = 20;
-    const RESULTS_FILENAME = "bwl_test_ergebnisse.csv";
+  <style>
+    @keyframes fadeInTop {
+      0% { opacity:0; transform:translateY(-15px); }
+      100% { opacity:1; transform:translateY(0); }
+    }
+    @keyframes fadeInBottom {
+      0% { opacity:0; transform:translateY(15px); }
+      100% { opacity:1; transform:translateY(0); }
+    }
+  </style>
 
+  <script>
+    // Konfiguration
+    const MAX_TIME_SECONDS = 90 * 60; // 90 Minuten
+    // wir nehmen die Anzahl aus dem gewählten Test
+
+    // alle Tests hier eintragen
+    const TESTS = {
+      bwl: {
+        name: "Grundlagen der Betriebswirtschaftslehre – Test",
+        file: "bwl_test.json",
+        questionCount: 20
+      },
+      fall: {
+        name: "Die Systematik der Fallbearbeitung – Test",
+        file: "fallbearbeitung_test.json",
+        questionCount: 35
+      }
+    };
+
+    // State
+    let selectedTest = null;
     let allQuestions = [];
     let currentQuestions = [];
     let currentIndex = 0;
@@ -231,18 +382,32 @@ body {
     let secondsLeft = MAX_TIME_SECONDS;
     let results = []; // {id, frage, user, korrekt, zeit}
 
+    // Test auswählen
+    async function selectTest(key) {
+      const t = TESTS[key];
+      if (!t) return;
+      selectedTest = t;
+
+      document.getElementById("homeScreen").classList.add("hidden");
+      document.getElementById("testScreen").classList.remove("hidden");
+      document.getElementById("testTitle").textContent = t.name;
+
+      await loadQuestions();
+      startNewTest();
+    }
+
+    // Fragen laden
+    async function loadQuestions() {
+      const res = await fetch(selectedTest.file);
+      allQuestions = await res.json();
+    }
+
     function shuffle(arr) {
       for (let i = arr.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [arr[i], arr[j]] = [arr[j], arr[i]];
       }
       return arr;
-    }
-
-    async function loadQuestions() {
-      const res = await fetch("bwl_test.json");
-      allQuestions = await res.json();
-      startNewTest();
     }
 
     function startNewTest() {
@@ -253,7 +418,7 @@ body {
 
       const copy = [...allQuestions];
       shuffle(copy);
-      currentQuestions = copy.slice(0, QUESTIONS_PER_TEST);
+      currentQuestions = copy.slice(0, selectedTest.questionCount);
       currentIndex = 0;
 
       if (timerInterval) clearInterval(timerInterval);
@@ -277,112 +442,102 @@ body {
     function updateTimer() {
       const m = Math.floor(secondsLeft / 60);
       const s = secondsLeft % 60;
-      document.getElementById("timer").textContent = `${String(m).padStart(2,"0")}:${String(s).padStart(2,"0")}`;
+      document.getElementById("timer").textContent =
+        `${String(m).padStart(2,"0")}:${String(s).padStart(2,"0")}`;
     }
 
-function renderQuestion() {
-  const q = currentQuestions[currentIndex];
-  if (!q) return;
+    function renderQuestion() {
+      const q = currentQuestions[currentIndex];
+      if (!q) return;
 
-  // Grundinfo setzen
-  document.getElementById("tag").textContent = q.tag || "";
-  document.getElementById("frage").textContent = q.frage;
-  document.getElementById("esel").textContent = q.esel || "";
-  document.getElementById("infoLine").textContent =
-    `Frage ${currentIndex + 1} von ${currentQuestions.length} · 90 Minuten Prüfungszeit.`;
+      document.getElementById("tag").textContent = q.tag || "";
+      document.getElementById("frage").textContent = q.frage;
+      document.getElementById("esel").textContent = q.esel || "";
+      document.getElementById("infoLine").textContent =
+        `Frage ${currentIndex + 1} von ${currentQuestions.length} · 90 Minuten Prüfungszeit.`;
 
-  // VOR dem Rendern immer beides ausblenden und leeren
-  const inputBox = document.getElementById("inputBox");
-  const mcBox = document.getElementById("mcBox");
-  const inputFeedback = document.getElementById("inputFeedback");
-  const userInput = document.getElementById("userInput");
+      // Felder aufräumen
+      const inputBox = document.getElementById("inputBox");
+      const mcBox = document.getElementById("mcBox");
+      const inputFeedback = document.getElementById("inputFeedback");
+      const userInput = document.getElementById("userInput");
 
-  inputBox.classList.add("hidden");
-  mcBox.classList.add("hidden");
-  mcBox.innerHTML = "";
-  inputFeedback.textContent = "";
-  if (userInput) userInput.value = "";
+      inputBox.classList.add("hidden");
+      mcBox.classList.add("hidden");
+      mcBox.innerHTML = "";
+      inputFeedback.textContent = "";
+      if (userInput) userInput.value = "";
 
-  // Erklärung wieder sperren
-  document.getElementById("showExplainBtn").disabled = true;
+      document.getElementById("showExplainBtn").disabled = true;
 
-  // jetzt abhängig vom Typ rendern
-  if (q.typ === "mc") {
-    renderMC(q);
-  } else {
-    renderInput(q);
-  }
-}
-
-    function renderMC(q) {
-  // sicherstellen, dass das Eingabefeld weg ist
-  const inputBox = document.getElementById("inputBox");
-  const inputFeedback = document.getElementById("inputFeedback");
-  const userInput = document.getElementById("userInput");
-  inputBox.classList.add("hidden");
-  inputFeedback.textContent = "";
-  if (userInput) userInput.value = "";
-
-  // MC-Box vorbereiten
-  const box = document.getElementById("mcBox");
-  box.innerHTML = "";                 // alte Antworten weg
-  box.classList.remove("hidden");
-
-  const options = shuffle([...q.optionen]);
-  options.forEach(opt => {
-    const btn = document.createElement("button");
-    btn.textContent = opt;
-    btn.className = "mc-option";
-    btn.onclick = () => {
-      const richtig = normalize(opt) === normalize(q.loesung);
-      handleAnswer(q, opt, richtig);
-      btn.style.background = richtig ? "rgba(34,197,94,.4)" : "rgba(239,68,68,.4)";
-      btn.style.color = "#0f172a";
-    };
-    box.appendChild(btn);
-  });
-}
-
-function renderInput(q) {
-  const inputBox = document.getElementById("inputBox");
-  const feedback = document.getElementById("inputFeedback");
-  const userInput = document.getElementById("userInput");
-
-  // MC-Bereich sicher räumen
-  const mcBox = document.getElementById("mcBox");
-  mcBox.innerHTML = "";               // alte MC-Antworten weg
-  mcBox.classList.add("hidden");      // und ausblenden
-
-  // Input anzeigen
-  inputBox.classList.remove("hidden");
-  feedback.textContent = "";
-  feedback.style.color = "#e2e8f0";
-  userInput.value = "";
-
-  document.getElementById("checkInputBtn").onclick = () => {
-    const val = userInput.value.trim();
-    const richtig = checkInputAnswer(q, val);
-    handleAnswer(q, val, richtig);
-
-    if (richtig) {
-      feedback.textContent = "Richtig ✅";
-      feedback.style.color = "#22c55e";
-    } else {
-      feedback.style.textAlign = "left";
-      feedback.style.color = "#ef4444";
-
-      if (q.typ === "calc" && typeof q.loesungNumerisch !== "undefined") {
-        feedback.innerHTML = "Nicht ganz ❌<br>Richtige Lösung: <strong>" + q.loesungNumerisch + "</strong>";
-      } else if (Array.isArray(q.korrekteAntworten) && q.korrekteAntworten.length > 0) {
-        feedback.innerHTML = "Nicht ganz ❌<br>Mögliche richtige Lösungen:<br>- " + q.korrekteAntworten.join("<br>- ");
-      } else if (Array.isArray(q.schluesselwoerter) && q.schluesselwoerter.length > 0) {
-        feedback.innerHTML = "Nicht ganz ❌<br>Das musste vorkommen:<br>- " + q.schluesselwoerter.join("<br>- ");
+      if (q.typ === "mc") {
+        renderMC(q);
       } else {
-        feedback.textContent = "Nicht ganz ❌";
+        renderInput(q);
       }
     }
-  };
-}
+
+    function renderMC(q) {
+      const inputBox = document.getElementById("inputBox");
+      inputBox.classList.add("hidden");
+
+      const box = document.getElementById("mcBox");
+      box.innerHTML = "";
+      box.classList.remove("hidden");
+
+      const options = shuffle([...q.optionen]);
+      options.forEach(opt => {
+        const btn = document.createElement("button");
+        btn.textContent = opt;
+        btn.className = "mc-option";
+        btn.onclick = () => {
+          const richtig = normalize(opt) === normalize(q.loesung);
+          handleAnswer(q, opt, richtig);
+          btn.style.background = richtig ? "rgba(34,197,94,.4)" : "rgba(239,68,68,.4)";
+          btn.style.color = "#0f172a";
+        };
+        box.appendChild(btn);
+      });
+    }
+
+    function renderInput(q) {
+      const mcBox = document.getElementById("mcBox");
+      mcBox.innerHTML = "";
+      mcBox.classList.add("hidden");
+
+      const inputBox = document.getElementById("inputBox");
+      const feedback = document.getElementById("inputFeedback");
+      const userInput = document.getElementById("userInput");
+
+      inputBox.classList.remove("hidden");
+      feedback.textContent = "";
+      feedback.style.color = "#e2e8f0";
+      userInput.value = "";
+
+      document.getElementById("checkInputBtn").onclick = () => {
+        const val = userInput.value.trim();
+        const richtig = checkInputAnswer(q, val);
+        handleAnswer(q, val, richtig);
+
+        if (richtig) {
+          feedback.textContent = "Richtig ✅";
+          feedback.style.color = "#22c55e";
+        } else {
+          feedback.style.textAlign = "left";
+          feedback.style.color = "#ef4444";
+
+          if (q.typ === "calc" && typeof q.loesungNumerisch !== "undefined") {
+            feedback.innerHTML = "Nicht ganz ❌<br>Richtige Lösung: <strong>" + q.loesungNumerisch + "</strong>";
+          } else if (Array.isArray(q.korrekteAntworten) && q.korrekteAntworten.length > 0) {
+            feedback.innerHTML = "Nicht ganz ❌<br>Mögliche richtige Lösungen:<br>- " + q.korrekteAntworten.join("<br>- ");
+          } else if (Array.isArray(q.schluesselwoerter) && q.schluesselwoerter.length > 0) {
+            feedback.innerHTML = "Nicht ganz ❌<br>Das musste vorkommen:<br>- " + q.schluesselwoerter.join("<br>- ");
+          } else {
+            feedback.textContent = "Nicht ganz ❌";
+          }
+        }
+      };
+    }
 
     function normalize(str) {
       return (str || "")
@@ -394,37 +549,37 @@ function renderInput(q) {
         .trim();
     }
 
-function checkInputAnswer(q, userVal) {
-  if (q.typ === "calc") {
-    const num = parseFloat((userVal || "").replace(",", "."));
-    if (isNaN(num)) return false;
-    const tol = q.toleranz || 0;
-    return Math.abs(num - q.loesungNumerisch) <= tol;
-  }
-
-  const userNorm = normalize(userVal);
-
-  if (q.schluesselwoerter && q.schluesselwoerter.length > 0) {
-    let ok = 0;
-    for (const kw of q.schluesselwoerter) {
-      const kwNorm = normalize(kw);
-      if (userNorm.includes(kwNorm)) {
-        ok++;
-      } else {
-        const parts = userNorm.split(" ");
-        const near = parts.some(p => editDistance(p, kwNorm) <= 1);
-        if (near) ok++;
+    function checkInputAnswer(q, userVal) {
+      if (q.typ === "calc") {
+        const num = parseFloat((userVal || "").replace(",", "."));
+        if (isNaN(num)) return false;
+        const tol = q.toleranz || 0;
+        return Math.abs(num - q.loesungNumerisch) <= tol;
       }
+
+      const userNorm = normalize(userVal);
+
+      if (q.schluesselwoerter && q.schluesselwoerter.length > 0) {
+        let ok = 0;
+        for (const kw of q.schluesselwoerter) {
+          const kwNorm = normalize(kw);
+          if (userNorm.includes(kwNorm)) {
+            ok++;
+          } else {
+            const parts = userNorm.split(" ");
+            const near = parts.some(p => editDistance(p, kwNorm) <= 1);
+            if (near) ok++;
+          }
+        }
+        return ok === q.schluesselwoerter.length;
+      }
+
+      if (q.korrekteAntworten && q.korrekteAntworten.length > 0) {
+        return q.korrekteAntworten.some(ans => normalize(ans) === userNorm);
+      }
+
+      return false;
     }
-    return ok === q.schluesselwoerter.length;
-  }
-
-  if (q.korrekteAntworten && q.korrekteAntworten.length > 0) {
-    return q.korrekteAntworten.some(ans => normalize(ans) === userNorm);
-  }
-
-  return false;
-}
 
     function editDistance(a, b) {
       const dp = Array.from({length: a.length + 1}, () => Array(b.length + 1).fill(0));
@@ -452,8 +607,6 @@ function checkInputAnswer(q, userVal) {
       });
 
       updateScoreline();
-
-      // Erklärung nach Antwort freigeben
       document.getElementById("showExplainBtn").disabled = false;
 
       if (answered >= currentQuestions.length) {
@@ -463,7 +616,8 @@ function checkInputAnswer(q, userVal) {
 
     function updateScoreline() {
       const pct = answered > 0 ? Math.round((score / answered) * 100) : 0;
-      document.getElementById("scoreline").textContent = `Punkte: ${score} / ${answered} (${pct}%)`;
+      document.getElementById("scoreline").textContent =
+        `Punkte: ${score} / ${answered} (${pct}%)`;
     }
 
     function finishTest(byTime) {
@@ -476,6 +630,7 @@ function checkInputAnswer(q, userVal) {
         : `Test beendet. Ergebnis: ${score} von ${answered} (${pct}%).`;
     }
 
+    // Buttons
     document.getElementById("nextBtn").onclick = () => {
       if (currentIndex < currentQuestions.length - 1) {
         currentIndex++;
@@ -489,12 +644,18 @@ function checkInputAnswer(q, userVal) {
       startNewTest();
     };
 
+    document.getElementById("backHomeBtn").onclick = () => {
+      clearInterval(timerInterval);
+      document.getElementById("testScreen").classList.add("hidden");
+      document.getElementById("homeScreen").classList.remove("hidden");
+    };
+
     document.getElementById("showSolutionBtn").onclick = () => {
       const q = currentQuestions[currentIndex];
       const esel = document.getElementById("esel");
       const feedback = document.getElementById("inputFeedback");
 
-      esel.textContent = q.esel || "Hinweis: siehe BWL-Skript zum Kapitel.";
+      esel.textContent = q.esel || "Hinweis: siehe Skript.";
 
       if (q.typ === "calc" && typeof q.loesungNumerisch !== "undefined") {
         feedback.innerHTML = "Lösung: <strong>" + q.loesungNumerisch + "</strong>";
@@ -519,7 +680,7 @@ function checkInputAnswer(q, userVal) {
       if (q.erklaerung) {
         text.textContent = q.erklaerung;
       } else {
-        text.textContent = "Zu dieser Frage ist noch keine Erklärung hinterlegt. Ergänze in bwl_test.json das Feld \"erklaerung\".";
+        text.textContent = "Zu dieser Frage ist noch keine Erklärung hinterlegt.";
       }
 
       overlay.style.display = "flex";
@@ -529,20 +690,30 @@ function checkInputAnswer(q, userVal) {
       document.getElementById("explainOverlay").style.display = "none";
     };
 
+    // TXT-Export
     document.getElementById("exportBtn").onclick = () => {
-      const header = "id;frage;user;korrekt;zeit\n";
-      const rows = results.map(r => `${r.id};"${r.frage.replace(/"/g,'""')}";"${(r.user||"").replace(/"/g,'""')}";${r.korrekt};${r.zeit}`).join("\n");
-      const csv = header + rows;
-      const blob = new Blob([csv], { type: "text/csv" });
+      const lines = results.map((r, idx) => {
+        const frage = r.frage || "—";
+        const antwort = (r.user && r.user !== "") ? r.user : "keine Antwort";
+        return `Frage ${idx + 1}: ${frage}\nAntwort: ${antwort}`;
+      });
+
+      const header = `Ergebnisexport – ${new Date().toLocaleString("de-DE")}\nTest: ${(selectedTest && selectedTest.name) || ""}\nAnzahl beantworteter Fragen: ${results.length}\n\n`;
+      const content = header + lines.join("\n\n");
+
+      const blob = new Blob([content], { type: "text/plain" });
       const url = URL.createObjectURL(blob);
+
       const a = document.createElement("a");
       a.href = url;
-      a.download = RESULTS_FILENAME;
+      a.download = "test_ergebnisse.txt";
+      document.body.appendChild(a);
       a.click();
+      document.body.removeChild(a);
       URL.revokeObjectURL(url);
     };
 
-    loadQuestions();
+    // WICHTIG: kein automatisches loadQuestions(), erst nach Testwahl
   </script>
 </body>
 </html>
