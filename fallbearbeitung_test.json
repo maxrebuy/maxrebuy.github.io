@@ -4,9 +4,15 @@
     "typ": "input",
     "tag": "Begriff Anspruch",
     "frage": "Was ist ein Anspruch im Sinne des § 194 BGB?",
-    "korrekteAntworten": ["Das Recht, von einem anderen ein Tun oder Unterlassen zu verlangen"],
+    "korrekteAntworten": [
+      "Das Recht, von einem anderen ein Tun oder Unterlassen zu verlangen"
+    ],
     "erklaerung": "§ 194 BGB definiert den Anspruch als das Recht, von einem anderen ein Tun oder Unterlassen zu verlangen. Auf diesem Anspruch baut die gesamte zivilrechtliche Fallbearbeitung auf.",
-    "esel": "Anspruch = Forderung auf Handlung oder Unterlassung."
+    "esel": "Anspruch = Forderung auf Handlung oder Unterlassung.",
+    "quellen": [
+      "BGB § 194 Abs. 1",
+      "GrRe/LF „Die Systematik der Fallbearbeitung im Zivilrecht“, Kap. 2"
+    ]
   },
   {
     "id": "fall-02",
@@ -21,7 +27,11 @@
     ],
     "loesung": "Anspruch entstanden – Anspruch erloschen – Anspruch durchsetzbar",
     "erklaerung": "Die klassische Prüfung folgt diesem Dreischritt. Zuerst wird geprüft, ob überhaupt ein Anspruch entstanden ist. Dann, ob er wieder weggefallen ist. Dann, ob er noch durchsetzbar ist.",
-    "esel": "E-E-D = Entstanden, Erloschen, Durchsetzbar."
+    "esel": "E-E-D = Entstanden, Erloschen, Durchsetzbar.",
+    "quellen": [
+      "GrRe/LF, Kap. 4: Prüfung der Anspruchsgrundlagen",
+      "Allg. BGB-AT: Anspruchssystematik"
+    ]
   },
   {
     "id": "fall-03",
@@ -36,7 +46,11 @@
     ],
     "loesung": "Ob eine Anspruchsgrundlage vorliegt und ihre Tatbestandsmerkmale erfüllt sind",
     "erklaerung": "Beim Entstehen geht es darum, ob der Sachverhalt alle Merkmale einer Anspruchsgrundlage erfüllt. Erst wenn die Anspruchsgrundlage erfüllt ist, kann man zu Erlöschen und Durchsetzbarkeit übergehen.",
-    "esel": "Erst Grundlage, dann Probleme."
+    "esel": "Erst Grundlage, dann Probleme.",
+    "quellen": [
+      "GrRe/LF, Kap. 3: Auffinden der Anspruchsgrundlage",
+      "BGB § 194 Abs. 1"
+    ]
   },
   {
     "id": "fall-04",
@@ -48,7 +62,10 @@
       "Anspruchsgrundlage ermitteln"
     ],
     "erklaerung": "Ohne Anspruchsgrundlage keine Prüfung. Man fragt: Wer will was von wem woraus?",
-    "esel": "Wer will was von wem woraus?"
+    "esel": "Wer will was von wem woraus?",
+    "quellen": [
+      "GrRe/LF, Kap. 3: Das Auffinden der Anspruchsgrundlage"
+    ]
   },
   {
     "id": "fall-05",
@@ -62,17 +79,26 @@
       "Er ersetzt die Subsumtion"
     ],
     "loesung": "Er leitet die Prüfung ein und nennt Anspruchsgrundlage sowie Beteiligte",
-    "erklaerung": "Der Obersatz macht klar, was jetzt geprüft wird: 'A könnte gegen B einen Anspruch aus § ... BGB haben.'",
-    "esel": "Obersatz = Was will wer woraus?"
+    "erklaerung": "Der Obersatz macht klar, was jetzt geprüft wird: „A könnte gegen B einen Anspruch aus § … BGB haben.“",
+    "esel": "Obersatz = Was will wer woraus?",
+    "quellen": [
+      "GrRe/LF, Kap. 4: Gutachtenstil"
+    ]
   },
   {
     "id": "fall-06",
     "typ": "input",
     "tag": "Subsumtion",
     "frage": "Wie nennt man das juristische 'Drunterlegen' des Sachverhalts unter ein Tatbestandsmerkmal?",
-    "korrekteAntworten": ["Subsumtion", "subsumieren"],
+    "korrekteAntworten": [
+      "Subsumtion",
+      "subsumieren"
+    ],
     "erklaerung": "Subsumtion heißt: Man legt die Fakten unter die Norm und prüft, ob sie passen.",
-    "esel": "Sub-statt drüber: Subsumtion = drunterlegen."
+    "esel": "Sub-statt drüber: Subsumtion = drunterlegen.",
+    "quellen": [
+      "GrRe/LF, Kap. 4: Subsumtionstechnik"
+    ]
   },
   {
     "id": "fall-07",
@@ -87,7 +113,10 @@
     ],
     "loesung": "Obersatz – Definition – Subsumtion – Ergebnis",
     "erklaerung": "Das ist der klassische Gutachtenstil.",
-    "esel": "O-D-S-E – Oder: Oma denkt sehr ernst."
+    "esel": "O-D-S-E – Oma denkt sehr ernst.",
+    "quellen": [
+      "GrRe/LF, Kap. 4: Gutachtenstil"
+    ]
   },
   {
     "id": "fall-08",
@@ -102,16 +131,26 @@
     ],
     "loesung": "Man prüft sie nacheinander",
     "erklaerung": "Vertragliche, quasivertragliche, dingliche, deliktische und bereicherungsrechtliche Ansprüche werden regelmäßig nacheinander geprüft.",
-    "esel": "Von nah nach fern: erst Vertrag, dann Delikt, dann Bereicherung."
+    "esel": "Von nah nach fern: erst Vertrag, dann Delikt, dann Bereicherung.",
+    "quellen": [
+      "GrRe/LF, Kap. 3: Systematik der Anspruchsgrundlagen",
+      "BGB allg. Anspruchskonkurrenz"
+    ]
   },
   {
     "id": "fall-09",
     "typ": "input",
     "tag": "Rechtsfolge",
     "frage": "Welcher Teil einer Anspruchsgrundlage regelt, was passiert, wenn alle Tatbestandsmerkmale erfüllt sind?",
-    "korrekteAntworten": ["Die Rechtsfolge", "Rechtsfolgenregelung"],
+    "korrekteAntworten": [
+      "Die Rechtsfolge",
+      "Rechtsfolgenregelung"
+    ],
     "erklaerung": "Jede Anspruchsgrundlage besteht aus Tatbestand und Rechtsfolge.",
-    "esel": "Tatbestand = wenn; Rechtsfolge = dann."
+    "esel": "Tatbestand = wenn; Rechtsfolge = dann.",
+    "quellen": [
+      "GrRe/LF, Kap. 2: Wenn-dann-Struktur von Normen"
+    ]
   },
   {
     "id": "fall-10",
@@ -126,9 +165,12 @@
     ],
     "loesung": "Erfüllung, Aufrechnung, Rücktritt oder Anfechtung",
     "erklaerung": "Nach Entstehen fragt man, ob der Anspruch wieder untergegangen ist.",
-    "esel": "Erloschen = irgendwas ist dazwischen passiert."
+    "esel": "Erloschen = irgendwas ist dazwischen passiert.",
+    "quellen": [
+      "GrRe/LF, Kap. 4: Anspruch erloschen?",
+      "BGB §§ 362, 389, 323, 142"
+    ]
   },
-
   {
     "id": "fall-11",
     "typ": "mc",
@@ -142,7 +184,11 @@
     ],
     "loesung": "Einreden wie Verjährung oder Zurückbehaltungsrecht",
     "erklaerung": "Durchsetzbarkeit meint: Der Anspruch besteht noch, aber der Schuldner kann sich (temporär) wehren.",
-    "esel": "Er ist da, aber nicht holbar."
+    "esel": "Er ist da, aber nicht holbar.",
+    "quellen": [
+      "GrRe/LF, Kap. 4: Anspruch durchsetzbar?",
+      "BGB §§ 214, 273, 320"
+    ]
   },
   {
     "id": "fall-12",
@@ -155,7 +201,10 @@
       "Anspruch durchsetzbar"
     ],
     "erklaerung": "Das ist das Grundgerüst fast aller Zivilrechtsfälle.",
-    "esel": "3A: Alt – Weg – Holbar."
+    "esel": "3A: Alt – Weg – Holbar.",
+    "quellen": [
+      "GrRe/LF, Kap. 4: Juristischer Dreiklang"
+    ]
   },
   {
     "id": "fall-13",
@@ -170,7 +219,11 @@
     ],
     "loesung": "§ 433 II BGB",
     "erklaerung": "Beim Kauf schuldet der Käufer die Zahlung des Kaufpreises nach § 433 II BGB.",
-    "esel": "Kaufpreis = 433 II."
+    "esel": "Kaufpreis = 433 II.",
+    "quellen": [
+      "BGB § 433 Abs. 2",
+      "GrRe/LF, Kap. 4: Beispiel Kaufpreiszahlung"
+    ]
   },
   {
     "id": "fall-14",
@@ -185,7 +238,11 @@
     ],
     "loesung": "Wenn keine vertragliche Beziehung besteht",
     "erklaerung": "Delikt ist das Auffangbecken, wenn keine vertragliche Anspruchsgrundlage greift.",
-    "esel": "Kein Vertrag? Dann Delikt."
+    "esel": "Kein Vertrag? Dann Delikt.",
+    "quellen": [
+      "GrRe/LF, Kap. 3: Vertragliche vs. gesetzliche Ansprüche",
+      "BGB § 823 Abs. 1"
+    ]
   },
   {
     "id": "fall-15",
@@ -197,9 +254,12 @@
       "§ 812 Abs. 1 S. 1 1. Fall BGB"
     ],
     "erklaerung": "Wenn jemand etwas ohne Rechtsgrund erlangt hat, ist regelmäßig § 812 einschlägig.",
-    "esel": "Ohne Grund? 812."
+    "esel": "Ohne Grund? 812.",
+    "quellen": [
+      "BGB § 812 Abs. 1 S. 1 Alt. 1",
+      "GrRe/LF, Kap. 3: Gesetzliche Ansprüche"
+    ]
   },
-
   {
     "id": "fall-16",
     "typ": "mc",
@@ -213,7 +273,10 @@
     ],
     "loesung": "Weil im Studium der Begründungsweg bewertet wird",
     "erklaerung": "In Klausuren kommt es auf den Weg zum Ergebnis an, nicht nur auf das Ergebnis.",
-    "esel": "Weg zählt!"
+    "esel": "Weg zählt!",
+    "quellen": [
+      "GrRe/LF, Einleitung und Kap. 4"
+    ]
   },
   {
     "id": "fall-17",
@@ -224,7 +287,11 @@
       "Leistungsklage"
     ],
     "erklaerung": "Die Leistungsklage zielt auf ein Tun/Unterlassen.",
-    "esel": "Ich will was: Leistungsklage."
+    "esel": "Ich will was: Leistungsklage.",
+    "quellen": [
+      "ZPO §§ 253 ff.",
+      "Grundschema Zivilprozess"
+    ]
   },
   {
     "id": "fall-18",
@@ -239,7 +306,10 @@
     ],
     "loesung": "A könnte gegen B einen Anspruch auf Zahlung von 500 € aus § 433 II BGB haben.",
     "erklaerung": "So wird es in Klausuren formuliert.",
-    "esel": "A könnte gegen B … haben."
+    "esel": "A könnte gegen B … haben.",
+    "quellen": [
+      "GrRe/LF, Kap. 4: Formulierung des Obersatzes"
+    ]
   },
   {
     "id": "fall-19",
@@ -251,7 +321,11 @@
       "Der Kläger"
     ],
     "erklaerung": "Wer etwas will, muss es beweisen.",
-    "esel": "Willst du was – beweis es."
+    "esel": "Willst du was – beweis es.",
+    "quellen": [
+      "ZPO § 286",
+      "Allg. Beweislastgrundsatz"
+    ]
   },
   {
     "id": "fall-20",
@@ -266,9 +340,12 @@
     ],
     "loesung": "Die Einrede",
     "erklaerung": "Einreden lassen einen Anspruch bestehen, machen ihn aber (vorübergehend) undurchsetzbar.",
-    "esel": "Einrede = Stopp-Schild."
+    "esel": "Einrede = Stopp-Schild.",
+    "quellen": [
+      "BGB §§ 214, 273, 320",
+      "GrRe/LF, Kap. 4: Anspruch durchsetzbar?"
+    ]
   },
-
   {
     "id": "fall-21",
     "typ": "mc",
@@ -282,7 +359,11 @@
     ],
     "loesung": "Schuldverhältnis, Pflichtverletzung, Vertretenmüssen, Schaden",
     "erklaerung": "§ 280 I ist eine typische Anspruchsgrundlage, die in der Fallbearbeitung oft herangezogen wird.",
-    "esel": "§ 280 = SV + PV + VM + S"
+    "esel": "§ 280 = SV + PV + VM + S",
+    "quellen": [
+      "BGB § 280 Abs. 1",
+      "GrRe/LF, Kap. 3: Vertragliche und gesetzliche Ansprüche"
+    ]
   },
   {
     "id": "fall-22",
@@ -293,7 +374,11 @@
       "Aufrechnung"
     ],
     "erklaerung": "Durch Aufrechnung kann ein entstandener Anspruch wieder erlöschen.",
-    "esel": "Gegenseitig? Aufrechnen."
+    "esel": "Gegenseitig? Aufrechnen.",
+    "quellen": [
+      "BGB §§ 387 ff.",
+      "GrRe/LF, Kap. 4: Anspruch erloschen?"
+    ]
   },
   {
     "id": "fall-23",
@@ -308,7 +393,11 @@
     ],
     "loesung": "Sie gibt dem Schuldner eine dauerhafte Einrede in die Hand",
     "erklaerung": "Verjährung = Anspruch besteht, aber Schuldner muss nicht mehr leisten.",
-    "esel": "Verjährt? Dann wehren."
+    "esel": "Verjährt? Dann wehren.",
+    "quellen": [
+      "BGB §§ 194 ff., § 214",
+      "GrRe/LF, Kap. 4: Verjährung"
+    ]
   },
   {
     "id": "fall-24",
@@ -319,8 +408,11 @@
       "Es wird ohne Anspruchsgrundlage geprüft",
       "Es wird sofort das Ergebnis hingeschrieben"
     ],
-    "erklaerung": "Man darf nicht einfach 'ich denke, B muss zahlen' schreiben – erst die Norm, dann die Subsumtion.",
-    "esel": "Ohne Norm keine Note."
+    "erklaerung": "Man darf nicht einfach „ich denke, B muss zahlen“ schreiben – erst die Norm, dann die Subsumtion.",
+    "esel": "Ohne Norm keine Note.",
+    "quellen": [
+      "GrRe/LF, Einleitung und Kap. 3"
+    ]
   },
   {
     "id": "fall-25",
@@ -335,9 +427,11 @@
     ],
     "loesung": "Wer was von wem will",
     "erklaerung": "Das ist die juristische Leitfrage.",
-    "esel": "WWvW = Wer was von wem."
+    "esel": "WWvW = Wer was von wem.",
+    "quellen": [
+      "GrRe/LF, Kap. 3: 4-W-Frage"
+    ]
   },
-
   {
     "id": "fall-26",
     "typ": "input",
@@ -347,7 +441,10 @@
       "Gesetzliche Ansprüche"
     ],
     "erklaerung": "Deliktische, bereicherungsrechtliche und geschäftsführungsrechtliche Ansprüche sind gesetzliche.",
-    "esel": "Kein Vertrag? Gesetz."
+    "esel": "Kein Vertrag? Gesetz.",
+    "quellen": [
+      "GrRe/LF, Kap. 3: Vertragliche vs. gesetzliche Ansprüche"
+    ]
   },
   {
     "id": "fall-27",
@@ -362,7 +459,10 @@
     ],
     "loesung": "Um nichts zu vergessen",
     "erklaerung": "Eine feste Struktur schützt vor Punktverlusten.",
-    "esel": "Routine rettet Punkte."
+    "esel": "Routine rettet Punkte.",
+    "quellen": [
+      "GrRe/LF, Kap. 4: Konsequente Prüfung"
+    ]
   },
   {
     "id": "fall-28",
@@ -373,7 +473,11 @@
       "Gestaltungsklage"
     ],
     "erklaerung": "Beispiele: Ehescheidung, Anfechtung, Auflösung.",
-    "esel": "Gestalten = verändern."
+    "esel": "Gestalten = verändern.",
+    "quellen": [
+      "ZPO Systematik Klagearten",
+      "Grundlagen Zivilprozessrecht"
+    ]
   },
   {
     "id": "fall-29",
@@ -388,7 +492,10 @@
     ],
     "loesung": "Wenn nur festgestellt werden soll, ob ein Rechtsverhältnis besteht",
     "erklaerung": "§ 256 ZPO: Wer ein rechtliches Interesse an der baldigen Feststellung hat.",
-    "esel": "Nur wissen wollen = Feststellungsklage."
+    "esel": "Nur wissen wollen = Feststellungsklage.",
+    "quellen": [
+      "ZPO § 256"
+    ]
   },
   {
     "id": "fall-30",
@@ -402,7 +509,10 @@
       "wenn kein vertrag"
     ],
     "erklaerung": "Grundsatz: erst Vertrag (lex specialis), dann Delikt.",
-    "esel": "Erst Vertrag, dann Verletzung."
+    "esel": "Erst Vertrag, dann Verletzung.",
+    "quellen": [
+      "GrRe/LF, Kap. 3: Reihenfolge der Ansprüche"
+    ]
   },
   {
     "id": "fall-31",
@@ -417,7 +527,11 @@
     ],
     "loesung": "§ 683 i.V.m. § 670 BGB",
     "erklaerung": "Bei GoA kann ein Aufwendungsersatzanspruch entstehen.",
-    "esel": "GoA = 683, 670."
+    "esel": "GoA = 683, 670.",
+    "quellen": [
+      "BGB §§ 677 ff.",
+      "GrRe/LF, Kap. 3: Gesetzliche Ansprüche"
+    ]
   },
   {
     "id": "fall-32",
@@ -431,8 +545,11 @@
       "Alphabetisch"
     ],
     "loesung": "Vertraglich – vertragsähnlich – dinglich – deliktisch – bereicherungsrechtlich",
-    "erklaerung": "So verhindern wir Doppelansprüche und prüfen vom 'stärksten' zum 'schwächsten' Anspruch.",
-    "esel": "VVDDb – Vertrag vor Delikt."
+    "erklaerung": "So verhindern wir Doppelansprüche und prüfen vom „stärksten“ zum „schwächsten“ Anspruch.",
+    "esel": "VVDDb – Vertrag vor Delikt.",
+    "quellen": [
+      "GrRe/LF, Kap. 3: Systematik der Anspruchsgrundlagen (Schaubild)"
+    ]
   },
   {
     "id": "fall-33",
@@ -442,8 +559,12 @@
     "korrekteAntworten": [
       "Tenor"
     ],
-    "erklaerung": "Der Tenor ist das, was das Gericht 'ausspricht'.",
-    "esel": "Was steht vorne? Tenor."
+    "erklaerung": "Der Tenor ist das, was das Gericht ausspricht.",
+    "esel": "Was steht vorne? Tenor.",
+    "quellen": [
+      "ZPO §§ 300 ff.",
+      "Grundschema Urteil"
+    ]
   },
   {
     "id": "fall-34",
@@ -458,7 +579,10 @@
     ],
     "loesung": "Man verneint den Anspruch",
     "erklaerung": "Fehlt ein Merkmal, ist die Anspruchsgrundlage nicht erfüllt.",
-    "esel": "Ein Merkmal fehlt = Ende."
+    "esel": "Ein Merkmal fehlt = Ende.",
+    "quellen": [
+      "GrRe/LF, Kap. 4: Subsumtion"
+    ]
   },
   {
     "id": "fall-35",
@@ -470,9 +594,11 @@
       "ZPO"
     ],
     "erklaerung": "Materielles Recht: BGB, HGB; Formelles Recht: ZPO.",
-    "esel": "Prozess? ZPO."
+    "esel": "Prozess? ZPO.",
+    "quellen": [
+      "ZPO Einleitung"
+    ]
   },
-
   {
     "id": "fall-36",
     "typ": "mc",
@@ -486,7 +612,11 @@
     ],
     "loesung": "Dass die geltend gemachten Ansprüche bestehen",
     "erklaerung": "Begründet ist die Klage, wenn der materielle Anspruch besteht.",
-    "esel": "Begründet = Anspruch da."
+    "esel": "Begründet = Anspruch da.",
+    "quellen": [
+      "ZPO § 300",
+      "GrRe/LF, Kap. 4"
+    ]
   },
   {
     "id": "fall-37",
@@ -498,7 +628,11 @@
       "Zulässigkeit der Klage"
     ],
     "erklaerung": "Ohne Zulässigkeit keine Sachprüfung.",
-    "esel": "Zuerst: darf ich? Dann: hast du Recht?"
+    "esel": "Zuerst: darf ich? Dann: hast du Recht?",
+    "quellen": [
+      "ZPO §§ 253 ff.",
+      "Prozessuale Aufbauschemata"
+    ]
   },
   {
     "id": "fall-38",
@@ -512,8 +646,11 @@
       "§ 812 I 1 1. Fall BGB"
     ],
     "loesung": "§ 133 BGB",
-    "erklaerung": "§ 133 und § 157 BGB werden oft genannt.",
-    "esel": "Auslegen? 133."
+    "erklaerung": "§ 133 und § 157 BGB werden oft zusammen genannt.",
+    "esel": "Auslegen? 133.",
+    "quellen": [
+      "BGB §§ 133, 157"
+    ]
   },
   {
     "id": "fall-39",
@@ -528,7 +665,10 @@
     ],
     "loesung": "Beide prüfen und am Ende sagen, dass beide nebeneinander bestehen können",
     "erklaerung": "Ansprüche können konkurrieren.",
-    "esel": "Mehr Ansprüche = mehr Punkte."
+    "esel": "Mehr Ansprüche = mehr Punkte.",
+    "quellen": [
+      "GrRe/LF, Kap. 3: Beispiel für Anspruchskonkurrenz"
+    ]
   },
   {
     "id": "fall-40",
@@ -539,9 +679,11 @@
       "Subsumtion"
     ],
     "erklaerung": "Das ist das Kerngeschäft der Fallbearbeitung.",
-    "esel": "Subsumtion = Fall unter Paragraph."
+    "esel": "Subsumtion = Fall unter Paragraph.",
+    "quellen": [
+      "GrRe/LF, Kap. 4: Subsumtionstechnik"
+    ]
   },
-
   {
     "id": "fall-41",
     "typ": "input",
@@ -551,7 +693,10 @@
       "Rechtsgeschäft"
     ],
     "erklaerung": "Vertrag = zweiseitiges Rechtsgeschäft.",
-    "esel": "Willen + Wirkung = Rechtsgeschäft."
+    "esel": "Willen + Wirkung = Rechtsgeschäft.",
+    "quellen": [
+      "BGB AT, Rechtsgeschäftsbegriff"
+    ]
   },
   {
     "id": "fall-42",
@@ -566,7 +711,10 @@
     ],
     "loesung": "Sie muss immer schriftlich sein",
     "erklaerung": "Mündlich oder konkludent geht auch.",
-    "esel": "Nicht alles muss schriftlich sein."
+    "esel": "Nicht alles muss schriftlich sein.",
+    "quellen": [
+      "BGB §§ 116 ff."
+    ]
   },
   {
     "id": "fall-43",
@@ -580,8 +728,11 @@
       "Die Leistungspflicht verdoppelt sich"
     ],
     "loesung": "Das Rechtsgeschäft ist von Anfang an nichtig",
-    "erklaerung": "§ 142 BGB: Anfechtung = ex tunc.",
-    "esel": "Anfechtung macht es weg."
+    "erklaerung": "§ 142 BGB: Anfechtung wirkt ex tunc.",
+    "esel": "Anfechtung macht es weg.",
+    "quellen": [
+      "BGB §§ 119, 123, 142"
+    ]
   },
   {
     "id": "fall-44",
@@ -595,8 +746,11 @@
       "arglistige Täuschung",
       "widerrechtliche Drohung"
     ],
-    "erklaerung": "§§ 119, 123 BGB.",
-    "esel": "I E E T D – Irrtum oder Täuschung/Drohung."
+    "erklaerung": "Typische Anfechtungsgründe finden sich in §§ 119, 123 BGB.",
+    "esel": "I E E T D – Irrtum oder Täuschung/Drohung.",
+    "quellen": [
+      "BGB §§ 119, 120, 123"
+    ]
   },
   {
     "id": "fall-45",
@@ -610,8 +764,11 @@
       "Wenn der Gläubiger keine Lust mehr hat"
     ],
     "loesung": "Wenn er trotz Fälligkeit und Mahnung nicht leistet",
-    "erklaerung": "§ 286 BGB.",
-    "esel": "Fällig + Mahnung = Verzug."
+    "erklaerung": "§ 286 BGB regelt den Verzug.",
+    "esel": "Fällig + Mahnung = Verzug.",
+    "quellen": [
+      "BGB § 286"
+    ]
   },
   {
     "id": "fall-46",
@@ -622,8 +779,11 @@
       "Der Gläubiger kann die Leistung verlangen",
       "Die Leistung ist zu erbringen"
     ],
-    "erklaerung": "Fälligkeit = Leistungszeitpunkt.",
-    "esel": "Fällig = jetzt."
+    "erklaerung": "Fälligkeit bedeutet, dass der Schuldner ab diesem Zeitpunkt leisten muss.",
+    "esel": "Fällig = jetzt.",
+    "quellen": [
+      "BGB § 271"
+    ]
   },
   {
     "id": "fall-47",
@@ -638,7 +798,10 @@
     ],
     "loesung": "§ 254 BGB",
     "erklaerung": "Das gilt auch bei vertraglichen Schadensersatzansprüchen.",
-    "esel": "254 = selbst schuld."
+    "esel": "254 = selbst schuld.",
+    "quellen": [
+      "BGB § 254"
+    ]
   },
   {
     "id": "fall-48",
@@ -648,8 +811,12 @@
     "korrekteAntworten": [
       "Zurückbehaltungsrecht"
     ],
-    "erklaerung": "§ 273 BGB.",
-    "esel": "Du erst – dann ich."
+    "erklaerung": "§ 273 BGB gibt dem Schuldner ein Zurückbehaltungsrecht.",
+    "esel": "Du erst – dann ich.",
+    "quellen": [
+      "BGB § 273",
+      "BGB § 320"
+    ]
   },
   {
     "id": "fall-49",
@@ -663,8 +830,11 @@
       "§ 812 I 1 2. Fall BGB"
     ],
     "loesung": "§ 823 I BGB",
-    "erklaerung": "Typischer deliktischer Anspruch.",
-    "esel": "Kaputt ohne Vertrag = 823."
+    "erklaerung": "Das ist der typische deliktische Grundtatbestand.",
+    "esel": "Kaputt ohne Vertrag = 823.",
+    "quellen": [
+      "BGB § 823 Abs. 1"
+    ]
   },
   {
     "id": "fall-50",
@@ -675,10 +845,12 @@
       "Angebot",
       "Annahme"
     ],
-    "erklaerung": "§§ 145 ff. BGB.",
-    "esel": "A + A = V."
+    "erklaerung": "Vertragsschluss erfolgt durch zwei übereinstimmende Willenserklärungen: Angebot und Annahme.",
+    "esel": "A + A = V.",
+    "quellen": [
+      "BGB §§ 145 ff."
+    ]
   },
-
   {
     "id": "fall-51",
     "typ": "mc",
@@ -692,7 +864,10 @@
     ],
     "loesung": "Man prüft, ob sie für eine andere Anspruchsgrundlage relevant sein können",
     "erklaerung": "Oft verstecken sich dort Hinweise auf Delikt oder Bereicherung.",
-    "esel": "Nichts ist zufällig im SV."
+    "esel": "Nichts ist zufällig im SV.",
+    "quellen": [
+      "GrRe/LF, Kap. 1: Sachverhalt genau lesen"
+    ]
   },
   {
     "id": "fall-52",
@@ -702,8 +877,11 @@
     "korrekteAntworten": [
       "Vertragliche Ansprüche"
     ],
-    "erklaerung": "Bereicherungsrecht ist subsidiär.",
-    "esel": "Vertrag vor Bereicherung."
+    "erklaerung": "Bereicherungsrecht ist subsidiär gegenüber vertraglichen Ansprüchen.",
+    "esel": "Vertrag vor Bereicherung.",
+    "quellen": [
+      "GrRe/LF, Kap. 3: Systematik"
+    ]
   },
   {
     "id": "fall-53",
@@ -717,8 +895,12 @@
       "Rücktritt"
     ],
     "loesung": "Schuldverhältnis",
-    "erklaerung": "§ 241 BGB.",
-    "esel": "Schuldverhältnis = Dach."
+    "erklaerung": "§ 241 BGB definiert das Schuldverhältnis als Rechtsbeziehung, aus der sich Leistungspflichten ergeben.",
+    "esel": "Schuldverhältnis = Dach.",
+    "quellen": [
+      "BGB § 241",
+      "BGB § 311"
+    ]
   },
   {
     "id": "fall-54",
@@ -729,8 +911,11 @@
       "culpa in contrahendo",
       "c.i.c."
     ],
-    "erklaerung": "§ 311 II, § 241 II BGB.",
-    "esel": "Vor dem Vertrag schon Pflichten."
+    "erklaerung": "Vorvertragliche Pflichten entstehen aus § 311 II, § 241 II BGB.",
+    "esel": "Vor dem Vertrag schon Pflichten.",
+    "quellen": [
+      "BGB §§ 311 II, 241 II"
+    ]
   },
   {
     "id": "fall-55",
@@ -744,8 +929,11 @@
       "Nur bei Strafrecht"
     ],
     "loesung": "Nur bei unproblematischen Punkten oder am Ende",
-    "erklaerung": "Hauptsache Begründungsweg bleibt sichtbar.",
-    "esel": "Problem = ausformulieren."
+    "erklaerung": "Hauptsache, der Begründungsweg bleibt sichtbar.",
+    "esel": "Problem = ausformulieren.",
+    "quellen": [
+      "GrRe/LF, Kap. 4"
+    ]
   },
   {
     "id": "fall-56",
@@ -755,8 +943,11 @@
     "korrekteAntworten": [
       "§ 985 BGB"
     ],
-    "erklaerung": "Der dingliche Herausgabeanspruch.",
-    "esel": "Eigentum + Besitz? 985."
+    "erklaerung": "§ 985 BGB gibt dem Eigentümer einen Herausgabeanspruch gegen den Besitzer.",
+    "esel": "Eigentum + Besitz? 985.",
+    "quellen": [
+      "BGB § 985"
+    ]
   },
   {
     "id": "fall-57",
@@ -770,8 +961,11 @@
       "Sie sind immer widerruflich"
     ],
     "loesung": "Sie verändern die Rechtslage durch einseitige Erklärung",
-    "erklaerung": "Beispiele: Rücktritt, Anfechtung, Kündigung.",
-    "esel": "Ein Satz – neue Lage."
+    "erklaerung": "Beispiele: Rücktritt, Kündigung, Anfechtung.",
+    "esel": "Ein Satz – neue Lage.",
+    "quellen": [
+      "BGB §§ 142, 323, 346, 349"
+    ]
   },
   {
     "id": "fall-58",
@@ -782,8 +976,11 @@
       "Jede unfreiwillige Einbuße an rechtlich geschützten Gütern",
       "Vermögenseinbuße"
     ],
-    "erklaerung": "Je nach Anspruch kann eine genauere Definition nötig sein.",
-    "esel": "Schaden = weniger als vorher."
+    "erklaerung": "Der Schaden bemisst sich nach der Differenzhypothese.",
+    "esel": "Schaden = weniger als vorher.",
+    "quellen": [
+      "BGB §§ 249 ff."
+    ]
   },
   {
     "id": "fall-59",
@@ -798,7 +995,11 @@
     ],
     "loesung": "Zuerst die Haftungsbegründung",
     "erklaerung": "Erst muss feststehen, dass überhaupt gehaftet wird.",
-    "esel": "Erst ob – dann wie viel."
+    "esel": "Erst ob – dann wie viel.",
+    "quellen": [
+      "Allg. Schadensersatzrecht",
+      "BGB §§ 249 ff."
+    ]
   },
   {
     "id": "fall-60",
@@ -810,10 +1011,12 @@
       "anteilig",
       "minderung"
     ],
-    "erklaerung": "§ 254 BGB: Anspruch wird gekürzt.",
-    "esel": "Selbst schuld = weniger Geld."
+    "erklaerung": "§ 254 BGB: Der Anspruch wird entsprechend der Mitverantwortung gekürzt.",
+    "esel": "Selbst schuld = weniger Geld.",
+    "quellen": [
+      "BGB § 254"
+    ]
   },
-
   {
     "id": "fall-61",
     "typ": "mc",
@@ -827,7 +1030,12 @@
     ],
     "loesung": "Pfandrecht, Bürgschaft, Zurückbehaltungsrecht",
     "erklaerung": "Sicherheiten können die Durchsetzbarkeit beeinflussen.",
-    "esel": "Sicher = Pfand oder Bürge."
+    "esel": "Sicher = Pfand oder Bürge.",
+    "quellen": [
+      "BGB §§ 1204 ff.",
+      "BGB §§ 765 ff.",
+      "BGB § 273"
+    ]
   },
   {
     "id": "fall-62",
@@ -837,8 +1045,11 @@
     "korrekteAntworten": [
       "Einwendungen"
     ],
-    "erklaerung": "Einwendungen: Anspruch entsteht nicht oder geht unter.",
-    "esel": "Ein-wendung: wirkt auf den Anspruch ein."
+    "erklaerung": "Einwendungen bewirken, dass der Anspruch nicht entsteht oder wieder untergeht.",
+    "esel": "Ein-wendung: wirkt auf den Anspruch ein.",
+    "quellen": [
+      "BGB AT – Einwendungen und Einreden"
+    ]
   },
   {
     "id": "fall-63",
@@ -852,8 +1063,12 @@
       "Einwendungen gelten nur bei Verträgen"
     ],
     "loesung": "Einreden müssen geltend gemacht werden, Einwendungen gelten von Amts wegen",
-    "erklaerung": "Das ist wichtig beim Punkt 'Anspruch durchsetzbar'.",
-    "esel": "Einrede = aktiv, Einwendung = automatisch."
+    "erklaerung": "Das ist wichtig beim Punkt „Anspruch durchsetzbar“.",
+    "esel": "Einrede = aktiv, Einwendung = automatisch.",
+    "quellen": [
+      "BGB § 214",
+      "Allg. Anspruchssystematik"
+    ]
   },
   {
     "id": "fall-64",
@@ -863,8 +1078,11 @@
     "korrekteAntworten": [
       "Verzögerungsschaden"
     ],
-    "erklaerung": "§ 280 II, § 286 BGB.",
-    "esel": "Zu spät = Verzugsschaden."
+    "erklaerung": "§ 280 II i. V. m. § 286 BGB.",
+    "esel": "Zu spät = Verzugsschaden.",
+    "quellen": [
+      "BGB §§ 280 II, 286"
+    ]
   },
   {
     "id": "fall-65",
@@ -878,8 +1096,11 @@
       "Eintrag im Handelsregister"
     ],
     "loesung": "Hinweis, Möglichkeit der Kenntnisnahme, Einverständnis",
-    "erklaerung": "§ 305 II BGB.",
-    "esel": "Hinweis + lesen können + ok."
+    "erklaerung": "§ 305 II BGB regelt die Einbeziehung von AGB.",
+    "esel": "Hinweis + lesen können + ok.",
+    "quellen": [
+      "BGB § 305 Abs. 2"
+    ]
   },
   {
     "id": "fall-66",
@@ -890,8 +1111,11 @@
       "Anspruchskonkurrenz",
       "Anspruchskumulation"
     ],
-    "erklaerung": "Oft: vertraglich + deliktisch + Bereicherung.",
-    "esel": "Mehr Wege – gleiche Richtung."
+    "erklaerung": "Oft liegt Anspruchskonkurrenz vor: vertraglich + deliktisch + Bereicherung.",
+    "esel": "Mehr Wege – gleiche Richtung.",
+    "quellen": [
+      "GrRe/LF, Kap. 3: Anspruchskonkurrenz"
+    ]
   },
   {
     "id": "fall-67",
@@ -905,8 +1129,11 @@
       "Anwendung auf den Sachverhalt"
     ],
     "loesung": "Reines Abschreiben des Gesetzestextes ohne Bezug zum Sachverhalt",
-    "erklaerung": "Subsumtion muss Bezug zum SV haben.",
-    "esel": "Paragraph runterbeten reicht nicht."
+    "erklaerung": "Subsumtion muss immer zum Fall passen.",
+    "esel": "Paragraph runterbeten reicht nicht.",
+    "quellen": [
+      "GrRe/LF, Kap. 4: Subsumtionstechnik"
+    ]
   },
   {
     "id": "fall-68",
@@ -916,8 +1143,12 @@
     "korrekteAntworten": [
       "Der Beklagte wird verurteilt, an den Kläger ... zu zahlen."
     ],
-    "erklaerung": "Das ist Standardform.",
-    "esel": "Verurteilt zu zahlen."
+    "erklaerung": "Das ist die klassische Tenorformel im Zivilurteil.",
+    "esel": "Verurteilt zu zahlen.",
+    "quellen": [
+      "ZPO § 313",
+      "Musterurteile ZPO"
+    ]
   },
   {
     "id": "fall-69",
@@ -931,8 +1162,11 @@
       "Anzeige bei der Polizei"
     ],
     "loesung": "Berufung",
-    "erklaerung": "ZPO sieht verschiedene Rechtsmittel vor.",
-    "esel": "Unzufrieden? Berufung."
+    "erklaerung": "Die Berufung ist das typische Rechtsmittel gegen Urteile erster Instanz.",
+    "esel": "Unzufrieden? Berufung.",
+    "quellen": [
+      "ZPO §§ 511 ff."
+    ]
   },
   {
     "id": "fall-70",
@@ -943,6 +1177,9 @@
       "A könnte gegen B einen Anspruch aus ... BGB haben."
     ],
     "erklaerung": "Mit diesem Obersatz kommst du immer wieder in den Prüfungsaufbau zurück.",
-    "esel": "A könnte gegen B … haben."
+    "esel": "A könnte gegen B … haben.",
+    "quellen": [
+      "GrRe/LF, Kap. 4: Obersatz als Einstieg"
+    ]
   }
 ]
