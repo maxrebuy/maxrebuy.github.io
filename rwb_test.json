@@ -1,0 +1,3639 @@
+[
+  {
+    "id": "rwbq01-001",
+    "typ": "mc",
+    "tag": "Rechtsordnung",
+    "fall": "Im Kiosk hängt ein Schild 'Kein Verkauf von Alkohol an Jugendliche unter 18'. Was beschreibt eine Rechtsnorm grundsätzlich?",
+    "frage": "Im Kiosk hängt ein Schild 'Kein Verkauf von Alkohol an Jugendliche unter 18'. Was beschreibt eine Rechtsnorm grundsätzlich?",
+    "optionen": [
+      "Allgemein verbindliche Regel mit Sanktionsandrohung",
+      "Unverbindlicher Vorschlag",
+      "Nur moralische Empfehlung",
+      "Nur betriebliche Anweisung"
+    ],
+    "loesung": "Allgemein verbindliche Regel mit Sanktionsandrohung",
+    "erklaerung": "Rechtsnormen sind generelle Verhaltensregeln mit staatlicher Durchsetzung.",
+    "esel": "Norm = Regel + Sanktion",
+    "quelle": {
+      "kapitel": "1 Rechtsordnung und Einführung in das BGB",
+      "seite": "3–12"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-002",
+    "typ": "mc",
+    "tag": "Rechtsordnung",
+    "fall": "Die Stadt erhebt Parkgebühren. Welche Rechtsmaterie ist typischerweise betroffen?",
+    "frage": "Die Stadt erhebt Parkgebühren. Welche Rechtsmaterie ist typischerweise betroffen?",
+    "optionen": [
+      "Öffentliches Recht",
+      "Privates Recht",
+      "Kirchenrecht",
+      "Internationales Strafrecht"
+    ],
+    "loesung": "Öffentliches Recht",
+    "erklaerung": "Hoheitliches Handeln des Staates fällt ins öffentliche Recht.",
+    "esel": "Staat hoheitlich = öffentlich",
+    "quelle": {
+      "kapitel": "1 Rechtsordnung und Einführung in das BGB",
+      "seite": "3–12"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-003",
+    "typ": "mc",
+    "tag": "Rechtsordnung",
+    "fall": "Zwei Nachbarn streiten um eine Hecke. Welche Rechtsmaterie?",
+    "frage": "Zwei Nachbarn streiten um eine Hecke. Welche Rechtsmaterie?",
+    "optionen": [
+      "Privates Recht",
+      "Öffentliches Recht",
+      "Strafprozessrecht",
+      "Europarecht"
+    ],
+    "loesung": "Privates Recht",
+    "erklaerung": "Streit zwischen Rechtsgleichen ist typischerweise Privatrecht.",
+    "esel": "Privat = Gleichordnung",
+    "quelle": {
+      "kapitel": "1 Rechtsordnung und Einführung in das BGB",
+      "seite": "3–12"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-004",
+    "typ": "mc",
+    "tag": "Rechtsordnung",
+    "fall": "Max verlangt von Tim die Lieferung. Wie heißt dieses 'Verlangen-Dürfen'?",
+    "frage": "Max verlangt von Tim die Lieferung. Wie heißt dieses 'Verlangen-Dürfen'?",
+    "optionen": [
+      "Subjektives Recht",
+      "Objektives Recht",
+      "Formelles Recht",
+      "Sachenrecht"
+    ],
+    "loesung": "Subjektives Recht",
+    "erklaerung": "Objektives Recht ist die Gesamtheit der Normen; subjektives Recht ist die dem Einzelnen gewährte Befugnis.",
+    "esel": "Subjektiv = dein Recht",
+    "quelle": {
+      "kapitel": "1 Rechtsordnung und Einführung in das BGB",
+      "seite": "3–12"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-005",
+    "typ": "mc",
+    "tag": "Rechtsordnung",
+    "fall": "Eigentum wirkt gegenüber jedem. Welche Rechtsart ist das?",
+    "frage": "Eigentum wirkt gegenüber jedem. Welche Rechtsart ist das?",
+    "optionen": [
+      "Absolutes Recht",
+      "Relatives Recht",
+      "Formelles Recht",
+      "Gestaltungsrecht"
+    ],
+    "loesung": "Absolutes Recht",
+    "erklaerung": "Absolute Rechte wirken erga omnes, relative nur zwischen bestimmten Personen.",
+    "esel": "Absolut = gegen alle",
+    "quelle": {
+      "kapitel": "1 Rechtsordnung und Einführung in das BGB",
+      "seite": "3–12"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-006",
+    "typ": "mc",
+    "tag": "Rechtsordnung",
+    "fall": "Im Mietrecht ist eine Klausel zulasten des Mieters strenger als das Gesetz. Was gilt?",
+    "frage": "Im Mietrecht ist eine Klausel zulasten des Mieters strenger als das Gesetz. Was gilt?",
+    "optionen": [
+      "Zwingendes Recht verdrängt die Abrede",
+      "Vertrag geht immer vor",
+      "Richter kann nicht prüfen",
+      "Klausel gilt nur bei Kaufleuten"
+    ],
+    "loesung": "Zwingendes Recht verdrängt die Abrede",
+    "erklaerung": "Zwingende Normen sind nicht abänderbar.",
+    "esel": "Zwingend = unverschiebbar",
+    "quelle": {
+      "kapitel": "1 Rechtsordnung und Einführung in das BGB",
+      "seite": "3–12"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-007",
+    "typ": "input",
+    "tag": "Rechtsordnung",
+    "fall": "Bei einem Streit zwischen Bürger A und Bürgerin B wird ein Zivilgericht angerufen.",
+    "frage": "Nenne die beiden großen Bereiche der Rechtsordnung, zwischen denen hier abgegrenzt wird.?",
+    "erklaerung": "Abgrenzung nach Subordination (öffentlich) vs. Gleichordnung (privat).",
+    "esel": "ÖR vs. PR merken.",
+    "quelle": {
+      "kapitel": "1 Rechtsordnung und Einführung in das BGB",
+      "seite": "3–12"
+    },
+    "schwierigkeit": "leicht",
+    "korrekteAntworten": [
+      "öffentliches recht",
+      "privates recht"
+    ]
+  },
+  {
+    "id": "rwbq01-008",
+    "typ": "input",
+    "tag": "Rechtsnormen",
+    "fall": "Eine Hausordnung verpflichtet alle Mieter zu Ruhezeiten. Was kennzeichnet Rechtsnormen knapp?",
+    "frage": "Formuliere zwei Kernelemente von Rechtsnormen.?",
+    "erklaerung": "Generell-abstrakt + Durchsetzbarkeit durch den Staat.",
+    "esel": "Regel + Staat.",
+    "quelle": {
+      "kapitel": "1 Rechtsordnung und Einführung in das BGB",
+      "seite": "3–12"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "generelle regelung",
+      "staatliche sanktionierbarkeit"
+    ]
+  },
+  {
+    "id": "rwbq01-009",
+    "typ": "mc",
+    "tag": "Abgrenzung",
+    "fall": "Eine Baugenehmigung wird versagt. Gegen wen richtet sich der Rechtsschutz?",
+    "frage": "Handelt es sich eher um öffentliches oder privates Recht?",
+    "optionen": [
+      "Öffentliches Recht (Über-/Unterordnung)",
+      "Privates Recht (Gleichordnung)",
+      "Kirchenrecht",
+      "Urheberrecht"
+    ],
+    "loesung": "Öffentliches Recht (Über-/Unterordnung)",
+    "erklaerung": "Hoheitliches Verwaltungshandeln ist öffentlich-rechtlich.",
+    "esel": "Über-/Unterordnung = ÖR",
+    "quelle": {
+      "kapitel": "1 Rechtsordnung und Einführung in das BGB",
+      "seite": "3–12"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-010",
+    "typ": "input",
+    "tag": "Subjektive Rechte",
+    "fall": "Unternehmer U will von K Zahlung. Wie nennt man die konkrete rechtliche Befugnis von U gegenüber K?",
+    "frage": "Begriffe nennen.?",
+    "erklaerung": "Der Anspruch ist das Recht, von einem anderen ein Tun/Unterlassen zu verlangen (§ 194 BGB).",
+    "esel": "Anspruch = Tun/Unterlassen.",
+    "quelle": {
+      "kapitel": "1 Rechtsordnung und Einführung in das BGB",
+      "seite": "3–12"
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "anspruch",
+      "subjektives recht"
+    ]
+  },
+  {
+    "id": "rwbq01-011",
+    "typ": "mc",
+    "tag": "Rechtsquellen",
+    "fall": "Bundesgesetz vs. Landesgesetz – Normenkollision.",
+    "frage": "Ein Landesgesetz widerspricht einem Bundesgesetz. Was gilt im Zweifel?",
+    "optionen": [
+      "Bundesrecht bricht Landesrecht (Art. 31 GG)",
+      "Landesrecht geht vor",
+      "Beides nicht anwendbar",
+      "Richter wählt frei"
+    ],
+    "loesung": "Bundesrecht bricht Landesrecht (Art. 31 GG)",
+    "erklaerung": "Rangordnung der Normen; Kollisionsregel Art. 31 GG.",
+    "esel": "31 GG merken.",
+    "quelle": {
+      "kapitel": "1 Rechtsordnung und Einführung in das BGB",
+      "seite": "3–12"
+    },
+    "schwierigkeit": "schwer"
+  },
+  {
+    "id": "rwbq01-012",
+    "typ": "input",
+    "tag": "Rechtsfortbildung",
+    "fall": "Ein Gesetz ist lückenhaft. Welche Instrumente nutzt die Rechtsanwendung typischerweise zur Schließung?",
+    "frage": "Nenne zwei.?",
+    "erklaerung": "Gerichte arbeiten mit Auslegung, Analogie, teleologischer Reduktion.",
+    "esel": "Lücke? Analogie.",
+    "quelle": {
+      "kapitel": "1 Rechtsordnung und Einführung in das BGB",
+      "seite": "3–12"
+    },
+    "schwierigkeit": "schwer",
+    "schluesselwoerter": [
+      "analogie",
+      "teleologische reduktion"
+    ]
+  },
+  {
+    "id": "rwbq01-013",
+    "typ": "input",
+    "tag": "Personen/Sachen",
+    "fall": "Rechtsfähigkeit ab Geburt.",
+    "frage": "Ab wann sind natürliche Personen rechtsfähig?",
+    "erklaerung": "Rechtsfähigkeit beginnt mit der Geburt (§ 1 BGB).",
+    "esel": "Geburt = Start.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "13–22"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "von geburt an"
+    ]
+  },
+  {
+    "id": "rwbq01-014",
+    "typ": "input",
+    "tag": "Personen/Sachen",
+    "fall": "§ 90 BGB – Sache.",
+    "frage": "Was ist eine 'Sache' im Sinne des § 90 BGB?",
+    "erklaerung": "Sachen sind körperliche Gegenstände.",
+    "esel": "90 = Sache.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "13–22"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "körperlicher gegenstand"
+    ]
+  },
+  {
+    "id": "rwbq01-015",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "Zugang – Briefkasten.",
+    "frage": "Wann geht ein Brief grundsätzlich zu?",
+    "erklaerung": "Zugang unter Abwesenden: Machtbereich + Möglichkeit.",
+    "esel": "Briefkastenregel.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "bei möglichkeit der kenntnisnahme"
+    ]
+  },
+  {
+    "id": "rwbq01-016",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 133/157 – Auslegung.",
+    "frage": "Nenne die zwei zentralen Auslegungsnormen.?",
+    "erklaerung": "Auslegung nach wirklichem Willen und Treu und Glauben.",
+    "esel": "133/157.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "§ 133 bgb",
+      "§ 157 bgb"
+    ]
+  },
+  {
+    "id": "rwbq01-017",
+    "typ": "input",
+    "tag": "Vertragsschluss",
+    "fall": "§ 145 – Bindung.",
+    "frage": "Was bedeutet die Bindung an den Antrag?",
+    "erklaerung": "Anbieter ist bis Frist gebunden.",
+    "esel": "145 = bindet.",
+    "quelle": {
+      "kapitel": "4 Allgemeines Vertragsrecht – Vertragsschluss",
+      "seite": "48 (Angebot/Annahme §§145 ff.)"
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "antragsbindung bis frist"
+    ]
+  },
+  {
+    "id": "rwbq01-018",
+    "typ": "input",
+    "tag": "Vertragsschluss",
+    "fall": "§ 150 I – verspätete Annahme.",
+    "frage": "Rechtsfolge verspäteter Annahme?",
+    "erklaerung": "§ 150 I BGB.",
+    "esel": "150 I = neu.",
+    "quelle": {
+      "kapitel": "4 Allgemeines Vertragsrecht – Vertragsschluss",
+      "seite": "48 (Angebot/Annahme §§145 ff.)"
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "gilt als neuer antrag"
+    ]
+  },
+  {
+    "id": "rwbq01-019",
+    "typ": "input",
+    "tag": "Verjährung",
+    "fall": "§ 195 – 3 Jahre.",
+    "frage": "Wie lange ist die regelmäßige Verjährung?",
+    "erklaerung": "§ 195 BGB.",
+    "esel": "195=3.",
+    "quelle": {
+      "kapitel": "5 Besondere rechtsgeschäftliche Inhalte, Fristen, Termine und Verjährung",
+      "seite": "67 ff."
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "drei jahre"
+    ]
+  },
+  {
+    "id": "rwbq01-020",
+    "typ": "input",
+    "tag": "Verjährung",
+    "fall": "§ 199 I – Jahresende.",
+    "frage": "Wann beginnt die Frist?",
+    "erklaerung": "§ 199 I BGB.",
+    "esel": "Jahresende.",
+    "quelle": {
+      "kapitel": "5 Besondere rechtsgeschäftliche Inhalte, Fristen, Termine und Verjährung",
+      "seite": "67 ff."
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "mit schluss des jahres"
+    ]
+  },
+  {
+    "id": "rwbq01-021",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 121 – unverzüglich.",
+    "frage": "Frist bei Irrtumsanfechtung nach Kenntnis?",
+    "erklaerung": "§ 121 BGB.",
+    "esel": "Sofort!",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "schwer",
+    "schluesselwoerter": [
+      "unverzüglich"
+    ]
+  },
+  {
+    "id": "rwbq01-022",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 122 – Vertrauensschaden.",
+    "frage": "Welche Ersatzpflicht kann entstehen?",
+    "erklaerung": "§ 122 BGB.",
+    "esel": "122 = Vertrauen.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "schwer",
+    "schluesselwoerter": [
+      "negatives interesse",
+      "vertrauensschaden"
+    ]
+  },
+  {
+    "id": "rwbq01-023",
+    "typ": "input",
+    "tag": "Personen/Sachen",
+    "fall": "Rechtsfähigkeit ab Geburt.",
+    "frage": "Ab wann sind natürliche Personen rechtsfähig?",
+    "erklaerung": "Rechtsfähigkeit beginnt mit der Geburt (§ 1 BGB).",
+    "esel": "Geburt = Start.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "13–22"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "von geburt an"
+    ]
+  },
+  {
+    "id": "rwbq01-024",
+    "typ": "input",
+    "tag": "Personen/Sachen",
+    "fall": "§ 90 BGB – Sache.",
+    "frage": "Was ist eine 'Sache' im Sinne des § 90 BGB?",
+    "erklaerung": "Sachen sind körperliche Gegenstände.",
+    "esel": "90 = Sache.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "13–22"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "körperlicher gegenstand"
+    ]
+  },
+  {
+    "id": "rwbq01-025",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "Zugang – Briefkasten.",
+    "frage": "Wann geht ein Brief grundsätzlich zu?",
+    "erklaerung": "Zugang unter Abwesenden: Machtbereich + Möglichkeit.",
+    "esel": "Briefkastenregel.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "bei möglichkeit der kenntnisnahme"
+    ]
+  },
+  {
+    "id": "rwbq01-026",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 133/157 – Auslegung.",
+    "frage": "Nenne die zwei zentralen Auslegungsnormen.?",
+    "erklaerung": "Auslegung nach wirklichem Willen und Treu und Glauben.",
+    "esel": "133/157.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "§ 133 bgb",
+      "§ 157 bgb"
+    ]
+  },
+  {
+    "id": "rwbq01-027",
+    "typ": "input",
+    "tag": "Vertragsschluss",
+    "fall": "§ 145 – Bindung.",
+    "frage": "Was bedeutet die Bindung an den Antrag?",
+    "erklaerung": "Anbieter ist bis Frist gebunden.",
+    "esel": "145 = bindet.",
+    "quelle": {
+      "kapitel": "4 Allgemeines Vertragsrecht – Vertragsschluss",
+      "seite": "48 (Angebot/Annahme §§145 ff.)"
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "antragsbindung bis frist"
+    ]
+  },
+  {
+    "id": "rwbq01-028",
+    "typ": "input",
+    "tag": "Vertragsschluss",
+    "fall": "§ 150 I – verspätete Annahme.",
+    "frage": "Rechtsfolge verspäteter Annahme?",
+    "erklaerung": "§ 150 I BGB.",
+    "esel": "150 I = neu.",
+    "quelle": {
+      "kapitel": "4 Allgemeines Vertragsrecht – Vertragsschluss",
+      "seite": "48 (Angebot/Annahme §§145 ff.)"
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "gilt als neuer antrag"
+    ]
+  },
+  {
+    "id": "rwbq01-029",
+    "typ": "input",
+    "tag": "Verjährung",
+    "fall": "§ 195 – 3 Jahre.",
+    "frage": "Wie lange ist die regelmäßige Verjährung?",
+    "erklaerung": "§ 195 BGB.",
+    "esel": "195=3.",
+    "quelle": {
+      "kapitel": "5 Besondere rechtsgeschäftliche Inhalte, Fristen, Termine und Verjährung",
+      "seite": "67 ff."
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "drei jahre"
+    ]
+  },
+  {
+    "id": "rwbq01-030",
+    "typ": "input",
+    "tag": "Verjährung",
+    "fall": "§ 199 I – Jahresende.",
+    "frage": "Wann beginnt die Frist?",
+    "erklaerung": "§ 199 I BGB.",
+    "esel": "Jahresende.",
+    "quelle": {
+      "kapitel": "5 Besondere rechtsgeschäftliche Inhalte, Fristen, Termine und Verjährung",
+      "seite": "67 ff."
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "mit schluss des jahres"
+    ]
+  },
+  {
+    "id": "rwbq01-031",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 121 – unverzüglich.",
+    "frage": "Frist bei Irrtumsanfechtung nach Kenntnis?",
+    "erklaerung": "§ 121 BGB.",
+    "esel": "Sofort!",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "schwer",
+    "schluesselwoerter": [
+      "unverzüglich"
+    ]
+  },
+  {
+    "id": "rwbq01-032",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 122 – Vertrauensschaden.",
+    "frage": "Welche Ersatzpflicht kann entstehen?",
+    "erklaerung": "§ 122 BGB.",
+    "esel": "122 = Vertrauen.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "schwer",
+    "schluesselwoerter": [
+      "negatives interesse",
+      "vertrauensschaden"
+    ]
+  },
+  {
+    "id": "rwbq01-033",
+    "typ": "input",
+    "tag": "Personen/Sachen",
+    "fall": "Rechtsfähigkeit ab Geburt.",
+    "frage": "Ab wann sind natürliche Personen rechtsfähig?",
+    "erklaerung": "Rechtsfähigkeit beginnt mit der Geburt (§ 1 BGB).",
+    "esel": "Geburt = Start.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "13–22"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "von geburt an"
+    ]
+  },
+  {
+    "id": "rwbq01-034",
+    "typ": "input",
+    "tag": "Personen/Sachen",
+    "fall": "§ 90 BGB – Sache.",
+    "frage": "Was ist eine 'Sache' im Sinne des § 90 BGB?",
+    "erklaerung": "Sachen sind körperliche Gegenstände.",
+    "esel": "90 = Sache.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "13–22"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "körperlicher gegenstand"
+    ]
+  },
+  {
+    "id": "rwbq01-035",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "Zugang – Briefkasten.",
+    "frage": "Wann geht ein Brief grundsätzlich zu?",
+    "erklaerung": "Zugang unter Abwesenden: Machtbereich + Möglichkeit.",
+    "esel": "Briefkastenregel.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "bei möglichkeit der kenntnisnahme"
+    ]
+  },
+  {
+    "id": "rwbq01-036",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 133/157 – Auslegung.",
+    "frage": "Nenne die zwei zentralen Auslegungsnormen.?",
+    "erklaerung": "Auslegung nach wirklichem Willen und Treu und Glauben.",
+    "esel": "133/157.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "§ 133 bgb",
+      "§ 157 bgb"
+    ]
+  },
+  {
+    "id": "rwbq01-037",
+    "typ": "input",
+    "tag": "Vertragsschluss",
+    "fall": "§ 145 – Bindung.",
+    "frage": "Was bedeutet die Bindung an den Antrag?",
+    "erklaerung": "Anbieter ist bis Frist gebunden.",
+    "esel": "145 = bindet.",
+    "quelle": {
+      "kapitel": "4 Allgemeines Vertragsrecht – Vertragsschluss",
+      "seite": "48 (Angebot/Annahme §§145 ff.)"
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "antragsbindung bis frist"
+    ]
+  },
+  {
+    "id": "rwbq01-038",
+    "typ": "input",
+    "tag": "Vertragsschluss",
+    "fall": "§ 150 I – verspätete Annahme.",
+    "frage": "Rechtsfolge verspäteter Annahme?",
+    "erklaerung": "§ 150 I BGB.",
+    "esel": "150 I = neu.",
+    "quelle": {
+      "kapitel": "4 Allgemeines Vertragsrecht – Vertragsschluss",
+      "seite": "48 (Angebot/Annahme §§145 ff.)"
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "gilt als neuer antrag"
+    ]
+  },
+  {
+    "id": "rwbq01-039",
+    "typ": "input",
+    "tag": "Verjährung",
+    "fall": "§ 195 – 3 Jahre.",
+    "frage": "Wie lange ist die regelmäßige Verjährung?",
+    "erklaerung": "§ 195 BGB.",
+    "esel": "195=3.",
+    "quelle": {
+      "kapitel": "5 Besondere rechtsgeschäftliche Inhalte, Fristen, Termine und Verjährung",
+      "seite": "67 ff."
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "drei jahre"
+    ]
+  },
+  {
+    "id": "rwbq01-040",
+    "typ": "input",
+    "tag": "Verjährung",
+    "fall": "§ 199 I – Jahresende.",
+    "frage": "Wann beginnt die Frist?",
+    "erklaerung": "§ 199 I BGB.",
+    "esel": "Jahresende.",
+    "quelle": {
+      "kapitel": "5 Besondere rechtsgeschäftliche Inhalte, Fristen, Termine und Verjährung",
+      "seite": "67 ff."
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "mit schluss des jahres"
+    ]
+  },
+  {
+    "id": "rwbq01-041",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 121 – unverzüglich.",
+    "frage": "Frist bei Irrtumsanfechtung nach Kenntnis?",
+    "erklaerung": "§ 121 BGB.",
+    "esel": "Sofort!",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "schwer",
+    "schluesselwoerter": [
+      "unverzüglich"
+    ]
+  },
+  {
+    "id": "rwbq01-042",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 122 – Vertrauensschaden.",
+    "frage": "Welche Ersatzpflicht kann entstehen?",
+    "erklaerung": "§ 122 BGB.",
+    "esel": "122 = Vertrauen.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "schwer",
+    "schluesselwoerter": [
+      "negatives interesse",
+      "vertrauensschaden"
+    ]
+  },
+  {
+    "id": "rwbq01-043",
+    "typ": "input",
+    "tag": "Personen/Sachen",
+    "fall": "Rechtsfähigkeit ab Geburt.",
+    "frage": "Ab wann sind natürliche Personen rechtsfähig?",
+    "erklaerung": "Rechtsfähigkeit beginnt mit der Geburt (§ 1 BGB).",
+    "esel": "Geburt = Start.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "13–22"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "von geburt an"
+    ]
+  },
+  {
+    "id": "rwbq01-044",
+    "typ": "input",
+    "tag": "Personen/Sachen",
+    "fall": "§ 90 BGB – Sache.",
+    "frage": "Was ist eine 'Sache' im Sinne des § 90 BGB?",
+    "erklaerung": "Sachen sind körperliche Gegenstände.",
+    "esel": "90 = Sache.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "13–22"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "körperlicher gegenstand"
+    ]
+  },
+  {
+    "id": "rwbq01-045",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "Zugang – Briefkasten.",
+    "frage": "Wann geht ein Brief grundsätzlich zu?",
+    "erklaerung": "Zugang unter Abwesenden: Machtbereich + Möglichkeit.",
+    "esel": "Briefkastenregel.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "bei möglichkeit der kenntnisnahme"
+    ]
+  },
+  {
+    "id": "rwbq01-046",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 133/157 – Auslegung.",
+    "frage": "Nenne die zwei zentralen Auslegungsnormen.?",
+    "erklaerung": "Auslegung nach wirklichem Willen und Treu und Glauben.",
+    "esel": "133/157.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "§ 133 bgb",
+      "§ 157 bgb"
+    ]
+  },
+  {
+    "id": "rwbq01-047",
+    "typ": "input",
+    "tag": "Vertragsschluss",
+    "fall": "§ 145 – Bindung.",
+    "frage": "Was bedeutet die Bindung an den Antrag?",
+    "erklaerung": "Anbieter ist bis Frist gebunden.",
+    "esel": "145 = bindet.",
+    "quelle": {
+      "kapitel": "4 Allgemeines Vertragsrecht – Vertragsschluss",
+      "seite": "48 (Angebot/Annahme §§145 ff.)"
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "antragsbindung bis frist"
+    ]
+  },
+  {
+    "id": "rwbq01-048",
+    "typ": "input",
+    "tag": "Vertragsschluss",
+    "fall": "§ 150 I – verspätete Annahme.",
+    "frage": "Rechtsfolge verspäteter Annahme?",
+    "erklaerung": "§ 150 I BGB.",
+    "esel": "150 I = neu.",
+    "quelle": {
+      "kapitel": "4 Allgemeines Vertragsrecht – Vertragsschluss",
+      "seite": "48 (Angebot/Annahme §§145 ff.)"
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "gilt als neuer antrag"
+    ]
+  },
+  {
+    "id": "rwbq01-049",
+    "typ": "input",
+    "tag": "Verjährung",
+    "fall": "§ 195 – 3 Jahre.",
+    "frage": "Wie lange ist die regelmäßige Verjährung?",
+    "erklaerung": "§ 195 BGB.",
+    "esel": "195=3.",
+    "quelle": {
+      "kapitel": "5 Besondere rechtsgeschäftliche Inhalte, Fristen, Termine und Verjährung",
+      "seite": "67 ff."
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "drei jahre"
+    ]
+  },
+  {
+    "id": "rwbq01-050",
+    "typ": "input",
+    "tag": "Verjährung",
+    "fall": "§ 199 I – Jahresende.",
+    "frage": "Wann beginnt die Frist?",
+    "erklaerung": "§ 199 I BGB.",
+    "esel": "Jahresende.",
+    "quelle": {
+      "kapitel": "5 Besondere rechtsgeschäftliche Inhalte, Fristen, Termine und Verjährung",
+      "seite": "67 ff."
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "mit schluss des jahres"
+    ]
+  },
+  {
+    "id": "rwbq01-051",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 121 – unverzüglich.",
+    "frage": "Frist bei Irrtumsanfechtung nach Kenntnis?",
+    "erklaerung": "§ 121 BGB.",
+    "esel": "Sofort!",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "schwer",
+    "schluesselwoerter": [
+      "unverzüglich"
+    ]
+  },
+  {
+    "id": "rwbq01-052",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 122 – Vertrauensschaden.",
+    "frage": "Welche Ersatzpflicht kann entstehen?",
+    "erklaerung": "§ 122 BGB.",
+    "esel": "122 = Vertrauen.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "schwer",
+    "schluesselwoerter": [
+      "negatives interesse",
+      "vertrauensschaden"
+    ]
+  },
+  {
+    "id": "rwbq01-053",
+    "typ": "input",
+    "tag": "Personen/Sachen",
+    "fall": "Rechtsfähigkeit ab Geburt.",
+    "frage": "Ab wann sind natürliche Personen rechtsfähig?",
+    "erklaerung": "Rechtsfähigkeit beginnt mit der Geburt (§ 1 BGB).",
+    "esel": "Geburt = Start.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "13–22"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "von geburt an"
+    ]
+  },
+  {
+    "id": "rwbq01-054",
+    "typ": "input",
+    "tag": "Personen/Sachen",
+    "fall": "§ 90 BGB – Sache.",
+    "frage": "Was ist eine 'Sache' im Sinne des § 90 BGB?",
+    "erklaerung": "Sachen sind körperliche Gegenstände.",
+    "esel": "90 = Sache.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "13–22"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "körperlicher gegenstand"
+    ]
+  },
+  {
+    "id": "rwbq01-055",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "Zugang – Briefkasten.",
+    "frage": "Wann geht ein Brief grundsätzlich zu?",
+    "erklaerung": "Zugang unter Abwesenden: Machtbereich + Möglichkeit.",
+    "esel": "Briefkastenregel.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "bei möglichkeit der kenntnisnahme"
+    ]
+  },
+  {
+    "id": "rwbq01-056",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 133/157 – Auslegung.",
+    "frage": "Nenne die zwei zentralen Auslegungsnormen.?",
+    "erklaerung": "Auslegung nach wirklichem Willen und Treu und Glauben.",
+    "esel": "133/157.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "§ 133 bgb",
+      "§ 157 bgb"
+    ]
+  },
+  {
+    "id": "rwbq01-057",
+    "typ": "input",
+    "tag": "Vertragsschluss",
+    "fall": "§ 145 – Bindung.",
+    "frage": "Was bedeutet die Bindung an den Antrag?",
+    "erklaerung": "Anbieter ist bis Frist gebunden.",
+    "esel": "145 = bindet.",
+    "quelle": {
+      "kapitel": "4 Allgemeines Vertragsrecht – Vertragsschluss",
+      "seite": "48 (Angebot/Annahme §§145 ff.)"
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "antragsbindung bis frist"
+    ]
+  },
+  {
+    "id": "rwbq01-058",
+    "typ": "input",
+    "tag": "Vertragsschluss",
+    "fall": "§ 150 I – verspätete Annahme.",
+    "frage": "Rechtsfolge verspäteter Annahme?",
+    "erklaerung": "§ 150 I BGB.",
+    "esel": "150 I = neu.",
+    "quelle": {
+      "kapitel": "4 Allgemeines Vertragsrecht – Vertragsschluss",
+      "seite": "48 (Angebot/Annahme §§145 ff.)"
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "gilt als neuer antrag"
+    ]
+  },
+  {
+    "id": "rwbq01-059",
+    "typ": "input",
+    "tag": "Verjährung",
+    "fall": "§ 195 – 3 Jahre.",
+    "frage": "Wie lange ist die regelmäßige Verjährung?",
+    "erklaerung": "§ 195 BGB.",
+    "esel": "195=3.",
+    "quelle": {
+      "kapitel": "5 Besondere rechtsgeschäftliche Inhalte, Fristen, Termine und Verjährung",
+      "seite": "67 ff."
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "drei jahre"
+    ]
+  },
+  {
+    "id": "rwbq01-060",
+    "typ": "input",
+    "tag": "Verjährung",
+    "fall": "§ 199 I – Jahresende.",
+    "frage": "Wann beginnt die Frist?",
+    "erklaerung": "§ 199 I BGB.",
+    "esel": "Jahresende.",
+    "quelle": {
+      "kapitel": "5 Besondere rechtsgeschäftliche Inhalte, Fristen, Termine und Verjährung",
+      "seite": "67 ff."
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "mit schluss des jahres"
+    ]
+  },
+  {
+    "id": "rwbq01-061",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 121 – unverzüglich.",
+    "frage": "Frist bei Irrtumsanfechtung nach Kenntnis?",
+    "erklaerung": "§ 121 BGB.",
+    "esel": "Sofort!",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "schwer",
+    "schluesselwoerter": [
+      "unverzüglich"
+    ]
+  },
+  {
+    "id": "rwbq01-062",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 122 – Vertrauensschaden.",
+    "frage": "Welche Ersatzpflicht kann entstehen?",
+    "erklaerung": "§ 122 BGB.",
+    "esel": "122 = Vertrauen.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "schwer",
+    "schluesselwoerter": [
+      "negatives interesse",
+      "vertrauensschaden"
+    ]
+  },
+  {
+    "id": "rwbq01-063",
+    "typ": "input",
+    "tag": "Personen/Sachen",
+    "fall": "Rechtsfähigkeit ab Geburt.",
+    "frage": "Ab wann sind natürliche Personen rechtsfähig?",
+    "erklaerung": "Rechtsfähigkeit beginnt mit der Geburt (§ 1 BGB).",
+    "esel": "Geburt = Start.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "13–22"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "von geburt an"
+    ]
+  },
+  {
+    "id": "rwbq01-064",
+    "typ": "input",
+    "tag": "Personen/Sachen",
+    "fall": "§ 90 BGB – Sache.",
+    "frage": "Was ist eine 'Sache' im Sinne des § 90 BGB?",
+    "erklaerung": "Sachen sind körperliche Gegenstände.",
+    "esel": "90 = Sache.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "13–22"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "körperlicher gegenstand"
+    ]
+  },
+  {
+    "id": "rwbq01-065",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "Zugang – Briefkasten.",
+    "frage": "Wann geht ein Brief grundsätzlich zu?",
+    "erklaerung": "Zugang unter Abwesenden: Machtbereich + Möglichkeit.",
+    "esel": "Briefkastenregel.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "bei möglichkeit der kenntnisnahme"
+    ]
+  },
+  {
+    "id": "rwbq01-066",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 133/157 – Auslegung.",
+    "frage": "Nenne die zwei zentralen Auslegungsnormen.?",
+    "erklaerung": "Auslegung nach wirklichem Willen und Treu und Glauben.",
+    "esel": "133/157.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "§ 133 bgb",
+      "§ 157 bgb"
+    ]
+  },
+  {
+    "id": "rwbq01-067",
+    "typ": "input",
+    "tag": "Vertragsschluss",
+    "fall": "§ 145 – Bindung.",
+    "frage": "Was bedeutet die Bindung an den Antrag?",
+    "erklaerung": "Anbieter ist bis Frist gebunden.",
+    "esel": "145 = bindet.",
+    "quelle": {
+      "kapitel": "4 Allgemeines Vertragsrecht – Vertragsschluss",
+      "seite": "48 (Angebot/Annahme §§145 ff.)"
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "antragsbindung bis frist"
+    ]
+  },
+  {
+    "id": "rwbq01-068",
+    "typ": "input",
+    "tag": "Vertragsschluss",
+    "fall": "§ 150 I – verspätete Annahme.",
+    "frage": "Rechtsfolge verspäteter Annahme?",
+    "erklaerung": "§ 150 I BGB.",
+    "esel": "150 I = neu.",
+    "quelle": {
+      "kapitel": "4 Allgemeines Vertragsrecht – Vertragsschluss",
+      "seite": "48 (Angebot/Annahme §§145 ff.)"
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "gilt als neuer antrag"
+    ]
+  },
+  {
+    "id": "rwbq01-069",
+    "typ": "input",
+    "tag": "Verjährung",
+    "fall": "§ 195 – 3 Jahre.",
+    "frage": "Wie lange ist die regelmäßige Verjährung?",
+    "erklaerung": "§ 195 BGB.",
+    "esel": "195=3.",
+    "quelle": {
+      "kapitel": "5 Besondere rechtsgeschäftliche Inhalte, Fristen, Termine und Verjährung",
+      "seite": "67 ff."
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "drei jahre"
+    ]
+  },
+  {
+    "id": "rwbq01-070",
+    "typ": "input",
+    "tag": "Verjährung",
+    "fall": "§ 199 I – Jahresende.",
+    "frage": "Wann beginnt die Frist?",
+    "erklaerung": "§ 199 I BGB.",
+    "esel": "Jahresende.",
+    "quelle": {
+      "kapitel": "5 Besondere rechtsgeschäftliche Inhalte, Fristen, Termine und Verjährung",
+      "seite": "67 ff."
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "mit schluss des jahres"
+    ]
+  },
+  {
+    "id": "rwbq01-071",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 121 – unverzüglich.",
+    "frage": "Frist bei Irrtumsanfechtung nach Kenntnis?",
+    "erklaerung": "§ 121 BGB.",
+    "esel": "Sofort!",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "schwer",
+    "schluesselwoerter": [
+      "unverzüglich"
+    ]
+  },
+  {
+    "id": "rwbq01-072",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 122 – Vertrauensschaden.",
+    "frage": "Welche Ersatzpflicht kann entstehen?",
+    "erklaerung": "§ 122 BGB.",
+    "esel": "122 = Vertrauen.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "schwer",
+    "schluesselwoerter": [
+      "negatives interesse",
+      "vertrauensschaden"
+    ]
+  },
+  {
+    "id": "rwbq01-073",
+    "typ": "input",
+    "tag": "Personen/Sachen",
+    "fall": "Rechtsfähigkeit ab Geburt.",
+    "frage": "Ab wann sind natürliche Personen rechtsfähig?",
+    "erklaerung": "Rechtsfähigkeit beginnt mit der Geburt (§ 1 BGB).",
+    "esel": "Geburt = Start.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "13–22"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "von geburt an"
+    ]
+  },
+  {
+    "id": "rwbq01-074",
+    "typ": "input",
+    "tag": "Personen/Sachen",
+    "fall": "§ 90 BGB – Sache.",
+    "frage": "Was ist eine 'Sache' im Sinne des § 90 BGB?",
+    "erklaerung": "Sachen sind körperliche Gegenstände.",
+    "esel": "90 = Sache.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "13–22"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "körperlicher gegenstand"
+    ]
+  },
+  {
+    "id": "rwbq01-075",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "Zugang – Briefkasten.",
+    "frage": "Wann geht ein Brief grundsätzlich zu?",
+    "erklaerung": "Zugang unter Abwesenden: Machtbereich + Möglichkeit.",
+    "esel": "Briefkastenregel.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "bei möglichkeit der kenntnisnahme"
+    ]
+  },
+  {
+    "id": "rwbq01-076",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 133/157 – Auslegung.",
+    "frage": "Nenne die zwei zentralen Auslegungsnormen.?",
+    "erklaerung": "Auslegung nach wirklichem Willen und Treu und Glauben.",
+    "esel": "133/157.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "§ 133 bgb",
+      "§ 157 bgb"
+    ]
+  },
+  {
+    "id": "rwbq01-077",
+    "typ": "input",
+    "tag": "Vertragsschluss",
+    "fall": "§ 145 – Bindung.",
+    "frage": "Was bedeutet die Bindung an den Antrag?",
+    "erklaerung": "Anbieter ist bis Frist gebunden.",
+    "esel": "145 = bindet.",
+    "quelle": {
+      "kapitel": "4 Allgemeines Vertragsrecht – Vertragsschluss",
+      "seite": "48 (Angebot/Annahme §§145 ff.)"
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "antragsbindung bis frist"
+    ]
+  },
+  {
+    "id": "rwbq01-078",
+    "typ": "input",
+    "tag": "Vertragsschluss",
+    "fall": "§ 150 I – verspätete Annahme.",
+    "frage": "Rechtsfolge verspäteter Annahme?",
+    "erklaerung": "§ 150 I BGB.",
+    "esel": "150 I = neu.",
+    "quelle": {
+      "kapitel": "4 Allgemeines Vertragsrecht – Vertragsschluss",
+      "seite": "48 (Angebot/Annahme §§145 ff.)"
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "gilt als neuer antrag"
+    ]
+  },
+  {
+    "id": "rwbq01-079",
+    "typ": "input",
+    "tag": "Verjährung",
+    "fall": "§ 195 – 3 Jahre.",
+    "frage": "Wie lange ist die regelmäßige Verjährung?",
+    "erklaerung": "§ 195 BGB.",
+    "esel": "195=3.",
+    "quelle": {
+      "kapitel": "5 Besondere rechtsgeschäftliche Inhalte, Fristen, Termine und Verjährung",
+      "seite": "67 ff."
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "drei jahre"
+    ]
+  },
+  {
+    "id": "rwbq01-080",
+    "typ": "input",
+    "tag": "Verjährung",
+    "fall": "§ 199 I – Jahresende.",
+    "frage": "Wann beginnt die Frist?",
+    "erklaerung": "§ 199 I BGB.",
+    "esel": "Jahresende.",
+    "quelle": {
+      "kapitel": "5 Besondere rechtsgeschäftliche Inhalte, Fristen, Termine und Verjährung",
+      "seite": "67 ff."
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "mit schluss des jahres"
+    ]
+  },
+  {
+    "id": "rwbq01-081",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 121 – unverzüglich.",
+    "frage": "Frist bei Irrtumsanfechtung nach Kenntnis?",
+    "erklaerung": "§ 121 BGB.",
+    "esel": "Sofort!",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "schwer",
+    "schluesselwoerter": [
+      "unverzüglich"
+    ]
+  },
+  {
+    "id": "rwbq01-082",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 122 – Vertrauensschaden.",
+    "frage": "Welche Ersatzpflicht kann entstehen?",
+    "erklaerung": "§ 122 BGB.",
+    "esel": "122 = Vertrauen.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "schwer",
+    "schluesselwoerter": [
+      "negatives interesse",
+      "vertrauensschaden"
+    ]
+  },
+  {
+    "id": "rwbq01-083",
+    "typ": "input",
+    "tag": "Personen/Sachen",
+    "fall": "Rechtsfähigkeit ab Geburt.",
+    "frage": "Ab wann sind natürliche Personen rechtsfähig?",
+    "erklaerung": "Rechtsfähigkeit beginnt mit der Geburt (§ 1 BGB).",
+    "esel": "Geburt = Start.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "13–22"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "von geburt an"
+    ]
+  },
+  {
+    "id": "rwbq01-084",
+    "typ": "input",
+    "tag": "Personen/Sachen",
+    "fall": "§ 90 BGB – Sache.",
+    "frage": "Was ist eine 'Sache' im Sinne des § 90 BGB?",
+    "erklaerung": "Sachen sind körperliche Gegenstände.",
+    "esel": "90 = Sache.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "13–22"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "körperlicher gegenstand"
+    ]
+  },
+  {
+    "id": "rwbq01-085",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "Zugang – Briefkasten.",
+    "frage": "Wann geht ein Brief grundsätzlich zu?",
+    "erklaerung": "Zugang unter Abwesenden: Machtbereich + Möglichkeit.",
+    "esel": "Briefkastenregel.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "bei möglichkeit der kenntnisnahme"
+    ]
+  },
+  {
+    "id": "rwbq01-086",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 133/157 – Auslegung.",
+    "frage": "Nenne die zwei zentralen Auslegungsnormen.?",
+    "erklaerung": "Auslegung nach wirklichem Willen und Treu und Glauben.",
+    "esel": "133/157.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "§ 133 bgb",
+      "§ 157 bgb"
+    ]
+  },
+  {
+    "id": "rwbq01-087",
+    "typ": "input",
+    "tag": "Vertragsschluss",
+    "fall": "§ 145 – Bindung.",
+    "frage": "Was bedeutet die Bindung an den Antrag?",
+    "erklaerung": "Anbieter ist bis Frist gebunden.",
+    "esel": "145 = bindet.",
+    "quelle": {
+      "kapitel": "4 Allgemeines Vertragsrecht – Vertragsschluss",
+      "seite": "48 (Angebot/Annahme §§145 ff.)"
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "antragsbindung bis frist"
+    ]
+  },
+  {
+    "id": "rwbq01-088",
+    "typ": "input",
+    "tag": "Vertragsschluss",
+    "fall": "§ 150 I – verspätete Annahme.",
+    "frage": "Rechtsfolge verspäteter Annahme?",
+    "erklaerung": "§ 150 I BGB.",
+    "esel": "150 I = neu.",
+    "quelle": {
+      "kapitel": "4 Allgemeines Vertragsrecht – Vertragsschluss",
+      "seite": "48 (Angebot/Annahme §§145 ff.)"
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "gilt als neuer antrag"
+    ]
+  },
+  {
+    "id": "rwbq01-089",
+    "typ": "input",
+    "tag": "Verjährung",
+    "fall": "§ 195 – 3 Jahre.",
+    "frage": "Wie lange ist die regelmäßige Verjährung?",
+    "erklaerung": "§ 195 BGB.",
+    "esel": "195=3.",
+    "quelle": {
+      "kapitel": "5 Besondere rechtsgeschäftliche Inhalte, Fristen, Termine und Verjährung",
+      "seite": "67 ff."
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "drei jahre"
+    ]
+  },
+  {
+    "id": "rwbq01-090",
+    "typ": "input",
+    "tag": "Verjährung",
+    "fall": "§ 199 I – Jahresende.",
+    "frage": "Wann beginnt die Frist?",
+    "erklaerung": "§ 199 I BGB.",
+    "esel": "Jahresende.",
+    "quelle": {
+      "kapitel": "5 Besondere rechtsgeschäftliche Inhalte, Fristen, Termine und Verjährung",
+      "seite": "67 ff."
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "mit schluss des jahres"
+    ]
+  },
+  {
+    "id": "rwbq01-091",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 121 – unverzüglich.",
+    "frage": "Frist bei Irrtumsanfechtung nach Kenntnis?",
+    "erklaerung": "§ 121 BGB.",
+    "esel": "Sofort!",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "schwer",
+    "schluesselwoerter": [
+      "unverzüglich"
+    ]
+  },
+  {
+    "id": "rwbq01-092",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 122 – Vertrauensschaden.",
+    "frage": "Welche Ersatzpflicht kann entstehen?",
+    "erklaerung": "§ 122 BGB.",
+    "esel": "122 = Vertrauen.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "schwer",
+    "schluesselwoerter": [
+      "negatives interesse",
+      "vertrauensschaden"
+    ]
+  },
+  {
+    "id": "rwbq01-093",
+    "typ": "input",
+    "tag": "Personen/Sachen",
+    "fall": "Rechtsfähigkeit ab Geburt.",
+    "frage": "Ab wann sind natürliche Personen rechtsfähig?",
+    "erklaerung": "Rechtsfähigkeit beginnt mit der Geburt (§ 1 BGB).",
+    "esel": "Geburt = Start.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "13–22"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "von geburt an"
+    ]
+  },
+  {
+    "id": "rwbq01-094",
+    "typ": "input",
+    "tag": "Personen/Sachen",
+    "fall": "§ 90 BGB – Sache.",
+    "frage": "Was ist eine 'Sache' im Sinne des § 90 BGB?",
+    "erklaerung": "Sachen sind körperliche Gegenstände.",
+    "esel": "90 = Sache.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "13–22"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "körperlicher gegenstand"
+    ]
+  },
+  {
+    "id": "rwbq01-095",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "Zugang – Briefkasten.",
+    "frage": "Wann geht ein Brief grundsätzlich zu?",
+    "erklaerung": "Zugang unter Abwesenden: Machtbereich + Möglichkeit.",
+    "esel": "Briefkastenregel.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "bei möglichkeit der kenntnisnahme"
+    ]
+  },
+  {
+    "id": "rwbq01-096",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 133/157 – Auslegung.",
+    "frage": "Nenne die zwei zentralen Auslegungsnormen.?",
+    "erklaerung": "Auslegung nach wirklichem Willen und Treu und Glauben.",
+    "esel": "133/157.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "§ 133 bgb",
+      "§ 157 bgb"
+    ]
+  },
+  {
+    "id": "rwbq01-097",
+    "typ": "input",
+    "tag": "Vertragsschluss",
+    "fall": "§ 145 – Bindung.",
+    "frage": "Was bedeutet die Bindung an den Antrag?",
+    "erklaerung": "Anbieter ist bis Frist gebunden.",
+    "esel": "145 = bindet.",
+    "quelle": {
+      "kapitel": "4 Allgemeines Vertragsrecht – Vertragsschluss",
+      "seite": "48 (Angebot/Annahme §§145 ff.)"
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "antragsbindung bis frist"
+    ]
+  },
+  {
+    "id": "rwbq01-098",
+    "typ": "input",
+    "tag": "Vertragsschluss",
+    "fall": "§ 150 I – verspätete Annahme.",
+    "frage": "Rechtsfolge verspäteter Annahme?",
+    "erklaerung": "§ 150 I BGB.",
+    "esel": "150 I = neu.",
+    "quelle": {
+      "kapitel": "4 Allgemeines Vertragsrecht – Vertragsschluss",
+      "seite": "48 (Angebot/Annahme §§145 ff.)"
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "gilt als neuer antrag"
+    ]
+  },
+  {
+    "id": "rwbq01-099",
+    "typ": "input",
+    "tag": "Verjährung",
+    "fall": "§ 195 – 3 Jahre.",
+    "frage": "Wie lange ist die regelmäßige Verjährung?",
+    "erklaerung": "§ 195 BGB.",
+    "esel": "195=3.",
+    "quelle": {
+      "kapitel": "5 Besondere rechtsgeschäftliche Inhalte, Fristen, Termine und Verjährung",
+      "seite": "67 ff."
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "drei jahre"
+    ]
+  },
+  {
+    "id": "rwbq01-100",
+    "typ": "input",
+    "tag": "Verjährung",
+    "fall": "§ 199 I – Jahresende.",
+    "frage": "Wann beginnt die Frist?",
+    "erklaerung": "§ 199 I BGB.",
+    "esel": "Jahresende.",
+    "quelle": {
+      "kapitel": "5 Besondere rechtsgeschäftliche Inhalte, Fristen, Termine und Verjährung",
+      "seite": "67 ff."
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "mit schluss des jahres"
+    ]
+  },
+  {
+    "id": "rwbq01-101",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 121 – unverzüglich.",
+    "frage": "Frist bei Irrtumsanfechtung nach Kenntnis?",
+    "erklaerung": "§ 121 BGB.",
+    "esel": "Sofort!",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "schwer",
+    "schluesselwoerter": [
+      "unverzüglich"
+    ]
+  },
+  {
+    "id": "rwbq01-102",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 122 – Vertrauensschaden.",
+    "frage": "Welche Ersatzpflicht kann entstehen?",
+    "erklaerung": "§ 122 BGB.",
+    "esel": "122 = Vertrauen.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "schwer",
+    "schluesselwoerter": [
+      "negatives interesse",
+      "vertrauensschaden"
+    ]
+  },
+  {
+    "id": "rwbq01-103",
+    "typ": "input",
+    "tag": "Personen/Sachen",
+    "fall": "Rechtsfähigkeit ab Geburt.",
+    "frage": "Ab wann sind natürliche Personen rechtsfähig?",
+    "erklaerung": "Rechtsfähigkeit beginnt mit der Geburt (§ 1 BGB).",
+    "esel": "Geburt = Start.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "13–22"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "von geburt an"
+    ]
+  },
+  {
+    "id": "rwbq01-104",
+    "typ": "input",
+    "tag": "Personen/Sachen",
+    "fall": "§ 90 BGB – Sache.",
+    "frage": "Was ist eine 'Sache' im Sinne des § 90 BGB?",
+    "erklaerung": "Sachen sind körperliche Gegenstände.",
+    "esel": "90 = Sache.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "13–22"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "körperlicher gegenstand"
+    ]
+  },
+  {
+    "id": "rwbq01-105",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "Zugang – Briefkasten.",
+    "frage": "Wann geht ein Brief grundsätzlich zu?",
+    "erklaerung": "Zugang unter Abwesenden: Machtbereich + Möglichkeit.",
+    "esel": "Briefkastenregel.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "bei möglichkeit der kenntnisnahme"
+    ]
+  },
+  {
+    "id": "rwbq01-106",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 133/157 – Auslegung.",
+    "frage": "Nenne die zwei zentralen Auslegungsnormen.?",
+    "erklaerung": "Auslegung nach wirklichem Willen und Treu und Glauben.",
+    "esel": "133/157.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "§ 133 bgb",
+      "§ 157 bgb"
+    ]
+  },
+  {
+    "id": "rwbq01-107",
+    "typ": "input",
+    "tag": "Vertragsschluss",
+    "fall": "§ 145 – Bindung.",
+    "frage": "Was bedeutet die Bindung an den Antrag?",
+    "erklaerung": "Anbieter ist bis Frist gebunden.",
+    "esel": "145 = bindet.",
+    "quelle": {
+      "kapitel": "4 Allgemeines Vertragsrecht – Vertragsschluss",
+      "seite": "48 (Angebot/Annahme §§145 ff.)"
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "antragsbindung bis frist"
+    ]
+  },
+  {
+    "id": "rwbq01-108",
+    "typ": "input",
+    "tag": "Vertragsschluss",
+    "fall": "§ 150 I – verspätete Annahme.",
+    "frage": "Rechtsfolge verspäteter Annahme?",
+    "erklaerung": "§ 150 I BGB.",
+    "esel": "150 I = neu.",
+    "quelle": {
+      "kapitel": "4 Allgemeines Vertragsrecht – Vertragsschluss",
+      "seite": "48 (Angebot/Annahme §§145 ff.)"
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "gilt als neuer antrag"
+    ]
+  },
+  {
+    "id": "rwbq01-109",
+    "typ": "input",
+    "tag": "Verjährung",
+    "fall": "§ 195 – 3 Jahre.",
+    "frage": "Wie lange ist die regelmäßige Verjährung?",
+    "erklaerung": "§ 195 BGB.",
+    "esel": "195=3.",
+    "quelle": {
+      "kapitel": "5 Besondere rechtsgeschäftliche Inhalte, Fristen, Termine und Verjährung",
+      "seite": "67 ff."
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "drei jahre"
+    ]
+  },
+  {
+    "id": "rwbq01-110",
+    "typ": "input",
+    "tag": "Verjährung",
+    "fall": "§ 199 I – Jahresende.",
+    "frage": "Wann beginnt die Frist?",
+    "erklaerung": "§ 199 I BGB.",
+    "esel": "Jahresende.",
+    "quelle": {
+      "kapitel": "5 Besondere rechtsgeschäftliche Inhalte, Fristen, Termine und Verjährung",
+      "seite": "67 ff."
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "mit schluss des jahres"
+    ]
+  },
+  {
+    "id": "rwbq01-111",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 121 – unverzüglich.",
+    "frage": "Frist bei Irrtumsanfechtung nach Kenntnis?",
+    "erklaerung": "§ 121 BGB.",
+    "esel": "Sofort!",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "schwer",
+    "schluesselwoerter": [
+      "unverzüglich"
+    ]
+  },
+  {
+    "id": "rwbq01-112",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 122 – Vertrauensschaden.",
+    "frage": "Welche Ersatzpflicht kann entstehen?",
+    "erklaerung": "§ 122 BGB.",
+    "esel": "122 = Vertrauen.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "schwer",
+    "schluesselwoerter": [
+      "negatives interesse",
+      "vertrauensschaden"
+    ]
+  },
+  {
+    "id": "rwbq01-113",
+    "typ": "input",
+    "tag": "Personen/Sachen",
+    "fall": "Rechtsfähigkeit ab Geburt.",
+    "frage": "Ab wann sind natürliche Personen rechtsfähig?",
+    "erklaerung": "Rechtsfähigkeit beginnt mit der Geburt (§ 1 BGB).",
+    "esel": "Geburt = Start.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "13–22"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "von geburt an"
+    ]
+  },
+  {
+    "id": "rwbq01-114",
+    "typ": "input",
+    "tag": "Personen/Sachen",
+    "fall": "§ 90 BGB – Sache.",
+    "frage": "Was ist eine 'Sache' im Sinne des § 90 BGB?",
+    "erklaerung": "Sachen sind körperliche Gegenstände.",
+    "esel": "90 = Sache.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "13–22"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "körperlicher gegenstand"
+    ]
+  },
+  {
+    "id": "rwbq01-115",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "Zugang – Briefkasten.",
+    "frage": "Wann geht ein Brief grundsätzlich zu?",
+    "erklaerung": "Zugang unter Abwesenden: Machtbereich + Möglichkeit.",
+    "esel": "Briefkastenregel.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "bei möglichkeit der kenntnisnahme"
+    ]
+  },
+  {
+    "id": "rwbq01-116",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 133/157 – Auslegung.",
+    "frage": "Nenne die zwei zentralen Auslegungsnormen.?",
+    "erklaerung": "Auslegung nach wirklichem Willen und Treu und Glauben.",
+    "esel": "133/157.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "§ 133 bgb",
+      "§ 157 bgb"
+    ]
+  },
+  {
+    "id": "rwbq01-117",
+    "typ": "input",
+    "tag": "Vertragsschluss",
+    "fall": "§ 145 – Bindung.",
+    "frage": "Was bedeutet die Bindung an den Antrag?",
+    "erklaerung": "Anbieter ist bis Frist gebunden.",
+    "esel": "145 = bindet.",
+    "quelle": {
+      "kapitel": "4 Allgemeines Vertragsrecht – Vertragsschluss",
+      "seite": "48 (Angebot/Annahme §§145 ff.)"
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "antragsbindung bis frist"
+    ]
+  },
+  {
+    "id": "rwbq01-118",
+    "typ": "input",
+    "tag": "Vertragsschluss",
+    "fall": "§ 150 I – verspätete Annahme.",
+    "frage": "Rechtsfolge verspäteter Annahme?",
+    "erklaerung": "§ 150 I BGB.",
+    "esel": "150 I = neu.",
+    "quelle": {
+      "kapitel": "4 Allgemeines Vertragsrecht – Vertragsschluss",
+      "seite": "48 (Angebot/Annahme §§145 ff.)"
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "gilt als neuer antrag"
+    ]
+  },
+  {
+    "id": "rwbq01-119",
+    "typ": "input",
+    "tag": "Verjährung",
+    "fall": "§ 195 – 3 Jahre.",
+    "frage": "Wie lange ist die regelmäßige Verjährung?",
+    "erklaerung": "§ 195 BGB.",
+    "esel": "195=3.",
+    "quelle": {
+      "kapitel": "5 Besondere rechtsgeschäftliche Inhalte, Fristen, Termine und Verjährung",
+      "seite": "67 ff."
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "drei jahre"
+    ]
+  },
+  {
+    "id": "rwbq01-120",
+    "typ": "input",
+    "tag": "Verjährung",
+    "fall": "§ 199 I – Jahresende.",
+    "frage": "Wann beginnt die Frist?",
+    "erklaerung": "§ 199 I BGB.",
+    "esel": "Jahresende.",
+    "quelle": {
+      "kapitel": "5 Besondere rechtsgeschäftliche Inhalte, Fristen, Termine und Verjährung",
+      "seite": "67 ff."
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "mit schluss des jahres"
+    ]
+  },
+  {
+    "id": "rwbq01-121",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 121 – unverzüglich.",
+    "frage": "Frist bei Irrtumsanfechtung nach Kenntnis?",
+    "erklaerung": "§ 121 BGB.",
+    "esel": "Sofort!",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "schwer",
+    "schluesselwoerter": [
+      "unverzüglich"
+    ]
+  },
+  {
+    "id": "rwbq01-122",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 122 – Vertrauensschaden.",
+    "frage": "Welche Ersatzpflicht kann entstehen?",
+    "erklaerung": "§ 122 BGB.",
+    "esel": "122 = Vertrauen.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "schwer",
+    "schluesselwoerter": [
+      "negatives interesse",
+      "vertrauensschaden"
+    ]
+  },
+  {
+    "id": "rwbq01-123",
+    "typ": "input",
+    "tag": "Personen/Sachen",
+    "fall": "Rechtsfähigkeit ab Geburt.",
+    "frage": "Ab wann sind natürliche Personen rechtsfähig?",
+    "erklaerung": "Rechtsfähigkeit beginnt mit der Geburt (§ 1 BGB).",
+    "esel": "Geburt = Start.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "13–22"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "von geburt an"
+    ]
+  },
+  {
+    "id": "rwbq01-124",
+    "typ": "input",
+    "tag": "Personen/Sachen",
+    "fall": "§ 90 BGB – Sache.",
+    "frage": "Was ist eine 'Sache' im Sinne des § 90 BGB?",
+    "erklaerung": "Sachen sind körperliche Gegenstände.",
+    "esel": "90 = Sache.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "13–22"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "körperlicher gegenstand"
+    ]
+  },
+  {
+    "id": "rwbq01-125",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "Zugang – Briefkasten.",
+    "frage": "Wann geht ein Brief grundsätzlich zu?",
+    "erklaerung": "Zugang unter Abwesenden: Machtbereich + Möglichkeit.",
+    "esel": "Briefkastenregel.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "bei möglichkeit der kenntnisnahme"
+    ]
+  },
+  {
+    "id": "rwbq01-126",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 133/157 – Auslegung.",
+    "frage": "Nenne die zwei zentralen Auslegungsnormen.?",
+    "erklaerung": "Auslegung nach wirklichem Willen und Treu und Glauben.",
+    "esel": "133/157.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "§ 133 bgb",
+      "§ 157 bgb"
+    ]
+  },
+  {
+    "id": "rwbq01-127",
+    "typ": "input",
+    "tag": "Vertragsschluss",
+    "fall": "§ 145 – Bindung.",
+    "frage": "Was bedeutet die Bindung an den Antrag?",
+    "erklaerung": "Anbieter ist bis Frist gebunden.",
+    "esel": "145 = bindet.",
+    "quelle": {
+      "kapitel": "4 Allgemeines Vertragsrecht – Vertragsschluss",
+      "seite": "48 (Angebot/Annahme §§145 ff.)"
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "antragsbindung bis frist"
+    ]
+  },
+  {
+    "id": "rwbq01-128",
+    "typ": "input",
+    "tag": "Vertragsschluss",
+    "fall": "§ 150 I – verspätete Annahme.",
+    "frage": "Rechtsfolge verspäteter Annahme?",
+    "erklaerung": "§ 150 I BGB.",
+    "esel": "150 I = neu.",
+    "quelle": {
+      "kapitel": "4 Allgemeines Vertragsrecht – Vertragsschluss",
+      "seite": "48 (Angebot/Annahme §§145 ff.)"
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "gilt als neuer antrag"
+    ]
+  },
+  {
+    "id": "rwbq01-129",
+    "typ": "input",
+    "tag": "Verjährung",
+    "fall": "§ 195 – 3 Jahre.",
+    "frage": "Wie lange ist die regelmäßige Verjährung?",
+    "erklaerung": "§ 195 BGB.",
+    "esel": "195=3.",
+    "quelle": {
+      "kapitel": "5 Besondere rechtsgeschäftliche Inhalte, Fristen, Termine und Verjährung",
+      "seite": "67 ff."
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "drei jahre"
+    ]
+  },
+  {
+    "id": "rwbq01-130",
+    "typ": "input",
+    "tag": "Verjährung",
+    "fall": "§ 199 I – Jahresende.",
+    "frage": "Wann beginnt die Frist?",
+    "erklaerung": "§ 199 I BGB.",
+    "esel": "Jahresende.",
+    "quelle": {
+      "kapitel": "5 Besondere rechtsgeschäftliche Inhalte, Fristen, Termine und Verjährung",
+      "seite": "67 ff."
+    },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": [
+      "mit schluss des jahres"
+    ]
+  },
+  {
+    "id": "rwbq01-131",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 121 – unverzüglich.",
+    "frage": "Frist bei Irrtumsanfechtung nach Kenntnis?",
+    "erklaerung": "§ 121 BGB.",
+    "esel": "Sofort!",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "schwer",
+    "schluesselwoerter": [
+      "unverzüglich"
+    ]
+  },
+  {
+    "id": "rwbq01-132",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "§ 122 – Vertrauensschaden.",
+    "frage": "Welche Ersatzpflicht kann entstehen?",
+    "erklaerung": "§ 122 BGB.",
+    "esel": "122 = Vertrauen.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "schwer",
+    "schluesselwoerter": [
+      "negatives interesse",
+      "vertrauensschaden"
+    ]
+  },
+  {
+    "id": "rwbq01-133",
+    "typ": "input",
+    "tag": "Personen/Sachen",
+    "fall": "Rechtsfähigkeit ab Geburt.",
+    "frage": "Ab wann sind natürliche Personen rechtsfähig?",
+    "erklaerung": "Rechtsfähigkeit beginnt mit der Geburt (§ 1 BGB).",
+    "esel": "Geburt = Start.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "13–22"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "von geburt an"
+    ]
+  },
+  {
+    "id": "rwbq01-134",
+    "typ": "input",
+    "tag": "Personen/Sachen",
+    "fall": "§ 90 BGB – Sache.",
+    "frage": "Was ist eine 'Sache' im Sinne des § 90 BGB?",
+    "erklaerung": "Sachen sind körperliche Gegenstände.",
+    "esel": "90 = Sache.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "13–22"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "körperlicher gegenstand"
+    ]
+  },
+  {
+    "id": "rwbq01-135",
+    "typ": "input",
+    "tag": "WE/RG",
+    "fall": "Zugang – Briefkasten.",
+    "frage": "Wann geht ein Brief grundsätzlich zu?",
+    "erklaerung": "Zugang unter Abwesenden: Machtbereich + Möglichkeit.",
+    "esel": "Briefkastenregel.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–33"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "bei möglichkeit der kenntnisnahme"
+    ]
+  },
+  {
+    "id": "rwbq01-136",
+    "typ": "match",
+    "tag": "Rechtsquellen",
+    "fall": "Ordne die wichtigsten Rechtsquellen nach ihrem Anwendungsbereich.",
+    "frage": "Welche Rechtsquellen gehören jeweils zu den genannten Ebenen?",
+    "paare": {
+      "Europäische Ebene": "EU-Verordnungen und Richtlinien",
+      "Bundesebene": "Gesetze des Bundes (z. B. BGB, HGB)",
+      "Landesebene": "Landesgesetze (z. B. Schulgesetz)",
+      "Kommunale Ebene": "Satzungen, Verordnungen der Gemeinden"
+    },
+    "erklaerung": "Rechtsquellen gelten auf unterschiedlichen Ebenen; Bundesrecht bricht Landesrecht (Art. 31 GG).",
+    "esel": "EU → Bund → Land → Kommune.",
+    "quelle": {
+      "kapitel": "1 Rechtsordnung und Einführung in das BGB",
+      "seite": "5–7"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-137",
+    "typ": "match",
+    "tag": "Rechtsfähigkeit",
+    "fall": "Ordne die Begriffe zur Rechtsfähigkeit.",
+    "frage": "Welche Aussagen passen zu natürlichen bzw. juristischen Personen?",
+    "paare": {
+      "Natürliche Person": "Rechtsfähig ab Geburt (§ 1 BGB)",
+      "Juristische Person": "Rechtsfähig mit Eintragung ins Register",
+      "Verein": "Juristische Person des Privatrechts",
+      "Minderjähriger": "Beschränkt geschäftsfähig (§ 106 BGB)"
+    },
+    "erklaerung": "Natürliche Personen sind ab Geburt rechtsfähig; juristische Personen erst mit Gründung oder Eintragung.",
+    "esel": "Menschen von Geburt – Firmen mit Papier.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "13–14"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-138",
+    "typ": "match",
+    "tag": "Sachenrecht",
+    "fall": "Ordne Beispiele zu beweglichen und unbeweglichen Sachen.",
+    "frage": "Welche Gegenstände gelten als beweglich bzw. unbeweglich (§ 90 BGB)?",
+    "paare": {
+      "Auto": "Bewegliche Sache",
+      "Haus": "Unbewegliche Sache",
+      "Laptop": "Bewegliche Sache",
+      "Grundstück": "Unbewegliche Sache"
+    },
+    "erklaerung": "Bewegliche Sachen können transportiert werden; Grundstücke und Gebäude gelten als unbeweglich.",
+    "esel": "Was rollen kann → beweglich.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "15"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-139",
+    "typ": "match",
+    "tag": "Willenserklärung",
+    "fall": "Ordne die Elemente einer Willenserklärung zu.",
+    "frage": "Welche Bestandteile gehören zur Willenserklärung (§§ 133, 157 BGB)?",
+    "paare": {
+      "Handlungswille": "Bewusster Entschluss, überhaupt zu handeln",
+      "Erklärungsbewusstsein": "Wille, eine rechtliche Erklärung abzugeben",
+      "Geschäftswille": "Wille, eine bestimmte Rechtsfolge herbeizuführen",
+      "Äußerung": "Erklärung durch Worte, Schrift oder konkludent"
+    },
+    "erklaerung": "Eine Willenserklärung setzt Handlungs-, Erklärungs- und Geschäftswillen voraus.",
+    "esel": "Handeln – Erklären – Wollen = Wirksam.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–25"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-140",
+    "typ": "match",
+    "tag": "Angebot und Annahme",
+    "fall": "Ordne typische Beispiele den Begriffen Angebot oder invitatio ad offerendum zu.",
+    "frage": "Welche Situation stellt ein verbindliches Angebot dar und welche nur eine Einladung (§§ 145 ff. BGB)?",
+    "paare": {
+      "Ware mit Preis im Schaufenster": "Invitatio ad offerendum",
+      "Online-Warenkorb vor dem Kaufabschluss": "Invitatio ad offerendum",
+      "Verbindliches Angebot per E-Mail": "Angebot",
+      "Annahmebestätigung mit Lieferzeit": "Annahme"
+    },
+    "erklaerung": "Ein Angebot ist verbindlich; eine invitatio ist nur eine Aufforderung zur Abgabe eines Angebots.",
+    "esel": "Schaufenster lädt ein – E-Mail bindet.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "48–49"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-141",
+    "typ": "match",
+    "tag": "Anfechtung",
+    "fall": "Ordne die Paragraphen zu den jeweiligen Anfechtungsgründen.",
+    "frage": "Welche Paragraphen passen zu den genannten Anfechtungsgründen (§§ 119 ff. BGB)?",
+    "paare": {
+      "Erklärungsirrtum": "§ 119 Abs. 1 BGB",
+      "Eigenschaftsirrtum": "§ 119 Abs. 2 BGB",
+      "Übermittlungsirrtum": "§ 120 BGB",
+      "Arglistige Täuschung": "§ 123 BGB"
+    },
+    "erklaerung": "§§ 119 ff. BGB regeln unterschiedliche Irrtums- und Täuschungsgründe für Anfechtung.",
+    "esel": "119 → Irrtum, 123 → Täuschung.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "29–31"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-142",
+    "typ": "match",
+    "tag": "Fristen und Termine",
+    "fall": "Ordne Beispiele zur Fristberechnung.",
+    "frage": "Wie werden die genannten Fristen berechnet (§§ 187 ff. BGB)?",
+    "paare": {
+      "Beginn der Frist": "Tag nach dem Ereignis",
+      "Ende der Frist": "Letzter Tag um 24 Uhr",
+      "Feiertag oder Sonntag": "Fristende am nächsten Werktag",
+      "Monatsfrist": "Ende im Folgemonat am gleichen Tag"
+    },
+    "erklaerung": "Die Frist beginnt am Folgetag und endet regulär um 24 Uhr des letzten Tages (§ 193 BGB).",
+    "esel": "Frist +1 Tag Start, Sonntag → Montag.",
+    "quelle": {
+      "kapitel": "5 Fristen, Termine und Verjährung",
+      "seite": "67–68"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-143",
+    "typ": "match",
+    "tag": "Verjährung",
+    "fall": "Ordne Paragraphen zu Verjährungsvorschriften.",
+    "frage": "Welche Fristen regeln die folgenden Paragraphen (§§ 194 ff. BGB)?",
+    "paare": {
+      "§ 195 BGB": "Regelmäßige Verjährung (3 Jahre)",
+      "§ 199 BGB": "Beginn der Verjährung mit Jahresende",
+      "§ 203 BGB": "Hemmung der Verjährung bei Verhandlungen",
+      "§ 212 BGB": "Neubeginn der Verjährung"
+    },
+    "erklaerung": "Die regelmäßige Verjährung beträgt drei Jahre und beginnt mit dem Jahresende, in dem der Anspruch entstanden ist.",
+    "esel": "195 = 3 Jahre, 199 = Jahresende.",
+    "quelle": {
+      "kapitel": "5 Fristen, Termine und Verjährung",
+      "seite": "69–70"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-144",
+    "typ": "match",
+    "tag": "Leistungspflichten",
+    "fall": "Ordne Beispiele den Arten von Schuldverhältnissen zu.",
+    "frage": "Welche Schuldverhältnisse liegen in den Beispielen vor (§§ 241 ff. BGB)?",
+    "paare": {
+      "Kaufvertrag": "Vertragliches Schuldverhältnis",
+      "Unerlaubte Handlung": "Gesetzliches Schuldverhältnis",
+      "Unberechtigte Bereicherung": "Gesetzliches Schuldverhältnis",
+      "Werkvertrag": "Vertragliches Schuldverhältnis"
+    },
+    "erklaerung": "Schuldverhältnisse entstehen entweder durch Vertrag oder kraft Gesetzes (§ 241 BGB).",
+    "esel": "Vertrag oder Gesetz – dazwischen gibt’s nichts.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "51–52"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-145",
+    "typ": "match",
+    "tag": "Eigentum und Besitz",
+    "fall": "Ordne die Aussagen zu Eigentum oder Besitz (§§ 903, 854 BGB).",
+    "frage": "Welche Aussage betrifft Eigentum und welche Besitz?",
+    "paare": {
+      "Ich darf die Sache benutzen und behalten": "Eigentum",
+      "Ich habe die Sache gerade in der Hand": "Besitz",
+      "Der Vermieter bleibt Eigentümer": "Eigentum",
+      "Der Mieter hat Besitz": "Besitz"
+    },
+    "erklaerung": "Eigentum ist die rechtliche Herrschaft, Besitz die tatsächliche Gewalt über eine Sache.",
+    "esel": "Besitz = Hand, Eigentum = Recht.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "17–18"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-146",
+    "typ": "match",
+    "tag": "Geschäftsfähigkeit",
+    "fall": "Ordne die Altersgruppen ihrer Geschäftsfähigkeit zu.",
+    "frage": "Welche Aussage passt zu welcher Altersgruppe (§§ 104 ff. BGB)?",
+    "paare": {
+      "0 bis 6 Jahre": "Geschäftsunfähig (§ 104 Nr. 1 BGB)",
+      "7 bis 17 Jahre": "Beschränkt geschäftsfähig (§ 106 BGB)",
+      "Ab 18 Jahre": "Voll geschäftsfähig",
+      "Geistig Erkrankter": "Geschäftsunfähig (§ 104 Nr. 2 BGB)"
+    },
+    "erklaerung": "Kinder unter 7 und dauerhaft Geisteskranke sind geschäftsunfähig; ab 18 besteht volle Geschäftsfähigkeit.",
+    "esel": "0–6 = nein, 7–17 = vielleicht, 18 = ja.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "14–15"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-147",
+    "typ": "match",
+    "tag": "Vertragsschluss",
+    "fall": "Ordne die Phasen des Vertragsschlusses ihren Paragraphen zu.",
+    "frage": "Welche Paragraphen regeln die einzelnen Phasen des Vertragsschlusses (§§ 145 ff. BGB)?",
+    "paare": {
+      "Antrag": "§ 145 BGB",
+      "Annahmefrist": "§ 147 BGB",
+      "Verspätete Annahme": "§ 150 Abs. 1 BGB",
+      "Annahme unter Änderung": "§ 150 Abs. 2 BGB"
+    },
+    "erklaerung": "Antrag und Annahme bilden den Vertrag; § 150 regelt abweichende oder verspätete Annahmen.",
+    "esel": "145 Antrag – 147 Frist – 150 abweichend.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "48–50"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-148",
+    "typ": "match",
+    "tag": "Anfechtungsfristen",
+    "fall": "Ordne die Anfechtungsgründe den jeweiligen Fristen zu.",
+    "frage": "Wie lange kann man in den folgenden Fällen anfechten (§§ 121, 124 BGB)?",
+    "paare": {
+      "Irrtum": "Unverzüglich nach Entdeckung (§ 121 BGB)",
+      "Täuschung": "Ein Jahr nach Entdeckung (§ 124 BGB)",
+      "Drohung": "Ein Jahr nach Wegfall der Zwangslage (§ 124 BGB)",
+      "Übermittlungsirrtum": "Unverzüglich nach Entdeckung"
+    },
+    "erklaerung": "Bei Irrtum muss sofort angefochten werden; bei Täuschung oder Drohung innerhalb eines Jahres.",
+    "esel": "Irrtum = schnell, Täuschung = ein Jahr.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "30–32"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-149",
+    "typ": "match",
+    "tag": "Rechtsfolgen der Anfechtung",
+    "fall": "Ordne die Anfechtungsfolgen den Paragraphen zu.",
+    "frage": "Welche Rechtsfolge tritt nach den genannten Paragraphen ein (§§ 142, 122 BGB)?",
+    "paare": {
+      "§ 142 BGB": "Das Rechtsgeschäft gilt als von Anfang an nichtig",
+      "§ 122 BGB": "Schadenersatzpflicht für Vertrauensschaden",
+      "§ 119 BGB": "Irrtumsanfechtung möglich",
+      "§ 123 BGB": "Anfechtung wegen Täuschung/Drohung"
+    },
+    "erklaerung": "§ 142 macht das Geschäft rückwirkend nichtig; § 122 regelt den Vertrauensschaden.",
+    "esel": "142 = weg, 122 = zahlen.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "31–32"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-150",
+    "typ": "match",
+    "tag": "Schuldverhältnis",
+    "fall": "Ordne die Beispiele den Arten von Pflichten zu.",
+    "frage": "Welche Pflichten entstehen aus dem Schuldverhältnis (§ 241 BGB)?",
+    "paare": {
+      "Leistungspflicht": "Erfüllung des Vertragsinhalts",
+      "Nebenpflicht": "Rücksichtnahme auf Rechte und Interessen des anderen",
+      "Verletzung der Leistungspflicht": "Schadenersatzpflicht",
+      "Pflichtverletzung durch Verzögerung": "Verzugsfolgen nach § 286 BGB"
+    },
+    "erklaerung": "Leistungs- und Nebenpflichten bilden das Schuldverhältnis; bei Verletzung haftet der Schuldner.",
+    "esel": "Leistung + Rücksicht = Pflicht.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "51–53"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-151",
+    "typ": "match",
+    "tag": "Erfüllungsort und Gefahrübergang",
+    "fall": "Ordne die Vertragsarten den Erfüllungsorten zu.",
+    "frage": "Wo erfolgt die Erfüllung je nach Vertragsart (§§ 269, 447 BGB)?",
+    "paare": {
+      "Holschuld": "Beim Schuldner – Käufer muss holen",
+      "Bringschuld": "Beim Gläubiger – Verkäufer muss bringen",
+      "Schickschuld": "Gefahr geht mit Versendung über (§ 447 BGB)",
+      "Geldschuld": "Wohnsitz des Gläubigers"
+    },
+    "erklaerung": "Der Erfüllungsort richtet sich nach der Schuldart; bei Versendung trägt der Käufer die Gefahr.",
+    "esel": "Hol – Bring – Schick – Zahl.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "55–56"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-152",
+    "typ": "match",
+    "tag": "Anspruchsgrundlagen",
+    "fall": "Ordne die Beispiele den Anspruchsgrundlagen zu.",
+    "frage": "Welcher Paragraph bildet die jeweilige Anspruchsgrundlage (§§ 433, 823, 812 BGB)?",
+    "paare": {
+      "Kaufvertrag": "§ 433 BGB",
+      "Unerlaubte Handlung": "§ 823 BGB",
+      "Ungerechtfertigte Bereicherung": "§ 812 BGB",
+      "Werkvertrag": "§ 631 BGB"
+    },
+    "erklaerung": "Ansprüche entstehen aus Vertrag, unerlaubter Handlung oder Bereicherung.",
+    "esel": "433 Kauf – 823 Schaden – 812 ohne Grund.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "51–52"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-153",
+    "typ": "match",
+    "tag": "Vertragstypen",
+    "fall": "Ordne die Beispiele dem passenden Vertragstyp zu.",
+    "frage": "Welcher Vertragstyp liegt in den genannten Beispielen vor (§§ 433 ff. BGB)?",
+    "paare": {
+      "Kauf eines Autos": "Kaufvertrag (§ 433 BGB)",
+      "Reparatur einer Maschine": "Werkvertrag (§ 631 BGB)",
+      "Mietwohnung": "Mietvertrag (§ 535 BGB)",
+      "Leihe eines Buchs": "Leihvertrag (§ 598 BGB)"
+    },
+    "erklaerung": "Das BGB kennt verschiedene Vertragstypen mit unterschiedlichen Pflichten.",
+    "esel": "Kaufen – Mieten – Leihen – Bauen.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "54–56"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-154",
+    "typ": "match",
+    "tag": "Leistungsstörungen",
+    "fall": "Ordne die Begriffe den Leistungsstörungen zu.",
+    "frage": "Welche Form der Leistungsstörung liegt vor (§§ 280 ff. BGB)?",
+    "paare": {
+      "Lieferung zu spät": "Verzug (§ 286 BGB)",
+      "Ware mangelhaft": "Schlechtleistung (§ 281 BGB)",
+      "Leistung unmöglich": "Unmöglichkeit (§ 275 BGB)",
+      "Nichtzahlung des Käufers": "Annahmeverzug des Gläubigers"
+    },
+    "erklaerung": "Das BGB unterscheidet zwischen Unmöglichkeit, Verzug und Schlechtleistung.",
+    "esel": "Zu spät, falsch oder gar nicht.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "57–59"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-155",
+    "typ": "match",
+    "tag": "Erfüllung und Erlöschen",
+    "fall": "Ordne Beispiele zu Erfüllung und Erlöschen von Schuldverhältnissen.",
+    "frage": "Wann erlischt ein Anspruch (§§ 362 ff. BGB)?",
+    "paare": {
+      "Zahlung des Kaufpreises": "Erfüllung (§ 362 BGB)",
+      "Erlass durch Gläubiger": "Vertraglicher Erlass (§ 397 BGB)",
+      "Aufrechnung": "Erlöschen durch Aufrechnung (§ 389 BGB)",
+      "Leistung an falsche Person": "Nicht erfüllend ohne Ermächtigung"
+    },
+    "erklaerung": "Ansprüche erlöschen durch Erfüllung, Erlass oder Aufrechnung.",
+    "esel": "362 – 397 – 389 = weg.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "60–61"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-156",
+    "typ": "match",
+    "tag": "Sicherheiten",
+    "fall": "Ordne die Beispiele den Sicherungsarten zu.",
+    "frage": "Welche Form der Sicherheit liegt vor (§§ 765 ff. BGB)?",
+    "paare": {
+      "Bürgschaft": "Persönliche Sicherheit",
+      "Hypothek": "Reale Sicherheit",
+      "Pfandrecht": "Reale Sicherheit",
+      "Garantie": "Persönliche Sicherheit"
+    },
+    "erklaerung": "Sicherheiten können persönlich oder dinglich sein; Bürge haftet persönlich.",
+    "esel": "Person bürgt, Ding steht.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "18–19"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-157",
+    "typ": "match",
+    "tag": "Verjährungshemmung",
+    "fall": "Ordne die Hemmungsgründe den Paragraphen zu.",
+    "frage": "Welche Fälle führen zur Hemmung der Verjährung (§§ 203 ff. BGB)?",
+    "paare": {
+      "Verhandlungen": "§ 203 BGB",
+      "Klageerhebung": "§ 204 BGB",
+      "Höhere Gewalt": "§ 206 BGB",
+      "Familienrechtlicher Anspruch": "§ 207 BGB"
+    },
+    "erklaerung": "Während einer Hemmung läuft die Verjährung nicht weiter – die Zeit steht still.",
+    "esel": "203 = reden, 204 = klagen.",
+    "quelle": {
+      "kapitel": "5 Fristen, Termine und Verjährung",
+      "seite": "70–71"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-158",
+    "typ": "order",
+    "tag": "Vertragsschluss – Ablauf",
+    "fall": "Zwei Parteien schließen einen Kaufvertrag über eine Maschine.",
+    "frage": "Bringe die Schritte des Vertragsschlusses in die richtige Reihenfolge (§§ 145 ff. BGB).",
+    "richtigeReihenfolge": [
+      "Angebot wird abgegeben",
+      "Angebot geht dem Empfänger zu",
+      "Annahme wird erklärt",
+      "Annahme geht dem Anbieter zu",
+      "Vertrag ist geschlossen"
+    ],
+    "erklaerung": "Vertrag entsteht durch Angebot und Annahme; beide Erklärungen müssen jeweils zugehen.",
+    "esel": "Angebot → Zugang → Annahme → Zugang → Vertrag.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "48–50"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-159",
+    "typ": "order",
+    "tag": "Anfechtung – Vorgehen",
+    "fall": "Ein Irrtum wird erst nach Vertragsschluss bemerkt.",
+    "frage": "Ordne die Schritte der Anfechtung korrekt (§§ 119, 121, 142 BGB).",
+    "richtigeReihenfolge": [
+      "Irrtum/Täuschung feststellen",
+      "Anfechtungsgrund bestimmen",
+      "Anfechtungserklärung abgeben",
+      "Frist beachten",
+      "Rechtsgeschäft wird rückwirkend nichtig"
+    ],
+    "erklaerung": "Die Anfechtung setzt Grund, Erklärung und Frist voraus; Rechtsfolge: Nichtigkeit ex tunc (§ 142).",
+    "esel": "Grund → Erklärung → Frist → Nichtigkeit.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "29–32"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-160",
+    "typ": "order",
+    "tag": "Fristberechnung",
+    "fall": "Eine Monatsfrist beginnt mit einem Ereignis am 10.03.",
+    "frage": "Setze die Schritte der Fristberechnung in die richtige Reihenfolge (§§ 187–193 BGB).",
+    "richtigeReihenfolge": [
+      "Ereignistag zählt nicht mit",
+      "Beginn am Folgetag",
+      "Frist läuft kalendermäßig",
+      "Ende am gleichen Tag des Folgemonats",
+      "Verschiebung bei Sonn-/Feiertag"
+    ],
+    "erklaerung": "Der Ereignistag zählt nicht; Monatsfrist endet am gleichnamigen Tag, § 193 verschiebt auf den nächsten Werktag.",
+    "esel": "Tag danach starten – gleichnamig enden.",
+    "quelle": {
+      "kapitel": "5 Fristen, Termine und Verjährung",
+      "seite": "67–69"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-161",
+    "typ": "order",
+    "tag": "Anspruchsprüfung – Grundschema",
+    "fall": "A verlangt Zahlung von B aus Kaufvertrag.",
+    "frage": "Ordne die Prüfungsschritte für einen Zahlungsanspruch korrekt.",
+    "richtigeReihenfolge": [
+      "Anspruch entstanden",
+      "Anspruch nicht erloschen",
+      "Anspruch durchsetzbar",
+      "Rechtsfolge"
+    ],
+    "erklaerung": "Klassisches Prüfungsschema: Entstehung, Erlöschen, Einreden/Einwendungen, dann Rechtsfolge.",
+    "esel": "E-E-D-R.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "51–53"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-162",
+    "typ": "order",
+    "tag": "Mängelrechte – Reihenfolge",
+    "fall": "Gelieferte Ware ist mangelhaft.",
+    "frage": "Bringe die gesetzlichen Mängelrechte in eine sinnvolle Prüf-Reihenfolge (§§ 437 ff. BGB).",
+    "richtigeReihenfolge": [
+      "Nacherfüllung verlangen",
+      "Fristsetzen (entbehrlich in Ausnahmefällen)",
+      "Rücktritt oder Minderung",
+      "Schadenersatz oder Aufwendungsersatz"
+    ],
+    "erklaerung": "Vorrang der Nacherfüllung; danach Sekundärrechte wie Rücktritt/Minderung und SE.",
+    "esel": "Erst reparieren/neu – dann zurück/mindern – ggf. Geld.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "57–59"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-163",
+    "typ": "order",
+    "tag": "Schuldarten – Erfüllungsort",
+    "fall": "Ein Verkäufer versendet Ware an den Käufer.",
+    "frage": "Ordne die Schuldarten und ihre Erfüllungsorte richtig zu (§§ 269, 447 BGB).",
+    "richtigeReihenfolge": [
+      "Holschuld: Ort beim Schuldner",
+      "Bringschuld: Ort beim Gläubiger",
+      "Schickschuld: Versendung – Gefahrübergang beim Versand",
+      "Geldschuld: Wohnsitz des Gläubigers"
+    ],
+    "erklaerung": "Die Schuldart bestimmt, wo zu leisten ist; bei Schickschuld geht Gefahr mit Versendung über.",
+    "esel": "Hol–Bring–Schick–Zahl.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "55–56"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-164",
+    "typ": "order",
+    "tag": "Eigentumsübertragung bewegliche Sache",
+    "fall": "Ein Fahrrad wird bar bezahlt und übergeben.",
+    "frage": "Bringe die Schritte der Übereignung beweglicher Sachen in die richtige Reihenfolge (§ 929 BGB).",
+    "richtigeReihenfolge": [
+      "Einigung über Eigentumsübergang",
+      "Übergabe der Sache",
+      "Einigkeit über Eigentumswechsel bei Übergabe",
+      "Berechtigung des Veräußerers"
+    ],
+    "erklaerung": "Einigung und Übergabe sind nötig; der Veräußerer muss berechtigt sein.",
+    "esel": "Einigung + Übergabe + Berechtigung.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "16–17"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-165",
+    "typ": "order",
+    "tag": "Willenserklärung – Entstehung",
+    "fall": "Jemand bestellt online eine Ware.",
+    "frage": "Ordne die Bestandteile der Willenserklärung in logischer Abfolge.",
+    "richtigeReihenfolge": [
+      "Handlungswille",
+      "Erklärungsbewusstsein",
+      "Geschäftswille",
+      "Abgabe/Äußerung",
+      "Zugang (bei empfangsbedürftig)"
+    ],
+    "erklaerung": "Eine WE setzt Willenskomponenten voraus; empfangsbedürftige Erklärungen werden mit Zugang wirksam.",
+    "esel": "Wollen → Erklären → Äußern → Zugehen.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "23–25"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-166",
+    "typ": "order",
+    "tag": "Verzug des Schuldners",
+    "fall": "Zahlungstermin wurde überschritten.",
+    "frage": "Bringe die Prüfung des Verzugs in eine sinnvolle Reihenfolge (§§ 286 ff. BGB).",
+    "richtigeReihenfolge": [
+      "Fälligkeit des Anspruchs",
+      "Mahnung oder Entbehrlichkeit",
+      "Vertretenmüssen vermutet",
+      "Verzugsfolgen (SE, Zinsen) prüfen"
+    ],
+    "erklaerung": "Verzug setzt Fälligkeit und Mahnung (oder deren Entbehrlichkeit) voraus; dann Folgen prüfen.",
+    "esel": "Fälligkeit → Mahnung → Folgen.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "58–59"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-167",
+    "typ": "order",
+    "tag": "Invitatio vs. Angebot",
+    "fall": "Ein Produkt wird online mit Preis angezeigt.",
+    "frage": "Ordne die Schritte vom Schaufenster/Onlineshop bis zum Vertrag korrekt.",
+    "richtigeReihenfolge": [
+      "Invitatio ad offerendum (Anzeige)",
+      "Kunde gibt Angebot ab (Bestellung)",
+      "Unternehmer nimmt Angebot an",
+      "Zugang der Annahme beim Kunden",
+      "Vertragsschluss"
+    ],
+    "erklaerung": "Schaufenster/Onlineshop sind Einladung; Vertrag entsteht erst durch Angebot + Annahme.",
+    "esel": "Einladung → Angebot → Annahme → Vertrag.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "48–49"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-168",
+    "typ": "order",
+    "tag": "Verjährung – Prüfung",
+    "fall": "Ein Anspruch ist mehrere Jahre alt.",
+    "frage": "Setze die Schritte der Verjährungsprüfung korrekt (§§ 194 ff. BGB).",
+    "richtigeReihenfolge": [
+      "Anwendbare Frist bestimmen",
+      "Beginn der Frist ermitteln",
+      "Hemmung/Neubeginn prüfen",
+      "Ablauf der Frist berechnen",
+      "Rechtsfolge: Einrede der Verjährung"
+    ],
+    "erklaerung": "Frist (z. B. 3 Jahre) beginnt regelmäßig mit Jahresende; Hemmung/Neubeginn können die Dauer verändern.",
+    "esel": "Frist → Beginn → Pausen → Ende → Einrede.",
+    "quelle": {
+      "kapitel": "5 Fristen, Termine und Verjährung",
+      "seite": "69–71"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-169",
+    "typ": "order",
+    "tag": "Unmöglichkeit – Folgen",
+    "fall": "Die Leistung wird nach Vertragsschluss objektiv unmöglich.",
+    "frage": "Bringe die Prüf-Reihenfolge zur Unmöglichkeit in Ordnung (§ 275, § 326 BGB).",
+    "richtigeReihenfolge": [
+      "Objektive oder subjektive Unmöglichkeit feststellen",
+      "Befreiung von der Leistungspflicht (§ 275)",
+      "Gegenleistungspflicht entfällt (§ 326 Abs. 1)",
+      "Ausnahme/Teilunmöglichkeit prüfen",
+      "SE statt Leistung prüfen"
+    ],
+    "erklaerung": "Bei Unmöglichkeit entfällt die Leistungspflicht; regelmäßig entfällt auch die Gegenleistung.",
+    "esel": "Unmöglich → keine Leistung → kein Geld (Ausnahmen prüfen).",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "57–58"
+    },
+    "schwierigkeit": "schwer"
+  },
+  {
+    "id": "rwbq01-170",
+    "typ": "order",
+    "tag": "Eigentum vs. Besitz – Übergang",
+    "fall": "A verkauft B sein Handy und übergibt es.",
+    "frage": "Ordne die Schritte für Besitz- und Eigentumswechsel richtig.",
+    "richtigeReihenfolge": [
+      "Kaufvertrag (Verpflichtungsgeschäft)",
+      "Einigung über Eigentumsübergang",
+      "Übergabe (Besitzwechsel)",
+      "Eigentumswechsel vollzogen",
+      "Ansprüche bei Störung prüfen"
+    ],
+    "erklaerung": "Trennungs-/Abstraktionsprinzip: Verpflichtung und Verfügung sind getrennte Rechtsakte.",
+    "esel": "Vertrag ≠ Eigentum – erst Übereignung macht’s.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "16–17"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-171",
+    "typ": "order",
+    "tag": "Rücktritt – Vorgehen",
+    "fall": "Nach Frist zur Nacherfüllung will der Käufer zurücktreten.",
+    "frage": "Setze die Schritte des Rücktritts korrekt (§§ 323, 346 BGB).",
+    "richtigeReihenfolge": [
+      "Pflichtverletzung/Mangel feststellen",
+      "Frist zur Nacherfüllung setzen (entbehrlich in Sonderfällen)",
+      "Rücktrittserklärung abgeben",
+      "Rückgewährschuldverhältnis prüfen",
+      "Wertersatz/SE prüfen"
+    ],
+    "erklaerung": "Rücktritt setzt grundsätzlich Frist voraus; Rückabwicklung nach §§ 346 ff.",
+    "esel": "Mangel → Frist → Erklärung → Rückabwicklung.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "57–59"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-172",
+    "typ": "order",
+    "tag": "Aufrechnung – Prüfung",
+    "fall": "B will gegen A’s Forderung aufrechnen.",
+    "frage": "Ordne die Voraussetzungen der Aufrechnung korrekt (§§ 387 ff. BGB).",
+    "richtigeReihenfolge": [
+      "Gegenseitigkeit der Forderungen",
+      "Gleichartigkeit der Leistungen (Geld/Geld)",
+      "Fälligkeit und Durchsetzbarkeit der Gegenforderung",
+      "Keine Aufrechnungshindernisse",
+      "Erklärung der Aufrechnung"
+    ],
+    "erklaerung": "Ohne Gegenseitigkeit und Gleichartigkeit keine Aufrechnung; Hindernisse können entgegenstehen.",
+    "esel": "Gegen–gleich–fällig–frei–erklären.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "60–61"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-173",
+    "typ": "justify",
+    "tag": "Vertragsschluss – Angebot",
+    "fall": "Ein Supermarkt stellt Waren mit Preisschild aus.",
+    "frage": "Warum handelt es sich dabei nicht um ein verbindliches Angebot (§§ 145 ff. BGB)?",
+    "stichwoerter": [
+      "invitatio ad offerendum",
+      "Einladung",
+      "kein verbindliches Angebot"
+    ],
+    "erklaerung": "Schaufensterauslagen sind nur Einladungen zur Abgabe eines Angebots (invitatio ad offerendum).",
+    "esel": "Preisschild lädt ein – kein Angebot.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "48–49"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-174",
+    "typ": "justify",
+    "tag": "Willenserklärung – Zugang",
+    "fall": "Ein Brief trifft am Samstag im Briefkasten ein.",
+    "frage": "Warum gilt der Brief erst am Montag als zugegangen (§ 130 BGB)?",
+    "stichwoerter": [
+      "Zugang",
+      "Möglichkeit der Kenntnisnahme",
+      "Verkehrsanschauung"
+    ],
+    "erklaerung": "Der Zugang erfolgt, wenn mit Kenntnisnahme zu rechnen ist – bei Post am Wochenende erst am nächsten Werktag.",
+    "esel": "Briefkasten + Werktag = Zugang.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "26"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-175",
+    "typ": "justify",
+    "tag": "Geschäftsfähigkeit",
+    "fall": "Ein 15-Jähriger kauft ein Handy ohne Zustimmung.",
+    "frage": "Warum ist dieser Kaufvertrag nur schwebend wirksam (§ 108 BGB)?",
+    "stichwoerter": [
+      "beschränkt geschäftsfähig",
+      "Zustimmung der Eltern",
+      "schwebend unwirksam"
+    ],
+    "erklaerung": "Minderjährige sind beschränkt geschäftsfähig; Verträge werden erst mit Zustimmung der Eltern wirksam.",
+    "esel": "Ohne Eltern = hängt in der Luft.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "14–15"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-176",
+    "typ": "justify",
+    "tag": "Anfechtung – Voraussetzungen",
+    "fall": "Eine Kundin verschreibt sich beim Preis.",
+    "frage": "Warum kann sie den Vertrag anfechten (§ 119 BGB)?",
+    "stichwoerter": [
+      "Erklärungsirrtum",
+      "Anfechtung",
+      "Irrtum"
+    ],
+    "erklaerung": "Ein Erklärungsirrtum liegt vor, wenn etwas anderes geäußert als gewollt wurde – anfechtbar nach § 119 Abs. 1 BGB.",
+    "esel": "Versprochen = anfechten.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "30"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-177",
+    "typ": "justify",
+    "tag": "Anfechtung – Schadenersatz",
+    "fall": "Ein Händler fechtet wegen Irrtums an.",
+    "frage": "Warum muss er dem Kunden trotzdem unter Umständen Ersatz leisten (§ 122 BGB)?",
+    "stichwoerter": [
+      "Vertrauensschaden",
+      "negatives Interesse"
+    ],
+    "erklaerung": "Wer irrtumsbedingt anfechtet, haftet für das Vertrauen des anderen in die Gültigkeit der Erklärung (§ 122 BGB).",
+    "esel": "Irrtum = zahlen fürs Vertrauen.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "31"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-178",
+    "typ": "justify",
+    "tag": "Verjährung – Sinn",
+    "fall": "Ein Gläubiger verlangt Geld nach 10 Jahren.",
+    "frage": "Warum darf der Schuldner die Leistung verweigern (§ 214 BGB)?",
+    "stichwoerter": [
+      "Einrede der Verjährung",
+      "Rechtssicherheit"
+    ],
+    "erklaerung": "Nach Ablauf der Verjährung kann der Schuldner die Einrede erheben; das schützt vor unbegrenzten Forderungen.",
+    "esel": "Zu spät = nicht mehr zahlen.",
+    "quelle": {
+      "kapitel": "5 Fristen, Termine und Verjährung",
+      "seite": "69–70"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-179",
+    "typ": "justify",
+    "tag": "Eigentum vs. Besitz",
+    "fall": "Ein Mieter nutzt eine Wohnung, die jemand anderem gehört.",
+    "frage": "Warum ist der Mieter Besitzer, aber nicht Eigentümer (§§ 854, 903 BGB)?",
+    "stichwoerter": [
+      "tatsächliche Gewalt",
+      "rechtliche Herrschaft"
+    ],
+    "erklaerung": "Besitz ist die tatsächliche Gewalt über eine Sache, Eigentum die rechtliche Herrschaft.",
+    "esel": "Besitzen = halten, Eigentum = dürfen.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "17–18"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-180",
+    "typ": "justify",
+    "tag": "Rücktritt – Voraussetzungen",
+    "fall": "Eine Lieferung erfolgt trotz Fristsetzung nicht.",
+    "frage": "Warum darf der Käufer nun vom Vertrag zurücktreten (§ 323 BGB)?",
+    "stichwoerter": [
+      "Pflichtverletzung",
+      "Frist",
+      "Rücktritt"
+    ],
+    "erklaerung": "Bleibt die Leistung trotz Frist aus, darf der Gläubiger zurücktreten (§ 323 BGB).",
+    "esel": "Frist rum = raus aus dem Vertrag.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "57–59"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-181",
+    "typ": "justify",
+    "tag": "Kaufvertrag – Pflichten",
+    "fall": "Ein Verkäufer liefert, der Käufer zahlt nicht.",
+    "frage": "Warum befindet sich der Käufer in Verzug (§ 286 BGB)?",
+    "stichwoerter": [
+      "Mahnung",
+      "Fälligkeit",
+      "Verzug"
+    ],
+    "erklaerung": "Verzug tritt ein, wenn eine fällige Leistung trotz Mahnung nicht erbracht wird (§ 286 BGB).",
+    "esel": "Zahlung + Mahnung = Verzug.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "58"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-182",
+    "typ": "justify",
+    "tag": "Nacherfüllung – Vorrang",
+    "fall": "Eine gelieferte Ware weist Mängel auf.",
+    "frage": "Warum muss der Käufer zuerst Nacherfüllung verlangen (§ 437 Nr. 1 BGB)?",
+    "stichwoerter": [
+      "Vorrang der Nacherfüllung",
+      "Reihenfolge der Rechte"
+    ],
+    "erklaerung": "Die Nacherfüllung hat Vorrang; Rücktritt oder Minderung erst nach erfolgloser Nacherfüllung.",
+    "esel": "Erst reparieren, dann reklamieren.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "57"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-183",
+    "typ": "justify",
+    "tag": "Werkvertrag – Erfolgsschuld",
+    "fall": "Ein Handwerker arbeitet, aber das Ergebnis ist mangelhaft.",
+    "frage": "Warum schuldet der Unternehmer nicht nur Tätigkeit, sondern Erfolg (§ 631 BGB)?",
+    "stichwoerter": [
+      "Erfolg",
+      "Werkvertrag",
+      "Abnahme"
+    ],
+    "erklaerung": "Im Werkvertrag wird ein bestimmter Erfolg geschuldet; reine Tätigkeit genügt nicht.",
+    "esel": "Beim Werk zählt das Werk.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "56"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-184",
+    "typ": "justify",
+    "tag": "Bürgschaft – Formvorschrift",
+    "fall": "Ein Freund will für einen Kredit bürgen.",
+    "frage": "Warum muss die Bürgschaft schriftlich erfolgen (§ 766 BGB)?",
+    "stichwoerter": [
+      "Schriftform",
+      "Beweisfunktion",
+      "Warnfunktion"
+    ],
+    "erklaerung": "Die Schriftform dient dem Schutz des Bürgen; sie hat Beweis- und Warnfunktion.",
+    "esel": "Unterschrift schützt vor Schnellschuss.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "18–19"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-185",
+    "typ": "justify",
+    "tag": "Schadenersatz – Pflichtverletzung",
+    "fall": "Ein Lieferant verzögert sich erheblich.",
+    "frage": "Warum kann der Käufer Schadenersatz verlangen (§ 280 BGB)?",
+    "stichwoerter": [
+      "Pflichtverletzung",
+      "Vertretenmüssen",
+      "Schaden"
+    ],
+    "erklaerung": "Bei Pflichtverletzung und Vertretenmüssen haftet der Schuldner auf Schadenersatz (§ 280 BGB).",
+    "esel": "Pflicht + Verschulden = Schaden.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "58–59"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-186",
+    "typ": "justify",
+    "tag": "Ungerechtfertigte Bereicherung",
+    "fall": "Jemand überweist versehentlich Geld.",
+    "frage": "Warum kann er es zurückfordern (§ 812 BGB)?",
+    "stichwoerter": [
+      "ohne rechtlichen Grund",
+      "Bereicherung"
+    ],
+    "erklaerung": "Wer ohne rechtlichen Grund etwas erhält, muss es herausgeben (§ 812 BGB).",
+    "esel": "Ohne Grund = zurück.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "51–52"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-187",
+    "typ": "justify",
+    "tag": "Treu und Glauben",
+    "fall": "Ein Vertragspartner beruft sich auf eine unfaire Klausel.",
+    "frage": "Warum kann sich der andere auf § 242 BGB berufen?",
+    "stichwoerter": [
+      "Treu und Glauben",
+      "billiges Ermessen"
+    ],
+    "erklaerung": "§ 242 BGB verpflichtet zur Leistung nach Treu und Glauben; unfaire Rechtsausübung ist unzulässig.",
+    "esel": "Fair bleiben – § 242.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "53"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-188",
+    "typ": "fallanalyse",
+    "tag": "Kaufvertrag – Anspruchsprüfung",
+    "fall": "A hat an B ein Fahrrad verkauft. B zahlt nicht.",
+    "frage": "Prüfe, ob A von B Zahlung verlangen kann (§ 433 II BGB).",
+    "stichpunkte": [
+      "Anspruch entstanden",
+      "Kaufvertrag",
+      "nicht erloschen",
+      "durchsetzbar"
+    ],
+    "erklaerung": "Zahlungsanspruch entsteht aus Kaufvertrag (§ 433 II BGB), sofern er nicht erloschen oder gehemmt ist.",
+    "esel": "433 II = Geldpflicht des Käufers.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "51–52"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-189",
+    "typ": "fallanalyse",
+    "tag": "Mangelhafte Leistung",
+    "fall": "B kauft von A einen Fernseher, der nach zwei Tagen ausfällt.",
+    "frage": "Welche Rechte hat B gegenüber A (§§ 434 ff. BGB)?",
+    "stichpunkte": [
+      "Sachmangel",
+      "Nacherfüllung",
+      "Rücktritt oder Minderung",
+      "Schadenersatz"
+    ],
+    "erklaerung": "Bei Sachmangel kann der Käufer Nacherfüllung verlangen, danach weitere Rechte (§ 437 BGB).",
+    "esel": "Erst reparieren – dann reklamieren.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "57–59"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-190",
+    "typ": "fallanalyse",
+    "tag": "Anfechtung wegen Irrtums",
+    "fall": "A bietet irrtümlich 1 000 € statt 10 000 € für ein Auto.",
+    "frage": "Kann A seine Erklärung anfechten (§ 119 I BGB)?",
+    "stichpunkte": [
+      "Erklärungsirrtum",
+      "unverzüglich anfechten",
+      "Rechtsfolge § 142 BGB"
+    ],
+    "erklaerung": "Ein Erklärungsirrtum berechtigt zur Anfechtung; das Geschäft wird rückwirkend nichtig (§ 142 BGB).",
+    "esel": "Versprochen = anfechten.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "30–32"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-191",
+    "typ": "fallanalyse",
+    "tag": "Verzug",
+    "fall": "B bezahlt trotz Mahnung nicht.",
+    "frage": "Wann gerät B in Verzug und welche Folgen hat das (§ 286 BGB)?",
+    "stichpunkte": [
+      "Fälligkeit",
+      "Mahnung",
+      "Verzug",
+      "Zinsen",
+      "Schadenersatz"
+    ],
+    "erklaerung": "Verzug setzt Fälligkeit und Mahnung voraus; ab Verzug schuldet der Schuldner Zinsen und Ersatz des Schadens.",
+    "esel": "Mahnung = Verzug → Zinsen.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "58"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-192",
+    "typ": "fallanalyse",
+    "tag": "Eigentumsübertragung",
+    "fall": "A verkauft B sein Fahrrad und übergibt es.",
+    "frage": "Wie erfolgt der Eigentumsübergang an dem Fahrrad (§ 929 BGB)?",
+    "stichpunkte": [
+      "Einigung",
+      "Übergabe",
+      "Berechtigung"
+    ],
+    "erklaerung": "Eigentumsübertragung an beweglichen Sachen erfordert Einigung und Übergabe durch den Berechtigten.",
+    "esel": "Einigung + Übergabe = Eigentum.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "16–17"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-193",
+    "typ": "fallanalyse",
+    "tag": "Unmöglichkeit",
+    "fall": "Ein Künstler soll ein einmaliges Gemälde liefern, das abbrennt.",
+    "frage": "Welche Rechtsfolgen treten bei Unmöglichkeit ein (§§ 275, 326 BGB)?",
+    "stichpunkte": [
+      "Unmöglichkeit",
+      "Leistungspflicht entfällt",
+      "Gegenleistung entfällt",
+      "SE möglich"
+    ],
+    "erklaerung": "Bei objektiver Unmöglichkeit entfallen Leistung und Gegenleistung; Schadenersatz nur bei Verschulden.",
+    "esel": "Geht nicht = kein Muss = kein Geld.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "57–58"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-194",
+    "typ": "fallanalyse",
+    "tag": "Werkvertrag",
+    "fall": "Ein Handwerker liefert eine unsachgemäß montierte Küche.",
+    "frage": "Welche Rechte hat der Besteller (§§ 634 ff. BGB)?",
+    "stichpunkte": [
+      "Nacherfüllung",
+      "Rücktritt oder Minderung",
+      "Schadenersatz"
+    ],
+    "erklaerung": "Beim mangelhaften Werk kann der Besteller Nacherfüllung verlangen und später Rücktritt/Minderung geltend machen.",
+    "esel": "Wie beim Kauf – erst reparieren.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "56–57"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-195",
+    "typ": "fallanalyse",
+    "tag": "Bürgschaft",
+    "fall": "B bürgt für den Kredit des Freundes A schriftlich.",
+    "frage": "Wann wird die Bürgschaft verbindlich (§§ 765 ff. BGB)?",
+    "stichpunkte": [
+      "Bürgschaftsvertrag",
+      "Schriftform",
+      "Hauptschuld besteht"
+    ],
+    "erklaerung": "Die Bürgschaft wird wirksam durch schriftlichen Vertrag und bestehende Hauptschuld.",
+    "esel": "Erst Schrift → dann Haftung.",
+    "quelle": {
+      "kapitel": "2 Personen, Sachen und Rechte",
+      "seite": "18–19"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-196",
+    "typ": "fallanalyse",
+    "tag": "Ungerechtfertigte Bereicherung",
+    "fall": "A überweist versehentlich 100 € an B.",
+    "frage": "Welche Ansprüche hat A gegen B (§ 812 BGB)?",
+    "stichpunkte": [
+      "ohne rechtlichen Grund",
+      "Herausgabe des Betrags"
+    ],
+    "erklaerung": "Wer etwas ohne Rechtsgrund erhält, muss es herausgeben (§ 812 BGB).",
+    "esel": "Ohne Grund = zurück.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "51–52"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-197",
+    "typ": "fallanalyse",
+    "tag": "Verjährung",
+    "fall": "A fordert eine offene Rechnung nach vier Jahren ein.",
+    "frage": "Kann B die Zahlung verweigern (§§ 195, 214 BGB)?",
+    "stichpunkte": [
+      "dreijährige Verjährung",
+      "Einrede der Verjährung"
+    ],
+    "erklaerung": "Nach drei Jahren kann der Schuldner die Einrede der Verjährung erheben und die Leistung verweigern.",
+    "esel": "Nach 3 Jahren – Schluss.",
+    "quelle": {
+      "kapitel": "5 Fristen, Termine und Verjährung",
+      "seite": "69–70"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-198",
+    "typ": "match",
+    "tag": "Formvorschriften",
+    "fall": "Ordne Rechtsgeschäfte ihren Formvorschriften zu.",
+    "frage": "Welche Form ist jeweils erforderlich (§§ 125 ff. BGB)?",
+    "paare": {
+      "Bürgschaftserklärung des Privatbürgen": "Schriftform (§ 766 BGB)",
+      "Kaufvertrag über Grundstück": "Notarielle Beurkundung (§ 311b BGB)",
+      "Ordentlicher Mietvertrag über Wohnung": "Formfrei (Ausnahme: Befristung § 550 BGB)",
+      "Verbraucherdarlehensvertrag": "Schriftform (§ 492 BGB)"
+    },
+    "erklaerung": "Bestimmte Rechtsgeschäfte sind formbedürftig; ansonsten gilt Formfreiheit.",
+    "esel": "Grundstück = Notar; Bürgschaft = Schrift.",
+    "quelle": {
+      "kapitel": "3 Willenserklärungen und Rechtsgeschäfte",
+      "seite": "27–28"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "rwbq01-199",
+    "typ": "match",
+    "tag": "Annahmefristen",
+    "fall": "Ordne typische Kommunikationswege der Annahmefrist zu.",
+    "frage": "Wann muss die Annahme zugehen (§ 147 BGB)?",
+    "paare": {
+      "Antrag unter Anwesenden": "Sofort",
+      "Telefonat": "Sofort (wie anwesend)",
+      "E-Mail": "Innerhalb angemessener Zeit",
+      "Briefpost": "Innerhalb angemessener Zeit (Postlaufzeit)"
+    },
+    "erklaerung": "Unter Anwesenden sofort; unter Abwesenden innerhalb angemessener Zeit.",
+    "esel": "Face2Face: sofort – Post: angemessen.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "49–50"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "rwbq01-200",
+    "typ": "match",
+    "tag": "Einwendungen vs. Einreden",
+    "fall": "Ordne Beispiele den Kategorien Einwendung/Einrede zu.",
+    "frage": "Welche Beispiele sind rechtshindernd, rechtsvernichtend oder rechtshemmend?",
+    "paare": {
+      "Geschäftsunfähigkeit": "Rechtshindernde Einwendung",
+      "Erfüllung": "Rechtsvernichtende Einwendung",
+      "Verjährungseinrede": "Rechtshemmende Einrede",
+      "Anfechtung": "Rechtsvernichtende Einwendung (ex tunc)"
+    },
+    "erklaerung": "Einwendungen vernichten oder hindern den Anspruch; Einreden hemmen seine Durchsetzbarkeit.",
+    "esel": "Hindert/vernichtet vs. hemmt.",
+    "quelle": {
+      "kapitel": "4 Vertragsschluss",
+      "seite": "52–53"
+    },
+    "schwierigkeit": "schwer"
+  }
+]
