@@ -2382,8 +2382,8 @@
     "frage": "Welche Aussagen passen zu natürlichen bzw. juristischen Personen?",
     "paare": {
       "Natürliche Person": "Rechtsfähig ab Geburt (§ 1 BGB)",
-      "Juristische Person": "Rechtsfähig mit Eintragung ins Register",
-      "Verein": "Juristische Person des Privatrechts",
+      "Juristische Person": "Juristische Person des Privatrechts",
+      "Verein": "Rechtsfähig mit Eintragung ins Register",
       "Minderjähriger": "Beschränkt geschäftsfähig (§ 106 BGB)"
     },
     "erklaerung": "Natürliche Personen sind ab Geburt rechtsfähig; juristische Personen erst mit Gründung oder Eintragung.",
