@@ -31,9 +31,7 @@
       padding: 16px;
     }
 
-    .hidden {
-      display: none;
-    }
+    .hidden { display: none; }
 
     .app {
       background: var(--card);
@@ -56,7 +54,6 @@
       min-height: 520px;
     }
 
-    /* Buttons auf der Startseite */
     .test-list {
       display: flex;
       flex-direction: column;
@@ -64,7 +61,6 @@
       gap: 16px;
       width: 100%;
     }
-
     .test-list button {
       position: relative;
       overflow: hidden;
@@ -87,7 +83,6 @@
       box-shadow: 0 0 20px rgba(255,255,255,0.15);
       transition: all 0.3s ease;
     }
-
     .test-list button::before {
       content: "";
       position: absolute;
@@ -95,32 +90,17 @@
       left: -75%;
       width: 50%;
       height: 100%;
-      background: linear-gradient(
-        120deg,
-        rgba(255, 255, 255, 0.35),
-        rgba(255, 255, 255, 0)
-      );
+      background: linear-gradient(120deg, rgba(255,255,255,0.35), rgba(255,255,255,0));
       transform: skewX(-25deg);
     }
-
-    .test-list button:hover::before {
-      animation: shine 1.5s forwards;
-    }
-
-    @keyframes shine {
-      0% { left: -75%; }
-      100% { left: 125%; }
-    }
-
+    .test-list button:hover::before { animation: shine 1.5s forwards; }
+    @keyframes shine { 0% { left: -75%; } 100% { left: 125%; } }
     .test-list button:hover {
       transform: scale(1.05);
       box-shadow: 0 0 25px rgba(255,255,255,0.4);
       background: #ffffff;
     }
-
-    .test-list button:active {
-      transform: scale(0.97);
-    }
+    .test-list button:active { transform: scale(0.97); }
 
     .topbar {
       display: flex;
@@ -129,12 +109,7 @@
       gap: 10px;
       margin-bottom: 12px;
     }
-
-    .title {
-      font-weight: 700;
-      font-size: 1rem;
-    }
-
+    .title { font-weight: 700; font-size: 1rem; }
     .timer {
       background: rgba(248, 113, 113, 0.08);
       border: 1px solid rgba(248, 113, 113, 0.3);
@@ -144,12 +119,7 @@
       min-width: 70px;
       text-align: center;
     }
-
-    .info-line {
-      font-size: .8rem;
-      opacity: .75;
-      margin-bottom: 12px;
-    }
+    .info-line { font-size: .8rem; opacity: .75; margin-bottom: 12px; }
 
     .question-box {
       background: rgba(15,23,42,.3);
@@ -158,7 +128,6 @@
       padding: 14px 14px 10px 14px;
       margin-bottom: 14px;
     }
-
     .tag {
       text-transform: uppercase;
       letter-spacing: .12em;
@@ -166,29 +135,27 @@
       opacity: .6;
       margin-bottom: .35rem;
     }
+    .frage { font-size: 1.05rem; font-weight: 600; margin-bottom: .75rem; }
 
-    .frage {
-      font-size: 1.05rem;
-      font-weight: 600;
-      margin-bottom: .75rem;
-    }
-
-    .input-box, .mc-box {
+    .input-box, .mc-box, .match-box, .order-box, .justify-box, .fall-box {
       background: #0f172a;
       border: 1px solid #334155;
       border-radius: 12px;
       padding: 10px;
       margin-bottom: .75rem;
     }
-
-    .input-box input {
+    .input-box input, .justify-box textarea, .fall-box textarea {
       width: 100%;
       background: rgba(15,23,42,0);
-      border: 1px solid rgba(148,163,184,.35);
+      border: 1px solid #334155;
       border-radius: 8px;
       padding: 7px 9px;
       color: #e2e8f0;
       outline: none;
+    }
+    .justify-box textarea, .fall-box textarea {
+      min-height: 100px;
+      resize: vertical;
     }
 
     .mc-option {
@@ -205,13 +172,51 @@
       font-weight: 500;
     }
 
-    .buttons {
-      display: flex;
-      gap: .5rem;
-      flex-wrap: wrap;
-      margin-top: .5rem;
+    .pair-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+    .pair-row .left {
+      background: rgba(148,163,184,0.08);
+      border: 1px solid rgba(148,163,184,0.2);
+      border-radius: 8px;
+      padding: 6px 8px;
+      font-size: .9rem;
+    }
+    .pair-row select {
+      width: 100%;
+      background: #020617;
+      border: 1px solid #334155;
+      border-radius: 8px;
+      padding: 6px 8px;
+      color: #e2e8f0;
     }
 
+    .order-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      background: rgba(148,163,184,0.08);
+      border: 1px solid rgba(148,163,184,0.2);
+      border-radius: 8px;
+      padding: 8px;
+      margin-bottom: 6px;
+    }
+    .order-item .txt { flex: 1; }
+    .order-item .btns button {
+      background: transparent;
+      border: 1px solid var(--accent);
+      color: #e2e8f0;
+      border-radius: 9999px;
+      padding: 4px 10px;
+      cursor: pointer;
+    }
+
+    .buttons { display: flex; gap: .5rem; flex-wrap: wrap; margin-top: .5rem; }
     button {
       background: var(--accent);
       border: none;
@@ -221,72 +226,36 @@
       cursor: pointer;
       color: #0f172a;
     }
+    button.secondary { background: transparent; border: 1px solid var(--accent); color: #e2e8f0; }
+    button.danger { background: var(--bad); color: #0f172a; }
+    button:disabled { opacity: .45; cursor: not-allowed; }
 
-    button.secondary {
-      background: transparent;
-      border: 1px solid var(--accent);
-      color: #e2e8f0;
-    }
-
-    button.danger {
-      background: var(--bad);
-      color: #0f172a;
-    }
-
-    button:disabled {
-      opacity: .45;
-      cursor: not-allowed;
-    }
-
-    .scoreline {
-      font-size: .8rem;
-      margin-top: .6rem;
-      opacity: .75;
-    }
-
-    .finished {
-      font-size: 1.1rem;
-      font-weight: 600;
-      margin-top: 1rem;
-    }
-
-    .esel {
-      margin-top: .5rem;
-      font-size: .75rem;
-      opacity: .7;
-    }
+    .scoreline { font-size: .8rem; margin-top: .6rem; opacity: .75; }
+    .finished { font-size: 1.1rem; font-weight: 600; margin-top: 1rem; }
+    .esel { margin-top: .5rem; font-size: .75rem; opacity: .7; }
 
     /* Erklärung-Popup */
     #explainOverlay {
-      display: none;
-      position: fixed;
-      inset: 0;
+      display: none; position: fixed; inset: 0;
       background: rgba(15,23,42,.75);
       backdrop-filter: blur(2px);
-      justify-content: center;
-      align-items: center;
-      z-index: 9999;
+      justify-content: center; align-items: center; z-index: 9999;
     }
     #explainBox {
-      background: #0f172a;
-      border: 1px solid #334155;
-      border-radius: 14px;
-      max-width: 620px;
-      width: 92%;
-      padding: 16px 18px;
+      background: #0f172a; border: 1px solid #334155; border-radius: 14px;
+      max-width: 620px; width: 92%; padding: 16px 18px;
     }
 
     /* Taschenrechner-Overlay */
     #calcOverlay {
-      display: none;
-      position: fixed;
-      inset: 0;
+      display: none; position: fixed; inset: 0;
       background: rgba(15,23,42,.7);
       backdrop-filter: blur(2px);
-      justify-content: center;
-      align-items: center;
-      z-index: 9999;
+      justify-content: center; align-items: center; z-index: 9999;
     }
+
+    @keyframes fadeInTop { 0%{opacity:0; transform:translateY(-15px);} 100%{opacity:1; transform:translateY(0);} }
+    @keyframes fadeInBottom { 0%{opacity:0; transform:translateY(15px);} 100%{opacity:1; transform:translateY(0);} }
   </style>
 </head>
 <body>
@@ -300,8 +269,9 @@
       </div>
 
       <div class="test-list">
-        <button onclick="selectTest('bwl')">Grundlagen der Betriebswirtschaftslehre</button>
-        <button onclick="selectTest('fall')">Die Systematik der Fallbearbeitung</button>
+        <button onclick="selectTest('bwl')">1. Grundlagen der Betriebswirtschaftslehre</button>
+        <button onclick="selectTest('fall')">2. Die Systematik der Fallbearbeitung</button>
+        <button onclick="selectTest('rwb')">3. BGB-Grundlagen</button>
       </div>
 
       <div style="font-size:24px; margin-top:2rem; color:#38bdf8; opacity:0; transform:translateY(15px); animation:fadeInBottom 1.3s ease-out forwards; animation-delay:.4s; font-family:'Orbitron',sans-serif;">
@@ -317,22 +287,62 @@
         <div id="timer" class="timer">90:00</div>
       </div>
       <div class="info-line" id="infoLine">Frage 1 von 20 · 90 Minuten Prüfungszeit.</div>
+
       <div id="questionBox" class="question-box">
         <div id="tag" class="tag"></div>
         <div id="frage" class="frage"></div>
 
+        <!-- TEXT-EINGABE / CALC -->
         <div id="inputBox" class="input-box hidden">
           <input id="userInput" type="text" placeholder="Antwort eingeben …" />
-          <button id="checkInputBtn" style="margin-top:6px;">Prüfen</button>
-          <!-- NEU: Rechner-Button (wird per JS an/aus geschaltet) -->
-          <button id="openCalcBtn" class="secondary" style="margin-top:6px; display:none;">Rechner</button>
-          <div id="inputFeedback" class="feedback"></div>
+          <div style="display:flex; gap:8px; margin-top:6px;">
+            <button id="checkInputBtn">Prüfen</button>
+            <button id="openCalcBtn" class="secondary" style="display:none;">Rechner</button>
+          </div>
+          <div id="inputFeedback" class="feedback" style="margin-top:6px;"></div>
         </div>
 
+        <!-- MC -->
         <div id="mcBox" class="mc-box hidden"></div>
+
+        <!-- MATCH (Zuordnung) -->
+        <div id="matchBox" class="match-box hidden">
+          <div id="matchRows"></div>
+          <button id="checkMatchBtn" class="secondary" style="margin-top:6px;">Prüfen</button>
+          <div id="matchFeedback" style="margin-top:6px;"></div>
+        </div>
+
+        <!-- ORDER (Reihenfolge) -->
+        <div id="orderBox" class="order-box hidden">
+          <div id="orderList"></div>
+          <div style="display:flex; gap:8px; margin-top:6px;">
+            <button id="shuffleOrderBtn" class="secondary">Neu mischen</button>
+            <button id="checkOrderBtn">Prüfen</button>
+          </div>
+          <div id="orderFeedback" style="margin-top:6px;"></div>
+        </div>
+
+        <!-- JUSTIFY -->
+        <div id="justifyBox" class="justify-box hidden">
+          <textarea id="justifyText" placeholder="Kurz begründen… (Stichwörter zählen)"></textarea>
+          <div style="display:flex; gap:8px; margin-top:6px;">
+            <button id="checkJustifyBtn">Prüfen</button>
+          </div>
+          <div id="justifyFeedback" style="margin-top:6px;"></div>
+        </div>
+
+        <!-- FALLANALYSE -->
+        <div id="fallBox" class="fall-box hidden">
+          <textarea id="fallText" placeholder="Kurze Lösung in Stichpunkten…"></textarea>
+          <div style="display:flex; gap:8px; margin-top:6px;">
+            <button id="checkFallBtn">Prüfen</button>
+          </div>
+          <div id="fallFeedback" style="margin-top:6px;"></div>
+        </div>
 
         <div id="esel" class="esel"></div>
       </div>
+
       <div class="buttons">
         <button id="backHomeBtn" class="secondary">Zur Startseite</button>
         <button id="nextBtn" class="secondary">Nächste Frage</button>
@@ -372,35 +382,33 @@
     </div>
   </div>
 
-  <style>
-    @keyframes fadeInTop {
-      0% { opacity:0; transform:translateY(-15px); }
-      100% { opacity:1; transform:translateY(0); }
-    }
-    @keyframes fadeInBottom {
-      0% { opacity:0; transform:translateY(15px); }
-      100% { opacity:1; transform:translateY(0); }
-    }
-  </style>
-
   <script>
+    // =============================
     // Konfiguration
+    // =============================
     const MAX_TIME_SECONDS = 90 * 60; // 90 Minuten
 
     const TESTS = {
+      rwb: {
+        name: "3. BGB-Grundlagen (RWB) – Test",
+        file: "rwb_test.json",      // <<-- bleibt bewusst so
+        questionCount: 35
+      },
       bwl: {
-        name: "Grundlagen der Betriebswirtschaftslehre – Test",
+        name: "1. Grundlagen der Betriebswirtschaftslehre – Test",
         file: "bwl_test.json",
         questionCount: 20
       },
       fall: {
-        name: "Die Systematik der Fallbearbeitung – Test",
+        name: "2. Die Systematik der Fallbearbeitung – Test",
         file: "fallbearbeitung_test.json",
         questionCount: 35
       }
     };
 
+    // =============================
     // State
+    // =============================
     let selectedTest = null;
     let allQuestions = [];
     let currentQuestions = [];
@@ -410,11 +418,53 @@
     let timerInterval = null;
     let secondsLeft = MAX_TIME_SECONDS;
     let results = []; // {id, frage, user, korrekt, zeit}
-
-    // Taschenrechner-State
     let calcOpen = false;
 
-    // Test auswählen
+    // =============================
+    // Dedupe-Utilities (NEU)
+    // =============================
+    function nrm(s){
+      return (s||"").toString().toLowerCase()
+        .normalize("NFD").replace(/[\u0300-\u036f]/g,"")
+        .replace(/\s+/g," ").trim();
+    }
+
+    function keyForQuestion(q){
+      const base = [q.typ||"", nrm(q.frage||""), nrm(q.tag||"")];
+
+      if(q.typ==="mc"){
+        const opts = Array.isArray(q.optionen)? [...q.optionen].map(nrm).sort().join("|") : "";
+        base.push("mc", opts, nrm(q.loesung||""));
+      } else if(q.typ==="input"){
+        const kor = Array.isArray(q.korrekteAntworten)? [...q.korrekteAntworten].map(nrm).sort().join("|") : "";
+        base.push("input", kor);
+      } else if(q.typ==="match"){
+        const pairs = q.paare? Object.entries(q.paare).map(([l,r])=> `${nrm(l)}=>${nrm(r)}`).sort().join("|") : "";
+        base.push("match", pairs);
+      } else if(q.typ==="order"){
+        const seq = Array.isArray(q.richtigeReihenfolge)? q.richtigeReihenfolge.map(nrm).join("|") : "";
+        base.push("order", seq);
+      } else if(q.typ==="justify" || q.typ==="fallanalyse"){
+        const keys = (q.stichwoerter||q.stichpunkte||[]).map(nrm).sort().join("|");
+        base.push(q.typ, keys);
+      } else if(q.typ==="calc"){
+        base.push("calc", String(q.formel||""));
+      }
+      return base.join("§");
+    }
+
+    function dedupeQuestions(list){
+      const seen = new Map();
+      for(const q of list){
+        const k = keyForQuestion(q);
+        if(!seen.has(k)) seen.set(k, q);
+      }
+      return Array.from(seen.values());
+    }
+
+    // =============================
+    // Test auswählen / laden
+    // =============================
     async function selectTest(key) {
       const t = TESTS[key];
       if (!t) return;
@@ -428,10 +478,14 @@
       startNewTest();
     }
 
-    // Fragen laden
     async function loadQuestions() {
       const res = await fetch(selectedTest.file);
-      allQuestions = await res.json();
+      const raw = await res.json();
+      const hard = dedupeQuestions(Array.isArray(raw)? raw : []);
+      if (hard.length !== raw.length) {
+        console.warn(`Dedupe: ${raw.length - hard.length} Duplikate entfernt (${selectedTest.file}).`);
+      }
+      allQuestions = hard;
     }
 
     function shuffle(arr) {
@@ -448,9 +502,25 @@
       results = [];
       document.getElementById("finalBox").classList.add("hidden");
 
-      const copy = [...allQuestions];
-      shuffle(copy);
-      currentQuestions = copy.slice(0, selectedTest.questionCount);
+      const copy = shuffle([...allQuestions]);
+
+      // Einzigartige Auswahl nach inhaltlichem Schlüssel
+      const want = selectedTest.questionCount;
+      const picked = [];
+      const pickedKeys = new Set();
+      for (const q of copy) {
+        const k = keyForQuestion(q);
+        if (!pickedKeys.has(k)) {
+          picked.push(q);
+          pickedKeys.add(k);
+          if (picked.length === want) break;
+        }
+      }
+      if (picked.length < want) {
+        console.warn(`Nur ${picked.length} einzigartige Fragen gefunden, gewünscht ${want}.`);
+      }
+
+      currentQuestions = picked;
       currentIndex = 0;
 
       if (timerInterval) clearInterval(timerInterval);
@@ -478,6 +548,9 @@
         `${String(m).padStart(2,"0")}:${String(s).padStart(2,"0")}`;
     }
 
+    // =============================
+    // Render-Logik (alle Typen)
+    // =============================
     function renderQuestion() {
       const q = currentQuestions[currentIndex];
       if (!q) return;
@@ -488,26 +561,47 @@
       document.getElementById("infoLine").textContent =
         `Frage ${currentIndex + 1} von ${currentQuestions.length} · 90 Minuten Prüfungszeit.`;
 
-      const inputBox = document.getElementById("inputBox");
-      const mcBox = document.getElementById("mcBox");
-      const inputFeedback = document.getElementById("inputFeedback");
-      const userInput = document.getElementById("userInput");
+      // Inline-Quelle vom Vorgänger entfernen
+      document.getElementById("srcInline")?.remove();
 
-      inputBox.classList.add("hidden");
-      mcBox.classList.add("hidden");
-      mcBox.innerHTML = "";
-      inputFeedback.textContent = "";
-      if (userInput) userInput.value = "";
+      // alle Boxen zurücksetzen
+      hideAllBoxes();
 
+      // Erklärung deaktivieren bis geantwortet
       document.getElementById("showExplainBtn").disabled = true;
 
-      if (q.typ === "mc") {
-        renderMC(q);
-      } else {
-        renderInput(q);
+      switch (q.typ) {
+        case "mc":      renderMC(q); break;
+        case "input":   renderInput(q); break;
+        case "calc":    renderInput(q); break; // gleiche UI, anderes Checking
+        case "match":   renderMatch(q); break;
+        case "order":   renderOrder(q); break;
+        case "justify": renderJustify(q); break;
+        case "fallanalyse": renderFall(q); break;
+        default:        renderInput(q);
       }
     }
 
+    function hideAllBoxes() {
+      const boxes = ["inputBox","mcBox","matchBox","orderBox","justifyBox","fallBox"];
+      boxes.forEach(id => {
+        const el = document.getElementById(id);
+        if (!el) return;
+        el.classList.add("hidden");
+        const fb = el.querySelector(".feedback");
+        if (fb) fb.textContent = "";
+      });
+      const ids = ["inputFeedback","matchFeedback","orderFeedback","justifyFeedback","fallFeedback"];
+      ids.forEach(id => { const e = document.getElementById(id); if (e) e.innerHTML = ""; });
+      document.getElementById("mcBox").innerHTML = "";
+      const mr = document.getElementById("matchRows"); if (mr) mr.innerHTML = "";
+      const ol = document.getElementById("orderList"); if (ol) ol.innerHTML = "";
+      const ui = document.getElementById("userInput"); if (ui) ui.value = "";
+      const jt = document.getElementById("justifyText"); if (jt) jt.value = "";
+      const ft = document.getElementById("fallText"); if (ft) ft.value = "";
+    }
+
+    // ========== MC ==========
     function renderMC(q) {
       const inputBox = document.getElementById("inputBox");
       inputBox.classList.add("hidden");
@@ -531,6 +625,7 @@
       });
     }
 
+    // ========== INPUT / CALC ==========
     function renderInput(q) {
       const mcBox = document.getElementById("mcBox");
       mcBox.innerHTML = "";
@@ -546,7 +641,6 @@
       feedback.style.color = "#e2e8f0";
       userInput.value = "";
 
-      // Rechner nur zeigen bei calc ODER wenn Tag nach Rechnungswesen aussieht
       if (q.typ === "calc" || (q.tag && q.tag.toLowerCase().includes("rechnungswesen"))) {
         calcBtn.style.display = "inline-block";
       } else {
@@ -577,10 +671,143 @@
         }
       };
 
-      // Rechner-Button klick
-      calcBtn.onclick = openCalc;
+      document.getElementById("openCalcBtn").onclick = openCalc;
     }
 
+    // ========== MATCH ==========
+    function renderMatch(q) {
+      const box = document.getElementById("matchBox");
+      const rows = document.getElementById("matchRows");
+      box.classList.remove("hidden");
+
+      const entries = Object.entries(q.paare || {});
+      const lefts = entries.map(e => e[0]);
+      const rights = shuffle(entries.map(e => e[1]));
+
+      lefts.forEach((left) => {
+        const row = document.createElement("div");
+        row.className = "pair-row";
+        const l = document.createElement("div");
+        l.className = "left";
+        l.textContent = left;
+        const sel = document.createElement("select");
+        rights.forEach(r => {
+          const opt = document.createElement("option");
+          opt.value = r; opt.textContent = r;
+          sel.appendChild(opt);
+        });
+        sel.dataset.left = left;
+        row.appendChild(l);
+        row.appendChild(sel);
+        rows.appendChild(row);
+      });
+
+      document.getElementById("checkMatchBtn").onclick = () => {
+        const selects = rows.querySelectorAll("select");
+        let allCorrect = true;
+        selects.forEach(sel => {
+          const left = sel.dataset.left;
+          const val = sel.value;
+          const isRight = normalize(val) === normalize(q.paare[left] || "");
+          sel.style.borderColor = isRight ? "#16a34a" : "#ef4444";
+          if (!isRight) allCorrect = false;
+        });
+        const fb = document.getElementById("matchFeedback");
+        if (allCorrect) { fb.textContent = "Alles korrekt ✅"; fb.style.color = "#22c55e"; }
+        else { fb.textContent = "Nicht ganz ❌ – prüfe die Zuordnung."; fb.style.color = "#ef4444"; }
+        handleAnswer(q, "match_checked", allCorrect);
+      };
+    }
+
+    // ========== ORDER ==========
+    function renderOrder(q) {
+      const box = document.getElementById("orderBox");
+      const list = document.getElementById("orderList");
+      box.classList.remove("hidden");
+
+      const correct = q.richtigeReihenfolge || [];
+      let items = shuffle([...correct]);
+
+      function draw() {
+        list.innerHTML = "";
+        items.forEach((txt, idx) => {
+          const row = document.createElement("div");
+          row.className = "order-item";
+          const t = document.createElement("div");
+          t.className = "txt";
+          t.textContent = txt;
+          const btns = document.createElement("div");
+          btns.className = "btns";
+          const up = document.createElement("button");
+          up.textContent = "↑";
+          up.onclick = () => { if (idx>0) { [items[idx-1], items[idx]] = [items[idx], items[idx-1]]; draw(); } };
+          const down = document.createElement("button");
+          down.textContent = "↓";
+          down.onclick = () => { if (idx<items.length-1) { [items[idx+1], items[idx]] = [items[idx], items[idx+1]]; draw(); } };
+          btns.appendChild(up); btns.appendChild(down);
+          row.appendChild(t); row.appendChild(btns);
+          list.appendChild(row);
+        });
+      }
+      draw();
+
+      document.getElementById("shuffleOrderBtn").onclick = () => {
+        items = shuffle(items);
+        draw();
+      };
+
+      document.getElementById("checkOrderBtn").onclick = () => {
+        const ok = items.every((v,i) => normalize(v) === normalize(correct[i] || ""));
+        const fb = document.getElementById("orderFeedback");
+        if (ok) { fb.textContent = "Reihenfolge korrekt ✅"; fb.style.color = "#22c55e"; }
+        else { fb.textContent = "Falsche Reihenfolge ❌"; fb.style.color = "#ef4444"; }
+        handleAnswer(q, "order_checked", ok);
+      };
+    }
+
+    // ========== JUSTIFY ==========
+    function renderJustify(q) {
+      document.getElementById("justifyBox").classList.remove("hidden");
+      document.getElementById("checkJustifyBtn").onclick = () => {
+        const val = (document.getElementById("justifyText").value || "").trim();
+        const ok = checkKeywordAnswer(q, val);
+        const fb = document.getElementById("justifyFeedback");
+        if (ok) { fb.textContent = "Punkt: ausreichende Begründung ✅"; fb.style.color = "#22c55e"; }
+        else {
+          fb.innerHTML = "Nicht ganz ❌<br>Erwartete Stichwörter u.a.:<br>- " + (q.stichwoerter || q.schluesselwoerter || []).join("<br>- ");
+          fb.style.color = "#ef4444";
+        }
+        handleAnswer(q, val, ok);
+      };
+    }
+
+    // ========== FALLANALYSE ==========
+    function renderFall(q) {
+      document.getElementById("fallBox").classList.remove("hidden");
+      document.getElementById("checkFallBtn").onclick = () => {
+        const val = (document.getElementById("fallText").value || "").trim();
+        const ok = checkKeywordAnswer(q, val);
+        const fb = document.getElementById("fallFeedback");
+        if (ok) { fb.textContent = "Kernpunkte getroffen ✅"; fb.style.color = "#22c55e"; }
+        else {
+          fb.innerHTML = "Nicht ganz ❌<br>Wichtige Punkte:<br>- " + (q.stichpunkte || q.schluesselwoerter || []).join("<br>- ");
+          fb.style.color = "#ef4444";
+        }
+        handleAnswer(q, val, ok);
+      };
+    }
+
+    // =============================
+    // Normalisieren / Checks
+    // =============================
+    function normalize(str) {
+      return (str || "")
+        .toString()
+        .lowerCase?.() ?? (str || "").toString().toLowerCase();
+    }
+  </script>
+  <script>
+    // Fallback, falls obiges lowerCase?.() im manchen Browsern meckert:
     function normalize(str) {
       return (str || "")
         .toString()
@@ -589,6 +816,35 @@
         .replace(/[.,;:!?]/g, " ")
         .replace(/\s+/g, " ")
         .trim();
+    }
+
+    function editDistance(a, b) {
+      const dp = Array.from({length: a.length + 1}, () => Array(b.length + 1).fill(0));
+      for (let i = 0; i <= a.length; i++) dp[i][0] = i;
+      for (let j = 0; j <= b.length; j++) dp[0][j] = j;
+      for (let i = 1; i <= a.length; i++) {
+        for (let j = 1; j <= b.length; j++) {
+          if (a[i-1] === b[j-1]) dp[i][j] = dp[i-1][j-1];
+          else dp[i][j] = Math.min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) + 1;
+        }
+      }
+      return dp[a.length][b.length];
+    }
+
+    function checkKeywordAnswer(q, userVal) {
+      const userNorm = normalize(userVal);
+      const list = q.stichwoerter || q.stichpunkte || q.schluesselwoerter || [];
+      if (!Array.isArray(list) || list.length === 0) return false;
+      let ok = 0;
+      for (const kw of list) {
+        const k = normalize(kw);
+        if (!k) continue;
+        if (userNorm.includes(k)) { ok++; continue; }
+        const parts = userNorm.split(" ");
+        const near = parts.some(p => editDistance(p, k) <= 1);
+        if (near) ok++;
+      }
+      return ok === list.length;
     }
 
     function checkInputAnswer(q, userVal) {
@@ -623,27 +879,20 @@
       return false;
     }
 
-    function editDistance(a, b) {
-      const dp = Array.from({length: a.length + 1}, () => Array(b.length + 1).fill(0));
-      for (let i = 0; i <= a.length; i++) dp[i][0] = i;
-      for (let j = 0; j <= b.length; j++) dp[0][j] = j;
-      for (let i = 1; i <= a.length; i++) {
-        for (let j = 1; j <= b.length; j++) {
-          if (a[i-1] === b[j-1]) dp[i][j] = dp[i-1][j-1];
-          else dp[i][j] = Math.min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) + 1;
-        }
-      }
-      return dp[a.length][b.length];
-    }
-
+    // =============================
+    // Ergebnis / Punkte
+    // =============================
     function handleAnswer(q, userVal, richtig) {
+      const already = results.find(r => r.id === q.id);
+      if (already) return;
+
       answered++;
       if (richtig) score++;
 
       results.push({
         id: q.id,
         frage: q.frage,
-        user: userVal,
+        user: (typeof userVal === "string" ? userVal : JSON.stringify(userVal)),
         korrekt: richtig ? "ja" : "nein",
         zeit: new Date().toISOString()
       });
@@ -672,7 +921,9 @@
         : `Test beendet. Ergebnis: ${score} von ${answered} (${pct}%).`;
     }
 
+    // =============================
     // Buttons
+    // =============================
     document.getElementById("nextBtn").onclick = () => {
       if (currentIndex < currentQuestions.length - 1) {
         currentIndex++;
@@ -700,18 +951,57 @@
       esel.textContent = q.esel || "Hinweis: siehe Skript.";
 
       if (q.typ === "calc" && typeof q.loesungNumerisch !== "undefined") {
-        feedback.innerHTML = "Lösung: <strong>" + q.loesungNumerisch + "</strong>";
-        feedback.style.color = "#e2e8f0";
+        if (feedback) {
+          feedback.innerHTML = "Lösung: <strong>" + q.loesungNumerisch + "</strong>";
+          feedback.style.color = "#e2e8f0";
+        }
+      } else if (q.typ === "match" && q.paare) {
+        const fb = document.getElementById("matchFeedback");
+        if (fb) {
+          fb.innerHTML = "Korrekte Zuordnung:<br>- " + Object.entries(q.paare).map(([l,r]) => `${l} → <strong>${r}</strong>`).join("<br>- ");
+          fb.style.color = "#e2e8f0";
+        }
+      } else if (q.typ === "order" && q.richtigeReihenfolge) {
+        const fb = document.getElementById("orderFeedback");
+        if (fb) {
+          fb.innerHTML = "Richtige Reihenfolge:<br>- " + q.richtigeReihenfolge.join("<br>- ");
+          fb.style.color = "#e2e8f0";
+        }
+      } else if ((q.typ === "justify" || q.typ === "fallanalyse") && (q.stichwoerter || q.stichpunkte)) {
+        const fb = (q.typ === "justify") ? document.getElementById("justifyFeedback") : document.getElementById("fallFeedback");
+        const list = q.stichwoerter || q.stichpunkte || [];
+        if (fb) {
+          fb.innerHTML = "Erwartete Stichwörter:<br>- " + list.join("<br>- ");
+          fb.style.color = "#e2e8f0";
+        }
       } else if (Array.isArray(q.korrekteAntworten) && q.korrekteAntworten.length > 0) {
-        feedback.innerHTML = "Lösungsmöglichkeiten:<br>- " + q.korrekteAntworten.join("<br>- ");
-        feedback.style.color = "#e2e8f0";
+        if (feedback) {
+          feedback.innerHTML = "Lösungsmöglichkeiten:<br>- " + q.korrekteAntworten.join("<br>- ");
+          feedback.style.color = "#e2e8f0";
+        }
       } else if (Array.isArray(q.schluesselwoerter) && q.schluesselwoerter.length > 0) {
-        feedback.innerHTML = "Das musste vorkommen:<br>- " + q.schluesselwoerter.join("<br>- ");
-        feedback.style.color = "#e2e8f0";
+        if (feedback) {
+          feedback.innerHTML = "Das musste vorkommen:<br>- " + q.schluesselwoerter.join("<br>- ");
+          feedback.style.color = "#e2e8f0";
+        }
+      }
+
+      // ==== NEU: Inline-Quelle direkt unter der Frage ====
+      document.getElementById("srcInline")?.remove();
+      if (q.quelle && (q.quelle.kapitel || q.quelle.seite)) {
+        const srcLine = document.createElement("div");
+        srcLine.id = "srcInline";
+        srcLine.style.marginTop = "6px";
+        srcLine.style.fontSize = ".75rem";
+        srcLine.style.opacity = ".65";
+        const kap = q.quelle.kapitel ? String(q.quelle.kapitel) : "";
+        const seite = q.quelle.seite ? String(q.quelle.seite) : "";
+        srcLine.textContent = `Quelle: ${kap}${seite ? ` (S. ${seite})` : ""}`;
+        document.getElementById("questionBox").appendChild(srcLine);
       }
     };
 
-    // ERKLÄRUNG + QUELLEN
+    // ERKLÄRUNG + QUELLEN (Popup)
     document.getElementById("showExplainBtn").onclick = () => {
       const q = currentQuestions[currentIndex];
       const overlay = document.getElementById("explainOverlay");
@@ -721,28 +1011,39 @@
       const srcBox = document.getElementById("explainSources");
 
       title.textContent = q.tag ? `Erklärung – ${q.tag}` : "Erklärung";
+      text.textContent = q.erklaerung ? q.erklaerung : "Zu dieser Frage ist noch keine Erklärung hinterlegt.";
 
-      if (q.erklaerung) {
-        text.textContent = q.erklaerung;
-      } else {
-        text.textContent = "Zu dieser Frage ist noch keine Erklärung hinterlegt.";
+      // ==== NEU: Quellen aus q.quelle {kapitel, seite} und optional q.quellen[] ====
+      srcBox.innerHTML = "";
+      let srcItems = [];
+
+      if (q.quelle && (q.quelle.kapitel || q.quelle.seite)) {
+        const kap = q.quelle.kapitel ? String(q.quelle.kapitel) : "";
+        const seite = q.quelle.seite ? String(q.quelle.seite) : "";
+        const line = seite ? `${kap} (S. ${seite})` : kap;
+        if (line.trim()) srcItems.push(line);
       }
 
       if (Array.isArray(q.quellen) && q.quellen.length > 0) {
-        srcBox.innerHTML = "";
-        q.quellen.forEach((quelle, idx) => {
+        q.quellen.forEach(z => {
+          const t = (z || "").toString().trim();
+          if (t) srcItems.push(t);
+        });
+      }
+
+      if (srcItems.length > 0) {
+        srcItems.forEach((txt, idx) => {
           const div = document.createElement("div");
           div.style.fontSize = ".78rem";
           div.style.background = "rgba(148,163,184,0.08)";
           div.style.border = "1px solid rgba(148,163,184,0.15)";
           div.style.borderRadius = "6px";
           div.style.padding = "4px 6px";
-          div.textContent = (idx + 1) + ". " + quelle;
+          div.textContent = `${idx + 1}. ${txt}`;
           srcBox.appendChild(div);
         });
         srcWrap.style.display = "block";
       } else {
-        srcBox.innerHTML = "";
         srcWrap.style.display = "none";
       }
 
@@ -758,10 +1059,10 @@
       const lines = results.map((r, idx) => {
         const frage = r.frage || "—";
         const antwort = (r.user && r.user !== "") ? r.user : "keine Antwort";
-        return `Frage ${idx + 1}: ${frage}\nAntwort: ${antwort}`;
+        return `Frage ${idx + 1}: ${frage}\nAntwort: ${antwort}\nKorrekt: ${r.korrekt}`;
       });
 
-      const header = `Ergebnisexport – ${new Date().toLocaleString("de-DE")}\nTest: ${(selectedTest && selectedTest.name) || ""}\nAnzahl beantworteter Fragen: ${results.length}\n\n`;
+      const header = `Ergebnisexport – ${new Date().toLocaleString("de-DE")}\nTest: ${(selectedTest && selectedTest.name) || ""}\nBeantwortete Fragen: ${results.length}\nPunkte: ${score} von ${answered}\n\n`;
       const content = header + lines.join("\n\n");
 
       const blob = new Blob([content], { type: "text/plain" });
@@ -777,111 +1078,57 @@
     };
 
     // =============================
-    // TASCHENRECHNER-LOGIK
+    // Taschenrechner
     // =============================
     function openCalc() {
       const ov = document.getElementById("calcOverlay");
       ov.style.display = "flex";
       calcOpen = true;
       const disp = document.getElementById("calcDisplay");
-      // Input-Feld aus Aufgabe rüberziehen
       const currentVal = document.getElementById("userInput").value;
       disp.value = currentVal || "";
       disp.focus();
       document.addEventListener("keydown", handleCalcKey);
     }
-
     function closeCalc() {
       document.getElementById("calcOverlay").style.display = "none";
       calcOpen = false;
       document.removeEventListener("keydown", handleCalcKey);
     }
-
     document.getElementById("closeCalcBtn").onclick = closeCalc;
 
-// =============================
-// TASCHENRECHNER-LOGIK (NEU)
-// =============================
-function openCalc() {
-  const ov = document.getElementById("calcOverlay");
-  ov.style.display = "flex";
-  calcOpen = true;
-  const disp = document.getElementById("calcDisplay");
-  const currentVal = document.getElementById("userInput").value;
-  disp.value = currentVal || "";
-  disp.focus();
-  document.addEventListener("keydown", handleCalcKey);
-}
+    function handleCalcKey(e) {
+      if (!calcOpen) return;
+      const disp = document.getElementById("calcDisplay");
 
-function closeCalc() {
-  document.getElementById("calcOverlay").style.display = "none";
-  calcOpen = false;
-  document.removeEventListener("keydown", handleCalcKey);
-}
+      if (e.key === "Escape") { e.preventDefault(); closeCalc(); return; }
 
-document.getElementById("closeCalcBtn").onclick = closeCalc;
+      if (e.key === "Enter") {
+        e.preventDefault();
+        const raw = disp.value.trim();
+        const jsExpr = raw.replace(/,/g, ".");
+        let result;
+        try {
+          if (!/^[0-9+\-*/().\s]+$/.test(jsExpr)) { throw new Error("Unzulässige Zeichen"); }
+          result = Function("return " + jsExpr)();
+        } catch (err) { result = null; }
 
-function handleCalcKey(e) {
-  if (!calcOpen) return;
-  const disp = document.getElementById("calcDisplay");
-
-  // ESC = schließen
-  if (e.key === "Escape") {
-    e.preventDefault();
-    closeCalc();
-    return;
-  }
-
-  // ENTER = ausrechnen + in Antwortfeld schreiben
-  if (e.key === "Enter") {
-    e.preventDefault();
-    const raw = disp.value.trim();
-
-    // Komma -> Punkt, damit 1,25 geht
-    const jsExpr = raw.replace(/,/g, ".");
-
-    let result;
-    try {
-      // sehr einfache Auswertung, nur für lokale Rechnungen!
-      // erlaubt Ziffern, + - * / . ( )
-      if (!/^[0-9+\-*/().\s]+$/.test(jsExpr)) {
-        throw new Error("Unzulässige Zeichen");
+        if (typeof result === "number" && isFinite(result)) {
+          const displayResult = String(result).replace(".", ",");
+          document.getElementById("userInput").value = displayResult;
+        } else {
+          document.getElementById("userInput").value = raw;
+        }
+        closeCalc(); return;
       }
-      result = Function("return " + jsExpr)();
-    } catch (err) {
-      result = null;
+
+      if (["Backspace","Delete","ArrowLeft","ArrowRight","Tab"].includes(e.key)) return;
+
+      const allowed = "0123456789+-*/.,()";
+      if (!allowed.includes(e.key)) e.preventDefault();
     }
 
-    if (typeof result === "number" && isFinite(result)) {
-      // wieder mit Komma anzeigen wie in DE üblich
-      const displayResult = String(result).replace(".", ",");
-      document.getElementById("userInput").value = displayResult;
-    } else {
-      // wenn Rechnung nicht ging, dann wenigstens den eingegebenen Text übernehmen
-      document.getElementById("userInput").value = raw;
-    }
-
-    closeCalc();
-    return;
-  }
-
-  // Backspace / Delete / Pfeile -> durchlassen
-  if (
-    e.key === "Backspace" ||
-    e.key === "Delete" ||
-    e.key === "ArrowLeft" ||
-    e.key === "ArrowRight" ||
-    e.key === "Tab"
-  ) {
-    return;
-  }
-
-  // Nur diese Zeichen zulassen (für Numpad auch ok)
-  const allowed = "0123456789+-*/.,()";
-  if (!allowed.includes(e.key)) {
-    e.preventDefault();
-  }
-}
+    window.selectTest = selectTest;
   </script>
 </body>
 </html>
