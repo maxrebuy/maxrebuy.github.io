@@ -1,409 +1,254 @@
 <!DOCTYPE html>
+
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <title>LernApp – Deine Tests</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="utf-8"/>
+<title>LernApp – Deine Tests</title>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<!-- Futuristische Schrift -->
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&amp;display=swap" rel="stylesheet"/>
+<style>
+    :root{
+      --bg:#0f172a;--card:#1e293b;--border:#334155;--accent:#38bdf8;--good:#22c55e;--bad:#ef4444;--text:#e2e8f0;
+    }
+    body{background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,sans-serif;margin:0;min-height:100vh;display:flex;justify-content:center;align-items:center;padding:16px;}
+    .hidden{display:none;}
+    .app{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:18px 20px;width:min(900px,100%);box-shadow:0 20px 40px rgba(0,0,0,.25);position:relative;}
 
-  <!-- Futuristische Schrift -->
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+    /* HOME */
+    #homeScreen{text-align:center;display:flex;flex-direction:column;gap:24px;align-items:center;justify-content:center;min-height:520px;}
+    .test-list{display:flex;flex-direction:column;align-items:center;gap:16px;width:100%;}
+    .test-list button{position:relative;overflow:hidden;width:70%;max-width:520px;height:56px;display:flex;justify-content:center;align-items:center;text-align:center;white-space:nowrap;background:#f8f7f3;color:#111;font-weight:700;font-family:'Orbitron',sans-serif;border:none;border-radius:9999px;padding:0 20px;cursor:pointer;box-shadow:0 0 20px rgba(255,255,255,0.15);transition:all .3s ease;}
+    .test-list button::before{content:"";position:absolute;top:0;left:-75%;width:50%;height:100%;background:linear-gradient(120deg,rgba(255,255,255,.35),rgba(255,255,255,0));transform:skewX(-25deg);}
+    .test-list button:hover::before{animation:shine 1.5s forwards;}
+    @keyframes shine{0%{left:-75%;}100%{left:125%;}}
+    .test-list button:hover{transform:scale(1.05);box-shadow:0 0 25px rgba(255,255,255,.4);background:#fff;}
+    .test-list button:active{transform:scale(.97);}
 
-  <style>
-    :root {
-      --bg: #0f172a;         /* dunkelblau */
-      --card: #1e293b;
-      --border: #334155;
-      --accent: #38bdf8;     /* cyan/blau */
-      --good: #22c55e;
-      --bad: #ef4444;
-      --text: #e2e8f0;
-    }
+    .topbar{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px;}
+    .title{font-weight:700;font-size:1rem;}
+    .timer{background:rgba(248,113,113,.08);border:1px solid rgba(248,113,113,.3);border-radius:9999px;padding:4px 12px;font-weight:600;min-width:70px;text-align:center;}
+    .info-line{font-size:.8rem;opacity:.75;margin-bottom:12px;}
 
-    body {
-      background: var(--bg);
-      color: var(--text);
-      font-family: system-ui, -apple-system, sans-serif;
-      margin: 0;
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 16px;
-    }
+    .question-box{background:rgba(15,23,42,.3);border:1px solid rgba(148,163,184,.1);border-radius:12px;padding:14px 14px 10px;margin-bottom:14px;}
+    .tag{text-transform:uppercase;letter-spacing:.12em;font-size:.65rem;opacity:.6;margin-bottom:.35rem;}
+    
+    .fall-box{background: rgba(148,163,184,.07);border: 1px solid rgba(148,163,184,.18);border-radius: 10px;padding: 10px;margin: 8px 0 12px 0;}
+    .fall-title{font-size: .72rem;opacity: .65;letter-spacing: .08em;text-transform: uppercase;margin-bottom: 6px;}
 
-    .hidden { display: none; }
+    .frage{font-size:1.05rem;font-weight:600;margin-bottom:.75rem;}
 
-    .app {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 18px 20px;
-      width: min(900px, 100%);
-      box-shadow: 0 20px 40px rgba(0,0,0,.25);
-      position: relative;
+    .input-box,.mc-box,.match-box,.order-box,.justify-box,.fall-box,.tkonten-box,.bilanz-box{
+      background:#0f172a;border:1px solid #334155;border-radius:12px;padding:10px;margin-bottom:.75rem;
     }
+    .input-box input,.justify-box textarea,.fall-box textarea{
+      width:100%;background:rgba(15,23,42,0);border:1px solid #334155;border-radius:8px;padding:7px 9px;color:#e2e8f0;outline:none;
+    }
+    .justify-box textarea,.fall-box textarea{min-height:100px;resize:vertical;}
 
-    /* HOME SCREEN */
-    #homeScreen {
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      gap: 24px;
-      align-items: center;
-      justify-content: center;
-      min-height: 520px;
-    }
+    .mc-option{display:block;width:100%;text-align:left;background:rgba(15,23,42,.5);border:1px solid rgba(148,163,184,.2);border-radius:10px;padding:8px 10px;margin-bottom:6px;cursor:pointer;color:#e2e8f0;font-weight:500;}
 
-    .test-list {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 16px;
-      width: 100%;
-    }
-    .test-list button {
-      position: relative;
-      overflow: hidden;
-      width: 70%;
-      max-width: 520px;
-      height: 56px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      white-space: nowrap;
-      background: #f8f7f3;
-      color: #111;
-      font-weight: 700;
-      font-family: 'Orbitron', sans-serif;
-      border: none;
-      border-radius: 9999px;
-      padding: 0 20px;
-      cursor: pointer;
-      box-shadow: 0 0 20px rgba(255,255,255,0.15);
-      transition: all 0.3s ease;
-    }
-    .test-list button::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: -75%;
-      width: 50%;
-      height: 100%;
-      background: linear-gradient(120deg, rgba(255,255,255,0.35), rgba(255,255,255,0));
-      transform: skewX(-25deg);
-    }
-    .test-list button:hover::before { animation: shine 1.5s forwards; }
-    @keyframes shine { 0% { left: -75%; } 100% { left: 125%; } }
-    .test-list button:hover {
-      transform: scale(1.05);
-      box-shadow: 0 0 25px rgba(255,255,255,0.4);
-      background: #ffffff;
-    }
-    .test-list button:active { transform: scale(0.97); }
+    .pair-row{display:grid;grid-template-columns:1fr 1fr;gap:8px;align-items:center;margin-bottom:6px;}
+    .pair-row .left{background:rgba(148,163,184,.08);border:1px solid rgba(148,163,184,.2);border-radius:8px;padding:6px 8px;font-size:.9rem;}
+    .pair-row select{width:100%;background:#020617;border:1px solid #334155;border-radius:8px;padding:6px 8px;color:#e2e8f0;}
 
-    .topbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 12px;
-    }
-    .title { font-weight: 700; font-size: 1rem; }
-    .timer {
-      background: rgba(248, 113, 113, 0.08);
-      border: 1px solid rgba(248, 113, 113, 0.3);
-      border-radius: 9999px;
-      padding: 4px 12px;
-      font-weight: 600;
-      min-width: 70px;
-      text-align: center;
-    }
-    .info-line { font-size: .8rem; opacity: .75; margin-bottom: 12px; }
+    .order-item{display:flex;align-items:center;justify-content:space-between;gap:8px;background:rgba(148,163,184,.08);border:1px solid rgba(148,163,184,.2);border-radius:8px;padding:8px;margin-bottom:6px;}
+    .order-item .txt{flex:1;}
+    .order-item .btns button{background:transparent;border:1px solid var(--accent);color:#e2e8f0;border-radius:9999px;padding:4px 10px;cursor:pointer;}
 
-    .question-box {
-      background: rgba(15,23,42,.3);
-      border: 1px solid rgba(148,163,184,.1);
-      border-radius: 12px;
-      padding: 14px 14px 10px 14px;
-      margin-bottom: 14px;
-    }
-    .tag {
-      text-transform: uppercase;
-      letter-spacing: .12em;
-      font-size: .65rem;
-      opacity: .6;
-      margin-bottom: .35rem;
-    }
-    .frage { font-size: 1.05rem; font-weight: 600; margin-bottom: .75rem; }
+    .buttons{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.5rem;}
+    button{background:var(--accent);border:none;border-radius:9999px;padding:8px 14px;font-weight:600;cursor:pointer;color:#0f172a;}
+    button.secondary{background:transparent;border:1px solid var(--accent);color:#e2e8f0;}
+    button.danger{background:var(--bad);color:#0f172a;}
+    button:disabled{opacity:.45;cursor:not-allowed;}
 
-    .input-box, .mc-box, .match-box, .order-box, .justify-box, .fall-box {
-      background: #0f172a;
-      border: 1px solid #334155;
-      border-radius: 12px;
-      padding: 10px;
-      margin-bottom: .75rem;
-    }
-    .input-box input, .justify-box textarea, .fall-box textarea {
-      width: 100%;
-      background: rgba(15,23,42,0);
-      border: 1px solid #334155;
-      border-radius: 8px;
-      padding: 7px 9px;
-      color: #e2e8f0;
-      outline: none;
-    }
-    .justify-box textarea, .fall-box textarea {
-      min-height: 100px;
-      resize: vertical;
-    }
+    .scoreline{font-size:.8rem;margin-top:.6rem;opacity:.75;}
+    .finished{font-size:1.1rem;font-weight:600;margin-top:1rem;}
+    .esel{margin-top:.5rem;font-size:.75rem;opacity:.7;}
 
-    .mc-option {
-      display: block;
-      width: 100%;
-      text-align: left;
-      background: rgba(15,23,42,.5);
-      border: 1px solid rgba(148,163,184,.2);
-      border-radius: 10px;
-      padding: 8px 10px;
-      margin-bottom: 6px;
-      cursor: pointer;
-      color: #e2e8f0;
-      font-weight: 500;
-    }
-
-    .pair-row {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 8px;
-      align-items: center;
-      margin-bottom: 6px;
-    }
-    .pair-row .left {
-      background: rgba(148,163,184,0.08);
-      border: 1px solid rgba(148,163,184,0.2);
-      border-radius: 8px;
-      padding: 6px 8px;
-      font-size: .9rem;
-    }
-    .pair-row select {
-      width: 100%;
-      background: #020617;
-      border: 1px solid #334155;
-      border-radius: 8px;
-      padding: 6px 8px;
-      color: #e2e8f0;
-    }
-
-    .order-item {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 8px;
-      background: rgba(148,163,184,0.08);
-      border: 1px solid rgba(148,163,184,0.2);
-      border-radius: 8px;
-      padding: 8px;
-      margin-bottom: 6px;
-    }
-    .order-item .txt { flex: 1; }
-    .order-item .btns button {
-      background: transparent;
-      border: 1px solid var(--accent);
-      color: #e2e8f0;
-      border-radius: 9999px;
-      padding: 4px 10px;
-      cursor: pointer;
-    }
-
-    .buttons { display: flex; gap: .5rem; flex-wrap: wrap; margin-top: .5rem; }
-    button {
-      background: var(--accent);
-      border: none;
-      border-radius: 9999px;
-      padding: 8px 14px;
-      font-weight: 600;
-      cursor: pointer;
-      color: #0f172a;
-    }
-    button.secondary { background: transparent; border: 1px solid var(--accent); color: #e2e8f0; }
-    button.danger { background: var(--bad); color: #0f172a; }
-    button:disabled { opacity: .45; cursor: not-allowed; }
-
-    .scoreline { font-size: .8rem; margin-top: .6rem; opacity: .75; }
-    .finished { font-size: 1.1rem; font-weight: 600; margin-top: 1rem; }
-    .esel { margin-top: .5rem; font-size: .75rem; opacity: .7; }
+    /* Tabellen für T-Konten/Bilanz */
+    .table{width:100%;border-collapse:separate;border-spacing:0 6px;}
+    .table th,.table td{padding:6px 8px;border:1px solid #334155;}
+    .table th{background:rgba(148,163,184,.1);text-align:left;font-size:.85rem;}
+    .table td input,.table td select{width:100%;background:#020617;border:1px solid #334155;border-radius:8px;padding:6px 8px;color:#e2e8f0;}
+    .hint{font-size:.78rem;opacity:.65;margin:4px 0;}
 
     /* Erklärung-Popup */
-    #explainOverlay {
-      display: none; position: fixed; inset: 0;
-      background: rgba(15,23,42,.75);
-      backdrop-filter: blur(2px);
-      justify-content: center; align-items: center; z-index: 9999;
-    }
-    #explainBox {
-      background: #0f172a; border: 1px solid #334155; border-radius: 14px;
-      max-width: 620px; width: 92%; padding: 16px 18px;
-    }
+    #explainOverlay{display:none;position:fixed;inset:0;background:rgba(15,23,42,.75);backdrop-filter:blur(2px);justify-content:center;align-items:center;z-index:9999;}
+    #explainBox{background:#0f172a;border:1px solid #334155;border-radius:14px;max-width:620px;width:92%;padding:16px 18px;}
 
-    /* Taschenrechner-Overlay */
-    #calcOverlay {
-      display: none; position: fixed; inset: 0;
-      background: rgba(15,23,42,.7);
-      backdrop-filter: blur(2px);
-      justify-content: center; align-items: center; z-index: 9999;
-    }
+    /* Rechner */
+    #calcOverlay{display:none;position:fixed;inset:0;background:rgba(15,23,42,.7);backdrop-filter:blur(2px);justify-content:center;align-items:center;z-index:9999;}
 
-    @keyframes fadeInTop { 0%{opacity:0; transform:translateY(-15px);} 100%{opacity:1; transform:translateY(0);} }
-    @keyframes fadeInBottom { 0%{opacity:0; transform:translateY(15px);} 100%{opacity:1; transform:translateY(0);} }
+    @keyframes fadeInTop{0%{opacity:0;transform:translateY(-15px);}100%{opacity:1;transform:translateY(0);}}
+    @keyframes fadeInBottom{0%{opacity:0;transform:translateY(15px);}100%{opacity:1;transform:translateY(0);}}
   </style>
 </head>
 <body>
-  <div class="app">
-
-    <!-- STARTSEITE -->
-    <div id="homeScreen">
-      <div style="font-size:32px; color:#38bdf8; text-shadow:0 0 15px rgba(56,189,248,0.5); font-family:'Orbitron',sans-serif; line-height:1.3; opacity:0; transform:translateY(-15px); animation:fadeInTop 1.3s ease-out forwards;">
-        Willkommen Meister,<br>
-        It´s time to lean!
+<div class="app">
+<!-- STARTSEITE -->
+<div id="homeScreen">
+<div style="font-size:32px;color:#38bdf8;text-shadow:0 0 15px rgba(56,189,248,.5);font-family:'Orbitron',sans-serif;line-height:1.3;opacity:0;transform:translateY(-15px);animation:fadeInTop 1.3s ease-out forwards;">
+        Willkommen Meister,<br/>It´s time to lean!
       </div>
-
-      <div class="test-list">
-        <button onclick="selectTest('bwl')">1. Grundlagen der Betriebswirtschaftslehre</button>
-        <button onclick="selectTest('fall')">2. Die Systematik der Fallbearbeitung</button>
-        <button onclick="selectTest('rwb')">3. BGB-Grundlagen</button>
+<div class="test-list">
+<button onclick="selectTest('bwl')">1. Grundlagen der Betriebswirtschaftslehre</button>
+<button onclick="selectTest('fall')">2. Die Systematik der Fallbearbeitung</button>
+<button onclick="selectTest('rwb')">3. BGB-Grundlagen</button>
+<button onclick="selectTest('vwl')">4. Volkswirtschaftslehre</button></div>
+<div style="font-size:24px;margin-top:2rem;color:#38bdf8;opacity:0;transform:translateY(15px);animation:fadeInBottom 1.3s ease-out forwards;animation-delay:.4s;font-family:'Orbitron',sans-serif;">
+        Weitere Tests folgen, sobald du deine Hefte fertig gelesen hast!!<br/>Also häng dich rein, mein Bester.
       </div>
+</div>
+<!-- TEST-SCREEN -->
+<div class="hidden" id="testScreen">
+<div class="topbar">
+<div class="title" id="testTitle">Test</div>
+<div class="timer" id="timer">90:00</div>
+</div>
+<div class="info-line" id="infoLine">Frage 1 von 20 · 90 Minuten Prüfungszeit.</div>
+<div class="question-box" id="questionBox">
+<div class="tag" id="tag"></div>
 
-      <div style="font-size:24px; margin-top:2rem; color:#38bdf8; opacity:0; transform:translateY(15px); animation:fadeInBottom 1.3s ease-out forwards; animation-delay:.4s; font-family:'Orbitron',sans-serif;">
-        Weitere Tests folgen, sobald du deine Hefte fertig gelesen hast!!<br>
-        Also häng dich rein, mein Bester.
-      </div>
-    </div>
+<!-- FALLTEXT (DISPLAY) -->
+<div id="caseBox" class="fall-box hidden">
+  <div class="fall-title">FALLTEXT</div>
+  <div id="caseText"></div>
+</div>
 
-    <!-- TEST-SCREEN -->
-    <div id="testScreen" class="hidden">
-      <div class="topbar">
-        <div class="title" id="testTitle">Test</div>
-        <div id="timer" class="timer">90:00</div>
-      </div>
-      <div class="info-line" id="infoLine">Frage 1 von 20 · 90 Minuten Prüfungszeit.</div>
-
-      <div id="questionBox" class="question-box">
-        <div id="tag" class="tag"></div>
-        <div id="frage" class="frage"></div>
-
-        <!-- TEXT-EINGABE / CALC -->
-        <div id="inputBox" class="input-box hidden">
-          <input id="userInput" type="text" placeholder="Antwort eingeben …" />
-          <div style="display:flex; gap:8px; margin-top:6px;">
-            <button id="checkInputBtn">Prüfen</button>
-            <button id="openCalcBtn" class="secondary" style="display:none;">Rechner</button>
-          </div>
-          <div id="inputFeedback" class="feedback" style="margin-top:6px;"></div>
-        </div>
-
-        <!-- MC -->
-        <div id="mcBox" class="mc-box hidden"></div>
-
-        <!-- MATCH (Zuordnung) -->
-        <div id="matchBox" class="match-box hidden">
-          <div id="matchRows"></div>
-          <button id="checkMatchBtn" class="secondary" style="margin-top:6px;">Prüfen</button>
-          <div id="matchFeedback" style="margin-top:6px;"></div>
-        </div>
-
-        <!-- ORDER (Reihenfolge) -->
-        <div id="orderBox" class="order-box hidden">
-          <div id="orderList"></div>
-          <div style="display:flex; gap:8px; margin-top:6px;">
-            <button id="shuffleOrderBtn" class="secondary">Neu mischen</button>
-            <button id="checkOrderBtn">Prüfen</button>
-          </div>
-          <div id="orderFeedback" style="margin-top:6px;"></div>
-        </div>
-
-        <!-- JUSTIFY -->
-        <div id="justifyBox" class="justify-box hidden">
-          <textarea id="justifyText" placeholder="Kurz begründen… (Stichwörter zählen)"></textarea>
-          <div style="display:flex; gap:8px; margin-top:6px;">
-            <button id="checkJustifyBtn">Prüfen</button>
-          </div>
-          <div id="justifyFeedback" style="margin-top:6px;"></div>
-        </div>
-
-        <!-- FALLANALYSE -->
-        <div id="fallBox" class="fall-box hidden">
-          <textarea id="fallText" placeholder="Kurze Lösung in Stichpunkten…"></textarea>
-          <div style="display:flex; gap:8px; margin-top:6px;">
-            <button id="checkFallBtn">Prüfen</button>
-          </div>
-          <div id="fallFeedback" style="margin-top:6px;"></div>
-        </div>
-
-        <div id="esel" class="esel"></div>
-      </div>
-
-      <div class="buttons">
-        <button id="backHomeBtn" class="secondary">Zur Startseite</button>
-        <button id="nextBtn" class="secondary">Nächste Frage</button>
-        <button id="showSolutionBtn" class="secondary">Lösung anzeigen</button>
-        <button id="showExplainBtn" class="secondary" disabled>Erklärung</button>
-        <button id="restartBtn" class="danger">Test neu starten</button>
-        <button id="exportBtn" class="secondary">Ergebnisse exportieren</button>
-      </div>
-      <div id="scoreline" class="scoreline">Punkte: 0 / 0 (0%)</div>
-      <div id="finalBox" class="finished hidden"></div>
-    </div>
-  </div>
-
-  <!-- Erklärung-Popup -->
-  <div id="explainOverlay">
-    <div id="explainBox">
-      <div id="explainTitle" style="font-weight:600; margin-bottom:6px;">Erklärung</div>
-      <div id="explainText" style="font-size:.85rem; line-height:1.4;"></div>
-
-      <!-- QUELLEN -->
-      <div id="explainSourcesWrap" style="margin-top:10px; display:none;">
-        <div style="font-size:.7rem; text-transform:uppercase; letter-spacing:.08em; opacity:.6; margin-bottom:4px;">Quellen / Nachlesen</div>
-        <div id="explainSources" style="display:flex; flex-direction:column; gap:4px;"></div>
-      </div>
-
-      <button id="closeExplainBtn" style="margin-top:12px; background:#38bdf8; border:none; border-radius:9999px; padding:6px 12px; font-weight:600; cursor:pointer; color:#0f172a;">Schließen</button>
-    </div>
-  </div>
-
-  <!-- TASCHENRECHNER-POPUP -->
-  <div id="calcOverlay">
-    <div style="background:#0f172a; border:1px solid #334155; border-radius:14px; padding:14px; width:280px;">
-      <div style="font-weight:600; margin-bottom:6px;">Taschenrechner</div>
-      <input id="calcDisplay" type="text" value="" style="width:100%; background:#020617; border:1px solid #334155; border-radius:8px; padding:6px 8px; color:#e2e8f0; margin-bottom:8px;">
-      <div style="font-size:.7rem; opacity:.55; margin-bottom:6px;">Numpad benutzen oder direkt tippen. Enter = übernehmen.</div>
-      <button id="closeCalcBtn" class="secondary" style="width:auto;">Schließen</button>
-    </div>
-  </div>
-
-  <script>
+<div class="frage" id="frage"></div>
+<!-- TEXT-EINGABE / CALC -->
+<div class="input-box hidden" id="inputBox">
+<input id="userInput" placeholder="Antwort eingeben …" type="text"/>
+<div style="display:flex;gap:8px;margin-top:6px;">
+<button id="checkInputBtn">Prüfen</button>
+<button class="secondary" id="openCalcBtn" style="display:none;">Rechner</button>
+</div>
+<div class="feedback" id="inputFeedback" style="margin-top:6px;"></div>
+</div>
+<!-- MC -->
+<div class="mc-box hidden" id="mcBox"></div>
+<!-- MATCH (Zuordnung) -->
+<div class="match-box hidden" id="matchBox">
+<div id="matchRows"></div>
+<button class="secondary" id="checkMatchBtn" style="margin-top:6px;">Prüfen</button>
+<div id="matchFeedback" style="margin-top:6px;"></div>
+</div>
+<!-- ORDER (Reihenfolge) -->
+<div class="order-box hidden" id="orderBox">
+<div id="orderList"></div>
+<div style="display:flex;gap:8px;margin-top:6px;">
+<button class="secondary" id="shuffleOrderBtn">Neu mischen</button>
+<button id="checkOrderBtn">Prüfen</button>
+</div>
+<div id="orderFeedback" style="margin-top:6px;"></div>
+</div>
+<!-- JUSTIFY -->
+<div class="justify-box hidden" id="justifyBox">
+<textarea id="justifyText" placeholder="Kurz begründen… (Stichwörter zählen)"></textarea>
+<div style="display:flex;gap:8px;margin-top:6px;">
+<button id="checkJustifyBtn">Prüfen</button>
+</div>
+<div id="justifyFeedback" style="margin-top:6px;"></div>
+</div>
+<!-- FALLANALYSE -->
+<div class="fall-box hidden" id="fallBox">
+<textarea id="fallText" placeholder="Kurze Lösung in Stichpunkten…"></textarea>
+<div style="display:flex;gap:8px;margin-top:6px;">
+<button id="checkFallBtn">Prüfen</button>
+</div>
+<div id="fallFeedback" style="margin-top:6px;"></div>
+</div>
+<!-- T-KONTEN -->
+<div class="tkonten-box hidden" id="tkontenBox">
+<div class="hint">Wähle Konto, Seite (Soll/Haben) und Betrag für jede Buchung.</div>
+<table class="table" id="tkontenTable">
+<thead><tr><th style="width:40%">Konto</th><th style="width:20%">Seite</th><th style="width:40%">Betrag</th></tr></thead>
+<tbody></tbody>
+</table>
+<div style="display:flex;gap:8px;margin-top:6px;">
+<button id="checkTKontenBtn">Prüfen</button>
+<button class="secondary" id="resetTKontenBtn">Zurücksetzen</button>
+</div>
+<div id="tkontenFeedback" style="margin-top:6px;"></div>
+</div>
+<!-- BILANZ -->
+<div class="bilanz-box hidden" id="bilanzBox">
+<div class="hint">Ordne jede Position der Seite <em>Aktiva</em> oder <em>Passiva</em> zu.</div>
+<table class="table" id="bilanzTable">
+<thead><tr><th>Position</th><th>Seite</th></tr></thead>
+<tbody></tbody>
+</table>
+<div style="display:flex;gap:8px;margin-top:6px;">
+<button id="checkBilanzBtn">Prüfen</button>
+<button class="secondary" id="resetBilanzBtn">Zurücksetzen</button>
+</div>
+<div id="bilanzFeedback" style="margin-top:6px;"></div>
+</div>
+<div class="esel" id="esel"></div>
+<div class="input-box hidden" id="tfBox">
+<div>
+<label style="display:block;margin-bottom:6px;"><input name="tfAns" type="radio" value="true"/> Richtig</label>
+<label style="display:block;"><input name="tfAns" type="radio" value="false"/> Falsch</label>
+</div>
+<div style="display:flex;gap:8px;margin-top:6px;">
+<button id="checkTfBtn">Prüfen</button>
+</div>
+<div class="feedback" id="tfFeedback" style="margin-top:6px;"></div>
+</div>
+<div class="fall-box hidden" id="falltextBox">
+<div class="justify-box" id="falltextContainer" style="background:transparent;border:none;padding:0;margin:0;"></div>
+<div style="display:flex;gap:8px;margin-top:6px;">
+<button id="checkFalltextBtn">Prüfen</button>
+<button id="exportFalltextBtn">Export CSV</button></div>
+<div id="falltextFeedback" style="margin-top:6px;"></div>
+</div>
+</div>
+<div class="buttons">
+<button class="secondary" id="backHomeBtn">Zur Startseite</button>
+<button class="secondary" id="nextBtn">Nächste Frage</button>
+<button class="secondary" id="showSolutionBtn">Lösung anzeigen</button>
+<button class="secondary" disabled="" id="showExplainBtn">Erklärung</button>
+<button class="danger" id="restartBtn">Test neu starten</button>
+<button class="secondary" id="exportBtn">Ergebnisse exportieren</button>
+</div>
+<div class="scoreline" id="scoreline">Punkte: 0 / 0 (0%)</div>
+<div class="finished hidden" id="finalBox"></div>
+</div>
+</div>
+<!-- Erklärung-Popup -->
+<div id="explainOverlay">
+<div id="explainBox">
+<div id="explainTitle" style="font-weight:600;margin-bottom:6px;">Erklärung</div>
+<div id="explainText" style="font-size:.85rem;line-height:1.4;"></div>
+<!-- QUELLEN -->
+<div id="explainSourcesWrap" style="margin-top:10px;display:none;">
+<div style="font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;opacity:.6;margin-bottom:4px;">Quellen / Nachlesen</div>
+<div id="explainSources" style="display:flex;flex-direction:column;gap:4px;"></div>
+</div>
+<button id="closeExplainBtn" style="margin-top:12px;background:#38bdf8;border:none;border-radius:9999px;padding:6px 12px;font-weight:600;cursor:pointer;color:#0f172a;">Schließen</button>
+</div>
+</div>
+<!-- TASCHENRECHNER-POPUP -->
+<div id="calcOverlay">
+<div style="background:#0f172a;border:1px solid #334155;border-radius:14px;padding:14px;width:280px;">
+<div style="font-weight:600;margin-bottom:6px;">Taschenrechner</div>
+<input id="calcDisplay" style="width:100%;background:#020617;border:1px solid #334155;border-radius:8px;padding:6px 8px;color:#e2e8f0;margin-bottom:8px;" type="text" value=""/>
+<div style="font-size:.7rem;opacity:.55;margin-bottom:6px;">Numpad benutzen oder direkt tippen. Enter = übernehmen.</div>
+<button class="secondary" id="closeCalcBtn" style="width:auto;">Schließen</button>
+</div>
+</div>
+<script>
     // =============================
     // Konfiguration
     // =============================
     const MAX_TIME_SECONDS = 90 * 60; // 90 Minuten
 
     const TESTS = {
-      rwb: {
-        name: "3. BGB-Grundlagen (RWB) – Test",
-        file: "rwb_test.json",      // <<-- bleibt bewusst so
-        questionCount: 35
-      },
-      bwl: {
-        name: "1. Grundlagen der Betriebswirtschaftslehre – Test",
-        file: "bwl_test.json",
-        questionCount: 20
-      },
-      fall: {
-        name: "2. Die Systematik der Fallbearbeitung – Test",
-        file: "fallbearbeitung_test.json",
-        questionCount: 35
-      }
+      rwb: { name: "3. BGB-Grundlagen (RWB) – Test", file: "rwb_test.json", questionCount: 30 },
+      bwl: { name: "1. Grundlagen der Betriebswirtschaftslehre – Test", file: "bwl_test.json", questionCount: 30 },
+      fall:{ name: "2. Die Systematik der Fallbearbeitung – Test", file: "fallbearbeitung_test.json", questionCount: 30 },
+      vwl: { name: "4. Volkswirtschaftslehre – Test", file: "vwlw01_test.json", questionCount: 30 }
     };
 
     // =============================
@@ -421,7 +266,7 @@
     let calcOpen = false;
 
     // =============================
-    // Dedupe-Utilities (NEU)
+    // Dedupe-Utilities
     // =============================
     function nrm(s){
       return (s||"").toString().toLowerCase()
@@ -431,7 +276,6 @@
 
     function keyForQuestion(q){
       const base = [q.typ||"", nrm(q.frage||""), nrm(q.tag||"")];
-
       if(q.typ==="mc"){
         const opts = Array.isArray(q.optionen)? [...q.optionen].map(nrm).sort().join("|") : "";
         base.push("mc", opts, nrm(q.loesung||""));
@@ -449,6 +293,12 @@
         base.push(q.typ, keys);
       } else if(q.typ==="calc"){
         base.push("calc", String(q.formel||""));
+      } else if(q.typ==="tkonten"){
+        const sol = Array.isArray(q.buchungenLoesung)? q.buchungenLoesung.map(b=>`${nrm(b.konto)}:${nrm(b.seite)}:${b.betrag}`).sort().join("|"):"";
+        base.push("tkonten", sol);
+      } else if(q.typ==="bilanz"){
+        const map = q.richtigeZuordnung? Object.entries(q.richtigeZuordnung).map(([p,s])=>`${nrm(p)}=>${nrm(s)}`).sort().join("|"):"";
+        base.push("bilanz", map);
       }
       return base.join("§");
     }
@@ -465,9 +315,8 @@
     // =============================
     // Test auswählen / laden
     // =============================
-    async function selectTest(key) {
-      const t = TESTS[key];
-      if (!t) return;
+    async function selectTest(key){
+      const t = TESTS[key]; if(!t) return;
       selectedTest = t;
 
       document.getElementById("homeScreen").classList.add("hidden");
@@ -478,146 +327,178 @@
       startNewTest();
     }
 
-    async function loadQuestions() {
+    async function loadQuestions(){
       const res = await fetch(selectedTest.file);
       const raw = await res.json();
       const hard = dedupeQuestions(Array.isArray(raw)? raw : []);
-      if (hard.length !== raw.length) {
+      if(hard.length !== raw.length){
         console.warn(`Dedupe: ${raw.length - hard.length} Duplikate entfernt (${selectedTest.file}).`);
       }
       allQuestions = hard;
     }
 
-    function shuffle(arr) {
-      for (let i = arr.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [arr[i], arr[j]] = [arr[j], arr[i]];
+    function shuffle(arr){
+      for(let i=arr.length-1;i>0;i--){
+        const j = Math.floor(Math.random()*(i+1));
+        [arr[i],arr[j]] = [arr[j],arr[i]];
       }
       return arr;
     }
 
-    function startNewTest() {
-      score = 0;
-      answered = 0;
-      results = [];
-      document.getElementById("finalBox").classList.add("hidden");
-
+    function startNewTest(){
+      score=0; answered=0; results=[]; document.getElementById("finalBox").classList.add("hidden");
       const copy = shuffle([...allQuestions]);
 
-      // Einzigartige Auswahl nach inhaltlichem Schlüssel
       const want = selectedTest.questionCount;
-      const picked = [];
-      const pickedKeys = new Set();
-      for (const q of copy) {
+      const picked = []; const pickedKeys = new Set();
+      for(const q of copy){
         const k = keyForQuestion(q);
-        if (!pickedKeys.has(k)) {
-          picked.push(q);
-          pickedKeys.add(k);
-          if (picked.length === want) break;
+        if(!pickedKeys.has(k)){
+          picked.push(q); pickedKeys.add(k);
+          if(picked.length===want) break;
         }
       }
-      if (picked.length < want) {
+      if(picked.length<want){
         console.warn(`Nur ${picked.length} einzigartige Fragen gefunden, gewünscht ${want}.`);
       }
 
-      currentQuestions = picked;
-      currentIndex = 0;
+      currentQuestions = picked; currentIndex=0;
 
-      if (timerInterval) clearInterval(timerInterval);
-      secondsLeft = MAX_TIME_SECONDS;
-      updateTimer();
+      if(timerInterval) clearInterval(timerInterval);
+      secondsLeft = MAX_TIME_SECONDS; updateTimer();
       timerInterval = setInterval(tick, 1000);
 
-      renderQuestion();
-      updateScoreline();
+      renderQuestion(); updateScoreline();
     }
 
-    function tick() {
-      secondsLeft--;
-      updateTimer();
-      if (secondsLeft <= 0) {
-        clearInterval(timerInterval);
-        finishTest(true);
-      }
-    }
-
-    function updateTimer() {
-      const m = Math.floor(secondsLeft / 60);
-      const s = secondsLeft % 60;
-      document.getElementById("timer").textContent =
-        `${String(m).padStart(2,"0")}:${String(s).padStart(2,"0")}`;
+    function tick(){ secondsLeft--; updateTimer(); if(secondsLeft<=0){ clearInterval(timerInterval); finishTest(true);} }
+    function updateTimer(){
+      const m = Math.floor(secondsLeft/60), s = secondsLeft%60;
+      document.getElementById("timer").textContent = `${String(m).padStart(2,"0")}:${String(s).padStart(2,"0")}`;
     }
 
     // =============================
     // Render-Logik (alle Typen)
     // =============================
-    function renderQuestion() {
-      const q = currentQuestions[currentIndex];
-      if (!q) return;
+    // ---- Calc-Frage vorbereiten: Zufallswerte einsetzen + Lösung berechnen
+    function prepareCalcQuestion(q){
+      if(q.typ !== "calc" || !q.parameter || !q.formel) return;
 
+      // Werte neu ziehen
+      const werte = {};
+      for (const key in q.parameter) {
+        const [min, max] = q.parameter[key];
+        werte[key] = Math.floor(Math.random() * (max - min + 1)) + min;
+      }
+      q._werte = werte; // optional: falls du sie später anzeigen willst
+
+      // Original-Template merken und Text mit Werten erzeugen
+      if (!q.frageTemplate) q.frageTemplate = q.frage || "";
+      q.frage = q.frageTemplate.replace(/{(\w+)}/g, (_, k) => werte[k]);
+
+      // Lösung berechnen
+      try {
+        q.loesungNumerisch = Function(...Object.keys(werte), "return " + q.formel)(...Object.values(werte));
+      } catch (err) {
+        console.error("Fehler bei Formelauswertung:", err);
+        q.loesungNumerisch = NaN;
+      }
+
+      // Fallback-Toleranz
+      if (typeof q.toleranz !== "number") q.toleranz = 0.01;
+    }
+    function renderQuestion(){
+      const q = currentQuestions[currentIndex]; if (q && q.typ === "calc") prepareCalcQuestion(q);
       document.getElementById("tag").textContent = q.tag || "";
-      document.getElementById("frage").textContent = q.frage;
+      document.getElementById("frage").textContent = q.frage || (q.fall || "");
       document.getElementById("esel").textContent = q.esel || "";
       document.getElementById("infoLine").textContent =
-        `Frage ${currentIndex + 1} von ${currentQuestions.length} · 90 Minuten Prüfungszeit.`;
+        `Frage ${currentIndex+1} von ${currentQuestions.length} · 90 Minuten Prüfungszeit.`;
+
+        // --- FALLTEXT rendern ---
+      const fallBox  = document.getElementById("caseBox");
+      const fallText = document.getElementById("caseText");
+      const esc = (s) => (s||"").toString()
+        .replace(/[&<>]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[m]))
+        .replace(/\n/g,"<br>");
+
+      // mehrere mögliche Felder abdeckens
+      const fallRaw =
+        (q.fall && String(q.fall).trim()) ||
+        (q.erklaerung_fall && String(q.erklaerung_fall).trim()) ||
+        (q.falltext && String(q.falltext).trim()) || ""; // Fallback
+
+      if (fallRaw){
+        fallText.innerHTML = esc(fallRaw);
+        fallBox.classList.remove("hidden");
+      } else {
+        fallText.innerHTML = "";
+        fallBox.classList.add("hidden");
+      }
 
       // Inline-Quelle vom Vorgänger entfernen
       document.getElementById("srcInline")?.remove();
 
       // alle Boxen zurücksetzen
       hideAllBoxes();
+      // Alle möglichen Boxen ausblenden, um Überbleibsel zu verhindern
+      ["matrixBox","sequenceBox","tfBox","falltextBox"].forEach(id=>{
+        const el=document.getElementById(id);
+        if(el){ el.classList.add("hidden"); el.innerHTML=""; } // leert den Container
+      });
+
 
       // Erklärung deaktivieren bis geantwortet
       document.getElementById("showExplainBtn").disabled = true;
 
-      switch (q.typ) {
-        case "mc":      renderMC(q); break;
-        case "input":   renderInput(q); break;
-        case "calc":    renderInput(q); break; // gleiche UI, anderes Checking
-        case "match":   renderMatch(q); break;
-        case "order":   renderOrder(q); break;
-        case "justify": renderJustify(q); break;
+      switch(q.typ){
+        case "mc":        renderMC(q); break;
+        case "input":     renderInput(q); break;
+        case "calc":      renderInput(q); break;
+        case "match":     renderMatch(q); break;
+        case "matrix":    renderMatrix(q); break;
+        case "order":     renderOrder(q); break;
+        case "sequence":  renderOrder(q); break;
+        case "truefalse": renderTrueFalse(q); break;
+        case "falltext":  renderFalltext(q); break;
+        case "justify":   renderJustify(q); break;
         case "fallanalyse": renderFall(q); break;
-        default:        renderInput(q);
+        case "tkonten":   renderTKonten(q); break;
+        case "bilanz":    renderBilanz(q); break;
+        default:          renderInput(q);
       }
     }
 
-    function hideAllBoxes() {
-      const boxes = ["inputBox","mcBox","matchBox","orderBox","justifyBox","fallBox"];
-      boxes.forEach(id => {
-        const el = document.getElementById(id);
-        if (!el) return;
+    function hideAllBoxes(){
+      const boxes = ["inputBox","mcBox","matchBox","orderBox","justifyBox","fallBox","tkontenBox","bilanzBox","tfBox","falltextBox"];
+      boxes.forEach(id=>{
+        const el=document.getElementById(id); if(!el) return;
         el.classList.add("hidden");
-        const fb = el.querySelector(".feedback");
-        if (fb) fb.textContent = "";
+        const fb = el.querySelector(".feedback"); if(fb) fb.textContent="";
       });
-      const ids = ["inputFeedback","matchFeedback","orderFeedback","justifyFeedback","fallFeedback"];
-      ids.forEach(id => { const e = document.getElementById(id); if (e) e.innerHTML = ""; });
-      document.getElementById("mcBox").innerHTML = "";
-      const mr = document.getElementById("matchRows"); if (mr) mr.innerHTML = "";
-      const ol = document.getElementById("orderList"); if (ol) ol.innerHTML = "";
-      const ui = document.getElementById("userInput"); if (ui) ui.value = "";
-      const jt = document.getElementById("justifyText"); if (jt) jt.value = "";
-      const ft = document.getElementById("fallText"); if (ft) ft.value = "";
+      ["inputFeedback","matchFeedback","orderFeedback","justifyFeedback","fallFeedback","tkontenFeedback","bilanzFeedback"]
+        .forEach(id=>{ const e=document.getElementById(id); if(e) e.innerHTML=""; });
+      document.getElementById("mcBox").innerHTML="";
+      const mr=document.getElementById("matchRows"); if(mr) mr.innerHTML="";
+      const ol=document.getElementById("orderList"); if(ol) ol.innerHTML="";
+      const ui=document.getElementById("userInput"); if(ui) ui.value="";
+      const jt=document.getElementById("justifyText"); if(jt) jt.value="";
+      const ft=document.getElementById("fallText"); if(ft) ft.value="";
+      const tt=document.querySelector("#tkontenTable tbody"); if(tt) tt.innerHTML="";
+      const bt=document.querySelector("#bilanzTable tbody"); if(bt) bt.innerHTML="";
     }
 
     // ========== MC ==========
-    function renderMC(q) {
-      const inputBox = document.getElementById("inputBox");
-      inputBox.classList.add("hidden");
-
-      const box = document.getElementById("mcBox");
-      box.innerHTML = "";
-      box.classList.remove("hidden");
-
-      const options = shuffle([...q.optionen]);
-      options.forEach(opt => {
-        const btn = document.createElement("button");
-        btn.textContent = opt;
-        btn.className = "mc-option";
-        btn.onclick = () => {
-          const richtig = normalize(opt) === normalize(q.loesung);
-          handleAnswer(q, opt, richtig);
+    function renderMC(q){
+      document.getElementById("inputBox").classList.add("hidden");
+      const box=document.getElementById("mcBox"); box.innerHTML=""; box.classList.remove("hidden");
+      const options = shuffle([...(q.optionen||[])]);
+      options.forEach(opt=>{
+        const btn=document.createElement("button");
+        btn.textContent=opt; btn.className="mc-option";
+        btn.onclick=()=>{
+          const richtig = normalize(opt)===normalize(q.loesung);
+          handleAnswer(q,opt,richtig);
           btn.style.background = richtig ? "rgba(34,197,94,.4)" : "rgba(239,68,68,.4)";
           btn.style.color = "#0f172a";
         };
@@ -626,509 +507,1031 @@
     }
 
     // ========== INPUT / CALC ==========
-    function renderInput(q) {
-      const mcBox = document.getElementById("mcBox");
-      mcBox.innerHTML = "";
-      mcBox.classList.add("hidden");
-
-      const inputBox = document.getElementById("inputBox");
-      const feedback = document.getElementById("inputFeedback");
-      const userInput = document.getElementById("userInput");
-      const calcBtn = document.getElementById("openCalcBtn");
+    function renderInput(q){
+      document.getElementById("mcBox").innerHTML=""; document.getElementById("mcBox").classList.add("hidden");
+      const inputBox=document.getElementById("inputBox");
+      const feedback=document.getElementById("inputFeedback");
+      const userInput=document.getElementById("userInput");
+      const calcBtn=document.getElementById("openCalcBtn");
 
       inputBox.classList.remove("hidden");
-      feedback.textContent = "";
-      feedback.style.color = "#e2e8f0";
-      userInput.value = "";
+      feedback.textContent=""; feedback.style.color="#e2e8f0"; userInput.value="";
 
-      if (q.typ === "calc" || (q.tag && q.tag.toLowerCase().includes("rechnungswesen"))) {
-        calcBtn.style.display = "inline-block";
-      } else {
-        calcBtn.style.display = "none";
-      }
+      if(q.typ==="calc" || (q.tag && q.tag.toLowerCase().includes("rechnungswesen"))) calcBtn.style.display="inline-block";
+      else calcBtn.style.display="none";
 
-      document.getElementById("checkInputBtn").onclick = () => {
-        const val = userInput.value.trim();
-        const richtig = checkInputAnswer(q, val);
-        handleAnswer(q, val, richtig);
+      document.getElementById("checkInputBtn").onclick=()=>{
+        const val=userInput.value.trim();
+        const richtig=checkInputAnswer(q,val);
+        handleAnswer(q,val,richtig);
+        if(richtig){ feedback.textContent="Richtig ✅"; feedback.style.color="#22c55e"; }
+        else{
+          feedback.style.textAlign="left"; feedback.style.color="#ef4444";
+          if (q.typ === "calc") {
+            // Dynamische Werte erzeugen
+            if (q.parameter && q.formel) {
+              const werte = {};
+              for (let key in q.parameter) {
+                const [min, max] = q.parameter[key];
+                werte[key] = Math.floor(Math.random() * (max - min + 1)) + min;
+              }
+              // Zahlen in Frage einsetzen
+              q.frage = (q.frage || "").replace(/{(\w+)}/g, (_, k) => werte[k]);
+              document.getElementById("frage").innerHTML = q.frage;
+              // Lösung dynamisch berechnen
+              try {
+                q.loesungNumerisch = Function(...Object.keys(werte), "return " + q.formel)(
+                  ...Object.values(werte)
+                );
+              } catch (err) {
+                console.error("Fehler bei Formelauswertung:", err);
+              }
+            }
 
-        if (richtig) {
-          feedback.textContent = "Richtig ✅";
-          feedback.style.color = "#22c55e";
-        } else {
-          feedback.style.textAlign = "left";
-          feedback.style.color = "#ef4444";
-
-          if (q.typ === "calc" && typeof q.loesungNumerisch !== "undefined") {
-            feedback.innerHTML = "Nicht ganz ❌<br>Richtige Lösung: <strong>" + q.loesungNumerisch + "</strong>";
-          } else if (Array.isArray(q.korrekteAntworten) && q.korrekteAntworten.length > 0) {
-            feedback.innerHTML = "Nicht ganz ❌<br>Mögliche richtige Lösungen:<br>- " + q.korrekteAntworten.join("<br>- ");
-          } else if (Array.isArray(q.schluesselwoerter) && q.schluesselwoerter.length > 0) {
-            feedback.innerHTML = "Nicht ganz ❌<br>Das musste vorkommen:<br>- " + q.schluesselwoerter.join("<br>- ");
-          } else {
-            feedback.textContent = "Nicht ganz ❌";
-          }
+            // Prüfen der Antwort
+            const num = parseFloat((val || "").replace(",", "."));
+            if (isNaN(num)) {
+              feedback.innerHTML = "Bitte eine Zahl eingeben.";
+              feedback.style.color = "#ef4444";
+            } else if (Math.abs(num - q.loesungNumerisch) < 0.01) {
+              feedback.textContent = "Richtig ✅";
+              feedback.style.color = "#22c55e";
+            } else {
+              feedback.innerHTML =
+                "Nicht ganz ❌<br>Richtige Lösung: <strong>" +
+                q.loesungNumerisch.toFixed(2) +
+                "</strong>";
+              feedback.style.color = "#ef4444";
+            }
+          } else if(Array.isArray(q.korrekteAntworten) && q.korrekteAntworten.length>0){
+            feedback.innerHTML="Nicht ganz ❌<br>Mögliche richtige Lösungen:<br>- "+q.korrekteAntworten.join("<br>- ");
+          } else if(Array.isArray(q.schluesselwoerter) && q.schluesselwoerter.length>0){
+            feedback.innerHTML="Nicht ganz ❌<br>Das musste vorkommen:<br>- "+q.schluesselwoerter.join("<br>- ");
+          } else { feedback.textContent="Nicht ganz ❌"; }
         }
       };
-
-      document.getElementById("openCalcBtn").onclick = openCalc;
+      document.getElementById("openCalcBtn").onclick=openCalc;
     }
 
     // ========== MATCH ==========
-    function renderMatch(q) {
-      const box = document.getElementById("matchBox");
-      const rows = document.getElementById("matchRows");
+    function renderMatch(q){
+      const box=document.getElementById("matchBox");
+      const rows=document.getElementById("matchRows");
       box.classList.remove("hidden");
-
-      const entries = Object.entries(q.paare || {});
-      const lefts = entries.map(e => e[0]);
-      const rights = shuffle(entries.map(e => e[1]));
-
-      lefts.forEach((left) => {
-        const row = document.createElement("div");
-        row.className = "pair-row";
-        const l = document.createElement("div");
-        l.className = "left";
-        l.textContent = left;
-        const sel = document.createElement("select");
-        rights.forEach(r => {
-          const opt = document.createElement("option");
-          opt.value = r; opt.textContent = r;
-          sel.appendChild(opt);
-        });
-        sel.dataset.left = left;
-        row.appendChild(l);
-        row.appendChild(sel);
-        rows.appendChild(row);
+      const entries=Object.entries(q.paare||{});
+      const lefts=entries.map(e=>e[0]);
+      const rights=shuffle(entries.map(e=>e[1]));
+      lefts.forEach(left=>{
+        const row=document.createElement("div"); row.className="pair-row";
+        const l=document.createElement("div"); l.className="left"; l.textContent=left;
+        const sel=document.createElement("select"); rights.forEach(r=>{ const opt=document.createElement("option"); opt.value=r; opt.textContent=r; sel.appendChild(opt); });
+        sel.dataset.left=left; row.appendChild(l); row.appendChild(sel); rows.appendChild(row);
       });
-
-      document.getElementById("checkMatchBtn").onclick = () => {
-        const selects = rows.querySelectorAll("select");
-        let allCorrect = true;
-        selects.forEach(sel => {
-          const left = sel.dataset.left;
-          const val = sel.value;
-          const isRight = normalize(val) === normalize(q.paare[left] || "");
-          sel.style.borderColor = isRight ? "#16a34a" : "#ef4444";
-          if (!isRight) allCorrect = false;
+      document.getElementById("checkMatchBtn").onclick=()=>{
+        const selects=rows.querySelectorAll("select"); let allCorrect=true;
+        selects.forEach(sel=>{
+          const left=sel.dataset.left; const val=sel.value;
+          const isRight = normalize(val)===normalize(q.paare[left]||"");
+          sel.style.borderColor=isRight?"#16a34a":"#ef4444"; if(!isRight) allCorrect=false;
         });
-        const fb = document.getElementById("matchFeedback");
-        if (allCorrect) { fb.textContent = "Alles korrekt ✅"; fb.style.color = "#22c55e"; }
-        else { fb.textContent = "Nicht ganz ❌ – prüfe die Zuordnung."; fb.style.color = "#ef4444"; }
-        handleAnswer(q, "match_checked", allCorrect);
+        const fb=document.getElementById("matchFeedback");
+        if(allCorrect){ fb.textContent="Alles korrekt ✅"; fb.style.color="#22c55e"; }
+        else { fb.textContent="Nicht ganz ❌ – prüfe die Zuordnung."; fb.style.color="#ef4444"; }
+        handleAnswer(q,"match_checked",allCorrect);
       };
     }
 
     // ========== ORDER ==========
-    function renderOrder(q) {
-      const box = document.getElementById("orderBox");
-      const list = document.getElementById("orderList");
-      box.classList.remove("hidden");
+    function renderOrder(q){
+      // --- 1) Datenquelle robust bestimmen
+      let items = [];
+      if (Array.isArray(q.optionen) && q.optionen.length) {
+        items = q.optionen.slice();
+      } else if (Array.isArray(q.loesung) && q.loesung.length) {
+        items = q.loesung.slice();
+      } else if (Array.isArray(q.richtigeReihenfolge) && q.richtigeReihenfolge.length) {
+        items = q.richtigeReihenfolge.slice();
+      }
 
-      const correct = q.richtigeReihenfolge || [];
-      let items = shuffle([...correct]);
+      // Wenn nichts vorhanden: freundlich melden und abbrechen
+      if (!items.length) {
+        const qb = document.getElementById("questionBox");
+        if (qb) {
+          const warn = document.createElement("div");
+          warn.style.opacity = ".75";
+          warn.style.marginTop = "8px";
+          warn.textContent = "Für diese Sequence-Frage sind keine Optionen hinterlegt.";
+          qb.appendChild(warn);
+        }
+        return;
+      }
 
-      function draw() {
-        list.innerHTML = "";
-        items.forEach((txt, idx) => {
-          const row = document.createElement("div");
-          row.className = "order-item";
-          const t = document.createElement("div");
-          t.className = "txt";
-          t.textContent = txt;
-          const btns = document.createElement("div");
-          btns.className = "btns";
+      // --- 2) UI-Container sicherstellen (falls HTML nicht vorhanden ist)
+      const qb = document.getElementById("questionBox");
+      // Bestehende IDs zuerst nutzen
+      let poolEl = document.getElementById("orderPool")    || document.getElementById("sequencePool");
+      let outEl  = document.getElementById("orderTarget")  || document.getElementById("sequenceOrder");
+      let fb     = document.getElementById("orderFeedback");
+      let box    = document.getElementById("sequenceBox");
+
+      // Falls nichts existiert: dynamisch eine Box erzeugen
+      if (!poolEl || !outEl) {
+        if (!box) {
+          box = document.createElement("div");
+          box.id = "sequenceBox";
+          box.className = "input-box";
+          box.style.marginTop = "8px";
+          qb.appendChild(box);
+        } else {
+          box.classList.remove("hidden");
+          box.innerHTML = ""; // leeren, falls alt
+        }
+
+        const header = document.createElement("div");
+        header.style.display = "flex";
+        header.style.gap = "8px";
+        header.style.marginBottom = "8px";
+
+        const shuffleBtn = document.createElement("button");
+        shuffleBtn.id = "resetSequenceBtn";
+        shuffleBtn.className = "secondary";
+        shuffleBtn.textContent = "Neu mischen";
+        header.appendChild(shuffleBtn);
+
+        const checkBtn = document.createElement("button");
+        checkBtn.id = "checkSequenceBtn";
+        checkBtn.textContent = "Prüfen";
+        header.appendChild(checkBtn);
+
+        box.appendChild(header);
+
+        poolEl = document.createElement("div");
+        poolEl.id = "sequencePool";
+        poolEl.style.display = "flex";
+        poolEl.style.flexWrap = "wrap";
+        poolEl.style.gap = "6px";
+        poolEl.style.marginBottom = "8px";
+        box.appendChild(poolEl);
+
+        outEl = document.createElement("div");
+        outEl.id = "sequenceOrder";
+        outEl.style.display = "flex";
+        outEl.style.flexWrap = "wrap";
+        outEl.style.gap = "6px";
+        box.appendChild(outEl);
+
+        fb = document.createElement("div");
+        fb.id = "orderFeedback";
+        fb.style.marginTop = "6px";
+        box.appendChild(fb);
+      } else {
+        // vorhandene Container säubern & anzeigen
+        const allBoxes = ["inputBox","mcBox","sequenceBox","matrixBox","tfBox","falltextBox"];
+        allBoxes.forEach(id => document.getElementById(id)?.classList.add("hidden"));
+        document.getElementById("sequenceBox")?.classList.remove("hidden");
+        poolEl.innerHTML = "";
+        outEl.innerHTML  = "";
+        if (fb) { fb.textContent = ""; fb.style.color = "#e2e8f0"; }
+      }
+
+      // --- 3) Logik: mischen, wählen, sortieren
+      // Fisher-Yates
+      for (let i = items.length - 1; i > 0; i--){
+        const j = Math.floor(Math.random() * (i + 1));
+        [items[i], items[j]] = [items[j], items[i]];
+      }
+
+      const pool = items.slice();
+      const picked = [];
+
+      function renderLists(){
+        // Pool rendern
+        poolEl.innerHTML = "";
+        pool.forEach(val=>{
+          const b = document.createElement("button");
+          b.className = "pill";
+          b.textContent = val;
+          b.onclick = () => {
+            const idx = pool.indexOf(val);
+            if (idx > -1) { pool.splice(idx,1); picked.push(val); renderLists(); }
+          };
+          poolEl.appendChild(b);
+        });
+
+        // Gewählte Reihenfolge
+        outEl.innerHTML = "";
+        picked.forEach((val,idx)=>{
+          const wrap = document.createElement("div");
+          wrap.className = "pill active";
+          wrap.style.display = "flex";
+          wrap.style.alignItems = "center";
+          wrap.style.gap = "8px";
+
+          const label = document.createElement("span");
+          label.textContent = (idx+1) + ". " + val;
+          wrap.appendChild(label);
+
           const up = document.createElement("button");
           up.textContent = "↑";
-          up.onclick = () => { if (idx>0) { [items[idx-1], items[idx]] = [items[idx], items[idx-1]]; draw(); } };
+          up.className = "secondary";
+          up.onclick = () => { if (idx > 0) { [picked[idx-1], picked[idx]] = [picked[idx], picked[idx-1]]; renderLists(); } };
+          wrap.appendChild(up);
+
           const down = document.createElement("button");
           down.textContent = "↓";
-          down.onclick = () => { if (idx<items.length-1) { [items[idx+1], items[idx]] = [items[idx], items[idx+1]]; draw(); } };
-          btns.appendChild(up); btns.appendChild(down);
-          row.appendChild(t); row.appendChild(btns);
-          list.appendChild(row);
+          down.className = "secondary";
+          down.onclick = () => { if (idx < picked.length-1) { [picked[idx+1], picked[idx]] = [picked[idx], picked[idx+1]]; renderLists(); } };
+          wrap.appendChild(down);
+
+          const rem = document.createElement("button");
+          rem.textContent = "x";
+          rem.className = "secondary";
+          rem.onclick = () => { picked.splice(idx,1); pool.push(val); renderLists(); };
+          wrap.appendChild(rem);
+
+          outEl.appendChild(wrap);
         });
       }
-      draw();
+      renderLists();
 
-      document.getElementById("shuffleOrderBtn").onclick = () => {
-        items = shuffle(items);
-        draw();
+      // --- 4) Buttons verdrahten
+      const shuffleBtn = document.getElementById("shuffleOrderBtn") || document.getElementById("resetSequenceBtn");
+      if (shuffleBtn) shuffleBtn.onclick = () => {
+        pool.push(...picked.splice(0));
+        // neu mischen
+        for (let i = pool.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [pool[i], pool[j]] = [pool[j], pool[i]];
+        }
+        renderLists();
+        if (fb) fb.textContent = "";
       };
 
-      document.getElementById("checkOrderBtn").onclick = () => {
-        const ok = items.every((v,i) => normalize(v) === normalize(correct[i] || ""));
-        const fb = document.getElementById("orderFeedback");
-        if (ok) { fb.textContent = "Reihenfolge korrekt ✅"; fb.style.color = "#22c55e"; }
-        else { fb.textContent = "Falsche Reihenfolge ❌"; fb.style.color = "#ef4444"; }
-        handleAnswer(q, "order_checked", ok);
+      const checkBtn = document.getElementById("checkOrderBtn") || document.getElementById("checkSequenceBtn");
+      if (checkBtn) checkBtn.onclick = () => {
+        const soll = Array.isArray(q.richtigeReihenfolge) && q.richtigeReihenfolge.length
+          ? q.richtigeReihenfolge
+          : (Array.isArray(q.loesung) ? q.loesung : []);
+        const ist  = picked.slice();
+        const ok = ist.length === soll.length && ist.every((v,i)=>String(v)===String(soll[i]));
+        if (fb){ fb.textContent = ok ? "Alles korrekt ✅" : "Nicht ganz ❌"; fb.style.color = ok ? "#22c55e" : "#ef4444"; }
+        if (typeof handleAnswer === "function") handleAnswer(q, "sequence_checked", ok);
       };
     }
-
     // ========== JUSTIFY ==========
-    function renderJustify(q) {
+    function renderJustify(q){
       document.getElementById("justifyBox").classList.remove("hidden");
-      document.getElementById("checkJustifyBtn").onclick = () => {
-        const val = (document.getElementById("justifyText").value || "").trim();
-        const ok = checkKeywordAnswer(q, val);
-        const fb = document.getElementById("justifyFeedback");
-        if (ok) { fb.textContent = "Punkt: ausreichende Begründung ✅"; fb.style.color = "#22c55e"; }
-        else {
-          fb.innerHTML = "Nicht ganz ❌<br>Erwartete Stichwörter u.a.:<br>- " + (q.stichwoerter || q.schluesselwoerter || []).join("<br>- ");
-          fb.style.color = "#ef4444";
+      document.getElementById("checkJustifyBtn").onclick=()=>{
+        const val=(document.getElementById("justifyText").value||"").trim();
+        const ok=checkKeywordAnswer(q,val);
+        const fb=document.getElementById("justifyFeedback");
+        if(ok){ fb.textContent="Punkt: ausreichende Begründung ✅"; fb.style.color="#22c55e"; }
+        else{
+          fb.innerHTML="Nicht ganz ❌<br>Erwartete Stichwörter u.a.:<br>- "+(q.stichwoerter||q.schluesselwoerter||[]).join("<br>- ");
+          fb.style.color="#ef4444";
         }
-        handleAnswer(q, val, ok);
+        handleAnswer(q,val,ok);
       };
     }
 
     // ========== FALLANALYSE ==========
-    function renderFall(q) {
+    function renderFall(q){
       document.getElementById("fallBox").classList.remove("hidden");
-      document.getElementById("checkFallBtn").onclick = () => {
-        const val = (document.getElementById("fallText").value || "").trim();
-        const ok = checkKeywordAnswer(q, val);
-        const fb = document.getElementById("fallFeedback");
-        if (ok) { fb.textContent = "Kernpunkte getroffen ✅"; fb.style.color = "#22c55e"; }
-        else {
-          fb.innerHTML = "Nicht ganz ❌<br>Wichtige Punkte:<br>- " + (q.stichpunkte || q.schluesselwoerter || []).join("<br>- ");
-          fb.style.color = "#ef4444";
+      document.getElementById("checkFallBtn").onclick=()=>{
+        const val=(document.getElementById("fallText").value||"").trim();
+        const ok=checkKeywordAnswer(q,val);
+        const fb=document.getElementById("fallFeedback");
+        if(ok){ fb.textContent="Kernpunkte getroffen ✅"; fb.style.color="#22c55e"; }
+        else{
+          fb.innerHTML="Nicht ganz ❌<br>Wichtige Punkte:<br>- "+(q.stichpunkte||q.schluesselwoerter||[]).join("<br>- ");
+          fb.style.color="#ef4444";
         }
-        handleAnswer(q, val, ok);
+        handleAnswer(q,val,ok);
+      };
+    }
+
+    // ========== T-KONTEN ==========
+    function renderTKonten(q){
+      const box=document.getElementById("tkontenBox");
+      const tbody=document.querySelector("#tkontenTable tbody");
+      box.classList.remove("hidden");
+      const konten = Array.isArray(q.konten)? q.konten : [];
+      const loes = Array.isArray(q.buchungenLoesung)? q.buchungenLoesung : [];
+
+      // So viele Eingabezeilen wie Lösungsvorgaben:
+      loes.forEach((b,idx)=>{
+        const tr=document.createElement("tr");
+        const tdK=document.createElement("td");
+        const tdS=document.createElement("td");
+        const tdB=document.createElement("td");
+
+        const selK=document.createElement("select");
+        konten.forEach(k=>{ const o=document.createElement("option"); o.value=k; o.textContent=k; selK.appendChild(o); });
+        tdK.appendChild(selK);
+
+        const selS=document.createElement("select");
+        ["Soll","Haben"].forEach(s=>{ const o=document.createElement("option"); o.value=s; o.textContent=s; selS.appendChild(o); });
+        tdS.appendChild(selS);
+
+        const inpB=document.createElement("input"); inpB.type="text"; inpB.placeholder="Betrag, z. B. 1.000";
+        tdB.appendChild(inpB);
+
+        tr.appendChild(tdK); tr.appendChild(tdS); tr.appendChild(tdB);
+        tbody.appendChild(tr);
+      });
+
+      document.getElementById("resetTKontenBtn").onclick=()=>{ tbody.innerHTML=""; renderTKonten(q); };
+
+      document.getElementById("checkTKontenBtn").onclick=()=>{
+        // Nutzer-Eingaben einsammeln
+        const rows=[...tbody.querySelectorAll("tr")];
+        const user = rows.map(r=>{
+          const k=r.children[0].querySelector("select").value;
+          const s=r.children[1].querySelector("select").value;
+          const b=(r.children[2].querySelector("input").value||"").replace(/\./g,"").replace(",",".");
+          const betrag = Number(b);
+          return {konto:k,seite:s,betrag: isFinite(betrag)? betrag : NaN};
+        });
+
+        // Validierung (vergleichsweise tolerant: Betrag ±0.5 Cent)
+        const tol=0.005;
+        let matched = 0;
+        const used = new Set();
+        user.forEach(uu=>{
+          for(let i=0;i<loes.length;i++){
+            if(used.has(i)) continue;
+            const ll=loes[i];
+            const kontoOk = normalize(uu.konto)===normalize(ll.konto||"");
+            const seiteOk = normalize(uu.seite)===normalize(ll.seite||"");
+            const betragOk = isFinite(uu.betrag) && Math.abs(uu.betrag - Number(ll.betrag))<=tol;
+            if(kontoOk && seiteOk && betragOk){ used.add(i); matched++; break; }
+          }
+        });
+
+        const fb=document.getElementById("tkontenFeedback");
+        if(matched===loes.length){
+          fb.textContent="Alle Buchungen korrekt in die T-Konten eingetragen ✅";
+          fb.style.color="#22c55e";
+          handleAnswer(q, JSON.stringify(user), true);
+        }else{
+          fb.textContent=`Nicht ganz ❌ – korrekt: ${matched}/${loes.length}. Prüfe Konto/Seite/Betrag.`;
+          fb.style.color="#ef4444";
+          handleAnswer(q, JSON.stringify(user), false);
+        }
+      };
+    }
+
+    // ========== BILANZ ==========
+    function renderBilanz(q){
+      const box=document.getElementById("bilanzBox");
+      const tbody=document.querySelector("#bilanzTable tbody");
+      box.classList.remove("hidden");
+
+      const pos = Array.isArray(q.positionen)? q.positionen : [];
+      const map = q.richtigeZuordnung || {};
+
+      pos.forEach(p=>{
+        const tr=document.createElement("tr");
+        const tdP=document.createElement("td"); tdP.textContent=p;
+        const tdS=document.createElement("td");
+        const sel=document.createElement("select");
+        ["Aktiva","Passiva"].forEach(s=>{ const o=document.createElement("option"); o.value=s; o.textContent=s; sel.appendChild(o); });
+        sel.dataset.position=p;
+        tdS.appendChild(sel);
+        tr.appendChild(tdP); tr.appendChild(tdS);
+        tbody.appendChild(tr);
+      });
+
+      document.getElementById("resetBilanzBtn").onclick=()=>{ tbody.innerHTML=""; renderBilanz(q); };
+
+      document.getElementById("checkBilanzBtn").onclick=()=>{
+        const selects=tbody.querySelectorAll("select");
+        let allOK=true;
+        selects.forEach(sel=>{
+          const p=sel.dataset.position;
+          const val=sel.value;
+          const ok = normalize(val)===normalize(map[p]||"");
+          sel.style.borderColor = ok ? "#16a34a" : "#ef4444";
+          if(!ok) allOK=false;
+        });
+        const fb=document.getElementById("bilanzFeedback");
+        if(allOK){
+          fb.textContent="Alle Positionen korrekt zugeordnet ✅";
+          fb.style.color="#22c55e";
+          handleAnswer(q,"bilanz_checked",true);
+        }else{
+          fb.textContent="Nicht ganz ❌ – einige Zuordnungen sind falsch.";
+          fb.style.color="#ef4444";
+          handleAnswer(q,"bilanz_checked",false);
+        }
       };
     }
 
     // =============================
     // Normalisieren / Checks
     // =============================
-    function normalize(str) {
-      return (str || "")
-        .toString()
-        .lowerCase?.() ?? (str || "").toString().toLowerCase();
-    }
-  </script>
-  <script>
-    // Fallback, falls obiges lowerCase?.() im manchen Browsern meckert:
-    function normalize(str) {
-      return (str || "")
-        .toString()
-        .toLowerCase()
-        .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-        .replace(/[.,;:!?]/g, " ")
-        .replace(/\s+/g, " ")
+    function normalize(str){
+      return (str||"").toString().toLowerCase()
+        .normalize("NFD").replace(/[\u0300-\u036f]/g,"")
+        .replace(/[.,;:!?]/g," ")
+        .replace(/\s+/g," ")
         .trim();
     }
 
-    function editDistance(a, b) {
-      const dp = Array.from({length: a.length + 1}, () => Array(b.length + 1).fill(0));
-      for (let i = 0; i <= a.length; i++) dp[i][0] = i;
-      for (let j = 0; j <= b.length; j++) dp[0][j] = j;
-      for (let i = 1; i <= a.length; i++) {
-        for (let j = 1; j <= b.length; j++) {
-          if (a[i-1] === b[j-1]) dp[i][j] = dp[i-1][j-1];
-          else dp[i][j] = Math.min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) + 1;
+    function editDistance(a,b){
+      const dp=Array.from({length:a.length+1},()=>Array(b.length+1).fill(0));
+      for(let i=0;i<=a.length;i++) dp[i][0]=i;
+      for(let j=0;j<=b.length;j++) dp[0][j]=j;
+      for(let i=1;i<=a.length;i++){
+        for(let j=1;j<=b.length;j++){
+          if(a[i-1]===b[j-1]) dp[i][j]=dp[i-1][j-1];
+          else dp[i][j]=Math.min(dp[i-1][j],dp[i][j-1],dp[i-1][j-1])+1;
         }
       }
       return dp[a.length][b.length];
     }
 
-    function checkKeywordAnswer(q, userVal) {
-      const userNorm = normalize(userVal);
-      const list = q.stichwoerter || q.stichpunkte || q.schluesselwoerter || [];
-      if (!Array.isArray(list) || list.length === 0) return false;
-      let ok = 0;
-      for (const kw of list) {
-        const k = normalize(kw);
-        if (!k) continue;
-        if (userNorm.includes(k)) { ok++; continue; }
-        const parts = userNorm.split(" ");
-        const near = parts.some(p => editDistance(p, k) <= 1);
-        if (near) ok++;
+    function checkKeywordAnswer(q,userVal){
+      const userNorm=normalize(userVal);
+      const list=q.stichwoerter||q.stichpunkte||q.schluesselwoerter||[];
+      if(!Array.isArray(list)||list.length===0) return false;
+      let ok=0;
+      for(const kw of list){
+        const k=normalize(kw); if(!k) continue;
+        if(userNorm.includes(k)){ ok++; continue; }
+        const parts=userNorm.split(" ");
+        const near=parts.some(p=>editDistance(p,k)<=1);
+        if(near) ok++;
       }
-      return ok === list.length;
+      return ok===list.length;
     }
 
-    function checkInputAnswer(q, userVal) {
-      if (q.typ === "calc") {
-        const num = parseFloat((userVal || "").replace(",", "."));
-        if (isNaN(num)) return false;
-        const tol = q.toleranz || 0;
-        return Math.abs(num - q.loesungNumerisch) <= tol;
+    function checkInputAnswer(q,userVal){
+      if(q.typ==="calc"){
+        const num=parseFloat((userVal||"").replace(",","."));
+        if(isNaN(num)) return false;
+        const tol=q.toleranz||0;
+        return Math.abs(num-(q.loesungNumerisch||0))<=tol;
       }
-
-      const userNorm = normalize(userVal);
-
-      if (q.schluesselwoerter && q.schluesselwoerter.length > 0) {
-        let ok = 0;
-        for (const kw of q.schluesselwoerter) {
-          const kwNorm = normalize(kw);
-          if (userNorm.includes(kwNorm)) {
-            ok++;
-          } else {
-            const parts = userNorm.split(" ");
-            const near = parts.some(p => editDistance(p, kwNorm) <= 1);
-            if (near) ok++;
+      const userNorm=normalize(userVal);
+      if(q.schluesselwoerter && q.schluesselwoerter.length>0){
+        let ok=0;
+        for(const kw of q.schluesselwoerter){
+          const kwNorm=normalize(kw);
+          if(userNorm.includes(kwNorm)) ok++;
+          else{
+            const parts=userNorm.split(" ");
+            const near=parts.some(p=>editDistance(p,kwNorm)<=1);
+            if(near) ok++;
           }
         }
-        return ok === q.schluesselwoerter.length;
+        return ok===q.schluesselwoerter.length;
       }
-
-      if (q.korrekteAntworten && q.korrekteAntworten.length > 0) {
-        return q.korrekteAntworten.some(ans => normalize(ans) === userNorm);
+      if(q.korrekteAntworten && q.korrekteAntworten.length>0){
+        return q.korrekteAntworten.some(ans=>normalize(ans)===userNorm);
       }
-
       return false;
     }
 
     // =============================
     // Ergebnis / Punkte
     // =============================
-    function handleAnswer(q, userVal, richtig) {
-      const already = results.find(r => r.id === q.id);
-      if (already) return;
+    function handleAnswer(q,userVal,richtig){
+      const already=results.find(r=>r.id===q.id);
+      if(already) return;
 
-      answered++;
-      if (richtig) score++;
+      answered++; if(richtig) score++;
 
-      results.push({
-        id: q.id,
-        frage: q.frage,
-        user: (typeof userVal === "string" ? userVal : JSON.stringify(userVal)),
-        korrekt: richtig ? "ja" : "nein",
-        zeit: new Date().toISOString()
-      });
+      results.push({ id:q.id, frage:q.frage||q.fall||"", user:(typeof userVal==="string"? userVal: JSON.stringify(userVal)), korrekt:richtig?"ja":"nein", zeit:new Date().toISOString() });
 
       updateScoreline();
-      document.getElementById("showExplainBtn").disabled = false;
+      document.getElementById("showExplainBtn").disabled=false;
 
-      if (answered >= currentQuestions.length) {
-        finishTest(false);
-      }
+      if(answered>=currentQuestions.length){ finishTest(false); }
     }
 
-    function updateScoreline() {
-      const pct = answered > 0 ? Math.round((score / answered) * 100) : 0;
-      document.getElementById("scoreline").textContent =
-        `Punkte: ${score} / ${answered} (${pct}%)`;
+    function updateScoreline(){
+      const pct = answered>0 ? Math.round((score/answered)*100) : 0;
+      document.getElementById("scoreline").textContent = `Punkte: ${score} / ${answered} (${pct}%)`;
     }
 
-    function finishTest(byTime) {
+    function finishTest(byTime){
       clearInterval(timerInterval);
-      const pct = answered > 0 ? Math.round((score / answered) * 100) : 0;
-      const box = document.getElementById("finalBox");
+      const pct = answered>0 ? Math.round((score/answered)*100) : 0;
+      const box=document.getElementById("finalBox");
       box.classList.remove("hidden");
-      box.textContent = byTime
-        ? `Zeit abgelaufen. Ergebnis: ${score} von ${answered} (${pct}%).`
-        : `Test beendet. Ergebnis: ${score} von ${answered} (${pct}%).`;
+      box.textContent = byTime ? `Zeit abgelaufen. Ergebnis: ${score} von ${answered} (${pct}%).`
+                               : `Test beendet. Ergebnis: ${score} von ${answered} (${pct}%).`;
     }
 
     // =============================
     // Buttons
     // =============================
-    document.getElementById("nextBtn").onclick = () => {
-      if (currentIndex < currentQuestions.length - 1) {
-        currentIndex++;
-        renderQuestion();
-      } else {
-        finishTest(false);
-      }
+    document.getElementById("nextBtn").onclick=()=>{ if(currentIndex<currentQuestions.length-1){ currentIndex++; renderQuestion(); } else { finishTest(false);} };
+    document.getElementById("restartBtn").onclick=()=>{ startNewTest(); };
+    document.getElementById("backHomeBtn").onclick=()=>{ clearInterval(timerInterval); document.getElementById("testScreen").classList.add("hidden"); document.getElementById("homeScreen").classList.remove("hidden"); };
+
+    
+
+document.getElementById("showSolutionBtn").onclick=()=>{
+  const q=currentQuestions[currentIndex];
+  const esel=document.getElementById("esel"); esel.textContent=q.esel||"Hinweis: siehe Skript.";
+
+  let html = "";
+  const p = (txt)=> `<p style="margin:.25rem 0 .5rem 0;opacity:.9">${txt}</p>`;
+
+  if(q.typ==="calc" && typeof q.loesungNumerisch!=="undefined"){
+    html += p("Berechnung") + table([["Formel","Lösung"],[escapeHtml(q.formel||"—"), escapeHtml(String(q.loesungNumerisch))]]);
+  } else if((q.typ==="match" || q.typ==="matrix") && q.paare){
+    const lines = Object.entries(q.paare).map(([l,r])=> `${escapeHtml(l)} → <b>${escapeHtml(r)}</b>`);
+    html += p("Korrekte Zuordnung") + `<div style="line-height:1.6">${lines.join("<br>")}</div>`;
+  } else if((q.typ==="order" || q.typ==="sequence") && (q.richtigeReihenfolge || q.loesung)){
+    const arr = q.richtigeReihenfolge || q.loesung || [];
+    html += p("Richtige Reihenfolge") + `<div>${arr.map(x=>escapeHtml(x)).join(" → ")}</div>`;
+  } else if(q.typ==="truefalse"){
+    html += p("Richtig/Falsch") + `<div>Lösung: <b>${q.antwort? "Richtig":"Falsch"}</b></div>`;
+  } else if(q.typ==="fallanalyse" && (q.stichwoerter||q.stichpunkte)){
+    const list=q.stichwoerter||q.stichpunkte||[];
+    html += p("Erwartete Stichwörter") + `<div>• ${list.map(escapeHtml).join("<br>• ")}</div>`;
+  } else if(q.typ==="falltext" && Array.isArray(q.fragen)){
+    const rows = [["Teil","Typ","Erwartung/Musterlösung"]];
+    (q.fragen||[]).forEach((fq,i)=>{
+      let exp="—";
+      if(fq.typ==="mc"){ exp = fq.loesung||"—"; }
+      else if(fq.typ==="calc"){ exp = (fq.formel? ("Formel: "+fq.formel):"Formel unbekannt"); }
+      else if(fq.typ==="sequence"){ const s=fq.loesung||fq.richtigeReihenfolge||[]; exp=s.join(" → "); }
+      else if(fq.typ==="matrix"){ exp = JSON.stringify(fq.paare||{}); }
+      else if(fq.typ==="input"){ exp = (fq.korrekteAntworten||[]).join(" | "); }
+      rows.push([i+1, fq.typ, escapeHtml(exp)]);
+    });
+    html += p("Musterlösungen je Teilfrage") + table(rows);
+    // Live snapshot (User vs Expected)
+    const snap = currentFalltextSnapshot(q);
+    const rows2 = [["Teil","Typ","User","Expected","OK"]];
+    snap.forEach((r,i)=> rows2.push([i+1, r.typ, escapeHtml(String(r.user)), escapeHtml(String(r.expected)), r.ok===null? "": (r.ok? "1":"0")]));
+    html += p("Deine Eingaben (live)") + table(rows2);
+  } else if(Array.isArray(q.korrekteAntworten) && q.korrekteAntworten.length>0){
+    html += p("Lösungsmöglichkeiten") + `<div>• ${q.korrekteAntworten.map(escapeHtml).join("<br>• ")}</div>`;
+  } else if(Array.isArray(q.schluesselwoerter) && q.schluesselwoerter.length>0){
+    html += p("Schlüsselwörter") + `<div>• ${q.schluesselwoerter.map(escapeHtml).join("<br>• ")}</div>`;
+  } else if(q.typ==="bilanz" && q.richtigeZuordnung){
+    const lines=Object.entries(q.richtigeZuordnung).map(([p,s])=>`${escapeHtml(p)} → <b>${escapeHtml(s)}</b>`);
+    html += p("Korrekte Zuordnung") + `<div>${lines.join("<br>")}</div>`;
+  } else if(q.typ==="tkonten" && Array.isArray(q.buchungenLoesung)){
+    const rows = [["Konto","Seite","Betrag"]];
+    q.buchungenLoesung.forEach(b=> rows.push([escapeHtml(b.konto||""), escapeHtml(b.seite||""), escapeHtml(String(b.betrag||""))]));
+    html += p("Korrekte Buchungen") + table(rows);
+  }
+
+  // Quelle
+  if(q.quelle && (q.quelle.kapitel || q.quelle.seite)){
+    html += `<div style="margin-top:.75rem;opacity:.7;font-size:.9rem">Quelle: ${escapeHtml(q.quelle.kapitel||"")}${q.quelle.seite? " (S. "+escapeHtml(q.quelle.seite)+")":""}</div>`;
+  }
+
+  openSolution(html, q);
+};
+(function(){
+  try{
+    const q = (typeof currentQuestions!=="undefined" && typeof currentIndex!=="undefined")
+                ? currentQuestions[currentIndex] : null;
+
+    const write = (id, html, color = "#e2e8f0") => {
+      const el = document.getElementById(id);
+      if (!el) return;
+      el.innerHTML = html;
+      el.style.color = color;
+      el.style.textAlign = "left";
     };
 
-    document.getElementById("restartBtn").onclick = () => {
-      startNewTest();
-    };
+    if(!q) return;
 
-    document.getElementById("backHomeBtn").onclick = () => {
-      clearInterval(timerInterval);
-      document.getElementById("testScreen").classList.add("hidden");
-      document.getElementById("homeScreen").classList.remove("hidden");
-    };
+if(q.typ==="calc" && typeof q.loesungNumerisch!=="undefined"){
+    write("inputFeedback","Lösung: <strong>"+q.loesungNumerisch+"</strong>","#e2e8f0");
+  } else if((q.typ==="match" || q.typ==="matrix") && q.paare){
+    const html="Korrekte Zuordnung:<br>- "+Object.entries(q.paare).map(([l,r])=>`${l} → <strong>${r}</strong>`).join("<br>- ");
+    write("matchFeedback", html, "#e2e8f0");
+  } else if((q.typ==="order" || q.typ==="sequence") && (q.richtigeReihenfolge || q.loesung)){
+    const arr = q.richtigeReihenfolge || q.loesung || [];
+    write("orderFeedback","Richtige Reihenfolge:<br>- "+arr.join("<br>- "), "#e2e8f0");
+  } else if(q.typ==="truefalse"){
+    write("tfFeedback", "Lösung: " + (q.antwort ? "Richtig" : "Falsch"), "#e2e8f0");
+  } else if(q.typ==="fallanalyse" && (q.stichwoerter||q.stichpunkte)){
+    const list=q.stichwoerter||q.stichpunkte||[];
+    write("fallFeedback","Erwartete Stichwörter:<br>- "+list.join("<br>- "), "#e2e8f0");
+  } else if(q.typ==="falltext" && Array.isArray(q.fragen)){
+    const hints = q.fragen.map((fq, i)=>{
+      if(fq.typ==="mc") return `Teil ${i+1}: ${fq.loesung}`;
+      if(fq.typ==="calc") return `Teil ${i+1}: Formel ${fq.formel}`;
+      if(fq.typ==="sequence") return `Teil ${i+1}: ${ (fq.loesung||fq.richtigeReihenfolge||[]).join(" → ") }`;
+      if(fq.typ==="matrix") return `Teil ${i+1}: ${ JSON.stringify(fq.paare||{}) }`;
+      if(fq.typ==="input") return `Teil ${i+1}: ${ (fq.korrekteAntworten||[]).join(" | ") }`;
+      return `Teil ${i+1}: –`;
+    }).join("<br>");
+    write("falltextFeedback", "Hinweise/Erwartungen:<br>"+hints, "#e2e8f0");
+  } else if(Array.isArray(q.korrekteAntworten) && q.korrekteAntworten.length>0){
+    write("inputFeedback","Lösungsmöglichkeiten:<br>- "+q.korrekteAntworten.join("<br>- "), "#e2e8f0");
+  } else if(Array.isArray(q.schluesselwoerter) && q.schluesselwoerter.length>0){
+    write("inputFeedback","Das musste vorkommen:<br>- "+q.schluesselwoerter.join("<br>- "), "#e2e8f0");
+  } else if(q.typ==="bilanz" && q.richtigeZuordnung){
+    const lines=Object.entries(q.richtigeZuordnung).map(([p,s])=>`${p} → <strong>${s}</strong>`).join("<br>- ");
+    write("bilanzFeedback","Korrekte Zuordnung:<br>- "+lines, "#e2e8f0");
+  } else if(q.typ==="tkonten" && Array.isArray(q.buchungenLoesung)){
+    const lines=q.buchungenLoesung.map(b=>`${b.konto} – <strong>${b.seite}</strong> – ${b.betrag}`).join("<br>- ");
+    write("tkontenFeedback","Korrekte Buchungen:<br>- "+lines, "#e2e8f0");
+  }
 
-    document.getElementById("showSolutionBtn").onclick = () => {
-      const q = currentQuestions[currentIndex];
-      const esel = document.getElementById("esel");
-      const feedback = document.getElementById("inputFeedback");
+  // Quelle inline
+  document.getElementById("srcInline")?.remove();
+  if(q.quelle && (q.quelle.kapitel || q.quelle.seite)){
+    const srcLine=document.createElement("div");
+    srcLine.id="srcInline"; srcLine.style.marginTop="6px"; srcLine.style.fontSize=".75rem"; srcLine.style.opacity=".65";
+    const kap=q.quelle.kapitel? String(q.quelle.kapitel):""; const seite=q.quelle.seite? String(q.quelle.seite):"";
+    srcLine.textContent=`Quelle: ${kap}${seite?` (S. ${seite})`:""}`;
+    document.getElementById("questionBox").appendChild(srcLine);
+  }
 
-      esel.textContent = q.esel || "Hinweis: siehe Skript.";
+  }catch(e){
+    console.warn("Non-blocking info block skipped:", e);
+  }
+})();
 
-      if (q.typ === "calc" && typeof q.loesungNumerisch !== "undefined") {
-        if (feedback) {
-          feedback.innerHTML = "Lösung: <strong>" + q.loesungNumerisch + "</strong>";
-          feedback.style.color = "#e2e8f0";
-        }
-      } else if (q.typ === "match" && q.paare) {
-        const fb = document.getElementById("matchFeedback");
-        if (fb) {
-          fb.innerHTML = "Korrekte Zuordnung:<br>- " + Object.entries(q.paare).map(([l,r]) => `${l} → <strong>${r}</strong>`).join("<br>- ");
-          fb.style.color = "#e2e8f0";
-        }
-      } else if (q.typ === "order" && q.richtigeReihenfolge) {
-        const fb = document.getElementById("orderFeedback");
-        if (fb) {
-          fb.innerHTML = "Richtige Reihenfolge:<br>- " + q.richtigeReihenfolge.join("<br>- ");
-          fb.style.color = "#e2e8f0";
-        }
-      } else if ((q.typ === "justify" || q.typ === "fallanalyse") && (q.stichwoerter || q.stichpunkte)) {
-        const fb = (q.typ === "justify") ? document.getElementById("justifyFeedback") : document.getElementById("fallFeedback");
-        const list = q.stichwoerter || q.stichpunkte || [];
-        if (fb) {
-          fb.innerHTML = "Erwartete Stichwörter:<br>- " + list.join("<br>- ");
-          fb.style.color = "#e2e8f0";
-        }
-      } else if (Array.isArray(q.korrekteAntworten) && q.korrekteAntworten.length > 0) {
-        if (feedback) {
-          feedback.innerHTML = "Lösungsmöglichkeiten:<br>- " + q.korrekteAntworten.join("<br>- ");
-          feedback.style.color = "#e2e8f0";
-        }
-      } else if (Array.isArray(q.schluesselwoerter) && q.schluesselwoerter.length > 0) {
-        if (feedback) {
-          feedback.innerHTML = "Das musste vorkommen:<br>- " + q.schluesselwoerter.join("<br>- ");
-          feedback.style.color = "#e2e8f0";
-        }
-      }
 
-      // ==== NEU: Inline-Quelle direkt unter der Frage ====
-      document.getElementById("srcInline")?.remove();
-      if (q.quelle && (q.quelle.kapitel || q.quelle.seite)) {
-        const srcLine = document.createElement("div");
-        srcLine.id = "srcInline";
-        srcLine.style.marginTop = "6px";
-        srcLine.style.fontSize = ".75rem";
-        srcLine.style.opacity = ".65";
-        const kap = q.quelle.kapitel ? String(q.quelle.kapitel) : "";
-        const seite = q.quelle.seite ? String(q.quelle.seite) : "";
-        srcLine.textContent = `Quelle: ${kap}${seite ? ` (S. ${seite})` : ""}`;
-        document.getElementById("questionBox").appendChild(srcLine);
-      }
-    };
 
     // ERKLÄRUNG + QUELLEN (Popup)
-    document.getElementById("showExplainBtn").onclick = () => {
-      const q = currentQuestions[currentIndex];
-      const overlay = document.getElementById("explainOverlay");
-      const text = document.getElementById("explainText");
-      const title = document.getElementById("explainTitle");
-      const srcWrap = document.getElementById("explainSourcesWrap");
-      const srcBox = document.getElementById("explainSources");
+    document.getElementById("showExplainBtn").onclick=()=>{
+      const q=currentQuestions[currentIndex];
+      const overlay=document.getElementById("explainOverlay");
+      const textNode=document.getElementById("explainText");
+      const title=document.getElementById("explainTitle");
+      const srcWrap=document.getElementById("explainSourcesWrap");
+      const srcBox=document.getElementById("explainSources");
 
+      // Titel
       title.textContent = q.tag ? `Erklärung – ${q.tag}` : "Erklärung";
-      text.textContent = q.erklaerung ? q.erklaerung : "Zu dieser Frage ist noch keine Erklärung hinterlegt.";
 
-      // ==== NEU: Quellen aus q.quelle {kapitel, seite} und optional q.quellen[] ====
-      srcBox.innerHTML = "";
-      let srcItems = [];
+      // Inhalt bevorzugt aus neuen Feldern
+      function esc(s){ return (s||"").toString().replace(/[&<>]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[m])); }
+      function toHTML(s){ return esc(s).replace(/\n/g,"<br>"); }
 
-      if (q.quelle && (q.quelle.kapitel || q.quelle.seite)) {
-        const kap = q.quelle.kapitel ? String(q.quelle.kapitel) : "";
-        const seite = q.quelle.seite ? String(q.quelle.seite) : "";
-        const line = seite ? `${kap} (S. ${seite})` : kap;
-        if (line.trim()) srcItems.push(line);
-      }
-
-      if (Array.isArray(q.quellen) && q.quellen.length > 0) {
-        q.quellen.forEach(z => {
-          const t = (z || "").toString().trim();
-          if (t) srcItems.push(t);
-        });
-      }
-
-      if (srcItems.length > 0) {
-        srcItems.forEach((txt, idx) => {
-          const div = document.createElement("div");
-          div.style.fontSize = ".78rem";
-          div.style.background = "rgba(148,163,184,0.08)";
-          div.style.border = "1px solid rgba(148,163,184,0.15)";
-          div.style.borderRadius = "6px";
-          div.style.padding = "4px 6px";
-          div.textContent = `${idx + 1}. ${txt}`;
-          srcBox.appendChild(div);
-        });
-        srcWrap.style.display = "block";
+      let html = "";
+      if (q.erklaerung_lang) {
+        html = toHTML(q.erklaerung_lang);
       } else {
-        srcWrap.style.display = "none";
+        const parts = [];
+        if (q.erklaerung_fall) parts.push("<div style=\"margin-bottom:6px;\"><strong>Fall:</strong><br>"+toHTML(q.erklaerung_fall)+"</div>");
+        if (q.erklaerung_frage) parts.push("<div style=\"margin-bottom:6px;\"><strong>Frage:</strong><br>"+toHTML(q.erklaerung_frage)+"</div>");
+        if (q.erklaerung_antwort) parts.push("<div style=\"margin-bottom:6px;\"><strong>Antwort:</strong><br>"+toHTML(q.erklaerung_antwort)+"</div>");
+        if (!parts.length && q.erklaerung) parts.push(toHTML(q.erklaerung));
+        html = parts.join("<hr style=\"border:none;border-top:1px solid rgba(148,163,184,.2);margin:6px 0;\">");
       }
+      textNode.innerHTML = html || "Zu dieser Frage ist noch keine Erklärung hinterlegt.";
 
-      overlay.style.display = "flex";
-    };
+      // Quellen
+      srcBox.innerHTML=""; let srcItems=[];
+      if(q.quelle && (q.quelle.kapitel || q.quelle.seite)){
+        const kap=q.quelle.kapitel? String(q.quelle.kapitel):""; const seite=q.quelle.seite? String(q.quelle.seite):"";
+        const line=seite? `${kap} (S. ${seite})` : kap; if(line.trim()) srcItems.push(line);
+      }
+      if(Array.isArray(q.quellen) && q.quellen.length>0){
+        q.quellen.forEach(z=>{ const t=(z||"").toString().trim(); if(t) srcItems.push(t); });
+      }
+      if(srcItems.length>0){
+        srcItems.forEach((txt,idx)=>{ const div=document.createElement("div"); div.style.fontSize=".78rem"; div.style.background="rgba(148,163,184,.08)"; div.style.border="1px solid rgba(148,163,184,.15)"; div.style.borderRadius="6px"; div.style.padding="4px 6px"; div.textContent=`${idx+1}. ${txt}`; srcBox.appendChild(div); });
+        srcWrap.style.display="block";
+      } else { srcWrap.style.display="none"; }
 
-    document.getElementById("closeExplainBtn").onclick = () => {
-      document.getElementById("explainOverlay").style.display = "none";
+      overlay.style.display="flex";
     };
+document.getElementById("closeExplainBtn").onclick=()=>{ document.getElementById("explainOverlay").style.display="none"; };
 
     // TXT-Export
-    document.getElementById("exportBtn").onclick = () => {
-      const lines = results.map((r, idx) => {
-        const frage = r.frage || "—";
-        const antwort = (r.user && r.user !== "") ? r.user : "keine Antwort";
-        return `Frage ${idx + 1}: ${frage}\nAntwort: ${antwort}\nKorrekt: ${r.korrekt}`;
-      });
-
-      const header = `Ergebnisexport – ${new Date().toLocaleString("de-DE")}\nTest: ${(selectedTest && selectedTest.name) || ""}\nBeantwortete Fragen: ${results.length}\nPunkte: ${score} von ${answered}\n\n`;
+    document.getElementById("exportBtn").onclick=()=>{
+      const lines = results.map((r,idx)=>`Frage ${idx+1}: ${r.frage||"—"}\nAntwort: ${(r.user&&r.user!=="")?r.user:"keine Antwort"}\nKorrekt: ${r.korrekt}`);
+      const header = `Ergebnisexport – ${new Date().toLocaleString("de-DE")}\nTest: ${(selectedTest&&selectedTest.name)||""}\nBeantwortete Fragen: ${results.length}\nPunkte: ${score} von ${answered}\n\n`;
       const content = header + lines.join("\n\n");
-
-      const blob = new Blob([content], { type: "text/plain" });
-      const url = URL.createObjectURL(blob);
-
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = "test_ergebnisse.txt";
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      URL.revokeObjectURL(url);
+      const blob=new Blob([content],{type:"text/plain"});
+      const url=URL.createObjectURL(blob);
+      const a=document.createElement("a"); a.href=url; a.download="test_ergebnisse.txt"; document.body.appendChild(a); a.click(); document.body.removeChild(a); URL.revokeObjectURL(url);
     };
 
     // =============================
     // Taschenrechner
     // =============================
-    function openCalc() {
-      const ov = document.getElementById("calcOverlay");
-      ov.style.display = "flex";
-      calcOpen = true;
-      const disp = document.getElementById("calcDisplay");
-      const currentVal = document.getElementById("userInput").value;
-      disp.value = currentVal || "";
-      disp.focus();
+    function openCalc(){
+      const ov=document.getElementById("calcOverlay");
+      ov.style.display="flex"; calcOpen=true;
+      const disp=document.getElementById("calcDisplay");
+      const currentVal=document.getElementById("userInput").value;
+      disp.value=currentVal||""; disp.focus();
       document.addEventListener("keydown", handleCalcKey);
     }
-    function closeCalc() {
-      document.getElementById("calcOverlay").style.display = "none";
-      calcOpen = false;
-      document.removeEventListener("keydown", handleCalcKey);
-    }
-    document.getElementById("closeCalcBtn").onclick = closeCalc;
+    function closeCalc(){ document.getElementById("calcOverlay").style.display="none"; calcOpen=false; document.removeEventListener("keydown", handleCalcKey); }
+    document.getElementById("closeCalcBtn").onclick=closeCalc;
 
-    function handleCalcKey(e) {
-      if (!calcOpen) return;
-      const disp = document.getElementById("calcDisplay");
-
-      if (e.key === "Escape") { e.preventDefault(); closeCalc(); return; }
-
-      if (e.key === "Enter") {
+    function handleCalcKey(e){
+      if(!calcOpen) return;
+      const disp=document.getElementById("calcDisplay");
+      if(e.key==="Escape"){ e.preventDefault(); closeCalc(); return; }
+      if(e.key==="Enter"){
         e.preventDefault();
-        const raw = disp.value.trim();
-        const jsExpr = raw.replace(/,/g, ".");
+        const raw=disp.value.trim(); const jsExpr=raw.replace(/,/g,".");
         let result;
-        try {
-          if (!/^[0-9+\-*/().\s]+$/.test(jsExpr)) { throw new Error("Unzulässige Zeichen"); }
-          result = Function("return " + jsExpr)();
-        } catch (err) { result = null; }
-
-        if (typeof result === "number" && isFinite(result)) {
-          const displayResult = String(result).replace(".", ",");
-          document.getElementById("userInput").value = displayResult;
-        } else {
-          document.getElementById("userInput").value = raw;
+        try{
+          if(!/^[0-9+\-*/().\s]+$/.test(jsExpr)) throw new Error("Unzulässige Zeichen");
+          result = Function("return "+jsExpr)();
+        }catch(err){ result=null; }
+        if(typeof result==="number" && isFinite(result)){
+          const displayResult=String(result).replace(".",",");
+          document.getElementById("userInput").value=displayResult;
+        }else{
+          document.getElementById("userInput").value=raw;
         }
         closeCalc(); return;
       }
-
-      if (["Backspace","Delete","ArrowLeft","ArrowRight","Tab"].includes(e.key)) return;
-
-      const allowed = "0123456789+-*/.,()";
-      if (!allowed.includes(e.key)) e.preventDefault();
+      if(["Backspace","Delete","ArrowLeft","ArrowRight","Tab"].includes(e.key)) return;
+      const allowed="0123456789+-*/.,()"; if(!allowed.includes(e.key)) e.preventDefault();
     }
 
     window.selectTest = selectTest;
-  </script>
-</body>
+  
+
+
+function renderMatrix(q){
+  const box=document.getElementById("matchBox");
+  const rows=document.getElementById("matchRows");
+  box.classList.remove("hidden");
+  rows.innerHTML="";
+  const cats = Array.isArray(q.kategorien) ? q.kategorien : Array.from(new Set(Object.values(q.paare||{})));
+  const pairs = q.paare || {};
+  Object.keys(pairs).forEach(item=>{
+    const row=document.createElement("div"); row.className="pair-row";
+    const l=document.createElement("div"); l.className="left"; l.textContent=item;
+    const sel=document.createElement("select");
+    const ph=document.createElement("option"); ph.value=""; ph.textContent="Kategorie wählen"; sel.appendChild(ph);
+    cats.forEach(c=>{ const o=document.createElement("option"); o.value=c; o.textContent=c; sel.appendChild(o); });
+    sel.dataset.item=item; row.appendChild(l); row.appendChild(sel); rows.appendChild(row);
+  });
+  document.getElementById("checkMatchBtn").onclick=()=>{
+    const selects=rows.querySelectorAll("select");
+    let hits=0, total=selects.length;
+    selects.forEach(sel=>{
+      const item=sel.dataset.item; const val=sel.value;
+      const ok = normalize(val)===normalize(pairs[item]||"");
+      sel.style.borderColor = ok ? "#16a34a" : "#ef4444";
+      if(ok) hits++;
+    });
+    const fb=document.getElementById("matchFeedback");
+    const allOK = hits===total;
+    fb.textContent = allOK ? "Alles korrekt ✅" : `Teilrichtig: ${hits}/${total}`;
+    fb.style.color = allOK ? "#22c55e" : "#ef4444";
+    handleAnswer(q,"matrix_checked",allOK);
+  };
+}
+
+
+
+function renderTrueFalse(q){
+  const box=document.getElementById("tfBox");
+  const fb=document.getElementById("tfFeedback");
+  box.classList.remove("hidden"); fb.textContent=""; fb.style.color="#e2e8f0";
+  const radios = box.querySelectorAll('input[name="tfAns"]');
+  radios.forEach(r=>{ r.checked=false; });
+  document.getElementById("checkTfBtn").onclick=()=>{
+    const pick = [...radios].find(r=>r.checked);
+    if(!pick){ fb.textContent="Bitte auswählen."; fb.style.color="#ef4444"; return; }
+    const truth = !!q.antwort;
+    const ok = (pick.value==="true")===truth;
+    fb.textContent = ok ? "Richtig ✅" : `Falsch ❌ – Lösung: ${truth? "Richtig":"Falsch"}`;
+    fb.style.color = ok ? "#22c55e" : "#ef4444";
+    handleAnswer(q, pick.value, ok);
+  };
+}
+
+
+
+function renderFalltext(q){
+  const wrap = document.getElementById("falltextBox");
+  const cont = document.getElementById("falltextContainer");
+  const fb = document.getElementById("falltextFeedback");
+  wrap.classList.remove("hidden"); fb.textContent=""; fb.style.color="#e2e8f0";
+  cont.innerHTML="";
+  const subs = Array.isArray(q.fragen)? q.fragen : [];
+  subs.forEach((fq, i)=>{
+    const card = document.createElement("div");
+    card.className="question-box";
+    const head = document.createElement("div");
+    head.innerHTML = `<div class="tag">Teilfrage ${i+1} – ${fq.typ||""}</div><div class="frage">${fq.frage||""}</div>`;
+    card.appendChild(head);
+    const area = document.createElement("div");
+    if(fq.typ==="mc"){
+      const optBox = document.createElement("div");
+      (fq.optionen||[]).forEach(opt=>{
+        const b=document.createElement("button");
+        b.textContent=opt; b.className="mc-option";
+        b.onclick=()=>{
+          const richtig = normalize(opt)===normalize(fq.loesung||"");
+          b.style.background = richtig? "rgba(34,197,94,.4)" : "rgba(239,68,68,.4)";
+          b.style.color = "#0f172a";
+          b.dataset.clicked="1";
+        };
+        optBox.appendChild(b);
+      });
+      area.appendChild(optBox);
+    } else if(fq.typ==="input"){
+      const t=document.createElement("textarea"); t.placeholder="Antwort …"; t.dataset.kind="input"; t.style.minHeight="80px";
+      area.appendChild(t);
+    } else if(fq.typ==="calc"){
+      const params = {}; if(fq.parameter){ Object.keys(fq.parameter).forEach(k=>{ const v=fq.parameter[k]; params[k] = Array.isArray(v)? (Math.floor(Math.random()*(v[1]-v[0]+1))+v[0]) : v; }); }
+      fq.__rand = params;
+      let txt = fq.frage||""; for(const k in params){ txt = txt.replaceAll(`{${k}}`, params[k]); }
+      const hint = document.createElement("div"); hint.className="hint"; hint.textContent = txt; area.appendChild(hint);
+      const inp = document.createElement("input"); inp.type="text"; inp.placeholder="Zahl …"; inp.dataset.kind="calc"; area.appendChild(inp);
+    } else if(fq.typ==="sequence"){
+      const list=document.createElement("div");
+      const correct = [...(fq.loesung||fq.richtigeReihenfolge||fq.optionen||[])];
+      const items = correct.sort(()=>Math.random()-0.5);
+      items.forEach(txt=>{
+        const row=document.createElement("div"); row.className="order-item";
+        const t=document.createElement("div"); t.className="txt"; t.textContent=txt;
+        const btns=document.createElement("div"); btns.className="btns";
+        const up=document.createElement("button"); up.textContent="↑";
+        const down=document.createElement("button"); down.textContent="↓";
+        up.onclick=()=>{ const parent=list; const idx=[...parent.children].indexOf(row); if(idx>0){ parent.insertBefore(row, parent.children[idx-1]); } };
+        down.onclick=()=>{ const parent=list; const idx=[...parent.children].indexOf(row); if(idx<parent.children.length-1){ parent.insertBefore(parent.children[idx+1], row); } };
+        btns.appendChild(up); btns.appendChild(down);
+        row.appendChild(t); row.appendChild(btns); list.appendChild(row);
+      });
+      area.appendChild(list);
+      area.dataset.correct = JSON.stringify(fq.loesung||fq.richtigeReihenfolge||[]);
+    } else if(fq.typ==="matrix"){
+      const pairs = fq.paare||{};
+      const cats = fq.kategorien || [...new Set(Object.values(pairs))];
+      Object.keys(pairs).forEach(item=>{
+        const row=document.createElement("div"); row.className="pair-row";
+        const l=document.createElement("div"); l.className="left"; l.textContent=item;
+        const sel=document.createElement("select");
+        const ph=document.createElement("option"); ph.value=""; ph.textContent="Kategorie wählen"; sel.appendChild(ph);
+        cats.forEach(c=>{ const o=document.createElement("option"); o.value=c; o.textContent=c; sel.appendChild(o); });
+        sel.dataset.item=item; row.appendChild(l); row.appendChild(sel);
+        area.appendChild(row);
+      });
+    }
+    card.appendChild(area);
+    cont.appendChild(card);
+  });
+
+  document.getElementById("checkFalltextBtn").onclick=()=>{
+    let hits=0, total=0;
+    (q.fragen||[]).forEach((fq,i)=>{
+      if(fq.typ==="mc"){
+        total++;
+        const boxes = document.getElementById("falltextContainer").querySelectorAll(".question-box")[i].querySelectorAll(".mc-option");
+        const ok = Array.from(boxes).some(btn=> btn.style.background.includes("34,197,94"));
+        if(ok) hits++;
+      } else if(fq.typ==="input"){
+        total++;
+        const val = document.getElementById("falltextContainer").querySelectorAll(".question-box")[i].querySelector('[data-kind="input"]').value || "";
+        const list = (fq.korrekteAntworten||fq.schluesselwoerter||[]).map(s=>normalize(String(s)));
+        const ok = list.length>0 && list.some(ans=> normalize(val)===ans);
+        if(ok) hits++;
+      } else if(fq.typ==="calc"){
+        total++;
+        const inp = document.getElementById("falltextContainer").querySelectorAll(".question-box")[i].querySelector('[data-kind="calc"]');
+        const raw = parseFloat((inp.value||"").replace(",","."));
+        let expected = NaN; const p = fq.__rand || {};
+        try{ expected = Function(...Object.keys(p), "return "+fq.formel)(...Object.values(p)); }catch(e){}
+        const tol = typeof fq.toleranz==="number" ? fq.toleranz : 0.01;
+        const ok = isFinite(raw) && isFinite(expected) && Math.abs(raw-expected)<=tol;
+        if(ok) hits++;
+      } else if(fq.typ==="sequence"){
+        total++;
+        const card = document.getElementById("falltextContainer").querySelectorAll(".question-box")[i];
+        const items = [...card.querySelectorAll(".order-item .txt")].map(n=>n.textContent);
+        const corr = fq.loesung||fq.richtigeReihenfolge||[];
+        const ok = JSON.stringify(items.map(normalize))===JSON.stringify(corr.map(normalize));
+        if(ok) hits++;
+      } else if(fq.typ==="matrix"){
+        const pairs = fq.paare||{};
+        const keys = Object.keys(pairs); total+=keys.length;
+        const selects = document.getElementById("falltextContainer").querySelectorAll(".question-box")[i].querySelectorAll("select");
+        let local=0;
+        selects.forEach((sel,idx)=>{
+          const item = keys[idx]; const val = sel.value;
+          if(normalize(val)===normalize(pairs[item]||"")) local++;
+        });
+        hits+=local;
+      }
+    });
+    const okAll = hits===total && total>0;
+    fb.textContent = okAll ? `Alle Teilfragen korrekt ✅ (${hits}/${total})` : `Teilrichtig ❌ (${hits}/${total})`;
+    fb.style.color = okAll ? "#22c55e" : "#ef4444";
+    handleAnswer(q, "falltext_checked", okAll);
+  };
+}
+
+
+// --- Lösung Modal Helpers ---
+function openSolution(html, q){
+  const modal=document.getElementById("solutionModal");
+  const body=document.getElementById("solutionBody");
+  body.innerHTML = html || "<div style='opacity:.7'>Keine Details vorhanden.</div>";
+  modal.style.display="flex";
+  document.getElementById("solutionClose").onclick=()=>{ modal.style.display="none"; };
+  // Export binding (context-aware)
+  const btn=document.getElementById("solutionExportBtn");
+  btn.onclick = ()=>{
+    if(q && q.typ==="falltext"){ exportFalltextCSV(q); }
+    else { exportGenericCSV(q); }
+  };
+}
+
+function table(rows){
+  const head = rows.shift();
+  const thead = "<thead><tr>"+head.map(h=>`<th style="text-align:left;padding:8px;border-bottom:1px solid #233042;">${h}</th>`).join("")+"</tr></thead>";
+  const tbody = "<tbody>"+rows.map(r=>"<tr>"+r.map(c=>`<td style="padding:8px;border-bottom:1px solid #1a2430;">${c}</td>`).join("")+"</tr>").join("")+"</tbody>";
+  return `<table style="width:100%;border-collapse:collapse;font-size:.95rem">${thead}${tbody}</table>`;
+}
+
+function escapeHtml(s){ return String(s).replace(/[&<>]/g, m=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[m])); }
+
+function currentFalltextSnapshot(q){
+  // Read live user inputs for falltext
+  const cont = document.getElementById("falltextContainer");
+  const out = [];
+  (q.fragen||[]).forEach((fq,i)=>{
+    let user=""; let expected=""; let ok=null;
+    if(fq.typ==="mc"){
+      const btns = cont.querySelectorAll(".question-box")[i].querySelectorAll(".mc-option");
+      const clicked = Array.from(btns).find(b=>b.dataset.clicked==="1");
+      user = clicked ? clicked.textContent.trim() : "";
+      expected = fq.loesung||"";
+      ok = user ? (normalize(user)===normalize(expected)) : null;
+    } else if(fq.typ==="input"){
+      const val = cont.querySelectorAll(".question-box")[i].querySelector('[data-kind="input"]').value || "";
+      user = val.trim();
+      const list = (fq.korrekteAntworten||fq.schluesselwoerter||[]).map(s=>normalize(String(s)));
+      expected = (fq.korrekteAntworten||[]).join(" | ");
+      ok = list.length>0 ? list.some(ans=> normalize(user)===ans) : null;
+    } else if(fq.typ==="calc"){
+      const inp = cont.querySelectorAll(".question-box")[i].querySelector('[data-kind="calc"]');
+      const raw = parseFloat((inp.value||"").replace(",","."));
+      user = isNaN(raw)? "" : raw;
+      const p = fq.__rand || {};
+      let exp = NaN; try{ exp = Function(...Object.keys(p), "return "+fq.formel)(...Object.values(p)); }catch(e){}
+      expected = isFinite(exp)? exp : "";
+      const tol = typeof fq.toleranz==="number"? fq.toleranz: 0.01;
+      ok = (isFinite(raw) && isFinite(exp)) ? (Math.abs(raw-exp)<=tol) : null;
+    } else if(fq.typ==="sequence"){
+      const card = cont.querySelectorAll(".question-box")[i];
+      const items = [...card.querySelectorAll(".order-item .txt")].map(n=>n.textContent);
+      user = items.join(" → ");
+      const corr = fq.loesung||fq.richtigeReihenfolge||[];
+      expected = corr.join(" → ");
+      ok = JSON.stringify(items.map(normalize))===JSON.stringify(corr.map(normalize));
+    } else if(fq.typ==="matrix"){
+      const pairs = fq.paare||{};
+      const keys = Object.keys(pairs);
+      const selects = cont.querySelectorAll(".question-box")[i].querySelectorAll("select");
+      const chosen = {}; keys.forEach((k,ix)=>{ const sel = selects[ix]; chosen[k] = sel? sel.value: ""; });
+      user = JSON.stringify(chosen);
+      expected = JSON.stringify(pairs);
+      let local=0; keys.forEach((k,ix)=>{ if(normalize(chosen[k])===normalize(pairs[k])) local++; });
+      ok = (local===keys.length);
+    }
+    out.push({typ:fq.typ, user, expected, ok});
+  });
+  return out;
+}
+
+function exportFalltextCSV(q){
+  const rows = [["Teil","Typ","User","Expected","OK"]];
+  const snap = currentFalltextSnapshot(q);
+  snap.forEach((r,i)=> rows.push([i+1, r.typ, r.user, r.expected, r.ok===null? "": (r.ok? "1":"0")]));
+  const csv = rows.map(r=>r.map(x=>`"${String(x).replace(/"/g,'""')}"`).join(",")).join("\\n");
+  const blob = new Blob([csv], {type:"text/csv;charset=utf-8;"});
+  const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = (q.id||"falltext")+"_teilfragen.csv"; a.click();
+}
+
+function exportGenericCSV(q){
+  const rows = [["ID","Typ","Hinweis"]];
+  rows.push([q.id||"", q.typ||"", q.esel||""]);
+  const csv = rows.map(r=>r.map(x=>`"${String(x).replace(/"/g,'""')}"`).join(",")).join("\\n");
+  const blob = new Blob([csv], {type:"text/csv;charset=utf-8;"});
+  const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = (q.id||"frage")+"_loesung.csv"; a.click();
+}
+
+</script>
+<div id="solutionModal" style="position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,.6);z-index:9999;">
+<div id="solutionCard" style="background:#0c141e;border:1px solid #233042;border-radius:12px;max-width:820px;width:92%;max-height:80vh;overflow:auto;box-shadow:0 10px 40px rgba(0,0,0,.5)">
+<div style="display:flex;justify-content:space-between;align-items:center;padding:12px 14px;border-bottom:1px solid #233042;">
+<div style="font-weight:700">Lösung / Musterlösung</div>
+<div>
+<button id="solutionExportBtn" style="background:#1b2734;color:#e8f0fa;border:1px solid #233042;padding:8px 12px;border-radius:8px;margin-right:8px;">Export CSV</button>
+<button id="solutionClose" style="background:#4da3ff;color:#05111f;border:none;padding:8px 12px;border-radius:8px;">Schließen</button>
+</div>
+</div>
+<div id="solutionBody" style="padding:12px 14px;"></div>
+</div>
+</div></body>
 </html>
+
