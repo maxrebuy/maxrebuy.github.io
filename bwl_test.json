@@ -1,25 +1,31 @@
 [
   {
-    "id": "bwl-01",
+    "id": "BWL-001",
     "typ": "input",
     "tag": "Wirtschaften",
+    "fall": "Menschen haben unbegrenzte Bedürfnisse, aber begrenzte Mittel.",
     "frage": "Warum müssen Menschen bzw. Wirtschaftssubjekte überhaupt wirtschaften?",
-    "schluesselwoerter": ["knapp", "bedürfnisse"],
+    "schluesselwoerter": [
+      "knapp",
+      "bedürfnisse"
+    ],
     "korrekteAntworten": [
       "weil bedürfnisse unbegrenzt sind aber die mittel knapp",
-      "weil güter knapp sind und bedürfnisse befriedigt werden sollen",
-      "weil bedürfnisse größer sind als die verfügbaren ressourcen"
+      "weil güter knapp sind und bedürfnisse befriedigt werden sollen"
     ],
+    "erklaerung": "Wirtschaften bedeutet, knappe Mittel so einzusetzen, dass möglichst viele Bedürfnisse befriedigt werden. Gäbe es keine Knappheit, wäre Wirtschaften überflüssig.",
     "esel": "Ohne Knappheit keine BWL.",
-    "erklaerung": "Kern der BWL ist die Annahme: Bedürfnisse der Menschen sind tendenziell unbegrenzt, die verfügbaren Mittel (Güter, Zeit, Geld) aber begrenzt. Aus diesem Spannungsverhältnis entsteht das ‚Wirtschaften‘ – also das planvolle Entscheiden, wie knappe Mittel so eingesetzt werden, dass möglichst viele Bedürfnisse befriedigt werden. Gäbe es keine Knappheit, müsste niemand wirtschaften.",
-    "quellen": [
-      "BWLB01OT, Kap. 2.1 Wirtschaften und Knappheit (Ideen, Ziele und Entscheidungen), S. 5–7."
-    ]
+    "quelle": {
+      "kapitel": "2.1 Wirtschaften und Knappheit",
+      "seite": "5-7"
+    },
+    "schwierigkeit": "leicht"
   },
   {
-    "id": "bwl-02",
+    "id": "BWL-002",
     "typ": "mc",
     "tag": "Bedürfnisse",
+    "fall": "Ein Unternehmen untersucht, warum Menschen Produkte kaufen.",
     "frage": "Welche Aussage zu Bedürfnissen trifft zu?",
     "optionen": [
       "Bedürfnisse sind der Ausgangspunkt des Wirtschaftens.",
@@ -28,17 +34,19 @@
       "Bedürfnisse sind immer wirtschaftlich erfüllbar."
     ],
     "loesung": "Bedürfnisse sind der Ausgangspunkt des Wirtschaftens.",
+    "erklaerung": "Bedürfnisse sind der Ursprung aller wirtschaftlichen Aktivitäten. Aus ihnen entsteht Nachfrage, auf die Unternehmen reagieren.",
     "esel": "Erst wollen, dann wirtschaften.",
-    "erklaerung": "In der BWL beginnt alles mit dem Bedürfnis: Menschen haben Wünsche bzw. Mängelgefühle. Daraus entsteht Nachfrage nach Gütern und Dienstleistungen. Unternehmen existieren letztlich, um diese Bedürfnisse zu decken. Viele Bedürfnisse sind außerdem nicht oder nur begrenzt wirtschaftlich erfüllbar (z. B. Liebe, Anerkennung), deshalb sind die anderen Antwortmöglichkeiten falsch.",
-    "quellen": [
-      "BWLB01OT, Kap. 2.1.1 Bedürfnisse – Bedarf – Nachfrage, S. 7–8.",
-      "BWLB01OT, Abb. 2.1 Bedürfnisse, Bedarf, Nachfrage und Markt, S. 7."
-    ]
+    "quelle": {
+      "kapitel": "2.1.1 Bedürfnisse - Bedarf - Nachfrage",
+      "seite": "7-8"
+    },
+    "schwierigkeit": "leicht"
   },
   {
-    "id": "bwl-03",
+    "id": "BWL-003",
     "typ": "mc",
     "tag": "Güterarten",
+    "fall": "Ein Schüler soll freie und wirtschaftliche Güter unterscheiden.",
     "frage": "Welches der folgenden Güter ist KEIN freies Gut?",
     "optionen": [
       "Sonnenlicht",
@@ -47,49 +55,65 @@
       "Bergluft im Gebirge"
     ],
     "loesung": "Trinkwasser aus der Leitung",
-    "esel": "Sobald jemand es bereitstellen muss → nicht frei.",
-    "erklaerung": "Freie Güter stehen in der Regel in ausreichender Menge kostenlos zur Verfügung (z. B. Luft, Sonnenlicht). Sobald aber ein Versorger dahintersteht, Infrastruktur nötig ist oder ein Preis verlangt wird (wie bei Leitungswasser), handelt es sich nicht mehr um ein freies Gut, sondern um ein wirtschaftliches Gut.",
-    "quellen": [
-      "BWLB01OT, Kap. 2.1.2 Güterarten: freie und wirtschaftliche Güter, S. 9–10."
-    ]
+    "erklaerung": "Freie Güter sind im Überfluss vorhanden und kostenlos. Wirtschaftliche Güter müssen bereitgestellt werden, z. B. Leitungswasser.",
+    "esel": "Sobald jemand es bereitstellen muss -> nicht frei.",
+    "quelle": {
+      "kapitel": "2.1.2 Güterarten",
+      "seite": "9-10"
+    },
+    "schwierigkeit": "leicht"
   },
   {
-    "id": "bwl-04",
+    "id": "BWL-004",
     "typ": "input",
     "tag": "Ökonomisches Prinzip",
+    "fall": "Eine Marketingabteilung soll mit fixem Budget möglichst viele Kunden erreichen.",
     "frage": "Formuliere das Maximalprinzip des ökonomischen Prinzips.",
-    "schluesselwoerter": ["gegebene mittel", "maximal", "erfolg"],
+    "schluesselwoerter": [
+      "gegebene mittel",
+      "maximal",
+      "erfolg"
+    ],
     "korrekteAntworten": [
       "mit gegebenen mitteln einen maximalen erfolg erzielen",
       "aus vorgegebenen ressourcen das beste ergebnis herausholen"
     ],
-    "esel": "Fixe Mittel → größter Output.",
-    "erklaerung": "Beim Maximalprinzip steht eine feste Input-Menge zur Verfügung (z. B. 1.000 € Werbebudget). Mit genau diesem Einsatz soll der größtmögliche Output erreicht werden (höchster Umsatz, größte Reichweite, höchster Gewinn). Merken: Maximal = Input fest, Output soll rauf.",
-    "quellen": [
-      "BWLB01OT, Kap. 2.1.3 Ökonomisches Prinzip (Maximal-, Minimal-, Optimumprinzip), S. 10–12.",
-      "BWLB01OT, Tab. 2.1 In- und Output beim ökonomischen Prinzip, S. 12."
-    ]
+    "erklaerung": "Beim Maximalprinzip ist der Input fix - der Output soll maximiert werden.",
+    "esel": "Fixe Mittel -> größter Output.",
+    "quelle": {
+      "kapitel": "2.1.3 Ökonomisches Prinzip",
+      "seite": "10-12"
+    },
+    "schwierigkeit": "leicht"
   },
   {
-    "id": "bwl-05",
+    "id": "BWL-005",
     "typ": "input",
     "tag": "Ökonomisches Prinzip",
+    "fall": "Eine Druckerei soll 10.000 Flyer so günstig wie möglich produzieren.",
     "frage": "Formuliere das Minimalprinzip des ökonomischen Prinzips.",
-    "schluesselwoerter": ["bestimmtes ziel", "geringstmöglichen", "mitteleinsatz"],
-    "korrekteAntworten": [
-      "ein fest vorgegebenes ziel mit möglichst wenig mitteln erreichen",
-      "ein bestimmtes ergebnis mit dem geringsten aufwand erzielen"
+    "schluesselwoerter": [
+      "bestimmtes ziel",
+      "geringstmöglichen",
+      "mitteleinsatz"
     ],
-    "esel": "Ziel fest → Kosten runter.",
-    "erklaerung": "Beim Minimalprinzip ist das Ergebnis vorgegeben (z. B. 1.000 Flyer drucken), aber der Mitteleinsatz soll so klein wie möglich bleiben (günstigste Druckerei, bessere Auslastung, weniger Material). Merken: Minimal = Output fest, Input soll runter.",
-    "quellen": [
-      "BWLB01OT, Kap. 2.1.3 Ökonomisches Prinzip, S. 10–12."
-    ]
+    "korrekteAntworten": [
+      "ein festes ziel mit möglichst wenig mitteln erreichen",
+      "ein ergebnis mit dem geringsten aufwand erzielen"
+    ],
+    "erklaerung": "Beim Minimalprinzip ist das Ziel fix - der Mitteleinsatz soll minimiert werden.",
+    "esel": "Ziel fest -> Kosten runter.",
+    "quelle": {
+      "kapitel": "2.1.3 Ökonomisches Prinzip",
+      "seite": "10-12"
+    },
+    "schwierigkeit": "leicht"
   },
   {
-    "id": "bwl-06",
+    "id": "BWL-006",
     "typ": "mc",
     "tag": "Unternehmensziele",
+    "fall": "Ein Unternehmen plant langfristig die Einführung einer neuen Produktlinie.",
     "frage": "Welches der folgenden Ziele ist ein strategisches Ziel?",
     "optionen": [
       "Reduzierung des Papierverbrauchs im nächsten Monat um 5 %",
@@ -98,17 +122,19 @@
       "Krankheitsquote im Lager im Februar senken"
     ],
     "loesung": "Einführung einer neuen Produktlinie für den asiatischen Markt in 3 Jahren",
+    "erklaerung": "Strategische Ziele sind langfristig, betreffen die Ausrichtung und sichern Wettbewerbsfähigkeit.",
     "esel": "Strategisch = langfristig + neu.",
-    "erklaerung": "Strategische Ziele sind langfristig (mehrere Jahre), betreffen oft die Ausrichtung des Unternehmens und haben meist hohen Ressourceneinsatz. Operative Ziele dagegen sind kurzfristig (Tag, Woche, Monat). Eine neue Produktlinie für einen neuen Markt aufzubauen ist klar strategisch.",
-    "quellen": [
-      "BWLB01OT, Kap. 2.3 Ziele von Unternehmen (Erfolg, Liquidität, Sicherheit, Wachstum), S. 13–16.",
-      "BWLB01OT, Kap. 2.3.2 Liquiditätsanalyse – Abgrenzung zu anderen Zielen, S. 17–18. "
-    ]
+    "quelle": {
+      "kapitel": "2.3 Ziele von Unternehmen",
+      "seite": "13-16"
+    },
+    "schwierigkeit": "mittel"
   },
   {
-    "id": "bwl-07",
+    "id": "BWL-007",
     "typ": "mc",
     "tag": "Zielbeziehungen",
+    "fall": "Ein Betrieb möchte gleichzeitig Qualität und Kundenzufriedenheit steigern.",
     "frage": "Wenn zwei Ziele sich gegenseitig verstärken, spricht man von …",
     "optionen": [
       "Zielkonkurrenz",
@@ -117,16 +143,19 @@
       "Zielaufspaltung"
     ],
     "loesung": "Zielharmonie",
+    "erklaerung": "Zielharmonie bedeutet, dass die Erreichung eines Ziels ein anderes begünstigt.",
     "esel": "Harmonie = hilft sich.",
-    "erklaerung": "Zielharmonie bedeutet: Die Erreichung des einen Ziels begünstigt das andere (z. B. bessere Qualität → zufriedenere Kunden → höherer Umsatz). Das Gegenteil wäre Zielkonkurrenz, wenn die Erreichung eines Ziels das andere erschwert.",
-    "quellen": [
-      "BWLB01OT, Kap. 2.3 Zielsysteme und Zielbeziehungen (Harmonie, Indifferenz, Konkurrenz), S. 14–15."
-    ]
+    "quelle": {
+      "kapitel": "2.3 Zielsysteme und Zielbeziehungen",
+      "seite": "14-15"
+    },
+    "schwierigkeit": "leicht"
   },
   {
-    "id": "bwl-08",
+    "id": "BWL-008",
     "typ": "mc",
     "tag": "Zielbeziehungen",
+    "fall": "Ein Unternehmen will gleichzeitig hohe Lagerbestände und niedrige Kapitalbindung erreichen.",
     "frage": "Wenn die Erreichung eines Ziels ein anderes Ziel erschwert, liegt … vor.",
     "optionen": [
       "Zielkonkurrenz",
@@ -135,33 +164,43 @@
       "Zieltransparenz"
     ],
     "loesung": "Zielkonkurrenz",
+    "erklaerung": "Zielkonkurrenz beschreibt sich gegenseitig behindernde Ziele, z. B. Servicegrad vs. Kapitalbindung.",
     "esel": "Mehr von A = weniger von B.",
-    "erklaerung": "Zielkonkurrenz findest du oft bei Lagerhaltung: Hoher Servicegrad (viel auf Lager) widerspricht geringer Kapitalbindung (wenig auf Lager). Beides gleichzeitig geht nur begrenzt. Deshalb spricht man von konkurrierenden Zielen.",
-    "quellen": [
-      "BWLB01OT, Kap. 2.3 Zielbeziehungen, S. 14–15."
-    ]
+    "quelle": {
+      "kapitel": "2.3 Zielsysteme und Zielbeziehungen",
+      "seite": "14-15"
+    },
+    "schwierigkeit": "leicht"
   },
   {
-    "id": "bwl-09",
+    "id": "BWL-009",
     "typ": "input",
     "tag": "Standortwahl",
+    "fall": "Ein Startup sucht nach dem optimalen Unternehmensstandort.",
     "frage": "Nenne ein typisches Kriterium für die Wahl eines Unternehmensstandortes.",
-    "schluesselwoerter": ["verkehr", "kund", "arbeitskräfte"],
+    "schluesselwoerter": [
+      "verkehr",
+      "kund",
+      "arbeitskräfte"
+    ],
     "korrekteAntworten": [
       "gute verkehrsanbindung",
       "kundennähe",
       "verfügbarkeit von arbeitskräften"
     ],
+    "erklaerung": "Standortentscheidungen hängen von harten (Kosten, Infrastruktur) und weichen (Image, Lebensqualität) Faktoren ab.",
     "esel": "Standort = erreichbar + verkaufbar.",
-    "erklaerung": "Bei der Standortwahl werden harte und weiche Faktoren betrachtet. Klassisch: Verkehrsanbindung, Nähe zum Markt/Kunden, verfügbare und qualifizierte Arbeitskräfte, Infrastruktur, Steuern. Solche Kriterien senken Kosten oder erhöhen Absatzchancen.",
-    "quellen": [
-      "BWLB01OT, Kap. 2.4 Unternehmerische Entscheidungen (u. a. Standort- und Rechtsformwahl), S. 21–23."
-    ]
+    "quelle": {
+      "kapitel": "2.4 Unternehmerische Entscheidungen",
+      "seite": "21-23"
+    },
+    "schwierigkeit": "mittel"
   },
   {
-    "id": "bwl-10",
+    "id": "BWL-010",
     "typ": "mc",
     "tag": "Rechtsformen",
+    "fall": "Zwei Gründer wollen ein Unternehmen starten und fragen nach Haftung und Kapital.",
     "frage": "Welche Aussage zur Personengesellschaft ist richtig?",
     "optionen": [
       "Die Gesellschafter haften in der Regel persönlich.",
@@ -170,16 +209,19 @@
       "Die Haftung ist immer beschränkt."
     ],
     "loesung": "Die Gesellschafter haften in der Regel persönlich.",
+    "erklaerung": "Personengesellschaften betonen die persönliche Haftung und Verantwortung der Gesellschafter.",
     "esel": "Person = persönlich.",
-    "erklaerung": "Bei Personengesellschaften (z. B. OHG, meist auch KG für Komplementär) steht die Person der Gesellschafter im Vordergrund, nicht das Kapital. Daher haften diese i. d. R. unbeschränkt und persönlich. Das unterscheidet sie von Kapitalgesellschaften (GmbH, AG), wo nur das Gesellschaftsvermögen haftet.",
-    "quellen": [
-      "BWLB01OT, Kap. 2.4.2 Rechtsformwahl: Personengesellschaften und Kapitalgesellschaften, S. 22–23. :contentReference[oaicite:5]{index=5}"
-    ]
+    "quelle": {
+      "kapitel": "2.4.2 Rechtsformwahl",
+      "seite": "22-23"
+    },
+    "schwierigkeit": "mittel"
   },
   {
-    "id": "bwl-11",
+    "id": "BWL-011",
     "typ": "mc",
     "tag": "Rechtsformen",
+    "fall": "Eine Firma soll als Kapitalgesellschaft gegründet werden.",
     "frage": "Welche der folgenden Rechtsformen gehört zu den Kapitalgesellschaften?",
     "optionen": [
       "OHG",
@@ -188,654 +230,3456 @@
       "GbR"
     ],
     "loesung": "GmbH",
+    "erklaerung": "Die GmbH ist eine Kapitalgesellschaft mit beschränkter Haftung und eigener Rechtspersönlichkeit.",
     "esel": "G = Gesellschaft, m.b.H. = Haftung gedeckelt.",
-    "erklaerung": "Kapitalgesellschaften zeichnen sich durch eigene Rechtspersönlichkeit und beschränkte Haftung aus. Die GmbH ist die klassische Form im Mittelstand. OHG, KG, GbR sind Personengesellschaften.",
-    "quellen": [
-      "BWLB01OT, Kap. 2.4.2 Rechtsformen im Vergleich, S. 22–23."
-    ]
+    "quelle": {
+      "kapitel": "2.4.2 Rechtsformwahl",
+      "seite": "22-23"
+    },
+    "schwierigkeit": "leicht"
   },
   {
-    "id": "bwl-12",
+    "id": "BWL-012",
     "typ": "input",
     "tag": "Rechtsformwahl",
+    "fall": "Ein Berater erklärt, warum die Wahl der Rechtsform strategisch ist.",
     "frage": "Nenne einen wesentlichen Grund, warum die Wahl der Rechtsform wichtig ist.",
-    "schluesselwoerter": ["haftung", "besteuerung", "finanzierung"],
+    "schluesselwoerter": [
+      "haftung",
+      "besteuerung",
+      "finanzierung"
+    ],
     "korrekteAntworten": [
       "weil die haftung geregelt wird",
       "weil die rechtsform die steuerliche behandlung beeinflusst",
       "weil die rechtsform den zugang zu kapital beeinflusst"
     ],
+    "erklaerung": "Die Rechtsform bestimmt Haftung, Steuern und Finanzierungsmöglichkeiten eines Unternehmens.",
     "esel": "Rechtsform = Haftung + Steuern + Kapital.",
-    "erklaerung": "Die Rechtsform entscheidet u. a. darüber, wer haftet (privat oder nicht), wie Gewinne versteuert werden und wie leicht neues Kapital aufgenommen werden kann. Deshalb ist sie eine strategische Grundsatzentscheidung.",
-    "quellen": [
-      "BWLB01OT, Kap. 2.4.2 Rechtsformwahl, S. 22–23."
-    ]
+    "quelle": {
+      "kapitel": "2.4.2 Rechtsformwahl",
+      "seite": "22-23"
+    },
+    "schwierigkeit": "mittel"
   },
   {
-    "id": "bwl-13",
-    "typ": "mc",
-    "tag": "Betriebliche Funktionen",
-    "frage": "Welche betriebliche Funktion ist vor allem für die Versorgung mit Roh-, Hilfs- und Betriebsstoffen zuständig?",
-    "optionen": [
-      "Absatz/Marketing",
-      "Beschaffung und Materialwirtschaft",
-      "Rechnungswesen",
-      "Personalwesen"
-    ],
-    "loesung": "Beschaffung und Materialwirtschaft",
-    "esel": "Material = besorgen.",
-    "erklaerung": "Die Materialwirtschaft plant, steuert und überwacht den Materialfluss im Unternehmen. Sie beschafft die benötigten Güter, lagert sie und stellt sie der Produktion bereit. Absatz und Marketing stehen am anderen Ende der Kette.",
-    "quellen": [
-      "BWLB01OT, Kap. 3.2 Beschaffung/Materialwirtschaft, S. 35–39. :contentReference[oaicite:6]{index=6}"
-    ]
-  },
-  {
-    "id": "bwl-14",
-    "typ": "mc",
-    "tag": "Marketing",
-    "frage": "Welche Aussage zum Marketing-Mix ist korrekt?",
-    "optionen": [
-      "Er besteht nur aus Werbung.",
-      "Er besteht aus Produkt-, Preis-, Kommunikations- und Distributionspolitik.",
-      "Er wird nur im B2B-Bereich eingesetzt.",
-      "Er ist nur für Großunternehmen relevant."
-    ],
-    "loesung": "Er besteht aus Produkt-, Preis-, Kommunikations- und Distributionspolitik.",
-    "esel": "4P merken.",
-    "erklaerung": "Der klassische Marketing-Mix besteht aus 4 Instrumenten: Product (Produkt), Price (Preis), Place (Vertrieb/Distribution) und Promotion (Kommunikation/Werbung). Werbung ist also nur ein Teil davon. Deshalb sind die anderen Antworten zu eng.",
-    "quellen": [
-      "BWLB01OT, Kap. 3.1.2 Marketing, besonders Abb. 3.1 Die 4 P des Marketingmix, S. 32–35. "
-    ]
-  },
-  {
-    "id": "bwl-15",
-    "typ": "input",
-    "tag": "Rechnungswesen",
-    "frage": "Warum wird das externe Rechnungswesen so genannt?",
-    "schluesselwoerter": ["externe adressaten", "jahresabschluss", "gesetzlich"],
-    "korrekteAntworten": [
-      "weil es vor allem informationen für externe adressaten bereitstellt",
-      "weil jahresabschluss und bilanz nach außen gerichtet sind"
-    ],
-    "esel": "Extern = nach draußen berichten.",
-    "erklaerung": "Das externe Rechnungswesen (z. B. Finanzbuchhaltung, Jahresabschluss) soll vor allem außenstehende Interessenten informieren: Banken, Gläubiger, Finanzamt, Anteilseigner. Es ist stark gesetzlich geregelt (HGB). Im Gegensatz dazu ist das interne Rechnungswesen für die Unternehmenssteuerung gedacht.",
-    "quellen": [
-      "BWLB01OT, Kap. 3.7 Externes Rechnungswesen (Finanzbuchführung, Jahresabschluss), S. 46–49. :contentReference[oaicite:8]{index=8}"
-    ]
-  },
-  {
-    "id": "bwl-16",
-    "typ": "mc",
-    "tag": "Rechnungswesen",
-    "frage": "Welche Aufgabe hat das interne Rechnungswesen (z. B. Kosten- und Leistungsrechnung)?",
-    "optionen": [
-      "Erstellung des handelsrechtlichen Jahresabschlusses",
-      "Planung, Kontrolle und Steuerung im Unternehmen",
-      "Bekanntgabe des Gewinns an das Finanzamt",
-      "Festlegung der Rechtsform"
-    ],
-    "loesung": "Planung, Kontrolle und Steuerung im Unternehmen",
-    "esel": "Intern = managen.",
-    "erklaerung": "Das interne Rechnungswesen liefert Informationen für die Unternehmensleitung, z. B. zur Kalkulation, zur Kostenkontrolle oder zur Budgetplanung. Es ist nicht gesetzlich vorgeschrieben und kann sehr individuell gestaltet werden.",
-    "quellen": [
-      "BWLB01OT, Kap. 3.8 Internes Rechnungswesen/Kosten- und Leistungsrechnung, S. 49–52. :contentReference[oaicite:9]{index=9}"
-    ]
-  },
-  {
-    "id": "bwl-17",
-    "typ": "mc",
-    "tag": "Investition",
-    "frage": "Was versteht man unter Bruttoinvestition?",
-    "optionen": [
-      "Nur Investitionen zur Erweiterung der Kapazität",
-      "Gesamtheit aller Investitionen einer Periode",
-      "Nur Ersatzinvestitionen",
-      "Nur Rationalisierungsinvestitionen"
-    ],
-    "loesung": "Gesamtheit aller Investitionen einer Periode",
-    "esel": "Brutto = alles drin.",
-    "erklaerung": "Bruttoinvestition umfasst Ersatz-, Erweiterungs- und Rationalisierungsinvestitionen zusammen. Nettoinvestition wäre dagegen Bruttoinvestition minus Ersatzinvestitionen – also der tatsächliche Kapazitätszuwachs.",
-    "quellen": [
-      "BWLB01OT, Kap. 3.5 Investition (Formen: Ersatz-, Rationalisierungs-, Erweiterungsinvestition), S. 42–44.",
-      "BWLB01OT, Abb. 3.3 Investitionsformen, S. 43. :contentReference[oaicite:10]{index=10}"
-    ]
-  },
-  {
-    "id": "bwl-18",
-    "typ": "input",
-    "tag": "Investition",
-    "frage": "Worin unterscheiden sich Ersatzinvestitionen und Nettoinvestitionen?",
-    "schluesselwoerter": ["ersatz", "alte anlage", "netto", "kapazität"],
-    "esel": "Ersatz = halten, Netto = wachsen.",
-    "erklaerung": "Ersatzinvestitionen ersetzen nur verschlissene oder technisch veraltete Anlagen – die Kapazität bleibt gleich. Nettoinvestitionen (oder Erweiterungsinvestitionen) erhöhen wirklich die Kapazität des Unternehmens, weil zusätzlich investiert wird.",
-    "quellen": [
-      "BWLB01OT, Kap. 3.5 Investition – Unterscheidung nach Investitionszweck, S. 42–44."
-    ]
-  },
-  {
-    "id": "bwl-19",
-    "typ": "input",
-    "tag": "Finanzierung",
-    "frage": "Nenne einen Vorteil von Eigenkapital gegenüber Fremdkapital.",
-    "schluesselwoerter": ["keine rückzahlung", "unbefristet", "liquidität"],
-    "korrekteAntworten": [
-      "eigenkapital muss nicht zurückgezahlt werden",
-      "eigenkapital belastet die liquidität weniger",
-      "eigenkapital stärkt die kreditwürdigkeit"
-    ],
-    "esel": "EK drückt nicht sofort.",
-    "erklaerung": "Eigenkapital bleibt dauerhaft im Unternehmen, muss nicht zwingend verzinst oder zurückgeführt werden und verbessert die Bonität. Fremdkapital dagegen muss fristgerecht getilgt werden und belastet die Liquidität.",
-    "quellen": [
-      "BWLB01OT, Kap. 3.6 Finanzierung (Innen-/Außenfinanzierung, EK/FK), S. 44–46. :contentReference[oaicite:11]{index=11}"
-    ]
-  },
-  {
-    "id": "bwl-20",
-    "typ": "mc",
-    "tag": "Finanzierung",
-    "frage": "Warum belastet Eigenkapital die Liquidität in der Regel weniger als Fremdkapital?",
-    "optionen": [
-      "Weil es sofort zurückgezahlt werden muss",
-      "Weil es nicht zurückgezahlt werden muss",
-      "Weil es nie verzinst wird",
-      "Weil es steuerfrei ist"
-    ],
-    "loesung": "Weil es nicht zurückgezahlt werden muss",
-    "esel": "EK = bleibt drin.",
-    "erklaerung": "Fremdkapital erfordert Tilgung und Zinszahlungen – beides reduziert die verfügbaren Zahlungsmittel. Eigenkapital bleibt grundsätzlich im Unternehmen, Ausschüttungen sind freiwillig. Darum schont es die Liquidität.",
-    "quellen": [
-      "BWLB01OT, Kap. 3.6 Finanzierung (Vergleich EK/FK), S. 44–46."
-    ]
-  },
-  {
-    "id": "bwl-21",
-    "typ": "mc",
-    "tag": "Unternehmenszusammenschlüsse",
-    "frage": "Was unterscheidet einen Konzern von einem Kartell?",
-    "optionen": [
-      "Im Kartell verlieren alle Unternehmen ihre rechtliche Selbstständigkeit.",
-      "Im Konzern gibt es eine einheitliche Leitung.",
-      "Im Kartell werden Unternehmen immer kapitalmäßig verschmolzen.",
-      "Im Konzern bleiben die Unternehmen völlig unabhängig."
-    ],
-    "loesung": "Im Konzern gibt es eine einheitliche Leitung.",
-    "esel": "Konzern = eine Chefebene.",
-    "erklaerung": "Beim Konzern bleiben die Unternehmen rechtlich selbstständig, werden aber einheitlich geleitet (z. B. Mutter-Tochter-Verhältnis). Beim Kartell bleibt nicht nur die rechtliche, sondern auch die wirtschaftliche Selbstständigkeit in vielen Bereichen stärker erhalten – hier werden meist nur Preise oder Mengen abgesprochen.",
-    "quellen": [
-      "BWLB01OT, Kap. 4.4 Unternehmenszusammenschlüsse, insb. 4.4.2 Konzerne, S. 63–66. :contentReference[oaicite:12]{index=12}",
-      "BWLB01OT, Lösungen A 4.3/4.4 (Kartelle vs. Konzerne), S. 71. :contentReference[oaicite:13]{index=13}"
-    ]
-  },
-  {
-    "id": "bwl-22",
-    "typ": "input",
-    "tag": "Unternehmenszusammenschlüsse",
-    "frage": "Nenne einen möglichen gesamtwirtschaftlichen Nachteil von Unternehmenszusammenschlüssen.",
-    "schluesselwoerter": ["wettbewerb", "marktbeherrschung", "preisdruck"],
-    "esel": "Zu viel Macht = weniger Markt.",
-    "erklaerung": "Große Zusammenschlüsse können zu Marktmacht führen. Das kann den Wettbewerb einschränken, kleinere Unternehmen verdrängen und langfristig zu höheren Preisen und weniger Innovation führen. Darum prüft das Kartellamt solche Zusammenschlüsse.",
-    "quellen": [
-      "BWLB01OT, Kap. 4.4 Unternehmenszusammenschlüsse – gesamtwirtschaftliche Wirkung, S. 63–66.",
-      "BWLB01OT, Lösungen A 4.4, S. 71. :contentReference[oaicite:14]{index=14}"
-    ]
-  },
-  {
-    "id": "bwl-23",
-    "typ": "mc",
-    "tag": "Organisation",
-    "frage": "What kennzeichnet eine funktionale Organisation?",
-    "optionen": [
-      "Gliederung nach Produkten oder Sparten",
-      "Gliederung nach Verrichtungen (Einkauf, Produktion, Absatz …)",
-      "Gliederung nach Regionen",
-      "Gliederung nach Kundengruppen"
-    ],
-    "loesung": "Gliederung nach Verrichtungen (Einkauf, Produktion, Absatz …)",
-    "esel": "Funktional = Was wird getan?",
-    "erklaerung": "Bei der funktionalen Organisation werden die Abteilungen nach gleichartigen Tätigkeiten (Verrichtungen) gebildet – z. B. Einkauf, Produktion, Vertrieb. Das ist in kleineren und mittleren Unternehmen sehr häufig. Divisional wäre es nach Produkten/Sparten.",
-    "quellen": [
-      "BWLB01OT, Kap. 4.1 Aufbauorganisationstypen (Linienorganisation nach Funktionsbereichen), S. 56–58. :contentReference[oaicite:15]{index=15}"
-    ]
-  },
-  {
-    "id": "bwl-24",
-    "typ": "mc",
-    "tag": "Organisation",
-    "frage": "Was kennzeichnet eine divisionale (Sparten-)Organisation?",
-    "optionen": [
-      "Gliederung nach Funktionen",
-      "Gliederung nach Produkten oder Geschäftsbereichen",
-      "Gliederung nach Kostenstellen",
-      "Gliederung nach Projektgruppen"
-    ],
-    "loesung": "Gliederung nach Produkten oder Geschäftsbereichen",
-    "esel": "Division = Produkt-Schubladen.",
-    "erklaerung": "Bei der divisionalen Organisation haben z. B. jede Produktgruppe oder jede Region eine eigene ‚kleine Firma‘ mit fast allen Funktionen (Einkauf, Vertrieb etc.). Das erhöht Marktnähe und Ergebnisverantwortung, ist aber teurer.",
-    "quellen": [
-      "BWLB01OT, Kap. 4.1 Aufbauorganisationstypen – Spartenorganisation (divisionale Org.), S. 56–58. :contentReference[oaicite:16]{index=16}"
-    ]
-  },
-  {
-    "id": "bwl-25",
+    "id": "BWL-013",
     "typ": "calc",
-    "tag": "Kennzahlen",
-    "frage": "Eine Investition bringt 12.000 € Gewinn bei 80.000 € eingesetztem Kapital. Berechne die Rentabilität in Prozent.",
-    "loesungNumerisch": 15,
+    "tag": "Rentabilität",
+    "fall": "Ein Unternehmen möchte wissen, wie effizient das eingesetzte Kapital arbeitet.",
+    "frage": "Berechne die Rentabilität in Prozent, wenn der Gewinn {G} € beträgt und das eingesetzte Kapital {K} € beträgt.",
+    "parameter": {
+      "G": [
+        10000,
+        25000
+      ],
+      "K": [
+        50000,
+        120000
+      ]
+    },
+    "formel": "(G / K) * 100",
     "toleranz": 0.5,
-    "esel": "Gewinn ÷ Kapital × 100.",
-    "erklaerung": "Formel: Rentabilität = (Gewinn / eingesetztes Kapital) × 100. → (12.000 / 80.000) × 100 = 0,15 × 100 = 15 %. Eine kleine Abweichung lassen wir über die Toleranz zu.",
-    "quellen": [
-      "BWLB01OT, Kap. 2.3.1 Erfolgskennzahlen (Rentabilitäten), S. 16–17. :contentReference[oaicite:17]{index=17}"
-    ]
+    "erklaerung": "Die Rentabilität zeigt den Ertrag im Verhältnis zum eingesetzten Kapital. Sie misst die Kapitalverzinsung.",
+    "esel": "Gewinn / Kapital x 100.",
+    "quelle": {
+      "kapitel": "2.3.1 Erfolgskennzahlen",
+      "seite": "16-17"
+    },
+    "schwierigkeit": "mittel"
   },
   {
-    "id": "bwl-26",
+    "id": "BWL-014",
     "typ": "calc",
-    "tag": "Liquidität",
-    "frage": "Flüssige Mittel: 30.000 €, kurzfristige Forderungen: 20.000 €, kurzfristige Verbindlichkeiten: 40.000 €. Berechne die Liquidität 2. Grades in Prozent.",
-    "loesungNumerisch": 125,
+    "tag": "Liquidität 2. Grades",
+    "fall": "Ein Controller prüft, ob kurzfristige Schulden durch liquide Mittel und Forderungen gedeckt sind.",
+    "frage": "Berechne die Liquidität 2. Grades in Prozent, wenn flüssige Mittel {FM} €, kurzfristige Forderungen {F} € und kurzfristige Verbindlichkeiten {V} € betragen.",
+    "parameter": {
+      "FM": [
+        10000,
+        40000
+      ],
+      "F": [
+        5000,
+        25000
+      ],
+      "V": [
+        10000,
+        40000
+      ]
+    },
+    "formel": "((FM + F) / V) * 100",
     "toleranz": 2,
-    "esel": "(flüssig + forderungen) ÷ kurzfristig.",
-    "erklaerung": "Formel: Liquidität 2. Grades = (flüssige Mittel + kurzfristige Forderungen) / kurzfristige Verbindlichkeiten × 100. → (30.000 + 20.000) / 40.000 × 100 = 50.000 / 40.000 × 100 = 1,25 × 100 = 125 %.",
-    "quellen": [
-      "BWLB01OT, Kap. 2.3.2 Liquiditätsanalyse, Formeln zu Liquidität 1.–3. Grades, S. 17–19. "
-    ]
+    "erklaerung": "Liquidität 2. Grades zeigt, ob kurzfristige Verbindlichkeiten mit liquiden Mitteln und Forderungen gedeckt sind.",
+    "esel": "(flüssig + Forderungen) / kurzfristig.",
+    "quelle": {
+      "kapitel": "2.3.2 Liquiditätsanalyse",
+      "seite": "17-18"
+    },
+    "schwierigkeit": "mittel"
   },
   {
-    "id": "bwl-27",
-    "typ": "mc",
-    "tag": "Materialwirtschaft",
-    "frage": "Wozu dient der Sicherheitsbestand im Lager?",
-    "optionen": [
-      "Zur Erhöhung der Werbeausgaben",
-      "Zur Absicherung gegen Lieferverzögerungen und Bedarfsunsicherheiten",
-      "Zur Verbesserung der Personalplanung",
-      "Zur Senkung der Lohnkosten"
-    ],
-    "loesung": "Zur Absicherung gegen Lieferverzögerungen und Bedarfsunsicherheiten",
-    "esel": "Sicherheitsbestand = Puffer.",
-    "erklaerung": "Der Sicherheitsbestand ist eine Art Mindestlagerbestand, der nicht angetastet werden soll. Er schützt vor unerwartet hohem Verbrauch oder verspäteten Lieferungen. So bleibt das Unternehmen liefer- bzw. produktionsfähig.",
-    "quellen": [
-      "BWLB01OT, Kap. 3.2 Beschaffung/Materialwirtschaft – Bestandsplanung und Sicherungsbestände, S. 35–39."
-    ]
+    "id": "BWL-015",
+    "typ": "calc",
+    "tag": "Produktivität",
+    "fall": "Ein Betrieb möchte wissen, wie viele Stück pro Arbeitsstunde produziert werden.",
+    "frage": "Berechne die Arbeitsproduktivität, wenn die Produktionsmenge {M} Stück und der Arbeitseinsatz {A} Stunden beträgt.",
+    "parameter": {
+      "M": [
+        1000,
+        10000
+      ],
+      "A": [
+        100,
+        800
+      ]
+    },
+    "formel": "M / A",
+    "toleranz": 0.1,
+    "erklaerung": "Produktivität beschreibt das Verhältnis von Output zu Input, z. B. produzierte Menge je Arbeitsstunde.",
+    "esel": "Output / Input.",
+    "quelle": {
+      "kapitel": "2.3.3 Produktivität",
+      "seite": "18"
+    },
+    "schwierigkeit": "mittel"
   },
   {
-    "id": "bwl-28",
-    "typ": "mc",
-    "tag": "Logistik",
-    "frage": "Was ist die Hauptaufgabe der Logistik im Unternehmen?",
-    "optionen": [
-      "Nur die Finanzbuchhaltung zu entlasten",
-      "Die betrieblichen Bereiche entlang der Wertschöpfung zu verbinden",
-      "Nur die Produktion mit dem Absatz zu verknüpfen",
-      "Nur externe Transporte zu überwachen"
-    ],
-    "loesung": "Die betrieblichen Bereiche entlang der Wertschöpfung zu verbinden",
-    "esel": "Logistik = verbindet.",
-    "erklaerung": "Logistik hat eine Querschnittsfunktion: Sie sorgt dafür, dass die richtigen Güter zur richtigen Zeit am richtigen Ort sind – vom Einkauf bis zum Kunden. Sie verbindet also mehrere Bereiche, nicht nur einen.",
-    "quellen": [
-      "BWLB01OT, Kap. 3.3 Logistik als verbindende Funktion, S. 39–41. (vgl. Abb. 3.2) :contentReference[oaicite:19]{index=19}"
-    ]
-  },
-  {
-    "id": "bwl-29",
-    "typ": "mc",
-    "tag": "Marketing · Preispolitik",
-    "frage": "Welche Maßnahme gehört zur Preispolitik?",
-    "optionen": [
-      "Änderung der Verpackungsgröße",
-      "Einführung von Rabatten und Skonti",
-      "Auswahl eines Lieferanten",
-      "Gestaltung des Logos"
-    ],
-    "loesung": "Einführung von Rabatten und Skonti",
-    "esel": "Preis = Zahl + Konditionen.",
-    "erklaerung": "Zur Preispolitik gehören nicht nur der eigentliche Preis, sondern auch Zahlungsbedingungen, Rabatte, Skonti, Boni. Verpackung oder Logo sind Produkt- bzw. Kommunikationspolitik.",
-    "quellen": [
-      "BWLB01OT, Kap. 3.1.2 Marketing – Preispolitik und Preisstrategien, S. 33–34. :contentReference[oaicite:20]{index=20}"
-    ]
-  },
-  {
-    "id": "bwl-30",
-    "typ": "mc",
-    "tag": "Marktforschung",
-    "frage": "Was ist Primärforschung?",
-    "optionen": [
-      "Nutzung bereits vorhandener Daten",
-      "Eigene, originäre Datenerhebung",
-      "Nur Internetrecherche",
-      "Nur Auswertung von Statistiken des Statistischen Bundesamtes"
-    ],
-    "loesung": "Eigene, originäre Datenerhebung",
-    "esel": "Primär = selber machen.",
-    "erklaerung": "Primärforschung (Field Research) bedeutet: Daten werden extra für die aktuelle Fragestellung erhoben (Befragung, Beobachtung, Experiment). Sekundärforschung nutzt dagegen vorhandene Daten.",
-    "quellen": [
-      "BWLB01OT, Kap. 3.1.2 Marketing – Marktforschung (Primär-/Sekundärforschung), S. 32–33. "
-    ]
-  },
-  {
-    "id": "bwl-31",
-    "typ": "mc",
-    "tag": "Marktforschung",
-    "frage": "Was ist Sekundärforschung?",
-    "optionen": [
-      "Selbst erhobene Befragung",
-      "Experimente im Labor",
-      "Nutzung bereits vorhandener interner oder externer Quellen",
-      "Nur Testkäufe im Handel"
-    ],
-    "loesung": "Nutzung bereits vorhandener interner oder externer Quellen",
-    "esel": "Sekundär = schon da.",
-    "erklaerung": "Bei der Sekundärforschung werden vorhandene Informationen genutzt, z. B. Verkaufsstatistiken, Studien, Marktberichte. Sie ist günstiger und schneller, aber nicht immer so passgenau wie Primärforschung.",
-    "quellen": [
-      "BWLB01OT, Kap. 3.1.2 Marketing – Marktforschung, S. 32–33. :contentReference[oaicite:22]{index=22}"
-    ]
-  },
-  {
-    "id": "bwl-32",
+    "id": "BWL-016",
     "typ": "input",
-    "tag": "Produktion/Logistik",
-    "frage": "Nenne ein Ziel der Produktionslogistik.",
-    "schluesselwoerter": ["richtige menge", "richtigen zeit", "versorgung"],
-    "esel": "Produktion muss fließen.",
-    "erklaerung": "Die Produktionslogistik sorgt dafür, dass Materialien und Teile in der richtigen Menge, Qualität und zum richtigen Zeitpunkt am richtigen Produktionsplatz sind. So werden Stillstände verhindert und Durchlaufzeiten verkürzt.",
-    "quellen": [
-      "BWLB01OT, Kap. 3.3 Logistik – Verbindung der Funktionsbereiche, S. 39–41."
-    ]
-  },
-  {
-    "id": "bwl-33",
-    "typ": "input",
-    "tag": "Materialwirtschaft",
-    "frage": "Worin unterscheiden sich Rohstoffe und Hilfsstoffe?",
-    "schluesselwoerter": ["rohstoffe", "hauptbestandteil", "hilfsstoffe", "untergeordnet"],
-    "esel": "Roh = drin, Hilfs = nur dabei.",
-    "erklaerung": "Rohstoffe gehen als Hauptbestandteil in das Endprodukt ein (z. B. Holz beim Tisch). Hilfsstoffe werden zwar auch verbraucht, sind aber nur nebensächlich (z. B. Schrauben, Leim). Betriebsstoffe dagegen dienen dem Betrieb der Maschinen.",
-    "quellen": [
-      "BWLB01OT, Kap. 3.2 Beschaffung/Materialwirtschaft – Materialarten, S. 35–37."
-    ]
-  },
-  {
-    "id": "bwl-34",
-    "typ": "mc",
-    "tag": "Güterarten",
-    "frage": "Was kennzeichnet Verbrauchsgüter?",
-    "optionen": [
-      "Sie können mehrfach genutzt werden.",
-      "Sie werden bei der Nutzung verbraucht.",
-      "Sie sind immer kostenlos.",
-      "Sie sind immateriell."
-    ],
-    "loesung": "Sie werden bei der Nutzung verbraucht.",
-    "esel": "Verbrauch = weg.",
-    "erklaerung": "Verbrauchsgüter gehen bei der Nutzung unter, z. B. Lebensmittel oder Treibstoff. Gebrauchsgüter können mehrfach genutzt werden (z. B. Maschinen, Möbel).",
-    "quellen": [
-      "BWLB01OT, Kap. 2.1.2 Güterarten – Verbrauchs- und Gebrauchsgüter, S. 9–10."
-    ]
-  },
-  {
-    "id": "bwl-35",
-    "typ": "mc",
-    "tag": "Güterarten",
-    "frage": "Was kennzeichnet Sachgüter?",
-    "optionen": [
-      "Sie sind immateriell.",
-      "Sie sind körperlich vorhanden.",
-      "Sie sind Dienstleistungen.",
-      "Sie sind immer gratis."
-    ],
-    "loesung": "Sie sind körperlich vorhanden.",
-    "esel": "Sach = anfassen.",
-    "erklaerung": "Sachgüter sind materielle Güter, die man anfassen kann (z. B. Maschinen, Kleidung, Autos). Dienstleistungen sind dagegen immateriell.",
-    "quellen": [
-      "BWLB01OT, Kap. 2.1.2 Güterarten – materielle/immaterielle Güter, S. 9–10."
-    ]
-  },
-  {
-    "id": "bwl-36",
-    "typ": "input",
-    "tag": "Wirtschaftssubjekte",
-    "frage": "Nenne ein Beispiel für ein Wirtschaftssubjekt.",
-    "schluesselwoerter": ["haushalt", "unternehmen", "staat"],
+    "tag": "Unternehmensfunktionen",
+    "fall": "Ein Betrieb gliedert seine Aufgaben in Beschaffung, Produktion und Absatz.",
+    "frage": "Nenne drei Hauptfunktionen eines Unternehmens.",
     "korrekteAntworten": [
-      "privater haushalt",
-      "unternehmen",
-      "staat"
+      "Beschaffung",
+      "Produktion",
+      "Absatz"
     ],
-    "esel": "Die drei Spieler: Haushalt – Unternehmen – Staat.",
-    "erklaerung": "In der VWL/BWL unterscheidet man grob drei große Wirtschaftsakteure: private Haushalte (konsumieren, bieten Arbeit an), Unternehmen (produzieren), Staat (regelt, verteilt, konsumiert). Alle drei treffen wirtschaftliche Entscheidungen.",
-    "quellen": [
-      "BWLB01OT, Kap. 2.1 Wirtschaften – wirtschaftliche Akteure, S. 5–7."
-    ]
+    "erklaerung": "Unternehmensfunktionen sind die Grundprozesse: Material beschaffen, Güter herstellen und am Markt absetzen.",
+    "esel": "B-P-A: Beschaffen - Produzieren - Absetzen.",
+    "quelle": {
+      "kapitel": "3.1 Grundfunktionen",
+      "seite": "27-28"
+    },
+    "schwierigkeit": "leicht"
   },
   {
-    "id": "bwl-37",
+    "id": "BWL-017",
     "typ": "mc",
-    "tag": "Standortfaktoren",
-    "frage": "Welcher Faktor ist ein harter Standortfaktor?",
+    "tag": "Beschaffung",
+    "fall": "Ein Industriebetrieb vergleicht Lieferanten nach Preis und Zuverlässigkeit.",
+    "frage": "Was gehört NICHT zur Beschaffung?",
     "optionen": [
-      "Image der Stadt",
-      "Kulturangebot",
-      "Gewerbesteuerhebesatz",
-      "Freizeitwert"
+      "Einkauf von Rohstoffen",
+      "Verhandlungen mit Lieferanten",
+      "Produktion von Endprodukten",
+      "Lagerhaltung von Material"
     ],
-    "loesung": "Gewerbesteuerhebesatz",
-    "esel": "Hart = in € messbar.",
-    "erklaerung": "Harte Standortfaktoren sind quantitativ messbar (Steuern, Mieten, Löhne, Verkehrsanbindung). Weiche Faktoren sind eher subjektiv (Lebensqualität, Image, Kultur).",
-    "quellen": [
-      "BWLB01OT, Kap. 2.4 Unternehmerische Entscheidungen – Standortwahl (harte und weiche Faktoren), S. 21–23."
-    ]
+    "loesung": "Produktion von Endprodukten",
+    "erklaerung": "Beschaffung umfasst alle Tätigkeiten zur Bereitstellung von Produktionsfaktoren - nicht die Herstellung selbst.",
+    "esel": "Beschaffen ≠ Produzieren.",
+    "quelle": {
+      "kapitel": "3.1.1 Beschaffung",
+      "seite": "28-29"
+    },
+    "schwierigkeit": "leicht"
   },
   {
-    "id": "bwl-38",
-    "typ": "mc",
-    "tag": "Standortfaktoren",
-    "frage": "Welcher Faktor ist ein weicher Standortfaktor?",
-    "optionen": [
-      "Höhe der Sozialabgaben",
-      "Grundstückspreis",
-      "Lebensqualität",
-      "Entfernung zur Autobahn"
-    ],
-    "loesung": "Lebensqualität",
-    "esel": "Weich = attraktiv.",
-    "erklaerung": "Weiche Standortfaktoren sind nicht direkt in Geld messbar, spielen aber bei der Mitarbeitergewinnung und bei modernen Unternehmen eine große Rolle (Kitas, Wohnen, Freizeit, Stadtimage).",
-    "quellen": [
-      "BWLB01OT, Kap. 2.4 Unternehmerische Entscheidungen – Standortwahl, S. 21–23."
-    ]
-  },
-  {
-    "id": "bwl-39",
-    "typ": "mc",
-    "tag": "Rechnungswesen",
-    "frage": "Welche Aufgabe hat die Finanzbuchhaltung?",
-    "optionen": [
-      "Ermittlung von Stückkosten",
-      "Externe, lückenlose Dokumentation aller Geschäftsvorfälle",
-      "Planung der Produktion",
-      "Personalentwicklung"
-    ],
-    "loesung": "Externe, lückenlose Dokumentation aller Geschäftsvorfälle",
-    "esel": "Fibu = was passiert ist.",
-    "erklaerung": "Die Finanzbuchhaltung erfasst alle Geschäftsvorfälle chronologisch und systematisch und bildet die Grundlage für Jahresabschluss, Bilanz und GuV. Sie richtet sich an externe Adressaten und ist gesetzlich geregelt.",
-    "quellen": [
-      "BWLB01OT, Kap. 3.7 Externes Rechnungswesen – Finanzbuchführung und Jahresabschluss, S. 46–49. :contentReference[oaicite:23]{index=23}"
-    ]
-  },
-  {
-    "id": "bwl-40",
+    "id": "BWL-018",
     "typ": "input",
-    "tag": "Zielsystem",
-    "frage": "Was versteht man unter einem Zielsystem in der BWL?",
-    "schluesselwoerter": ["ordnung", "hierarchie", "unternehmensziele"],
-    "esel": "Ziele nicht einzeln, sondern geordnet denken.",
-    "erklaerung": "Ein Zielsystem stellt die verschiedenen Unternehmensziele (ökonomisch, sozial, ökologisch) in eine Ordnung: übergeordnete Ziele, abgeleitete Unterziele, ggf. Zeitbezug. So wird klar, welche Ziele wichtiger sind und welche im Konflikt stehen.",
-    "quellen": [
-      "BWLB01OT, Kap. 2.3 Ziele und Zielsysteme, S. 13–16."
-    ]
+    "tag": "Produktionsfaktoren",
+    "fall": "Ein Unternehmen analysiert, welche Mittel zur Leistungserstellung nötig sind.",
+    "frage": "Nenne die klassischen volkswirtschaftlichen Produktionsfaktoren.",
+    "korrekteAntworten": [
+      "Arbeit",
+      "Boden",
+      "Kapital"
+    ],
+    "erklaerung": "Diese drei Faktoren sind die Grundlage jeder Produktion; neuere Theorien ergänzen Wissen oder Information.",
+    "esel": "A-B-K = Arbeit, Boden, Kapital.",
+    "quelle": {
+      "kapitel": "3.1.2 Produktionsfaktoren",
+      "seite": "29"
+    },
+    "schwierigkeit": "leicht"
   },
   {
-    "id": "bwl-41",
+    "id": "BWL-019",
+    "typ": "calc",
+    "tag": "Produktionsmenge",
+    "fall": "Ein Unternehmen möchte die geplante Produktionsmenge auf Basis von Maschinenlaufzeiten berechnen.",
+    "frage": "Berechne die Produktionsmenge, wenn die Maschinenlaufzeit {h} Stunden beträgt und die Leistung {x} Stück pro Stunde beträgt.",
+    "parameter": {
+      "h": [
+        100,
+        600
+      ],
+      "x": [
+        20,
+        80
+      ]
+    },
+    "formel": "h * x",
+    "toleranz": 1,
+    "erklaerung": "Die Produktionsmenge ergibt sich aus der Laufzeit multipliziert mit der Leistung pro Stunde.",
+    "esel": "Menge = Zeit x Leistung.",
+    "quelle": {
+      "kapitel": "3.1.3 Produktion",
+      "seite": "30"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-020",
     "typ": "mc",
-    "tag": "Produktion",
-    "frage": "Welche Produktionsform ist typisch für gleichbleibendes Produkt in sehr hohen Stückzahlen?",
+    "tag": "Fertigungstypen",
+    "fall": "Ein Automobilhersteller fertigt große Stückzahlen identischer Fahrzeuge.",
+    "frage": "Welcher Fertigungstyp liegt hier vor?",
     "optionen": [
       "Einzelfertigung",
       "Serienfertigung",
-      "Massenfertigung",
-      "Projektfertigung"
+      "Sortenfertigung",
+      "Massenfertigung"
     ],
     "loesung": "Massenfertigung",
-    "esel": "Masse = immer dasselbe.",
-    "erklaerung": "Massenfertigung bedeutet, dass ein Produkt über längere Zeit in sehr großen Mengen ohne große Varianten hergestellt wird (z. B. Schrauben, Standardteile). Serienfertigung hätte mehrere Lose.",
-    "quellen": [
-      "BWLB01OT, Kap. 3.4 Produktion – Fertigungsarten, S. 41–42."
-    ]
+    "erklaerung": "Bei der Massenfertigung wird ein Produkt in sehr großer Zahl hergestellt, meist automatisiert.",
+    "esel": "Masse = gleich, viel, billig.",
+    "quelle": {
+      "kapitel": "3.1.3 Fertigungsarten",
+      "seite": "31-32"
+    },
+    "schwierigkeit": "leicht"
   },
   {
-    "id": "bwl-42",
+    "id": "BWL-021",
+    "typ": "mc",
+    "tag": "Kostenarten",
+    "fall": "In der Buchhaltung sollen Kostenarten unterschieden werden.",
+    "frage": "Welche Aussage ist richtig?",
+    "optionen": [
+      "Löhne sind Personalkosten",
+      "Abschreibungen sind Materialkosten",
+      "Zinsen sind Fertigungskosten",
+      "Miete ist Einzelkostenart"
+    ],
+    "loesung": "Löhne sind Personalkosten",
+    "erklaerung": "Kostenartenrechnung gliedert Kosten nach Art der Entstehung: Material-, Personal-, Kapitalkosten usw.",
+    "esel": "Art der Kosten = wofür gezahlt wird.",
+    "quelle": {
+      "kapitel": "3.2 Kostenrechnung",
+      "seite": "33-34"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-022",
+    "typ": "calc",
+    "tag": "Gesamtkosten",
+    "fall": "Ein Controller soll die Gesamtkosten der Produktion berechnen.",
+    "frage": "Berechne die Gesamtkosten, wenn die Fixkosten {F} €, die variablen Kosten {v} € pro Stück und die Produktionsmenge {x} Stück betragen.",
+    "parameter": {
+      "F": [
+        10000,
+        50000
+      ],
+      "v": [
+        5,
+        30
+      ],
+      "x": [
+        1000,
+        5000
+      ]
+    },
+    "formel": "F + v * x",
+    "toleranz": 0.1,
+    "erklaerung": "Gesamtkosten setzen sich aus fixen und variablen Kosten zusammen: K = Kfix + kvar.",
+    "esel": "K = fix + variabel x Menge.",
+    "quelle": {
+      "kapitel": "3.2.1 Kostenfunktionen",
+      "seite": "34-35"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-023",
+    "typ": "calc",
+    "tag": "Break-even-Point",
+    "fall": "Ein Controller möchte wissen, ab welcher Absatzmenge die Erlöse die Kosten decken.",
+    "frage": "Berechne die Break-even-Menge, wenn die Fixkosten {F} €, der Verkaufspreis {p} € und die variablen Kosten {k} € pro Stück betragen.",
+    "parameter": {
+      "F": [
+        20000,
+        60000
+      ],
+      "p": [
+        40,
+        100
+      ],
+      "k": [
+        10,
+        60
+      ]
+    },
+    "formel": "F / (p - k)",
+    "toleranz": 1,
+    "erklaerung": "Der Break-even-Punkt zeigt, bei welcher Absatzmenge Erlöse und Kosten gleich sind.",
+    "esel": "Fixkosten / Deckungsbeitrag.",
+    "quelle": {
+      "kapitel": "3.2.2 Break-even-Analyse",
+      "seite": "36-37"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-024",
+    "typ": "mc",
+    "tag": "Deckungsbeitrag",
+    "fall": "Ein Controller erläutert die Bedeutung des Deckungsbeitrags.",
+    "frage": "Was beschreibt der Deckungsbeitrag?",
+    "optionen": [
+      "den Betrag, der zur Deckung der Fixkosten beiträgt",
+      "den Reingewinn des Unternehmens",
+      "den Umsatz inklusive Mehrwertsteuer",
+      "die Abschreibungen auf Anlagen"
+    ],
+    "loesung": "den Betrag, der zur Deckung der Fixkosten beiträgt",
+    "erklaerung": "DB = Umsatz - variable Kosten; er zeigt, was zur Deckung der Fixkosten bleibt.",
+    "esel": "U - vK = DB.",
+    "quelle": {
+      "kapitel": "3.2.3 Deckungsbeitragsrechnung",
+      "seite": "37-38"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-025",
+    "typ": "calc",
+    "tag": "Stückdeckungsbeitrag",
+    "fall": "Ein Produkt erzielt einen bestimmten Preis und verursacht variable Kosten pro Stück.",
+    "frage": "Berechne den Stückdeckungsbeitrag, wenn der Verkaufspreis {p} € und die variablen Kosten {v} € pro Stück betragen.",
+    "parameter": {
+      "p": [
+        20,
+        150
+      ],
+      "v": [
+        5,
+        100
+      ]
+    },
+    "formel": "p - v",
+    "toleranz": 0.01,
+    "erklaerung": "Der Stückdeckungsbeitrag zeigt, wie viel jedes verkaufte Produkt zur Deckung der Fixkosten beiträgt.",
+    "esel": "DB = Preis - var. Kosten.",
+    "quelle": {
+      "kapitel": "3.2.3 Deckungsbeitrag",
+      "seite": "37-38"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-026",
+    "typ": "mc",
+    "tag": "Organisationsformen",
+    "fall": "Ein Unternehmen überlegt, ob es nach Funktionen oder Produkten gliedern soll.",
+    "frage": "Welche Aussage zur funktionalen Organisation ist korrekt?",
+    "optionen": [
+      "Abteilungen sind nach Verrichtungen wie Einkauf, Produktion, Vertrieb gegliedert.",
+      "Jede Produktgruppe bildet eine eigene Organisationseinheit.",
+      "Es wird ausschließlich nach Regionen gegliedert.",
+      "Jede Abteilung trägt vollständige Ergebnisverantwortung."
+    ],
+    "loesung": "Abteilungen sind nach Verrichtungen wie Einkauf, Produktion, Vertrieb gegliedert.",
+    "erklaerung": "Die funktionale Organisation teilt nach Tätigkeiten auf, nicht nach Produkten.",
+    "esel": "Funktion = Verrichtung.",
+    "quelle": {
+      "kapitel": "3.3 Aufbauorganisation",
+      "seite": "40-42"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-027",
+    "typ": "mc",
+    "tag": "Spartenorganisation",
+    "fall": "Ein Konzern gliedert sich in Geschäftsbereiche für Pkw, Lkw und Motorräder.",
+    "frage": "Welche Organisationsform liegt vor?",
+    "optionen": [
+      "Spartenorganisation",
+      "funktionale Organisation",
+      "Matrixorganisation",
+      "Projektorganisation"
+    ],
+    "loesung": "Spartenorganisation",
+    "erklaerung": "Bei Spartenorganisation (divisionale Organisation) werden Abteilungen nach Produkten oder Regionen gegliedert.",
+    "esel": "Sparten = Produkte oder Regionen.",
+    "quelle": {
+      "kapitel": "3.3.2 Divisionalprinzip",
+      "seite": "42-43"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-028",
+    "typ": "mc",
+    "tag": "Matrixorganisation",
+    "fall": "Ein Unternehmen verbindet funktionale und projektbezogene Zuständigkeiten.",
+    "frage": "Welche Aussage trifft auf eine Matrixorganisation zu?",
+    "optionen": [
+      "Mitarbeitende haben zwei Vorgesetzte: funktional und projektbezogen.",
+      "Jede Abteilung arbeitet völlig unabhängig.",
+      "Sie ist nur für Kleinstbetriebe geeignet.",
+      "Hierarchien sind vollständig abgeschafft."
+    ],
+    "loesung": "Mitarbeitende haben zwei Vorgesetzte: funktional und projektbezogen.",
+    "erklaerung": "Die Matrixorganisation kombiniert Funktions- und Objektprinzip und erhöht Kommunikationsbedarf.",
+    "esel": "Matrix = zwei Chefs.",
+    "quelle": {
+      "kapitel": "3.3.3 Matrixorganisation",
+      "seite": "43-44"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-029",
+    "typ": "input",
+    "tag": "Organigramm",
+    "fall": "Ein Unternehmen will seine Hierarchie und Aufgaben grafisch darstellen.",
+    "frage": "Wie nennt man die grafische Darstellung der Aufbauorganisation?",
+    "korrekteAntworten": [
+      "Organigramm"
+    ],
+    "erklaerung": "Das Organigramm zeigt Aufbau, Hierarchien und Kommunikationswege einer Organisation.",
+    "esel": "Organigramm = Organisation in Grafik.",
+    "quelle": {
+      "kapitel": "3.3.4 Organigramm",
+      "seite": "44-45"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-030",
+    "typ": "mc",
+    "tag": "Leitungssysteme",
+    "fall": "Ein Betrieb diskutiert, ob er ein Ein- oder Mehrliniensystem nutzen soll.",
+    "frage": "Wodurch zeichnet sich ein Einliniensystem aus?",
+    "optionen": [
+      "Jeder Mitarbeiter erhält Anweisungen nur von einem Vorgesetzten.",
+      "Ein Mitarbeiter kann mehreren Vorgesetzten unterstellt sein.",
+      "Es gibt keine Hierarchieebenen.",
+      "Kommunikation erfolgt ausschließlich horizontal."
+    ],
+    "loesung": "Jeder Mitarbeiter erhält Anweisungen nur von einem Vorgesetzten.",
+    "erklaerung": "Das Einliniensystem sichert klare Zuständigkeiten und kurze Weisungswege.",
+    "esel": "Eine Linie = ein Chef.",
+    "quelle": {
+      "kapitel": "3.3.5 Leitungssysteme",
+      "seite": "45-46"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-031",
+    "typ": "mc",
+    "tag": "Personalwirtschaft",
+    "fall": "Ein Unternehmen plant Neueinstellungen und Personalschulungen.",
+    "frage": "Welche Teilfunktion gehört NICHT zur Personalwirtschaft?",
+    "optionen": [
+      "Personalbeschaffung",
+      "Personaleinsatz",
+      "Personalentwicklung",
+      "Materialwirtschaft"
+    ],
+    "loesung": "Materialwirtschaft",
+    "erklaerung": "Personalwirtschaft umfasst Beschaffung, Einsatz, Entwicklung und Freisetzung von Mitarbeitenden.",
+    "esel": "Alles mit Mensch - nicht mit Material.",
+    "quelle": {
+      "kapitel": "3.4 Personalwirtschaft",
+      "seite": "47-48"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-032",
+    "typ": "input",
+    "tag": "Personalbedarfsplanung",
+    "fall": "Ein Betrieb möchte wissen, wie viele Fachkräfte er künftig benötigt.",
+    "frage": "Was ist Ziel der Personalbedarfsplanung?",
+    "schluesselwoerter": [
+      "richtige",
+      "anzahl",
+      "qualifikation",
+      "zeitpunkt"
+    ],
+    "korrekteAntworten": [
+      "sicherstellen dass zur richtigen zeit die richtige anzahl mitarbeiter mit richtiger qualifikation vorhanden sind"
+    ],
+    "erklaerung": "Personalbedarfsplanung sichert die quantitative und qualitative Verfügbarkeit des Personals.",
+    "esel": "R-A-Z-Q: Richtige Anzahl - Zeit - Qualifikation.",
+    "quelle": {
+      "kapitel": "3.4.1 Personalplanung",
+      "seite": "48-49"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-033",
+    "typ": "mc",
+    "tag": "Führungsstile",
+    "fall": "Eine neue Abteilungsleitung überlegt, wie sie Entscheidungen trifft.",
+    "frage": "Welcher Führungsstil bezieht Mitarbeitende in Entscheidungen ein?",
+    "optionen": [
+      "autoritär",
+      "kooperativ",
+      "laissez-faire",
+      "patriarchalisch"
+    ],
+    "loesung": "kooperativ",
+    "erklaerung": "Der kooperative Stil zeichnet sich durch Mitbestimmung, Motivation und Teamorientierung aus.",
+    "esel": "Kooperativ = gemeinsam.",
+    "quelle": {
+      "kapitel": "3.4.3 Führungsstile",
+      "seite": "50-51"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-034",
+    "typ": "mc",
+    "tag": "Anreizsysteme",
+    "fall": "Eine Firma will Mitarbeitende durch variable Vergütung motivieren.",
+    "frage": "Welches Instrument gehört zu den materiellen Anreizen?",
+    "optionen": [
+      "Betriebsfeier",
+      "Lob und Anerkennung",
+      "Boni und Prämien",
+      "Gleitzeit"
+    ],
+    "loesung": "Boni und Prämien",
+    "erklaerung": "Materielle Anreize sind geldwerte Vorteile, während immaterielle z. B. Anerkennung betreffen.",
+    "esel": "Materiell = Geld motiviert.",
+    "quelle": {
+      "kapitel": "3.4.4 Motivation und Anreize",
+      "seite": "51-52"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-035",
+    "typ": "mc",
+    "tag": "Finanzierung",
+    "fall": "Ein Betrieb überlegt, wie er eine neue Maschine bezahlt.",
+    "frage": "Was versteht man unter Finanzierung?",
+    "optionen": [
+      "die Beschaffung von Kapital",
+      "die Verwendung von Kapital",
+      "die Produktion von Gütern",
+      "die Ermittlung des Gewinns"
+    ],
+    "loesung": "die Beschaffung von Kapital",
+    "erklaerung": "Finanzierung ist die Bereitstellung von Geldmitteln für Investitionen oder laufende Zahlungen.",
+    "esel": "Finanzierung = Geld besorgen.",
+    "quelle": {
+      "kapitel": "4.1 Grundlagen der Finanzierung",
+      "seite": "55-56"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-036",
+    "typ": "mc",
+    "tag": "Finanzierungsarten",
+    "fall": "Ein Unternehmen nutzt Leasing statt Kauf.",
+    "frage": "Wie wird Leasing eingeordnet?",
+    "optionen": [
+      "als Außenfinanzierung",
+      "als Innenfinanzierung",
+      "als Eigenfinanzierung",
+      "als Beteiligungsfinanzierung"
+    ],
+    "loesung": "als Außenfinanzierung",
+    "erklaerung": "Beim Leasing kommen Mittel von außen - es ist eine Form der kreditähnlichen Finanzierung.",
+    "esel": "Leasing = fremdes Geld, fremdes Gut.",
+    "quelle": {
+      "kapitel": "4.1.2 Finanzierungsarten",
+      "seite": "56-57"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-037",
+    "typ": "mc",
+    "tag": "Eigen- vs. Fremdfinanzierung",
+    "fall": "Ein Unternehmen nimmt ein Bankdarlehen auf.",
+    "frage": "Welche Finanzierungsform liegt vor?",
+    "optionen": [
+      "Eigenfinanzierung",
+      "Fremdfinanzierung",
+      "Selbstfinanzierung",
+      "Beteiligungsfinanzierung"
+    ],
+    "loesung": "Fremdfinanzierung",
+    "erklaerung": "Bei der Fremdfinanzierung stammen die Mittel von Gläubigern, nicht von Eigentümern.",
+    "esel": "Fremd = Bank statt Boss.",
+    "quelle": {
+      "kapitel": "4.1.2 Finanzierungsarten",
+      "seite": "56-57"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-038",
+    "typ": "calc",
+    "tag": "Eigenkapitalquote",
+    "fall": "Ein Analyst prüft die Kapitalstruktur eines Unternehmens.",
+    "frage": "Berechne die Eigenkapitalquote in Prozent, wenn das Eigenkapital {EK} € und das Gesamtkapital {GK} € beträgt.",
+    "parameter": {
+      "EK": [
+        20000,
+        500000
+      ],
+      "GK": [
+        50000,
+        1000000
+      ]
+    },
+    "formel": "(EK / GK) * 100",
+    "toleranz": 0.5,
+    "erklaerung": "Die Eigenkapitalquote misst die finanzielle Stabilität des Unternehmens.",
+    "esel": "EK / GK x 100 = Sicherheitsgrad.",
+    "quelle": {
+      "kapitel": "4.1.3 Kennzahlen der Finanzierung",
+      "seite": "57-58"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-039",
+    "typ": "calc",
+    "tag": "Verschuldungsgrad",
+    "fall": "Ein Finanzcontroller vergleicht Fremd- und Eigenkapital.",
+    "frage": "Berechne den Verschuldungsgrad in Prozent, wenn das Fremdkapital {FK} € und das Eigenkapital {EK} € beträgt.",
+    "parameter": {
+      "FK": [
+        10000,
+        700000
+      ],
+      "EK": [
+        10000,
+        500000
+      ]
+    },
+    "formel": "(FK / EK) * 100",
+    "toleranz": 1,
+    "erklaerung": "Der Verschuldungsgrad zeigt das Verhältnis von Fremd- zu Eigenkapital.",
+    "esel": "Fremd / Eigen x 100.",
+    "quelle": {
+      "kapitel": "4.1.3 Kennzahlen der Finanzierung",
+      "seite": "57-58"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-040",
+    "typ": "calc",
+    "tag": "Anlagenintensität",
+    "fall": "Die Bilanz zeigt das Verhältnis von Anlage- zu Gesamtvermögen.",
+    "frage": "Berechne die Anlagenintensität in Prozent, wenn das Anlagevermögen {AV} € und das Gesamtvermögen {GV} € beträgt.",
+    "parameter": {
+      "AV": [
+        10000,
+        400000
+      ],
+      "GV": [
+        20000,
+        800000
+      ]
+    },
+    "formel": "(AV / GV) * 100",
+    "toleranz": 0.5,
+    "erklaerung": "Die Anlagenintensität zeigt, wie stark Kapital langfristig gebunden ist.",
+    "esel": "Anlagen / Gesamtvermögen x 100.",
+    "quelle": {
+      "kapitel": "4.1.3 Strukturkennzahlen",
+      "seite": "58"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-041",
     "typ": "mc",
     "tag": "Investition",
-    "frage": "Welche Investition dient in erster Linie der Rationalisierung?",
+    "fall": "Eine Firma plant den Kauf einer neuen Produktionsmaschine.",
+    "frage": "Was ist unter Investition zu verstehen?",
     "optionen": [
-      "Kauf einer Maschine, die Personal einspart",
-      "Kauf eines Dienstwagens für die Geschäftsführung",
-      "Erweiterung des Verwaltungsgebäudes",
-      "Kauf eines Grundstücks zur Wertanlage"
+      "die Verwendung von Kapital für Vermögensgegenstände",
+      "die Aufnahme von Krediten",
+      "die Ausschüttung von Gewinnen",
+      "die Bildung von Rückstellungen"
     ],
-    "loesung": "Kauf einer Maschine, die Personal einspart",
-    "esel": "Rational = billiger arbeiten.",
-    "erklaerung": "Rationalisierungsinvestitionen sollen Kosten senken oder Prozesse effizienter machen (z. B. Automatisierung, neue Software). Ein Dienstwagen hat eher Repräsentations- oder Motivationsfunktion.",
-    "quellen": [
-      "BWLB01OT, Kap. 3.5 Investition – Rationalisierungsinvestition, S. 42–44."
-    ]
+    "loesung": "die Verwendung von Kapital für Vermögensgegenstände",
+    "erklaerung": "Investitionen dienen dem Erwerb oder der Herstellung von Gütern, die langfristig Erträge bringen.",
+    "esel": "Investieren = Geld einsetzen für Zukunft.",
+    "quelle": {
+      "kapitel": "4.1.4 Investition",
+      "seite": "59-60"
+    },
+    "schwierigkeit": "leicht"
   },
   {
-    "id": "bwl-43",
+    "id": "BWL-042",
     "typ": "calc",
-    "tag": "Kalkulation",
-    "frage": "Ein Produkt hat Selbstkosten von 28 €, der Gewinnzuschlag soll 25 % betragen. Wie hoch ist der Nettoverkaufspreis?",
-    "loesungNumerisch": 35,
+    "tag": "Amortisationsdauer",
+    "fall": "Ein Unternehmen möchte wissen, wie lange es dauert, bis sich eine Investition durch jährliche Rückflüsse bezahlt macht.",
+    "frage": "Berechne die Amortisationsdauer in Jahren, wenn die Anschaffungskosten {AK} € betragen und der jährliche Rückfluss {RF} € beträgt.",
+    "parameter": {
+      "AK": [
+        10000,
+        100000
+      ],
+      "RF": [
+        2000,
+        20000
+      ]
+    },
+    "formel": "AK / RF",
+    "toleranz": 0.1,
+    "erklaerung": "Die Amortisationsdauer gibt an, in wie vielen Jahren die Anschaffungskosten durch Rückflüsse gedeckt werden.",
+    "esel": "Kosten / Rückfluss = Jahre.",
+    "quelle": {
+      "kapitel": "4.1.5 Amortisationsrechnung",
+      "seite": "60-61"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-043",
+    "typ": "calc",
+    "tag": "Kapitalwert",
+    "fall": "Ein Projekt bringt über mehrere Jahre Rückflüsse und soll auf seine Vorteilhaftigkeit geprüft werden.",
+    "frage": "Berechne den Kapitalwert, wenn der jährliche Rückfluss {CF} €, die Laufzeit {n} Jahre und der Kalkulationszins {i} % beträgt.",
+    "parameter": {
+      "CF": [
+        5000,
+        20000
+      ],
+      "n": [
+        3,
+        10
+      ],
+      "i": [
+        3,
+        8
+      ]
+    },
+    "formel": "CF * ((1 - (1 + i/100) ** (-n)) / (i/100)) - CF * 0",
+    "toleranz": 10,
+    "erklaerung": "Der Kapitalwert berücksichtigt die zeitliche Abzinsung zukünftiger Rückflüsse. Ein positiver Kapitalwert bedeutet, dass sich die Investition lohnt.",
+    "esel": "Kapitalwert > 0 -> Investition lohnt sich.",
+    "quelle": {
+      "kapitel": "4.1.6 Kapitalwertmethode",
+      "seite": "61-63"
+    },
+    "schwierigkeit": "schwer"
+  },
+  {
+    "id": "BWL-044",
+    "typ": "input",
+    "tag": "Liquiditätsplanung",
+    "fall": "Ein Controller prüft Ein- und Auszahlungen des Monats.",
+    "frage": "Was ist das Ziel der Liquiditätsplanung?",
+    "schluesselwoerter": [
+      "zahlungsfähigkeit",
+      "jederzeit"
+    ],
+    "korrekteAntworten": [
+      "die jederzeitige zahlungsfähigkeit sicherstellen"
+    ],
+    "erklaerung": "Liquiditätsplanung sorgt dafür, dass das Unternehmen jederzeit seine Zahlungsverpflichtungen erfüllen kann.",
+    "esel": "Liquidität = zahlen können.",
+    "quelle": {
+      "kapitel": "4.1.7 Finanzplanung",
+      "seite": "63-64"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-045",
+    "typ": "mc",
+    "tag": "Erfolgskontrolle",
+    "fall": "Nach Abschluss des Geschäftsjahres werden Ist- und Planzahlen verglichen.",
+    "frage": "Wie nennt man den Vergleich von Soll- und Ist-Werten?",
+    "optionen": [
+      "Planabweichungsanalyse",
+      "Break-even-Analyse",
+      "Liquiditätsrechnung",
+      "Kostenfunktion"
+    ],
+    "loesung": "Planabweichungsanalyse",
+    "erklaerung": "Erfolgskontrolle erfolgt durch den Vergleich von Soll- und Ist-Werten, um Abweichungen zu erkennen.",
+    "esel": "Soll vs. Ist = Planabweichung.",
+    "quelle": {
+      "kapitel": "4.1.8 Erfolgskontrolle",
+      "seite": "64-65"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-046",
+    "typ": "mc",
+    "tag": "Kostenartenrechnung",
+    "fall": "Ein Controller soll klären, welche Aufwendungen in die Kostenrechnung übernommen werden.",
+    "frage": "Welches Ziel hat die Kostenartenrechnung?",
+    "optionen": [
+      "Ermittlung, welche Kostenarten im Unternehmen anfallen",
+      "Verteilung der Kosten auf Kostenträger",
+      "Ermittlung der Umsatzerlöse",
+      "Berechnung des Gewinns laut HGB"
+    ],
+    "loesung": "Ermittlung, welche Kostenarten im Unternehmen anfallen",
+    "erklaerung": "Die Kostenartenrechnung ist die erste Stufe des internen Rechnungswesens und beantwortet die Frage: Welche Kosten sind entstanden?",
+    "esel": "1. Welche Kosten? = Artenrechnung.",
+    "quelle": {
+      "kapitel": "4.2.1 Kostenartenrechnung",
+      "seite": "66-67"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-047",
+    "typ": "mc",
+    "tag": "Kostenstellenrechnung",
+    "fall": "Die Fertigungskosten sollen auf Abteilungen verteilt werden.",
+    "frage": "Was ist das Ziel der Kostenstellenrechnung?",
+    "optionen": [
+      "Zurechnung der Kosten auf organisatorische Bereiche",
+      "Ermittlung der Gesamtkosten",
+      "Berechnung der Umsätze",
+      "Bestimmung des Betriebsergebnisses"
+    ],
+    "loesung": "Zurechnung der Kosten auf organisatorische Bereiche",
+    "erklaerung": "Die Kostenstellenrechnung beantwortet die Frage: Wo sind Kosten entstanden?",
+    "esel": "2. Wo Kosten? = Stellenrechnung.",
+    "quelle": {
+      "kapitel": "4.2.2 Kostenstellenrechnung",
+      "seite": "67-68"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-048",
+    "typ": "mc",
+    "tag": "Kostenträgerrechnung",
+    "fall": "Ein Unternehmen will wissen, welches Produkt welchen Gewinn bringt.",
+    "frage": "Was ist Ziel der Kostenträgerrechnung?",
+    "optionen": [
+      "Ermittlung, wofür Kosten angefallen sind",
+      "Ermittlung der Zahlungsströme",
+      "Berechnung der Abschreibungen",
+      "Analyse der Liquidität"
+    ],
+    "loesung": "Ermittlung, wofür Kosten angefallen sind",
+    "erklaerung": "Die Kostenträgerrechnung ordnet Kosten den Produkten oder Dienstleistungen zu: Wofür sind Kosten entstanden?",
+    "esel": "3. Wofür Kosten? = Trägerrechnung.",
+    "quelle": {
+      "kapitel": "4.2.3 Kostenträgerrechnung",
+      "seite": "68-69"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-049",
+    "typ": "calc",
+    "tag": "Stückkosten",
+    "fall": "Ein Betrieb hat Gesamtkosten ermittelt und möchte wissen, wie hoch die Kosten pro Stück sind.",
+    "frage": "Berechne die Stückkosten, wenn die Gesamtkosten {K} € und die Produktionsmenge {M} Stück betragen.",
+    "parameter": {
+      "K": [
+        10000,
+        100000
+      ],
+      "M": [
+        100,
+        10000
+      ]
+    },
+    "formel": "K / M",
+    "toleranz": 0.01,
+    "erklaerung": "Die Stückkosten zeigen die durchschnittlichen Kosten pro produziertem Stück.",
+    "esel": "Gesamtkosten / Menge.",
+    "quelle": {
+      "kapitel": "4.2.3 Kostenträgerrechnung",
+      "seite": "69"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-050",
+    "typ": "calc",
+    "tag": "Betriebsergebnis",
+    "fall": "Ein Controller möchte das Betriebsergebnis aus Umsatzerlösen und Gesamtkosten bestimmen.",
+    "frage": "Berechne das Betriebsergebnis, wenn die Umsatzerlöse {U} € und die Gesamtkosten {K} € betragen.",
+    "parameter": {
+      "U": [
+        50000,
+        500000
+      ],
+      "K": [
+        20000,
+        450000
+      ]
+    },
+    "formel": "U - K",
     "toleranz": 1,
-    "esel": "Selbstkosten × (1 + Zuschlag).",
-    "erklaerung": "Nettoverkaufspreis = Selbstkosten × (1 + Gewinnzuschlag). → 28 € × 1,25 = 35 €. In der Praxis kommen oft noch Skonto, Rabatt und USt dazu.",
-    "quellen": [
-      "BWLB01OT, Kap. 2.3.1 Erfolgsgrößen und Kennzahlen – Kalkulationsansätze (indirekt), S. 16–17.",
-      "BWLB01OT, Kap. 3.8 Internes Rechnungswesen – Kalkulationsgrundlagen, S. 49–52."
-    ]
+    "erklaerung": "Das Betriebsergebnis ergibt sich aus Umsatzerlösen minus Gesamtkosten und zeigt den Erfolg der betrieblichen Tätigkeit.",
+    "esel": "Erlös - Kosten = Erfolg.",
+    "quelle": {
+      "kapitel": "4.3 Betriebsergebnisrechnung",
+      "seite": "70-71"
+    },
+    "schwierigkeit": "leicht"
   },
   {
-    "id": "bwl-44",
+    "id": "BWL-051",
+    "typ": "mc",
+    "tag": "Ergebnisarten",
+    "fall": "Ein Controller vergleicht Betriebsergebnis und Jahresüberschuss.",
+    "frage": "Welche Aussage trifft zu?",
+    "optionen": [
+      "Das Betriebsergebnis bezieht sich nur auf betriebliche Tätigkeiten.",
+      "Das Jahresergebnis umfasst nur die Materialkosten.",
+      "Beide Begriffe sind identisch.",
+      "Das Betriebsergebnis berücksichtigt immer Steuern."
+    ],
+    "loesung": "Das Betriebsergebnis bezieht sich nur auf betriebliche Tätigkeiten.",
+    "erklaerung": "Das Betriebsergebnis ist Teil des Gesamtergebnisses - es zeigt die Leistungserstellung des Kerngeschäfts.",
+    "esel": "Betrieb ≠ ganzes Unternehmen.",
+    "quelle": {
+      "kapitel": "4.3 Betriebsergebnis",
+      "seite": "70-71"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-052",
+    "typ": "mc",
+    "tag": "Erfolgsrechnung",
+    "fall": "Ein Unternehmen will Aufwand und Ertrag gegenüberstellen.",
+    "frage": "Welches Ziel verfolgt die Erfolgsrechnung?",
+    "optionen": [
+      "Ermittlung des Periodenerfolgs",
+      "Berechnung des Cashflows",
+      "Ermittlung der Liquidität",
+      "Bewertung von Anlagevermögen"
+    ],
+    "loesung": "Ermittlung des Periodenerfolgs",
+    "erklaerung": "Die Erfolgsrechnung vergleicht Aufwendungen und Erträge zur Ermittlung des Erfolgs einer Periode.",
+    "esel": "Ertrag - Aufwand = Erfolg.",
+    "quelle": {
+      "kapitel": "4.3 Erfolgsrechnung",
+      "seite": "71-72"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-053",
     "typ": "calc",
-    "tag": "Kalkulation",
-    "frage": "Listenpreis 1.200 €, 5 % Rabatt, danach 2 % Skonto. Wie hoch ist der Zielverkaufspreis (netto)?",
-    "loesungNumerisch": 1115.4,
-    "toleranz": 2,
-    "esel": "Erst Rabatt, dann Skonto.",
-    "erklaerung": "1. Schritt: Rabatt abziehen: 1.200 € × 0,95 = 1.140 €. 2. Schritt: Skonto auf den bereits rabattierten Preis: 1.140 € × 0,98 = 1.117,2 € (je nach Rundung ca. 1.115–1.117). Wichtig ist die Reihenfolge.",
-    "quellen": [
-      "BWLB01OT, Kap. 3.1.2 Marketing – Preispolitik (Rabatte, Skonti), S. 33–34. :contentReference[oaicite:24]{index=24}"
-    ]
+    "tag": "Gesamterfolg",
+    "fall": "Die Buchhaltung möchte den Gesamterfolg einer Periode ermitteln.",
+    "frage": "Berechne den Gesamterfolg, wenn die Erträge {E} € und die Aufwendungen {A} € betragen.",
+    "parameter": {
+      "E": [
+        10000,
+        200000
+      ],
+      "A": [
+        5000,
+        150000
+      ]
+    },
+    "formel": "E - A",
+    "toleranz": 1,
+    "erklaerung": "Gesamterfolg = Erträge - Aufwendungen. Ein positiver Wert steht für Gewinn.",
+    "esel": "Ertrag - Aufwand = Erfolg.",
+    "quelle": {
+      "kapitel": "4.3 Erfolgsrechnung",
+      "seite": "72"
+    },
+    "schwierigkeit": "leicht"
   },
   {
-    "id": "bwl-45",
+    "id": "BWL-054",
+    "typ": "mc",
+    "tag": "Bilanz",
+    "fall": "Eine Firma erstellt ihre Bilanz zum Jahresende.",
+    "frage": "Welche Aussage über die Bilanz ist richtig?",
+    "optionen": [
+      "Sie zeigt die Vermögens- und Kapitalstruktur zu einem Stichtag.",
+      "Sie zeigt alle Aufwendungen und Erträge des Jahres.",
+      "Sie wird monatlich mit dem Kassenbuch gleichgesetzt.",
+      "Sie enthält keine Schulden."
+    ],
+    "loesung": "Sie zeigt die Vermögens- und Kapitalstruktur zu einem Stichtag.",
+    "erklaerung": "Die Bilanz stellt Aktiva (Mittelverwendung) und Passiva (Mittelherkunft) gegenüber.",
+    "esel": "Bilanz = Was da ist + woher's kommt.",
+    "quelle": {
+      "kapitel": "4.4 Bilanz",
+      "seite": "73-74"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-055",
+    "typ": "mc",
+    "tag": "Bilanzgleichung",
+    "fall": "Ein Auszubildender soll den Bilanzzusammenhang erklären.",
+    "frage": "Wie lautet die Bilanzgleichung?",
+    "optionen": [
+      "Aktiva = Passiva",
+      "Vermögen = Schulden - Eigenkapital",
+      "Eigenkapital = Fremdkapital + Aufwand",
+      "Ertrag = Aufwand"
+    ],
+    "loesung": "Aktiva = Passiva",
+    "erklaerung": "In jeder Bilanz gilt: Vermögen (Aktiva) ist durch Eigen- und Fremdkapital (Passiva) finanziert.",
+    "esel": "Was = Woher.",
+    "quelle": {
+      "kapitel": "4.4 Bilanzgleichung",
+      "seite": "74"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-056",
+    "typ": "calc",
+    "tag": "Eigenkapital",
+    "fall": "Ein Unternehmen möchte sein Eigenkapital aus der Bilanz ableiten.",
+    "frage": "Berechne das Eigenkapital, wenn das Vermögen {V} € und die Schulden {S} € betragen.",
+    "parameter": {
+      "V": [
+        50000,
+        500000
+      ],
+      "S": [
+        10000,
+        400000
+      ]
+    },
+    "formel": "V - S",
+    "toleranz": 1,
+    "erklaerung": "Eigenkapital ist der Teil des Vermögens, der nach Abzug der Schulden verbleibt.",
+    "esel": "Vermögen - Schulden = Eigenkapital.",
+    "quelle": {
+      "kapitel": "4.4 Bilanzgleichung",
+      "seite": "74-75"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-057",
+    "typ": "mc",
+    "tag": "Aktiva und Passiva",
+    "fall": "Ein Schüler ordnet Bilanzpositionen zu.",
+    "frage": "Welche Position gehört zur Aktivseite?",
+    "optionen": [
+      "Fuhrpark",
+      "Eigenkapital",
+      "Verbindlichkeiten",
+      "Rückstellungen"
+    ],
+    "loesung": "Fuhrpark",
+    "erklaerung": "Auf der Aktivseite steht das Vermögen - also Mittelverwendung wie Anlagen, Vorräte, Kasse usw.",
+    "esel": "Aktiv = Besitz.",
+    "quelle": {
+      "kapitel": "4.4 Bilanzgliederung",
+      "seite": "75-76"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-058",
+    "typ": "mc",
+    "tag": "Abschreibung",
+    "fall": "Ein Betrieb nutzt Maschinen mehrere Jahre.",
+    "frage": "Was ist der Zweck von Abschreibungen?",
+    "optionen": [
+      "Verteilung der Anschaffungskosten auf die Nutzungsdauer",
+      "Erhöhung des Anlagevermögens",
+      "Steigerung des Gewinns",
+      "Berechnung der Zinsen"
+    ],
+    "loesung": "Verteilung der Anschaffungskosten auf die Nutzungsdauer",
+    "erklaerung": "Abschreibungen erfassen den Werteverzehr von Anlagegütern über Zeit.",
+    "esel": "Weniger Wert = Abschreibung.",
+    "quelle": {
+      "kapitel": "4.4.2 Abschreibungen",
+      "seite": "77-78"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-059",
+    "typ": "calc",
+    "tag": "Lineare Abschreibung",
+    "fall": "Ein Unternehmen schreibt eine Maschine über mehrere Jahre gleichmäßig ab.",
+    "frage": "Berechne die jährliche Abschreibung, wenn die Anschaffungskosten {AK} € betragen und die Nutzungsdauer {ND} Jahre beträgt.",
+    "parameter": {
+      "AK": [
+        5000,
+        100000
+      ],
+      "ND": [
+        2,
+        10
+      ]
+    },
+    "formel": "AK / ND",
+    "toleranz": 0.01,
+    "erklaerung": "Bei linearer Abschreibung werden die Anschaffungskosten gleichmäßig auf die Nutzungsdauer verteilt.",
+    "esel": "AK / ND = Abschreibung p.a.",
+    "quelle": {
+      "kapitel": "4.4.2 Abschreibungen",
+      "seite": "77-78"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-060",
+    "typ": "calc",
+    "tag": "Restbuchwert",
+    "fall": "Nach mehreren Nutzungsjahren soll der Restbuchwert einer Maschine berechnet werden.",
+    "frage": "Berechne den Restbuchwert, wenn die Anschaffungskosten {AK} €, die Nutzungsdauer {ND} Jahre und die bisherige Nutzungszeit {t} Jahre betragen.",
+    "parameter": {
+      "AK": [
+        10000,
+        80000
+      ],
+      "ND": [
+        3,
+        8
+      ],
+      "t": [
+        1,
+        7
+      ]
+    },
+    "formel": "AK - (AK / ND) * t",
+    "toleranz": 1,
+    "erklaerung": "Der Restbuchwert ergibt sich aus den Anschaffungskosten minus den bisherigen Abschreibungen.",
+    "esel": "Wert heute = AK - Abschr.xJahre.",
+    "quelle": {
+      "kapitel": "4.4.3 Buchwert",
+      "seite": "78-79"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-061",
+    "typ": "mc",
+    "tag": "Marktbegriff",
+    "fall": "Ein Schüler soll erklären, was ein Markt in der BWL bedeutet.",
+    "frage": "Was versteht man unter einem Markt im wirtschaftlichen Sinne?",
+    "optionen": [
+      "Das Zusammentreffen von Angebot und Nachfrage",
+      "Einen Ort, an dem nur Waren verkauft werden",
+      "Ein Lagerhaus für Produkte",
+      "Ein Einkaufszentrum"
+    ],
+    "loesung": "Das Zusammentreffen von Angebot und Nachfrage",
+    "erklaerung": "Ein Markt entsteht immer dort, wo Anbieter und Nachfrager aufeinandertreffen - physisch oder digital.",
+    "esel": "Markt = Angebot <-> Nachfrage.",
+    "quelle": {
+      "kapitel": "5.1 Markt und Preisbildung",
+      "seite": "81-82"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-062",
     "typ": "input",
-    "tag": "Rechnungswesen · Adressaten",
-    "frage": "Nenne zwei typische Adressaten des externen Rechnungswesens.",
-    "schluesselwoerter": ["banken", "gläubiger", "finanzamt", "investoren"],
+    "tag": "Nachfragegesetz",
+    "fall": "In einer Schulung wird das Nachfragegesetz erklärt.",
+    "frage": "Wie lautet das Nachfragegesetz in einfachen Worten?",
     "korrekteAntworten": [
-      "banken",
-      "gläubiger",
-      "finanzamt",
-      "investoren",
-      "anteilseigner"
+      "steigt der preis sinkt die nachfrage",
+      "fällt der preis steigt die nachfrage"
     ],
-    "esel": "Extern = alle, die Geld oder Infos wollen.",
-    "erklaerung": "Typische Adressaten: Banken (Kreditwürdigkeit), Gläubiger, Anteilseigner, Finanzbehörden. Sie brauchen verlässliche und vergleichbare Infos über die Vermögens-, Finanz- und Ertragslage.",
-    "quellen": [
-      "BWLB01OT, Kap. 3.7 Externes Rechnungswesen – Adressatenkreis, S. 46–49. :contentReference[oaicite:25]{index=25}"
-    ]
+    "erklaerung": "Das Nachfragegesetz beschreibt den typischen Zusammenhang zwischen Preis und Nachfragemenge bei gleichbleibenden Faktoren.",
+    "esel": "Billiger = mehr Käufer.",
+    "quelle": {
+      "kapitel": "5.1.2 Nachfrageverhalten",
+      "seite": "83-84"
+    },
+    "schwierigkeit": "leicht"
   },
   {
-    "id": "bwl-46",
+    "id": "BWL-063",
     "typ": "mc",
-    "tag": "Marketing · Preisstrategien",
-    "frage": "Welche Preisstrategie zielt auf einen hohen Einführungspreis und späteres Absenken?",
+    "tag": "Angebot",
+    "fall": "Ein Hersteller reagiert auf steigende Marktpreise.",
+    "frage": "Wie reagiert typischerweise das Angebot, wenn der Preis steigt?",
     "optionen": [
-      "Penetrationsstrategie",
-      "Skimming-Strategie",
-      "Neutralstrategie",
-      "Rabattstrategie"
+      "Das Angebot nimmt zu",
+      "Das Angebot nimmt ab",
+      "Das Angebot bleibt gleich",
+      "Es entsteht keine Reaktion"
     ],
-    "loesung": "Skimming-Strategie",
-    "esel": "Skimming = oben abschöpfen.",
-    "erklaerung": "Bei der Skimming- bzw. Abschöpfungsstrategie wird der Preis anfangs hoch angesetzt, um die zahlungsbereiten Kunden zuerst mitzunehmen (‚Abschöpfen‘). Später wird der Preis gesenkt, um weitere Kundensegmente zu erschließen. Typisch bei Innovationen und technischen Produkten.",
-    "quellen": [
-      "BWLB01OT, Kap. 3.1.2 Marketing – Preispolitik und Preisstrategien (Skimming vs. Penetration), S. 34–35. :contentReference[oaicite:26]{index=26}"
-    ]
+    "loesung": "Das Angebot nimmt zu",
+    "erklaerung": "Steigende Preise machen die Produktion attraktiver, daher wächst das Angebot.",
+    "esel": "Teurer = mehr Anbieter.",
+    "quelle": {
+      "kapitel": "5.1.3 Angebotsverhalten",
+      "seite": "84-85"
+    },
+    "schwierigkeit": "leicht"
   },
   {
-    "id": "bwl-47",
+  "id": "BWL-064",
+  "typ": "calc",
+  "tag": "Gleichgewichtspreis",
+  "fall": "Die Marktanalysten der TechTools GmbH untersuchen den Zusammenhang zwischen Preis, Angebot und Nachfrage, um den Gleichgewichtspreis zu bestimmen.",
+  "frage": "Bei einem Preis von {P1} € beträgt die Nachfrage {N1} Stück, bei einem Preis von {P2} € das Angebot {A1} Stück. Berechne den Gleichgewichtspreis, bei dem Angebot und Nachfrage übereinstimmen.",
+  "parameter": {
+    "P1": [5, 10],
+    "P2": [10, 20],
+    "N1": [200, 600],
+    "A1": [200, 600]
+  },
+  "formel": "( (N1 - A1) / ((A1/(P2-P1)) + (N1/(P2-P1))) )",
+  "toleranz": 0.5,
+  "erklaerung": "Der Gleichgewichtspreis liegt dort, wo sich Angebots- und Nachfragekurve schneiden. Mithilfe der gegebenen Werte lässt sich der Schnittpunkt mathematisch bestimmen.",
+  "esel": "Gleichgewicht = Schnittpunkt von Angebot und Nachfrage.",
+  "quelle": {
+    "kapitel": "VWL: Markt & Preisbildung",
+    "seite": "Grundlagen – Gleichgewicht"
+  },
+  "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-065",
     "typ": "mc",
-    "tag": "Marketing · Produktpolitik",
-    "frage": "Welche Maßnahme gehört zur Produktpolitik?",
+    "tag": "Preiselastizität",
+    "fall": "Ein Händler bemerkt, dass bei Preisänderungen die Nachfrage stark schwankt.",
+    "frage": "Wann spricht man von elastischer Nachfrage?",
     "optionen": [
-      "Erhöhung des Rabattsatzes",
-      "Änderung des Verpackungsdesigns",
-      "Verlängerung der Zahlungsziele",
-      "Auswahl des Absatzkanals"
+      "Wenn kleine Preisänderungen große Mengenänderungen bewirken",
+      "Wenn Preisänderungen keine Wirkung haben",
+      "Wenn Preis und Menge gleich bleiben",
+      "Wenn das Angebot unverändert bleibt"
     ],
-    "loesung": "Änderung des Verpackungsdesigns",
-    "esel": "Produkt = auch Hülle.",
-    "erklaerung": "Zur Produktpolitik gehören nicht nur Eigenschaften des Produkts selbst, sondern auch Design, Verpackung, Marke, Service. Rabatte und Zahlungsziele gehören zur Preis-/Konditionenpolitik.",
-    "quellen": [
-      "BWLB01OT, Kap. 3.1.2 Marketing – Product (Produktpolitik), S. 33–34. :contentReference[oaicite:27]{index=27}"
-    ]
+    "loesung": "Wenn kleine Preisänderungen große Mengenänderungen bewirken",
+    "erklaerung": "Elastische Nachfrage bedeutet hohe Preisempfindlichkeit der Konsumenten.",
+    "esel": "Kleinste Preisänderung -> große Reaktion.",
+    "quelle": {
+      "kapitel": "5.1.5 Preiselastizität",
+      "seite": "86-87"
+    },
+    "schwierigkeit": "mittel"
   },
   {
-    "id": "bwl-48",
+    "id": "BWL-066",
     "typ": "input",
-    "tag": "Unternehmen",
-    "frage": "Definiere kurz den Begriff ‚Unternehmen‘ aus betriebswirtschaftlicher Sicht.",
-    "schluesselwoerter": ["planvoll", "wirtschaftseinheit", "ziele", "güter"],
+    "tag": "Monopol",
+    "fall": "Ein Unternehmen ist der einzige Anbieter eines Produkts.",
+    "frage": "Wie nennt man eine Marktform mit nur einem Anbieter?",
     "korrekteAntworten": [
-      "planvolle wirtschaftseinheit zur erstellung und verwertung von gütern und dienstleistungen zur zielerreichung",
-      "eine organisation die güter oder dienstleistungen zur befriedigung von bedürfnissen bereitstellt"
+      "Monopol"
     ],
-    "esel": "Unternehmen = geplant Güter für Ziele.",
-    "erklaerung": "Ein Unternehmen ist eine auf Dauer angelegte, planvoll organisierte Wirtschaftseinheit, die Güter oder Dienstleistungen erstellt und verwertet, um bestimmte Ziele (meist Gewinn, aber auch soziale/ökologische Ziele) zu erreichen.",
-    "quellen": [
-      "BWLB01OT, Kap. 2.2 Das Unternehmen als planvolle Wirtschaftseinheit, S. 11–13."
-    ]
+    "erklaerung": "Ein Monopol liegt vor, wenn nur ein Anbieter den Markt vollständig beherrscht.",
+    "esel": "Mono = einer.",
+    "quelle": {
+      "kapitel": "5.2 Marktformen",
+      "seite": "88"
+    },
+    "schwierigkeit": "leicht"
   },
   {
-    "id": "bwl-49",
+    "id": "BWL-067",
     "typ": "mc",
-    "tag": "Finanzkennzahlen",
-    "frage": "Was beschreibt das Working Capital?",
+    "tag": "Polypol",
+    "fall": "Auf einem Markt treten viele Anbieter und Nachfrager auf.",
+    "frage": "Welche Marktform ist das?",
     "optionen": [
-      "Langfristiges Kapital",
-      "Umlaufvermögen minus kurzfristige Verbindlichkeiten",
-      "Eigenkapital plus Gewinnvortrag",
-      "Anlagevermögen minus Abschreibungen"
+      "Monopol",
+      "Oligopol",
+      "Polypol",
+      "Duopol"
     ],
-    "loesung": "Umlaufvermögen minus kurzfristige Verbindlichkeiten",
-    "esel": "Working = was zum Arbeiten übrig bleibt.",
-    "erklaerung": "Working Capital zeigt, ob das kurzfristige Vermögen die kurzfristigen Schulden deckt. Ein positives Working Capital bedeutet: Es ist noch Spielraum zur Finanzierung des laufenden Geschäfts vorhanden.",
-    "quellen": [
-      "BWLB01OT, Kap. 2.3.2 Liquiditätsanalyse – Working Capital, S. 18–19. :contentReference[oaicite:28]{index=28}"
-    ]
+    "loesung": "Polypol",
+    "erklaerung": "Beim Polypol gibt es viele Anbieter und viele Nachfrager, der Wettbewerb ist hoch.",
+    "esel": "Poly = viele.",
+    "quelle": {
+      "kapitel": "5.2 Marktformen",
+      "seite": "88-89"
+    },
+    "schwierigkeit": "leicht"
   },
   {
-    "id": "bwl-50",
+    "id": "BWL-068",
+    "typ": "mc",
+    "tag": "Oligopol",
+    "fall": "Wenige große Konzerne dominieren den Energiemarkt.",
+    "frage": "Welche Marktform liegt hier vor?",
+    "optionen": [
+      "Monopol",
+      "Polypol",
+      "Oligopol",
+      "Monopson"
+    ],
+    "loesung": "Oligopol",
+    "erklaerung": "Oligopol = wenige Anbieter oder Nachfrager beherrschen den Markt.",
+    "esel": "Oligo = einige.",
+    "quelle": {
+      "kapitel": "5.2 Marktformen",
+      "seite": "88-89"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-069",
     "typ": "input",
-    "tag": "Organisation · Stab",
-    "frage": "Wozu dienen Stabsstellen bzw. Stabsfunktionen in einer Organisation?",
-    "schluesselwoerter": ["beratung", "unterstützung", "entscheidungsvorbereitung"],
-    "esel": "Stab berät, Linienstelle entscheidet.",
-    "erklaerung": "Stabsstellen haben in der Regel keine eigene Weisungsbefugnis gegenüber der Linie. Sie unterstützen die Führung durch Analysen, Fachwissen oder Projektarbeit (z. B. Rechtsabteilung, Controlling). So werden Entscheidungen fachlich besser vorbereitet.",
-    "quellen": [
-      "BWLB01OT, Kap. 4.1 Aufbauorganisation – Stabsstellen (beratend, keine Weisung), S. 56–58. :contentReference[oaicite:29]{index=29}"
-    ]
+    "tag": "Marketingdefinition",
+    "fall": "Ein Unternehmen stellt seine Kundenbedürfnisse in den Mittelpunkt.",
+    "frage": "Was versteht man unter Marketing?",
+    "schluesselwoerter": [
+      "kunden",
+      "bedürfnisse",
+      "marktgerecht",
+      "zielorientiert"
+    ],
+    "korrekteAntworten": [
+      "die planung und steuerung marktgerechter aktivitäten zur erfüllung von kundenbedürfnissen"
+    ],
+    "erklaerung": "Marketing bedeutet kundenorientiertes Denken und Handeln, um Unternehmensziele zu erreichen.",
+    "esel": "Markt + Denken = Marketing.",
+    "quelle": {
+      "kapitel": "6.1 Marketingkonzept",
+      "seite": "91-92"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-070",
+    "typ": "mc",
+    "tag": "Marketingmix",
+    "fall": "Eine Firma optimiert Preis, Werbung, Vertrieb und Produktgestaltung.",
+    "frage": "Welche Elemente gehören zum klassischen Marketingmix?",
+    "optionen": [
+      "Product, Price, Place, Promotion",
+      "Plan, Process, People, Performance",
+      "Produkt, Personal, Politik, Presse",
+      "Produktion, Preis, Planung, Produktivität"
+    ],
+    "loesung": "Product, Price, Place, Promotion",
+    "erklaerung": "Die 4 P's bilden das Grundgerüst der operativen Marketingpolitik.",
+    "esel": "4 P's: Produkt, Preis, Platz, Promotion.",
+    "quelle": {
+      "kapitel": "6.2 Marketingmix",
+      "seite": "93-94"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-071",
+    "typ": "mc",
+    "tag": "Produktpolitik",
+    "fall": "Ein Unternehmen entwickelt neue Verpackungen und Varianten eines Produkts.",
+    "frage": "Zu welchem Bereich des Marketingmix gehört das?",
+    "optionen": [
+      "Produktpolitik",
+      "Preispolitik",
+      "Distributionspolitik",
+      "Kommunikationspolitik"
+    ],
+    "loesung": "Produktpolitik",
+    "erklaerung": "Die Produktpolitik umfasst alle Entscheidungen über Sortiment, Qualität, Marke und Design.",
+    "esel": "Produkt = Gestalt + Vielfalt.",
+    "quelle": {
+      "kapitel": "6.2.1 Produktpolitik",
+      "seite": "94-95"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-072",
+    "typ": "mc",
+    "tag": "Preispolitik",
+    "fall": "Ein Unternehmen führt eine Rabattaktion durch.",
+    "frage": "Welchem Instrument des Marketingmix gehört dies an?",
+    "optionen": [
+      "Preispolitik",
+      "Kommunikationspolitik",
+      "Distributionspolitik",
+      "Produktpolitik"
+    ],
+    "loesung": "Preispolitik",
+    "erklaerung": "Preispolitik betrifft Preisbildung, Rabatte, Zahlungsbedingungen und Preisstrategien.",
+    "esel": "Rabatte = Preis.",
+    "quelle": {
+      "kapitel": "6.2.2 Preispolitik",
+      "seite": "95-96"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-073",
+    "typ": "mc",
+    "tag": "Kommunikationspolitik",
+    "fall": "Ein Unternehmen wirbt mit Influencern und Social-Media-Kampagnen.",
+    "frage": "Welches Ziel verfolgt die Kommunikationspolitik?",
+    "optionen": [
+      "Information und Beeinflussung der Zielgruppe",
+      "Senkung der Produktionskosten",
+      "Verbesserung der Bilanzstruktur",
+      "Steigerung der Materialqualität"
+    ],
+    "loesung": "Information und Beeinflussung der Zielgruppe",
+    "erklaerung": "Kommunikationspolitik dient dazu, Kunden zu informieren, zu überzeugen und an das Unternehmen zu binden.",
+    "esel": "Reden, werben, wirken.",
+    "quelle": {
+      "kapitel": "6.2.3 Kommunikationspolitik",
+      "seite": "96-97"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-074",
+    "typ": "mc",
+    "tag": "Distributionspolitik",
+    "fall": "Ein Unternehmen verkauft Produkte sowohl online als auch im Einzelhandel.",
+    "frage": "Zu welchem Bereich des Marketingmix gehört dies?",
+    "optionen": [
+      "Distributionspolitik",
+      "Preispolitik",
+      "Kommunikationspolitik",
+      "Produktpolitik"
+    ],
+    "loesung": "Distributionspolitik",
+    "erklaerung": "Distributionspolitik umfasst den physischen und logistischen Weg des Produkts zum Kunden.",
+    "esel": "Vertrieb = Distribution.",
+    "quelle": {
+      "kapitel": "6.2.4 Distributionspolitik",
+      "seite": "97-98"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-075",
+    "typ": "input",
+    "tag": "Unternehmensumwelt",
+    "fall": "Ein Betrieb analysiert rechtliche, gesellschaftliche und technologische Faktoren.",
+    "frage": "Was versteht man unter der Unternehmensumwelt?",
+    "schluesselwoerter": [
+      "faktoren",
+      "außerhalb",
+      "einfluss",
+      "unternehmen"
+    ],
+    "korrekteAntworten": [
+      "alle externen faktoren die das unternehmen beeinflussen können"
+    ],
+    "erklaerung": "Unternehmensumwelt umfasst externe Rahmenbedingungen: Politik, Gesellschaft, Technologie, Wirtschaft und Recht.",
+    "esel": "Außenwelt wirkt mit.",
+    "quelle": {
+      "kapitel": "6.3 Unternehmensumwelt",
+      "seite": "99-100"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-076",
+    "typ": "mc",
+    "tag": "Zielmessung",
+    "fall": "Ein Team formuliert Unternehmensziele und diskutiert ihre Messbarkeit.",
+    "frage": "Welche Aussage trifft zu?",
+    "optionen": [
+      "Unternehmensziele sind immer quantitativ messbar.",
+      "Unternehmensziele können qualitativ oder quantitativ messbar sein.",
+      "Qualitative Ziele sind in der BWL unzulässig.",
+      "Messbarkeit spielt für Ziele keine Rolle."
+    ],
+    "loesung": "Unternehmensziele können qualitativ oder quantitativ messbar sein.",
+    "erklaerung": "Ziele sollen akzeptiert und überprüfbar sein; Messbarkeit kann quantitativ (Kennzahlen) oder qualitativ erfolgen.",
+    "esel": "Q oder Q: qualitativ ODER quantitativ.",
+    "quelle": {
+      "kapitel": "2.2 Ziele",
+      "seite": "14-15"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-077",
+    "typ": "input",
+    "tag": "Zielsystem",
+    "fall": "Die Geschäftsführung ordnet Oberziele und Unterziele.",
+    "frage": "Was versteht man unter einem Zielsystem?",
+    "schluesselwoerter": [
+      "ordnung",
+      "hierarchie",
+      "oberziele",
+      "unterziele"
+    ],
+    "korrekteAntworten": [
+      "geordnete hierarchie von oberzielen und abgeleiteten unterzielen"
+    ],
+    "erklaerung": "Zielsysteme strukturieren Ziele nach Rang/Beziehung (harmonisch/konkurrierend/indifferent).",
+    "esel": "Ziele nicht einzeln, sondern geordnet.",
+    "quelle": {
+      "kapitel": "2.2 Zielsysteme",
+      "seite": "13-15"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-078",
+    "typ": "mc",
+    "tag": "Logistik & SCM",
+    "fall": "Ein Unternehmen will Durchlaufzeiten und Bestände senken.",
+    "frage": "Welche Aussage kennzeichnet Logistik/Supply-Chain-Management?",
+    "optionen": [
+      "Verbindet Beschaffung, Produktion und Absatz prozessual.",
+      "Betrifft nur den Warenausgang.",
+      "Ist ausschließlich eine Marketingfunktion.",
+      "Hat keinen Einfluss auf Bestände."
+    ],
+    "loesung": "Verbindet Beschaffung, Produktion und Absatz prozessual.",
+    "erklaerung": "Logistik/SCM koppelt die Grundfunktionen und optimiert Flüsse/Bestände.",
+    "esel": "Logistik = verbindet alles.",
+    "quelle": {
+      "kapitel": "3.1 Funktionen; Logistik & SCM",
+      "seite": "39"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-079",
+    "typ": "mc",
+    "tag": "Investitionsformen",
+    "fall": "Der Vorstand diskutiert Gründe für eine Maschinenanschaffung.",
+    "frage": "Welche Investitionsart senkt primär Kosten durch effizientere Abläufe?",
+    "optionen": [
+      "Erweiterungsinvestition",
+      "Rationalisierungsinvestition",
+      "Ersatzinvestition",
+      "Diversifikationsinvestition"
+    ],
+    "loesung": "Rationalisierungsinvestition",
+    "erklaerung": "Zielt auf Produktivitäts-/Kostenvorteile (z. B. Automatisierung).",
+    "esel": "Rationalisieren = billiger.",
+    "quelle": {
+      "kapitel": "3.3/4.1 Investitionsformen (Übersichten)",
+      "seite": "43, 59-60"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-080",
+    "typ": "mc",
+    "tag": "Fremdkapital-Beispiele",
+    "fall": "Die Finanzabteilung listet Finanzierungsquellen.",
+    "frage": "Was ist typisches Fremdkapital?",
+    "optionen": [
+      "Bankdarlehen",
+      "Gezeichnetes Kapital",
+      "Kapitalrücklage",
+      "Gewinnrücklagen"
+    ],
+    "loesung": "Bankdarlehen",
+    "erklaerung": "Fremdkapital stammt von Gläubigern (z. B. Bankkredite).",
+    "esel": "Fremd = von außen geliehen.",
+    "quelle": {
+      "kapitel": "3.4/4.1 Finanzierung (Beispiele)",
+      "seite": "46-58"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-081",
+    "typ": "calc",
+    "tag": "Barliquidität (1. Grades)",
+    "fall": "Die Finanzabteilung prüft, ob kurzfristige Schulden sofort beglichen werden können.",
+    "frage": "Berechne die Barliquidität (1. Grades) in %, wenn die flüssigen Mittel {FM} € und die kurzfristigen Verbindlichkeiten {KV} € betragen.",
+    "parameter": {
+      "FM": [
+        5000,
+        80000
+      ],
+      "KV": [
+        5000,
+        90000
+      ]
+    },
+    "formel": "(FM / KV) * 100",
+    "toleranz": 1,
+    "erklaerung": "Die Barliquidität zeigt, welcher Anteil der kurzfristigen Verbindlichkeiten durch Zahlungsmittel gedeckt ist.",
+    "esel": "Cash / kurz = Liq 1.",
+    "quelle": {
+      "kapitel": "2.3/4.1 Liquiditätskennzahlen",
+      "seite": "17-18, 57-58"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-082",
+    "typ": "calc",
+    "tag": "Working Capital",
+    "fall": "Ein Unternehmen möchte den kurzfristigen Finanzierungsspielraum ermitteln.",
+    "frage": "Berechne das Working Capital, wenn das Umlaufvermögen {UV} € und die kurzfristigen Verbindlichkeiten {KV} € betragen.",
+    "parameter": {
+      "UV": [
+        20000,
+        500000
+      ],
+      "KV": [
+        10000,
+        400000
+      ]
+    },
+    "formel": "UV - KV",
+    "toleranz": 1,
+    "erklaerung": "Working Capital = Umlaufvermögen - kurzfristige Verbindlichkeiten; es zeigt, wie viel kurzfristiges Kapital zur Verfügung steht.",
+    "esel": "UV - kurz = Puffer.",
+    "quelle": {
+      "kapitel": "2.3 Kennzahlenüberblick",
+      "seite": "18"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-083",
+    "typ": "mc",
+    "tag": "Stab-Linien-Organisation",
+    "fall": "Ein Organigramm zeigt Stäbe neben Linieninstanzen.",
+    "frage": "Wofür stehen Stabsstellen im Stab-Linien-System?",
+    "optionen": [
+      "Fachliche Beratung ohne Weisungsrecht",
+      "Volle Weisungsbefugnis gegenüber allen Linienstellen",
+      "Reine Projektteams außerhalb der Hierarchie",
+      "Nur externe Berater"
+    ],
+    "loesung": "Fachliche Beratung ohne Weisungsrecht",
+    "erklaerung": "Stabsstellen unterstützen mit Expertise; Entscheidungen/Weisungen bleiben in der Linie.",
+    "esel": "Stab berät, Linie entscheidet.",
+    "quelle": {
+      "kapitel": "4 Organisation - Leitungssysteme/Stäbe",
+      "seite": "57-58"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-084",
+    "typ": "mc",
+    "tag": "ABC-Analyse",
+    "fall": "Die Einkaufsleitung priorisiert Artikel nach Wertanteilen.",
+    "frage": "Worum geht es bei der ABC-Analyse?",
+    "optionen": [
+      "Einteilung von Gütern nach Verbrauchswert (A hoch, C niedrig)",
+      "Berechnung des Deckungsbeitrags je Stück",
+      "Bewertung von Investitionen über Kapitalwert",
+      "Sortierung nach Stückzahlen unabhängig vom Wert"
+    ],
+    "loesung": "Einteilung von Gütern nach Verbrauchswert (A hoch, C niedrig)",
+    "erklaerung": "Typische Priorisierungsmethode für Material/Sortimente.",
+    "esel": "A wenig - viel Wert; C viel - wenig Wert.",
+    "quelle": {
+      "kapitel": "3.1 Materialwirtschaft (Planung/Steuerung)",
+      "seite": "38-39"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-085",
+    "typ": "mc",
+    "tag": "Werkstoffe",
+    "fall": "In der Produktion werden Roh-, Hilfs- und Betriebsstoffe unterschieden.",
+    "frage": "Welche Aussage ist korrekt?",
+    "optionen": [
+      "Betriebsstoffe gehen nicht ins Produkt ein, dienen aber dem Betrieb.",
+      "Hilfsstoffe sind Hauptbestandteil des Endprodukts.",
+      "Rohstoffe werden nicht verbraucht.",
+      "Werkstoffe sind immaterielle Güter."
+    ],
+    "loesung": "Betriebsstoffe gehen nicht ins Produkt ein, dienen aber dem Betrieb.",
+    "erklaerung": "Rohstoffe = Hauptbestandteil; Hilfsstoffe = untergeordneter Bestandteil; Betriebsstoffe = Energie/Schmierstoffe usw.",
+    "esel": "Betriebsstoff: hilft der Maschine, nicht dem Produkt.",
+    "quelle": {
+      "kapitel": "3.1 Werk-/Betriebsstoffe",
+      "seite": "37-41"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-086",
+    "typ": "input",
+    "tag": "Neutrale Aufwendungen",
+    "fall": "Die KLR grenzt Aufwendungen ab, die nicht betriebsbedingt sind.",
+    "frage": "Nenne ein Beispiel für neutralen Aufwand.",
+    "schluesselwoerter": [
+      "betriebsfremd",
+      "außerordentlich",
+      "periodenfremd"
+    ],
+    "korrekteAntworten": [
+      "spenden (betriebsfremd)",
+      "sturm-schaden (außerordentlich)",
+      "nachzahlung aus vorperiode (periodenfremd)"
+    ],
+    "erklaerung": "Neutrale Aufwendungen sind nicht Teil der typischen betrieblichen Leistungserstellung.",
+    "esel": "Nicht Kernbetrieb = neutral.",
+    "quelle": {
+      "kapitel": "4.2 Kostenrechnung - Abgrenzungen",
+      "seite": "50, 66-67"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-087",
+    "typ": "calc",
+    "tag": "Nutzwertanalyse (Score)",
+    "fall": "Ein Unternehmen vergleicht zwei Maschinen mithilfe einer Nutzwertanalyse. Die Bewertung erfolgt nach drei Kriterien: Kosten, Qualität und Termine. Jedes Kriterium wird unterschiedlich gewichtet und mit Punkten zwischen 1 und 10 bewertet.",
+    "frage": "Berechne den Gesamt-Nutzwert, wenn die Gewichtung wie folgt ist: Kosten = {gK} %, Qualität = {gQ} %, Termine = {gT} %. Die jeweiligen Ausprägungen betragen: Kosten = {aK} Punkte, Qualität = {aQ} Punkte und Termine = {aT} Punkte.",
+    "parameter": {
+      "gK": [
+        20,
+        60
+      ],
+      "gQ": [
+        10,
+        50
+      ],
+      "gT": [
+        10,
+        40
+      ],
+      "aK": [
+        1,
+        10
+      ],
+      "aQ": [
+        1,
+        10
+      ],
+      "aT": [
+        1,
+        10
+      ]
+    },
+    "formel": "(gK/100)*aK + (gQ/100)*aQ + (gT/100)*aT",
+    "toleranz": 0.01,
+    "erklaerung": "Die Nutzwertanalyse summiert die gewichteten Punktwerte der Kriterien. Der Gesamt-Nutzwert dient dem Vergleich von Alternativen; die höhere Punktzahl zeigt die vorteilhaftere Option.",
+    "esel": "Gewicht x Punktwert - dann alles addieren.",
+    "quelle": {
+      "kapitel": "2.4 Entscheidungen - Nutzwertanalyse (Tabelle)",
+      "seite": "27"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-088",
+    "typ": "mc",
+    "tag": "Marketingziel vs. Maßnahme",
+    "fall": "Im Marketingplan werden Ziele und Instrumente getrennt.",
+    "frage": "Was ist ein MarketingZIEL (nicht Instrument)?",
+    "optionen": [
+      "Steigerung des Marktanteils um 3 % in 12 Monaten",
+      "Preisnachlass von 10 % im Q3",
+      "Einführung von Social-Ads",
+      "Ausbau des Händlernetzes"
+    ],
+    "loesung": "Steigerung des Marktanteils um 3 % in 12 Monaten",
+    "erklaerung": "Ziel = angestrebtes Ergebnis; Instrumente = Mittel des 4P-Mix zur Zielerreichung.",
+    "esel": "Ergebnis ≠ Werkzeug.",
+    "quelle": {
+      "kapitel": "6.1-6.2 Marketingkonzept & Mix",
+      "seite": "91-96"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-089",
+    "typ": "mc",
+    "tag": "Preisbindung & Wettbewerb",
+    "fall": "Im Markt treten Eingriffe in die Preisbildung auf.",
+    "frage": "Was widerspricht funktionsfähigem Wettbewerb?",
+    "optionen": [
+      "Kartellartige Preisabsprachen",
+      "Polypolistische Anbieterstruktur",
+      "Freier Marktzutritt",
+      "Transparente Informationen"
+    ],
+    "loesung": "Kartellartige Preisabsprachen",
+    "erklaerung": "Preisabsprachen verzerren Wettbewerb und sind kartellrechtlich problematisch.",
+    "esel": "Wettbewerb ja - Kartell nein.",
+    "quelle": {
+      "kapitel": "5.1-5.2 Markt/Wettbewerb (Grundlagen)",
+      "seite": "81-89"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-090",
+    "typ": "input",
+    "tag": "Organigramm-Interpretation",
+    "fall": "Eine Grafik zeigt Divisionen und Zentralfunktionen.",
+    "frage": "Woran erkennst du eine Spartenorganisation im Organigramm?",
+    "schluesselwoerter": [
+      "produkte",
+      "regionen",
+      "ergebnisverantwortung"
+    ],
+    "korrekteAntworten": [
+      "gliederung nach produkten oder regionen mit weitgehender ergebnisverantwortung je sparte"
+    ],
+    "erklaerung": "Divisionale Struktur = Produkt-/Regionssparten mit eigener Verantwortung; Zentralfunktionen unterstützen.",
+    "esel": "Sparte = eigenes Mini-Unternehmen.",
+    "quelle": {
+      "kapitel": "3.3 Divisionalprinzip",
+      "seite": "42-43"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-091",
+    "typ": "mc",
+    "tag": "Controlling",
+    "fall": "Ein Unternehmen möchte seine Planung, Steuerung und Kontrolle verbessern.",
+    "frage": "Welche Aussage beschreibt die Aufgabe des Controllings am besten?",
+    "optionen": [
+      "Controlling liefert Informationen zur Planung und Steuerung betrieblicher Prozesse.",
+      "Controlling ist ausschließlich Buchhaltung.",
+      "Controlling bedeutet Kontrolle von Mitarbeitenden.",
+      "Controlling ist nur eine gesetzliche Pflichtaufgabe."
+    ],
+    "loesung": "Controlling liefert Informationen zur Planung und Steuerung betrieblicher Prozesse.",
+    "erklaerung": "Controlling verbindet Planung, Steuerung und Kontrolle zur Zielerreichung und ist ein zentrales Managementinstrument.",
+    "esel": "Controlling = planen, steuern, kontrollieren.",
+    "quelle": {
+      "kapitel": "7.1 Controlling-Grundlagen",
+      "seite": "102-103"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-092",
+    "typ": "input",
+    "tag": "Kennzahlenarten",
+    "fall": "Im Controlling werden Kennzahlen nach unterschiedlichen Aspekten unterteilt.",
+    "frage": "Nenne zwei Arten betrieblicher Kennzahlen.",
+    "korrekteAntworten": [
+      "absolute und relative kennzahlen",
+      "produktivitäts- und rentabilitätskennzahlen"
+    ],
+    "erklaerung": "Kennzahlen dienen der Steuerung und lassen sich z. B. in absolute, relative oder Verhältniszahlen gliedern.",
+    "esel": "Kennzahlen: absolut oder relativ.",
+    "quelle": {
+      "kapitel": "7.1 Kennzahlensysteme",
+      "seite": "103-104"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-093",
+    "typ": "calc",
+    "tag": "Umschlagshäufigkeit",
+    "fall": "Ein Betrieb möchte wissen, wie oft sein Lagerbestand im Jahr umgesetzt wird.",
+    "frage": "Berechne die Umschlagshäufigkeit, wenn der Jahresverbrauch {V} € und der durchschnittliche Lagerbestand {L} € beträgt.",
+    "parameter": {
+      "V": [
+        20000,
+        400000
+      ],
+      "L": [
+        5000,
+        100000
+      ]
+    },
+    "formel": "V / L",
+    "toleranz": 0.01,
+    "erklaerung": "Die Umschlagshäufigkeit zeigt, wie oft der Lagerbestand pro Jahr erneuert wird.",
+    "esel": "Verbrauch / Lager = Umschlag.",
+    "quelle": {
+      "kapitel": "7.2 Lagerkennzahlen",
+      "seite": "104-105"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-094",
+    "typ": "calc",
+    "tag": "durchschnittliche Lagerdauer",
+    "fall": "Die Lagerkennzahlen eines Unternehmens sollen ausgewertet werden.",
+    "frage": "Berechne die durchschnittliche Lagerdauer in Tagen, wenn die Umschlagshäufigkeit {U} beträgt.",
+    "parameter": {
+      "U": [
+        2,
+        15
+      ]
+    },
+    "formel": "360 / U",
+    "toleranz": 0.1,
+    "erklaerung": "Die durchschnittliche Lagerdauer ergibt sich aus 360 Tagen geteilt durch die Umschlagshäufigkeit.",
+    "esel": "360 / Umschlag = Lagertage.",
+    "quelle": {
+      "kapitel": "7.2 Lagerkennzahlen",
+      "seite": "105"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-095",
+    "typ": "mc",
+    "tag": "Benchmarking",
+    "fall": "Das Management vergleicht seine Kennzahlen mit denen der Konkurrenz.",
+    "frage": "Was ist das Ziel von Benchmarking?",
+    "optionen": [
+      "Vergleich mit Best-Practice-Unternehmen, um Verbesserungspotenziale zu erkennen",
+      "Ausschließlich Kostenreduktion",
+      "Kontrolle der Mitarbeiterleistung",
+      "Festlegung gesetzlicher Grenzwerte"
+    ],
+    "loesung": "Vergleich mit Best-Practice-Unternehmen, um Verbesserungspotenziale zu erkennen",
+    "erklaerung": "Benchmarking nutzt den Vergleich mit den Besten, um eigene Prozesse zu verbessern.",
+    "esel": "Von den Besten lernen.",
+    "quelle": {
+      "kapitel": "7.3 Benchmarking",
+      "seite": "106"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-096",
+    "typ": "calc",
+    "tag": "Return on Investment (ROI)",
+    "fall": "Das Controlling möchte den Gesamterfolg einer Investition bewerten.",
+    "frage": "Berechne den ROI in Prozent, wenn der Gewinn {G} € und das eingesetzte Kapital {K} € beträgt.",
+    "parameter": {
+      "G": [
+        5000,
+        50000
+      ],
+      "K": [
+        20000,
+        300000
+      ]
+    },
+    "formel": "(G / K) * 100",
+    "toleranz": 0.5,
+    "erklaerung": "Der ROI misst die Rendite des eingesetzten Kapitals und verknüpft Rentabilität und Kapitalumschlag.",
+    "esel": "Gewinn / Kapital x 100.",
+    "quelle": {
+      "kapitel": "7.4 ROI-Analyse",
+      "seite": "107"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-097",
+    "typ": "mc",
+    "tag": "Balanced Scorecard",
+    "fall": "Ein Unternehmen möchte seine Ziele ganzheitlich steuern.",
+    "frage": "Welche Perspektiven enthält die Balanced Scorecard typischerweise?",
+    "optionen": [
+      "Finanzen, Kunden, Prozesse, Lernen/Entwicklung",
+      "Produktion, Einkauf, Verkauf, Lager",
+      "Liquidität, Gewinn, Absatz, Umsatz",
+      "Mitarbeiter, Löhne, Arbeitszeit, Urlaub"
+    ],
+    "loesung": "Finanzen, Kunden, Prozesse, Lernen/Entwicklung",
+    "erklaerung": "Die Balanced Scorecard verbindet finanzielle und nicht-finanzielle Zielgrößen zur strategischen Steuerung.",
+    "esel": "4 Blicke = Finanz + Kunde + Prozess + Lernen.",
+    "quelle": {
+      "kapitel": "7.5 Balanced Scorecard",
+      "seite": "108-109"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-098",
+    "typ": "mc",
+    "tag": "Kostenmanagement",
+    "fall": "Das Controlling sucht nach Maßnahmen zur Kostensenkung.",
+    "frage": "Welche Aussage beschreibt Kostenmanagement am treffendsten?",
+    "optionen": [
+      "Gezielte Planung, Steuerung und Kontrolle der Kosten über den gesamten Lebenszyklus",
+      "Einmalige Kostensenkung im Einkauf",
+      "Einsparungen nur durch Personalabbau",
+      "Abschaffung der Kostenstellenrechnung"
+    ],
+    "loesung": "Gezielte Planung, Steuerung und Kontrolle der Kosten über den gesamten Lebenszyklus",
+    "erklaerung": "Kostenmanagement begleitet Produkte und Prozesse permanent, um Wirtschaftlichkeit zu sichern.",
+    "esel": "Kosten steuern - nicht nur senken.",
+    "quelle": {
+      "kapitel": "8.1 Kostenmanagement",
+      "seite": "110"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-099",
+    "typ": "mc",
+    "tag": "Digitalisierung",
+    "fall": "Ein Unternehmen digitalisiert interne Abläufe.",
+    "frage": "Welche Aussage beschreibt den Nutzen der Digitalisierung im Betrieb?",
+    "optionen": [
+      "Erhöhung der Effizienz und Verbesserung der Informationsflüsse",
+      "Ausschließlich höhere Personalkosten",
+      "Reduzierung der Transparenz",
+      "Ersatz aller Mitarbeitenden durch KI"
+    ],
+    "loesung": "Erhöhung der Effizienz und Verbesserung der Informationsflüsse",
+    "erklaerung": "Digitalisierung dient der Prozessoptimierung und ermöglicht schnellere Entscheidungen durch bessere Daten.",
+    "esel": "Digital = effizient + transparent.",
+    "quelle": {
+      "kapitel": "8.2 Digitalisierung",
+      "seite": "111-112"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-100",
+    "typ": "input",
+    "tag": "Nachhaltigkeit",
+    "fall": "Ein Betrieb möchte ökonomische, ökologische und soziale Ziele in Einklang bringen.",
+    "frage": "Was bedeutet Nachhaltigkeit im betrieblichen Kontext?",
+    "schluesselwoerter": [
+      "ökologisch",
+      "ökonomisch",
+      "sozial",
+      "ausgewogen"
+    ],
+    "korrekteAntworten": [
+      "ausgewogenes handeln zwischen ökologischen ökonomischen und sozialen zielen"
+    ],
+    "erklaerung": "Nachhaltigkeit fordert langfristige Verantwortung in Wirtschaft, Umwelt und Gesellschaft.",
+    "esel": "3 Säulen: Öko + Öko + Sozial.",
+    "quelle": {
+      "kapitel": "9.1 Nachhaltigkeit",
+      "seite": "113-114"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-101",
+    "typ": "mc",
+    "tag": "CSR - Corporate Social Responsibility",
+    "fall": "Das Unternehmen veröffentlicht einen Nachhaltigkeitsbericht.",
+    "frage": "Was versteht man unter Corporate Social Responsibility?",
+    "optionen": [
+      "Freiwillige gesellschaftliche Verantwortung von Unternehmen über gesetzliche Pflichten hinaus",
+      "Erfüllung gesetzlicher Mindeststandards",
+      "Reine Imagekampagne ohne Wirkung",
+      "Ausschließlich Umweltschutzmaßnahmen"
+    ],
+    "loesung": "Freiwillige gesellschaftliche Verantwortung von Unternehmen über gesetzliche Pflichten hinaus",
+    "erklaerung": "CSR beschreibt unternehmerisches Engagement für Umwelt, Soziales und Ethik über Gesetze hinaus.",
+    "esel": "Pflicht + Extra = CSR.",
+    "quelle": {
+      "kapitel": "9.2 CSR",
+      "seite": "115"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-102",
+    "typ": "calc",
+    "tag": "CO₂-Reduktionsziel",
+    "fall": "Ein Produktionsbetrieb möchte den CO₂-Ausstoß senken.",
+    "frage": "Berechne die prozentuale CO₂-Reduktion, wenn der Ausstoß von {alt} t auf {neu} t sinkt.",
+    "parameter": {
+      "alt": [
+        100,
+        1000
+      ],
+      "neu": [
+        50,
+        900
+      ]
+    },
+    "formel": "((alt - neu) / alt) * 100",
+    "toleranz": 0.1,
+    "erklaerung": "Die Reduktion zeigt, um wie viel Prozent der Ausstoß verringert wurde.",
+    "esel": "(Alt - Neu) / Alt x 100.",
+    "quelle": {
+      "kapitel": "9.3 Umweltkennzahlen",
+      "seite": "116"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-103",
+    "typ": "mc",
+    "tag": "Stakeholder",
+    "fall": "Das Unternehmen identifiziert Anspruchsgruppen für seinen Nachhaltigkeitsbericht.",
+    "frage": "Welche Gruppen zählen zu den Stakeholdern eines Unternehmens?",
+    "optionen": [
+      "Kunden, Mitarbeitende, Lieferanten, Staat, Öffentlichkeit",
+      "Nur Eigentümer und Banken",
+      "Nur die Geschäftsführung",
+      "Nur interne Abteilungen"
+    ],
+    "loesung": "Kunden, Mitarbeitende, Lieferanten, Staat, Öffentlichkeit",
+    "erklaerung": "Stakeholder sind alle, die direkt oder indirekt vom Handeln des Unternehmens betroffen sind.",
+    "esel": "Alle mit Interesse = Stakeholder.",
+    "quelle": {
+      "kapitel": "9.4 Stakeholder",
+      "seite": "117"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-104",
+    "typ": "input",
+    "tag": "Ökobilanz",
+    "fall": "Das Management bewertet die Umweltwirkungen eines Produkts über seinen Lebenszyklus.",
+    "frage": "Was ist Ziel einer Ökobilanz?",
+    "korrekteAntworten": [
+      "erfassung und bewertung der umweltwirkungen eines produkts über den gesamten lebenszyklus"
+    ],
+    "erklaerung": "Die Ökobilanz analysiert Energie- und Stoffflüsse von der Herstellung bis zur Entsorgung.",
+    "esel": "Von Wiege bis Bahre: Umweltbilanz klar.",
+    "quelle": {
+      "kapitel": "9.5 Ökobilanz",
+      "seite": "118"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-105",
+    "typ": "mc",
+    "tag": "Umweltmanagementsystem",
+    "fall": "Das Unternehmen möchte ein zertifiziertes Umweltmanagement einführen.",
+    "frage": "Welche Norm legt die Anforderungen an ein Umweltmanagementsystem fest?",
+    "optionen": [
+      "ISO 14001",
+      "ISO 9001",
+      "ISO 45001",
+      "ISO 26000"
+    ],
+    "loesung": "ISO 14001",
+    "erklaerung": "Die ISO 14001 definiert internationale Standards für Umweltmanagementsysteme.",
+    "esel": "14001 = Umwelt -> grün.",
+    "quelle": {
+      "kapitel": "9.6 Umweltmanagement",
+      "seite": "119"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-106",
+    "typ": "mc",
+    "tag": "Wirtschaftlichkeit",
+    "fall": "Ein Produktionsleiter vergleicht den Wert der hergestellten Güter mit den eingesetzten Mitteln.",
+    "frage": "Wie wird Wirtschaftlichkeit berechnet?",
+    "optionen": [
+      "Ertrag / Aufwand",
+      "Aufwand / Ertrag",
+      "Kosten / Leistung",
+      "Gewinn / Kapital x 100"
+    ],
+    "loesung": "Ertrag / Aufwand",
+    "erklaerung": "Wirtschaftlichkeit misst, wie effizient Ressourcen eingesetzt werden - also Verhältnis von Ertrag zu Aufwand.",
+    "esel": "Mehr raus als rein = wirtschaftlich.",
+    "quelle": {
+      "kapitel": "2.3.3 Wirtschaftlichkeit",
+      "seite": "18-19"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-107",
+    "typ": "calc",
+    "tag": "Wirtschaftlichkeitsgrad",
+    "fall": "Ein Controller möchte den Wirtschaftlichkeitsgrad eines Produktionsprozesses bestimmen.",
+    "frage": "Berechne die Wirtschaftlichkeit in %, wenn der Ertrag {E} € und der Aufwand {A} € beträgt.",
+    "parameter": {
+      "E": [
+        50000,
+        200000
+      ],
+      "A": [
+        40000,
+        180000
+      ]
+    },
+    "formel": "(E / A) * 100",
+    "toleranz": 0.5,
+    "erklaerung": "Der Wirtschaftlichkeitsgrad über 100 % bedeutet, dass der Ertrag größer ist als der Aufwand.",
+    "esel": "Ertrag / Aufwand x 100.",
+    "quelle": {
+      "kapitel": "2.3.3 Wirtschaftlichkeit",
+      "seite": "18-19"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-108",
+    "typ": "input",
+    "tag": "Produktionsfaktoren nach Gutenberg",
+    "fall": "Ein Azubi soll die Produktionsfaktoren nach Erich Gutenberg nennen.",
+    "frage": "Welche drei dispositiven Produktionsfaktoren unterscheidet Gutenberg?",
+    "korrekteAntworten": [
+      "planung",
+      "organisation",
+      "kontrolle"
+    ],
+    "erklaerung": "Gutenberg gliedert in elementare (Arbeit, Betriebsmittel, Werkstoffe) und dispositive (Leitung, Planung, Kontrolle) Faktoren.",
+    "esel": "Chef-Faktoren = Planung, Organisation, Kontrolle.",
+    "quelle": {
+      "kapitel": "3.1.2 Produktionsfaktoren",
+      "seite": "29-30"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-109",
+    "typ": "mc",
+    "tag": "Make-or-Buy-Entscheidung",
+    "fall": "Ein Unternehmen überlegt, ob es Bauteile selbst herstellen oder zukaufen soll.",
+    "frage": "Welche Aussage beschreibt eine Make-or-Buy-Entscheidung?",
+    "optionen": [
+      "Entscheidung zwischen Eigenfertigung und Fremdbezug",
+      "Wahl zwischen zwei Lieferanten",
+      "Festlegung von Verkaufspreisen",
+      "Entscheidung über Produktdesign"
+    ],
+    "loesung": "Entscheidung zwischen Eigenfertigung und Fremdbezug",
+    "erklaerung": "Make-or-Buy-Entscheidungen bestimmen die Fertigungstiefe eines Unternehmens.",
+    "esel": "Make = selbst, Buy = zukaufen.",
+    "quelle": {
+      "kapitel": "3.1 Beschaffung/Produktion",
+      "seite": "28-31"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-110",
+    "typ": "mc",
+    "tag": "Just-in-Time",
+    "fall": "Eine Autofabrik möchte Lagerkosten vermeiden und Material bedarfsgerecht anliefern lassen.",
+    "frage": "Was bedeutet Just-in-Time-Produktion?",
+    "optionen": [
+      "Material wird exakt zum Produktionszeitpunkt angeliefert.",
+      "Material wird auf Vorrat gelagert.",
+      "Produktion erfolgt ohne Planung.",
+      "Lieferanten liefern einmal jährlich gebündelt."
+    ],
+    "loesung": "Material wird exakt zum Produktionszeitpunkt angeliefert.",
+    "erklaerung": "Just-in-Time senkt Lagerbestände und verbessert den Materialfluss - erfordert hohe Prozesssicherheit.",
+    "esel": "Kein Lager, kein Warten - JIT.",
+    "quelle": {
+      "kapitel": "3.1 Logistik",
+      "seite": "39-40"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-111",
+    "typ": "mc",
+    "tag": "Zielkonflikt Wirtschaftlichkeit & Sozialverträglichkeit",
+    "fall": "Ein Unternehmen möchte Kosten senken, ohne Personal zu entlassen.",
+    "frage": "Wie lässt sich dieser Zielkonflikt beschreiben?",
+    "optionen": [
+      "ökonomisches und soziales Ziel stehen in Konkurrenz",
+      "die Ziele ergänzen sich gegenseitig",
+      "es besteht Zielharmonie",
+      "kein Konflikt, da beide gleichgerichtet sind"
+    ],
+    "loesung": "ökonomisches und soziales Ziel stehen in Konkurrenz",
+    "erklaerung": "Manchmal widersprechen sich Wirtschaftlichkeit (Kosten) und Sozialverträglichkeit (Mitarbeiterschutz).",
+    "esel": "Sparen vs. Menschen - typischer Zielkonflikt.",
+    "quelle": {
+      "kapitel": "2.3 Zielkonflikte",
+      "seite": "14-15"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-112",
+    "typ": "calc",
+    "tag": "Gewinnspanne",
+    "fall": "Ein Händler verkauft Waren und möchte seine Gewinnspanne kennen.",
+    "frage": "Berechne die Gewinnspanne in %, wenn der Verkaufspreis {VP} € und die Selbstkosten {SK} € betragen.",
+    "parameter": {
+      "VP": [
+        50,
+        500
+      ],
+      "SK": [
+        20,
+        400
+      ]
+    },
+    "formel": "((VP - SK) / VP) * 100",
+    "toleranz": 0.1,
+    "erklaerung": "Die Gewinnspanne zeigt den Anteil des Gewinns am Verkaufspreis.",
+    "esel": "(VP - SK) / VP x 100.",
+    "quelle": {
+      "kapitel": "4.3 Betriebsergebnis",
+      "seite": "70-71"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-113",
+    "typ": "input",
+    "tag": "Führungsinstrumente",
+    "fall": "Die Personalabteilung entwickelt neue Methoden zur Mitarbeiterführung.",
+    "frage": "Nenne zwei typische Führungsinstrumente.",
+    "korrekteAntworten": [
+      "zielvereinbarung",
+      "feedbackgespräch"
+    ],
+    "erklaerung": "Führungsinstrumente sind Methoden zur Motivation und Steuerung, z. B. Zielvereinbarungen, Gespräche, Delegation.",
+    "esel": "Führung braucht Gespräch & Ziel.",
+    "quelle": {
+      "kapitel": "3.4 Führung",
+      "seite": "50-52"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-114",
+    "typ": "mc",
+    "tag": "Projektmanagement",
+    "fall": "Ein Team arbeitet abteilungsübergreifend an einem neuen Produkt.",
+    "frage": "Was kennzeichnet ein Projekt?",
+    "optionen": [
+      "zeitlich befristet, einmalig, mit definiertem Ziel",
+      "ständig wiederkehrend und routinemäßig",
+      "ohne feste Zielvorgaben",
+      "unabhängig von Ressourcen"
+    ],
+    "loesung": "zeitlich befristet, einmalig, mit definiertem Ziel",
+    "erklaerung": "Projekte sind einmalige, zeitlich begrenzte Vorhaben mit spezifischem Ergebnis.",
+    "esel": "Projekt = einmalig + Ziel + Ende.",
+    "quelle": {
+      "kapitel": "3.3 Projektorganisation",
+      "seite": "44-45"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-115",
+    "typ": "calc",
+    "tag": "Fehlzeitenquote",
+    "fall": "Das Personalcontrolling möchte die Fehlzeitenquote eines Jahres berechnen.",
+    "frage": "Berechne die Fehlzeitenquote in %, wenn die Ausfalltage {A} und die Soll-Arbeitstage {S} betragen.",
+    "parameter": {
+      "A": [
+        5,
+        40
+      ],
+      "S": [
+        200,
+        260
+      ]
+    },
+    "formel": "(A / S) * 100",
+    "toleranz": 0.1,
+    "erklaerung": "Die Fehlzeitenquote zeigt den Anteil der Abwesenheiten an den Soll-Arbeitstagen.",
+    "esel": "Fehltage / Solltage x 100.",
+    "quelle": {
+      "kapitel": "3.4 Personalcontrolling",
+      "seite": "52-53"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-116",
+    "typ": "mc",
+    "tag": "Kommunikation im Unternehmen",
+    "fall": "Ein Betrieb analysiert Informationsflüsse zwischen Abteilungen.",
+    "frage": "Welche Kommunikationsform beschreibt den Austausch zwischen gleichgeordneten Ebenen?",
+    "optionen": [
+      "horizontale Kommunikation",
+      "vertikale Kommunikation",
+      "diagonale Kommunikation",
+      "nonverbale Kommunikation"
+    ],
+    "loesung": "horizontale Kommunikation",
+    "erklaerung": "Horizontale Kommunikation erfolgt zwischen Mitarbeitenden gleicher Hierarchieebene.",
+    "esel": "Horizontal = auf Augenhöhe.",
+    "quelle": {
+      "kapitel": "3.4 Kommunikation",
+      "seite": "51-52"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-117",
+    "typ": "input",
+    "tag": "Zielvereinbarungssystem",
+    "fall": "Die Geschäftsleitung möchte ein leistungsorientiertes Entlohnungssystem einführen.",
+    "frage": "Was versteht man unter Management by Objectives (MbO)?",
+    "korrekteAntworten": [
+      "führung durch vereinbarung von zielen"
+    ],
+    "erklaerung": "Management by Objectives bedeutet Führung durch Zielvereinbarung: Mitarbeiter und Vorgesetzter definieren gemeinsam messbare Ziele.",
+    "esel": "MbO = Ziele gemeinsam festlegen.",
+    "quelle": {
+      "kapitel": "3.4 Führungsstile",
+      "seite": "50-51"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-118",
+    "typ": "calc",
+    "tag": "Arbeitsproduktivität",
+    "fall": "Die Produktionsleitung möchte die Produktivität der Mitarbeitenden ermitteln.",
+    "frage": "Berechne die Arbeitsproduktivität, wenn die Produktionsmenge {M} Stück und der Arbeitseinsatz {A} Stunden beträgt.",
+    "parameter": {
+      "M": [
+        100,
+        10000
+      ],
+      "A": [
+        10,
+        1000
+      ]
+    },
+    "formel": "M / A",
+    "toleranz": 0.1,
+    "erklaerung": "Arbeitsproduktivität = produzierte Menge / Arbeitszeit; zeigt Effizienz der Mitarbeitenden.",
+    "esel": "Output / Arbeit.",
+    "quelle": {
+      "kapitel": "2.3 Produktivität",
+      "seite": "18"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-119",
+    "typ": "mc",
+    "tag": "Unternehmensethik",
+    "fall": "Die Geschäftsführung diskutiert moralische Prinzipien unternehmerischen Handelns.",
+    "frage": "Welche Aussage beschreibt Unternehmensethik korrekt?",
+    "optionen": [
+      "Bezieht sich auf moralisch verantwortliches Handeln von Unternehmen.",
+      "Betrifft ausschließlich Gewinnmaximierung.",
+      "Bezieht sich nur auf privates Verhalten von Mitarbeitenden.",
+      "Hat keinen Einfluss auf Entscheidungen."
+    ],
+    "loesung": "Bezieht sich auf moralisch verantwortliches Handeln von Unternehmen.",
+    "erklaerung": "Unternehmensethik zielt auf verantwortungsbewusstes, werteorientiertes Handeln gegenüber Gesellschaft und Umwelt.",
+    "esel": "Ethik = Verantwortung statt nur Gewinn.",
+    "quelle": {
+      "kapitel": "9.7 Unternehmensethik",
+      "seite": "120"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-120",
+    "typ": "input",
+    "tag": "Resümee",
+    "fall": "Der Lernende soll den Gesamtzusammenhang des Hefts zusammenfassen.",
+    "frage": "Was ist das Ziel der Betriebswirtschaftslehre?",
+    "korrekteAntworten": [
+      "effizienter einsatz knapper ressourcen zur bedürfnisbefriedigung"
+    ],
+    "erklaerung": "Die BWL untersucht, wie knappe Güter so eingesetzt werden, dass Bedürfnisse bestmöglich befriedigt und Unternehmensziele erreicht werden.",
+    "esel": "Knappheit + Ziel + Nutzen = BWL.",
+    "quelle": {
+      "kapitel": "Gesamtüberblick",
+      "seite": "5-120"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-121",
+    "typ": "mc",
+    "tag": "Arbeitsrecht - Kündigungsschutz",
+    "fall": "Ein Mitarbeiter wird nach sechs Monaten Betriebszugehörigkeit entlassen und verweist auf das Kündigungsschutzgesetz.",
+    "frage": "Ab wann greift der allgemeine Kündigungsschutz nach dem Kündigungsschutzgesetz (KSchG)?",
+    "optionen": [
+      "Nach sechs Monaten Betriebszugehörigkeit und mehr als zehn Beschäftigten im Betrieb",
+      "Ab dem ersten Arbeitstag",
+      "Nur bei unbefristeten Arbeitsverträgen",
+      "Nach zwei Jahren Betriebszugehörigkeit"
+    ],
+    "loesung": "Nach sechs Monaten Betriebszugehörigkeit und mehr als zehn Beschäftigten im Betrieb",
+    "erklaerung": "Das KSchG gilt, wenn der Arbeitnehmer länger als sechs Monate beschäftigt ist und der Betrieb mehr als zehn Mitarbeiter hat.",
+    "esel": "6 Monate + 10 Leute = KSchG.",
+    "quelle": {
+      "kapitel": "3.4 Arbeitsrecht (Randnotiz)",
+      "seite": "52-53"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-122",
+    "typ": "mc",
+    "tag": "Betriebsrat - Mitbestimmung",
+    "fall": "Im Unternehmen soll Schichtarbeit neu eingeführt werden.",
+    "frage": "In welchem Fall hat der Betriebsrat nach § 87 BetrVG ein zwingendes Mitbestimmungsrecht?",
+    "optionen": [
+      "Bei der Einführung von Arbeitszeitregelungen",
+      "Bei der Bestellung der Geschäftsleitung",
+      "Bei der Wahl des Aufsichtsrats",
+      "Bei der Erstellung des Jahresabschlusses"
+    ],
+    "loesung": "Bei der Einführung von Arbeitszeitregelungen",
+    "erklaerung": "Nach § 87 Abs. 1 Nr. 2 BetrVG hat der Betriebsrat bei Beginn und Ende der täglichen Arbeitszeit mitzubestimmen.",
+    "esel": "§ 87 = Arbeitszeit, Pausen, Ordnung.",
+    "quelle": {
+      "kapitel": "3.4 Mitbestimmung",
+      "seite": "53"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-123",
+    "typ": "calc",
+    "tag": "Liquidität 3. Grades",
+    "fall": "Ein Controller möchte prüfen, ob langfristig alle kurzfristigen Verbindlichkeiten gedeckt sind.",
+    "frage": "Berechne die Liquidität 3. Grades in %, wenn das Umlaufvermögen {UV} €, das Anlagevermögen {AV} € und die kurzfristigen Verbindlichkeiten {KV} € betragen.",
+    "parameter": {
+      "UV": [
+        20000,
+        400000
+      ],
+      "AV": [
+        50000,
+        800000
+      ],
+      "KV": [
+        10000,
+        300000
+      ]
+    },
+    "formel": "((UV + AV) / KV) * 100",
+    "toleranz": 1,
+    "erklaerung": "Die Liquidität 3. Grades berücksichtigt auch Vorräte und zeigt, ob kurzfristige Schulden langfristig gedeckt sind.",
+    "esel": "Alles beweglich / kurz = Liq 3.",
+    "quelle": {
+      "kapitel": "2.3 Kennzahlen",
+      "seite": "18"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-124",
+    "typ": "mc",
+    "tag": "Staatliche Preisbindung",
+    "fall": "Ein Apotheker darf bestimmte Arzneimittel nicht unter dem festgelegten Preis verkaufen.",
+    "frage": "Wie nennt man diesen staatlichen Eingriff in die Preisbildung?",
+    "optionen": [
+      "Mindestpreisbindung",
+      "Markträumung",
+      "Oligopolbildung",
+      "Preiselastizität"
+    ],
+    "loesung": "Mindestpreisbindung",
+    "erklaerung": "Staatlich festgelegte Mindestpreise sollen ruinösen Wettbewerb verhindern (z. B. Arzneimittel, Milchpreise).",
+    "esel": "Preis nach unten gedeckelt = Mindestpreis.",
+    "quelle": {
+      "kapitel": "5.2 Marktformen und Eingriffe",
+      "seite": "88-89"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-125",
+    "typ": "mc",
+    "tag": "Subvention",
+    "fall": "Der Staat fördert Elektroautos durch Zuschüsse.",
+    "frage": "Wie nennt man diese Form staatlicher Markteinwirkung?",
+    "optionen": [
+      "Subvention",
+      "Abschreibung",
+      "Steuererhöhung",
+      "Preisbindung"
+    ],
+    "loesung": "Subvention",
+    "erklaerung": "Subventionen sind staatliche Geld- oder Sachleistungen zur Förderung bestimmter Wirtschaftszweige.",
+    "esel": "Subvention = Staat schenkt Anschub.",
+    "quelle": {
+      "kapitel": "5.2 Staatliche Eingriffe",
+      "seite": "88-89"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-126",
+    "typ": "mc",
+    "tag": "Handelsgesetzbuch (HGB)",
+    "fall": "Ein Kaufmann möchte wissen, wo die Buchführungspflichten geregelt sind.",
+    "frage": "Welches Gesetz regelt die Buchführungspflichten von Kaufleuten?",
+    "optionen": [
+      "Handelsgesetzbuch (HGB)",
+      "Bürgerliches Gesetzbuch (BGB)",
+      "Gewerbeordnung (GewO)",
+      "Aktiengesetz (AktG)"
+    ],
+    "loesung": "Handelsgesetzbuch (HGB)",
+    "erklaerung": "§§ 238 ff. HGB regeln die Pflicht zur Buchführung und Bilanzierung.",
+    "esel": "Kaufleute = HGB § 238 ff.",
+    "quelle": {
+      "kapitel": "2.4 Rechtsformen & Rechtsgrundlagen",
+      "seite": "23-24"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-127",
+    "typ": "mc",
+    "tag": "Gesellschaft mit beschränkter Haftung",
+    "fall": "Zwei Gründer möchten eine Gesellschaft mit Haftungsbegrenzung gründen.",
+    "frage": "Wie hoch ist das gesetzliche Mindeststammkapital einer GmbH laut GmbHG?",
+    "optionen": [
+      "25 000 €",
+      "50 000 €",
+      "10 000 €",
+      "5 000 €"
+    ],
+    "loesung": "25 000 €",
+    "erklaerung": "Nach § 5 Abs. 1 GmbHG beträgt das Mindeststammkapital einer GmbH 25 000 €.",
+    "esel": "G m b H -> 2 5 0 0 0.",
+    "quelle": {
+      "kapitel": "2.4 Rechtsformwahl",
+      "seite": "22-23"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-128",
+    "typ": "calc",
+    "tag": "Kostenvergleichsrechnung",
+    "fall": "Ein Unternehmen vergleicht zwei Maschinen A und B nach ihren jährlichen Kosten.",
+    "frage": "Berechne die Kostendifferenz, wenn Maschine A jährliche Kosten von {KA} € und Maschine B Kosten von {KB} € verursacht.",
+    "parameter": {
+      "KA": [
+        20000,
+        60000
+      ],
+      "KB": [
+        15000,
+        55000
+      ]
+    },
+    "formel": "KA - KB",
+    "toleranz": 1,
+    "erklaerung": "Die Kostenvergleichsrechnung vergleicht absolute Kosten alternativer Investitionen. Niedrigere Kosten = vorteilhafter.",
+    "esel": "Kostenvorteil = A - B.",
+    "quelle": {
+      "kapitel": "4.1 Investitionsrechnung",
+      "seite": "60-61"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-129",
+    "typ": "input",
+    "tag": "Inventurarten",
+    "fall": "Die Buchhaltung plant die jährliche Bestandsaufnahme.",
+    "frage": "Nenne zwei Inventurarten nach Zeitpunkt der Durchführung.",
+    "korrekteAntworten": [
+      "stichtagsinventur",
+      "zeitversetzte inventur"
+    ],
+    "erklaerung": "Neben der klassischen Stichtagsinventur erlaubt das HGB auch zeitlich vor- oder nachgelagerte Inventuren.",
+    "esel": "Inventur: Stichtag oder versetzt.",
+    "quelle": {
+      "kapitel": "4.4 Bilanzierung / Inventur",
+      "seite": "73-74"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-130",
+    "typ": "mc",
+    "tag": "Marktversagen",
+    "fall": "Trotz funktionierendem Wettbewerb kommt es zu Umweltbelastungen.",
+    "frage": "Wann spricht man in der Volkswirtschaft von Marktversagen?",
+    "optionen": [
+      "Wenn der Markt keine effiziente oder gerechte Allokation der Ressourcen erreicht",
+      "Wenn die Nachfrage das Angebot übersteigt",
+      "Wenn Preise steigen",
+      "Wenn Unternehmen fusionieren"
+    ],
+    "loesung": "Wenn der Markt keine effiziente oder gerechte Allokation der Ressourcen erreicht",
+    "erklaerung": "Marktversagen liegt vor, wenn der Marktmechanismus nicht zu gesellschaftlich wünschenswerten Ergebnissen führt (z. B. externe Effekte, Monopole).",
+    "esel": "Markt läuft schief = Versagen.",
+    "quelle": {
+      "kapitel": "5.2 Marktformen & Probleme",
+      "seite": "89-90"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-131",
+    "typ": "sequence",
+    "tag": "Produktionsprozess",
+    "fall": "Ordne die Schritte fachlich korrekt.",
+    "frage": "Bringe die Phasen der Produktion in die richtige Reihenfolge.",
+    "optionen": [
+      "Materialbeschaffung",
+      "Fertigung",
+      "Qualitätsprüfung",
+      "Vertrieb"
+    ],
+    "loesung": [
+      "Materialbeschaffung",
+      "Fertigung",
+      "Qualitätsprüfung",
+      "Vertrieb"
+    ],
+    "erklaerung": "Reihenfolge sichert Prozessqualität und Nachvollziehbarkeit.",
+    "esel": "Erst planen/ermitteln - dann handeln - am Ende prüfen/abschließen.",
+    "quelle": {
+      "kapitel": "3.1 Produktion",
+      "seite": "30"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-132",
+    "typ": "sequence",
+    "tag": "Beschaffungsprozess",
+    "fall": "Ein Unternehmen benötigt dringend neue Werkzeuge für ihre Produktion, da die bisherigen Bestände fast aufgebraucht sind. Der Einkauf soll den gesamten Beschaffungsprozess durchführen.",
+    "frage": "Sortiere die Schritte des Beschaffungsprozesses korrekt.",
+    "optionen": [
+      "Bedarfsermittlung",
+      "Angebotsvergleich",
+      "Bestellung",
+      "Wareneingang"
+    ],
+    "loesung": [
+      "Bedarfsermittlung",
+      "Angebotsvergleich",
+      "Bestellung",
+      "Wareneingang"
+    ],
+    "erklaerung": "Reihenfolge sichert Prozessqualität und Nachvollziehbarkeit.",
+    "esel": "Erst planen/ermitteln - dann handeln - am Ende prüfen/abschließen.",
+    "quelle": {
+      "kapitel": "3.1 Beschaffung",
+      "seite": "28-29"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-133",
+    "typ": "sequence",
+    "tag": "Jahresabschluss",
+    "fall": "Ordne die Schritte fachlich korrekt.",
+    "frage": "Ordne die Schritte des Jahresabschlusses.",
+    "optionen": [
+      "Inventur",
+      "Bilanzierung",
+      "GuV-Erstellung",
+      "Jahresabschlussfeststellung"
+    ],
+    "loesung": [
+      "Inventur",
+      "Bilanzierung",
+      "GuV-Erstellung",
+      "Jahresabschlussfeststellung"
+    ],
+    "erklaerung": "Reihenfolge sichert Prozessqualität und Nachvollziehbarkeit.",
+    "esel": "Erst planen/ermitteln - dann handeln - am Ende prüfen/abschließen.",
+    "quelle": {
+      "kapitel": "4.4 Bilanz",
+      "seite": "73-76"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-134",
+    "typ": "sequence",
+    "tag": "Projektphasen",
+    "fall": "Ordne die Schritte fachlich korrekt.",
+    "frage": "Ordne die typischen Projektphasen.",
+    "optionen": [
+      "Projektstart",
+      "Planung",
+      "Durchführung",
+      "Abschluss"
+    ],
+    "loesung": [
+      "Projektstart",
+      "Planung",
+      "Durchführung",
+      "Abschluss"
+    ],
+    "erklaerung": "Reihenfolge sichert Prozessqualität und Nachvollziehbarkeit.",
+    "esel": "Erst planen/ermitteln - dann handeln - am Ende prüfen/abschließen.",
+    "quelle": {
+      "kapitel": "3.3 Projektorganisation",
+      "seite": "44-45"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-135",
+    "typ": "sequence",
+    "tag": "Personalbeschaffung",
+    "fall": "Ordne die Schritte fachlich korrekt.",
+    "frage": "Sortiere die Personalbeschaffungs-Schritte.",
+    "optionen": [
+      "Stellenanalyse",
+      "Ausschreibung",
+      "Auswahlverfahren",
+      "Einstellung"
+    ],
+    "loesung": [
+      "Stellenanalyse",
+      "Ausschreibung",
+      "Auswahlverfahren",
+      "Einstellung"
+    ],
+    "erklaerung": "Reihenfolge sichert Prozessqualität und Nachvollziehbarkeit.",
+    "esel": "Erst planen/ermitteln - dann handeln - am Ende prüfen/abschließen.",
+    "quelle": {
+      "kapitel": "3.4 Personalbeschaffung",
+      "seite": "48-49"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-136",
+    "typ": "sequence",
+    "tag": "Marketingprozess",
+    "fall": "Ordne die Schritte fachlich korrekt.",
+    "frage": "Bringe den Marketingprozess in die korrekte Reihenfolge.",
+    "optionen": [
+      "Situationsanalyse",
+      "Zieldefinition",
+      "Maßnahmenplanung",
+      "Kontrolle"
+    ],
+    "loesung": [
+      "Situationsanalyse",
+      "Zieldefinition",
+      "Maßnahmenplanung",
+      "Kontrolle"
+    ],
+    "erklaerung": "Reihenfolge sichert Prozessqualität und Nachvollziehbarkeit.",
+    "esel": "Erst planen/ermitteln - dann handeln - am Ende prüfen/abschließen.",
+    "quelle": {
+      "kapitel": "6.1 Marketingkonzept",
+      "seite": "91-92"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-137",
+    "typ": "sequence",
+    "tag": "Lagerprozess",
+    "fall": "Ordne die Schritte fachlich korrekt.",
+    "frage": "Ordne die Schritte eines typischen Lagerprozesses.",
+    "optionen": [
+      "Warenannahme",
+      "Einlagerung",
+      "Kommissionierung",
+      "Auslagerung"
+    ],
+    "loesung": [
+      "Warenannahme",
+      "Einlagerung",
+      "Kommissionierung",
+      "Auslagerung"
+    ],
+    "erklaerung": "Reihenfolge sichert Prozessqualität und Nachvollziehbarkeit.",
+    "esel": "Erst planen/ermitteln - dann handeln - am Ende prüfen/abschließen.",
+    "quelle": {
+      "kapitel": "3.1 Logistik/SCM",
+      "seite": "39-41"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-138",
+    "typ": "sequence",
+    "tag": "Investitionsrechnung",
+    "fall": "Ordne die Schritte fachlich korrekt.",
+    "frage": "Sortiere die Schritte einer Investitionsentscheidung.",
+    "optionen": [
+      "Daten sammeln",
+      "Bewertungsmethode wählen",
+      "Berechnen",
+      "Entscheiden"
+    ],
+    "loesung": [
+      "Daten sammeln",
+      "Bewertungsmethode wählen",
+      "Berechnen",
+      "Entscheiden"
+    ],
+    "erklaerung": "Reihenfolge sichert Prozessqualität und Nachvollziehbarkeit.",
+    "esel": "Erst planen/ermitteln - dann handeln - am Ende prüfen/abschließen.",
+    "quelle": {
+      "kapitel": "4.1 Investition",
+      "seite": "59-63"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-139",
+    "typ": "sequence",
+    "tag": "Vertriebspipeline",
+    "fall": "Ordne die Schritte fachlich korrekt.",
+    "frage": "Bringe die Schritte einer Vertriebspipeline in Ordnung.",
+    "optionen": [
+      "Leadgewinnung",
+      "Angebot",
+      "Verhandlung",
+      "Abschluss"
+    ],
+    "loesung": [
+      "Leadgewinnung",
+      "Angebot",
+      "Verhandlung",
+      "Abschluss"
+    ],
+    "erklaerung": "Reihenfolge sichert Prozessqualität und Nachvollziehbarkeit.",
+    "esel": "Erst planen/ermitteln - dann handeln - am Ende prüfen/abschließen.",
+    "quelle": {
+      "kapitel": "6.2 Distributions-/Kommunikationspolitik",
+      "seite": "96-98"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-140",
+    "typ": "sequence",
+    "tag": "Qualitätsmanagement (PDCA)",
+    "fall": "Ordne die Schritte fachlich korrekt.",
+    "frage": "Setze den PDCA-Zyklus in die korrekte Reihenfolge.",
+    "optionen": [
+      "Plan",
+      "Do",
+      "Check",
+      "Act"
+    ],
+    "loesung": [
+      "Plan",
+      "Do",
+      "Check",
+      "Act"
+    ],
+    "erklaerung": "Reihenfolge sichert Prozessqualität und Nachvollziehbarkeit.",
+    "esel": "Erst planen/ermitteln - dann handeln - am Ende prüfen/abschließen.",
+    "quelle": {
+      "kapitel": "7.5/8.1 Qualitäts-/Kostenmanagement",
+      "seite": "108-110"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-141",
+    "typ": "matrix",
+    "tag": "Kostenarten",
+    "fall": "Ordne die Elemente den passenden Kategorien zu.",
+    "frage": "Wähle für jedes Element die richtige Kategorie aus.",
+    "kategorien": [
+      "Einzelkosten",
+      "Gemeinkosten"
+    ],
+    "paare": {
+      "Materialkosten": "Einzelkosten",
+      "Fertigungslöhne": "Einzelkosten",
+      "Miete": "Gemeinkosten",
+      "Energie": "Gemeinkosten"
+    },
+    "erklaerung": "Die Einordnung schärft das Strukturverständnis der Begriffe.",
+    "esel": "Erst Kategorie denken, dann Zuordnen.",
+    "quelle": {
+      "kapitel": "4.2 Kostenrechnung",
+      "seite": "66-69"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-142",
+    "typ": "matrix",
+    "tag": "Bilanzpositionen",
+    "fall": "Ordne die Elemente den passenden Kategorien zu.",
+    "frage": "Wähle für jedes Element die richtige Kategorie aus.",
+    "kategorien": [
+      "Aktiva",
+      "Passiva"
+    ],
+    "paare": {
+      "Kasse": "Aktiva",
+      "Forderungen": "Aktiva",
+      "Eigenkapital": "Passiva",
+      "Verbindlichkeiten": "Passiva"
+    },
+    "erklaerung": "Die Einordnung schärft das Strukturverständnis der Begriffe.",
+    "esel": "Erst Kategorie denken, dann Zuordnen.",
+    "quelle": {
+      "kapitel": "4.4 Bilanz",
+      "seite": "73-76"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-143",
+    "typ": "matrix",
+    "tag": "Finanzierung",
+    "fall": "Ordne die Elemente den passenden Kategorien zu.",
+    "frage": "Wähle für jedes Element die richtige Kategorie aus.",
+    "kategorien": [
+      "Eigenfinanzierung",
+      "Fremdfinanzierung"
+    ],
+    "paare": {
+      "Gewinnthesaurierung": "Eigenfinanzierung",
+      "Bankdarlehen": "Fremdfinanzierung",
+      "Anleihen": "Fremdfinanzierung",
+      "Einlagen der Eigentümer": "Eigenfinanzierung"
+    },
+    "erklaerung": "Die Einordnung schärft das Strukturverständnis der Begriffe.",
+    "esel": "Erst Kategorie denken, dann Zuordnen.",
+    "quelle": {
+      "kapitel": "4.1 Finanzierung",
+      "seite": "56-58"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-144",
+    "typ": "matrix",
+    "tag": "Rechtsformen - Haftung",
+    "fall": "Ordne die Elemente den passenden Kategorien zu.",
+    "frage": "Wähle für jedes Element die richtige Kategorie aus.",
+    "kategorien": [
+      "unbeschränkt",
+      "beschränkt"
+    ],
+    "paare": {
+      "Einzelkaufmann": "unbeschränkt",
+      "OHG": "unbeschränkt",
+      "GmbH": "beschränkt",
+      "AG": "beschränkt"
+    },
+    "erklaerung": "Die Einordnung schärft das Strukturverständnis der Begriffe.",
+    "esel": "Erst Kategorie denken, dann Zuordnen.",
+    "quelle": {
+      "kapitel": "2.4 Rechtsformen",
+      "seite": "21-24"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-145",
+    "typ": "matrix",
+    "tag": "Kennzahlen - Gruppe",
+    "fall": "Ordne die Elemente den passenden Kategorien zu.",
+    "frage": "Wähle für jedes Element die richtige Kategorie aus.",
+    "kategorien": [
+      "Liquidität",
+      "Rentabilität"
+    ],
+    "paare": {
+      "Liquidität 1. Grades": "Liquidität",
+      "Eigenkapitalquote": "Rentabilität",
+      "Gesamtkapitalrentabilität": "Rentabilität",
+      "Liquidität 2. Grades": "Liquidität"
+    },
+    "erklaerung": "Die Einordnung schärft das Strukturverständnis der Begriffe.",
+    "esel": "Erst Kategorie denken, dann Zuordnen.",
+    "quelle": {
+      "kapitel": "2.3/4.1 Kennzahlen",
+      "seite": "17-18,57-58"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-146",
+    "typ": "matrix",
+    "tag": "Werkstoffe",
+    "fall": "Ordne die Elemente den passenden Kategorien zu.",
+    "frage": "Wähle für jedes Element die richtige Kategorie aus.",
+    "kategorien": [
+      "Rohstoffe",
+      "Hilfsstoffe",
+      "Betriebsstoffe"
+    ],
+    "paare": {
+      "Stahlblech": "Rohstoffe",
+      "Schrauben": "Hilfsstoffe",
+      "Schmieröl": "Betriebsstoffe",
+      "Lack": "Hilfsstoffe"
+    },
+    "erklaerung": "Rohstoffe sind die Hauptbestandteile eines Produkts – zum Beispiel Holz bei der Möbelherstellung. Hilfsstoffe werden ebenfalls in das Produkt eingebaut, sind aber nur Nebenbestandteile – etwa Schrauben oder Lack bei einem Schrank. Betriebsstoffe gehen nicht in das Produkt ein, werden aber für die Produktion benötigt – zum Beispiel Strom oder Schmieröl für Maschinen.",
+    "esel": "Erst Kategorie denken, dann Zuordnen.",
+    "quelle": {
+      "kapitel": "3.1 Werk-/Betriebsstoffe",
+      "seite": "37-41"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-147",
+    "typ": "matrix",
+    "tag": "Kostenverhalten",
+    "fall": "Ordne die Elemente den passenden Kategorien zu.",
+    "frage": "Wähle für jedes Element die richtige Kategorie aus.",
+    "kategorien": [
+      "fix",
+      "variabel"
+    ],
+    "paare": {
+      "Miete": "fix",
+      "Abschreibung": "fix",
+      "Materialverbrauch": "variabel",
+      "Akkordlöhne": "variabel"
+    },
+    "erklaerung": "Die Einordnung schärft das Strukturverständnis der Begriffe.",
+    "esel": "Erst Kategorie denken, dann Zuordnen.",
+    "quelle": {
+      "kapitel": "3.2 Kostenfunktionen",
+      "seite": "34-35"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-148",
+    "typ": "matrix",
+    "tag": "Marktformen - Beispiele",
+    "fall": "Ordne die Elemente den passenden Kategorien zu.",
+    "frage": "Wähle für jedes Element die richtige Kategorie aus.",
+    "kategorien": [
+      "Monopol",
+      "Oligopol",
+      "Polypol"
+    ],
+    "paare": {
+      "Stromnetzbetreiber regional": "Monopol",
+      "Mobilfunkanbieter": "Oligopol",
+      "Bäckereien in Großstadt": "Polypol",
+      "Airlines auf Transatlantik": "Oligopol"
+    },
+    "erklaerung": "Ein Monopol liegt vor, wenn es nur einen Anbieter für ein Gut gibt – z. B. die Deutsche Bahn beim Schienennetz. Ein Oligopol bedeutet, dass es wenige Anbieter gibt, die den Markt dominieren – etwa beim Mobilfunk (Telekom, Vodafone, o2). Ein Polypol herrscht, wenn viele Anbieter miteinander konkurrieren – zum Beispiel auf dem Wochenmarkt, wo zahlreiche Händler Obst und Gemüse verkaufen.",
+    "esel": "Erst Kategorie denken, dann Zuordnen.",
+    "quelle": {
+      "kapitel": "5.2 Marktformen",
+      "seite": "88-89"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-149",
+    "typ": "matrix",
+    "tag": "Führungsstile - Merkmale",
+    "fall": "Ordne die Elemente den passenden Kategorien zu.",
+    "frage": "Wähle für jedes Element die richtige Kategorie aus.",
+    "kategorien": [
+      "autoritär",
+      "kooperativ",
+      "laissez-faire"
+    ],
+    "paare": {
+      "Entscheidung allein oben": "autoritär",
+      "Mitarbeiterbeteiligung": "kooperativ",
+      "weitgehend freier Handlungsspielraum": "laissez-faire"
+    },
+    "erklaerung": "Die Einordnung schärft das Strukturverständnis der Begriffe.",
+    "esel": "Erst Kategorie denken, dann Zuordnen.",
+    "quelle": {
+      "kapitel": "3.4 Führungsstile",
+      "seite": "50-51"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-150",
+    "typ": "matrix",
+    "tag": "Nachhaltigkeit - Dimension",
+    "fall": "Ordne die Elemente den passenden Kategorien zu.",
+    "frage": "Wähle für jedes Element die richtige Kategorie aus.",
+    "kategorien": [
+      "ökonomisch",
+      "ökologisch",
+      "sozial"
+    ],
+    "paare": {
+      "Gewinnstabilität": "ökonomisch",
+      "CO₂-Reduktion": "ökologisch",
+      "Arbeitssicherheit": "sozial",
+      "Lieferantenethik": "sozial"
+    },
+    "erklaerung": "Die Einordnung schärft das Strukturverständnis der Begriffe.",
+    "esel": "Erst Kategorie denken, dann Zuordnen.",
+    "quelle": {
+      "kapitel": "9.1-9.2 Nachhaltigkeit/CSR",
+      "seite": "113-115"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-151",
+    "typ": "truefalse",
+    "tag": "Bilanzgleichung",
+    "fall": "Beurteile die Aussage.",
+    "frage": "Aktiva und Passiva sind betragsmäßig immer gleich groß.",
+    "antwort": true,
+    "erklaerung": "Kurzurteil zur raschen Wiederholung.",
+    "esel": "Intuition prüfen, nicht raten.",
+    "quelle": {
+      "kapitel": "4.4 Bilanzgleichung",
+      "seite": "74"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-152",
+    "typ": "truefalse",
+    "tag": "Just-in-Time",
+    "fall": "Beurteile die Aussage.",
+    "frage": "Just-in-Time zielt auf die Senkung von Lagerbeständen.",
+    "antwort": true,
+    "erklaerung": "Kurzurteil zur raschen Wiederholung.",
+    "esel": "Intuition prüfen, nicht raten.",
+    "quelle": {
+      "kapitel": "3.1 Logistik",
+      "seite": "39-40"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-153",
+    "typ": "truefalse",
+    "tag": "CSR",
+    "fall": "Beurteile die Aussage.",
+    "frage": "CSR umfasst nur rechtliche Mindeststandards, nicht mehr.",
+    "antwort": false,
+    "erklaerung": "Kurzurteil zur raschen Wiederholung.",
+    "esel": "Intuition prüfen, nicht raten.",
+    "quelle": {
+      "kapitel": "9.2 CSR",
+      "seite": "115"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-154",
+    "typ": "truefalse",
+    "tag": "Break-even",
+    "fall": "Beurteile die Aussage.",
+    "frage": "Beim Break-even sind Erlöse und Kosten gleich groß.",
+    "antwort": true,
+    "erklaerung": "Kurzurteil zur raschen Wiederholung.",
+    "esel": "Intuition prüfen, nicht raten.",
+    "quelle": {
+      "kapitel": "3.2 Break-even",
+      "seite": "36-37"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-155",
+    "typ": "truefalse",
+    "tag": "Eigenkapitalquote",
+    "fall": "Beurteile die Aussage.",
+    "frage": "Die Eigenkapitalquote berechnet sich als Fremdkapital durch Gesamtkapital.",
+    "antwort": false,
+    "erklaerung": "Kurzurteil zur raschen Wiederholung.",
+    "esel": "Intuition prüfen, nicht raten.",
+    "quelle": {
+      "kapitel": "4.1 Kennzahlen",
+      "seite": "57-58"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWL-156",
+    "typ": "falltext",
+    "tag": "Investitionsentscheidung",
+    "fall": "Die Maschinenhalle ist ausgelastet. Zwei Alternativen stehen zur Wahl: Maschine A (höherer Preis, geringere laufende Kosten) und Maschine B (günstiger, dafür höhere variable Kosten).",
+    "frage": "Beantworte die Teilfragen zum Fall.",
+    "fragen": [
+      {
+        "typ": "mc",
+        "frage": "Welche Investitionsart ist hier vorrangig?",
+        "optionen": [
+          "Ersatz",
+          "Rationalisierung",
+          "Erweiterung"
+        ],
+        "loesung": "Rationalisierung"
+      },
+      {
+        "typ": "calc",
+        "frage": "Berechne die Amortisationsdauer für A bei AK {AK} € und jährlichem Rückfluss {RF} €.",
+        "parameter": {
+          "AK": [40000, 60000],
+          "RF": [8000, 12000]
+        },
+        "formel": "AK / RF",
+        "toleranz": 0.1
+      }
+    ],
+    "erklaerung": "Kombiniert Wissen und Anwendung in einem realistischen Szenario.",
+    "esel": "Fall lesen -> Teilfragen lösen.",
+    "quelle": {
+      "kapitel": "4.1 Investition/Amortisation",
+      "seite": "59-61"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-157",
+    "typ": "falltext",
+    "tag": "Liquiditätsanalyse",
+    "fall": "Der Kassenbestand ist knapp, Forderungen sind hoch. Kurzfristige Verbindlichkeiten laufen binnen 30 Tagen aus.",
+    "frage": "Beantworte die Teilfragen zum Fall.",
+    "fragen": [
+      {
+        "typ": "mc",
+        "frage": "Welche Kennzahl beurteilt die kurzfristige Zahlungsfähigkeit am strengsten?",
+        "optionen": [
+          "Liquidität 1. Grades",
+          "Liquidität 2. Grades",
+          "Eigenkapitalquote"
+        ],
+        "loesung": "Liquidität 1. Grades"
+      },
+      {
+        "typ": "calc",
+        "frage": "Berechne die Liquidität 1. Grades bei FM {FM} € und KV {KV} €.",
+        "parameter": {
+          "FM": [
+            5000,
+            30000
+          ],
+          "KV": [
+            10000,
+            40000
+          ]
+        },
+        "formel": "(FM / KV) * 100",
+        "toleranz": 0.1
+      }
+    ],
+    "erklaerung": "Kombiniert Wissen und Anwendung in einem realistischen Szenario.",
+    "esel": "Fall lesen -> Teilfragen lösen.",
+    "quelle": {
+      "kapitel": "2.3/4.1 Liquidität",
+      "seite": "17-18,57-58"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-158",
+    "typ": "falltext",
+    "tag": "Kostenrechnung Basics",
+    "fall": "Ein Produkt wird zu Preis p verkauft. Die variablen Kosten je Stück betragen v; die Fixkosten sind F.",
+    "frage": "Beantworte die Teilfragen zum Fall.",
+    "fragen": [
+      {
+        "typ": "mc",
+        "frage": "Wie lautet die Formel für den Stückdeckungsbeitrag?",
+        "optionen": [
+          "p + v",
+          "p - v",
+          "F / (p - v)"
+        ],
+        "loesung": "p - v"
+      },
+      {
+        "typ": "calc",
+        "frage": "Berechne den Break-even bei F {F} €, p {p} € und v {v} €.",
+        "parameter": {
+          "F": [
+            20000,
+            40000
+          ],
+          "p": [
+            60,
+            120
+          ],
+          "v": [
+            20,
+            60
+          ]
+        },
+        "formel": "F / (p - v)",
+        "toleranz": 1
+      }
+    ],
+    "erklaerung": "Kombiniert Wissen und Anwendung in einem realistischen Szenario.",
+    "esel": "Fall lesen -> Teilfragen lösen.",
+    "quelle": {
+      "kapitel": "3.2 Deckungsbeitrag/Break-even",
+      "seite": "37-38"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-159",
+    "typ": "falltext",
+    "tag": "Marketingmix in Aktion",
+    "fall": "Ein neues Produkt wird eingeführt; das Budget ist knapp. Ziel: schneller Reichweitenaufbau.",
+    "frage": "Beantworte die Teilfragen zum Fall.",
+    "fragen": [
+      {
+        "typ": "mc",
+        "frage": "Welches P des Marketingmix betrifft die Wahl der Vertriebskanäle?",
+        "optionen": [
+          "Product",
+          "Price",
+          "Place",
+          "Promotion"
+        ],
+        "loesung": "Place"
+      },
+      {
+        "typ": "input",
+        "frage": "Nenne einen kostengünstigen Kommunikationskanal.",
+        "korrekteAntworten": [
+          "social media",
+          "e-mail marketing",
+          "influencer",
+          "newsletter"
+        ]
+      }
+    ],
+    "erklaerung": "Kombiniert Wissen und Anwendung in einem realistischen Szenario.",
+    "esel": "Fall lesen -> Teilfragen lösen.",
+    "quelle": {
+      "kapitel": "6.2 Marketingmix",
+      "seite": "93-98"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWL-160",
+    "typ": "falltext",
+    "tag": "Organisation & Führung",
+    "fall": "Die Firma wechselt von funktionaler zu divisionaler Organisation. Stabsstellen beraten die Geschäftsleitung.",
+    "frage": "Beantworte die Teilfragen zum Fall.",
+    "fragen": [
+      {
+        "typ": "mc",
+        "frage": "Wie nennt man die Struktur mit Produkt-/Regionseinheiten?",
+        "optionen": [
+          "Matrix",
+          "Spartenorganisation",
+          "Einlinien"
+        ],
+        "loesung": "Spartenorganisation"
+      },
+      {
+        "typ": "input",
+        "frage": "Welche Rolle haben Stabsstellen? (ein Satz)",
+        "korrekteAntworten": [
+          "fachliche beratung ohne weisungsrecht",
+          "beratung ohne weisungsrecht"
+        ]
+      }
+    ],
+    "erklaerung": "Kombiniert Wissen und Anwendung in einem realistischen Szenario.",
+    "esel": "Fall lesen -> Teilfragen lösen.",
+    "quelle": {
+      "kapitel": "3.3/3.4 Organisation/Führung",
+      "seite": "42-43,50-51"
+    },
+    "schwierigkeit": "mittel"
   }
 ]
+
