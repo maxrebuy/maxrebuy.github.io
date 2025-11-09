@@ -1,0 +1,3936 @@
+[
+  {
+    "id": "VWLW01-001",
+    "typ": "mc",
+    "tag": "Wirtschaftskreislauf",
+    "fall": "Im Test soll das Konzept präzise wiedergegeben werden. (Variante 1)",
+    "frage": "Welche der folgenden Ströme bildet der einfache Wirtschaftskreislauf ab?",
+    "erklaerung": "Der Wirtschaftskreislauf zeigt gegenläufige Güter- und Geldströme zwischen Haushalten und Unternehmen und in erweiterten Modellen Staat, Finanzsektor und Ausland. Er ordnet Einkommen, Ausgaben, Produktion und Verwendung und zeigt Ansatzpunkte für wirtschaftspolitische Eingriffe. Beispiel: Haushalte erhalten Löhne und kaufen Güter; Unternehmen zahlen Löhne und verkaufen Güter; der Staat erhebt Steuern und zahlt Transfers. Merke: Geld- und Güterstrom verlaufen entgegengesetzt; Störungen wirken kreislaufweit.",
+    "esel": "Güter ↔ Geld",
+    "quelle": {
+      "kapitel": "Kapitel „2 Wirtschaftskreislauf“",
+      "seite": "32 – 34"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Güter- und Geldstrom",
+      "Nur Güterstrom",
+      "Nur Geldpolitik",
+      "Nur Staatseinnahmen"
+    ],
+    "loesung": "Güter- und Geldstrom"
+  },
+  {
+    "id": "VWLW01-002",
+    "typ": "order",
+    "tag": "Erweiterter Kreislauf",
+    "fall": "Ein Kolloquium fragt nach der korrekten Einordnung. (Variante 2)",
+    "frage": "Bringe typische Erweiterungen des Kreislaufs.",
+    "erklaerung": "Der Wirtschaftskreislauf zeigt gegenläufige Ströme. Erweitert kommen Finanzsektor, Staat und Ausland hinzu. Beispiel: Sparen finanziert Investitionen; Steuern/Transfers verändern Einkommen; Ex/Im verbinden das Ausland. Merke: Einfach → Finanz → Staat → Ausland.",
+    "esel": "Einfach → Finanz → Staat → Ausland",
+    "quelle": {
+      "kapitel": "Kapitel 2.2 Erweiterter Wirtschaftskreislauf",
+      "seite": "34–36"
+    },
+    "schwierigkeit": "leicht",
+    "richtigeReihenfolge": [
+      "Haushalte/Unternehmen",
+      "Finanzsektor (Sparen/Investieren)",
+      "Staat (Steuern/Transfers)",
+      "Ausland (Ex/Im)"
+    ]
+  },
+  {
+    "id": "VWLW01-003",
+    "typ": "justify",
+    "tag": "Kreislaufstörung",
+    "fall": "Zur Prüfungsvorbereitung wird die Kerndefinition abgefragt. (Variante 3)",
+    "frage": "Weshalb übertragen sich Schocks auf den gesamten Kreislauf?",
+    "erklaerung": "Schocks verändern Einkommen und Nachfrage und wirken daher über mehrere Kreislaufströme. Über verknüpfte Zahlungs- und Güterströme werden Effekte weitergegeben. Beispiel: Ein Nachfragerückgang senkt Produktion, Löhne und Konsum. Merke: Alles hängt zusammen – eine Störung bleibt nicht lokal.",
+    "esel": "Alles hängt zusammen",
+    "quelle": {
+      "kapitel": "Kapitel 2.2 Erweiterter Wirtschaftskreislauf",
+      "seite": "35–36"
+    },
+    "schwierigkeit": "leicht",
+    "stichwoerter": [
+      "Einkommenskanal",
+      "Nachfragekanal",
+      "Multiplikation über Ströme"
+    ]
+  },
+  {
+    "id": "VWLW01-004",
+    "typ": "match",
+    "tag": "BIP-Rechnungen",
+    "fall": "Im Unterricht sollen die drei Perspektiven des BIP unterschieden werden.",
+    "frage": "Ordne die drei BIP-Rechnungsarten ihren jeweiligen Leitfragen zu.",
+    "erklaerung": "Diese Frage prüft das Grundverständnis der drei Perspektiven des BIP: Entstehung zeigt die Produktionsseite, Verwendung die Nachfragekomponenten, Verteilung die Einkommensseite. Alle drei müssen rechnerisch zum gleichen Ergebnis führen.",
+    "esel": "Entstehen–Verwenden–Verteilen",
+    "quelle": { 
+      "kapitel": "2.3.2 Entstehungs-, Verwendungs- und Verteilungsrechnung", 
+      "seite": "39–40" 
+    },
+    "schwierigkeit": "leicht",
+    "paare": {
+      "Entstehungsrechnung": "Welche Wertschöpfung entsteht?",
+      "Verwendungsrechnung": "Wofür wird die Wirtschaftsleistung verwendet?",
+      "Verteilungsrechnung": "Wie verteilt sich das Einkommen?"
+    }
+  },
+  {
+    "id": "VWLW01-005",
+    "typ": "input",
+    "tag": "Außenbeitrag",
+    "fall": "In einer Grundlagenprüfung soll der Begriff Außenbeitrag definiert werden.",
+    "frage": "Was versteht man unter dem Außenbeitrag im Rahmen der Verwendungsrechnung des BIP?",
+    "erklaerung": "Der Außenbeitrag ist der Saldo aus Exporten und Importen von Waren und Dienstleistungen. Er zeigt, ob ein Land mehr Güter exportiert als importiert und beeinflusst das BIP positiv oder negativ. Ein positiver Außenbeitrag bedeutet Leistungsbilanzüberschuss, ein negativer ein Defizit.",
+    "esel": "X − M = Außenbeitrag",
+    "quelle": { 
+      "kapitel": "2.3.2 Verwendungsrechnung", 
+      "seite": "40" 
+    },
+    "schwierigkeit": "leicht",
+    "korrekteAntworten": [
+      "Saldo aus Exporten und Importen",
+      "Exporte minus Importe",
+      "Differenz zwischen Exporten und Importen von Waren und Dienstleistungen"
+    ]
+  },
+  {
+    "id": "VWLW01-006",
+    "typ": "mc",
+    "tag": "Inland vs. Inländer",
+    "fall": "Für ein Lernmodul wird die Reihenfolge trainiert. (Variante 6)",
+    "frage": "Welches Konzept nutzt das BIP?",
+    "erklaerung": "Das BIP folgt dem Inlandskonzept und erfasst Wertschöpfung im Wirtschaftsgebiet. Das Inländerkonzept (z. B. BNE) ordnet nach Wohnsitz der Wirtschaftssubjekte. Für Vergleiche ist die Unterscheidung zentral. Merke: BIP = wo; BNE = wer.",
+    "esel": "BIP = wo",
+    "quelle": {
+      "kapitel": "Kapitel 2.3.1 Inländer- und Inlandskonzept",
+      "seite": "38"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Inlandskonzept",
+      "Inländerkonzept",
+      "Staatsbürgerkonzept",
+      "Nur Exporte"
+    ],
+    "loesung": "Inlandskonzept"
+  },
+  {
+    "id": "VWLW01-007",
+    "typ": "mc",
+    "tag": "Polypol",
+    "fall": "Ein Übungsblatt fordert eine knappe Begründung. (Variante 7)",
+    "frage": "Was kennzeichnet ein Polypol mit vollkommener Konkurrenz?",
+    "erklaerung": "Im Polypol sind einzelne Anbieter Preisnehmer. Der Marktpreis bildet sich aus Angebot und Nachfrage. Beispiel: Produktivitätsfortschritt verschiebt das Angebot nach rechts. Merke: Viele – Preis vorgegeben.",
+    "esel": "Viele = Preis vorgegeben",
+    "quelle": {
+      "kapitel": "Kapitel 3.1.2 Marktformen – Polypol",
+      "seite": "45-47"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Viele Anbieter/Nachfrager, Preisnahme",
+      "Ein Anbieter mit Marktmacht",
+      "Wenige Anbieter, Kollusion",
+      "Administrativ festgelegte Preise"
+    ],
+    "loesung": "Viele Anbieter/Nachfrager, Preisnahme"
+  },
+  {
+    "id": "VWLW01-008",
+    "typ": "input",
+    "tag": "Nachfragegesetz",
+    "fall": "Im Test soll das Konzept präzise wiedergegeben werden. (Variante 8)",
+    "frage": "Was beschreibt das Nachfragegesetz im einfachen Marktmodell?",
+    "erklaerung": "Steigt der Preis eines Gutes, sinkt ceteris paribus die nachgefragte Menge, und umgekehrt. Das ist Grundlage fallender Nachfragekurven. Beispiel: Höherer Preis für Gut A senkt die Kaufmenge. Merke: Teurer → weniger.",
+    "esel": "Teurer → weniger",
+    "quelle": {
+      "kapitel": "Kapitel 3.2 Nachfrage",
+      "seite": "48-50"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "Preis hoch",
+      "Menge runter",
+      "ceteris paribus",
+      "Bei steigendem Preis sinkt die nachgefragte Menge",
+      "Bei fallendem Preis steigt die nachgefragte Menge",
+      "Zwischen Preis und Nachfragemenge besteht ein umgekehrter Zusammenhang",
+      "Das Nachfragegesetz beschreibt eine negative Preis-Mengen-Beziehung",
+      "Preis steigt → Nachfrage sinkt",
+      "Preis fällt → Nachfrage steigt",
+      "Negativer Zusammenhang zwischen Preis und Nachfrage"
+    ]
+  },
+  {
+    "id": "VWLW01-009",
+    "typ": "order",
+    "tag": "Gleichgewicht",
+    "fall": "Ein Kolloquium fragt nach der korrekten Einordnung. (Variante 9)",
+    "frage": "Sortiere die Schritte zur Bestimmung von Preis und Menge.",
+    "erklaerung": "Das Gleichgewicht liegt dort, wo Angebot und Nachfrage übereinstimmen. Mathematisch wird durch Gleichsetzen gelöst. Anschließend lassen sich Preis und Menge bestimmen. Merke: Gleichsetzen → P* → Q*.",
+    "esel": "Gleichsetzen → P* → Q*",
+    "quelle": {
+      "kapitel": "Kapitel 3.4 Preisbildung im Polypol",
+      "seite": "53-56"
+    },
+    "schwierigkeit": "leicht",
+    "richtigeReihenfolge": [
+      "Funktionen aufstellen",
+      "Gleichsetzen",
+      "Preis berechnen",
+      "Menge bestimmen"
+    ]
+  },
+  {
+    "id": "VWLW01-010",
+    "typ": "justify",
+    "tag": "Vollkommener Markt",
+    "fall": "Zur Prüfungsvorbereitung wird die Kerndefinition abgefragt. (Variante 10)",
+    "frage": "Warum hat der Preis hohe Informationsqualität?",
+    "erklaerung": "Beim vollkommenen Markt sorgen homogene Güter, Transparenz und keine Präferenzen für informative Preise. Abweichungen führen zu Preisspielräumen. Beispiel: Qualitätsunterschiede mindern die Vergleichbarkeit. Merke: Gleichheit + Information = gutes Signal.",
+    "esel": "Gleich + Info = Signal",
+    "quelle": {
+      "kapitel": "Kapitel 3.1.3 Vollkommener Markt",
+      "seite": "47"
+    },
+    "schwierigkeit": "leicht",
+    "stichwoerter": [
+      "Homogenität",
+      "Transparenz",
+      "keine Präferenzen"
+    ]
+  },
+  {
+    "id": "VWLW01-011",
+    "typ": "mc",
+    "tag": "Geldarten",
+    "fall": "Im Unterricht wird eine kurze Anwendung diskutiert. (Variante 11)",
+    "frage": "Welche Zuordnung ist korrekt?",
+    "erklaerung": "Bargeld ist gesetzliches Zahlungsmittel; Buchgeld sind Sichteinlagen bei Banken. Fiatgeld hat keinen inneren Sachwert und ist staatlich legitimiert. Beispiel: Kartenzahlung nutzt Buchgeld. Merke: Bar = gesetzlich; Buchgeld = Bankeinlage.",
+    "esel": "Bar = gesetzlich",
+    "quelle": {
+      "kapitel": "Kapitel 4.1 Arten des Geldes",
+      "seite": "59"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Bargeld = gesetzliches Zahlungsmittel",
+      "Fiatgeld = goldgedeckt",
+      "Buchgeld = Zentralbankgeld",
+      "Warengeld = Buchgeld"
+    ],
+    "loesung": "Bargeld = gesetzliches Zahlungsmittel"
+  },
+  {
+    "id": "VWLW01-012",
+    "typ": "match",
+    "tag": "Geldmengen",
+    "fall": "Ein Teammeeting möchte die Grundlogik prüfen. (Variante 12)",
+    "frage": "Ordne M1–M3 passenden Beispielen zu.",
+    "erklaerung": "Geldmengen ordnen Zahlungsmittel nach Liquidität. M1 ist am liquidesten, M2 und M3 erweitern um weniger liquide Anlagen. Beispiel: Spareinlagen fallen in M2. Merke: Höhere Zahl = weniger liquide.",
+    "esel": "Höhere Zahl = weniger liquide",
+    "quelle": {
+      "kapitel": "Kapitel 4.3.2 Geldmengen",
+      "seite": "62"
+    },
+    "schwierigkeit": "leicht",
+    "paare": {
+      "M1": "Bargeld+Sichteinlagen",
+      "M2": "M1+kurzfr. Termineinlagen/Spareinlagen",
+      "M3": "M2+Geldmarktfonds u. ä."
+    }
+  },
+  {
+    "id": "VWLW01-013",
+    "typ": "order",
+    "tag": "VPI-Berechnung",
+    "fall": "Für ein Lernmodul wird die Reihenfolge trainiert. (Variante 13)",
+    "frage": "Bringe die Schritte der VPI-Ermittlung in Reihenfolge.",
+    "erklaerung": "Der VPI misst Preisänderungen eines Warenkorbs. Die Ermittlung umfasst Korb, Preiserhebung, Relatives und Aggregation mit Gewichten. Beispiel: Steigen hohe Gewichte, steigt der Index stärker. Merke: Korb → Preise → Relatives → Gewichte.",
+    "esel": "Korb → Preise → Index",
+    "quelle": {
+      "kapitel": "Kapitel 4.4 Verbraucherpreisindex (VPI)",
+      "seite": "68-70"
+    },
+    "schwierigkeit": "leicht",
+    "richtigeReihenfolge": [
+      "Warenkorb festlegen",
+      "Preise erheben",
+      "Preisrelatives je Gut",
+      "Gewichten und aggregieren"
+    ]
+  },
+  {
+    "id": "VWLW01-014",
+    "typ": "mc",
+    "tag": "Wirtschaftskreislauf",
+    "fall": "Ein Übungsblatt fordert eine knappe Begründung. (Variante 14)",
+    "frage": "Welche Ströme bildet der einfache Wirtschaftskreislauf ab?",
+    "erklaerung": "Der Wirtschaftskreislauf zeigt gegenläufige Güter- und Geldströme zwischen Haushalten und Unternehmen und in erweiterten Modellen Staat, Finanzsektor und Ausland. Er ordnet Einkommen, Ausgaben, Produktion und Verwendung und zeigt Ansatzpunkte für wirtschaftspolitische Eingriffe. Beispiel: Haushalte erhalten Löhne und kaufen Güter; Unternehmen zahlen Löhne und verkaufen Güter; der Staat erhebt Steuern und zahlt Transfers. Merke: Geld- und Güterstrom verlaufen entgegengesetzt; Störungen wirken kreislaufweit.",
+    "esel": "Güter ↔ Geld",
+    "quelle": {
+      "kapitel": "Kapitel 2 Wirtschaftskreislauf",
+      "seite": "32-34"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Güter- und Geldstrom",
+      "Nur Güterstrom",
+      "Nur Geldpolitik",
+      "Nur Staatseinnahmen"
+    ],
+    "loesung": "Güter- und Geldstrom"
+  },
+  {
+    "id": "VWLW01-015",
+    "typ": "order",
+    "tag": "Erweiterter Kreislauf",
+    "fall": "Im Test soll das Konzept präzise wiedergegeben werden. (Variante 15)",
+    "frage": "Ordne typische Erweiterungen des Kreislaufs.",
+    "erklaerung": "Der Wirtschaftskreislauf zeigt gegenläufige Ströme. Erweitert kommen Finanzsektor, Staat und Ausland hinzu. Beispiel: Sparen finanziert Investitionen; Steuern/Transfers verändern Einkommen; Ex/Im verbinden das Ausland. Merke: Einfach → Finanz → Staat → Ausland.",
+    "esel": "Einfach → Finanz → Staat → Ausland",
+    "quelle": {
+      "kapitel": "Kapitel 2.2 Erweiterter Wirtschaftskreislauf",
+      "seite": "34-36"
+    },
+    "schwierigkeit": "leicht",
+    "richtigeReihenfolge": [
+      "Haushalte/Unternehmen",
+      "Finanzsektor (Sparen/Investieren)",
+      "Staat (Steuern/Transfers)",
+      "Ausland (Ex/Im)"
+    ]
+  },
+  {
+    "id": "VWLW01-016",
+    "typ": "justify",
+    "tag": "Kreislaufstörung",
+    "fall": "Ein Kolloquium fragt nach der korrekten Einordnung. (Variante 16)",
+    "frage": "Warum übertragen sich Schocks auf den gesamten Kreislauf?",
+    "erklaerung": "Schocks verändern Einkommen und Nachfrage und wirken daher über mehrere Kreislaufströme. Über verknüpfte Zahlungs- und Güterströme werden Effekte weitergegeben. Beispiel: Ein Nachfragerückgang senkt Produktion, Löhne und Konsum. Merke: Alles hängt zusammen – eine Störung bleibt nicht lokal.",
+    "esel": "Alles hängt zusammen",
+    "quelle": {
+      "kapitel": "Kapitel 2.2 Erweiterter Wirtschaftskreislauf",
+      "seite": "35-36"
+    },
+    "schwierigkeit": "leicht",
+    "stichwoerter": [
+      "Einkommenskanal",
+      "Nachfragekanal",
+      "Multiplikation über Ströme"
+    ]
+  },
+  {
+    "id": "VWLW01-017",
+    "typ": "input",
+    "tag": "Entstehungsrechnung",
+    "fall": "In einer Prüfungssimulation soll erklärt werden, welche Größen die Produktionsseite des BIP umfasst.",
+    "frage": "Welche Größen werden in der Entstehungsrechnung des BIP betrachtet?",
+    "erklaerung": "Die Entstehungsrechnung zeigt, in welchen Wirtschaftsbereichen Wertschöpfung entsteht. Sie summiert die Bruttowertschöpfung aller Sektoren zuzüglich Gütersteuern abzüglich Subventionen, um das BIP zu berechnen.",
+    "esel": "Produktion – Vorleistungen + Steuern – Subventionen",
+    "quelle": { 
+      "kapitel": "2.3.2 Entstehungsrechnung", 
+      "seite": "39" 
+    },
+    "schwierigkeit": "mittel",
+    "korrekteAntworten": [
+      "Wertschöpfung nach Wirtschaftsbereichen",
+      "Produktionswert minus Vorleistungen",
+      "Summe der Bruttowertschöpfungen aller Sektoren",
+      "plus Gütersteuern minus Gütersubventionen"
+    ]
+  },
+  {
+    "id": "VWLW01-018",
+    "typ": "justify",
+    "tag": "Außenbeitrag",
+    "fall": "Ein Azubi soll erklären, wie der Außenbeitrag das Bruttoinlandsprodukt beeinflusst.",
+    "frage": "Wie wirkt sich ein positiver bzw. negativer Außenbeitrag auf das BIP aus?",
+    "erklaerung": "Ein positiver Außenbeitrag (Exporte größer als Importe) erhöht das BIP, weil inländische Produktion im Ausland nachgefragt wird. Ein negativer Außenbeitrag verringert das BIP, da mehr Güter importiert als exportiert werden. Diese Komponente zeigt, wie stark eine Volkswirtschaft vom Außenhandel abhängt.",
+    "esel": "Mehr Export = Plus im BIP",
+    "quelle": { 
+      "kapitel": "2.3.2 Verwendungsrechnung", 
+      "seite": "40" 
+    },
+    "schwierigkeit": "mittel",
+    "stichwoerter": [
+      "Exporte größer Importe",
+      "positiver Außenbeitrag erhöht BIP",
+      "negativer Außenbeitrag senkt BIP"
+    ]
+  },
+  {
+    "id": "VWLW01-019",
+    "typ": "mc",
+    "tag": "Inland vs. Inländer",
+    "fall": "Ein Teammeeting möchte die Grundlogik prüfen. (Variante 19)",
+    "frage": "Welche der folgendens Konzept nutzt das BIP?",
+    "erklaerung": "Das BIP folgt dem Inlandskonzept und erfasst Wertschöpfung im Wirtschaftsgebiet. Das Inländerkonzept (z. B. BNE) ordnet nach Wohnsitz der Wirtschaftssubjekte. Für Vergleiche ist die Unterscheidung zentral. Merke: BIP = wo; BNE = wer.",
+    "esel": "BIP = wo",
+    "quelle": {
+      "kapitel": "Kapitel 2.3.1 Inländer- und Inlandskonzept",
+      "seite": "38"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Inlandskonzept",
+      "Inländerkonzept",
+      "Staatsbürgerkonzept",
+      "Nur Exporte"
+    ],
+    "loesung": "Inlandskonzept"
+  },
+  {
+    "id": "VWLW01-020",
+    "typ": "mc",
+    "tag": "Polypol",
+    "fall": "Für ein Lernmodul wird die Reihenfolge trainiert. (Variante 20)",
+    "frage": "Was kennzeichnet ein Polypol mit vollkommener Konkurrenz?",
+    "erklaerung": "Im Polypol sind einzelne Anbieter Preisnehmer. Der Marktpreis bildet sich aus Angebot und Nachfrage. Beispiel: Produktivitätsfortschritt verschiebt das Angebot nach rechts. Merke: Viele – Preis vorgegeben.",
+    "esel": "Viele = Preis vorgegeben",
+    "quelle": {
+      "kapitel": "Kapitel 3.1.2 Marktformen – Polypol",
+      "seite": "45-47"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Viele Anbieter/Nachfrager, Preisnahme",
+      "Ein Anbieter mit Marktmacht",
+      "Wenige Anbieter, Kollusion",
+      "Administrativ festgelegte Preise"
+    ],
+    "loesung": "Viele Anbieter/Nachfrager, Preisnahme"
+  },
+  {
+    "id": "VWLW01-021",
+    "typ": "input",
+    "tag": "Nachfragegesetz",
+    "fall": "Ein Übungsblatt fordert eine knappe Begründung. (Variante 21)",
+    "frage": "Wie zeigt sich das Nachfragegesetz im Alltag, wenn der Preis eines Gutes steigt?",
+    "erklaerung": "Steigt der Preis eines Gutes, sinkt ceteris paribus die nachgefragte Menge, und umgekehrt. Das ist Grundlage fallender Nachfragekurven. Beispiel: Höherer Preis für Gut A senkt die Kaufmenge. Merke: Teurer → weniger.",
+    "esel": "Teurer → weniger",
+    "quelle": {
+      "kapitel": "Kapitel 3.2 Nachfrage",
+      "seite": "48-50"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "Preis hoch",
+      "Menge runter",
+      "ceteris paribus",
+      "Bei steigendem Preis sinkt die nachgefragte Menge",
+      "Bei fallendem Preis steigt die nachgefragte Menge",
+      "Zwischen Preis und Nachfragemenge besteht ein umgekehrter Zusammenhang",
+      "Das Nachfragegesetz beschreibt eine negative Preis-Mengen-Beziehung",
+      "Preis steigt → Nachfrage sinkt",
+      "Preis fällt → Nachfrage steigt",
+      "Negativer Zusammenhang zwischen Preis und Nachfrage"
+    ]
+  },
+  {
+    "id": "VWLW01-022",
+    "typ": "order",
+    "tag": "Gleichgewicht",
+    "fall": "Im Test soll das Konzept präzise wiedergegeben werden. (Variante 22)",
+    "frage": "Sortiere die Schritte zur Bestimmung von Preis und Menge.",
+    "erklaerung": "Das Gleichgewicht liegt dort, wo Angebot und Nachfrage übereinstimmen. Mathematisch wird durch Gleichsetzen gelöst. Anschließend lassen sich Preis und Menge bestimmen. Merke: Gleichsetzen → P* → Q*.",
+    "esel": "Gleichsetzen → P* → Q*",
+    "quelle": {
+      "kapitel": "Kapitel 3.4 Preisbildung im Polypol",
+      "seite": "53-56"
+    },
+    "schwierigkeit": "leicht",
+    "richtigeReihenfolge": [
+      "Funktionen aufstellen",
+      "Gleichsetzen",
+      "Preis berechnen",
+      "Menge bestimmen"
+    ]
+  },
+  {
+    "id": "VWLW01-023",
+    "typ": "justify",
+    "tag": "Vollkommener Markt",
+    "fall": "Ein Kolloquium fragt nach der korrekten Einordnung. (Variante 23)",
+    "frage": "Warum hat der Preis hohe Informationsqualität?",
+    "erklaerung": "Beim vollkommenen Markt sorgen homogene Güter, Transparenz und keine Präferenzen für informative Preise. Abweichungen führen zu Preisspielräumen. Beispiel: Qualitätsunterschiede mindern die Vergleichbarkeit. Merke: Gleichheit + Information = gutes Signal.",
+    "esel": "Gleich + Info = Signal",
+    "quelle": {
+      "kapitel": "Kapitel 3.1.3 Vollkommener Markt",
+      "seite": "47"
+    },
+    "schwierigkeit": "leicht",
+    "stichwoerter": [
+      "Homogenität",
+      "Transparenz",
+      "keine Präferenzen"
+    ]
+  },
+  {
+    "id": "VWLW01-024",
+    "typ": "mc",
+    "tag": "Geldarten",
+    "fall": "Zur Prüfungsvorbereitung wird die Kerndefinition abgefragt. (Variante 24)",
+    "frage": "Welche Zuordnung ist korrekt?",
+    "erklaerung": "Bargeld ist gesetzliches Zahlungsmittel; Buchgeld sind Sichteinlagen bei Banken. Fiatgeld hat keinen inneren Sachwert und ist staatlich legitimiert. Beispiel: Kartenzahlung nutzt Buchgeld. Merke: Bar = gesetzlich; Buchgeld = Bankeinlage.",
+    "esel": "Bar = gesetzlich",
+    "quelle": {
+      "kapitel": "Kapitel 4.1 Arten des Geldes",
+      "seite": "59"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Bargeld = gesetzliches Zahlungsmittel",
+      "Fiatgeld = goldgedeckt",
+      "Buchgeld = Zentralbankgeld",
+      "Warengeld = Buchgeld"
+    ],
+    "loesung": "Bargeld = gesetzliches Zahlungsmittel"
+  },
+  {
+    "id": "VWLW01-025",
+    "typ": "match",
+    "tag": "Geldmengen",
+    "fall": "Im Unterricht wird eine kurze Anwendung diskutiert. (Variante 25)",
+    "frage": "Ordne M1–M3 passenden Beispielen zu.",
+    "erklaerung": "Geldmengen ordnen Zahlungsmittel nach Liquidität. M1 ist am liquidesten, M2 und M3 erweitern um weniger liquide Anlagen. Beispiel: Spareinlagen fallen in M2. Merke: Höhere Zahl = weniger liquide.",
+    "esel": "Höhere Zahl = weniger liquide",
+    "quelle": {
+      "kapitel": "Kapitel 4.3.2 Geldmengen",
+      "seite": "62"
+    },
+    "schwierigkeit": "leicht",
+    "paare": {
+      "M1": "Bargeld+Sichteinlagen",
+      "M2": "M1+kurzfr. Termineinlagen/Spareinlagen",
+      "M3": "M2+Geldmarktfonds u. ä."
+    }
+  },
+  {
+    "id": "VWLW01-026",
+    "typ": "order",
+    "tag": "VPI-Berechnung",
+    "fall": "Ein Teammeeting möchte die Grundlogik prüfen. (Variante 26)",
+    "frage": "Bringe die Schritte der VPI-Ermittlung in Reihenfolge.",
+    "erklaerung": "Der VPI misst Preisänderungen eines Warenkorbs. Die Ermittlung umfasst Korb, Preiserhebung, Relatives und Aggregation mit Gewichten. Beispiel: Steigen hohe Gewichte, steigt der Index stärker. Merke: Korb → Preise → Relatives → Gewichte.",
+    "esel": "Korb → Preise → Index",
+    "quelle": {
+      "kapitel": "Kapitel 4.4 Verbraucherpreisindex (VPI)",
+      "seite": "68-70"
+    },
+    "schwierigkeit": "leicht",
+    "richtigeReihenfolge": [
+      "Warenkorb festlegen",
+      "Preise erheben",
+      "Preisrelatives je Gut",
+      "Gewichten und aggregieren"
+    ]
+  },
+  {
+    "id": "VWLW01-027",
+    "typ": "mc",
+    "tag": "Wirtschaftskreislauf",
+    "fall": "Für ein Lernmodul wird die Reihenfolge trainiert. (Variante 27)",
+    "frage": "Welche Ströme bildet der einfache Wirtschaftskreislauf ab?",
+    "erklaerung": "Der Wirtschaftskreislauf zeigt gegenläufige Güter- und Geldströme zwischen Haushalten und Unternehmen und in erweiterten Modellen Staat, Finanzsektor und Ausland. Er ordnet Einkommen, Ausgaben, Produktion und Verwendung und zeigt Ansatzpunkte für wirtschaftspolitische Eingriffe. Beispiel: Haushalte erhalten Löhne und kaufen Güter; Unternehmen zahlen Löhne und verkaufen Güter; der Staat erhebt Steuern und zahlt Transfers. Merke: Geld- und Güterstrom verlaufen entgegengesetzt; Störungen wirken kreislaufweit.",
+    "esel": "Güter ↔ Geld",
+    "quelle": {
+      "kapitel": "Kapitel 2 Wirtschaftskreislauf",
+      "seite": "32-34"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Güter- und Geldstrom",
+      "Nur Güterstrom",
+      "Nur Geldpolitik",
+      "Nur Staatseinnahmen"
+    ],
+    "loesung": "Güter- und Geldstrom"
+  },
+  {
+    "id": "VWLW01-028",
+    "typ": "order",
+    "tag": "Erweiterter Kreislauf",
+    "fall": "Ein Übungsblatt fordert eine knappe Begründung. (Variante 28)",
+    "frage": "Ordne typische Erweiterungen des Kreislaufs.",
+    "erklaerung": "Der Wirtschaftskreislauf zeigt gegenläufige Ströme. Erweitert kommen Finanzsektor, Staat und Ausland hinzu. Beispiel: Sparen finanziert Investitionen; Steuern/Transfers verändern Einkommen; Ex/Im verbinden das Ausland. Merke: Einfach → Finanz → Staat → Ausland.",
+    "esel": "Einfach → Finanz → Staat → Ausland",
+    "quelle": {
+      "kapitel": "Kapitel 2.2 Erweiterter Wirtschaftskreislauf",
+      "seite": "34-36"
+    },
+    "schwierigkeit": "leicht",
+    "richtigeReihenfolge": [
+      "Haushalte/Unternehmen",
+      "Finanzsektor (Sparen/Investieren)",
+      "Staat (Steuern/Transfers)",
+      "Ausland (Ex/Im)"
+    ]
+  },
+  {
+    "id": "VWLW01-029",
+    "typ": "justify",
+    "tag": "Kreislaufstörung",
+    "fall": "Im Test soll das Konzept präzise wiedergegeben werden. (Variante 29)",
+    "frage": "Warum übertragen sich Schocks auf den gesamten Kreislauf?",
+    "erklaerung": "Schocks verändern Einkommen und Nachfrage und wirken daher über mehrere Kreislaufströme. Über verknüpfte Zahlungs- und Güterströme werden Effekte weitergegeben. Beispiel: Ein Nachfragerückgang senkt Produktion, Löhne und Konsum. Merke: Alles hängt zusammen – eine Störung bleibt nicht lokal.",
+    "esel": "Alles hängt zusammen",
+    "quelle": {
+      "kapitel": "Kapitel 2.2 Erweiterter Wirtschaftskreislauf",
+      "seite": "35-36"
+    },
+    "schwierigkeit": "leicht",
+    "stichwoerter": [
+      "Einkommenskanal",
+      "Nachfragekanal",
+      "Multiplikation über Ströme"
+    ]
+  },
+  {
+    "id": "VWLW01-030",
+    "typ": "calc",
+    "tag": "Verwendungsrechnung",
+    "fall": "Ein Aufgabenblatt fragt nach der Berechnung des BIP über die Verwendungsseite.",
+    "frage": "Berechne das Bruttoinlandsprodukt (BIP) nach der Verwendungsrechnung mit folgenden Werten: privat Konsum = {C} Mrd. €, staatlicher Konsum = {G} Mrd. €, Bruttoinvestitionen = {I} Mrd. €, Außenbeiträge (Exporte) = {X} Mrd. € und Importe = {M} Mrd. €.",
+    "erklaerung": "Die Verwendungsrechnung zeigt, wie das BIP nach Nachfragekomponenten verwendet wird: BIP = C + G + I + (X − M). Das Bruttoinlandsprodukt (BIP) ergibt sich aus der Summe des privaten Konsums (C), des staatlichen Konsums (G), der Bruttoinvestitionen (I) sowie des Außenbeitrags, also den Exporten (X) abzüglich der Importe (M). Mit den angegebenen Werten ergibt sich 3100 Mrd. €.",
+    "esel": "BIP = C + G + I + (X − M)",
+    "quelle": { 
+      "kapitel": "2.3.2 Verwendungsrechnung", 
+      "seite": "40" 
+    },
+    "schwierigkeit": "mittel",
+    "parameter": {
+    "C": [1000, 10000],
+    "G": [500, 3000],
+    "I": [200, 1200],
+    "X": [100, 1500],
+    "M": [200, 1000]
+  },
+  "formel": "C + G + I + (X - M)"
+  },
+  {
+    "id": "VWLW01-031",
+    "typ": "calc",
+    "tag": "Außenbeitrag",
+    "fall": "In einer Übungsaufgabe soll der Außenbeitrag rechnerisch bestimmt werden.",
+    "frage": "Berechne den Außenbeitrag, wenn Exporte {X} und Importe {M} gegeben sind.",
+    "erklaerung": "Der Außenbeitrag ergibt sich als Differenz aus Exporten minus Importen. Bei Exporte = 480 Mrd. € und Importe = 450 Mrd. € beträgt der Außenbeitrag +30 Mrd. €. Ein positiver Wert zeigt einen Exportüberschuss.",
+    "esel": "Außenbeitrag = Exporte − Importe",
+    "quelle": { 
+      "kapitel": "2.3.2 Verwendungsrechnung", 
+      "seite": "40" 
+    },
+    "schwierigkeit": "mittel",
+    "parameter": {
+      "X": [100, 10000],
+      "M": [100, 10000] 
+    },
+    "formel": "X - M"
+  },
+  {
+    "id": "VWLW01-032",
+    "typ": "mc",
+    "tag": "Inland vs. Inländer",
+    "fall": "Im Unterricht wird eine kurze Anwendung diskutiert. (Variante 32)",
+    "frage": "Welches Konzept nutzt das BIP?",
+    "erklaerung": "Das BIP folgt dem Inlandskonzept und erfasst Wertschöpfung im Wirtschaftsgebiet. Das Inländerkonzept (z. B. BNE) ordnet nach Wohnsitz der Wirtschaftssubjekte. Für Vergleiche ist die Unterscheidung zentral. Merke: BIP = wo; BNE = wer.",
+    "esel": "BIP = wo",
+    "quelle": {
+      "kapitel": "Kapitel 2.3.1 Inländer- und Inlandskonzept",
+      "seite": "38"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Inlandskonzept",
+      "Inländerkonzept",
+      "Staatsbürgerkonzept",
+      "Nur Exporte"
+    ],
+    "loesung": "Inlandskonzept"
+  },
+  {
+    "id": "VWLW01-033",
+    "typ": "mc",
+    "tag": "Polypol",
+    "fall": "Ein Teammeeting möchte die Grundlogik prüfen. (Variante 33)",
+    "frage": "Was kennzeichnet ein Polypol mit vollkommener Konkurrenz?",
+    "erklaerung": "Im Polypol sind einzelne Anbieter Preisnehmer. Der Marktpreis bildet sich aus Angebot und Nachfrage. Beispiel: Produktivitätsfortschritt verschiebt das Angebot nach rechts. Merke: Viele – Preis vorgegeben.",
+    "esel": "Viele = Preis vorgegeben",
+    "quelle": {
+      "kapitel": "Kapitel 3.1.2 Marktformen – Polypol",
+      "seite": "45-47"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Viele Anbieter/Nachfrager, Preisnahme",
+      "Ein Anbieter mit Marktmacht",
+      "Wenige Anbieter, Kollusion",
+      "Administrativ festgelegte Preise"
+    ],
+    "loesung": "Viele Anbieter/Nachfrager, Preisnahme"
+  },
+  {
+    "id": "VWLW01-034",
+    "typ": "input",
+    "tag": "Nachfragegesetz",
+    "fall": "Für ein Lernmodul wird die Reihenfolge trainiert. (Variante 34)",
+    "frage": "Wie verändert sich die Position auf der Nachfragekurve bei einer Preissteigerung?",
+    "erklaerung": "Steigt der Preis eines Gutes, sinkt ceteris paribus die nachgefragte Menge, und umgekehrt. Das ist Grundlage fallender Nachfragekurven. Beispiel: Höherer Preis für Gut A senkt die Kaufmenge. Merke: Teurer → weniger.",
+    "esel": "Teurer → weniger",
+    "quelle": {
+      "kapitel": "Kapitel 3.2 Nachfrage",
+      "seite": "48-50"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "Preis hoch",
+      "Menge runter",
+      "ceteris paribus",
+      "Bei steigendem Preis sinkt die nachgefragte Menge",
+      "Bei fallendem Preis steigt die nachgefragte Menge",
+      "Zwischen Preis und Nachfragemenge besteht ein umgekehrter Zusammenhang",
+      "Das Nachfragegesetz beschreibt eine negative Preis-Mengen-Beziehung",
+      "Preis steigt → Nachfrage sinkt",
+      "Preis fällt → Nachfrage steigt",
+      "Negativer Zusammenhang zwischen Preis und Nachfrage"
+    ]
+  },
+  {
+    "id": "VWLW01-035",
+    "typ": "order",
+    "tag": "Gleichgewicht",
+    "fall": "Ein Übungsblatt fordert eine knappe Begründung. (Variante 35)",
+    "frage": "Stelle in Reihenfolge die Schritte zur Bestimmung von Preis und Menge.",
+    "erklaerung": "Das Gleichgewicht liegt dort, wo Angebot und Nachfrage übereinstimmen. Mathematisch wird durch Gleichsetzen gelöst. Anschließend lassen sich Preis und Menge bestimmen. Merke: Gleichsetzen → P* → Q*.",
+    "esel": "Gleichsetzen → P* → Q*",
+    "quelle": {
+      "kapitel": "Kapitel 3.4 Preisbildung im Polypol",
+      "seite": "53-56"
+    },
+    "schwierigkeit": "leicht",
+    "richtigeReihenfolge": [
+      "Funktionen aufstellen",
+      "Gleichsetzen",
+      "Preis berechnen",
+      "Menge bestimmen"
+    ]
+  },
+  {
+    "id": "VWLW01-036",
+    "typ": "justify",
+    "tag": "Vollkommener Markt",
+    "fall": "Im Test soll das Konzept präzise wiedergegeben werden. (Variante 36)",
+    "frage": "Warum hat der Preis hohe Informationsqualität?",
+    "erklaerung": "Beim vollkommenen Markt sorgen homogene Güter, Transparenz und keine Präferenzen für informative Preise. Abweichungen führen zu Preisspielräumen. Beispiel: Qualitätsunterschiede mindern die Vergleichbarkeit. Merke: Gleichheit + Information = gutes Signal.",
+    "esel": "Gleich + Info = Signal",
+    "quelle": {
+      "kapitel": "Kapitel 3.1.3 Vollkommener Markt",
+      "seite": "47"
+    },
+    "schwierigkeit": "leicht",
+    "stichwoerter": [
+      "Homogenität",
+      "Transparenz",
+      "keine Präferenzen"
+    ]
+  },
+  {
+    "id": "VWLW01-037",
+    "typ": "mc",
+    "tag": "Geldarten",
+    "fall": "Ein Kolloquium fragt nach der korrekten Einordnung. (Variante 37)",
+    "frage": "Welche der folgenden Zuordnung ist korrekt?",
+    "erklaerung": "Bargeld ist gesetzliches Zahlungsmittel; Buchgeld sind Sichteinlagen bei Banken. Fiatgeld hat keinen inneren Sachwert und ist staatlich legitimiert. Beispiel: Kartenzahlung nutzt Buchgeld. Merke: Bar = gesetzlich; Buchgeld = Bankeinlage.",
+    "esel": "Bar = gesetzlich",
+    "quelle": {
+      "kapitel": "Kapitel 4.1 Arten des Geldes",
+      "seite": "59"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Bargeld = gesetzliches Zahlungsmittel",
+      "Fiatgeld = goldgedeckt",
+      "Buchgeld = Zentralbankgeld",
+      "Warengeld = Buchgeld"
+    ],
+    "loesung": "Bargeld = gesetzliches Zahlungsmittel"
+  },
+  {
+    "id": "VWLW01-038",
+    "typ": "match",
+    "tag": "Geldmengen",
+    "fall": "Zur Prüfungsvorbereitung wird die Kerndefinition abgefragt. (Variante 38)",
+    "frage": "Bringe M1–M3 passenden Beispielen zu.",
+    "erklaerung": "Geldmengen ordnen Zahlungsmittel nach Liquidität. M1 ist am liquidesten, M2 und M3 erweitern um weniger liquide Anlagen. Beispiel: Spareinlagen fallen in M2. Merke: Höhere Zahl = weniger liquide.",
+    "esel": "Höhere Zahl = weniger liquide",
+    "quelle": {
+      "kapitel": "Kapitel 4.3.2 Geldmengen",
+      "seite": "62"
+    },
+    "schwierigkeit": "leicht",
+    "paare": {
+      "M1": "Bargeld+Sichteinlagen",
+      "M2": "M1+kurzfr. Termineinlagen/Spareinlagen",
+      "M3": "M2+Geldmarktfonds u. ä."
+    }
+  },
+  {
+    "id": "VWLW01-039",
+    "typ": "order",
+    "tag": "VPI-Berechnung",
+    "fall": "Im Unterricht wird eine kurze Anwendung diskutiert. (Variante 39)",
+    "frage": "Bringe die Schritte der VPI-Ermittlung in Reihenfolge.",
+    "erklaerung": "Der VPI misst Preisänderungen eines Warenkorbs. Die Ermittlung umfasst Korb, Preiserhebung, Relatives und Aggregation mit Gewichten. Beispiel: Steigen hohe Gewichte, steigt der Index stärker. Merke: Korb → Preise → Relatives → Gewichte.",
+    "esel": "Korb → Preise → Index",
+    "quelle": {
+      "kapitel": "Kapitel 4.4 Verbraucherpreisindex (VPI)",
+      "seite": "68-70"
+    },
+    "schwierigkeit": "leicht",
+    "richtigeReihenfolge": [
+      "Warenkorb festlegen",
+      "Preise erheben",
+      "Preisrelatives je Gut",
+      "Gewichten und aggregieren"
+    ]
+  },
+  {
+    "id": "VWLW01-040",
+    "typ": "mc",
+    "tag": "Wirtschaftskreislauf",
+    "fall": "Ein Teammeeting möchte die Grundlogik prüfen. (Variante 40)",
+    "frage": "Welche Ströme bildet der einfache Wirtschaftskreislauf ab?",
+    "erklaerung": "Der Wirtschaftskreislauf zeigt gegenläufige Güter- und Geldströme zwischen Haushalten und Unternehmen und in erweiterten Modellen Staat, Finanzsektor und Ausland. Er ordnet Einkommen, Ausgaben, Produktion und Verwendung und zeigt Ansatzpunkte für wirtschaftspolitische Eingriffe. Beispiel: Haushalte erhalten Löhne und kaufen Güter; Unternehmen zahlen Löhne und verkaufen Güter; der Staat erhebt Steuern und zahlt Transfers. Merke: Geld- und Güterstrom verlaufen entgegengesetzt; Störungen wirken kreislaufweit.",
+    "esel": "Güter ↔ Geld",
+    "quelle": {
+      "kapitel": "Kapitel 2 Wirtschaftskreislauf",
+      "seite": "32-34"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Güter- und Geldstrom",
+      "Nur Güterstrom",
+      "Nur Geldpolitik",
+      "Nur Staatseinnahmen"
+    ],
+    "loesung": "Güter- und Geldstrom"
+  },
+  {
+    "id": "VWLW01-041",
+    "typ": "order",
+    "tag": "Erweiterter Kreislauf",
+    "fall": "Für ein Lernmodul wird die Reihenfolge trainiert. (Variante 41)",
+    "frage": "Ordne typische Erweiterungen des Kreislaufs.",
+    "erklaerung": "Der Wirtschaftskreislauf zeigt gegenläufige Ströme. Erweitert kommen Finanzsektor, Staat und Ausland hinzu. Beispiel: Sparen finanziert Investitionen; Steuern/Transfers verändern Einkommen; Ex/Im verbinden das Ausland. Merke: Einfach → Finanz → Staat → Ausland.",
+    "esel": "Einfach → Finanz → Staat → Ausland",
+    "quelle": {
+      "kapitel": "Kapitel 2.2 Erweiterter Wirtschaftskreislauf",
+      "seite": "34-36"
+    },
+    "schwierigkeit": "leicht",
+    "richtigeReihenfolge": [
+      "Haushalte/Unternehmen",
+      "Finanzsektor (Sparen/Investieren)",
+      "Staat (Steuern/Transfers)",
+      "Ausland (Ex/Im)"
+    ]
+  },
+  {
+    "id": "VWLW01-042",
+    "typ": "justify",
+    "tag": "Kreislaufstörung",
+    "fall": "Ein Übungsblatt fordert eine knappe Begründung. (Variante 42)",
+    "frage": "Wie kann eine Störung im Finanzsektor den gesamten Wirtschaftskreislauf beeinflussen?",
+    "erklaerung": "Eine Finanzkrise mindert die Kreditvergabe, Unternehmen investieren weniger und Beschäftigung sinkt. Dadurch fallen Einkommen und Konsum, was den Kreislauf weiter abschwächt. Über diese Kettenreaktion breiten sich Störungen aus. Merke: Kreditklemme = Investitionsrückgang = Nachfrageschwäche.",
+    "esel": "Wenn Banken stocken, stockt alles.",
+    "quelle": {
+      "kapitel": "2.2 Erweiterter Wirtschaftskreislauf",
+      "seite": "35–36"
+    },
+    "schwierigkeit": "leicht",
+    "stichwoerter": [
+      "Finanzsektor",
+      "Kreditvergabe",
+      "Investitionsrückgang",
+      "Nachfragerückgang"
+    ]
+  },
+  {
+    "id": "VWLW01-043",
+    "typ": "justify",
+    "tag": "Verteilungsrechnung",
+    "fall": "Im Test soll das Konzept präzise wiedergegeben werden. (Variante 43)",
+    "frage": "Warum ist die Verteilungsrechnung des BIP wichtig für wirtschaftspolitische Analysen?",
+    "erklaerung": "Die Verteilungsrechnung zeigt, wie das im Produktionsprozess entstandene Einkommen auf Arbeit und Kapital verteilt wird. Sie dient der Beurteilung von Einkommensstrukturen, Lohnquote und sozialer Gerechtigkeit.",
+    "esel": "Verteilung = Einkommensteilung",
+    "quelle": {
+      "kapitel": "2.3.2 Verteilungsrechnung",
+      "seite": "40"
+    },
+    "schwierigkeit": "leicht",
+    "stichwoerter": [
+      "Einkommensstruktur",
+      "Lohnquote",
+      "Gewinnquote",
+      "soziale Gerechtigkeit"
+    ]
+  },
+  {
+    "id": "VWLW01-044",
+    "typ": "match",
+    "tag": "Inländer- vs. Inlandskonzept",
+    "fall": "In der Prüfungsvorbereitung sollen die Begriffe Inländer- und Inlandskonzept klar unterschieden werden.",
+    "frage": "Ordne die Konzepte den passenden Definitionen zu.",
+    "erklaerung": "Das Inlandskonzept bezieht sich auf die wirtschaftliche Tätigkeit innerhalb der Landesgrenzen. Das Inländerkonzept erfasst alle Personen und Unternehmen mit ständigem Wohnsitz im Inland, unabhängig davon, wo sie wirtschaften. BIP folgt dem Inlandskonzept, BNE dem Inländerkonzept.",
+    "esel": "BIP = wo; BNE = wer",
+    "quelle": { 
+      "kapitel": "2.3.1 Inländer- und Inlandskonzept", 
+      "seite": "38" 
+    },
+    "schwierigkeit": "mittel",
+    "paare": {
+      "Inlandskonzept": "Wirtschaftsleistung innerhalb der Landesgrenzen",
+      "Inländerkonzept": "Einkommen der ständigen Inländer weltweit"
+    }
+  },
+  {
+    "id": "VWLW01-045",
+    "typ": "mc",
+    "tag": "Inland vs. Inländer",
+    "fall": "Zur Prüfungsvorbereitung wird die Kerndefinition abgefragt. (Variante 45)",
+    "frage": "Welches Konzept nutzt das BIP?",
+    "erklaerung": "Das BIP folgt dem Inlandskonzept und erfasst Wertschöpfung im Wirtschaftsgebiet. Das Inländerkonzept (z. B. BNE) ordnet nach Wohnsitz der Wirtschaftssubjekte. Für Vergleiche ist die Unterscheidung zentral. Merke: BIP = wo; BNE = wer.",
+    "esel": "BIP = wo",
+    "quelle": {
+      "kapitel": "Kapitel 2.3.1 Inländer- und Inlandskonzept",
+      "seite": "38"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Inlandskonzept",
+      "Inländerkonzept",
+      "Staatsbürgerkonzept",
+      "Nur Exporte"
+    ],
+    "loesung": "Inlandskonzept"
+  },
+  {
+    "id": "VWLW01-046",
+    "typ": "mc",
+    "tag": "Polypol",
+    "fall": "Im Unterricht wird eine kurze Anwendung diskutiert. (Variante 46)",
+    "frage": "Was kennzeichnet ein Polypol mit vollkommener Konkurrenz?",
+    "erklaerung": "Im Polypol sind einzelne Anbieter Preisnehmer. Der Marktpreis bildet sich aus Angebot und Nachfrage. Beispiel: Produktivitätsfortschritt verschiebt das Angebot nach rechts. Merke: Viele – Preis vorgegeben.",
+    "esel": "Viele = Preis vorgegeben",
+    "quelle": {
+      "kapitel": "Kapitel 3.1.2 Marktformen – Polypol",
+      "seite": "45-47"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Viele Anbieter/Nachfrager, Preisnahme",
+      "Ein Anbieter mit Marktmacht",
+      "Wenige Anbieter, Kollusion",
+      "Administrativ festgelegte Preise"
+    ],
+    "loesung": "Viele Anbieter/Nachfrager, Preisnahme"
+  },
+  {
+    "id": "VWLW01-047",
+    "typ": "input",
+    "tag": "Nachfragegesetz",
+    "fall": "Ein Teammeeting möchte die Grundlogik prüfen. (Variante 47)",
+    "frage": "Welche Bedingung gilt beim Nachfragegesetz, damit der negative Zusammenhang zwischen Preis und Menge gilt?",
+    "erklaerung": "Steigt der Preis eines Gutes, sinkt ceteris paribus die nachgefragte Menge, und umgekehrt. Das ist Grundlage fallender Nachfragekurven. Beispiel: Höherer Preis für Gut A senkt die Kaufmenge. Merke: Teurer → weniger.",
+    "esel": "Teurer → weniger",
+    "quelle": {
+      "kapitel": "Kapitel 3.2 Nachfrage",
+      "seite": "48-50"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "Preis hoch",
+      "Menge runter",
+      "ceteris paribus",
+      "Bei steigendem Preis sinkt die nachgefragte Menge",
+      "Bei fallendem Preis steigt die nachgefragte Menge",
+      "Zwischen Preis und Nachfragemenge besteht ein umgekehrter Zusammenhang",
+      "Das Nachfragegesetz beschreibt eine negative Preis-Mengen-Beziehung",
+      "Preis steigt → Nachfrage sinkt",
+      "Preis fällt → Nachfrage steigt",
+      "Negativer Zusammenhang zwischen Preis und Nachfrage"
+    ]
+  },
+  {
+    "id": "VWLW01-048",
+    "typ": "order",
+    "tag": "Gleichgewicht",
+    "fall": "Für ein Lernmodul wird die Reihenfolge trainiert. (Variante 48)",
+    "frage": "Sortiere die Schritte zur Bestimmung von Preis und Menge.",
+    "erklaerung": "Das Gleichgewicht liegt dort, wo Angebot und Nachfrage übereinstimmen. Mathematisch wird durch Gleichsetzen gelöst. Anschließend lassen sich Preis und Menge bestimmen. Merke: Gleichsetzen → P* → Q*.",
+    "esel": "Gleichsetzen → P* → Q*",
+    "quelle": {
+      "kapitel": "Kapitel 3.4 Preisbildung im Polypol",
+      "seite": "53-56"
+    },
+    "schwierigkeit": "leicht",
+    "richtigeReihenfolge": [
+      "Funktionen aufstellen",
+      "Gleichsetzen",
+      "Preis berechnen",
+      "Menge bestimmen"
+    ]
+  },
+  {
+    "id": "VWLW01-049",
+    "typ": "justify",
+    "tag": "Vollkommener Markt",
+    "fall": "Ein Übungsblatt fordert eine knappe Begründung. (Variante 49)",
+    "frage": "Warum hat der Preis hohe Informationsqualität?",
+    "erklaerung": "Beim vollkommenen Markt sorgen homogene Güter, Transparenz und keine Präferenzen für informative Preise. Abweichungen führen zu Preisspielräumen. Beispiel: Qualitätsunterschiede mindern die Vergleichbarkeit. Merke: Gleichheit + Information = gutes Signal.",
+    "esel": "Gleich + Info = Signal",
+    "quelle": {
+      "kapitel": "Kapitel 3.1.3 Vollkommener Markt",
+      "seite": "47"
+    },
+    "schwierigkeit": "leicht",
+    "stichwoerter": [
+      "Homogenität",
+      "Transparenz",
+      "keine Präferenzen"
+    ]
+  },
+  {
+    "id": "VWLW01-050",
+    "typ": "mc",
+    "tag": "Geldarten",
+    "fall": "Im Test soll das Konzept präzise wiedergegeben werden. (Variante 50)",
+    "frage": "Welche Zuordnung ist korrekt?",
+    "erklaerung": "Bargeld ist gesetzliches Zahlungsmittel; Buchgeld sind Sichteinlagen bei Banken. Fiatgeld hat keinen inneren Sachwert und ist staatlich legitimiert. Beispiel: Kartenzahlung nutzt Buchgeld. Merke: Bar = gesetzlich; Buchgeld = Bankeinlage.",
+    "esel": "Bar = gesetzlich",
+    "quelle": {
+      "kapitel": "Kapitel 4.1 Arten des Geldes",
+      "seite": "59"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Bargeld = gesetzliches Zahlungsmittel",
+      "Fiatgeld = goldgedeckt",
+      "Buchgeld = Zentralbankgeld",
+      "Warengeld = Buchgeld"
+    ],
+    "loesung": "Bargeld = gesetzliches Zahlungsmittel"
+  },
+  {
+    "id": "VWLW01-051",
+    "typ": "match",
+    "tag": "Geldmengen",
+    "fall": "Ein Kolloquium fragt nach der korrekten Einordnung. (Variante 51)",
+    "frage": "Ordne M1–M3 passenden Beispielen zu.",
+    "erklaerung": "Geldmengen ordnen Zahlungsmittel nach Liquidität. M1 ist am liquidesten, M2 und M3 erweitern um weniger liquide Anlagen. Beispiel: Spareinlagen fallen in M2. Merke: Höhere Zahl = weniger liquide.",
+    "esel": "Höhere Zahl = weniger liquide",
+    "quelle": {
+      "kapitel": "Kapitel 4.3.2 Geldmengen",
+      "seite": "62"
+    },
+    "schwierigkeit": "leicht",
+    "paare": {
+      "M1": "Bargeld+Sichteinlagen",
+      "M2": "M1+kurzfr. Termineinlagen/Spareinlagen",
+      "M3": "M2+Geldmarktfonds u. ä."
+    }
+  },
+  {
+    "id": "VWLW01-052",
+    "typ": "order",
+    "tag": "VPI-Berechnung",
+    "fall": "Zur Prüfungsvorbereitung wird die Kerndefinition abgefragt. (Variante 52)",
+    "frage": "Bringe die Schritte der VPI-Ermittlung in Reihenfolge.",
+    "erklaerung": "Der VPI misst Preisänderungen eines Warenkorbs. Die Ermittlung umfasst Korb, Preiserhebung, Relatives und Aggregation mit Gewichten. Beispiel: Steigen hohe Gewichte, steigt der Index stärker. Merke: Korb → Preise → Relatives → Gewichte.",
+    "esel": "Korb → Preise → Index",
+    "quelle": {
+      "kapitel": "Kapitel 4.4 Verbraucherpreisindex (VPI)",
+      "seite": "68-70"
+    },
+    "schwierigkeit": "leicht",
+    "richtigeReihenfolge": [
+      "Warenkorb festlegen",
+      "Preise erheben",
+      "Preisrelatives je Gut",
+      "Gewichten und aggregieren"
+    ]
+  },
+  {
+    "id": "VWLW01-053",
+    "typ": "mc",
+    "tag": "Wirtschaftskreislauf",
+    "fall": "Im Unterricht wird eine kurze Anwendung diskutiert. (Variante 53)",
+    "frage": "Welche Ströme bildet der einfache Wirtschaftskreislauf ab?",
+    "erklaerung": "Der Wirtschaftskreislauf zeigt gegenläufige Güter- und Geldströme zwischen Haushalten und Unternehmen und in erweiterten Modellen Staat, Finanzsektor und Ausland. Er ordnet Einkommen, Ausgaben, Produktion und Verwendung und zeigt Ansatzpunkte für wirtschaftspolitische Eingriffe. Beispiel: Haushalte erhalten Löhne und kaufen Güter; Unternehmen zahlen Löhne und verkaufen Güter; der Staat erhebt Steuern und zahlt Transfers. Merke: Geld- und Güterstrom verlaufen entgegengesetzt; Störungen wirken kreislaufweit.",
+    "esel": "Güter ↔ Geld",
+    "quelle": {
+      "kapitel": "Kapitel 2 Wirtschaftskreislauf",
+      "seite": "32-34"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Güter- und Geldstrom",
+      "Nur Güterstrom",
+      "Nur Geldpolitik",
+      "Nur Staatseinnahmen"
+    ],
+    "loesung": "Güter- und Geldstrom"
+  },
+  {
+    "id": "VWLW01-054",
+    "typ": "order",
+    "tag": "Erweiterter Kreislauf",
+    "fall": "Ein Teammeeting möchte die Grundlogik prüfen. (Variante 54)",
+    "frage": "Ordne typische Erweiterungen des Kreislaufs.",
+    "erklaerung": "Der Wirtschaftskreislauf zeigt gegenläufige Ströme. Erweitert kommen Finanzsektor, Staat und Ausland hinzu. Beispiel: Sparen finanziert Investitionen; Steuern/Transfers verändern Einkommen; Ex/Im verbinden das Ausland. Merke: Einfach → Finanz → Staat → Ausland.",
+    "esel": "Einfach → Finanz → Staat → Ausland",
+    "quelle": {
+      "kapitel": "Kapitel 2.2 Erweiterter Wirtschaftskreislauf",
+      "seite": "34-36"
+    },
+    "schwierigkeit": "leicht",
+    "richtigeReihenfolge": [
+      "Haushalte/Unternehmen",
+      "Finanzsektor (Sparen/Investieren)",
+      "Staat (Steuern/Transfers)",
+      "Ausland (Ex/Im)"
+    ]
+  },
+  {
+    "id": "VWLW01-055",
+    "typ": "justify",
+    "tag": "Kreislaufstörung",
+    "fall": "Für ein Lernmodul wird die Reihenfolge trainiert. (Variante 55)",
+    "frage": "Welche Folgen hat eine sinkende Konsumnachfrage für den Wirtschaftskreislauf?",
+    "erklaerung": "Fällt der Konsum, sinken Umsätze der Unternehmen. Diese produzieren weniger, entlassen Personal, und das Einkommen der Haushalte verringert sich. Der Kreislauf verstärkt sich abwärtsgerichtet. Merke: Weniger Konsum = weniger Einkommen = weniger Nachfrage.",
+    "esel": "Konsum zieht Einkommen mit.",
+    "quelle": {
+      "kapitel": "2.2 Erweiterter Wirtschaftskreislauf",
+      "seite": "35–36"
+    },
+    "schwierigkeit": "leicht",
+    "stichwoerter": [
+      "Nachfragerückgang",
+      "Produktion",
+      "Beschäftigung",
+      "Einkommen"
+    ]
+  },
+  {
+    "id": "VWLW01-056",
+    "typ": "mc",
+    "tag": "BIP-Vergleich",
+    "fall": "Im Unterricht sollen die Zusammenhänge der drei BIP-Rechnungen besprochen werden.",
+    "frage": "Welche Aussage beschreibt den Zusammenhang der drei BIP-Rechnungsarten korrekt?",
+    "erklaerung": "Entstehungs-, Verwendungs- und Verteilungsrechnung bilden drei Perspektiven auf dieselbe wirtschaftliche Gesamtleistung. Sie sind methodisch unterschiedlich, ergeben aber das gleiche BIP.",
+    "esel": "Drei Wege – ein Ergebnis",
+    "quelle": { 
+      "kapitel": "2.3.2 Volkswirtschaftliche Gesamtrechnung", 
+      "seite": "39–40" 
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Alle drei Rechnungsarten führen rechnerisch zum selben Ergebnis.",
+      "Die Verteilungsrechnung ist immer höher als die Verwendungsrechnung.",
+      "Die Entstehungsrechnung berücksichtigt keine Steuern.",
+      "Die Verwendungsrechnung wird nur in Krisenzeiten verwendet."
+    ],
+    "loesung": "Alle drei Rechnungsarten führen rechnerisch zum selben Ergebnis."
+  },
+  {
+    "id": "VWLW01-057",
+    "typ": "input",
+    "tag": "Inländerkonzept",
+    "fall": "Ein Kolloquium fragt nach der Definition des Inländerkonzepts im Unterschied zum BIP.",
+    "frage": "Was beschreibt das Inländerkonzept im Gegensatz zum Inlandskonzept?",
+    "erklaerung": "Das Inländerkonzept berücksichtigt die Einkommen aller Personen und Unternehmen mit ständigem Wohnsitz im Inland, unabhängig davon, ob sie im Inland oder Ausland wirtschaften. Es dient der Berechnung des Bruttonationaleinkommens (BNE).",
+    "esel": "BNE = wer, BIP = wo",
+    "quelle": { 
+      "kapitel": "2.3.1 Inländerkonzept", 
+      "seite": "38" 
+    },
+    "schwierigkeit": "mittel",
+    "korrekteAntworten": [
+      "Einkommen der ständigen Inländer weltweit",
+      "Einkommen von Inländern unabhängig vom Ort der Produktion",
+      "Bezieht sich auf Wohnsitz, nicht auf Landesgrenzen"
+    ]
+  },
+  {
+    "id": "VWLW01-058",
+    "typ": "mc",
+    "tag": "BIP vs. BNE",
+    "fall": "In einer Testfrage soll der Unterschied zwischen BIP und BNE erkannt werden.",
+    "frage": "Welche Aussage beschreibt den Unterschied zwischen BIP und BNE korrekt?",
+    "erklaerung": "Das Bruttoinlandsprodukt (BIP) misst die inländische Produktion innerhalb der Landesgrenzen, das Bruttonationaleinkommen (BNE) die Einkommen aller Inländer, auch aus dem Ausland. Damit zeigt das BNE die Einkommensentstehung nach Wohnsitzprinzip.",
+    "esel": "BIP = Ort; BNE = Person",
+    "quelle": { 
+      "kapitel": "2.3.1 Inländer- und Inlandskonzept", 
+      "seite": "38" 
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "BIP misst die Produktion im Inland, BNE die Einkommen der Inländer weltweit.",
+      "BIP misst die Einkommen der Inländer weltweit, BNE die Produktion im Inland.",
+      "Beide Konzepte erfassen ausschließlich Exporte.",
+      "BIP und BNE sind identisch."
+    ],
+    "loesung": "BIP misst die Produktion im Inland, BNE die Einkommen der Inländer weltweit."
+  },
+  {
+    "id": "VWLW01-059",
+    "typ": "mc",
+    "tag": "Polypol",
+    "fall": "Zur Prüfungsvorbereitung wird die Kerndefinition abgefragt. (Variante 59)",
+    "frage": "Was kennzeichnet ein Polypol mit vollkommener Konkurrenz?",
+    "erklaerung": "Im Polypol sind einzelne Anbieter Preisnehmer. Der Marktpreis bildet sich aus Angebot und Nachfrage. Beispiel: Produktivitätsfortschritt verschiebt das Angebot nach rechts. Merke: Viele – Preis vorgegeben.",
+    "esel": "Viele = Preis vorgegeben",
+    "quelle": {
+      "kapitel": "Kapitel 3.1.2 Marktformen – Polypol",
+      "seite": "45-47"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Viele Anbieter/Nachfrager, Preisnahme",
+      "Ein Anbieter mit Marktmacht",
+      "Wenige Anbieter, Kollusion",
+      "Administrativ festgelegte Preise"
+    ],
+    "loesung": "Viele Anbieter/Nachfrager, Preisnahme"
+  },
+  {
+    "id": "VWLW01-060",
+    "typ": "input",
+    "tag": "Nachfragegesetz",
+    "fall": "Im Unterricht wird eine kurze Anwendung diskutiert. (Variante 60)",
+    "frage": "Wie reagieren Nachfrager auf eine Preisänderung eines Gutes laut Nachfragegesetz?",
+    "erklaerung": "Steigt der Preis eines Gutes, sinkt ceteris paribus die nachgefragte Menge, und umgekehrt. Das ist Grundlage fallender Nachfragekurven. Beispiel: Höherer Preis für Gut A senkt die Kaufmenge. Merke: Teurer → weniger.",
+    "esel": "Teurer → weniger",
+    "quelle": {
+      "kapitel": "Kapitel 3.2 Nachfrage",
+      "seite": "48-50"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "Preis hoch",
+      "Menge runter",
+      "ceteris paribus",
+      "Bei steigendem Preis sinkt die nachgefragte Menge",
+      "Bei fallendem Preis steigt die nachgefragte Menge",
+      "Zwischen Preis und Nachfragemenge besteht ein umgekehrter Zusammenhang",
+      "Das Nachfragegesetz beschreibt eine negative Preis-Mengen-Beziehung",
+      "Preis steigt → Nachfrage sinkt",
+      "Preis fällt → Nachfrage steigt",
+      "Negativer Zusammenhang zwischen Preis und Nachfrage"
+    ]
+  },
+  {
+    "id": "VWLW01-061",
+    "typ": "order",
+    "tag": "Gleichgewicht",
+    "fall": "Ein Teammeeting möchte die Grundlogik prüfen. (Variante 61)",
+    "frage": "Sortiere die Schritte zur Bestimmung von Preis und Menge.",
+    "erklaerung": "Das Gleichgewicht liegt dort, wo Angebot und Nachfrage übereinstimmen. Mathematisch wird durch Gleichsetzen gelöst. Anschließend lassen sich Preis und Menge bestimmen. Merke: Gleichsetzen → P* → Q*.",
+    "esel": "Gleichsetzen → P* → Q*",
+    "quelle": {
+      "kapitel": "Kapitel 3.4 Preisbildung im Polypol",
+      "seite": "53-56"
+    },
+    "schwierigkeit": "leicht",
+    "richtigeReihenfolge": [
+      "Funktionen aufstellen",
+      "Gleichsetzen",
+      "Preis berechnen",
+      "Menge bestimmen"
+    ]
+  },
+  {
+    "id": "VWLW01-062",
+    "typ": "justify",
+    "tag": "Vollkommener Markt",
+    "fall": "Für ein Lernmodul wird die Reihenfolge trainiert. (Variante 62)",
+    "frage": "Warum hat der Preis hohe Informationsqualität?",
+    "erklaerung": "Beim vollkommenen Markt sorgen homogene Güter, Transparenz und keine Präferenzen für informative Preise. Abweichungen führen zu Preisspielräumen. Beispiel: Qualitätsunterschiede mindern die Vergleichbarkeit. Merke: Gleichheit + Information = gutes Signal.",
+    "esel": "Gleich + Info = Signal",
+    "quelle": {
+      "kapitel": "Kapitel 3.1.3 Vollkommener Markt",
+      "seite": "47"
+    },
+    "schwierigkeit": "leicht",
+    "stichwoerter": [
+      "Homogenität",
+      "Transparenz",
+      "keine Präferenzen"
+    ]
+  },
+  {
+    "id": "VWLW01-063",
+    "typ": "mc",
+    "tag": "Geldarten",
+    "fall": "Ein Übungsblatt fordert eine knappe Begründung. (Variante 63)",
+    "frage": "Welche Zuordnung ist korrekt?",
+    "erklaerung": "Bargeld ist gesetzliches Zahlungsmittel; Buchgeld sind Sichteinlagen bei Banken. Fiatgeld hat keinen inneren Sachwert und ist staatlich legitimiert. Beispiel: Kartenzahlung nutzt Buchgeld. Merke: Bar = gesetzlich; Buchgeld = Bankeinlage.",
+    "esel": "Bar = gesetzlich",
+    "quelle": {
+      "kapitel": "Kapitel 4.1 Arten des Geldes",
+      "seite": "59"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Bargeld = gesetzliches Zahlungsmittel",
+      "Fiatgeld = goldgedeckt",
+      "Buchgeld = Zentralbankgeld",
+      "Warengeld = Buchgeld"
+    ],
+    "loesung": "Bargeld = gesetzliches Zahlungsmittel"
+  },
+  {
+    "id": "VWLW01-064",
+    "typ": "match",
+    "tag": "Geldmengen",
+    "fall": "Im Test soll das Konzept präzise wiedergegeben werden. (Variante 64)",
+    "frage": "Ordne M1–M3 passenden Beispielen zu.",
+    "erklaerung": "Geldmengen ordnen Zahlungsmittel nach Liquidität. M1 ist am liquidesten, M2 und M3 erweitern um weniger liquide Anlagen. Beispiel: Spareinlagen fallen in M2. Merke: Höhere Zahl = weniger liquide.",
+    "esel": "Höhere Zahl = weniger liquide",
+    "quelle": {
+      "kapitel": "Kapitel 4.3.2 Geldmengen",
+      "seite": "62"
+    },
+    "schwierigkeit": "leicht",
+    "paare": {
+      "M1": "Bargeld+Sichteinlagen",
+      "M2": "M1+kurzfr. Termineinlagen/Spareinlagen",
+      "M3": "M2+Geldmarktfonds u. ä."
+    }
+  },
+  {
+    "id": "VWLW01-065",
+    "typ": "order",
+    "tag": "VPI-Berechnung",
+    "fall": "Ein Kolloquium fragt nach der korrekten Einordnung. (Variante 65)",
+    "frage": "Bringe die Schritte der VPI-Ermittlung in Reihenfolge.",
+    "erklaerung": "Der VPI misst Preisänderungen eines Warenkorbs. Die Ermittlung umfasst Korb, Preiserhebung, Relatives und Aggregation mit Gewichten. Beispiel: Steigen hohe Gewichte, steigt der Index stärker. Merke: Korb → Preise → Relatives → Gewichte.",
+    "esel": "Korb → Preise → Index",
+    "quelle": {
+      "kapitel": "Kapitel 4.4 Verbraucherpreisindex (VPI)",
+      "seite": "68-70"
+    },
+    "schwierigkeit": "leicht",
+    "richtigeReihenfolge": [
+      "Warenkorb festlegen",
+      "Preise erheben",
+      "Preisrelatives je Gut",
+      "Gewichten und aggregieren"
+    ]
+  },
+  {
+    "id": "VWLW01-066",
+    "typ": "mc",
+    "tag": "Wirtschaftskreislauf",
+    "fall": "Zur Prüfungsvorbereitung wird die Kerndefinition abgefragt. (Variante 66)",
+    "frage": "Welche Ströme bildet der einfache Wirtschaftskreislauf ab?",
+    "erklaerung": "Der Wirtschaftskreislauf zeigt gegenläufige Güter- und Geldströme zwischen Haushalten und Unternehmen und in erweiterten Modellen Staat, Finanzsektor und Ausland. Er ordnet Einkommen, Ausgaben, Produktion und Verwendung und zeigt Ansatzpunkte für wirtschaftspolitische Eingriffe. Beispiel: Haushalte erhalten Löhne und kaufen Güter; Unternehmen zahlen Löhne und verkaufen Güter; der Staat erhebt Steuern und zahlt Transfers. Merke: Geld- und Güterstrom verlaufen entgegengesetzt; Störungen wirken kreislaufweit.",
+    "esel": "Güter ↔ Geld",
+    "quelle": {
+      "kapitel": "Kapitel 2 Wirtschaftskreislauf",
+      "seite": "32-34"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Güter- und Geldstrom",
+      "Nur Güterstrom",
+      "Nur Geldpolitik",
+      "Nur Staatseinnahmen"
+    ],
+    "loesung": "Güter- und Geldstrom"
+  },
+  {
+    "id": "VWLW01-067",
+    "typ": "order",
+    "tag": "Erweiterter Kreislauf",
+    "fall": "Im Unterricht wird eine kurze Anwendung diskutiert. (Variante 67)",
+    "frage": "Ordne typische Erweiterungen des Kreislaufs.",
+    "erklaerung": "Der Wirtschaftskreislauf zeigt gegenläufige Ströme. Erweitert kommen Finanzsektor, Staat und Ausland hinzu. Beispiel: Sparen finanziert Investitionen; Steuern/Transfers verändern Einkommen; Ex/Im verbinden das Ausland. Merke: Einfach → Finanz → Staat → Ausland.",
+    "esel": "Einfach → Finanz → Staat → Ausland",
+    "quelle": {
+      "kapitel": "Kapitel 2.2 Erweiterter Wirtschaftskreislauf",
+      "seite": "34-36"
+    },
+    "schwierigkeit": "leicht",
+    "richtigeReihenfolge": [
+      "Haushalte/Unternehmen",
+      "Finanzsektor (Sparen/Investieren)",
+      "Staat (Steuern/Transfers)",
+      "Ausland (Ex/Im)"
+    ]
+  },
+  {
+    "id": "VWLW01-068",
+    "typ": "justify",
+    "tag": "Kreislaufstörung",
+    "fall": "Ein Teammeeting möchte die Grundlogik prüfen. (Variante 68)",
+    "frage": "Wie wirken staatliche Ausgaben auf eine konjunkturelle Abschwächung im Kreislauf?",
+    "erklaerung": "Erhöht der Staat seine Ausgaben, stimuliert er die Nachfrage nach Gütern und Dienstleistungen. Unternehmen produzieren mehr, stellen Personal ein und Einkommen steigen. Das stabilisiert den Wirtschaftskreislauf. Merke: Mehr Staatsnachfrage = stabilerer Kreislauf.",
+    "esel": "Staat gibt – Kreislauf lebt.",
+    "quelle": {
+      "kapitel": "5.2 Fiskalpolitik",
+      "seite": "90–92"
+    },
+    "schwierigkeit": "leicht",
+    "stichwoerter": [
+      "Staatsausgaben",
+      "Nachfrage",
+      "Konjunktur",
+      "Stabilisierung"
+    ]
+  },
+  {
+    "id": "VWLW01-069",
+    "typ": "match",
+    "tag": "BIP-Rechnungen",
+    "fall": "Für ein Lernmodul wird die Reihenfolge trainiert. (Variante 69)",
+    "frage": "Ordne die BIP-Rechnungen ihren Leitfragen zu.",
+    "erklaerung": "Die VGR misst die Wirtschaftsleistung; das BIP erfasst den Wert aller im Inland erzeugten Endprodukte zu Marktpreisen. Es gibt die Perspektiven Entstehung, Verwendung und Verteilung. Beispiel: Eine Maschine ist Bruttoinvestition (Verwendung) und Wertschöpfung (Entstehung). Merke: Nur Endprodukte; BIP folgt dem Inlandskonzept.",
+    "esel": "Entstehen–Verwenden–Verteilen",
+    "quelle": {
+      "kapitel": "Kapitel 2.3.2 Entstehungs-, Verwendungs- und Verteilungsrechnung",
+      "seite": "39-40"
+    },
+    "schwierigkeit": "leicht",
+    "paare": {
+      "Entstehungsrechnung": "Welche Wertschöpfung?",
+      "Verwendungsrechnung": "Wofür wird verwendet?",
+      "Verteilungsrechnung": "Wer erhält Einkommen?"
+    }
+  },
+  {
+    "id": "VWLW01-070",
+    "typ": "input",
+    "tag": "Außenbeitrag",
+    "fall": "Ein Übungsblatt fordert eine knappe Begründung. (Variante 70)",
+    "frage": "Nenne die Kurzdefinition des Außenbeitrags an.",
+    "erklaerung": "Der Außenbeitrag ist der Saldo aus Exporten und Importen von Waren und Dienstleistungen. Er beeinflusst das BIP in der Verwendungsrechnung. Beispiel: Übersteigt X die M, erhöht der Saldo das BIP. Merke: X − M.",
+    "esel": "X − M",
+    "quelle": {
+      "kapitel": "Kapitel 2.3.2 Verwendungsrechnung",
+      "seite": "40"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "Exporte",
+      "minus",
+      "Importe"
+    ]
+  },
+  {
+    "id": "VWLW01-071",
+    "typ": "mc",
+    "tag": "Inland vs. Inländer",
+    "fall": "Im Test soll das Konzept präzise wiedergegeben werden. (Variante 71)",
+    "frage": "Welches Konzept nutzt das BIP?",
+    "erklaerung": "Das BIP folgt dem Inlandskonzept und erfasst Wertschöpfung im Wirtschaftsgebiet. Das Inländerkonzept (z. B. BNE) ordnet nach Wohnsitz der Wirtschaftssubjekte. Für Vergleiche ist die Unterscheidung zentral. Merke: BIP = wo; BNE = wer.",
+    "esel": "BIP = wo",
+    "quelle": {
+      "kapitel": "Kapitel 2.3.1 Inländer- und Inlandskonzept",
+      "seite": "38"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Inlandskonzept",
+      "Inländerkonzept",
+      "Staatsbürgerkonzept",
+      "Nur Exporte"
+    ],
+    "loesung": "Inlandskonzept"
+  },
+  {
+    "id": "VWLW01-072",
+    "typ": "mc",
+    "tag": "Polypol",
+    "fall": "Ein Kolloquium fragt nach der korrekten Einordnung. (Variante 72)",
+    "frage": "Was kennzeichnet ein Polypol mit vollkommener Konkurrenz?",
+    "erklaerung": "Im Polypol sind einzelne Anbieter Preisnehmer. Der Marktpreis bildet sich aus Angebot und Nachfrage. Beispiel: Produktivitätsfortschritt verschiebt das Angebot nach rechts. Merke: Viele – Preis vorgegeben.",
+    "esel": "Viele = Preis vorgegeben",
+    "quelle": {
+      "kapitel": "Kapitel 3.1.2 Marktformen – Polypol",
+      "seite": "45-47"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Viele Anbieter/Nachfrager, Preisnahme",
+      "Ein Anbieter mit Marktmacht",
+      "Wenige Anbieter, Kollusion",
+      "Administrativ festgelegte Preise"
+    ],
+    "loesung": "Viele Anbieter/Nachfrager, Preisnahme"
+  },
+  {
+    "id": "VWLW01-073",
+    "typ": "input",
+    "tag": "Nachfragegesetz",
+    "fall": "Zur Prüfungsvorbereitung wird die Kerndefinition abgefragt. (Variante 73)",
+    "frage": "Formuliere das Nachfragegesetz kurz.",
+    "erklaerung": "Steigt der Preis eines Gutes, sinkt ceteris paribus die nachgefragte Menge, und umgekehrt. Das ist Grundlage fallender Nachfragekurven. Beispiel: Höherer Preis für Gut A senkt die Kaufmenge. Merke: Teurer → weniger.",
+    "esel": "Teurer → weniger",
+    "quelle": {
+      "kapitel": "Kapitel 3.2 Nachfrage",
+      "seite": "48-50"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "Preis↑",
+      "Menge↓",
+      "ceteris paribus"
+    ]
+  },
+  {
+    "id": "VWLW01-074",
+    "typ": "order",
+    "tag": "Gleichgewicht",
+    "fall": "Im Unterricht wird eine kurze Anwendung diskutiert. (Variante 74)",
+    "frage": "Sortiere die Schritte zur Bestimmung von Preis und Menge.",
+    "erklaerung": "Das Gleichgewicht liegt dort, wo Angebot und Nachfrage übereinstimmen. Mathematisch wird durch Gleichsetzen gelöst. Anschließend lassen sich Preis und Menge bestimmen. Merke: Gleichsetzen → P* → Q*.",
+    "esel": "Gleichsetzen → P* → Q*",
+    "quelle": {
+      "kapitel": "Kapitel 3.4 Preisbildung im Polypol",
+      "seite": "53-56"
+    },
+    "schwierigkeit": "leicht",
+    "richtigeReihenfolge": [
+      "Funktionen aufstellen",
+      "Gleichsetzen",
+      "Preis berechnen",
+      "Menge bestimmen"
+    ]
+  },
+  {
+    "id": "VWLW01-075",
+    "typ": "justify",
+    "tag": "Vollkommener Markt",
+    "fall": "Ein Teammeeting möchte die Grundlogik prüfen. (Variante 75)",
+    "frage": "Weshalb hat der Preis hohe Informationsqualität?",
+    "erklaerung": "Beim vollkommenen Markt sorgen homogene Güter, Transparenz und keine Präferenzen für informative Preise. Abweichungen führen zu Preisspielräumen. Beispiel: Qualitätsunterschiede mindern die Vergleichbarkeit. Merke: Gleichheit + Information = gutes Signal.",
+    "esel": "Gleich + Info = Signal",
+    "quelle": {
+      "kapitel": "Kapitel 3.1.3 Vollkommener Markt",
+      "seite": "47"
+    },
+    "schwierigkeit": "leicht",
+    "stichwoerter": [
+      "Homogenität",
+      "Transparenz",
+      "keine Präferenzen"
+    ]
+  },
+  {
+    "id": "VWLW01-076",
+    "typ": "mc",
+    "tag": "Geldarten",
+    "fall": "Für ein Lernmodul wird die Reihenfolge trainiert. (Variante 76)",
+    "frage": "Welche Zuordnung ist korrekt?",
+    "erklaerung": "Bargeld ist gesetzliches Zahlungsmittel; Buchgeld sind Sichteinlagen bei Banken. Fiatgeld hat keinen inneren Sachwert und ist staatlich legitimiert. Beispiel: Kartenzahlung nutzt Buchgeld. Merke: Bar = gesetzlich; Buchgeld = Bankeinlage.",
+    "esel": "Bar = gesetzlich",
+    "quelle": {
+      "kapitel": "Kapitel 4.1 Arten des Geldes",
+      "seite": "59"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Bargeld = gesetzliches Zahlungsmittel",
+      "Fiatgeld = goldgedeckt",
+      "Buchgeld = Zentralbankgeld",
+      "Warengeld = Buchgeld"
+    ],
+    "loesung": "Bargeld = gesetzliches Zahlungsmittel"
+  },
+  {
+    "id": "VWLW01-077",
+    "typ": "match",
+    "tag": "Geldmengen",
+    "fall": "Ein Übungsblatt fordert eine knappe Begründung. (Variante 77)",
+    "frage": "Ordne M1–M3 passenden Beispielen zu.",
+    "erklaerung": "Geldmengen ordnen Zahlungsmittel nach Liquidität. M1 ist am liquidesten, M2 und M3 erweitern um weniger liquide Anlagen. Beispiel: Spareinlagen fallen in M2. Merke: Höhere Zahl = weniger liquide.",
+    "esel": "Höhere Zahl = weniger liquide",
+    "quelle": {
+      "kapitel": "Kapitel 4.3.2 Geldmengen",
+      "seite": "62"
+    },
+    "schwierigkeit": "leicht",
+    "paare": {
+      "M1": "Bargeld+Sichteinlagen",
+      "M2": "M1+kurzfr. Termineinlagen/Spareinlagen",
+      "M3": "M2+Geldmarktfonds u. ä."
+    }
+  },
+  {
+    "id": "VWLW01-078",
+    "typ": "order",
+    "tag": "VPI-Berechnung",
+    "fall": "Im Test soll das Konzept präzise wiedergegeben werden. (Variante 78)",
+    "frage": "Bringe die Schritte der VPI-Ermittlung in Reihenfolge.",
+    "erklaerung": "Der VPI misst Preisänderungen eines Warenkorbs. Die Ermittlung umfasst Korb, Preiserhebung, Relatives und Aggregation mit Gewichten. Beispiel: Steigen hohe Gewichte, steigt der Index stärker. Merke: Korb → Preise → Relatives → Gewichte.",
+    "esel": "Korb → Preise → Index",
+    "quelle": {
+      "kapitel": "Kapitel 4.4 Verbraucherpreisindex (VPI)",
+      "seite": "68-70"
+    },
+    "schwierigkeit": "leicht",
+    "richtigeReihenfolge": [
+      "Warenkorb festlegen",
+      "Preise erheben",
+      "Preisrelatives je Gut",
+      "Gewichten und aggregieren"
+    ]
+  },
+  {
+    "id": "VWLW01-079",
+    "typ": "mc",
+    "tag": "Wirtschaftskreislauf",
+    "fall": "Ein Kolloquium fragt nach der korrekten Einordnung. (Variante 79)",
+    "frage": "Welche der folgenden Ströme bildet der einfache Wirtschaftskreislauf ab?",
+    "erklaerung": "Der Wirtschaftskreislauf zeigt gegenläufige Güter- und Geldströme zwischen Haushalten und Unternehmen und in erweiterten Modellen Staat, Finanzsektor und Ausland. Er ordnet Einkommen, Ausgaben, Produktion und Verwendung und zeigt Ansatzpunkte für wirtschaftspolitische Eingriffe. Beispiel: Haushalte erhalten Löhne und kaufen Güter; Unternehmen zahlen Löhne und verkaufen Güter; der Staat erhebt Steuern und zahlt Transfers. Merke: Geld- und Güterstrom verlaufen entgegengesetzt; Störungen wirken kreislaufweit.",
+    "esel": "Güter ↔ Geld",
+    "quelle": {
+      "kapitel": "Kapitel 2 Wirtschaftskreislauf",
+      "seite": "32-34"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Güter- und Geldstrom",
+      "Nur Güterstrom",
+      "Nur Geldpolitik",
+      "Nur Staatseinnahmen"
+    ],
+    "loesung": "Güter- und Geldstrom"
+  },
+  {
+    "id": "VWLW01-080",
+    "typ": "order",
+    "tag": "Erweiterter Kreislauf",
+    "fall": "Zur Prüfungsvorbereitung wird die Kerndefinition abgefragt. (Variante 80)",
+    "frage": "Bringe typische Erweiterungen des Kreislaufs.",
+    "erklaerung": "Der Wirtschaftskreislauf zeigt gegenläufige Ströme. Erweitert kommen Finanzsektor, Staat und Ausland hinzu. Beispiel: Sparen finanziert Investitionen; Steuern/Transfers verändern Einkommen; Ex/Im verbinden das Ausland. Merke: Einfach → Finanz → Staat → Ausland.",
+    "esel": "Einfach → Finanz → Staat → Ausland",
+    "quelle": {
+      "kapitel": "Kapitel 2.2 Erweiterter Wirtschaftskreislauf",
+      "seite": "34-36"
+    },
+    "schwierigkeit": "leicht",
+    "richtigeReihenfolge": [
+      "Haushalte/Unternehmen",
+      "Finanzsektor (Sparen/Investieren)",
+      "Staat (Steuern/Transfers)",
+      "Ausland (Ex/Im)"
+    ]
+  },
+  {
+    "id": "VWLW01-081",
+    "typ": "justify",
+    "tag": "Kreislaufstörung",
+    "fall": "Im Unterricht wird eine kurze Anwendung diskutiert. (Variante 81)",
+    "frage": "Weshalb übertragen sich Schocks auf den gesamten Kreislauf?",
+    "erklaerung": "Schocks verändern Einkommen und Nachfrage und wirken daher über mehrere Kreislaufströme. Über verknüpfte Zahlungs- und Güterströme werden Effekte weitergegeben. Beispiel: Ein Nachfragerückgang senkt Produktion, Löhne und Konsum. Merke: Alles hängt zusammen – eine Störung bleibt nicht lokal.",
+    "esel": "Alles hängt zusammen",
+    "quelle": {
+      "kapitel": "Kapitel 2.2 Erweiterter Wirtschaftskreislauf",
+      "seite": "35-36"
+    },
+    "schwierigkeit": "leicht",
+    "stichwoerter": [
+      "Einkommenskanal",
+      "Nachfragekanal",
+      "Multiplikation über Ströme"
+    ]
+  },
+  {
+    "id": "VWLW01-082",
+    "typ": "match",
+    "tag": "BIP-Rechnungen",
+    "fall": "Ein Teammeeting möchte die Grundlogik prüfen. (Variante 82)",
+    "frage": "Ordne die BIP-Rechnungen ihren Leitfragen zu.",
+    "erklaerung": "Die VGR misst die Wirtschaftsleistung; das BIP erfasst den Wert aller im Inland erzeugten Endprodukte zu Marktpreisen. Es gibt die Perspektiven Entstehung, Verwendung und Verteilung. Beispiel: Eine Maschine ist Bruttoinvestition (Verwendung) und Wertschöpfung (Entstehung). Merke: Nur Endprodukte; BIP folgt dem Inlandskonzept.",
+    "esel": "Entstehen–Verwenden–Verteilen",
+    "quelle": {
+      "kapitel": "Kapitel 2.3.2 Entstehungs-, Verwendungs- und Verteilungsrechnung",
+      "seite": "39-40"
+    },
+    "schwierigkeit": "leicht",
+    "paare": {
+      "Entstehungsrechnung": "Welche Wertschöpfung?",
+      "Verwendungsrechnung": "Wofür wird verwendet?",
+      "Verteilungsrechnung": "Wer erhält Einkommen?"
+    }
+  },
+  {
+    "id": "VWLW01-083",
+    "typ": "input",
+    "tag": "Außenbeitrag",
+    "fall": "Für ein Lernmodul wird die Reihenfolge trainiert. (Variante 83)",
+    "frage": "Gib die Kurzdefinition des Außenbeitrags an.",
+    "erklaerung": "Der Außenbeitrag ist der Saldo aus Exporten und Importen von Waren und Dienstleistungen. Er beeinflusst das BIP in der Verwendungsrechnung. Beispiel: Übersteigt X die M, erhöht der Saldo das BIP. Merke: X − M.",
+    "esel": "X − M",
+    "quelle": {
+      "kapitel": "Kapitel 2.3.2 Verwendungsrechnung",
+      "seite": "40"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "Exporte",
+      "minus",
+      "Importe"
+    ]
+  },
+  {
+    "id": "VWLW01-084",
+    "typ": "mc",
+    "tag": "Inland vs. Inländer",
+    "fall": "Ein Übungsblatt fordert eine knappe Begründung. (Variante 84)",
+    "frage": "Welches Konzept nutzt das BIP?",
+    "erklaerung": "Das BIP folgt dem Inlandskonzept und erfasst Wertschöpfung im Wirtschaftsgebiet. Das Inländerkonzept (z. B. BNE) ordnet nach Wohnsitz der Wirtschaftssubjekte. Für Vergleiche ist die Unterscheidung zentral. Merke: BIP = wo; BNE = wer.",
+    "esel": "BIP = wo",
+    "quelle": {
+      "kapitel": "Kapitel 2.3.1 Inländer- und Inlandskonzept",
+      "seite": "38"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Inlandskonzept",
+      "Inländerkonzept",
+      "Staatsbürgerkonzept",
+      "Nur Exporte"
+    ],
+    "loesung": "Inlandskonzept"
+  },
+  {
+    "id": "VWLW01-085",
+    "typ": "mc",
+    "tag": "Polypol",
+    "fall": "Im Test soll das Konzept präzise wiedergegeben werden. (Variante 85)",
+    "frage": "Was kennzeichnet ein Polypol mit vollkommener Konkurrenz?",
+    "erklaerung": "Im Polypol sind einzelne Anbieter Preisnehmer. Der Marktpreis bildet sich aus Angebot und Nachfrage. Beispiel: Produktivitätsfortschritt verschiebt das Angebot nach rechts. Merke: Viele – Preis vorgegeben.",
+    "esel": "Viele = Preis vorgegeben",
+    "quelle": {
+      "kapitel": "Kapitel 3.1.2 Marktformen – Polypol",
+      "seite": "45-47"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Viele Anbieter/Nachfrager, Preisnahme",
+      "Ein Anbieter mit Marktmacht",
+      "Wenige Anbieter, Kollusion",
+      "Administrativ festgelegte Preise"
+    ],
+    "loesung": "Viele Anbieter/Nachfrager, Preisnahme"
+  },
+  {
+    "id": "VWLW01-086",
+    "typ": "input",
+    "tag": "Nachfragegesetz",
+    "fall": "Ein Kolloquium fragt nach der korrekten Einordnung. (Variante 86)",
+    "frage": "Formuliere das Nachfragegesetz kurz.",
+    "erklaerung": "Steigt der Preis eines Gutes, sinkt ceteris paribus die nachgefragte Menge, und umgekehrt. Das ist Grundlage fallender Nachfragekurven. Beispiel: Höherer Preis für Gut A senkt die Kaufmenge. Merke: Teurer → weniger.",
+    "esel": "Teurer → weniger",
+    "quelle": {
+      "kapitel": "Kapitel 3.2 Nachfrage",
+      "seite": "48-50"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "Preis↑",
+      "Menge↓",
+      "ceteris paribus"
+    ]
+  },
+  {
+    "id": "VWLW01-087",
+    "typ": "order",
+    "tag": "Gleichgewicht",
+    "fall": "Zur Prüfungsvorbereitung wird die Kerndefinition abgefragt. (Variante 87)",
+    "frage": "Sortiere die Schritte zur Bestimmung von Preis und Menge.",
+    "erklaerung": "Das Gleichgewicht liegt dort, wo Angebot und Nachfrage übereinstimmen. Mathematisch wird durch Gleichsetzen gelöst. Anschließend lassen sich Preis und Menge bestimmen. Merke: Gleichsetzen → P* → Q*.",
+    "esel": "Gleichsetzen → P* → Q*",
+    "quelle": {
+      "kapitel": "Kapitel 3.4 Preisbildung im Polypol",
+      "seite": "53-56"
+    },
+    "schwierigkeit": "leicht",
+    "richtigeReihenfolge": [
+      "Funktionen aufstellen",
+      "Gleichsetzen",
+      "Preis berechnen",
+      "Menge bestimmen"
+    ]
+  },
+  {
+    "id": "VWLW01-088",
+    "typ": "justify",
+    "tag": "Vollkommener Markt",
+    "fall": "Im Unterricht wird eine kurze Anwendung diskutiert. (Variante 88)",
+    "frage": "Warum hat der Preis hohe Informationsqualität?",
+    "erklaerung": "Beim vollkommenen Markt sorgen homogene Güter, Transparenz und keine Präferenzen für informative Preise. Abweichungen führen zu Preisspielräumen. Beispiel: Qualitätsunterschiede mindern die Vergleichbarkeit. Merke: Gleichheit + Information = gutes Signal.",
+    "esel": "Gleich + Info = Signal",
+    "quelle": {
+      "kapitel": "Kapitel 3.1.3 Vollkommener Markt",
+      "seite": "47"
+    },
+    "schwierigkeit": "leicht",
+    "stichwoerter": [
+      "Homogenität",
+      "Transparenz",
+      "keine Präferenzen"
+    ]
+  },
+  {
+    "id": "VWLW01-089",
+    "typ": "mc",
+    "tag": "Geldarten",
+    "fall": "Ein Teammeeting möchte die Grundlogik prüfen. (Variante 89)",
+    "frage": "Welche Zuordnung ist korrekt?",
+    "erklaerung": "Bargeld ist gesetzliches Zahlungsmittel; Buchgeld sind Sichteinlagen bei Banken. Fiatgeld hat keinen inneren Sachwert und ist staatlich legitimiert. Beispiel: Kartenzahlung nutzt Buchgeld. Merke: Bar = gesetzlich; Buchgeld = Bankeinlage.",
+    "esel": "Bar = gesetzlich",
+    "quelle": {
+      "kapitel": "Kapitel 4.1 Arten des Geldes",
+      "seite": "59"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Bargeld = gesetzliches Zahlungsmittel",
+      "Fiatgeld = goldgedeckt",
+      "Buchgeld = Zentralbankgeld",
+      "Warengeld = Buchgeld"
+    ],
+    "loesung": "Bargeld = gesetzliches Zahlungsmittel"
+  },
+  {
+    "id": "VWLW01-090",
+    "typ": "match",
+    "tag": "Geldmengen",
+    "fall": "Für ein Lernmodul wird die Reihenfolge trainiert. (Variante 90)",
+    "frage": "Ordne M1–M3 passenden Beispielen zu.",
+    "erklaerung": "Geldmengen ordnen Zahlungsmittel nach Liquidität. M1 ist am liquidesten, M2 und M3 erweitern um weniger liquide Anlagen. Beispiel: Spareinlagen fallen in M2. Merke: Höhere Zahl = weniger liquide.",
+    "esel": "Höhere Zahl = weniger liquide",
+    "quelle": {
+      "kapitel": "Kapitel 4.3.2 Geldmengen",
+      "seite": "62"
+    },
+    "schwierigkeit": "leicht",
+    "paare": {
+      "M1": "Bargeld+Sichteinlagen",
+      "M2": "M1+kurzfr. Termineinlagen/Spareinlagen",
+      "M3": "M2+Geldmarktfonds u. ä."
+    }
+  },
+  {
+    "id": "VWLW01-091",
+    "typ": "order",
+    "tag": "VPI-Berechnung",
+    "fall": "Ein Übungsblatt fordert eine knappe Begründung. (Variante 91)",
+    "frage": "Bringe die Schritte der VPI-Ermittlung in Reihenfolge.",
+    "erklaerung": "Der VPI misst Preisänderungen eines Warenkorbs. Die Ermittlung umfasst Korb, Preiserhebung, Relatives und Aggregation mit Gewichten. Beispiel: Steigen hohe Gewichte, steigt der Index stärker. Merke: Korb → Preise → Relatives → Gewichte.",
+    "esel": "Korb → Preise → Index",
+    "quelle": {
+      "kapitel": "Kapitel 4.4 Verbraucherpreisindex (VPI)",
+      "seite": "68-70"
+    },
+    "schwierigkeit": "leicht",
+    "richtigeReihenfolge": [
+      "Warenkorb festlegen",
+      "Preise erheben",
+      "Preisrelatives je Gut",
+      "Gewichten und aggregieren"
+    ]
+  },
+  {
+    "id": "VWLW01-092",
+    "typ": "mc",
+    "tag": "Wirtschaftskreislauf",
+    "fall": "Im Test soll das Konzept präzise wiedergegeben werden. (Variante 92)",
+    "frage": "Welche Ströme bildet der einfache Wirtschaftskreislauf ab?",
+    "erklaerung": "Der Wirtschaftskreislauf zeigt gegenläufige Güter- und Geldströme zwischen Haushalten und Unternehmen und in erweiterten Modellen Staat, Finanzsektor und Ausland. Er ordnet Einkommen, Ausgaben, Produktion und Verwendung und zeigt Ansatzpunkte für wirtschaftspolitische Eingriffe. Beispiel: Haushalte erhalten Löhne und kaufen Güter; Unternehmen zahlen Löhne und verkaufen Güter; der Staat erhebt Steuern und zahlt Transfers. Merke: Geld- und Güterstrom verlaufen entgegengesetzt; Störungen wirken kreislaufweit.",
+    "esel": "Güter ↔ Geld",
+    "quelle": {
+      "kapitel": "Kapitel 2 Wirtschaftskreislauf",
+      "seite": "32-34"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Güter- und Geldstrom",
+      "Nur Güterstrom",
+      "Nur Geldpolitik",
+      "Nur Staatseinnahmen"
+    ],
+    "loesung": "Güter- und Geldstrom"
+  },
+  {
+    "id": "VWLW01-093",
+    "typ": "order",
+    "tag": "Erweiterter Kreislauf",
+    "fall": "Ein Kolloquium fragt nach der korrekten Einordnung. (Variante 93)",
+    "frage": "Ordne typische Erweiterungen des Kreislaufs.",
+    "erklaerung": "Der Wirtschaftskreislauf zeigt gegenläufige Ströme. Erweitert kommen Finanzsektor, Staat und Ausland hinzu. Beispiel: Sparen finanziert Investitionen; Steuern/Transfers verändern Einkommen; Ex/Im verbinden das Ausland. Merke: Einfach → Finanz → Staat → Ausland.",
+    "esel": "Einfach → Finanz → Staat → Ausland",
+    "quelle": {
+      "kapitel": "Kapitel 2.2 Erweiterter Wirtschaftskreislauf",
+      "seite": "34-36"
+    },
+    "schwierigkeit": "leicht",
+    "richtigeReihenfolge": [
+      "Haushalte/Unternehmen",
+      "Finanzsektor (Sparen/Investieren)",
+      "Staat (Steuern/Transfers)",
+      "Ausland (Ex/Im)"
+    ]
+  },
+  {
+    "id": "VWLW01-094",
+    "typ": "justify",
+    "tag": "Kreislaufstörung",
+    "fall": "Im Unterricht wird eine kurze Anwendung diskutiert. (Variante 94)",
+    "frage": "Wie können Exportveränderungen den Wirtschaftskreislauf beeinflussen?",
+    "erklaerung": "Sinken die Exporte, sinken Umsätze exportorientierter Unternehmen. Das führt zu geringerer Produktion, Beschäftigung und Einkommen. Umgekehrt stärken steigende Exporte die Nachfrage und das BIP. Merke: Außenhandel wirkt direkt auf Einkommen und Nachfrage.",
+    "esel": "Exporte treiben den Kreislauf an.",
+    "quelle": {
+      "kapitel": "Kapitel 2.3.2 Verwendungsrechnung",
+      "seite": "40"
+    },
+    "schwierigkeit": "leicht",
+    "stichwoerter": [
+      "Export",
+      "Nachfrage",
+      "Produktion",
+      "Einkommen"
+    ]
+  },
+  {
+    "id": "VWLW01-095",
+    "typ": "match",
+    "tag": "BIP-Rechnungen",
+    "fall": "Im Unterricht wird eine kurze Anwendung diskutiert. (Variante 95)",
+    "frage": "Ordne die BIP-Rechnungen ihren Leitfragen zu.",
+    "erklaerung": "Die VGR misst die Wirtschaftsleistung; das BIP erfasst den Wert aller im Inland erzeugten Endprodukte zu Marktpreisen. Es gibt die Perspektiven Entstehung, Verwendung und Verteilung. Beispiel: Eine Maschine ist Bruttoinvestition (Verwendung) und Wertschöpfung (Entstehung). Merke: Nur Endprodukte; BIP folgt dem Inlandskonzept.",
+    "esel": "Entstehen–Verwenden–Verteilen",
+    "quelle": {
+      "kapitel": "Kapitel 2.3.2 Entstehungs-, Verwendungs- und Verteilungsrechnung",
+      "seite": "39-40"
+    },
+    "schwierigkeit": "leicht",
+    "paare": {
+      "Entstehungsrechnung": "Welche Wertschöpfung?",
+      "Verwendungsrechnung": "Wofür wird verwendet?",
+      "Verteilungsrechnung": "Wer erhält Einkommen?"
+    }
+  },
+  {
+    "id": "VWLW01-096",
+    "typ": "input",
+    "tag": "Außenbeitrag",
+    "fall": "Ein Teammeeting möchte die Grundlogik prüfen. (Variante 96)",
+    "frage": "Gib die Kurzdefinition des Außenbeitrags an.",
+    "erklaerung": "Der Außenbeitrag ist der Saldo aus Exporten und Importen von Waren und Dienstleistungen. Er beeinflusst das BIP in der Verwendungsrechnung. Beispiel: Übersteigt X die M, erhöht der Saldo das BIP. Merke: X − M.",
+    "esel": "X − M",
+    "quelle": {
+      "kapitel": "Kapitel 2.3.2 Verwendungsrechnung",
+      "seite": "40"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "Exporte",
+      "minus",
+      "Importe"
+    ]
+  },
+  {
+    "id": "VWLW01-097",
+    "typ": "mc",
+    "tag": "Inland vs. Inländer",
+    "fall": "Für ein Lernmodul wird die Reihenfolge trainiert. (Variante 97)",
+    "frage": "Welche der folgendens Konzept nutzt das BIP?",
+    "erklaerung": "Das BIP folgt dem Inlandskonzept und erfasst Wertschöpfung im Wirtschaftsgebiet. Das Inländerkonzept (z. B. BNE) ordnet nach Wohnsitz der Wirtschaftssubjekte. Für Vergleiche ist die Unterscheidung zentral. Merke: BIP = wo; BNE = wer.",
+    "esel": "BIP = wo",
+    "quelle": {
+      "kapitel": "Kapitel 2.3.1 Inländer- und Inlandskonzept",
+      "seite": "38"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Inlandskonzept",
+      "Inländerkonzept",
+      "Staatsbürgerkonzept",
+      "Nur Exporte"
+    ],
+    "loesung": "Inlandskonzept"
+  },
+  {
+    "id": "VWLW01-098",
+    "typ": "mc",
+    "tag": "Polypol",
+    "fall": "Ein Übungsblatt fordert eine knappe Begründung. (Variante 98)",
+    "frage": "Was kennzeichnet ein Polypol mit vollkommener Konkurrenz?",
+    "erklaerung": "Im Polypol sind einzelne Anbieter Preisnehmer. Der Marktpreis bildet sich aus Angebot und Nachfrage. Beispiel: Produktivitätsfortschritt verschiebt das Angebot nach rechts. Merke: Viele – Preis vorgegeben.",
+    "esel": "Viele = Preis vorgegeben",
+    "quelle": {
+      "kapitel": "Kapitel 3.1.2 Marktformen – Polypol",
+      "seite": "45-47"
+    },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Viele Anbieter/Nachfrager, Preisnahme",
+      "Ein Anbieter mit Marktmacht",
+      "Wenige Anbieter, Kollusion",
+      "Administrativ festgelegte Preise"
+    ],
+    "loesung": "Viele Anbieter/Nachfrager, Preisnahme"
+  },
+  {
+    "id": "VWLW01-099",
+    "typ": "input",
+    "tag": "Nachfragegesetz",
+    "fall": "Im Test soll das Konzept präzise wiedergegeben werden. (Variante 99)",
+    "frage": "Formuliere das Nachfragegesetz kurz.",
+    "erklaerung": "Steigt der Preis eines Gutes, sinkt ceteris paribus die nachgefragte Menge, und umgekehrt. Das ist Grundlage fallender Nachfragekurven. Beispiel: Höherer Preis für Gut A senkt die Kaufmenge. Merke: Teurer → weniger.",
+    "esel": "Teurer → weniger",
+    "quelle": {
+      "kapitel": "Kapitel 3.2 Nachfrage",
+      "seite": "48-50"
+    },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": [
+      "Preis↑",
+      "Menge↓",
+      "ceteris paribus"
+    ]
+  },
+  {
+    "id": "VWLW01-100",
+    "typ": "order",
+    "tag": "Gleichgewicht",
+    "fall": "Ein Kolloquium fragt nach der korrekten Einordnung. (Variante 100)",
+    "frage": "Sortiere die Schritte zur Bestimmung von Preis und Menge.",
+    "erklaerung": "Das Gleichgewicht liegt dort, wo Angebot und Nachfrage übereinstimmen. Mathematisch wird durch Gleichsetzen gelöst. Anschließend lassen sich Preis und Menge bestimmen. Merke: Gleichsetzen → P* → Q*.",
+    "esel": "Gleichsetzen → P* → Q*",
+    "quelle": {
+      "kapitel": "Kapitel 3.4 Preisbildung im Polypol",
+      "seite": "53-56"
+    },
+    "schwierigkeit": "leicht",
+    "richtigeReihenfolge": [
+      "Funktionen aufstellen",
+      "Gleichsetzen",
+      "Preis berechnen",
+      "Menge bestimmen"
+    ]
+  },
+  {
+    "id": "VWLW01-101",
+    "typ": "justify",
+    "tag": "Vollkommener Markt",
+    "fall": "Zur Prüfungsvorbereitung wird die Kerndefinition abgefragt. (Variante 101)",
+    "frage": "Warum hat der Preis hohe Informationsqualität?",
+    "erklaerung": "Beim vollkommenen Markt sorgen homogene Güter, Transparenz und keine Präferenzen für informative Preise. Abweichungen führen zu Preisspielräumen. Beispiel: Qualitätsunterschiede mindern die Vergleichbarkeit. Merke: Gleichheit + Information = gutes Signal.",
+    "esel": "Gleich + Info = Signal",
+    "quelle": { "kapitel": "3 Markt und Preisbildung", "seite": "52–66" },
+    "schwierigkeit": "mittel",
+    "stichwoerter": ["Homogenität","Transparenz","keine Präferenzen"]
+  },
+  {
+    "id": "VWLW01-102",
+    "typ": "mc",
+    "tag": "Geldarten",
+    "fall": "Im Unterricht wird eine kurze Anwendung diskutiert. (Variante 102)",
+    "frage": "Welche Zuordnung ist korrekt?",
+    "erklaerung": "Bargeld ist gesetzliches Zahlungsmittel; Buchgeld sind Sichteinlagen bei Banken. Fiatgeld hat keinen inneren Sachwert und ist staatlich legitimiert. Beispiel: Kartenzahlung nutzt Buchgeld. Merke: Bar = gesetzlich; Buchgeld = Bankeinlage.",
+    "esel": "Bar = gesetzlich",
+    "quelle": { "kapitel": "4 Geld und Geldwert", "seite": "67–74" },
+    "schwierigkeit": "mittel",
+    "optionen": ["Bargeld = gesetzliches Zahlungsmittel","Fiatgeld = goldgedeckt","Buchgeld = Zentralbankgeld","Warengeld = Buchgeld"],
+    "loesung": "Bargeld = gesetzliches Zahlungsmittel"
+  },
+  {
+    "id": "VWLW01-103",
+    "typ": "match",
+    "tag": "Geldmengen",
+    "fall": "Ein Teammeeting möchte die Grundlogik prüfen. (Variante 103)",
+    "frage": "Ordne M1–M3 passenden Beispielen zu.",
+    "erklaerung": "Geldmengen ordnen Zahlungsmittel nach Liquidität. M1 ist am liquidesten, M2 und M3 erweitern um weniger liquide Anlagen. Beispiel: Spareinlagen fallen in M2. Merke: Höhere Zahl = weniger liquide.",
+    "esel": "Höhere Zahl = weniger liquide",
+    "quelle": { "kapitel": "4 Geld und Geldwert", "seite": "74" },
+    "schwierigkeit": "mittel",
+    "paare": {
+      "M1": "Bargeld+Sichteinlagen",
+      "M2": "M1+kurzfr. Termineinlagen/Spareinlagen",
+      "M3": "M2+Geldmarktfonds u. ä."
+    }
+  },
+  {
+    "id": "VWLW01-104",
+    "typ": "order",
+    "tag": "VPI-Berechnung",
+    "fall": "Für ein Lernmodul wird die Reihenfolge trainiert. (Variante 104)",
+    "frage": "Bringe die Schritte der VPI-Ermittlung in Reihenfolge.",
+    "erklaerung": "Der VPI misst Preisänderungen eines Warenkorbs. Die Ermittlung umfasst Korb, Preiserhebung, Relatives und Aggregation mit Gewichten. Beispiel: Steigen hohe Gewichte, steigt der Index stärker. Merke: Korb → Preise → Relatives → Gewichte.",
+    "esel": "Korb → Preise → Index",
+    "quelle": { "kapitel": "4 Geld und Geldwert", "seite": "76–81" },
+    "schwierigkeit": "mittel",
+    "richtigeReihenfolge": ["Warenkorb festlegen","Preise erheben","Preisrelatives je Gut","Gewichten und aggregieren"]
+  },
+  {
+    "id": "VWLW01-105",
+    "typ": "mc",
+    "tag": "Wirtschaftskreislauf",
+    "fall": "Ein Übungsblatt fordert eine knappe Begründung. (Variante 105)",
+    "frage": "Welche Ströme bildet der einfache Wirtschaftskreislauf ab?",
+    "erklaerung": "Der Wirtschaftskreislauf zeigt gegenläufige Güter- und Geldströme zwischen Haushalten und Unternehmen. In erweiterten Modellen kommen Staat, Finanzsektor und Ausland hinzu. Er ordnet Einkommen, Ausgaben, Produktion und Verwendung. Merke: Geld- und Güterstrom verlaufen entgegengesetzt.",
+    "esel": "Güter ↔ Geld",
+    "quelle": { "kapitel": "2 Wirtschaftskreislauf", "seite": "21–25" },
+    "schwierigkeit": "mittel",
+    "optionen": ["Güter- und Geldstrom","Nur Güterstrom","Nur Geldpolitik","Nur Staatseinnahmen"],
+    "loesung": "Güter- und Geldstrom"
+  },
+  {
+    "id": "VWLW01-106",
+    "typ": "order",
+    "tag": "Erweiterter Kreislauf",
+    "fall": "Im Test soll das Konzept präzise wiedergegeben werden. (Variante 106)",
+    "frage": "Ordne typische Erweiterungen des Kreislaufs.",
+    "erklaerung": "Der erweiterte Kreislauf ergänzt Haushalte und Unternehmen um Finanzsektor, Staat und Ausland. Sparen finanziert Investitionen; Steuern und Transfers verändern Einkommen; Exporte/Importe verknüpfen das Ausland. Merke: Einfach → Finanz → Staat → Ausland.",
+    "esel": "Einfach → Finanz → Staat → Ausland",
+    "quelle": { "kapitel": "2.2 Erweiterter Wirtschaftskreislauf", "seite": "34–36" },
+    "schwierigkeit": "mittel",
+    "richtigeReihenfolge": ["Haushalte/Unternehmen","Finanzsektor (Sparen/Investieren)","Staat (Steuern/Transfers)","Ausland (Ex/Im)"]
+  },
+  {
+    "id": "VWLW01-107",
+    "typ": "justify",
+    "tag": "Kreislaufstörung",
+    "fall": "Ein Kolloquium fragt nach der korrekten Einordnung. (Variante 107)",
+    "frage": "Warum übertragen sich Schocks auf den gesamten Kreislauf?",
+    "erklaerung": "Schocks verändern Einkommen und Nachfrage und wirken über verknüpfte Zahlungs- und Güterströme weiter. Sinkende Nachfrage reduziert Produktion, Beschäftigung und Konsum; steigende Nachfrage wirkt umgekehrt. Merke: Störungen pflanzen sich über alle Sektoren fort.",
+    "esel": "Alles hängt zusammen",
+    "quelle": { "kapitel": "2 Wirtschaftskreislauf", "seite": "21–25, 34–36" },
+    "schwierigkeit": "mittel",
+    "stichwoerter": ["Einkommenskanal","Nachfragekanal","Multiplikation über Ströme"]
+  },
+  {
+    "id": "VWLW01-108",
+    "typ": "match",
+    "tag": "BIP-Rechnungen",
+    "fall": "Zur Prüfungsvorbereitung wird die Kerndefinition abgefragt. (Variante 108)",
+    "frage": "Ordne die BIP-Rechnungen ihren Leitfragen zu.",
+    "erklaerung": "Das BIP erfasst den Wert aller im Inland erzeugten Endprodukte zu Marktpreisen. Es gibt die Perspektiven Entstehung (Wertschöpfung), Verwendung (Verwendungszwecke) und Verteilung (Einkommensentstehung). Merke: Endprodukte, Inlandskonzept.",
+    "esel": "Entstehen–Verwenden–Verteilen",
+    "quelle": { "kapitel": "2.3 Volkswirtschaftliche Gesamtrechnung (VGR)", "seite": "39–41" },
+    "schwierigkeit": "mittel",
+    "paare": {
+      "Entstehungsrechnung": "Welche Wertschöpfung?",
+      "Verwendungsrechnung": "Wofür wird verwendet?",
+      "Verteilungsrechnung": "Wer erhält Einkommen?"
+    }
+  },
+  {
+    "id": "VWLW01-109",
+    "typ": "input",
+    "tag": "Außenbeitrag",
+    "fall": "Im Unterricht wird eine kurze Anwendung diskutiert. (Variante 109)",
+    "frage": "Gib die Kurzdefinition des Außenbeitrags an.",
+    "erklaerung": "Der Außenbeitrag ist der Saldo aus Exporten und Importen von Waren und Dienstleistungen. In der Verwendungsrechnung erhöht ein positiver Saldo das BIP, ein negativer reduziert es. Merke: X − M.",
+    "esel": "X − M",
+    "quelle": { "kapitel": "2.3.2 Verwendungsrechnung", "seite": "40–41" },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": ["Exporte","minus","Importe"]
+  },
+  {
+    "id": "VWLW01-110",
+    "typ": "mc",
+    "tag": "Inland vs. Inländer",
+    "fall": "Ein Teammeeting möchte die Grundlogik prüfen. (Variante 110)",
+    "frage": "Welches Konzept nutzt das BIP?",
+    "erklaerung": "Das BIP folgt dem Inlandskonzept und erfasst Wertschöpfung im Wirtschaftsgebiet. Das Inländerkonzept (z. B. BNE) ordnet nach Wohnsitz der Wirtschaftssubjekte. Für Vergleiche ist die Unterscheidung zentral. Merke: BIP = wo; BNE = wer.",
+    "esel": "BIP = wo",
+    "quelle": { "kapitel": "2.3 Volkswirtschaftliche Gesamtrechnung (VGR)", "seite": "39–40" },
+    "schwierigkeit": "mittel",
+    "optionen": ["Inlandskonzept","Inländerkonzept","Staatsbürgerkonzept","Nur Exporte"],
+    "loesung": "Inlandskonzept"
+  },
+  {
+    "id": "VWLW01-111",
+    "typ": "mc",
+    "tag": "Polypol",
+    "fall": "Für ein Lernmodul wird die Reihenfolge trainiert. (Variante 111)",
+    "frage": "Was kennzeichnet ein Polypol mit vollkommener Konkurrenz?",
+    "erklaerung": "Im Polypol sind einzelne Anbieter Preisnehmer. Der Marktpreis bildet sich aus Angebot und Nachfrage. Beispiel: Produktivitätsfortschritt verschiebt das Angebot nach rechts. Merke: Viele – Preis vorgegeben.",
+    "esel": "Viele = Preis vorgegeben",
+    "quelle": { "kapitel": "3.1 Marktformen", "seite": "47–49" },
+    "schwierigkeit": "mittel",
+    "optionen": [
+      "Viele Anbieter/Nachfrager, Preisnahme",
+      "Ein Anbieter mit Marktmacht",
+      "Wenige Anbieter, Kollusion",
+      "Administrativ festgelegte Preise"
+    ],
+    "loesung": "Viele Anbieter/Nachfrager, Preisnahme"
+  },
+  {
+    "id": "VWLW01-112",
+    "typ": "input",
+    "tag": "Nachfragegesetz",
+    "fall": "Ein Übungsblatt fordert eine knappe Begründung. (Variante 112)",
+    "frage": "Formuliere das Nachfragegesetz kurz.",
+    "erklaerung": "Steigt der Preis eines Gutes, sinkt ceteris paribus die nachgefragte Menge, und umgekehrt. Das ist Grundlage fallender Nachfragekurven. Beispiel: Höherer Preis für Gut A senkt die Kaufmenge. Merke: Teurer → weniger.",
+    "esel": "Teurer → weniger",
+    "quelle": { "kapitel": "3.2 Nachfrage", "seite": "49–51" },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": ["Preis↑", "Menge↓", "ceteris paribus"]
+  },
+  {
+    "id": "VWLW01-113",
+    "typ": "order",
+    "tag": "Gleichgewicht",
+    "fall": "Im Test soll das Konzept präzise wiedergegeben werden. (Variante 113)",
+    "frage": "Stelle in Reihenfolge die Schritte zur Bestimmung von Preis und Menge.",
+    "erklaerung": "Das Marktgleichgewicht liegt dort, wo Angebot und Nachfrage übereinstimmen. Mathematisch wird durch Gleichsetzen der beiden Funktionen gelöst. Anschließend werden Gleichgewichtspreis und -menge bestimmt. Merke: Gleichsetzen → P* → Q*.",
+    "esel": "Gleichsetzen → P* → Q*",
+    "quelle": { "kapitel": "3.4 Preisbildung im Polypol", "seite": "53–56" },
+    "schwierigkeit": "mittel",
+    "richtigeReihenfolge": [
+      "Funktionen aufstellen",
+      "Gleichsetzen",
+      "Preis berechnen",
+      "Menge bestimmen"
+    ]
+  },
+  {
+    "id": "VWLW01-114",
+    "typ": "justify",
+    "tag": "Vollkommener Markt",
+    "fall": "Ein Kolloquium fragt nach der korrekten Einordnung. (Variante 114)",
+    "frage": "Warum hat der Preis hohe Informationsqualität?",
+    "erklaerung": "Beim vollkommenen Markt sorgen homogene Güter, Markttransparenz und fehlende Präferenzen für objektive Preisbildung. Jede Preisänderung signalisiert reale Knappheit. Merke: Transparenz macht Preise glaubwürdig.",
+    "esel": "Gleich + Info = Signal",
+    "quelle": { "kapitel": "3.3 Vollkommener Markt", "seite": "52–53" },
+    "schwierigkeit": "mittel",
+    "stichwoerter": ["Homogenität", "Transparenz", "keine Präferenzen"]
+  },
+  {
+    "id": "VWLW01-115",
+    "typ": "mc",
+    "tag": "Geldarten",
+    "fall": "Zur Prüfungsvorbereitung wird die Kerndefinition abgefragt. (Variante 115)",
+    "frage": "Welche der folgenden Zuordnungen ist korrekt?",
+    "erklaerung": "Bargeld ist gesetzliches Zahlungsmittel; Buchgeld sind Sichteinlagen bei Banken. Fiatgeld ist staatlich geschaffenes Geld ohne inneren Wert. Beispiel: Überweisung oder Kartenzahlung sind Buchgeldtransaktionen.",
+    "esel": "Bar = gesetzlich",
+    "quelle": { "kapitel": "4.1 Geldarten", "seite": "67–69" },
+    "schwierigkeit": "mittel",
+    "optionen": [
+      "Bargeld = gesetzliches Zahlungsmittel",
+      "Fiatgeld = goldgedeckt",
+      "Buchgeld = Zentralbankgeld",
+      "Warengeld = Buchgeld"
+    ],
+    "loesung": "Bargeld = gesetzliches Zahlungsmittel"
+  },
+  {
+    "id": "VWLW01-116",
+    "typ": "match",
+    "tag": "Geldmengen",
+    "fall": "Im Unterricht wird eine kurze Anwendung diskutiert. (Variante 116)",
+    "frage": "Bringe M1–M3 passenden Beispielen zu.",
+    "erklaerung": "Geldmengen klassifizieren Zahlungsmittel nach Liquidität. M1 umfasst Bargeld und täglich verfügbare Einlagen, M2 erweitert um Termineinlagen, M3 um Wertpapiere. Merke: Je höher die Zahl, desto geringer die Liquidität.",
+    "esel": "Höhere Zahl = weniger liquide",
+    "quelle": { "kapitel": "4.2 Geldmengenbegriffe", "seite": "74–75" },
+    "schwierigkeit": "mittel",
+    "paare": {
+      "M1": "Bargeld + Sichteinlagen",
+      "M2": "M1 + kurzfr. Termineinlagen/Spareinlagen",
+      "M3": "M2 + Geldmarktfonds u. ä."
+    }
+  },
+  {
+    "id": "VWLW01-117",
+    "typ": "order",
+    "tag": "VPI-Berechnung",
+    "fall": "Ein Teammeeting möchte die Grundlogik prüfen. (Variante 117)",
+    "frage": "Bringe die Schritte der VPI-Ermittlung in Reihenfolge.",
+    "erklaerung": "Der Verbraucherpreisindex (VPI) misst Preisänderungen eines definierten Warenkorbs. Vorgehen: Auswahl des Warenkorbs, Preisermittlung, Berechnung der Relativwerte und Gewichtung. Merke: Korb → Preise → Relatives → Gewichte.",
+    "esel": "Korb → Preise → Index",
+    "quelle": { "kapitel": "4.3 Preisniveaustabilität", "seite": "76–81" },
+    "schwierigkeit": "mittel",
+    "richtigeReihenfolge": [
+      "Warenkorb festlegen",
+      "Preise erheben",
+      "Preisrelatives je Gut",
+      "Gewichten und aggregieren"
+    ]
+  },
+  {
+    "id": "VWLW01-118",
+    "typ": "mc",
+    "tag": "Wirtschaftskreislauf",
+    "fall": "Für ein Lernmodul wird die Reihenfolge trainiert. (Variante 118)",
+    "frage": "Welche Ströme bildet der einfache Wirtschaftskreislauf ab?",
+    "erklaerung": "Der einfache Wirtschaftskreislauf zeigt den Austausch von Gütern und Geld zwischen Haushalten und Unternehmen. Dabei fließen Einkommen und Ausgaben gegenläufig. Er bildet die Basis der volkswirtschaftlichen Gesamtrechnung.",
+    "esel": "Güter ↔ Geld",
+    "quelle": { "kapitel": "2.1 Einfacher Wirtschaftskreislauf", "seite": "21–24" },
+    "schwierigkeit": "mittel",
+    "optionen": [
+      "Güter- und Geldstrom",
+      "Nur Güterstrom",
+      "Nur Geldpolitik",
+      "Nur Staatseinnahmen"
+    ],
+    "loesung": "Güter- und Geldstrom"
+  },
+  {
+    "id": "VWLW01-119",
+    "typ": "order",
+    "tag": "Erweiterter Kreislauf",
+    "fall": "Ein Übungsblatt fordert eine knappe Begründung. (Variante 119)",
+    "frage": "Ordne typische Erweiterungen des Kreislaufs.",
+    "erklaerung": "Der erweiterte Wirtschaftskreislauf ergänzt den einfachen Kreislauf um Finanzsektor, Staat und Ausland. Dadurch wird die Finanzierung von Investitionen, Steuerpolitik und Außenhandel abgebildet. Merke: Einfach → Finanz → Staat → Ausland.",
+    "esel": "Einfach → Finanz → Staat → Ausland",
+    "quelle": { "kapitel": "2.2 Erweiterter Wirtschaftskreislauf", "seite": "34–36" },
+    "schwierigkeit": "mittel",
+    "richtigeReihenfolge": [
+      "Haushalte/Unternehmen",
+      "Finanzsektor (Sparen/Investieren)",
+      "Staat (Steuern/Transfers)",
+      "Ausland (Ex/Im)"
+    ]
+  },
+  {
+    "id": "VWLW01-120",
+    "typ": "justify",
+    "tag": "Kreislaufstörung",
+    "fall": "Ein Übungsblatt fordert eine knappe Begründung. (Variante 120)",
+    "frage": "Wie wirken steigende Zinsen auf den Wirtschaftskreislauf?",
+    "erklaerung": "Höhere Zinsen verteuern Kredite und dämpfen Investitionen und Konsum. Dadurch sinken Nachfrage, Produktion und Beschäftigung. Umgekehrt beleben sinkende Zinsen die Wirtschaft. Merke: Hohe Zinsen bremsen den Kreislauf.",
+    "esel": "Zinsen hoch – Kreislauf schwach.",
+    "quelle": { "kapitel": "5 Geldpolitik", "seite": "84–86" },
+    "schwierigkeit": "mittel",
+    "stichwoerter": ["Zinsen", "Investitionen", "Kredite", "Nachfrage"]
+  },
+  {
+    "id": "VWLW01-121",
+    "typ": "match",
+    "tag": "BIP-Rechnungen",
+    "fall": "Ein Kolloquium fragt nach der korrekten Einordnung. (Variante 121)",
+    "frage": "Ordne die BIP-Rechnungen ihren Leitfragen zu.",
+    "erklaerung": "Die VGR misst die Wirtschaftsleistung; das BIP erfasst den Wert aller im Inland erzeugten Endprodukte zu Marktpreisen. Es gibt die Perspektiven Entstehung, Verwendung und Verteilung. Beispiel: Eine Maschine ist Bruttoinvestition (Verwendung) und Wertschöpfung (Entstehung). Merke: Nur Endprodukte; BIP folgt dem Inlandskonzept.",
+    "esel": "Entstehen–Verwenden–Verteilen",
+    "quelle": { "kapitel": "2.3.2 Entstehungs-, Verwendungs- und Verteilungsrechnung", "seite": "38–40" },
+    "schwierigkeit": "mittel",
+    "paare": {
+      "Entstehungsrechnung": "Welche Wertschöpfung?",
+      "Verwendungsrechnung": "Wofür wird verwendet?",
+      "Verteilungsrechnung": "Wer erhält Einkommen?"
+    }
+  },
+  {
+    "id": "VWLW01-122",
+    "typ": "input",
+    "tag": "Außenbeitrag",
+    "fall": "Zur Prüfungsvorbereitung wird die Kerndefinition abgefragt. (Variante 122)",
+    "frage": "Gib die Kurzdefinition des Außenbeitrags an.",
+    "erklaerung": "Der Außenbeitrag ist der Saldo aus Exporten und Importen von Waren und Dienstleistungen. Er beeinflusst das BIP in der Verwendungsrechnung. Beispiel: Übersteigt X die M, erhöht der Saldo das BIP. Merke: X − M.",
+    "esel": "X − M",
+    "quelle": { "kapitel": "2 Wirtschaftskreislauf – Öffnung durch Außenbeitrag", "seite": "37" },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": ["Exporte", "minus", "Importe"]
+  },
+  {
+    "id": "VWLW01-123",
+    "typ": "mc",
+    "tag": "Inland vs. Inländer",
+    "fall": "Im Unterricht wird eine kurze Anwendung diskutiert. (Variante 123)",
+    "frage": "Welches Konzept nutzt das BIP?",
+    "erklaerung": "Das BIP folgt dem Inlandskonzept und erfasst Wertschöpfung im Wirtschaftsgebiet. Das Inländerkonzept (z. B. BNE) ordnet nach Wohnsitz der Wirtschaftssubjekte. Für Vergleiche ist die Unterscheidung zentral. Merke: BIP = wo; BNE = wer.",
+    "esel": "BIP = wo",
+    "quelle": { "kapitel": "2.3.1 Inländer- und Inlandskonzept", "seite": "37–38" },
+    "schwierigkeit": "mittel",
+    "optionen": ["Inlandskonzept", "Inländerkonzept", "Staatsbürgerkonzept", "Nur Exporte"],
+    "loesung": "Inlandskonzept"
+  },
+  {
+    "id": "VWLW01-124",
+    "typ": "mc",
+    "tag": "Polypol",
+    "fall": "Ein Teammeeting möchte die Grundlogik prüfen. (Variante 124)",
+    "frage": "Was kennzeichnet ein Polypol mit vollkommener Konkurrenz?",
+    "erklaerung": "Im Polypol sind einzelne Anbieter Preisnehmer. Der Marktpreis bildet sich aus Angebot und Nachfrage. Beispiel: Produktivitätsfortschritt verschiebt das Angebot nach rechts. Merke: Viele – Preis vorgegeben.",
+    "esel": "Viele = Preis vorgegeben",
+    "quelle": { "kapitel": "3.4 Preisbildung beim Polypol (Voraussetzungen: 3.1.3 Vollkommener Markt)", "seite": "ab 46" },
+    "schwierigkeit": "mittel",
+    "optionen": ["Viele Anbieter/Nachfrager, Preisnahme", "Ein Anbieter mit Marktmacht", "Wenige Anbieter, Kollusion", "Administrativ festgelegte Preise"],
+    "loesung": "Viele Anbieter/Nachfrager, Preisnahme"
+  },
+  {
+    "id": "VWLW01-125",
+    "typ": "input",
+    "tag": "Nachfragegesetz",
+    "fall": "Für ein Lernmodul wird die Reihenfolge trainiert. (Variante 125)",
+    "frage": "Formuliere das Nachfragegesetz kurz.",
+    "erklaerung": "Steigt der Preis eines Gutes, sinkt ceteris paribus die nachgefragte Menge, und umgekehrt. Das ist Grundlage fallender Nachfragekurven. Beispiel: Höherer Preis für Gut A senkt die Kaufmenge. Merke: Teurer → weniger.",
+    "esel": "Teurer → weniger",
+    "quelle": { "kapitel": "3.2.2 Abhängigkeit der Nachfragemenge vom Preis des Gutes", "seite": "" },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": ["Preis↑", "Menge↓", "ceteris paribus"]
+  },
+  {
+    "id": "VWLW01-126",
+    "typ": "order",
+    "tag": "Gleichgewicht",
+    "fall": "Ein Übungsblatt fordert eine knappe Begründung. (Variante 126)",
+    "frage": "Sortiere die Schritte zur Bestimmung von Preis und Menge.",
+    "erklaerung": "Das Gleichgewicht liegt dort, wo Angebot und Nachfrage übereinstimmen. Mathematisch wird durch Gleichsetzen gelöst. Anschließend lassen sich Preis und Menge bestimmen. Merke: Gleichsetzen → P* → Q*.",
+    "esel": "Gleichsetzen → P* → Q*",
+    "quelle": { "kapitel": "3.4.1 Ermittlung von Gleichgewichtspreis und -menge", "seite": "" },
+    "schwierigkeit": "mittel",
+    "richtigeReihenfolge": ["Funktionen aufstellen", "Gleichsetzen", "Preis berechnen", "Menge bestimmen"]
+  },
+  {
+    "id": "VWLW01-127",
+    "typ": "justify",
+    "tag": "Vollkommener Markt",
+    "fall": "Im Test soll das Konzept präzise wiedergegeben werden. (Variante 127)",
+    "frage": "Warum hat der Preis hohe Informationsqualität?",
+    "erklaerung": "Beim vollkommenen Markt sorgen homogene Güter, Transparenz und keine Präferenzen für informative Preise. Abweichungen führen zu Preisspielräumen. Beispiel: Qualitätsunterschiede mindern die Vergleichbarkeit. Merke: Gleichheit + Information = gutes Signal.",
+    "esel": "Gleich + Info = Signal",
+    "quelle": { "kapitel": "3.1.3 Vollkommener Markt", "seite": "46" },
+    "schwierigkeit": "mittel",
+    "stichwoerter": ["Homogenität", "Transparenz", "keine Präferenzen"]
+  },
+  {
+    "id": "VWLW01-128",
+    "typ": "mc",
+    "tag": "Geldarten",
+    "fall": "Ein Kolloquium fragt nach der korrekten Einordnung. (Variante 128)",
+    "frage": "Welche Zuordnung ist korrekt?",
+    "erklaerung": "Bargeld ist gesetzliches Zahlungsmittel; Buchgeld sind Sichteinlagen bei Banken. Fiatgeld hat keinen inneren Sachwert und ist staatlich legitimiert. Beispiel: Kartenzahlung nutzt Buchgeld. Merke: Bar = gesetzlich; Buchgeld = Bankeinlage.",
+    "esel": "Bar = gesetzlich",
+    "quelle": { "kapitel": "4.1 Arten des Geldes", "seite": "" },
+    "schwierigkeit": "mittel",
+    "optionen": ["Bargeld = gesetzliches Zahlungsmittel", "Fiatgeld = goldgedeckt", "Buchgeld = Zentralbankgeld", "Warengeld = Buchgeld"],
+    "loesung": "Bargeld = gesetzliches Zahlungsmittel"
+  },
+  {
+    "id": "VWLW01-129",
+    "typ": "match",
+    "tag": "Geldmengen",
+    "fall": "Zur Prüfungsvorbereitung wird die Kerndefinition abgefragt. (Variante 129)",
+    "frage": "Ordne M1–M3 passenden Beispielen zu.",
+    "erklaerung": "Geldmengen ordnen Zahlungsmittel nach Liquidität. M1 ist am liquidesten, M2 und M3 erweitern um weniger liquide Anlagen. Beispiel: Spareinlagen fallen in M2. Merke: Höhere Zahl = weniger liquide.",
+    "esel": "Höhere Zahl = weniger liquide",
+    "quelle": { "kapitel": "4.3.2 Geldmengen (M1–M3)", "seite": "" },
+    "schwierigkeit": "mittel",
+    "paare": {
+      "M1": "Bargeld+Sichteinlagen",
+      "M2": "M1+kurzfr. Termineinlagen/Spareinlagen",
+      "M3": "M2+Geldmarktfonds u. ä."
+    }
+  },
+  {
+    "id": "VWLW01-130",
+    "typ": "order",
+    "tag": "VPI-Berechnung",
+    "fall": "Im Unterricht wird eine kurze Anwendung diskutiert. (Variante 130)",
+    "frage": "Bringe die Schritte der VPI-Ermittlung in Reihenfolge.",
+    "erklaerung": "Der VPI misst Preisänderungen eines Warenkorbs. Die Ermittlung umfasst Korb, Preiserhebung, Relatives und Aggregation mit Gewichten. Beispiel: Steigen hohe Gewichte, steigt der Index stärker. Merke: Korb → Preise → Relatives → Gewichte.",
+    "esel": "Korb → Preise → Index",
+    "quelle": { "kapitel": "4.5.1 Messung des Geldwerts: Verbraucherpreisindex (VPI)", "seite": "" },
+    "schwierigkeit": "mittel",
+    "richtigeReihenfolge": ["Warenkorb festlegen", "Preise erheben", "Preisrelatives je Gut", "Gewichten und aggregieren"]
+  },
+  {
+    "id": "VWLW01-131",
+    "typ": "justify",
+    "tag": "Inflation",
+    "fall": "Ein Kolloquium fragt nach der wirtschaftlichen Bedeutung. (Variante 131)",
+    "frage": "Warum gilt eine moderate Inflation als wirtschaftlich akzeptabel?",
+    "erklaerung": "Eine moderate Inflation von etwa 2 % signalisiert Preisstabilität und vermeidet Deflationsrisiken. Sie ermöglicht flexible Lohn- und Preis­anpassungen und unterstützt Investitionsentscheidungen. Zu hohe oder zu niedrige Raten verzerren dagegen die Kaufkraft. Merke: Ein wenig Inflation hält die Wirtschaft in Bewegung.",
+    "esel": "2 % = stabil, nicht gefährlich",
+    "quelle": { "kapitel": "4.6 Preisniveaustabilität und Inflation", "seite": "80–82" },
+    "schwierigkeit": "mittel",
+    "stichwoerter": ["Inflationsziel", "2 %-Ziel", "Preisniveaustabilität"]
+  },
+  {
+    "id": "VWLW01-132",
+    "typ": "input",
+    "tag": "Deflation",
+    "fall": "Im Unterricht wird die volkswirtschaftliche Wirkung diskutiert. (Variante 132)",
+    "frage": "Was versteht man unter Deflation?",
+    "erklaerung": "Deflation bezeichnet einen allgemeinen, anhaltenden Rückgang des Preis­niveaus. Sie führt zu sinkender Nachfrage, da Konsumenten Käufe aufschieben, und kann eine Abwärtsspirale bei Produktion und Beschäftigung auslösen. Merke: Deflation bremst die Wirtschaft.",
+    "esel": "Fallende Preise → Stillstand",
+    "quelle": { "kapitel": "4.6 Preisniveaustabilität und Inflation", "seite": "82–83" },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": ["Preisverfall", "Nachfragerückgang", "Abwärtsspirale"]
+  },
+  {
+    "id": "VWLW01-133",
+    "typ": "mc",
+    "tag": "Geldpolitik EZB",
+    "fall": "Ein Teammeeting möchte die Funktionsweise prüfen. (Variante 133)",
+    "frage": "Welches Hauptziel verfolgt die Geldpolitik der EZB laut EU-Vertrag?",
+    "erklaerung": "Die Europäische Zentralbank hat laut Artikel 127 AEUV das vorrangige Ziel, Preisniveaustabilität zu gewährleisten. Weitere Ziele wie Wachstum und Beschäftigung sind nachrangig. Merke: Stabilität zuerst, dann Konjunktur.",
+    "esel": "EZB = Preisstabilität",
+    "quelle": { "kapitel": "5.1 Ziele der Geldpolitik", "seite": "84–85" },
+    "schwierigkeit": "mittel",
+    "optionen": [
+      "Preisniveaustabilität",
+      "Vollbeschäftigung",
+      "Exportsteigerung",
+      "Defizitfinanzierung"
+    ],
+    "loesung": "Preisniveaustabilität"
+  },
+  {
+    "id": "VWLW01-134",
+    "typ": "match",
+    "tag": "EZB Instrumente",
+    "fall": "Zur Prüfungsvorbereitung wird die Kerndefinition abgefragt. (Variante 134)",
+    "frage": "Ordne die geldpolitischen Instrumente der EZB ihren Funktionen zu.",
+    "erklaerung": "Die EZB steuert Liquidität über Offenmarktgeschäfte, ständige Fazilitäten und Mindestreservepolitik. Offenmarktgeschäfte beeinflussen den Zins; Fazilitäten begrenzen Schwankungen; Mindestreserven sichern Stabilität. Merke: Drei Werkzeuge, ein Ziel – stabile Preise.",
+    "esel": "Offenmarkt, Fazilitäten, Reserve",
+    "quelle": { "kapitel": "5.2 Instrumente der Geldpolitik", "seite": "86–89" },
+    "schwierigkeit": "mittel",
+    "paare": {
+      "Offenmarktgeschäfte": "Steuerung des Geldangebots über Zins und Liquidität",
+      "Spitzenrefinanzierungsfazilität": "Kurzfristige Kreditaufnahme der Banken",
+      "Einlagefazilität": "Zinssatz für überschüssige Guthaben der Banken bei der EZB",
+      "Mindestreservepolitik": "Pflichtguthaben zur Liquiditätssteuerung"
+    }
+  },
+  {
+    "id": "VWLW01-135",
+    "typ": "order",
+    "tag": "Geldschöpfung",
+    "fall": "Ein Übungsblatt fordert eine knappe Begründung. (Variante 135)",
+    "frage": "Bringe die Schritte der Geldschöpfung im Bankensystem in die richtige Reihenfolge.",
+    "erklaerung": "Geldschöpfung entsteht, wenn Geschäftsbanken Kredite vergeben und damit Giralgeld schaffen. Grundlage sind Einlagen, von denen ein Teil als Reserve gehalten wird. Die Kette aus Kredit- und Einlagenprozessen vermehrt die Geldmenge. Merke: Kredit schafft Geld.",
+    "esel": "Einlage → Kredit → neues Geld",
+    "quelle": { "kapitel": "4.4 Geldschöpfung im Bankensystem", "seite": "77–79" },
+    "schwierigkeit": "mittel",
+    "richtigeReihenfolge": [
+      "Einzahlung bei Bank",
+      "Kreditvergabe",
+      "Gutschrift auf Konto (Giralgeld)",
+      "Weitere Kreditvergabe durch nächste Bank"
+    ]
+  },
+  {
+    "id": "VWLW01-136",
+    "typ": "justify",
+    "tag": "Zinsmechanismus",
+    "fall": "Ein Kolloquium fragt nach der wirtschaftlichen Wirkung. (Variante 136)",
+    "frage": "Wie beeinflussen Leitzinsänderungen die gesamtwirtschaftliche Nachfrage?",
+    "erklaerung": "Senkungen des Leitzinses verbilligen Kredite, erhöhen Investitionen und Konsum und beleben damit die Nachfrage. Erhöhungen haben den gegenteiligen Effekt. Merke: Zins runter – Nachfrage rauf.",
+    "esel": "Zins ↓ → Nachfrage ↑",
+    "quelle": { "kapitel": "5.3 Transmission geldpolitischer Impulse", "seite": "90–91" },
+    "schwierigkeit": "mittel",
+    "stichwoerter": ["Leitzins", "Investitionen", "Nachfrage"]
+  },
+  {
+    "id": "VWLW01-137",
+    "typ": "calc",
+    "tag": "Zinseszins",
+    "fall": "Ein Rechenbeispiel verdeutlicht den Zinseffekt. (Variante 137)",
+    "frage": "Berechne den Endbetrag bei einem Zinssatz von {p}% über {n} Jahre auf ein Kapital von {K} € (Zinseszinsformel).",
+    "erklaerung": "Der Endbetrag berechnet sich nach der Formel Endbetrag = K × (1 + p/100)ⁿ. Zinseszinsen erhöhen den Ertrag über die Zeit progressiv. Beispiel: Bei 3 % über 5 Jahre wächst Kapital stärker als bei einfacher Verzinsung.",
+    "esel": "Zins auf Zins verstärkt Effekt",
+    "quelle": { "kapitel": "5.4 Zinspolitik und Zinsrechnung", "seite": "92–93" },
+    "schwierigkeit": "mittel",
+    "parameter": { "K": [1000, 10000], "p": [1, 5], "n": [1, 10] },
+    "formel": "K * (1 + p/100) ** n"
+  },
+  {
+    "id": "VWLW01-138",
+    "typ": "mc",
+    "tag": "Konjunkturphasen",
+    "fall": "Zur Prüfungsvorbereitung wird die Kerndefinition abgefragt. (Variante 138)",
+    "frage": "Welche Aussage beschreibt die Hochkonjunktur am besten?",
+    "erklaerung": "In der Hochkonjunktur sind Kapazitäten voll ausgelastet, Beschäftigung und Einkommen hoch, Preise und Zinsen steigen. Sie leitet oft in eine Überhitzung über. Merke: Boom – alles läuft auf Hochtouren.",
+    "esel": "Boom = Vollauslastung",
+    "quelle": { "kapitel": "6.1 Konjunktur und Konjunkturzyklus", "seite": "94–96" },
+    "schwierigkeit": "mittel",
+    "optionen": [
+      "Vollbeschäftigung und Preissteigerungen",
+      "Starker Rückgang der Produktion",
+      "Sinkende Einkommen und Preise",
+      "Deflationsgefahr"
+    ],
+    "loesung": "Vollbeschäftigung und Preissteigerungen"
+  },
+  {
+    "id": "VWLW01-139",
+    "typ": "match",
+    "tag": "Konjunkturindikatoren",
+    "fall": "Ein Teammeeting möchte die Grundlogik prüfen. (Variante 139)",
+    "frage": "Ordne die Konjunkturindikatoren ihrer Art zu.",
+    "erklaerung": "Konjunkturindikatoren werden nach ihrem zeitlichen Verhalten eingeteilt: Frühindikatoren weisen voraus, Präsenzindikatoren laufen parallel, Spätindikatoren folgen verzögert. Merke: Früh – Jetzt – Spät.",
+    "esel": "Früh → Präsenz → Spät",
+    "quelle": { "kapitel": "6.2 Konjunkturindikatoren", "seite": "97–98" },
+    "schwierigkeit": "mittel",
+    "paare": {
+      "Auftragseingänge": "Frühindikator",
+      "BIP": "Präsenzindikator",
+      "Arbeitslosenquote": "Spätindikator"
+    }
+  },
+  {
+    "id": "VWLW01-140",
+    "typ": "order",
+    "tag": "Konjunkturzyklus",
+    "fall": "Ein Übungsblatt fordert eine knappe Begründung. (Variante 140)",
+    "frage": "Bringe die vier Phasen des Konjunkturzyklus in die richtige Reihenfolge.",
+    "erklaerung": "Ein vollständiger Konjunkturzyklus besteht aus Aufschwung, Boom, Abschwung und Rezession. Diese wiederkehrenden Schwankungen spiegeln Nachfrage-, Preis- und Beschäftigungsentwicklungen wider. Merke: Wirtschaft atmet in Zyklen.",
+    "esel": "↑ Boom ↓ Krise",
+    "quelle": { "kapitel": "6.1 Konjunktur und Konjunkturzyklus", "seite": "95–96" },
+    "schwierigkeit": "mittel",
+    "richtigeReihenfolge": [
+      "Aufschwung",
+      "Boom (Hochkonjunktur)",
+      "Abschwung",
+      "Rezession"
+    ]
+  },
+  {
+    "id": "VWLW01-141",
+    "typ": "mc",
+    "tag": "Staatsaufgaben",
+    "fall": "Ein Kolloquium fragt nach den Kernfunktionen des Staates. (Variante 141)",
+    "frage": "Welche der folgenden Aufgaben zählt zu den wirtschaftspolitischen Kernfunktionen des Staates?",
+    "erklaerung": "Die ökonomischen Hauptfunktionen des Staates umfassen Allokation, Distribution und Stabilisierung. Der Staat sorgt für effiziente Güterbereitstellung, gerechte Einkommensverteilung und gesamtwirtschaftliches Gleichgewicht. Merke: Drei Funktionen – Versorgung, Gerechtigkeit, Stabilität.",
+    "esel": "ADS = Allokation, Distribution, Stabilisierung",
+    "quelle": { "kapitel": "7.1 Staatsaufgaben", "seite": "100–102" },
+    "schwierigkeit": "mittel",
+    "optionen": [
+      "Allokationsfunktion",
+      "Privatisierungsfunktion",
+      "Konsumfunktion",
+      "Produktionsfunktion"
+    ],
+    "loesung": "Allokationsfunktion"
+  },
+  {
+    "id": "VWLW01-142",
+    "typ": "justify",
+    "tag": "Allokationsfunktion",
+    "fall": "Ein Teammeeting möchte die Grundlogik prüfen. (Variante 142)",
+    "frage": "Warum greift der Staat zur Wahrung der Allokation in die Wirtschaft ein?",
+    "erklaerung": "Marktversagen entsteht etwa bei öffentlichen Gütern, externen Effekten oder Monopolen. Der Staat sorgt durch Regulierung, Bereitstellung oder Besteuerung für effiziente Ressourcennutzung. Merke: Staat korrigiert Marktfehler.",
+    "esel": "Staat = Marktretter",
+    "quelle": { "kapitel": "7.2 Marktversagen und Allokation", "seite": "103–106" },
+    "schwierigkeit": "mittel",
+    "stichwoerter": ["Marktversagen", "öffentliche Güter", "externe Effekte"]
+  },
+  {
+    "id": "VWLW01-143",
+    "typ": "match",
+    "tag": "Distributionspolitik",
+    "fall": "Im Unterricht wird die Einkommensverteilung thematisiert. (Variante 143)",
+    "frage": "Ordne die Instrumente der Distributionspolitik ihrer Zielrichtung zu.",
+    "erklaerung": "Der Staat gleicht ungleiche Einkommensverteilungen durch direkte (z. B. progressive Steuern) und indirekte (Transfers) Maßnahmen aus. Ziel ist Chancengleichheit und soziale Sicherheit. Merke: Umverteilung schafft Stabilität.",
+    "esel": "Steuern nehmen, Transfers geben",
+    "quelle": { "kapitel": "7.3 Distributionsfunktion", "seite": "107–109" },
+    "schwierigkeit": "mittel",
+    "paare": {
+      "Progressive Einkommensteuer": "Direkte Umverteilung",
+      "Kindergeld": "Indirekte Umverteilung",
+      "Wohngeld": "Indirekte Umverteilung"
+    }
+  },
+  {
+    "id": "VWLW01-144",
+    "typ": "input",
+    "tag": "Stabilisierungsfunktion",
+    "fall": "Zur Prüfungsvorbereitung wird die Kerndefinition abgefragt. (Variante 144)",
+    "frage": "Was ist das Ziel der staatlichen Stabilisierungsfunktion?",
+    "erklaerung": "Die Stabilisierungsfunktion dient der Sicherung von Preisniveaustabilität, hohem Beschäftigungsstand, außenwirtschaftlichem Gleichgewicht und stetigem Wachstum – den Zielen des magischen Vierecks. Merke: Vier Ziele – ein Gleichgewicht.",
+    "esel": "Preis, Beschäftigung, Außen, Wachstum",
+    "quelle": { "kapitel": "7.4 Stabilisierungsfunktion", "seite": "110–111" },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": ["magisches Viereck", "Gleichgewicht", "Stabilität"]
+  },
+  {
+    "id": "VWLW01-145",
+    "typ": "mc",
+    "tag": "Magisches Viereck",
+    "fall": "Ein Kolloquium fragt nach Zielkonflikten. (Variante 145)",
+    "frage": "Welcher Zielkonflikt ist typisch im magischen Viereck?",
+    "erklaerung": "Zwischen Preisstabilität und Vollbeschäftigung besteht oft ein Zielkonflikt: expansive Politik fördert Beschäftigung, kann aber Inflation erzeugen. Merke: Mehr Jobs kosten oft mehr Preise.",
+    "esel": "Inflation vs. Beschäftigung",
+    "quelle": { "kapitel": "7.5 Das magische Viereck", "seite": "112–114" },
+    "schwierigkeit": "mittel",
+    "optionen": [
+      "Vollbeschäftigung ↔ Preisniveaustabilität",
+      "Wachstum ↔ Außenhandel",
+      "Soziale Gerechtigkeit ↔ Wettbewerb",
+      "Sparen ↔ Investieren"
+    ],
+    "loesung": "Vollbeschäftigung ↔ Preisniveaustabilität"
+  },
+  {
+    "id": "VWLW01-146",
+    "typ": "order",
+    "tag": "Finanzpolitik",
+    "fall": "Ein Teammeeting möchte die Grundlogik prüfen. (Variante 146)",
+    "frage": "Bringe die Schritte des staatlichen Haushaltsprozesses in die richtige Reihenfolge.",
+    "erklaerung": "Der Haushaltsprozess umfasst Planung, parlamentarische Beratung, Verabschiedung, Ausführung und Kontrolle. Damit wird Transparenz und Kontrolle über Einnahmen und Ausgaben gewährleistet. Merke: Planen → Beraten → Beschließen → Vollziehen → Prüfen.",
+    "esel": "Plan–Beschluss–Kontrolle",
+    "quelle": { "kapitel": "8.1 Finanzpolitik und Haushalt", "seite": "115–117" },
+    "schwierigkeit": "mittel",
+    "richtigeReihenfolge": [
+      "Haushaltsaufstellung durch Regierung",
+      "Beratung im Parlament",
+      "Verabschiedung des Haushaltsgesetzes",
+      "Ausführung durch Verwaltung",
+      "Rechnungsprüfung"
+    ]
+  },
+  {
+    "id": "VWLW01-147",
+    "typ": "calc",
+    "tag": "Staatsquote",
+    "fall": "Ein Rechenbeispiel verdeutlicht die Staatsquote. (Variante 147)",
+    "frage": "Berechne die Staatsquote, wenn Staatsausgaben {A} Mrd. € und das BIP {B} Mrd. € betragen.",
+    "erklaerung": "Die Staatsquote misst den Anteil der staatlichen Ausgaben am BIP. Formel: (Ausgaben / BIP) × 100. Sie zeigt die wirtschaftliche Bedeutung des Staatssektors. Merke: Je höher die Quote, desto stärker der Staat.",
+    "esel": "Staat / BIP × 100",
+    "quelle": { "kapitel": "8.2 Staatsquote und Struktur", "seite": "118–119" },
+    "schwierigkeit": "mittel",
+    "parameter": { "A": [500, 2000], "B": [2000, 6000] },
+    "formel": "(A / B) * 100"
+  },
+  {
+    "id": "VWLW01-148",
+    "typ": "justify",
+    "tag": "Steuerpolitik",
+    "fall": "Ein Übungsblatt fordert eine knappe Begründung. (Variante 148)",
+    "frage": "Warum gelten Steuern als zentrales Lenkungsinstrument der Finanzpolitik?",
+    "erklaerung": "Steuern beeinflussen Verhalten und Verteilung. Durch Steuerhöhe und -struktur kann der Staat Nachfrage, Investitionen oder ökologische Ziele steuern. Merke: Steuern sind mehr als Einnahmen – sie lenken Wirtschaft und Gesellschaft.",
+    "esel": "Steuern lenken Verhalten",
+    "quelle": { "kapitel": "8.3 Steuerpolitik", "seite": "120–122" },
+    "schwierigkeit": "mittel",
+    "stichwoerter": ["Lenkung", "Nachfrage", "Verteilung"]
+  },
+  {
+    "id": "VWLW01-149",
+    "typ": "mc",
+    "tag": "Fiskalpolitik",
+    "fall": "Ein Kolloquium fragt nach dem Wirkungsmechanismus. (Variante 149)",
+    "frage": "Welche Maßnahme gehört zur antizyklischen Fiskalpolitik in einer Rezession?",
+    "erklaerung": "In einer Rezession erhöht der Staat Ausgaben oder senkt Steuern, um die Nachfrage zu stimulieren. Diese expansive Fiskalpolitik stabilisiert die Konjunktur. Merke: Staat gibt, wenn Wirtschaft schwächelt.",
+    "esel": "Krise → mehr Ausgaben",
+    "quelle": { "kapitel": "8.4 Fiskalpolitik", "seite": "123–125" },
+    "schwierigkeit": "mittel",
+    "optionen": [
+      "Erhöhung der Staatsausgaben",
+      "Steuererhöhung",
+      "Ausgabenkürzung",
+      "Zinserhöhung durch EZB"
+    ],
+    "loesung": "Erhöhung der Staatsausgaben"
+  },
+  {
+    "id": "VWLW01-150",
+    "typ": "match",
+    "tag": "Fiskalpolitik Ziele",
+    "fall": "Im Test soll das Konzept präzise wiedergegeben werden. (Variante 150)",
+    "frage": "Ordne den fiskalpolitischen Maßnahmen ihre Wirkung auf die Konjunktur zu.",
+    "erklaerung": "Die Fiskalpolitik nutzt Einnahmen und Ausgaben zur Beeinflussung der Konjunktur. Expansive Maßnahmen fördern, kontraktive dämpfen die Nachfrage. Merke: Mehr Geld – mehr Wachstum.",
+    "esel": "Expansiv = Anschub",
+    "quelle": { "kapitel": "8.4 Fiskalpolitik", "seite": "124–126" },
+    "schwierigkeit": "mittel",
+    "paare": {
+      "Steuersenkung": "Expansive Wirkung",
+      "Investitionskürzung": "Kontraktive Wirkung",
+      "Subventionen erhöhen": "Expansive Wirkung",
+      "Schuldenabbau": "Kontraktive Wirkung"
+    }
+  },
+  {
+    "id": "VWLW01-151",
+    "typ": "mc",
+    "tag": "Fiskalpolitik Grundlagen",
+    "fall": "Ein Kolloquium fragt nach den Grundzielen der Fiskalpolitik. (Variante 151)",
+    "frage": "Welches Ziel verfolgt die Fiskalpolitik im Rahmen der Stabilisierungspolitik?",
+    "erklaerung": "Die Fiskalpolitik steuert über Staatsausgaben und Steuern die gesamtwirtschaftliche Nachfrage. Ihr Ziel ist ein stabiler Konjunkturverlauf ohne starke Schwankungen. Merke: Staat bremst im Boom, gibt Gas in der Krise.",
+    "esel": "Gas bei Krise, Bremse im Boom",
+    "quelle": { "kapitel": "8.4 Fiskalpolitik", "seite": "123–125" },
+    "schwierigkeit": "mittel",
+    "optionen": [
+      "Stabilisierung des Konjunkturverlaufs",
+      "Stärkung des Außenhandels",
+      "Steigerung der Produktivität",
+      "Reduktion der Sozialleistungen"
+    ],
+    "loesung": "Stabilisierung des Konjunkturverlaufs"
+  },
+  {
+    "id": "VWLW01-152",
+    "typ": "justify",
+    "tag": "Antizyklische Fiskalpolitik",
+    "fall": "Im Unterricht wird der Zusammenhang zwischen Konjunktur und Staatshaushalt besprochen. (Variante 152)",
+    "frage": "Warum wird antizyklische Fiskalpolitik als stabilisierend bezeichnet?",
+    "erklaerung": "Antizyklische Politik wirkt Schwankungen entgegen: In der Rezession wird die Nachfrage durch Staatsausgaben gestützt, im Boom wird sie gedämpft. So verhindert der Staat Überhitzung und Einbruch. Merke: Gegen den Zyklus, nicht mit ihm.",
+    "esel": "Gegen den Zyklus",
+    "quelle": { "kapitel": "8.4 Fiskalpolitik", "seite": "125–126" },
+    "schwierigkeit": "mittel",
+    "stichwoerter": ["Rezession", "Boom", "Nachfragepolitik"]
+  },
+  {
+    "id": "VWLW01-153",
+    "typ": "match",
+    "tag": "Fiskalpolitische Maßnahmen",
+    "fall": "Ein Teammeeting möchte konkrete Maßnahmen zuordnen. (Variante 153)",
+    "frage": "Ordne die fiskalpolitischen Maßnahmen der jeweiligen konjunkturellen Phase zu.",
+    "erklaerung": "In der Rezession wirkt der Staat expansiv, im Boom kontraktiv. Steuersenkungen und Investitionen regen an, Ausgabenkürzungen und Steuererhöhungen bremsen. Merke: Krise = Gas, Boom = Bremse.",
+    "esel": "Gas/Bremse-Regel",
+    "quelle": { "kapitel": "8.4 Fiskalpolitik", "seite": "125–126" },
+    "schwierigkeit": "mittel",
+    "paare": {
+      "Rezession": "Erhöhung der Staatsausgaben",
+      "Boom": "Senkung der Staatsausgaben",
+      "Abschwung": "Steuersenkung",
+      "Aufschwung": "Steuererhöhung"
+    }
+  },
+  {
+    "id": "VWLW01-154",
+    "typ": "calc",
+    "tag": "Haushaltsdefizit",
+    "fall": "Ein Rechenbeispiel verdeutlicht das Haushaltsdefizit. (Variante 154)",
+    "frage": "Berechne das Haushaltsdefizit, wenn die Staatsausgaben {A} Mrd. € betragen und die Einnahmen {B} Mrd. €.",
+    "erklaerung": "Das Haushaltsdefizit ist die Differenz zwischen Ausgaben und Einnahmen des Staates. Formel: Ausgaben − Einnahmen. Zeigt, wie stark der Staat kreditfinanziert agiert. Merke: Wenn mehr ausgegeben wird als reinkommt, entsteht Defizit.",
+    "esel": "Ausgabe minus Einnahme",
+    "quelle": { "kapitel": "8.1 Finanzpolitik und Haushalt", "seite": "115–117" },
+    "schwierigkeit": "mittel",
+    "parameter": { "A": [500, 1000], "B": [300, 900] },
+    "formel": "A - B"
+  },
+  {
+    "id": "VWLW01-155",
+    "typ": "input",
+    "tag": "Automatische Stabilisatoren",
+    "fall": "Im Test soll das Konzept präzise wiedergegeben werden. (Variante 155)",
+    "frage": "Was sind automatische Stabilisatoren in der Fiskalpolitik?",
+    "erklaerung": "Automatische Stabilisatoren wirken ohne neue Gesetze: z. B. progressive Steuern oder Arbeitslosengeld. In der Rezession steigen Ausgaben, im Boom Einnahmen – so glätten sie die Konjunktur. Merke: Dämpfer ohne Knopfdruck.",
+    "esel": "Stabilisierung ohne Gesetz",
+    "quelle": { "kapitel": "8.5 Automatische Stabilisatoren", "seite": "127–129" },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": ["Steuern", "Transfers", "Konjunktur"]
+  },
+  {
+    "id": "VWLW01-156",
+    "typ": "mc",
+    "tag": "Strukturelles vs. zyklisches Defizit",
+    "fall": "Ein Kolloquium fragt nach der Unterscheidung der Defizitarten. (Variante 156)",
+    "frage": "Was unterscheidet ein strukturelles von einem konjunkturellen Defizit?",
+    "erklaerung": "Ein konjunkturelles Defizit entsteht durch Abschwungphasen, ein strukturelles durch dauerhafte Fehlsteuerung. Nur das konjunkturelle ist temporär und erlaubt im Stabilitätsrahmen. Merke: Struktur = dauerhaft, Konjunktur = vorübergehend.",
+    "esel": "Struktur bleibt, Zyklus geht",
+    "quelle": { "kapitel": "8.6 Staatsverschuldung", "seite": "130–132" },
+    "schwierigkeit": "mittel",
+    "optionen": [
+      "Strukturell = dauerhaft, konjunkturell = vorübergehend",
+      "Beide sind kurzfristig",
+      "Beide entstehen durch Inflation",
+      "Konjunkturell = durch Gesetzgebung"
+    ],
+    "loesung": "Strukturell = dauerhaft, konjunkturell = vorübergehend"
+  },
+  {
+    "id": "VWLW01-157",
+    "typ": "order",
+    "tag": "Stabilitätsgesetz",
+    "fall": "Zur Prüfungsvorbereitung wird die Kerndefinition abgefragt. (Variante 157)",
+    "frage": "Bringe die vier Ziele des Stabilitätsgesetzes in die richtige Reihenfolge.",
+    "erklaerung": "Das Stabilitäts- und Wachstumsgesetz (1967) konkretisiert das magische Viereck: Preisstabilität, hoher Beschäftigungsstand, außenwirtschaftliches Gleichgewicht und stetiges Wachstum. Merke: Magisches Viereck – gesetzlich festgeschrieben.",
+    "esel": "Preis, Arbeit, Außen, Wachstum",
+    "quelle": { "kapitel": "8.7 Stabilitätsgesetz", "seite": "133–135" },
+    "schwierigkeit": "mittel",
+    "richtigeReihenfolge": [
+      "Preisniveaustabilität",
+      "Hoher Beschäftigungsstand",
+      "Außenwirtschaftliches Gleichgewicht",
+      "Stetiges und angemessenes Wachstum"
+    ]
+  },
+  {
+    "id": "VWLW01-158",
+    "typ": "justify",
+    "tag": "Nachfrageorientierte Politik",
+    "fall": "Im Unterricht wird die keynesianische Theorie behandelt. (Variante 158)",
+    "frage": "Warum setzt die keynesianische Fiskalpolitik auf staatliche Nachfrageimpulse?",
+    "erklaerung": "Keynes geht davon aus, dass Märkte nicht immer automatisch ins Gleichgewicht kommen. Staatliche Ausgaben stabilisieren Nachfrage, Beschäftigung und Einkommen. Merke: Nachfrage schafft Beschäftigung.",
+    "esel": "Staat füllt Nachfragelücke",
+    "quelle": { "kapitel": "8.8 Keynesianische Theorie", "seite": "136–139" },
+    "schwierigkeit": "mittel",
+    "stichwoerter": ["Nachfrage", "Beschäftigung", "Keynes"]
+  },
+  {
+    "id": "VWLW01-159",
+    "typ": "mc",
+    "tag": "Angebotsorientierte Politik",
+    "fall": "Ein Teammeeting möchte die Unterschiede prüfen. (Variante 159)",
+    "frage": "Welches Ziel verfolgt die angebotsorientierte Wirtschaftspolitik?",
+    "erklaerung": "Sie setzt auf bessere Produktionsbedingungen: weniger Regulierung, niedrigere Steuern, mehr Investitionsanreize. Ziel ist langfristiges Wachstum durch Effizienzsteigerung. Merke: Angebot schafft Nachfrage.",
+    "esel": "Wachstum durch Angebot",
+    "quelle": { "kapitel": "8.9 Angebotsorientierte Politik", "seite": "140–142" },
+    "schwierigkeit": "mittel",
+    "optionen": [
+      "Förderung von Investitionen und Produktivität",
+      "Steigerung staatlicher Nachfrage",
+      "Erhöhung der Lohnquote",
+      "Senkung der Exporte"
+    ],
+    "loesung": "Förderung von Investitionen und Produktivität"
+  },
+  {
+    "id": "VWLW01-160",
+    "typ": "match",
+    "tag": "Keynes vs. Angebotspolitik",
+    "fall": "Zur Wiederholung werden die Theorien gegenübergestellt. (Variante 160)",
+    "frage": "Ordne die Merkmale der keynesianischen und angebotsorientierten Politik zu.",
+    "erklaerung": "Keynes betont Nachfrageimpulse, die Angebotslehre setzt auf Produktionsanreize. Beide verfolgen Stabilität, unterscheiden sich aber im Ansatzpunkt. Merke: Keynes = Nachfrage, Angebot = Angebot.",
+    "esel": "Keynes kauft, Angebot baut",
+    "quelle": { "kapitel": "8.9 Vergleich der Theorien", "seite": "143–145" },
+    "schwierigkeit": "mittel",
+    "paare": {
+      "Keynesianismus": "Nachfrageorientiert, kurzfristig",
+      "Angebotspolitik": "Produktionsorientiert, langfristig",
+      "Staatsausgaben erhöhen": "Keynesianisch",
+      "Steuern senken": "Angebotsorientiert"
+    }
+  },
+  {
+    "id": "VWLW01-161",
+    "typ": "mc",
+    "tag": "Stabilitätsgesetz",
+    "fall": "Zur Prüfungsvorbereitung wird die Zielstruktur wiederholt. (Variante 161)",
+    "frage": "Welche der folgenden Zielgrößen ist KEIN Bestandteil des Stabilitätsgesetzes?",
+    "erklaerung": "Das Stabilitäts- und Wachstumsgesetz von 1967 umfasst das magische Viereck: Preisniveaustabilität, hoher Beschäftigungsstand, außenwirtschaftliches Gleichgewicht und stetiges Wachstum. Weitere Ziele wie Umweltschutz kamen erst später hinzu. Merke: Vier Ziele – keine Umwelt.",
+    "esel": "Vier ohne Umwelt",
+    "quelle": { "kapitel": "8.7 Stabilitätsgesetz", "seite": "133–135" },
+    "schwierigkeit": "mittel",
+    "optionen": [
+      "Preisniveaustabilität",
+      "Umweltschutz",
+      "Hoher Beschäftigungsstand",
+      "Außenwirtschaftliches Gleichgewicht"
+    ],
+    "loesung": "Umweltschutz"
+  },
+  {
+    "id": "VWLW01-162",
+    "typ": "justify",
+    "tag": "Magisches Vieleck",
+    "fall": "Ein Kolloquium fragt nach der Erweiterung des magischen Vierecks. (Variante 162)",
+    "frage": "Warum spricht man heute oft vom magischen Vieleck statt vom magischen Viereck?",
+    "erklaerung": "Weil zu den klassischen Zielen neue hinzugekommen sind: Umweltschutz, gerechte Einkommensverteilung, Haushaltsdisziplin und Lebensqualität. Dadurch entsteht ein komplexes, teils widersprüchliches Zielsystem. Merke: Mehr Ziele = mehr Konflikte.",
+    "esel": "Mehr Ecken, mehr Widersprüche",
+    "quelle": { "kapitel": "8.7 Stabilitätsgesetz", "seite": "134–136" },
+    "schwierigkeit": "mittel",
+    "stichwoerter": ["Erweiterung", "Umweltschutz", "Einkommensverteilung"]
+  },
+  {
+    "id": "VWLW01-163",
+    "typ": "calc",
+    "tag": "Multiplikatoreffekt",
+    "fall": "Ein Rechenbeispiel verdeutlicht die keynesianische Nachfragewirkung. (Variante 163)",
+    "frage": "Berechne die Veränderung des BIP, wenn der Staat seine Ausgaben um {A} Mrd. € erhöht und die marginale Konsumquote {C} beträgt.",
+    "erklaerung": "Nach der keynesianischen Theorie ergibt sich die gesamtwirtschaftliche Nachfrageverstärkung aus dem Multiplikatoreffekt: ΔY = 1 / (1 − c) × ΔA. Merke: Kleine Ausgaben → große Wirkung.",
+    "esel": "1 / (1 − c)",
+    "quelle": { "kapitel": "8.8 Keynesianische Theorie", "seite": "136–139" },
+    "schwierigkeit": "schwer",
+    "parameter": { "A": [10, 50], "C": [0.6, 0.9] },
+    "formel": "(1 / (1 - C)) * A"
+  },
+  {
+    "id": "VWLW01-164",
+    "typ": "order",
+    "tag": "Konjunkturpolitik Ablauf",
+    "fall": "Ein Teammeeting möchte die praktische Umsetzung prüfen. (Variante 164)",
+    "frage": "Bringe die Schritte einer antizyklischen Konjunkturpolitik in die richtige Reihenfolge.",
+    "erklaerung": "Eine antizyklische Politik folgt typischerweise: Diagnose → Maßnahme → Wirkung → Kontrolle. Sie setzt gezielt bei Nachfrageschwäche oder Überhitzung an. Merke: Erst analysieren, dann handeln.",
+    "esel": "Analyse → Aktion → Wirkung → Kontrolle",
+    "quelle": { "kapitel": "8.4 Fiskalpolitik", "seite": "123–126" },
+    "schwierigkeit": "mittel",
+    "richtigeReihenfolge": [
+      "Konjunkturdiagnose",
+      "Auswahl fiskalischer Maßnahme",
+      "Umsetzung über Haushalt",
+      "Beobachtung der Wirkung"
+    ]
+  },
+  {
+    "id": "VWLW01-165",
+    "typ": "match",
+    "tag": "Automatische Stabilisatoren",
+    "fall": "Im Unterricht wird das Konzept wiederholt. (Variante 165)",
+    "frage": "Ordne die automatischen Stabilisatoren ihrer Wirkung in Boom- oder Rezessionsphase zu.",
+    "erklaerung": "Automatische Stabilisatoren wirken konjunkturdämpfend im Boom und stabilisierend in der Rezession. Beispiel: progressive Steuern dämpfen Einkommenszuwächse, Arbeitslosengeld stabilisiert Einkommen. Merke: Eingebauter Dämpfer.",
+    "esel": "Steuern bremsen, Transfers stützen",
+    "quelle": { "kapitel": "8.5 Automatische Stabilisatoren", "seite": "127–129" },
+    "schwierigkeit": "mittel",
+    "paare": {
+      "Progressive Einkommensteuer": "Boom – dämpfend",
+      "Arbeitslosengeld": "Rezession – stabilisierend",
+      "Unternehmenssteuern": "Boom – dämpfend",
+      "Transferleistungen": "Rezession – stabilisierend"
+    }
+  },
+  {
+    "id": "VWLW01-166",
+    "typ": "fallanalyse",
+    "tag": "Konjunkturpaket",
+    "fall": "Ein Staat erlebt einen Abschwung. (Variante 166)",
+    "frage": "Analysiere, wie ein Konjunkturpaket wirken kann, wenn der Staat in der Rezession zusätzliche Infrastrukturinvestitionen tätigt.",
+    "erklaerung": "Durch zusätzliche Staatsausgaben steigen Nachfrage, Beschäftigung und Einkommen. Über den Multiplikatoreffekt verstärkt sich der Impuls. Risiken sind Schulden und Mitnahmeeffekte. Merke: Anschub mit Nebenwirkungen.",
+    "esel": "Impulse → Jobs → Einkommen",
+    "quelle": { "kapitel": "8.8 Keynesianische Theorie", "seite": "136–139" },
+    "schwierigkeit": "schwer",
+    "stichpunkte": ["Nachfrageimpuls", "Multiplikator", "Schuldenrisiko"]
+  },
+  {
+    "id": "VWLW01-167",
+    "typ": "input",
+    "tag": "Schuldenbremse",
+    "fall": "Zur Prüfungsvorbereitung wird die Kerndefinition abgefragt. (Variante 167)",
+    "frage": "Was besagt die Schuldenbremse?",
+    "erklaerung": "Die Schuldenbremse begrenzt die strukturelle Neuverschuldung des Bundes auf 0,35 % des BIP. Nur in Krisen sind Ausnahmen erlaubt. Merke: Keine Dauer-Schuldenpolitik.",
+    "esel": "0,35 % – Ausnahme Krise",
+    "quelle": { "kapitel": "8.6 Staatsverschuldung", "seite": "131–133" },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": ["Neuverschuldung", "Bundeshaushalt", "Krisenausnahme"]
+  },
+  {
+    "id": "VWLW01-168",
+    "typ": "mc",
+    "tag": "Staatsverschuldung Folgen",
+    "fall": "Ein Kolloquium fragt nach den Risiken hoher Verschuldung. (Variante 168)",
+    "frage": "Welche Folge kann eine dauerhaft hohe Staatsverschuldung haben?",
+    "erklaerung": "Langfristig kann hohe Verschuldung zu Zinsbelastung, geringerer Investitionsfähigkeit und Inflationsrisiken führen. Merke: Schulden heute, Zinsen morgen.",
+    "esel": "Zinsen fressen Handlungsspielraum",
+    "quelle": { "kapitel": "8.6 Staatsverschuldung", "seite": "130–132" },
+    "schwierigkeit": "mittel",
+    "optionen": [
+      "Zunahme der Zinslast",
+      "Sinkende Staatseinnahmen",
+      "Deflationäre Wirkung",
+      "Steigende Produktivität"
+    ],
+    "loesung": "Zunahme der Zinslast"
+  },
+  {
+    "id": "VWLW01-169",
+    "typ": "order",
+    "tag": "Verschuldungsprozess",
+    "fall": "Ein Teammeeting möchte den Ablauf der Staatsverschuldung verstehen. (Variante 169)",
+    "frage": "Bringe die Schritte des Staatsverschuldungsprozesses in die richtige Reihenfolge.",
+    "erklaerung": "Verschuldung beginnt mit Haushaltsdefizit, führt zur Kreditaufnahme, erhöht Zinszahlungen und senkt künftigen Spielraum. Merke: Schulden kommen schnell, gehen langsam.",
+    "esel": "Defizit → Kredit → Zinsen → Lasten",
+    "quelle": { "kapitel": "8.6 Staatsverschuldung", "seite": "130–132" },
+    "schwierigkeit": "mittel",
+    "richtigeReihenfolge": [
+      "Haushaltsdefizit entsteht",
+      "Kreditaufnahme durch Staat",
+      "Zinszahlungen steigen",
+      "Zukünftiger Handlungsspielraum sinkt"
+    ]
+  },
+  {
+    "id": "VWLW01-170",
+    "typ": "justify",
+    "tag": "Nachhaltige Finanzpolitik",
+    "fall": "Ein Kolloquium fragt nach den Zielen nachhaltiger Finanzpolitik. (Variante 170)",
+    "frage": "Warum ist eine nachhaltige Finanzpolitik langfristig notwendig?",
+    "erklaerung": "Nachhaltige Finanzpolitik sichert die Handlungsfähigkeit zukünftiger Generationen. Nur durch begrenzte Schulden und solide Haushaltsführung bleiben Investitionsmöglichkeiten erhalten. Merke: Heute sparen, morgen gestalten.",
+    "esel": "Haushalt sichern – Zukunft schützen",
+    "quelle": { "kapitel": "8.6 Staatsverschuldung", "seite": "132–134" },
+    "schwierigkeit": "mittel",
+    "stichwoerter": ["Generationengerechtigkeit", "Stabilität", "Solidität"]
+  },
+  {
+    "id": "VWLW01-171",
+    "typ": "fallanalyse",
+    "tag": "Haushaltsdefizit",
+    "fall": "Ein Staat plant ein Konjunkturprogramm trotz bereits bestehender Neuverschuldung. (Variante 171)",
+    "frage": "Analysiere die möglichen Chancen und Risiken dieser Maßnahme.",
+    "erklaerung": "Ein Konjunkturprogramm kann kurzfristig Wachstum und Beschäftigung fördern, erhöht jedoch langfristig Schulden und Zinslast. Die Wirkung hängt von Konjunkturlage und Multiplikatoreffekt ab. Merke: Heute Wachstum, morgen Last.",
+    "esel": "Wachstum jetzt – Schulden später",
+    "quelle": { "kapitel": "8.6 Staatsverschuldung", "seite": "130–133" },
+    "schwierigkeit": "schwer",
+    "stichpunkte": ["Nachfrageimpuls", "Multiplikator", "Zinsbelastung", "Verschuldungsgrenze"]
+  },
+  {
+    "id": "VWLW01-172",
+    "typ": "mc",
+    "tag": "Steuerpolitik",
+    "fall": "Ein Kolloquium fragt nach der wirtschaftlichen Wirkung einer Steuersenkung. (Variante 172)",
+    "frage": "Welche kurzfristige Wirkung hat eine Steuersenkung auf die gesamtwirtschaftliche Nachfrage?",
+    "erklaerung": "Steuersenkungen erhöhen das verfügbare Einkommen der Haushalte und steigern den Konsum. Damit steigt die gesamtwirtschaftliche Nachfrage, was das BIP kurzfristig anhebt. Merke: Weniger Steuern = mehr Nachfrage.",
+    "esel": "Steuern runter, Nachfrage rauf",
+    "quelle": { "kapitel": "8.3 Steuerpolitik", "seite": "120–122" },
+    "schwierigkeit": "mittel",
+    "optionen": [
+      "Nachfrage steigt",
+      "Nachfrage sinkt",
+      "Investitionen sinken",
+      "Exporte sinken"
+    ],
+    "loesung": "Nachfrage steigt"
+  },
+  {
+    "id": "VWLW01-173",
+    "typ": "calc",
+    "tag": "Steuerquote",
+    "fall": "Ein Rechenbeispiel verdeutlicht die Steuerquote. (Variante 173)",
+    "frage": "Berechne die Steuerquote, wenn die Steuereinnahmen {S} Mrd. € und das BIP {B} Mrd. € betragen.",
+    "erklaerung": "Die Steuerquote misst den Anteil der Steuereinnahmen am Bruttoinlandsprodukt. Formel: (Steuern / BIP) × 100. Sie zeigt die steuerliche Gesamtbelastung der Volkswirtschaft. Merke: Steuerlast in Prozent des BIP.",
+    "esel": "Steuern ÷ BIP × 100",
+    "quelle": { "kapitel": "8.3 Steuerpolitik", "seite": "120–121" },
+    "schwierigkeit": "mittel",
+    "parameter": { "S": [500, 1500], "B": [2000, 6000] },
+    "formel": "(S / B) * 100"
+  },
+  {
+    "id": "VWLW01-174",
+    "typ": "match",
+    "tag": "Steuerarten",
+    "fall": "Im Unterricht wird die Struktur des Steuersystems wiederholt. (Variante 174)",
+    "frage": "Ordne die Steuerarten ihrem Typ zu.",
+    "erklaerung": "Steuern lassen sich nach Erhebungsform unterscheiden: direkte Steuern erfassen Einkommen oder Vermögen, indirekte Steuern belasten den Konsum. Merke: Direkt = Einkommen, indirekt = Einkauf.",
+    "esel": "Direkt verdient, indirekt verbraucht",
+    "quelle": { "kapitel": "8.3 Steuerpolitik", "seite": "120–122" },
+    "schwierigkeit": "mittel",
+    "paare": {
+      "Einkommensteuer": "Direkte Steuer",
+      "Körperschaftsteuer": "Direkte Steuer",
+      "Mehrwertsteuer": "Indirekte Steuer",
+      "Tabaksteuer": "Indirekte Steuer"
+    }
+  },
+  {
+    "id": "VWLW01-175",
+    "typ": "order",
+    "tag": "Haushaltskreislauf",
+    "fall": "Zur Prüfungsvorbereitung wird die Abfolge im Staatshaushalt abgefragt. (Variante 175)",
+    "frage": "Bringe die Schritte des Haushaltskreislaufs in die richtige Reihenfolge.",
+    "erklaerung": "Der Haushaltskreislauf besteht aus Aufstellung, Beratung, Beschluss, Vollzug und Kontrolle. So wird Transparenz und Demokratie in der Finanzplanung gewährleistet. Merke: Planung → Beschluss → Kontrolle.",
+    "esel": "Planen, Beschließen, Prüfen",
+    "quelle": { "kapitel": "8.1 Finanzpolitik und Haushalt", "seite": "115–117" },
+    "schwierigkeit": "mittel",
+    "richtigeReihenfolge": [
+      "Haushaltsaufstellung durch Regierung",
+      "Beratung im Parlament",
+      "Verabschiedung des Haushaltsgesetzes",
+      "Ausführung durch Verwaltung",
+      "Rechnungsprüfung durch Bundesrechnungshof"
+    ]
+  },
+  {
+    "id": "VWLW01-176",
+    "typ": "fallanalyse",
+    "tag": "Fiskalpolitik",
+    "fall": "Ein Land reagiert auf Inflation mit Ausgabenkürzungen. (Variante 176)",
+    "frage": "Analysiere die wirtschaftliche Wirkung dieser Maßnahme.",
+    "erklaerung": "Kontraktive Fiskalpolitik dämpft die gesamtwirtschaftliche Nachfrage, senkt Preissteigerungen, kann aber Wachstum und Beschäftigung bremsen. Merke: Bremsen kostet Fahrt.",
+    "esel": "Kontraktiv = Bremse",
+    "quelle": { "kapitel": "8.4 Fiskalpolitik", "seite": "123–125" },
+    "schwierigkeit": "schwer",
+    "stichpunkte": ["Nachfragerückgang", "Preisdämpfung", "Wachstumsrisiko"]
+  },
+  {
+    "id": "VWLW01-177",
+    "typ": "mc",
+    "tag": "Staatsverschuldung",
+    "fall": "Ein Kolloquium fragt nach der Beurteilung hoher Staatsschulden. (Variante 177)",
+    "frage": "Welche Kennzahl eignet sich zur Bewertung der Staatsverschuldung?",
+    "erklaerung": "Das Verhältnis von Schuldenstand zum Bruttoinlandsprodukt (Schuldenquote) zeigt die Tragfähigkeit der Staatsverschuldung. Merke: Entscheidend ist das Verhältnis, nicht die absolute Zahl.",
+    "esel": "Schulden ÷ BIP",
+    "quelle": { "kapitel": "8.6 Staatsverschuldung", "seite": "130–132" },
+    "schwierigkeit": "mittel",
+    "optionen": [
+      "Schuldenquote",
+      "Haushaltsdefizit",
+      "Leistungsbilanzsaldo",
+      "Staatsausgabenquote"
+    ],
+    "loesung": "Schuldenquote"
+  },
+  {
+    "id": "VWLW01-178",
+    "typ": "calc",
+    "tag": "Schuldenquote",
+    "fall": "Ein Rechenbeispiel verdeutlicht die Schuldenquote. (Variante 178)",
+    "frage": "Berechne die Schuldenquote, wenn der Schuldenstand {D} Mrd. € und das BIP {B} Mrd. € beträgt.",
+    "erklaerung": "Die Schuldenquote zeigt, wie stark die Verschuldung im Verhältnis zur Wirtschaftsleistung steht. Formel: (Schulden / BIP) × 100. Eine Quote über 60 % gilt in der EU als kritisch. Merke: Je höher, desto riskanter.",
+    "esel": "Schulden ÷ BIP × 100",
+    "quelle": { "kapitel": "8.6 Staatsverschuldung", "seite": "130–132" },
+    "schwierigkeit": "mittel",
+    "parameter": { "D": [1000, 3000], "B": [2000, 6000] },
+    "formel": "(D / B) * 100"
+  },
+  {
+    "id": "VWLW01-179",
+    "typ": "justify",
+    "tag": "Investitionspolitik",
+    "fall": "Ein Staat erhöht öffentliche Investitionen in Infrastruktur. (Variante 179)",
+    "frage": "Warum können staatliche Investitionen langfristig zu Wachstum führen?",
+    "erklaerung": "Infrastrukturinvestitionen verbessern Standortbedingungen, fördern Produktivität und private Investitionen. Sie wirken langfristig wachstumsfördernd. Merke: Investieren = Zukunft bauen.",
+    "esel": "Straßen heute, Wachstum morgen",
+    "quelle": { "kapitel": "8.10 Investitionspolitik", "seite": "146–148" },
+    "schwierigkeit": "mittel",
+    "stichwoerter": ["Infrastruktur", "Produktivität", "Wachstum"]
+  },
+  {
+    "id": "VWLW01-180",
+    "typ": "fallanalyse",
+    "tag": "Staatliche Ausgaben",
+    "fall": "Ein Staat senkt Sozialausgaben zur Konsolidierung des Haushalts. (Variante 180)",
+    "frage": "Beurteile die kurzfristigen und langfristigen Folgen dieser Maßnahme.",
+    "erklaerung": "Kurzfristig sinkt die Nachfrage und die Wirtschaft kann gebremst werden. Langfristig sinkt jedoch die Staatsverschuldung und die Haushaltsstabilität steigt. Merke: Sparen stabilisiert, aber kostet Schwung.",
+    "esel": "Kurz bremsen, lang stabil",
+    "quelle": { "kapitel": "8.6 Staatsverschuldung", "seite": "132–134" },
+    "schwierigkeit": "schwer",
+    "stichpunkte": ["Nachfragerückgang", "Konsolidierung", "Zinsentlastung", "Haushaltsstabilität"]
+  },
+  {
+    "id": "VWLW01-181",
+    "typ": "mc",
+    "tag": "Arbeitslosigkeit Grundlagen",
+    "fall": "Zur Prüfungsvorbereitung wird die Kerndefinition abgefragt. (Variante 181)",
+    "frage": "Wann spricht man von Arbeitslosigkeit im volkswirtschaftlichen Sinn?",
+    "erklaerung": "Arbeitslos ist, wer erwerbsfähig und -willig ist, aber keine Beschäftigung findet. Kurzfristige Arbeitssuche gilt als friktionelle Arbeitslosigkeit. Merke: Können + Wollen, aber kein Job.",
+    "esel": "Wollen + Können – kein Job",
+    "quelle": { "kapitel": "9.1 Arbeitsmarkt", "seite": "150–152" },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Person ist arbeitsfähig und -willig, aber ohne Beschäftigung",
+      "Person ist in Ausbildung",
+      "Person arbeitet in Teilzeit",
+      "Person ist im Ruhestand"
+    ],
+    "loesung": "Person ist arbeitsfähig und -willig, aber ohne Beschäftigung"
+  },
+  {
+    "id": "VWLW01-182",
+    "typ": "match",
+    "tag": "Arbeitslosigkeit Typen",
+    "fall": "Ein Kolloquium fragt nach der korrekten Zuordnung. (Variante 182)",
+    "frage": "Ordne die Arbeitslosigkeitsarten ihren Ursachen zu.",
+    "erklaerung": "Arbeitslosigkeit wird nach Ursachen unterschieden: saisonal, friktionell, konjunkturell, strukturell. Jede Form erfordert andere Gegenmaßnahmen. Merke: Nicht jede Arbeitslosigkeit ist Krise.",
+    "esel": "Saison = Schnee, Struktur = Wandel",
+    "quelle": { "kapitel": "9.2 Arten der Arbeitslosigkeit", "seite": "152–155" },
+    "schwierigkeit": "mittel",
+    "paare": {
+      "Saisonale Arbeitslosigkeit": "Witterungsbedingte Schwankungen",
+      "Friktionelle Arbeitslosigkeit": "Übergangsphasen zwischen Jobs",
+      "Konjunkturelle Arbeitslosigkeit": "Nachfragerückgang bei Abschwung",
+      "Strukturelle Arbeitslosigkeit": "Technischer oder sektoraler Wandel"
+    }
+  },
+  {
+    "id": "VWLW01-183",
+    "typ": "input",
+    "tag": "Vollbeschäftigung",
+    "fall": "Ein Teammeeting möchte den Begriff klären. (Variante 183)",
+    "frage": "Was versteht man unter Vollbeschäftigung?",
+    "erklaerung": "Vollbeschäftigung bedeutet, dass nahezu alle Erwerbsfähigen Arbeit haben. Eine geringe Sockelarbeitslosigkeit (friktionell) bleibt jedoch bestehen. Merke: 0 % ist unrealistisch.",
+    "esel": "Fast alle arbeiten",
+    "quelle": { "kapitel": "9.1 Arbeitsmarkt", "seite": "151–152" },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": ["Erwerbstätige", "Sockelarbeitslosigkeit", "nahe 0 %"]
+  },
+  {
+    "id": "VWLW01-184",
+    "typ": "justify",
+    "tag": "Lohnpolitik",
+    "fall": "Ein Kolloquium fragt nach der Wirkung hoher Lohnabschlüsse. (Variante 184)",
+    "frage": "Warum können übermäßige Lohnerhöhungen Arbeitslosigkeit fördern?",
+    "erklaerung": "Steigende Löhne erhöhen Kosten, senken Wettbewerbsfähigkeit und führen zu geringerer Nachfrage nach Arbeit. Merke: Zu teuer = weniger Jobs.",
+    "esel": "Löhne rauf – Jobs runter",
+    "quelle": { "kapitel": "9.3 Lohnpolitik", "seite": "156–157" },
+    "schwierigkeit": "mittel",
+    "stichwoerter": ["Lohnkosten", "Nachfrage", "Wettbewerbsfähigkeit"]
+  },
+  {
+    "id": "VWLW01-185",
+    "typ": "calc",
+    "tag": "Arbeitslosenquote",
+    "fall": "Ein Rechenbeispiel verdeutlicht die Arbeitslosenquote. (Variante 185)",
+    "frage": "Berechne die Arbeitslosenquote, wenn {A} Personen arbeitslos und {E} Personen erwerbstätig sind.",
+    "erklaerung": "Die Arbeitslosenquote misst den Anteil der Arbeitslosen an den Erwerbspersonen. Formel: (Arbeitslose / Erwerbspersonen) × 100. Merke: Anteil der Jobsuchenden.",
+    "esel": "A ÷ (A+E) × 100",
+    "quelle": { "kapitel": "9.1 Arbeitsmarkt", "seite": "150–152" },
+    "schwierigkeit": "leicht",
+    "parameter": { "A": [1000000, 3000000], "E": [35000000, 45000000] },
+    "formel": "(A / (A + E)) * 100"
+  },
+  {
+    "id": "VWLW01-186",
+    "typ": "mc",
+    "tag": "Phillips-Kurve",
+    "fall": "Zur Prüfungsvorbereitung wird die Kerndefinition abgefragt. (Variante 186)",
+    "frage": "Was zeigt die Phillips-Kurve?",
+    "erklaerung": "Die Phillips-Kurve beschreibt den kurzfristigen Zielkonflikt zwischen Inflation und Arbeitslosigkeit: Niedrige Arbeitslosigkeit geht oft mit höherer Inflation einher. Merke: Weniger Joblose = mehr Preisdruck.",
+    "esel": "Arbeit runter, Preise rauf",
+    "quelle": { "kapitel": "9.4 Phillips-Kurve", "seite": "158–159" },
+    "schwierigkeit": "mittel",
+    "optionen": [
+      "Beziehung zwischen Inflation und Arbeitslosigkeit",
+      "Beziehung zwischen Angebot und Nachfrage",
+      "Beziehung zwischen Steuern und Konsum",
+      "Beziehung zwischen Löhnen und Produktivität"
+    ],
+    "loesung": "Beziehung zwischen Inflation und Arbeitslosigkeit"
+  },
+  {
+    "id": "VWLW01-187",
+    "typ": "justify",
+    "tag": "Mindestlohn",
+    "fall": "Ein Kolloquium diskutiert die Wirkung des Mindestlohns. (Variante 187)",
+    "frage": "Warum kann ein zu hoher Mindestlohn Beschäftigung verringern?",
+    "erklaerung": "Ein Mindestlohn oberhalb des Gleichgewichtslohns führt zu Überangebot an Arbeitskraft und weniger Nachfrage durch Unternehmen. Merke: Mindestlohn zu hoch = Jobknappheit.",
+    "esel": "Hoch = weniger Jobs",
+    "quelle": { "kapitel": "9.3 Lohnpolitik", "seite": "156–158" },
+    "schwierigkeit": "mittel",
+    "stichwoerter": ["Lohnniveau", "Nachfrage", "Gleichgewicht"]
+  },
+  {
+    "id": "VWLW01-188",
+    "typ": "fallanalyse",
+    "tag": "Arbeitsmarktpolitik",
+    "fall": "Ein Staat reagiert auf hohe Jugendarbeitslosigkeit. (Variante 188)",
+    "frage": "Analysiere mögliche Maßnahmen, um die Jugendarbeitslosigkeit zu senken.",
+    "erklaerung": "Jugendarbeitslosigkeit wird mit Qualifizierungsprogrammen, Praktika und Lohnkostenzuschüssen bekämpft. Bildungsförderung verbessert langfristig Beschäftigungschancen. Merke: Ausbildung ist Prävention.",
+    "esel": "Quali schafft Jobs",
+    "quelle": { "kapitel": "9.5 Arbeitsmarktpolitik", "seite": "160–162" },
+    "schwierigkeit": "mittel",
+    "stichpunkte": ["Qualifizierung", "Subventionen", "Berufsbildung", "Nachfrageimpulse"]
+  },
+  {
+    "id": "VWLW01-189",
+    "typ": "match",
+    "tag": "Aktive und passive Arbeitsmarktpolitik",
+    "fall": "Ein Teammeeting möchte Maßnahmen richtig zuordnen. (Variante 189)",
+    "frage": "Ordne Maßnahmen der aktiven oder passiven Arbeitsmarktpolitik zu.",
+    "erklaerung": "Aktive Politik schafft Jobs und Qualifizierung, passive zahlt Leistungen. Merke: Aktiv = fördern, passiv = zahlen.",
+    "esel": "Aktiv fördert, passiv zahlt",
+    "quelle": { "kapitel": "9.5 Arbeitsmarktpolitik", "seite": "160–162" },
+    "schwierigkeit": "mittel",
+    "paare": {
+      "Weiterbildungsmaßnahme": "Aktive Arbeitsmarktpolitik",
+      "Arbeitslosengeld": "Passive Arbeitsmarktpolitik",
+      "Lohnkostenzuschuss": "Aktive Arbeitsmarktpolitik",
+      "Kurzarbeitergeld": "Passive Arbeitsmarktpolitik"
+    }
+  },
+  {
+    "id": "VWLW01-190",
+    "typ": "order",
+    "tag": "Arbeitsmarktmechanismus",
+    "fall": "Im Unterricht wird der Marktmechanismus erläutert. (Variante 190)",
+    "frage": "Bringe die Schritte der Anpassung auf dem Arbeitsmarkt in die richtige Reihenfolge.",
+    "erklaerung": "Bei einem Angebotsüberschuss an Arbeitskraft sinkt der Lohn, bis ein Gleichgewicht zwischen Angebot und Nachfrage entsteht. Merke: Markt gleicht über Lohn an.",
+    "esel": "Angebot → Lohn → Gleichgewicht",
+    "quelle": { "kapitel": "9.1 Arbeitsmarkt", "seite": "150–151" },
+    "schwierigkeit": "mittel",
+    "richtigeReihenfolge": [
+      "Arbeitskräfteangebot übersteigt Nachfrage",
+      "Löhne sinken",
+      "Nachfrage nach Arbeit steigt",
+      "Marktgleichgewicht stellt sich ein"
+    ]
+  },
+  {
+    "id": "VWLW01-191",
+    "typ": "mc",
+    "tag": "Inflation Grundlagen",
+    "fall": "Zur Prüfungsvorbereitung wird die Kerndefinition abgefragt. (Variante 191)",
+    "frage": "Was versteht man unter Inflation?",
+    "erklaerung": "Inflation bezeichnet den allgemeinen, anhaltenden Anstieg des Preisniveaus. Die Kaufkraft des Geldes sinkt. Merke: Mehr Geld, weniger Wert.",
+    "esel": "Preise rauf, Geld runter",
+    "quelle": { "kapitel": "10.1 Geldwertstabilität", "seite": "165–167" },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Anhaltender Anstieg des Preisniveaus",
+      "Einmalige Preisänderung",
+      "Abnahme des Preisniveaus",
+      "Steigende Löhne bei stabilen Preisen"
+    ],
+    "loesung": "Anhaltender Anstieg des Preisniveaus"
+  },
+  {
+    "id": "VWLW01-192",
+    "typ": "match",
+    "tag": "Inflationsarten",
+    "fall": "Ein Teammeeting möchte die Ursachen verstehen. (Variante 192)",
+    "frage": "Ordne die Inflationsarten ihren Ursachen zu.",
+    "erklaerung": "Man unterscheidet nach Ursache: nachfragebedingte Inflation durch Übernachfrage, angebotsbedingte durch steigende Kosten. Merke: Nachfrage zieht, Angebot schiebt.",
+    "esel": "Zieht vs. schiebt",
+    "quelle": { "kapitel": "10.2 Inflationsursachen", "seite": "167–169" },
+    "schwierigkeit": "mittel",
+    "paare": {
+      "Nachfrageinflation": "Zu starke Gesamtnachfrage",
+      "Kosteninflation": "Steigende Produktionskosten",
+      "Importierte Inflation": "Steigende Importpreise",
+      "Lohn-Preis-Spirale": "Wechselseitige Erhöhung von Löhnen und Preisen"
+    }
+  },
+  {
+    "id": "VWLW01-193",
+    "typ": "input",
+    "tag": "Deflation",
+    "fall": "Im Unterricht wird eine kurze Anwendung diskutiert. (Variante 193)",
+    "frage": "Was bedeutet Deflation?",
+    "erklaerung": "Deflation beschreibt einen allgemeinen Rückgang des Preisniveaus. Unternehmen senken Preise, Konsumenten verschieben Käufe, die Wirtschaft gerät in eine Abwärtsspirale. Merke: Preise runter, Krise rauf.",
+    "esel": "Runter = gefährlich",
+    "quelle": { "kapitel": "10.1 Geldwertstabilität", "seite": "166–168" },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": ["Preisrückgang", "Kaufkraftanstieg", "Nachfragerückgang"]
+  },
+  {
+    "id": "VWLW01-194",
+    "typ": "justify",
+    "tag": "EZB-Ziel",
+    "fall": "Ein Kolloquium fragt nach dem Ziel der EZB. (Variante 194)",
+    "frage": "Warum strebt die EZB eine Inflationsrate von etwa 2 % an?",
+    "erklaerung": "Eine moderate Inflation stabilisiert Preise, vermeidet Deflation und signalisiert wirtschaftliche Dynamik. Zu hohe oder zu niedrige Werte gefährden Stabilität. Merke: 2 % = Stabilitätspuffer.",
+    "esel": "2 % sind gesund",
+    "quelle": { "kapitel": "10.3 Geldpolitik der EZB", "seite": "170–172" },
+    "schwierigkeit": "mittel",
+    "stichwoerter": ["Preisniveaustabilität", "Deflationsvermeidung", "Wachstum"]
+  },
+  {
+    "id": "VWLW01-195",
+    "typ": "calc",
+    "tag": "Inflationsrate Berechnung",
+    "fall": "Ein Rechenbeispiel verdeutlicht die Inflationsrate. (Variante 195)",
+    "frage": "Berechne die Inflationsrate, wenn der Verbraucherpreisindex von {V1} auf {V2} steigt.",
+    "erklaerung": "Die Inflationsrate misst die prozentuale Veränderung des Preisniveaus: ((V2 − V1) / V1) × 100. Merke: Preisindex rauf = Inflation.",
+    "esel": "(Neu − Alt) ÷ Alt × 100",
+    "quelle": { "kapitel": "10.2 Inflationsursachen", "seite": "168–169" },
+    "schwierigkeit": "mittel",
+    "parameter": { "V1": [100, 110], "V2": [111, 130] },
+    "formel": "((V2 - V1) / V1) * 100"
+  },
+  {
+    "id": "VWLW01-196",
+    "typ": "order",
+    "tag": "Geldpolitische Instrumente",
+    "fall": "Im Test soll das Konzept präzise wiedergegeben werden. (Variante 196)",
+    "frage": "Bringe die geldpolitischen Schritte der EZB bei Inflation in die richtige Reihenfolge.",
+    "erklaerung": "Bei Inflation erhöht die EZB den Leitzins, verteuert Kredite, dämpft Investitionen und senkt die Nachfrage. Merke: Zins hoch, Geldmenge runter.",
+    "esel": "Zins → Kredit → Nachfrage ↓",
+    "quelle": { "kapitel": "10.3 Geldpolitik der EZB", "seite": "171–172" },
+    "schwierigkeit": "mittel",
+    "richtigeReihenfolge": [
+      "Leitzins anheben",
+      "Kredite werden teurer",
+      "Geldmenge sinkt",
+      "Nachfrage geht zurück",
+      "Preisdruck lässt nach"
+    ]
+  },
+  {
+    "id": "VWLW01-197",
+    "typ": "mc",
+    "tag": "Offenmarktpolitik",
+    "fall": "Ein Teammeeting möchte die Wirkung der Offenmarktpolitik prüfen. (Variante 197)",
+    "frage": "Was bewirkt der Verkauf von Wertpapieren durch die EZB?",
+    "erklaerung": "Durch den Verkauf von Wertpapieren wird den Geschäftsbanken Liquidität entzogen, wodurch sich die Geldmenge verringert. Merke: Verkauf = Geldentzug.",
+    "esel": "EZB verkauft → Geldmenge sinkt",
+    "quelle": { "kapitel": "10.3 Geldpolitik der EZB", "seite": "171–173" },
+    "schwierigkeit": "mittel",
+    "optionen": [
+      "Geldmenge sinkt",
+      "Geldmenge steigt",
+      "Leitzins sinkt",
+      "Kreditvergabe steigt"
+    ],
+    "loesung": "Geldmenge sinkt"
+  },
+  {
+    "id": "VWLW01-198",
+    "typ": "match",
+    "tag": "EZB-Instrumente",
+    "fall": "Im Unterricht wird eine Übersicht erstellt. (Variante 198)",
+    "frage": "Ordne die geldpolitischen Instrumente ihren Wirkungen zu.",
+    "erklaerung": "Die EZB nutzt Offenmarktgeschäfte, Mindestreserven und Spitzenrefinanzierungssätze zur Steuerung der Geldmenge. Merke: Drei Hebel – ein Ziel: Stabilität.",
+    "esel": "Drei Hebel – Stabilität",
+    "quelle": { "kapitel": "10.3 Geldpolitik der EZB", "seite": "171–173" },
+    "schwierigkeit": "mittel",
+    "paare": {
+      "Offenmarktpolitik": "Kauf/Verkauf von Wertpapieren",
+      "Mindestreservepolitik": "Bindung von Liquidität bei Banken",
+      "Spitzenrefinanzierungssatz": "Zinssatz für kurzfristige Kredite an Banken"
+    }
+  },
+  {
+    "id": "VWLW01-199",
+    "typ": "fallanalyse",
+    "tag": "Geldpolitik in der Krise",
+    "fall": "Die EZB senkt in einer Rezession die Zinsen und kauft Anleihen. (Variante 199)",
+    "frage": "Analysiere die wirtschaftliche Wirkung dieser Maßnahmen.",
+    "erklaerung": "Niedrigzinsen und Anleihekäufe erhöhen die Geldmenge, senken Finanzierungskosten und stimulieren Investitionen. Risiko: Inflation bei zu langer Lockerung. Merke: Kurz pushen, lang riskant.",
+    "esel": "Lockerung hilft – zu lange schadet",
+    "quelle": { "kapitel": "10.4 Geldpolitik in Krisen", "seite": "174–176" },
+    "schwierigkeit": "schwer",
+    "stichpunkte": ["Expansive Geldpolitik", "Zinsen sinken", "Kredite steigen", "Inflationsgefahr"]
+  },
+  {
+    "id": "VWLW01-200",
+    "typ": "justify",
+    "tag": "Preisniveaustabilität",
+    "fall": "Zur Wiederholung des gesamten Themenkomplexes. (Variante 200)",
+    "frage": "Warum ist Preisniveaustabilität ein zentrales wirtschaftspolitisches Ziel?",
+    "erklaerung": "Stabile Preise sichern Kaufkraft, Planungssicherheit und Vertrauen in das Geldsystem. Ohne Stabilität leidet Investitionsbereitschaft und Wohlstand. Merke: Stabilität ist Vertrauen.",
+    "esel": "Ohne Stabilität kein Vertrauen",
+    "quelle": { "kapitel": "10.1 Geldwertstabilität", "seite": "165–167" },
+    "schwierigkeit": "mittel",
+    "stichwoerter": ["Kaufkraft", "Planungssicherheit", "Vertrauen"]
+  },
+  {
+    "id": "VWLW01-201",
+    "typ": "match",
+    "tag": "Wirtschaftsordnungen",
+    "fall": "Ein Kolloquium fragt nach Grundtypen der Wirtschaftsordnung. (Variante 201)",
+    "frage": "Ordne den Wirtschaftsordnungen die passenden Merkmale zu.",
+    "erklaerung": "Wirtschaftsordnungen regeln Eigentum, Preisbildung und Eingriffe des Staates. Planwirtschaft: zentrale Planung. Marktwirtschaft: dezentrale Entscheidungen. Soziale Marktwirtschaft: Freiheit mit sozialem Ausgleich.",
+    "esel": "Freiheit ja, aber fair",
+    "quelle": { "kapitel": "1.1 Wirtschaftsordnungen", "seite": "12–16" },
+    "schwierigkeit": "mittel",
+    "paare": {
+      "Zentralverwaltungswirtschaft": "staatliche Planung und Preisfestsetzung",
+      "Freie Marktwirtschaft": "Angebot und Nachfrage bestimmen alles",
+      "Soziale Marktwirtschaft": "Marktprinzip mit sozialem Ausgleich"
+    }
+  },
+  {
+    "id": "VWLW01-202",
+    "typ": "justify",
+    "tag": "Soziale Marktwirtschaft",
+    "fall": "Ein Unterrichtsgespräch vertieft die Grundprinzipien. (Variante 202)",
+    "frage": "Warum gilt die soziale Marktwirtschaft als Kompromiss zwischen Freiheit und Gerechtigkeit?",
+    "erklaerung": "Sie kombiniert Marktmechanismen mit staatlicher Sozialpolitik. Wettbewerb sorgt für Effizienz, Sozialpolitik für Ausgleich. Merke: Freiheit ja – aber mit Netz.",
+    "esel": "Markt mit Netz",
+    "quelle": { "kapitel": "1.2 Soziale Marktwirtschaft", "seite": "16–20" },
+    "schwierigkeit": "mittel",
+    "stichwoerter": ["Wettbewerb", "Sozialstaat", "Ausgleich"]
+  },
+  {
+    "id": "VWLW01-203",
+    "typ": "input",
+    "tag": "Ordnungspolitik",
+    "fall": "Ein Teammeeting möchte den Begriff klären. (Variante 203)",
+    "frage": "Was versteht man unter Ordnungspolitik?",
+    "erklaerung": "Ordnungspolitik gestaltet den Rahmen für wirtschaftliches Handeln, etwa durch Wettbewerbsgesetze oder Eigentumsrechte. Sie greift nicht in einzelne Entscheidungen ein. Merke: Spielregeln statt Mitspielen.",
+    "esel": "Regeln statt Handeln",
+    "quelle": { "kapitel": "1.3 Ordnungspolitik", "seite": "21–23" },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": ["Rahmenbedingungen", "Wettbewerb", "Eigentum"]
+  },
+  {
+    "id": "VWLW01-204",
+    "typ": "match",
+    "tag": "Euckens Grundsätze",
+    "fall": "Zur Prüfungsvorbereitung wird nach ordnungspolitischen Prinzipien gefragt. (Variante 204)",
+    "frage": "Ordne den Grundsätzen Euckens die passenden Beschreibungen zu.",
+    "erklaerung": "Eucken definierte konstituierende Prinzipien (z. B. Eigentum, Haftung) und regulierende Prinzipien (z. B. Sozialpolitik). Sie sichern marktwirtschaftliche Stabilität.",
+    "esel": "Konstituierend = Basis, regulierend = Korrektur",
+    "quelle": { "kapitel": "1.3 Ordnungspolitik", "seite": "23–24" },
+    "schwierigkeit": "mittel",
+    "paare": {
+      "Privateigentum": "Anreiz und Verantwortung",
+      "Haftungsprinzip": "Wer Nutzen hat, trägt Risiko",
+      "Sozialpolitik": "Korrektur sozialer Ungleichheit"
+    }
+  },
+  {
+    "id": "VWLW01-205",
+    "typ": "mc",
+    "tag": "Magisches Viereck",
+    "fall": "Zur Prüfungsvorbereitung wird die Zielstruktur der Wirtschaftspolitik abgefragt. (Variante 205)",
+    "frage": "Welche Ziele gehören zum magischen Viereck?",
+    "erklaerung": "Das Stabilitätsgesetz nennt vier gleichrangige Ziele: Preisstabilität, Beschäftigung, außenwirtschaftliches Gleichgewicht, stetiges Wachstum. Merke: Vier Ziele – ein Balanceakt.",
+    "esel": "Stabil – Arbeit – Außen – Wachstum",
+    "quelle": { "kapitel": "6.1 Wirtschaftspolitische Ziele", "seite": "100–103" },
+    "schwierigkeit": "leicht",
+    "optionen": [
+      "Preisstabilität, Beschäftigung, außenwirtschaftliches Gleichgewicht, Wachstum",
+      "Frieden, Freiheit, Gerechtigkeit, Wohlstand",
+      "Steuern, Zinsen, Schulden, Preise",
+      "Nachhaltigkeit, Digitalisierung, Bildung, Infrastruktur"
+    ],
+    "loesung": "Preisstabilität, Beschäftigung, außenwirtschaftliches Gleichgewicht, Wachstum"
+  },
+  {
+    "id": "VWLW01-206",
+    "typ": "justify",
+    "tag": "Zielkonflikte",
+    "fall": "Ein Kolloquium fragt nach der Vereinbarkeit wirtschaftspolitischer Ziele. (Variante 206)",
+    "frage": "Warum stehen wirtschaftspolitische Ziele häufig im Konflikt zueinander?",
+    "erklaerung": "Maßnahmen zur Zielerreichung wirken unterschiedlich: Wachstum fördert Beschäftigung, kann aber Inflation anheizen. Merke: Ein Ziel erreicht, zwei verschoben.",
+    "esel": "Eins gewinnt, eins verliert",
+    "quelle": { "kapitel": "6.2 Zielkonflikte", "seite": "104–106" },
+    "schwierigkeit": "mittel",
+    "stichwoerter": ["Inflation", "Arbeitslosigkeit", "Wachstum"]
+  },
+  {
+    "id": "VWLW01-207",
+    "typ": "calc",
+    "tag": "Wachstumsrate",
+    "fall": "Ein Rechenbeispiel verdeutlicht die Berechnung der Wachstumsrate. (Variante 207)",
+    "frage": "Berechne die Wachstumsrate, wenn das reale BIP von {B1} auf {B2} steigt.",
+    "erklaerung": "Die Wachstumsrate misst die prozentuale Veränderung des realen BIP. Formel: ((B2 − B1) / B1) × 100. Merke: Wachstum zeigt Dynamik.",
+    "esel": "Neu minus Alt durch Alt",
+    "quelle": { "kapitel": "7.1 Wirtschaftswachstum", "seite": "110–112" },
+    "schwierigkeit": "mittel",
+    "parameter": { "B1": [1000, 10000], "B2": [1100, 12000] },
+    "formel": "((B2 - B1) / B1) * 100"
+  },
+  {
+    "id": "VWLW01-208",
+    "typ": "order",
+    "tag": "Konjunkturzyklus",
+    "fall": "Zur Prüfungsvorbereitung soll der Ablauf dargestellt werden. (Variante 208)",
+    "frage": "Bringe die Phasen des Konjunkturzyklus in die richtige Reihenfolge.",
+    "erklaerung": "Ein Konjunkturzyklus besteht aus Aufschwung, Boom, Abschwung und Rezession. Er beschreibt Schwankungen des gesamtwirtschaftlichen Wachstums.",
+    "esel": "Rauf – Spitze – Runter – Tief",
+    "quelle": { "kapitel": "7.2 Konjunkturverlauf", "seite": "113–115" },
+    "schwierigkeit": "leicht",
+    "richtigeReihenfolge": ["Aufschwung", "Boom", "Abschwung", "Rezession"]
+  },
+  {
+    "id": "VWLW01-209",
+    "typ": "match",
+    "tag": "Konjunkturindikatoren",
+    "fall": "Ein Kolloquium fragt nach Früh-, Präsenz- und Spätindikatoren. (Variante 209)",
+    "frage": "Ordne die Konjunkturindikatoren der richtigen Kategorie zu.",
+    "erklaerung": "Indikatoren zeigen Konjunkturentwicklungen: Auftragseingänge (früh), Produktion (präsent), Arbeitslosigkeit (spät). Merke: Früh warnt, spät bestätigt.",
+    "esel": "Früh → präsent → spät",
+    "quelle": { "kapitel": "7.3 Indikatoren", "seite": "116–117" },
+    "schwierigkeit": "mittel",
+    "paare": {
+      "Auftragseingänge": "Frühindikator",
+      "Industrieproduktion": "Präsenzindikator",
+      "Arbeitslosenzahlen": "Spätindikator"
+    }
+  },
+  {
+    "id": "VWLW01-210",
+    "typ": "fallanalyse",
+    "tag": "Konjunkturpolitik",
+    "fall": "Ein Staat reagiert auf einen wirtschaftlichen Abschwung. (Variante 210)",
+    "frage": "Analysiere geeignete konjunkturpolitische Maßnahmen des Staates.",
+    "erklaerung": "Antizyklische Fiskalpolitik nach Keynes: Bei Abschwung Nachfrage steigern, bei Boom bremsen. Instrumente: Staatsausgaben, Steuern, Transfers.",
+    "esel": "Keynes = gegen den Zyklus",
+    "quelle": { "kapitel": "7.4 Konjunkturpolitik", "seite": "118–120" },
+    "schwierigkeit": "schwer",
+    "stichpunkte": ["Nachfragepolitik", "Defizitausgaben", "Multiplikatoreffekt"]
+  },
+  {
+    "id": "VWLW01-211",
+    "typ": "mc",
+    "tag": "Nachhaltigkeit",
+    "fall": "Ein Kolloquium fragt nach ökologischen Zielkonflikten. (Variante 211)",
+    "frage": "Was ist das zentrale Ziel nachhaltiger Wirtschaftspolitik?",
+    "erklaerung": "Nachhaltigkeit bedeutet, heutige Bedürfnisse zu befriedigen, ohne künftige Generationen zu gefährden. Wirtschaft, Umwelt und Soziales sollen im Gleichgewicht stehen.",
+    "esel": "Heute leben, morgen sichern",
+    "quelle": { "kapitel": "8 Nachhaltigkeit", "seite": "130–132" },
+    "schwierigkeit": "mittel",
+    "optionen": [
+      "Dauerhafte Sicherung von Umwelt, Wirtschaft und Sozialem",
+      "Maximales Wachstum um jeden Preis",
+      "Kostensenkung durch Deregulierung",
+      "Reduktion staatlicher Aufgaben"
+    ],
+    "loesung": "Dauerhafte Sicherung von Umwelt, Wirtschaft und Sozialem"
+  },
+  {
+    "id": "VWLW01-212",
+    "typ": "justify",
+    "tag": "Externe Effekte",
+    "fall": "Im Unterricht wird ein Beispiel aus der Umweltökonomie besprochen. (Variante 212)",
+    "frage": "Warum führen externe Effekte zu Marktversagen?",
+    "erklaerung": "Externe Effekte entstehen, wenn Kosten oder Nutzen nicht im Preis enthalten sind. Umweltbelastungen ohne Preis führen zu Überproduktion. Merke: Kein Preis – kein Anreiz zur Vermeidung.",
+    "esel": "Kein Preis = kein Anreiz",
+    "quelle": { "kapitel": "8.2 Externe Effekte", "seite": "132–134" },
+    "schwierigkeit": "mittel",
+    "stichwoerter": ["Marktversagen", "Umweltkosten", "Internalisierung"]
+  },
+  {
+    "id": "VWLW01-213",
+    "typ": "mc",
+    "tag": "Umweltpolitik",
+    "fall": "Ein Kolloquium fragt nach umweltpolitischen Instrumenten. (Variante 213)",
+    "frage": "Welche Instrumente nutzt der Staat zur Korrektur externer Effekte?",
+    "erklaerung": "Instrumente: Ordnungsrecht (Verbote), marktwirtschaftlich (Steuern, Emissionshandel) und freiwillige Vereinbarungen. Merke: Verbieten, besteuern oder handeln.",
+    "esel": "Verbieten – Besteuern – Handeln",
+    "quelle": { "kapitel": "8.3 Umweltpolitik", "seite": "134–136" },
+    "schwierigkeit": "mittel",
+    "optionen": [
+      "Ordnungsrecht, Umweltsteuern, Emissionshandel",
+      "Sozialhilfe, Zölle, Subventionen",
+      "Steuersenkungen, Subventionen, Schulden",
+      "Nur freiwillige Selbstverpflichtungen"
+    ],
+    "loesung": "Ordnungsrecht, Umweltsteuern, Emissionshandel"
+  },
+  {
+    "id": "VWLW01-214",
+    "typ": "match",
+    "tag": "Internationale Organisationen",
+    "fall": "Zur Prüfungsvorbereitung wird Basiswissen abgefragt. (Variante 214)",
+    "frage": "Ordne den internationalen Organisationen ihre Aufgaben zu.",
+    "erklaerung": "IWF, WTO, Weltbank und EU prägen die internationale Wirtschaftsordnung. Sie sichern Handel, Stabilität und Entwicklung.",
+    "esel": "IWF stabilisiert, WTO liberalisiert",
+    "quelle": { "kapitel": "11 Internationale Wirtschaft", "seite": "178–180" },
+    "schwierigkeit": "mittel",
+    "paare": {
+      "IWF": "Finanzielle Stabilität und Kredithilfe",
+      "WTO": "Freihandel und Handelsregeln",
+      "Weltbank": "Entwicklungshilfe und Armutsbekämpfung",
+      "EU": "Binnenmarkt und gemeinsame Währung"
+    }
+  },
+  {
+    "id": "VWLW01-215",
+    "typ": "input",
+    "tag": "Zahlungsbilanz",
+    "fall": "Ein Übungsblatt fordert eine knappe Begründung. (Variante 215)",
+    "frage": "Was zeigt die Zahlungsbilanz eines Landes?",
+    "erklaerung": "Die Zahlungsbilanz erfasst alle wirtschaftlichen Transaktionen eines Landes mit dem Ausland, etwa Importe, Exporte und Kapitalströme. Merke: Spiegel des Außenhandels.",
+    "esel": "Handelsspiegel des Landes",
+    "quelle": { "kapitel": "11.2 Zahlungsbilanz", "seite": "181–183" },
+    "schwierigkeit": "mittel",
+    "schluesselwoerter": ["Exporte", "Importe", "Kapitalverkehr"]
+  },
+  {
+    "id": "VWLW01-216",
+    "typ": "order",
+    "tag": "Wechselkursmechanismus",
+    "fall": "Im Unterricht wird der Devisenmarkt besprochen. (Variante 216)",
+    "frage": "Bringe die Schritte einer Aufwertung des Euro in die richtige Reihenfolge.",
+    "erklaerung": "Steigt die Nachfrage nach Euro, erhöht sich der Kurs. Folge: Exporte sinken, Importe steigen. Merke: Starker Euro, schwache Exporte.",
+    "esel": "Euro stark – Export schwach",
+    "quelle": { "kapitel": "11.3 Devisenmarkt", "seite": "184–186" },
+    "schwierigkeit": "mittel",
+    "richtigeReihenfolge": [
+      "Nachfrage nach Euro steigt",
+      "Eurokurs steigt",
+      "Exporte werden teurer",
+      "Importe werden billiger"
+    ]
+  },
+  {
+    "id": "VWLW01-217",
+    "typ": "mc",
+    "tag": "Globalisierung",
+    "fall": "Zur Prüfungsvorbereitung wird Basiswissen abgefragt. (Variante 217)",
+    "frage": "Welche Aussage beschreibt Globalisierung am besten?",
+    "erklaerung": "Globalisierung bedeutet zunehmende weltweite Verflechtung von Märkten, Kapital, Gütern und Informationen. Sie schafft Chancen, aber auch Abhängigkeiten.",
+    "esel": "Welt vernetzt sich",
+    "quelle": { "kapitel": "11.4 Globalisierung", "seite": "187–189" },
+    "schwierigkeit": "mittel",
+    "optionen": [
+      "Zunehmende weltweite Verflechtung von Märkten und Kapital",
+      "Abschottung der Volkswirtschaften",
+      "Nur Ausweitung nationaler Produktion",
+      "Begrenzung des internationalen Handels"
+    ],
+    "loesung": "Zunehmende weltweite Verflechtung von Märkten und Kapital"
+  },
+  {
+    "id": "VWLW01-218",
+    "typ": "justify",
+    "tag": "Globalisierung Kritik",
+    "fall": "Ein Kolloquium diskutiert die Folgen der Globalisierung. (Variante 218)",
+    "frage": "Warum ist Globalisierung sowohl Chance als auch Risiko?",
+    "erklaerung": "Sie fördert Wachstum, Handel und Innovation, kann aber auch Ungleichheit und Umweltprobleme verstärken. Merke: Vernetzung nützt – aber verteilt ungleich.",
+    "esel": "Chance + Risiko",
+    "quelle": { "kapitel": "11.4 Globalisierung", "seite": "188–189" },
+    "schwierigkeit": "mittel",
+    "stichwoerter": ["Wachstum", "Ungleichheit", "Umwelt"]
+  },
+  {
+    "id": "VWLW01-219",
+    "typ": "match",
+    "tag": "EU-Institutionen",
+    "fall": "Ein Kolloquium fragt nach den zentralen EU-Institutionen. (Variante 219)",
+    "frage": "Ordne den EU-Institutionen ihre Hauptaufgaben zu.",
+    "erklaerung": "Die Europäische Union besteht aus mehreren zentralen Organen: Parlament (Gesetzgebung), Rat (Koordination), Kommission (Exekutive) und Gerichtshof (Rechtsprechung). Sie sichern Zusammenarbeit und Integration der Mitgliedstaaten.",
+    "esel": "Parlament redet, Rat entscheidet, Kommission macht’s",
+    "quelle": { "kapitel": "11.5 Europäische Union", "seite": "190–192" },
+    "schwierigkeit": "mittel",
+    "paare": {
+      "Europäisches Parlament": "Gesetzgebung und Kontrolle",
+      "Europäische Kommission": "Durchführung und Vorschlagsrecht",
+      "Rat der EU": "Abstimmung der Mitgliedstaaten",
+      "Europäischer Gerichtshof": "Überwachung der Rechtsanwendung"
+    }
+  },
+  {
+    "id": "VWLW01-220",
+    "typ": "mc",
+    "tag": "Wirtschafts- und Währungsunion",
+    "fall": "Zur Prüfungsvorbereitung wird Basiswissen abgefragt. (Variante 220)",
+    "frage": "Welches Ziel verfolgt die Europäische Wirtschafts- und Währungsunion?",
+    "erklaerung": "Die Wirtschafts- und Währungsunion (WWU) strebt stabile Preise, gemeinsame Geldpolitik und wirtschaftliche Konvergenz in der EU an. Der Euro ist ihr zentrales Symbol.",
+    "esel": "Ein Markt, eine Währung",
+    "quelle": { "kapitel": "11.6 Währungsunion", "seite": "192–194" },
+    "schwierigkeit": "mittel",
+    "optionen": [
+      "Stabile Preise und gemeinsame Währung",
+      "Nationale Alleingänge bei Währungspolitik",
+      "Freihandel ohne Kapitalverkehr",
+      "Abschaffung des Binnenmarkts"
+    ],
+    "loesung": "Stabile Preise und gemeinsame Währung"
+  },
+  {
+    "id": "VWLW01-221",
+    "typ": "justify",
+    "tag": "Euro-Vorteile",
+    "fall": "Im Unterricht wird die Einführung des Euro diskutiert. (Variante 221)",
+    "frage": "Welche Vorteile bringt eine gemeinsame Währung für den Binnenmarkt?",
+    "erklaerung": "Der Euro vereinfacht Handel, senkt Transaktionskosten und eliminiert Wechselkursrisiken. Er stärkt Preisvergleich und Wettbewerbsfähigkeit im Binnenmarkt.",
+    "esel": "Ein Geld, keine Grenzen",
+    "quelle": { "kapitel": "11.6 Währungsunion", "seite": "193–194" },
+    "schwierigkeit": "mittel",
+    "stichwoerter": ["Preisvergleich", "Transaktionskosten", "Wechselkursrisiko"]
+  },
+  {
+    "id": "VWLW01-222",
+    "typ": "justify",
+    "tag": "Euro-Nachteile",
+    "fall": "Ein Kolloquium fragt nach Herausforderungen der Euro-Zone. (Variante 222)",
+    "frage": "Warum kann eine gemeinsame Währung auch Probleme verursachen?",
+    "erklaerung": "Länder verlieren nationale Geldpolitik, können Zinsen oder Wechselkurse nicht mehr anpassen. Unterschiede in Produktivität und Verschuldung erschweren die Stabilität.",
+    "esel": "Ein Zins passt nicht allen",
+    "quelle": { "kapitel": "11.6 Währungsunion", "seite": "194–195" },
+    "schwierigkeit": "mittel",
+    "stichwoerter": ["Zinssteuerung", "Wettbewerbsfähigkeit", "Stabilitätspakt"]
+  },
+  {
+    "id": "VWLW01-223",
+    "typ": "mc",
+    "tag": "Stabilitäts- und Wachstumspakt",
+    "fall": "Ein Teammeeting möchte die EU-Regeln zur Haushaltsdisziplin verstehen. (Variante 223)",
+    "frage": "Welche Grenzen legt der Stabilitäts- und Wachstumspakt fest?",
+    "erklaerung": "Er verpflichtet Mitgliedstaaten, Haushaltsdefizite auf höchstens 3 % und die Staatsverschuldung auf 60 % des BIP zu begrenzen. Ziel: Haushaltsdisziplin und stabile Währung.",
+    "esel": "3 % Defizit, 60 % Schulden",
+    "quelle": { "kapitel": "11.7 Stabilitätspakt", "seite": "196–197" },
+    "schwierigkeit": "mittel",
+    "optionen": [
+      "Defizit max. 3 % des BIP, Schulden max. 60 % des BIP",
+      "Defizit max. 10 %, Schulden max. 80 %",
+      "Nur Schuldenbegrenzung, kein Defizitlimit",
+      "Keine Regeln für Haushalte"
+    ],
+    "loesung": "Defizit max. 3 % des BIP, Schulden max. 60 % des BIP"
+  },
+  {
+    "id": "VWLW01-224",
+    "typ": "match",
+    "tag": "Internationale Wirtschaftsorganisationen",
+    "fall": "Zur Prüfungsvorbereitung wird eine Übersicht erstellt. (Variante 224)",
+    "frage": "Ordne internationalen Organisationen ihre Aufgaben zu.",
+    "erklaerung": "IWF, WTO, Weltbank und OECD koordinieren internationale Wirtschaftsbeziehungen. Sie fördern Stabilität, Handel und Entwicklung.",
+    "esel": "IWF stabilisiert, WTO liberalisiert, Weltbank hilft",
+    "quelle": { "kapitel": "11.8 Internationale Organisationen", "seite": "197–199" },
+    "schwierigkeit": "mittel",
+    "paare": {
+      "IWF": "Stabilität und Kreditvergabe bei Zahlungsproblemen",
+      "WTO": "Förderung des freien Welthandels",
+      "Weltbank": "Finanzierung von Entwicklungsprojekten",
+      "OECD": "Koordination wirtschaftlicher Zusammenarbeit"
+    }
+  },
+  {
+    "id": "VWLW01-225",
+    "typ": "input",
+    "tag": "Wechselkurs",
+    "fall": "Ein Kolloquium fragt nach den Grundlagen des Wechselkurses. (Variante 225)",
+    "frage": "Was versteht man unter einem Wechselkurs?",
+    "erklaerung": "Der Wechselkurs gibt das Austauschverhältnis zwischen zwei Währungen an. Er beeinflusst Exporte, Importe und Wettbewerbsfähigkeit.",
+    "esel": "Währung gegen Währung",
+    "quelle": { "kapitel": "11.3 Devisenmarkt", "seite": "184–186" },
+    "schwierigkeit": "leicht",
+    "schluesselwoerter": ["Währungswert", "Export", "Import"]
+  },
+  {
+    "id": "VWLW01-226",
+    "typ": "calc",
+    "tag": "Wechselkursberechnung",
+    "fall": "Ein Rechenbeispiel verdeutlicht den Effekt von Wechselkursänderungen. (Variante 226)",
+    "frage": "Ein Euro kostet {USD} US-Dollar. Wie viele Euro erhält man für 1000 US-Dollar?",
+    "erklaerung": "Zur Berechnung teilt man den Betrag in USD durch den Wechselkurs (USD pro EUR). Formel: 1000 / USD. Merke: Je teurer der Euro, desto weniger bekommt man zurück.",
+    "esel": "1 durch Kurs",
+    "quelle": { "kapitel": "11.3 Devisenmarkt", "seite": "185–186" },
+    "schwierigkeit": "mittel",
+    "parameter": { "USD": [1.05, 1.25] },
+    "formel": "1000 / USD"
+  },
+  {
+    "id": "VWLW01-227",
+    "typ": "justify",
+    "tag": "Handelsbilanz",
+    "fall": "Ein Unterrichtsprojekt analysiert den Außenhandel. (Variante 227)",
+    "frage": "Warum ist eine dauerhaft positive Handelsbilanz nicht immer vorteilhaft?",
+    "erklaerung": "Ein Überschuss bedeutet Kapitalexporte und Abhängigkeit vom Ausland. Gleichzeitig leiden andere Länder unter Defiziten. Merke: Überschuss kann Ungleichgewicht sein.",
+    "esel": "Überschuss ≠ immer gut",
+    "quelle": { "kapitel": "11.2 Zahlungsbilanz", "seite": "182–184" },
+    "schwierigkeit": "mittel",
+    "stichwoerter": ["Exportüberschuss", "Ungleichgewicht", "Abhängigkeit"]
+  },
+  {
+    "id": "VWLW01-228",
+    "typ": "mc",
+    "tag": "Protektionismus",
+    "fall": "Ein Kolloquium diskutiert Handelshemmnisse. (Variante 228)",
+    "frage": "Welche Maßnahme zählt zu protektionistischen Instrumenten?",
+    "erklaerung": "Protektionismus schützt inländische Wirtschaft durch Handelshemmnisse wie Zölle, Quoten oder Subventionen. Merke: Schutz kostet Wachstum.",
+    "esel": "Schutz kostet",
+    "quelle": { "kapitel": "11.9 Welthandel & Protektionismus", "seite": "199–200" },
+    "schwierigkeit": "mittel",
+    "optionen": [
+      "Importzölle",
+      "Exportförderung durch Innovation",
+      "Abschaffung von Handelshemmnissen",
+      "Binnenmarktförderung durch Digitalisierung"
+    ],
+    "loesung": "Importzölle"
+  },
+  {
+    "id": "VWLW01-229",
+    "typ": "fallanalyse",
+    "tag": "Freihandel vs. Protektionismus",
+    "fall": "Ein Land führt Zölle ein, um heimische Industrie zu schützen. (Variante 229)",
+    "frage": "Analysiere ökonomische Vor- und Nachteile protektionistischer Maßnahmen.",
+    "erklaerung": "Zölle schützen Arbeitsplätze kurzfristig, verteuern aber Importe, hemmen Wettbewerb und senken Wohlstand. Freihandel nutzt Spezialisierungsvorteile. Merke: Kurz helfen, lang schaden.",
+    "esel": "Zoll hilft kurz, schadet lang",
+    "quelle": { "kapitel": "11.9 Welthandel & Protektionismus", "seite": "199–201" },
+    "schwierigkeit": "schwer",
+    "stichpunkte": ["Arbeitsplätze", "Preise", "Wettbewerb", "Effizienz"]
+  },
+  {
+    "id": "VWLW01-230",
+    "typ": "justify",
+    "tag": "Zukunft der Globalisierung",
+    "fall": "Ein Kolloquium betrachtet aktuelle Trends. (Variante 230)",
+    "frage": "Welche Entwicklungen prägen die Zukunft der Globalisierung?",
+    "erklaerung": "Digitalisierung, Lieferkettenkrisen und Klimawandel verändern den Welthandel. Künftig wird Resilienz wichtiger als reine Effizienz. Merke: Global, aber widerstandsfähig.",
+    "esel": "Effizienz war gestern – Resilienz ist morgen",
+    "quelle": { "kapitel": "11.10 Zukunft der Weltwirtschaft", "seite": "202–203" },
+    "schwierigkeit": "mittel",
+    "stichwoerter": ["Digitalisierung", "Resilienz", "Nachhaltigkeit"]
+  }
+]
