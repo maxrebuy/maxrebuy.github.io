@@ -12,11 +12,14 @@
       --bg:#0f172a;--card:#1e293b;--border:#334155;--accent:#38bdf8;--good:#22c55e;--bad:#ef4444;--text:#e2e8f0;
     }
     body{background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,sans-serif;margin:0;min-height:100vh;display:flex;justify-content:center;align-items:center;padding:16px;}
-    .hidden{display:none;}
+    .hidden{
+  display:none !important;
+}
     .app{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:18px 20px;width:min(900px,100%);box-shadow:0 20px 40px rgba(0,0,0,.25);position:relative;}
 
     /* HOME */
-    #homeScreen{text-align:center;display:flex;flex-direction:column;gap:24px;align-items:center;justify-content:center;min-height:520px;}
+    #mainHomeScreen,
+    #learnHomeScreen{text-align:center;display:flex;flex-direction:column;gap:24px;align-items:center;justify-content:center;min-height:520px;}
     .test-list{display:flex;flex-direction:column;align-items:center;gap:16px;width:100%;}
     .test-list button{position:relative;overflow:hidden;width:70%;max-width:520px;height:56px;display:flex;justify-content:center;align-items:center;text-align:center;white-space:nowrap;background:#f8f7f3;color:#111;font-weight:700;font-family:'Orbitron',sans-serif;border:none;border-radius:9999px;padding:0 20px;cursor:pointer;box-shadow:0 0 20px rgba(255,255,255,0.15);transition:all .3s ease;}
     .test-list button::before{content:"";position:absolute;top:0;left:-75%;width:50%;height:100%;background:linear-gradient(120deg,rgba(255,255,255,.35),rgba(255,255,255,0));transform:skewX(-25deg);}
@@ -46,7 +49,7 @@
     }
     .justify-box textarea,.fall-box textarea{min-height:100px;resize:vertical;}
 
-    .mc-option{display:block;width:100%;text-align:left;background:rgba(15,23,42,.5);border:1px solid rgba(148,163,184,.2);border-radius:10px;padding:8px 10px;margin-bottom:6px;cursor:pointer;color:#e2e8f0;font-weight:500;}
+    .mc-option{display:block;width:100%;text-align:center;background:rgba(15,23,42,.5);border:1px solid rgba(148,163,184,.2);border-radius:10px;padding:8px 10px;margin-bottom:6px;cursor:pointer;color:#e2e8f0;font-weight:500;}
 
     .pair-row{display:grid;grid-template-columns:1fr 1fr;gap:8px;align-items:center;margin-bottom:6px;}
     .pair-row .left{background:rgba(148,163,184,.08);border:1px solid rgba(148,163,184,.2);border-radius:8px;padding:6px 8px;font-size:.9rem;}
@@ -86,20 +89,80 @@
 </head>
 <body>
 <div class="app">
-<!-- STARTSEITE -->
-<div id="homeScreen">
-<div style="font-size:32px;color:#38bdf8;text-shadow:0 0 15px rgba(56,189,248,.5);font-family:'Orbitron',sans-serif;line-height:1.3;opacity:0;transform:translateY(-15px);animation:fadeInTop 1.3s ease-out forwards;">
-        Willkommen Meister,<br/>It´s time to lean!
-      </div>
-<div class="test-list">
-<button onclick="selectTest('bwl')">1. Grundlagen der Betriebswirtschaftslehre</button>
-<button onclick="selectTest('fall')">2. Die Systematik der Fallbearbeitung</button>
-<button onclick="selectTest('rwb')">3. BGB-Grundlagen</button>
-<button onclick="selectTest('vwl')">4. Volkswirtschaftslehre</button></div>
-<div style="font-size:24px;margin-top:2rem;color:#38bdf8;opacity:0;transform:translateY(15px);animation:fadeInBottom 1.3s ease-out forwards;animation-delay:.4s;font-family:'Orbitron',sans-serif;">
-        Weitere Tests folgen, sobald du deine Hefte fertig gelesen hast!!<br/>Also häng dich rein, mein Bester.
-      </div>
+    <div id="mainHomeScreen">
+  <div style="font-size:28px; color:#38bdf8; text-shadow:0 0 15px rgba(56,189,248,0.5); font-family:'Orbitron',sans-serif; line-height:1.3; margin-bottom:24px; text-align:center;">
+    MaxToSuccess<br/><br/>
+    Hey Max,<br/>
+    Was wollen wir machen?
+  </div>
+
+  <div class="test-list">
+    <button onclick="openLearn()">Lern to Success</button>
+    <button onclick="openTrain()">Train to Success</button>
+  </div>
 </div>
+
+
+<!-- STARTSEITE (Lernbereich) -->
+<div id="learnHomeScreen" class="hidden">
+  <div style="font-size:32px;color:#38bdf8;text-shadow:0 0 15px rgba(56,189,248,.5);font-family:'Orbitron',sans-serif;line-height:1.3;opacity:0;transform:translateY(-15px);animation:fadeInTop 1.3s ease-out forwards;">
+    Willkommen Meister,<br/>It´s time to learn!
+  </div>
+
+  <div class="test-list">
+    <button onclick="selectTest('bwl')">1. Grundlagen der Betriebswirtschaftslehre</button>
+    <button onclick="selectTest('fall')">2. Die Systematik der Fallbearbeitung</button>
+    <button onclick="selectTest('rwb')">3. BGB-Grundlagen</button>
+    <button onclick="selectTest('vwl')">4. Volkswirtschaftslehre</button>
+    <button onclick="selectTest('bwlb02n')">5. BWL – Betriebliches Rechnungswesen II (150 Fragen)</button>
+  </div>
+
+    <!-- EINZIGER Back-Button im Lern-Bereich -->
+  <div style="margin-top:20px;">
+    <button class="secondary" onclick="backToMainHome()">Zur App-Startseite</button>
+  </div>
+
+
+  <div style="font-size:24px;margin-top:2rem;color:#38bdf8;opacity:0;transform:translateY(15px);animation:fadeInBottom 1.3s ease-out forwards;animation-delay:.4s;font-family:'Orbitron',sans-serif;">
+    Weitere Tests folgen, sobald du weitere Hefte fertig gelesen hast!!<br/>Also häng dich rein, mein Bester.
+  </div>
+</div>
+
+<!-- FITNESS-SCREEN -->
+<div id="fitnessScreen" class="hidden">
+  <div class="topbar">
+    <div class="title">Train to Success – Fitness</div>
+    <button class="secondary" onclick="backToMainHome()">Zur App-Startseite</button>
+  </div>
+
+  <div style="margin-top:16px; font-size:.95rem; opacity:.9;">
+    Wähle deinen Trainingsbereich:
+  </div>
+
+  <!-- Split-Navigation -->
+  <div class="buttons" style="margin-top:12px; flex-wrap:wrap;">
+    <button id="fitnessTabPush" class="secondary">Push · Brust / Schulter / Trizeps</button>
+    <button id="fitnessTabPull" class="secondary">Pull · Rücken / Bizeps / hintere Schulter</button>
+    <button id="fitnessTabLegsCore" class="secondary">Beine + Core</button>
+  </div>
+
+  <!-- Infozeile -->
+  <div id="fitnessInfo" class="info-line" style="margin-top:10px;">
+    Alle Übungen des gewählten Splits werden gleichzeitig angezeigt. 
+    Logge jede Übung mit <strong>+</strong>, <strong>/</strong> oder <strong>−</strong> – in beliebiger Reihenfolge.
+  </div>
+
+  <!-- Hier rendert die App alle Übungen -->
+  <div id="fitnessExercises"></div>
+
+  <!-- Backup-Bereich -->
+  <div class="buttons" style="margin-top:16px;">
+    <button id="fitnessExportBtn" class="secondary">Backup exportieren</button>
+    <input id="fitnessImportInput" type="file" accept="application/json" class="hidden" />
+    <button id="fitnessImportBtn" class="secondary">Backup importieren</button>
+  </div>
+</div>
+
 <!-- TEST-SCREEN -->
 <div class="hidden" id="testScreen">
 <div class="topbar">
@@ -249,7 +312,8 @@
       bwl: { name: "1. Grundlagen der Betriebswirtschaftslehre – Test", file: "bwl_test.json", questionCount: 30 },
       fall:{ name: "2. Die Systematik der Fallbearbeitung – Test", file: "fallbearbeitung_test.json", questionCount: 30 },
       vwl: { name: "4. Volkswirtschaftslehre – Test", file: "vwlw01_test.json", questionCount: 30 }
-    };
+    
+  ,bwlb02n: { name: "5. BWL – Betriebliches Rechnungswesen II (150 Fragen)", file: "bwlb02n_test.json", questionCount: 30 }};
 
     // =============================
     // State
@@ -264,6 +328,16 @@
     let secondsLeft = MAX_TIME_SECONDS;
     let results = []; // {id, frage, user, korrekt, zeit}
     let calcOpen = false;
+
+    // =============================
+    // Fitness-Module State
+    // =============================
+    const FITNESS_STORAGE_KEY = "m2s_fitness_state_v1";
+    let fitnessWorkouts = [];
+    let fitnessState = {};
+    let fitnessInitialized = false;
+    let currentSplit = "pull"; // Default: Pull zuerst
+
 
     // =============================
     // Dedupe-Utilities
@@ -316,16 +390,19 @@
     // Test auswählen / laden
     // =============================
     async function selectTest(key){
-      const t = TESTS[key]; if(!t) return;
+      const t = TESTS[key]; 
+      if(!t) return;
       selectedTest = t;
 
-      document.getElementById("homeScreen").classList.add("hidden");
+     // Lern-Startseite ausblenden, Test anzeigen
+      document.getElementById("learnHomeScreen").classList.add("hidden");
       document.getElementById("testScreen").classList.remove("hidden");
       document.getElementById("testTitle").textContent = t.name;
 
       await loadQuestions();
       startNewTest();
     }
+
 
     async function loadQuestions(){
       const res = await fetch(selectedTest.file);
@@ -1029,7 +1106,11 @@
     // =============================
     document.getElementById("nextBtn").onclick=()=>{ if(currentIndex<currentQuestions.length-1){ currentIndex++; renderQuestion(); } else { finishTest(false);} };
     document.getElementById("restartBtn").onclick=()=>{ startNewTest(); };
-    document.getElementById("backHomeBtn").onclick=()=>{ clearInterval(timerInterval); document.getElementById("testScreen").classList.add("hidden"); document.getElementById("homeScreen").classList.remove("hidden"); };
+    document.getElementById("backHomeBtn").onclick = () => {
+      clearInterval(timerInterval);
+      document.getElementById("testScreen").classList.add("hidden");
+      document.getElementById("learnHomeScreen").classList.remove("hidden");
+    };
 
     
 
@@ -1253,7 +1334,56 @@ document.getElementById("closeExplainBtn").onclick=()=>{ document.getElementById
     }
 
     window.selectTest = selectTest;
-  
+  // =============================
+// App-Navigation: Home ↔ Lern ↔ Fitness
+// =============================
+
+function openLearn(){
+  // Von der Haupt-Home in die Lern-Startseite
+  document.getElementById("mainHomeScreen").classList.add("hidden");
+  document.getElementById("fitnessScreen")?.classList.add("hidden");
+  document.getElementById("testScreen").classList.add("hidden");
+
+  document.getElementById("learnHomeScreen").classList.remove("hidden");
+}
+
+function openTrain(){
+  // Von der Haupt-Home in den Fitness-Screen
+  document.getElementById("mainHomeScreen").classList.add("hidden");
+  document.getElementById("learnHomeScreen").classList.add("hidden");
+  document.getElementById("testScreen").classList.add("hidden");
+
+  document.getElementById("fitnessScreen").classList.remove("hidden");
+
+  // Beim Öffnen: Übungen erstmal ausblenden / leeren
+  const exContainer = document.getElementById("fitnessExercises");
+  if (exContainer) {
+    exContainer.innerHTML = "";
+  }
+
+  // Infozeile: Hinweis, dass erst ein Split gewählt werden soll
+  const info = document.getElementById("fitnessInfo");
+  if (info) {
+    info.textContent = "Wähle zuerst einen Trainingsbereich. Danach werden die Übungen angezeigt.";
+  }
+
+  // Fitness-Modul nur initialisieren, aber NICHT automatisch rendern
+  if (!fitnessInitialized) {
+    initFitness();
+  }
+  // Kein renderFitnessSplit(currentSplit) mehr hier
+}
+
+function backToMainHome(){
+  // Zur Gesamt-Home (mit den zwei Buttons)
+  clearInterval(timerInterval);
+
+  document.getElementById("testScreen").classList.add("hidden");
+  document.getElementById("learnHomeScreen").classList.add("hidden");
+  document.getElementById("fitnessScreen")?.classList.add("hidden");
+
+  document.getElementById("mainHomeScreen").classList.remove("hidden");
+}
 
 
 function renderMatrix(q){
@@ -1532,6 +1662,454 @@ function exportGenericCSV(q){
 </div>
 <div id="solutionBody" style="padding:12px 14px;"></div>
 </div>
-</div></body>
-</html>
+</div>
+<script>
+// === MaxToSuccess Compatibility Patch for new types (scenario, ratio, justify+calc, chart-matrix) ===
+(function(){
+  function normalizeType(q){
+    if(!q || !q.typ) return q;
+    var t = q.typ;
+    if(t === "scenario") q.typ = "mc";
+    if(t === "chart-matrix") q.typ = "matrix";
+    if(t === "ratio" || t === "justify+calc") q.typ = "calc";
+    return q;
+  }
+  try {
+    if (typeof window.renderQuestion === "function") {
+      var _origRenderQuestion = window.renderQuestion;
+      window.renderQuestion = function(q){
+        try { normalizeType(q); } catch(e){}
+        return _origRenderQuestion(q);
+      };
+    }
+  } catch(e){}
+  try {
+    if (typeof window.prepareCalcQuestion === "function") {
+      var _origPrepareCalcQuestion = window.prepareCalcQuestion;
+      window.prepareCalcQuestion = function(q){
+        try { if(q && (q.typ==="ratio" || q.typ==="justify+calc")) q.typ="calc"; } catch(e){}
+        return _origPrepareCalcQuestion(q);
+      };
+    }
+  } catch(e){}
+  try {
+    if (typeof window.checkInputAnswer === "function") {
+      var _origCheckInputAnswer = window.checkInputAnswer;
+      window.checkInputAnswer = function(q, val){
+        try { if(q && (q.typ==="ratio" || q.typ==="justify+calc")) q.typ="calc"; } catch(e){}
+        return _origCheckInputAnswer(q, val);
+      };
+    }
+  } catch(e){}
+  window._mtsCompat = { normalizeType: normalizeType };
+})();
 
+    // =============================
+    // FITNESS-MODUL – Workouts, Progression, Backup
+    // =============================
+
+    async function initFitness() {
+      if (fitnessInitialized) return;
+
+      // Workouts laden
+      try {
+        const res = await fetch("fitness_workouts.json");
+        fitnessWorkouts = await res.json();
+      } catch (e) {
+        console.error("Fehler beim Laden von fitness_workouts.json", e);
+        fitnessWorkouts = [];
+      }
+
+      // State aus localStorage laden
+      const saved = localStorage.getItem(FITNESS_STORAGE_KEY);
+      if (saved) {
+        try {
+          fitnessState = JSON.parse(saved) || {};
+        } catch (e) {
+          fitnessState = {};
+        }
+      }
+
+      // Split-Tabs
+      const tabPush = document.getElementById("fitnessTabPush");
+      const tabPull = document.getElementById("fitnessTabPull");
+      const tabLegsCore = document.getElementById("fitnessTabLegsCore");
+
+      if (tabPush) {
+        tabPush.addEventListener("click", () => {
+          currentSplit = "push";
+          renderFitnessSplit("push");
+        });
+      }
+      if (tabPull) {
+        tabPull.addEventListener("click", () => {
+          currentSplit = "pull";
+          renderFitnessSplit("pull");
+        });
+      }
+      if (tabLegsCore) {
+        tabLegsCore.addEventListener("click", () => {
+          currentSplit = "legs_core";
+          renderFitnessSplit("legs_core");
+        });
+      }
+
+      // Event Delegation für Übungs-Buttons
+      const exContainer = document.getElementById("fitnessExercises");
+      if (exContainer) {
+        exContainer.addEventListener("click", (ev) => {
+          const btn = ev.target.closest("button");
+          if (!btn) return;
+          const card = ev.target.closest(".fitness-exercise");
+          if (!card) return;
+
+          const id = card.dataset.id;
+          const action = btn.dataset.action;
+          if (!id || !action) return;
+
+          if (action === "start") {
+            markExerciseStarted(id);
+          } else if (action === "plus" || action === "ok" || action === "minus") {
+            handleFitnessOutcome(id, action);
+          }
+        });
+      }
+
+      // Backup-Buttons
+      const exportBtn = document.getElementById("fitnessExportBtn");
+      const importBtn = document.getElementById("fitnessImportBtn");
+      const importInput = document.getElementById("fitnessImportInput");
+
+      if (exportBtn) exportBtn.addEventListener("click", exportFitnessBackup);
+      if (importBtn && importInput) {
+        importBtn.addEventListener("click", () => importInput.click());
+        importInput.addEventListener("change", importFitnessBackup);
+      }
+
+      fitnessInitialized = true;
+    }
+
+    // State-Helper für eine Übung
+    function getExerciseState(id, base) {
+      if (!fitnessState[id]) {
+        fitnessState[id] = {
+          currentWeight: base.startgewicht,
+          einheit: base.einheit,
+          lastResults: [],    // letzte 3 Ergebnisse (+ / / -)
+          lastTrained: null,  // ISO-Datum
+          history: []         // optionaler Verlauf
+        };
+      }
+      return fitnessState[id];
+    }
+// --- Pausen-Timer pro Übung (75 Sekunden) ---
+
+const exerciseTimers = {}; // key: exerciseId -> { remaining, intervalId }
+
+// Sekunden -> MM:SS
+function formatSecondsToMMSS(sec) {
+  const m = Math.floor(sec / 60);
+  const s = sec % 60;
+  return `${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
+}
+
+function updateExerciseTimerDisplay(exerciseId, remainingSeconds) {
+  const el = document.getElementById(`timer-${exerciseId}`);
+  if (!el) return;
+  el.textContent = formatSecondsToMMSS(remainingSeconds);
+}
+
+// Startet / resettet den Timer einer Übung auf 75s und zählt runter
+function startExerciseTimer(exerciseId) {
+  const DEFAULT_SECONDS = 75;
+
+  // Bisherigen State holen oder neuen anlegen
+  let state = exerciseTimers[exerciseId];
+  if (!state) {
+    state = { remaining: DEFAULT_SECONDS, intervalId: null };
+  }
+
+  // Falls Timer schon läuft: stoppen
+  if (state.intervalId) {
+    clearInterval(state.intervalId);
+    state.intervalId = null;
+  }
+
+  // Beim Klick immer neu bei 75s starten
+  state.remaining = DEFAULT_SECONDS;
+  updateExerciseTimerDisplay(exerciseId, state.remaining);
+
+  state.intervalId = setInterval(() => {
+    state.remaining--;
+
+    if (state.remaining <= 0) {
+      state.remaining = 0;
+      updateExerciseTimerDisplay(exerciseId, state.remaining);
+
+      clearInterval(state.intervalId);
+      state.intervalId = null;
+
+      exerciseTimers[exerciseId] = state;
+      return; // Timer bleibt auf 00:00 stehen
+    }
+
+    updateExerciseTimerDisplay(exerciseId, state.remaining);
+    exerciseTimers[exerciseId] = state;
+  }, 1000);
+
+  exerciseTimers[exerciseId] = state;
+}
+
+    // Übungen eines Splits rendern
+    function renderFitnessSplit(split) {
+      const container = document.getElementById("fitnessExercises");
+      if (!container) return;
+      container.innerHTML = "";
+
+      const exercises = fitnessWorkouts
+        .filter(w => w.split === split)
+        .sort((a, b) => (a.reihenfolge || 0) - (b.reihenfolge || 0));
+
+      if (exercises.length === 0) {
+        container.innerHTML = "<p>Für diesen Split sind noch keine Übungen hinterlegt.</p>";
+        return;
+      }
+
+      exercises.forEach(ex => {
+        const state = getExerciseState(ex.id, ex);
+
+        const card = document.createElement("div");
+        card.className = "question-box fitness-exercise";
+        card.dataset.id = ex.id;
+
+        const lastResultsDisplay = (state.lastResults && state.lastResults.length)
+          ? state.lastResults.join(" · ")
+          : "Noch keine Einträge";
+
+        const lastDate = state.lastTrained
+          ? new Date(state.lastTrained).toLocaleDateString("de-DE")
+          : "–";
+
+        card.innerHTML = `
+          <div class="tag">${split.toUpperCase()} · #${ex.reihenfolge || ""}</div>
+          <div class="frage">${ex.name}</div>
+          <div style="font-size:.85rem; margin-bottom:4px;">
+            Sätze: <strong>${ex.saetze_ziel}</strong> · Ziel-Wdh.: <strong>${ex.wdh_ziel}</strong>
+          </div>
+          <div style="font-size:.85rem; margin-bottom:4px;">
+            Aktuelles Gewicht: <strong><span class="weight-value">${state.currentWeight}</span> ${ex.einheit}</strong>
+          </div>
+          <div style="font-size:.8rem; opacity:.8; margin-bottom:4px;">
+            Hinweis: ${ex.hinweis_kurz}
+          </div>
+          <div style="font-size:.8rem; opacity:.8; margin-bottom:6px;">
+            Technik: ${ex.technik}
+          </div>
+          <div style="font-size:.8rem; margin-bottom:4px;">
+            Letzte 3 Ergebnisse: <span class="history-value">${lastResultsDisplay}</span>
+          </div>
+          <div style="font-size:.8rem; margin-bottom:8px;">
+            Zuletzt trainiert: <span class="date-value">${lastDate}</span>
+          </div>
+          <div class="buttons">
+            <button class="secondary" data-action="start">Start</button>
+            <button data-action="plus">+</button>
+            <button data-action="ok">/</button>
+            <button data-action="minus">-</button>
+          </div>
+          
+          <div class="fitness-timer-row">
+          <span id="timer-${ex.id}" class="fitness-timer-display">01:15</span>
+          <button class="secondary" onclick="startExerciseTimer('${ex.id}')">
+            Pause
+          </button>
+        </div>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    // „Start“ – ohne Bewertung, nur Trainingstag setzen
+    function markExerciseStarted(id) {
+      const base = fitnessWorkouts.find(w => w.id === id);
+      if (!base) return;
+
+      const state = getExerciseState(id, base);
+      state.lastTrained = new Date().toISOString();
+      state.history = state.history || [];
+      state.history.push({
+        date: state.lastTrained,
+        outcome: "start",
+        weight: state.currentWeight
+      });
+
+      saveFitnessState();
+      updateExerciseCard(id);
+    }
+
+    // + / / - Logik inklusive 3er-Streak und 5%-Anpassung
+    function handleFitnessOutcome(id, action) {
+      const base = fitnessWorkouts.find(w => w.id === id);
+      if (!base) return;
+
+      const state = getExerciseState(id, base);
+      const symbol = action === "plus" ? "+" : action === "ok" ? "/" : "-";
+
+      state.lastTrained = new Date().toISOString();
+      state.lastResults = state.lastResults || [];
+      state.lastResults.push(symbol);
+      if (state.lastResults.length > 3) {
+        state.lastResults.shift();
+      }
+
+      state.history = state.history || [];
+      state.history.push({
+        date: state.lastTrained,
+        outcome: symbol,
+        weight: state.currentWeight
+      });
+
+      // Keine Auto-Anpassung bei Körpergewicht
+      if (base.einheit !== "bw" && state.lastResults.length === 3) {
+        const allPlus = state.lastResults.every(v => v === "+");
+        const allMinus = state.lastResults.every(v => v === "-");
+
+        if (allPlus) {
+          state.currentWeight = adjustWeightForExercise(base, state.currentWeight, "up");
+          state.lastResults = [];
+        } else if (allMinus) {
+          state.currentWeight = adjustWeightForExercise(base, state.currentWeight, "down");
+          state.lastResults = [];
+        }
+        // Sobald ein "/" in den drei Einträgen ist, passiert nur Logging
+      }
+
+      saveFitnessState();
+      updateExerciseCard(id);
+    }
+
+   // Standard-Rundung auf ein Intervall (bleibt unverändert)
+function roundToStep(value, step) {
+  return Math.round(value / step) * step;
+}
+
+// 5%-Anpassung + individuelle Gewichtsstufe pro Übung
+// base.gewichtstufen = Zahl (z.B. 5 => 5kg-Sprünge)
+function adjustWeightForExercise(base, currentWeight, direction) {
+  const factor = direction === "up" ? 1.05 : 0.95;
+  const target = currentWeight * factor;
+
+  // Gewichtsstufe aus JSON lesen → Zahl erzwingen
+  let step = Number(base.gewichtstufen);
+
+  // Falls ungültig → Fallback
+  if (isNaN(step) || step <= 0) {
+    step = 0.5;
+  }
+
+  if (direction === "up") {
+    // Immer auf den nächsten höheren Schritt springen
+    return Math.ceil(target / step) * step;
+  } else {
+    // Beim Reduzieren immer auf die nächste kleinere Stufe
+    let newWeight = Math.floor(target / step) * step;
+
+    // Niemals unter die kleinstmögliche Stufe
+    if (newWeight < step) newWeight = step;
+
+    return newWeight;
+  }
+}
+
+function saveFitnessState() {
+  try {
+    localStorage.setItem(FITNESS_STORAGE_KEY, JSON.stringify(fitnessState));
+  } catch (e) {
+    console.error("Konnte Fitness-State nicht speichern", e);
+  }
+}
+
+
+    // UI einer einzelnen Karte aktualisieren
+    function updateExerciseCard(id) {
+      const base = fitnessWorkouts.find(w => w.id === id);
+      const state = fitnessState[id];
+      const card = document.querySelector('.fitness-exercise[data-id="' + id + '"]');
+      if (!card || !base || !state) return;
+
+      const weightEl = card.querySelector(".weight-value");
+      const historyEl = card.querySelector(".history-value");
+      const dateEl = card.querySelector(".date-value");
+
+      if (weightEl) weightEl.textContent = state.currentWeight;
+      if (historyEl) {
+        historyEl.textContent = state.lastResults && state.lastResults.length
+          ? state.lastResults.join(" · ")
+          : "Noch keine Einträge";
+      }
+      if (dateEl) {
+        dateEl.textContent = state.lastTrained
+          ? new Date(state.lastTrained).toLocaleDateString("de-DE")
+          : "–";
+      }
+    }
+
+    // Backup exportieren
+    function exportFitnessBackup() {
+      const backup = {
+        version: "1.0",
+        createdAt: new Date().toISOString(),
+        workouts: fitnessWorkouts,
+        state: fitnessState
+      };
+
+      const blob = new Blob([JSON.stringify(backup, null, 2)], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+
+      const today = new Date();
+      const yyyy = today.getFullYear();
+      const mm = String(today.getMonth() + 1).padStart(2, "0");
+      const dd = String(today.getDate()).padStart(2, "0");
+      const filename = `max_training_backup_${yyyy}-${mm}-${dd}.json`;
+
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+
+    // Backup importieren
+    function importFitnessBackup(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = function (e) {
+        try {
+          const backup = JSON.parse(e.target.result);
+
+          if (backup.workouts && Array.isArray(backup.workouts)) {
+            fitnessWorkouts = backup.workouts;
+          }
+          if (backup.state && typeof backup.state === "object") {
+            fitnessState = backup.state;
+          }
+
+          saveFitnessState();
+          renderFitnessSplit(currentSplit);
+          alert("Backup importiert. Deine Trainingsdaten wurden übernommen.");
+        } catch (err) {
+          console.error("Fehler beim Import der Backup-Datei", err);
+          alert("Die Datei konnte nicht gelesen werden. Bitte prüfe, ob es eine gültige MaxToSuccess-Backup-Datei ist.");
+        } finally {
+          event.target.value = "";
+        }
+      };
+      reader.readAsText(file);
+    }
+</script>
+</body>
+</html>
