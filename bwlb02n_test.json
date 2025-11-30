@@ -1,0 +1,4057 @@
+[
+  {
+    "id": "BWLB02N-001",
+    "typ": "mc",
+    "tag": "Aufgaben des Rechnungswesens",
+    "fall": "Ein mittelständischer Betrieb will verstehen, warum die Buchführung mehr ist als reine ‚Pflicht‘.",
+    "frage": "Welche Aussage gehört zu den Kernaufgaben des Rechnungswesens?",
+    "optionen": [
+      "Dokumentation aller Geschäftsvorfälle",
+      "Entwicklung neuer Produktionsverfahren",
+      "Programmierung der betrieblichen Website",
+      "Genehmigung von Bauanträgen"
+    ],
+    "loesung": "Dokumentation aller Geschäftsvorfälle",
+    "erklaerung": "Das Rechnungswesen erfasst unternehmerische Transaktionen und stellt Informationen bereit. Es erfüllt Dokumentations-, Informations-, Kontroll- und Dispositionsfunktionen. Diese Aufgaben sichern Transparenz, Entscheidungsgrundlagen und gesetzliche Rechenschaft. Produktentwicklung oder IT-Umsetzung zählen nicht zum Kern des Rechnungswesens.",
+    "esel": "ReWe = D I K D: Dokumentation, Information, Kontrolle, Disposition.",
+    "quelle": {
+      "kapitel": "1.1 Aufgaben des Rechnungswesens",
+      "seite": "3–4"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-002",
+    "typ": "match",
+    "tag": "Teilgebiete des Rechnungswesens",
+    "fall": "Die Geschäftsführung will die Teilbereiche des Rechnungswesens sauber zuordnen.",
+    "frage": "Ordne die Teilgebiete ihren Kurzbeschreibungen zu.",
+    "paare": {
+      "Finanzbuchführung/Bilanz": "Gesetzlich geregelt; Information auch für externe Adressaten",
+      "Kosten- und Leistungsrechnung": "Internes Steuerungsinstrument ohne gesetzliche Pflicht",
+      "Statistik/Vergleichsrechnung": "Aufbereitung und Auswertung von Zahlenreihen",
+      "Planungsrechnung/Controlling": "Zukunftsorientierte Planung und Kontrolle"
+    },
+    "erklaerung": "Die vier Bereiche ergänzen sich: FiBu ist extern ausgerichtet und gesetzlich normiert, KLR unterstützt interne Entscheidungen, Statistik/Vergleich verdichtet Daten und Controlling/Planung richtet den Blick nach vorn. Zusammen entsteht ein konsistentes Informationssystem.",
+    "esel": "Extern FiBu – intern KLR – Daten bündeln Statistik – nach vorn Controlling.",
+    "quelle": {
+      "kapitel": "1.2 Teilgebiete des Rechnungswesens",
+      "seite": "4–5"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-003",
+    "typ": "truefalse",
+    "tag": "GoB §238 HGB",
+    "fall": "Ein neuer Buchhalter zweifelt, wie ‚gut‘ eine Buchführung sein muss.",
+    "frage": "Die Buchführung ist ordnungsgemäß, wenn sie einem sachverständigen Dritten in angemessener Zeit einen Überblick über Geschäftsvorfälle und Lage des Unternehmens vermittelt.",
+    "antwort": true,
+    "erklaerung": "§ 238 Abs. 1 S. 2 HGB verlangt eine so beschaffene Buchführung. Daraus leiten sich GoB wie Klarheit, Übersichtlichkeit, Vollständigkeit und Nachprüfbarkeit ab. Sie dienen der schnellen, verlässlichen Informationsgewinnung durch Dritte.",
+    "esel": "GoB: ‚Dritter versteht’s zügig‘.",
+    "quelle": {
+      "kapitel": "1.5 Grundsätze ordnungsgemäßer Buchführung",
+      "seite": "6"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-004",
+    "typ": "mc",
+    "tag": "Inventurarten",
+    "fall": "Zum Jahresende steht die körperliche Bestandsaufnahme an.",
+    "frage": "Welche Aussage zu Inventurarten ist zutreffend?",
+    "optionen": [
+      "Stichprobeninventur ist grundsätzlich unzulässig",
+      "Permanente Inventur nutzt laufende Lagerbuchungen und zeitnahe Stichproben",
+      "Zeitverschobene Inventur ist nur in Produktionsbetrieben erlaubt",
+      "Bei der Stichtagsinventur gibt es keine körperliche Aufnahme"
+    ],
+    "loesung": "Permanente Inventur nutzt laufende Lagerbuchungen und zeitnahe Stichproben",
+    "erklaerung": "Neben der Stichtagsinventur sind nach HGB auch andere zulässige Verfahren vorgesehen, u. a. permanente und zeitverschobene Inventur sowie anerkannte Stichprobenverfahren. Die permanente Inventur beruht auf fortlaufender Buchführung mit körperlicher Kontrolle.",
+    "esel": "Permanent = laufend buchen + prüfen.",
+    "quelle": {
+      "kapitel": "2.1.1 Arten der Inventur",
+      "seite": "9"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-005",
+    "typ": "match",
+    "tag": "Inventarbestandteile",
+    "fall": "Nach der Inventur soll das Inventar erstellt werden.",
+    "frage": "Ordne die Inventarbestandteile ihrer Beschreibung zu.",
+    "paare": {
+      "Anlagevermögen": "Dem Betrieb langfristig dienende Vermögensteile (z. B. Gebäude)",
+      "Umlaufvermögen": "Kurzfristig gebundene, verbrauchte/verarbeitete Güter (z. B. Rohstoffe)",
+      "Schulden": "Verbindlichkeiten gegenüber Dritten",
+      "Eigenkapital": "Reinvermögen = Vermögen minus Schulden"
+    },
+    "erklaerung": "Das Inventar listet Vermögen (AV/UV) und Schulden; die Differenz ist das Eigenkapital. Es bildet die Grundlage für Bilanz und Kapitalvergleich.",
+    "esel": "Inventar: AV + UV – Schulden = EK.",
+    "quelle": {
+      "kapitel": "2.2 Das Inventar",
+      "seite": "10–11"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-006",
+    "typ": "order",
+    "tag": "Von der Bilanz zum Buchen",
+    "fall": "Das Team lernt die Buchungssystematik kennen.",
+    "frage": "Bringe die Schritte in die fachlich richtige Reihenfolge.",
+    "richtigeReihenfolge": [
+      "Eröffnungsbilanz erstellen/übernehmen",
+      "Eröffnungsbuchungen in Bestandskonten",
+      "Geschäftsvorfälle auf Bestands- und Erfolgskonten buchen",
+      "Konten abschließen (GuV, Schlussbilanzkonto)"
+    ],
+    "erklaerung": "Aus der Bilanz werden Bestandskonten eröffnet, laufende Geschäftsvorfälle gebucht und zum Periodenende über GuV und Schlussbilanzkonto abgeschlossen. So bleibt Bilanzgleichgewicht und Periodenerfolg nachvollziehbar.",
+    "esel": "Eröffnen – Buchen – Abschließen.",
+    "quelle": {
+      "kapitel": "3.2–3.6 Auflösen/Eröffnung/Buchen/Abschluss",
+      "seite": "17–24"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-007",
+    "typ": "matrix",
+    "tag": "Intern vs. Extern",
+    "fall": "Ein neuer Controller grenzt Informationsbedarfe ab.",
+    "frage": "Ordne die Begriffe den Kategorien zu.",
+    "paare": {
+      "Jahresabschluss (Bilanz/GuV)": "Extern",
+      "Kostenstellenrechnung": "Intern",
+      "Plan-Ist-Vergleich Budget": "Intern",
+      "Steuerbilanz": "Extern",
+      "Preiskalkulation (Voll/Teil)": "Intern",
+      "Lagebericht/Anhang": "Extern"
+    },
+    "kategorien": [
+      "Extern",
+      "Intern"
+    ],
+    "erklaerung": "Externe Adressaten (Gläubiger, Fiskus) erhalten gesetzlich normierte Abschlüsse; interne Adressaten nutzen KLR/Controlling für Planung, Steuerung und Kontrolle. Beide Sichten ergänzen sich.",
+    "esel": "Extern Bericht – intern steuern.",
+    "quelle": {
+      "kapitel": "1.2/1.3/4.3 Überblick Extern/Intern",
+      "seite": "4–5, 33–36"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-008",
+    "typ": "truefalse",
+    "tag": "Bewertungsgrundsätze",
+    "fall": "Zum Abschlussstichtag stehen Wertansätze an.",
+    "frage": "Das Imparitätsprinzip verlangt, unrealisierte Gewinne frühzeitig auszuweisen, unrealisierte Verluste aber noch nicht.",
+    "antwort": false,
+    "erklaerung": "Imparitätsprinzip = Ungleichbehandlung: Unrealisierte Verluste müssen antizipiert (ausgewiesen), unrealisierte Gewinne dürfen nicht ausgewiesen werden. Es schützt Gläubiger durch Vorsichtsprinzip.",
+    "esel": "Imparität: Verluste vorweg, Gewinne nicht.",
+    "quelle": {
+      "kapitel": "4.1.5 Imparitätsprinzip",
+      "seite": "33"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-009",
+    "typ": "mc",
+    "tag": "Niederstwertprinzip",
+    "fall": "Eine Maschine ist dauerhaft im Wert gesunken.",
+    "frage": "Was folgt handelsrechtlich aus dem Niederstwertprinzip?",
+    "optionen": [
+      "Ansatz höchstens zu Anschaffungs- oder Herstellungskosten; bei dauerhafter Wertminderung außerplanmäßig abschreiben",
+      "Erhöhung des Ansatzes auf den höheren Zeitwert (Aufwertungspflicht)",
+      "Keine Reaktion, da stille Reserven gewünscht sind",
+      "Immer Bewertung zum Tagesbeschaffungswert"
+    ],
+    "loesung": "Ansatz höchstens zu Anschaffungs- oder Herstellungskosten; bei dauerhafter Wertminderung außerplanmäßig abschreiben",
+    "erklaerung": "Nicht abnutzbare AV-Gegenstände maximal zu AK; bei dauerhafter Wertminderung Pflicht zum niedrigeren Wert. Abnutzbares AV zu AK/HK abzüglich planmäßiger Abschreibung; bei dauerhafter Minderung zusätzlich außerplanmäßig.",
+    "esel": "Niederstwert = nie höher, bei Dauerverlust runter.",
+    "quelle": {
+      "kapitel": "4.1.2 Niederstwertprinzip",
+      "seite": "32–33"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-010",
+    "typ": "falltext",
+    "tag": "Inventur → Inventar → Bilanz",
+    "fall": "Die ‚Fritz Stolz Bremsenfabrik e. K.‘ bereitet den Jahresabschluss vor. Nach der Inventur soll das Inventar erstellt und daraus die Bilanz abgeleitet werden.",
+    "frage": "Beantworte die Teilfragen zum Fall.",
+    "fragen": [
+      {
+        "typ": "mc",
+        "frage": "Welcher Schritt erfolgt direkt nach der Inventur?",
+        "optionen": [
+          "Aufstellung des Inventars",
+          "Erstellung des Lageberichts",
+          "Plan-Ist-Abweichungsanalyse",
+          "Auszahlung der Dividende"
+        ],
+        "loesung": "Aufstellung des Inventars"
+      },
+      {
+        "typ": "input",
+        "frage": "Nenne die beiden großen Vermögensblöcke auf der Aktivseite.",
+        "korrekteAntworten": [
+          "Anlagevermögen",
+          "Umlaufvermögen"
+        ]
+      },
+      {
+        "typ": "sequence",
+        "frage": "Bringe die Schritte in Reihenfolge.",
+        "richtigeReihenfolge": [
+          "Inventur",
+          "Inventar",
+          "Bilanz"
+        ]
+      },
+      {
+        "typ": "matrix",
+        "frage": "Ordne Aktiva/Passiva richtig zu.",
+        "paare": {
+          "Vorräte": "Aktiva",
+          "Maschinen": "Aktiva",
+          "Eigenkapital": "Passiva",
+          "Verbindlichkeiten": "Passiva"
+        },
+        "kategorien": [
+          "Aktiva",
+          "Passiva"
+        ]
+      }
+    ],
+    "erklaerung": "Die Inventur ermittelt körperlich/zahlmäßig die Bestände. Diese Ergebnisse werden im Inventar gegliedert (AV/UV, Schulden, Reinvermögen). Aus dem Inventar wird die Bilanz abgeleitet, die die Vermögens- und Kapitalstruktur kurz und übersichtlich darstellt.",
+    "esel": "Erst zählen, dann listen, dann bilanzieren.",
+    "quelle": {
+      "kapitel": "2 Inventur – Inventar – Bilanz",
+      "seite": "8–14"
+    },
+    "schwierigkeit": "schwer"
+  },
+  {
+    "id": "BWLB02N-011",
+    "typ": "mc",
+    "tag": "Bilanz §266 HGB",
+    "fall": "Beim Jahresabschluss soll die Aktivseite nach gesetzlichen Vorgaben strukturiert werden.",
+    "frage": "Welcher Posten gehört typischerweise zum Umlaufvermögen nach § 266 HGB?",
+    "optionen": [
+      "Vorräte",
+      "Geschäfts- oder Firmenwert",
+      "Bebaute Grundstücke",
+      "Beteiligungen des Anlagevermögens"
+    ],
+    "loesung": "Vorräte",
+    "erklaerung": "Die Bilanz wird für Kapitalgesellschaften in § 266 HGB vorgegeben. Vorräte (z. B. Roh-, Hilfs- und Betriebsstoffe sowie fertige/halbfertige Erzeugnisse) werden dem Umlaufvermögen zugeordnet. Immaterielle Vermögenswerte, Grundstücke und Finanzanlagen gehören zum Anlagevermögen. Die Gliederung dient der Vergleichbarkeit und Klarheit.",
+    "esel": "UV = schnell drehend: Vorräte, Forderungen, liquide Mittel.",
+    "quelle": {
+      "kapitel": "2 Inventur – Inventar – Bilanz",
+      "seite": "13–14"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-012",
+    "typ": "match",
+    "tag": "GoBil/GoB §243/§252 HGB",
+    "fall": "Für die Bilanzpolitik werden zentrale Grundsätze gesammelt.",
+    "frage": "Ordne die Grundsätze der richtigen Beschreibung zu.",
+    "paare": {
+      "Bilanzidentität": "Eröffnungsbilanz = Schlussbilanz des Vorjahres",
+      "Stetigkeit": "Bewertungs- und Gliederungsmethoden beibehalten",
+      "Vorsichtsprinzip": "Unrealisierte Verluste berücksichtigen, Gewinne nicht vorwegnehmen",
+      "Realisationsprinzip": "Gewinne erst bei Realisation ausweisen"
+    },
+    "erklaerung": "Die GoBil/GoB sichern Aussagekraft und Vergleichbarkeit von Abschlüssen. Bilanzidentität verknüpft Perioden; Stetigkeit begrenzt willkürliche Methodenwechsel. Vorsicht verlangt Zurückhaltung bei Gewinnen und Antizipation von Risiken, das Realisationsprinzip begrenzt den Gewinnausweis auf realisierte Erfolge. Zusammen sichern sie Gläubigerschutz und Verlässlichkeit.",
+    "esel": "Iden­tität verbindet, Stetigkeit hält, Vorsicht dämpft, Realisation begrenzt.",
+    "quelle": {
+      "kapitel": "4.1.1 GoBil/§§ 243, 252 HGB",
+      "seite": "31–33"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-013",
+    "typ": "order",
+    "tag": "KLR-Systematik",
+    "fall": "Das Team ordnet die Stufen der Kostenrechnung für ein Reportinghandbuch.",
+    "frage": "Bringe die klassischen Stufen der Kostenrechnung in die fachlich richtige Reihenfolge.",
+    "richtigeReihenfolge": [
+      "Kostenartenrechnung",
+      "Kostenstellenrechnung",
+      "Kostenträgerrechnung"
+    ],
+    "erklaerung": "Zuerst beantwortet die Kostenartenrechnung die Frage „Welche Kosten?“. Danach verteilt die Kostenstellenrechnung „Wo sind sie angefallen?“. Abschließend klärt die Kostenträgerrechnung „Wofür sind die Kosten entstanden?“ und ermöglicht Kalkulation und Erfolgsbewertung.",
+    "esel": "Art → Stelle → Träger.",
+    "quelle": {
+      "kapitel": "5.4 Gliederung der Kostenrechnung",
+      "seite": "43–45"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-014",
+    "typ": "matrix",
+    "tag": "GuV-Verfahren (GKV/UKV)",
+    "fall": "Die Geschäftsleitung wählt das geeignete GuV-Verfahren.",
+    "frage": "Ordne die Merkmale dem Verfahren zu.",
+    "paare": {
+      "Gliederung nach Aufwandsarten": "Gesamtkostenverfahren",
+      "Gliederung nach Funktionsbereichen": "Umsatzkostenverfahren",
+      "Bestandsveränderungen als eigene Position": "Gesamtkostenverfahren",
+      "Nur den Umsatzerlösen zuzurechnende Herstellungskosten": "Umsatzkostenverfahren",
+      "Beide führen zum gleichen Jahresergebnis": "Beide"
+    },
+    "kategorien": [
+      "Gesamtkostenverfahren",
+      "Umsatzkostenverfahren",
+      "Beide"
+    ],
+    "erklaerung": "Das Gesamtkostenverfahren (GKV) ordnet nach Aufwandsarten und zeigt Bestandsveränderungen separat. Das Umsatzkostenverfahren (UKV) ordnet nach Funktionen und stellt nur die den Umsätzen zurechenbaren Herstellungskosten gegenüber. Beide Verfahren liefern bei korrekter Anwendung dasselbe Jahresergebnis.",
+    "esel": "GKV = Arten & Bestände; UKV = Funktionen & zugeordnete Kosten.",
+    "quelle": {
+      "kapitel": "4.2 Gewinn- und Verlustrechnung",
+      "seite": "36–37"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-015",
+    "typ": "truefalse",
+    "tag": "Anhangspflicht",
+    "fall": "Ein Einzelunternehmer fragt, ob er einen Anhang erstellen muss.",
+    "frage": "Kapitalgesellschaften müssen zusätzlich zu Bilanz und GuV einen Anhang erstellen.",
+    "antwort": true,
+    "erklaerung": "Für Kapitalgesellschaften gehört der Anhang als drittes Element zum Jahresabschluss. Er erläutert Bilanz- und GuV-Posten sowie angewandte Methoden und dient der Ergänzung und Transparenz. Einzelkaufleute haben diese Pflicht grundsätzlich nicht.",
+    "esel": "GmbH/AG: Jahresabschluss = Bilanz + GuV + Anhang.",
+    "quelle": {
+      "kapitel": "4.3 Offenlegung/Prüfung/Anhang",
+      "seite": "34–37"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-016",
+    "typ": "mc",
+    "tag": "Offenlegung & Prüfung",
+    "fall": "Der CFO klärt rechtliche Pflichten für den veröffentlichten Abschluss.",
+    "frage": "Welche Aussage ist in Bezug auf Offenlegung und Prüfung zutreffend?",
+    "optionen": [
+      "Kapitalgesellschaften unterliegen je nach Größe der Prüfungs- und Offenlegungspflicht",
+      "Nur börsennotierte Unternehmen müssen offenlegen",
+      "Einzelkaufleute sind immer prüfungspflichtig",
+      "Offenlegung ersetzt die handelsrechtliche Buchführungspflicht"
+    ],
+    "loesung": "Kapitalgesellschaften unterliegen je nach Größe der Prüfungs- und Offenlegungspflicht",
+    "erklaerung": "Grundsätzlich sind Kapitalgesellschaften zur Offenlegung und – abhängig von Größenklassen – zur Abschlussprüfung verpflichtet. Börsennotierung ist dafür nicht allein entscheidend. Einzelkaufleute sind regelmäßig nicht prüfungspflichtig; Offenlegung ersetzt nie die Buchführungspflicht.",
+    "esel": "Pflicht trifft Kapitalgesellschaften – gestaffelt nach Größe.",
+    "quelle": {
+      "kapitel": "4.3 Offenlegung und Prüfung",
+      "seite": "34–35"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-017",
+    "typ": "mc",
+    "tag": "Aufwand vs. Kosten",
+    "fall": "Bei der internen Auswertung treten Abweichungen zwischen FiBu und KLR auf.",
+    "frage": "Welche Aussage kennzeichnet den Unterschied korrekt?",
+    "optionen": [
+      "Aufwand ist stets identisch mit Kosten",
+      "Kosten sind der bewertete Leistungseinsatz; Aufwand enthält auch neutrale Größen",
+      "Kosten umfassen nur kalkulatorische Zinsen",
+      "Aufwand tritt nur in der KLR auf"
+    ],
+    "loesung": "Kosten sind der bewertete Leistungseinsatz; Aufwand enthält auch neutrale Größen",
+    "erklaerung": "Kosten bilden den betriebszweckbezogenen Werteverzehr ab. Aufwand umfasst alle erfolgswirksamen Werteverzehre der FiBu, also auch neutrale Posten wie betriebsfremde oder periodenfremde Aufwendungen. Daher sind Kosten und Aufwand häufig, aber nicht immer deckungsgleich.",
+    "esel": "Kosten = zweckbezogen; Aufwand = alles erfolgswirksam.",
+    "quelle": {
+      "kapitel": "5 Kosten- und Leistungsrechnung – Grundlagen",
+      "seite": "43–45, 50–52"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-018",
+    "typ": "calc",
+    "tag": "Break-even/DB",
+    "fall": "Ein Produkt soll preislich so positioniert werden, dass kurzfristig die Gewinnschwelle erreicht wird.",
+    "frage": "Gegeben sind fixe Kosten {F}, Preis {P} je Stück und variable Stückkosten {VK}. Wie viele Stücke müssen mindestens verkauft werden, um den Break-even zu erreichen?",
+    "parameter": {
+      "F": [
+        20000,
+        60000
+      ],
+      "P": [
+        40,
+        120
+      ],
+      "VK": [
+        10,
+        80
+      ]
+    },
+    "formel": "F / (P - VK)",
+    "toleranz": 0.01,
+    "erklaerung": "Der Break-even liegt vor, wenn der Deckungsbeitrag die Fixkosten deckt. Pro Stück ist der Deckungsbeitrag (P − VK). Die Gewinnschwellenmenge ergibt sich als Fixkosten geteilt durch Deckungsbeitrag je Stück. Rundungsdifferenzen sind zulässig.",
+    "esel": "BE-Menge = Fixkosten ÷ (Preis − variable Kosten).",
+    "quelle": {
+      "kapitel": "8 Deckungsbeitragsrechnung / Break-even",
+      "seite": "79–84, 91"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-019",
+    "typ": "truefalse",
+    "tag": "Imparität/Gewinne",
+    "fall": "Im Rahmen der Bewertung diskutiert das Team eine mögliche Aufwertung auf Tageswerte.",
+    "frage": "Das Imparitätsprinzip erlaubt die Antizipation unversteuerter Gewinne, um stille Reserven zu vermeiden.",
+    "antwort": false,
+    "erklaerung": "Das Imparitätsprinzip führt zur asymmetrischen Behandlung: Unrealisierte Verluste sind zu berücksichtigen, unrealisierte Gewinne nicht. Dadurch wird der Gläubigerschutz gestärkt und ein zu optimistischer Ausweis verhindert. Stille Reserven können dabei entstehen und sind hinzunehmen.",
+    "esel": "Verluste vorweg, Gewinne nie vorweg.",
+    "quelle": {
+      "kapitel": "4.1.5 Imparitätsprinzip",
+      "seite": "33–34"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-020",
+    "typ": "falltext",
+    "tag": "Abschlussprozess kompakt",
+    "fall": "Die ‚Müller Präzisionsteile GmbH‘ schließt das Geschäftsjahr ab: Es liegen Inventurergebnisse, Bestandsveränderungen und eine Kostenübersicht vor.",
+    "frage": "Beantworte die Teilfragen zum Fall.",
+    "fragen": [
+      {
+        "typ": "mc",
+        "frage": "Welcher Schritt folgt direkt auf die Inventur?",
+        "optionen": [
+          "Aufstellung des Inventars",
+          "Eröffnung der Erfolgskonten",
+          "Erstellung des Lageberichts",
+          "Festlegung des Budgets"
+        ],
+        "loesung": "Aufstellung des Inventars"
+      },
+      {
+        "typ": "input",
+        "frage": "Welche beiden Hauptblöcke der Aktivseite musst du im Inventar/Bilanz ausweisen?",
+        "korrekteAntworten": [
+          "Anlagevermögen",
+          "Umlaufvermögen"
+        ]
+      },
+      {
+        "typ": "sequence",
+        "frage": "Bringe die Abschlussbuchungen in Reihenfolge.",
+        "richtigeReihenfolge": [
+          "Erfolgskonten über GuV abschließen",
+          "GuV über Schlussbilanzkonto abschließen",
+          "Schlussbilanz aufstellen"
+        ]
+      },
+      {
+        "typ": "matrix",
+        "frage": "Ordne die Merkmale dem GuV-Verfahren zu.",
+        "paare": {
+          "Bestandsveränderungen als Position": "GKV",
+          "Funktionsbereiche (Herstellung/Vertrieb)": "UKV",
+          "Gleiches Jahresergebnis": "Beide"
+        },
+        "kategorien": [
+          "GKV",
+          "UKV",
+          "Beide"
+        ]
+      }
+    ],
+    "erklaerung": "Nach der Inventur wird das Inventar erstellt und daraus die Bilanz abgeleitet. Am Periodenende werden Erfolgskonten über die GuV abgeschlossen und die GuV über das Schlussbilanzkonto. GKV und UKV unterscheiden sich in der Gliederung, führen aber zum gleichen Ergebnis. So entsteht ein prüfbarer, konsistenter Abschluss.",
+    "esel": "Zählen → Inventar → Bilanz; Erfolge über GuV schließen.",
+    "quelle": {
+      "kapitel": "2 & 4 Inventur/Inventar/Bilanz; GuV",
+      "seite": "9–14, 26–29, 36–37"
+    },
+    "schwierigkeit": "schwer"
+  },
+  {
+    "id": "BWLB02N-021",
+    "typ": "mc",
+    "tag": "Abschreibung – Zweck",
+    "fall": "Eine Maschine verliert jährlich an Wert durch Gebrauch und technischen Fortschritt.",
+    "frage": "Welchen Zweck erfüllen planmäßige Abschreibungen?",
+    "optionen": [
+      "Sie erfassen die Wertminderung des Anlagevermögens periodengerecht",
+      "Sie erhöhen das Anlagevermögen",
+      "Sie mindern nur die Steuerlast, ohne wirtschaftlichen Bezug",
+      "Sie dienen der Liquiditätssteigerung"
+    ],
+    "loesung": "Sie erfassen die Wertminderung des Anlagevermögens periodengerecht",
+    "erklaerung": "Planmäßige Abschreibungen verteilen die Anschaffungs- oder Herstellungskosten auf die Nutzungsdauer. Sie spiegeln den Werteverzehr wider und sichern periodengerechte Erfolgsermittlung. Damit wird das Prinzip der sachlichen Abgrenzung umgesetzt und Vermögenswerte realistisch dargestellt.",
+    "esel": "Abschreibung = Werteverzehr über Zeit.",
+    "quelle": {
+      "kapitel": "6 Abschreibungen",
+      "seite": "58–60"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-022",
+    "typ": "match",
+    "tag": "Abschreibungsmethoden",
+    "fall": "Das Unternehmen prüft, welche Abschreibungsmethode zur Investition passt.",
+    "frage": "Ordne die Abschreibungsmethoden ihrer Beschreibung zu.",
+    "paare": {
+      "Lineare Abschreibung": "Gleichmäßiger Werteverzehr pro Jahr",
+      "Degressive Abschreibung": "Höherer Abschreibungsbetrag zu Beginn, sinkend über die Jahre",
+      "Leistungsabschreibung": "Abschreibung nach tatsächlicher Nutzung oder Ausbringungsmenge"
+    },
+    "erklaerung": "Die lineare Methode verteilt Kosten gleichmäßig, die degressive berücksichtigt stärkeren Anfangsverschleiß. Die leistungsabhängige Methode passt die Abschreibung an die Nutzung an. Wahl der Methode hängt von tatsächlicher Wertminderung und steuerlichen Vorschriften ab.",
+    "esel": "Linear = gleich, degressiv = stark am Anfang, Leistung = nach Nutzung.",
+    "quelle": {
+      "kapitel": "6.2 Abschreibungsverfahren",
+      "seite": "61–63"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-023",
+    "typ": "truefalse",
+    "tag": "Kalkulatorische Kosten",
+    "fall": "Im internen Rechnungswesen werden zusätzliche Kosten angesetzt.",
+    "frage": "Kalkulatorische Kosten sind Kosten, denen kein Aufwand in der Finanzbuchhaltung gegenübersteht.",
+    "antwort": true,
+    "erklaerung": "Kalkulatorische Kosten dienen der realistischen Abbildung des betrieblichen Werteverzehrs. Sie berücksichtigen Opportunitätskosten oder realwirtschaftliche Wertverluste, die in der FiBu nicht erscheinen. Typische Beispiele sind kalkulatorischer Unternehmerlohn oder kalkulatorische Miete.",
+    "esel": "Kalkulatorisch = ohne FiBu-Aufwand, aber wirtschaftlich sinnvoll.",
+    "quelle": {
+      "kapitel": "5.6 Kalkulatorische Kosten",
+      "seite": "53–55"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-024",
+    "typ": "input",
+    "tag": "Kalkulatorische Zinsen",
+    "fall": "Ein Unternehmen setzt Eigenkapital ein und möchte die Zinskosten bewerten.",
+    "frage": "Wie lautet die Formel zur Berechnung kalkulatorischer Zinsen?",
+    "korrekteAntworten": [
+      "Durchschnittskapital × Zinssatz / 100"
+    ],
+    "erklaerung": "Kalkulatorische Zinsen berechnen sich auf das durchschnittlich gebundene Kapital. Damit wird die Eigenkapitalverzinsung berücksichtigt, um Alternativverwendungen des Kapitals zu bewerten. Das erhöht die Vergleichbarkeit von Investitionen und Projekten.",
+    "esel": "Zinsen = (Kapital × Zinssatz) ÷ 100.",
+    "quelle": {
+      "kapitel": "5.6.2 Kalkulatorische Zinsen",
+      "seite": "54"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-025",
+    "typ": "order",
+    "tag": "Kostenartenanalyse",
+    "fall": "Die Kostenrechnung eines Fertigungsbetriebs soll strukturiert werden.",
+    "frage": "Ordne die Kostenarten nach logischer Reihenfolge in der Erfassung.",
+    "richtigeReihenfolge": [
+      "Materialkosten",
+      "Personalkosten",
+      "Abschreibungen",
+      "Kalkulatorische Kosten",
+      "Zinsen"
+    ],
+    "erklaerung": "Zuerst werden Grundkosten wie Material und Personal erfasst. Anschließend folgen Abschreibungen als sachliche Abgrenzung und schließlich kalkulatorische Zusatzkosten. Diese Reihenfolge bildet die typische Kostenartenübersicht ab und sorgt für klare Strukturen.",
+    "esel": "Von greifbar (Material) zu gedacht (Zinsen).",
+    "quelle": {
+      "kapitel": "5.4 Kostenartenrechnung",
+      "seite": "45–46"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-026",
+    "typ": "matrix",
+    "tag": "Kostenstellen",
+    "fall": "In der Produktion sollen die Kosten verursachungsgerecht zugeordnet werden.",
+    "frage": "Ordne die Kostenstellen den Betriebsbereichen zu.",
+    "paare": {
+      "Verwaltung": "Allgemeiner Bereich",
+      "Fertigung I": "Hauptkostenstelle",
+      "Fertigung II": "Hauptkostenstelle",
+      "Werkstatt": "Hilfskostenstelle",
+      "Kantine": "Hilfskostenstelle"
+    },
+    "kategorien": [
+      "Hauptkostenstelle",
+      "Hilfskostenstelle",
+      "Allgemeiner Bereich"
+    ],
+    "erklaerung": "Hauptkostenstellen wirken direkt an der Leistungserstellung mit. Hilfskostenstellen unterstützen sie und werden später umgelegt. Allgemeine Bereiche wie Verwaltung dienen der übergreifenden Steuerung und werden ebenfalls weiterverteilt.",
+    "esel": "Haupt = direkt, Hilf = unterstützend, Verwaltung = übergreifend.",
+    "quelle": {
+      "kapitel": "5.5 Kostenstellenrechnung",
+      "seite": "47–50"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-027",
+    "typ": "truefalse",
+    "tag": "Vollkostenrechnung",
+    "fall": "Ein Controller erklärt die Kalkulation einem Auszubildenden.",
+    "frage": "Die Vollkostenrechnung weist jedem Kostenträger nur die variablen Kosten zu.",
+    "antwort": false,
+    "erklaerung": "Die Vollkostenrechnung verteilt sowohl fixe als auch variable Kosten auf die Kostenträger. Sie dient der langfristigen Preisgestaltung und Erfolgsanalyse. In der kurzfristigen Steuerung wird sie durch Teilkostenrechnung ergänzt.",
+    "esel": "Vollkosten = fix + variabel.",
+    "quelle": {
+      "kapitel": "7 Voll- und Teilkostenrechnung",
+      "seite": "68–70"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-028",
+    "typ": "mc",
+    "tag": "Teilkostenrechnung",
+    "fall": "Das Management möchte kurzfristige Entscheidungen treffen.",
+    "frage": "Welcher Vorteil kennzeichnet die Teilkostenrechnung gegenüber der Vollkostenrechnung?",
+    "optionen": [
+      "Sie zeigt den Deckungsbeitrag und ermöglicht kurzfristige Entscheidungen",
+      "Sie berücksichtigt alle Gemeinkosten",
+      "Sie dient ausschließlich steuerlichen Zwecken",
+      "Sie ersetzt die Finanzbuchhaltung"
+    ],
+    "loesung": "Sie zeigt den Deckungsbeitrag und ermöglicht kurzfristige Entscheidungen",
+    "erklaerung": "Die Teilkostenrechnung trennt fixe und variable Kosten und macht so Deckungsbeiträge sichtbar. Sie eignet sich besonders für kurzfristige Preis-, Produktions- und Sortimentsentscheidungen. Dadurch erhöht sie die Transparenz der Kostenstrukturen.",
+    "esel": "Teil = variabel, Voll = alles.",
+    "quelle": {
+      "kapitel": "7 Teilkostenrechnung",
+      "seite": "71–74"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-029",
+    "typ": "calc",
+    "tag": "Deckungsbeitrag II",
+    "fall": "Für ein Produkt sollen die Deckungsbeiträge I und II ermittelt werden.",
+    "frage": "Berechne den Deckungsbeitrag II: {DBI} − {FKBereich}.",
+    "parameter": {
+      "DBI": [
+        5000,
+        15000
+      ],
+      "FKBereich": [
+        1000,
+        4000
+      ]
+    },
+    "formel": "DBI - FKBereich",
+    "toleranz": 0.01,
+    "erklaerung": "Der Deckungsbeitrag II ergibt sich durch Abzug der fixen Bereichskosten vom Deckungsbeitrag I. Er zeigt den Beitrag eines Bereichs zur Deckung der Unternehmensfixkosten. So kann die Wirtschaftlichkeit einzelner Produktgruppen beurteilt werden.",
+    "esel": "DB II = DB I − fixe Bereichskosten.",
+    "quelle": {
+      "kapitel": "8 Deckungsbeitragsrechnung",
+      "seite": "80–83"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-030",
+    "typ": "falltext",
+    "tag": "Kostenrechnung integriert",
+    "fall": "Die ‚Schmidt GmbH‘ will verstehen, wie Kostenarten-, -stellen- und -trägerrechnung zusammenwirken.",
+    "frage": "Beantworte die Teilfragen zum Fall.",
+    "fragen": [
+      {
+        "typ": "sequence",
+        "frage": "Ordne die Reihenfolge der Kostenrechnung korrekt.",
+        "richtigeReihenfolge": [
+          "Kostenartenrechnung",
+          "Kostenstellenrechnung",
+          "Kostenträgerrechnung"
+        ]
+      },
+      {
+        "typ": "matrix",
+        "frage": "Ordne typische Beispiele zu.",
+        "paare": {
+          "Rohstoffkosten": "Kostenart",
+          "Fertigung 1": "Kostenstelle",
+          "Produkt A": "Kostenträger"
+        },
+        "kategorien": [
+          "Kostenart",
+          "Kostenstelle",
+          "Kostenträger"
+        ]
+      },
+      {
+        "typ": "input",
+        "frage": "Nenne zwei Ziele der Kostenrechnung.",
+        "korrekteAntworten": [
+          "Preiskalkulation",
+          "Kostenkontrolle"
+        ]
+      }
+    ],
+    "erklaerung": "Die Kostenrechnung ist ein geschlossenes System aus Erfassung, Verteilung und Auswertung. Kostenarten zeigen, welche Kosten anfallen, Kostenstellen wo sie entstehen und Kostenträger wofür sie verwendet werden. So wird Transparenz geschaffen und Steuerung ermöglicht.",
+    "esel": "Art – Stelle – Träger: Was, wo, wofür.",
+    "quelle": {
+      "kapitel": "5.4–5.7 Kostenrechnungssystematik",
+      "seite": "43–55"
+    },
+    "schwierigkeit": "schwer"
+  },
+  {
+    "id": "BWLB02N-031",
+    "typ": "mc",
+    "tag": "Kostenkontrolle",
+    "fall": "Das Controlling prüft monatlich die Wirtschaftlichkeit einzelner Abteilungen.",
+    "frage": "Was ist das Ziel der Kostenkontrolle?",
+    "optionen": [
+      "Abgleich von Ist- mit Sollkosten zur Ermittlung von Abweichungen",
+      "Erhöhung der Fixkostenbasis",
+      "Ausschließliche Erfassung von Einnahmen",
+      "Reduzierung der Bilanzsumme"
+    ],
+    "loesung": "Abgleich von Ist- mit Sollkosten zur Ermittlung von Abweichungen",
+    "erklaerung": "Kostenkontrolle dient dem Vergleich von geplanten Sollkosten und tatsächlich angefallenen Istkosten. Abweichungen zeigen Einspar- oder Verbesserungsmöglichkeiten auf. Dadurch wird eine gezielte Steuerung der Wirtschaftlichkeit und Produktivität möglich.",
+    "esel": "Kontrolle = Soll-Ist-Vergleich zur Steuerung.",
+    "quelle": {
+      "kapitel": "9 Kostenkontrolle und Abweichungsanalyse",
+      "seite": "93–95"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-032",
+    "typ": "truefalse",
+    "tag": "Kennzahlen",
+    "fall": "Ein Unternehmen erstellt eine betriebswirtschaftliche Auswertung.",
+    "frage": "Kennzahlen dienen der kompakten, vergleichbaren Darstellung betrieblicher Sachverhalte.",
+    "antwort": true,
+    "erklaerung": "Kennzahlen verdichten komplexe Daten zu messbaren Größen. Sie erlauben Vergleiche über Zeit, Branchen oder Betriebe hinweg. So werden Entwicklungen schneller sichtbar und Entscheidungen objektiver getroffen.",
+    "esel": "Kennzahl = Zahl mit Aussage.",
+    "quelle": {
+      "kapitel": "10 Kennzahlen",
+      "seite": "96–98"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-033",
+    "typ": "match",
+    "tag": "Kennzahlenarten",
+    "fall": "Die Geschäftsführung möchte verschiedene Kennzahlengruppen verstehen.",
+    "frage": "Ordne die Kennzahlenarten ihren Inhalten zu.",
+    "paare": {
+      "Liquiditätskennzahlen": "Zahlungsfähigkeit des Unternehmens",
+      "Rentabilitätskennzahlen": "Verhältnis von Gewinn zu eingesetztem Kapital",
+      "Wirtschaftlichkeitskennzahlen": "Verhältnis von Ertrag zu Aufwand",
+      "Produktivitätskennzahlen": "Verhältnis von Ausbringung zu Einsatz"
+    },
+    "erklaerung": "Kennzahlen lassen sich nach ihrem Analysezweck gliedern. Liquidität misst Zahlungsfähigkeit, Rentabilität die Kapitalverzinsung. Wirtschaftlichkeit zeigt, wie effizient Mittel genutzt werden, und Produktivität beschreibt physische Leistungsfähigkeit. Zusammen ergeben sie ein umfassendes Steuerungsinstrument.",
+    "esel": "Liq = zahlen, Rent = Kapital, Wirtsch = Geld, Prod = Menge.",
+    "quelle": {
+      "kapitel": "10.2 Arten von Kennzahlen",
+      "seite": "97–98"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-034",
+    "typ": "calc",
+    "tag": "Liquidität I. Grades",
+    "fall": "Das Unternehmen überprüft seine kurzfristige Zahlungsfähigkeit.",
+    "frage": "Berechne die Liquidität I. Grades: {FL} ÷ {KV} × 100.",
+    "parameter": {
+      "FL": [
+        10000,
+        80000
+      ],
+      "KV": [
+        20000,
+        100000
+      ]
+    },
+    "formel": "(FL / KV) * 100",
+    "toleranz": 0.1,
+    "erklaerung": "Die Liquidität 1. Grades zeigt, in welchem Umfang kurzfristige Verbindlichkeiten durch sofort verfügbare Mittel gedeckt sind. Werte unter 100 % deuten auf mögliche Engpässe hin. Optimal ist ein Verhältnis zwischen 80 % und 100 %.",
+    "esel": "Barliquidität = flüssige Mittel ÷ kurzfristige Schulden.",
+    "quelle": {
+      "kapitel": "10.3 Liquiditätskennzahlen",
+      "seite": "98–99"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-035",
+    "typ": "mc",
+    "tag": "Rentabilität",
+    "fall": "Die Geschäftsführung analysiert den Gewinn im Verhältnis zum Kapital.",
+    "frage": "Was drückt die Gesamtkapitalrentabilität aus?",
+    "optionen": [
+      "Verzinsung des eingesetzten Kapitals unabhängig von der Finanzierungsform",
+      "Ausschließlich Eigenkapitalrendite",
+      "Nur den Anteil des kurzfristigen Fremdkapitals",
+      "Ertragswert des Unternehmens"
+    ],
+    "loesung": "Verzinsung des eingesetzten Kapitals unabhängig von der Finanzierungsform",
+    "erklaerung": "Die Gesamtkapitalrentabilität misst die Effizienz der Kapitalnutzung, unabhängig davon, ob Eigen- oder Fremdkapital eingesetzt wurde. Sie zeigt, wie stark das gesamte Kapital verzinst wurde. Diese Kennzahl ist eine zentrale Messgröße für Unternehmensleistung und Investitionsentscheidungen.",
+    "esel": "Gesamt = Eigen + Fremd verzinst.",
+    "quelle": {
+      "kapitel": "10.4 Rentabilitätskennzahlen",
+      "seite": "99–101"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-036",
+    "typ": "input",
+    "tag": "Eigenkapitalrentabilität Formel",
+    "fall": "Ein Investor möchte die Rentabilität des eingesetzten Eigenkapitals ermitteln.",
+    "frage": "Wie lautet die Formel zur Berechnung der Eigenkapitalrentabilität?",
+    "korrekteAntworten": [
+      "Gewinn × 100 / Eigenkapital"
+    ],
+    "erklaerung": "Die Eigenkapitalrentabilität misst die Verzinsung des eingesetzten Eigenkapitals. Sie zeigt, wie effizient das Kapital der Eigentümer genutzt wurde. Ein höherer Wert signalisiert eine attraktive Kapitalverwendung, kann aber auch ein erhöhtes Risiko anzeigen.",
+    "esel": "EK-Rent. = Gewinn ÷ EK × 100.",
+    "quelle": {
+      "kapitel": "10.4 Rentabilität",
+      "seite": "100"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-037",
+    "typ": "truefalse",
+    "tag": "Wirtschaftlichkeit",
+    "fall": "Ein Produktionsleiter bewertet die Effizienz einer neuen Anlage.",
+    "frage": "Wirtschaftlichkeit bedeutet, dass der Ertrag größer ist als der Aufwand.",
+    "antwort": true,
+    "erklaerung": "Wirtschaftlichkeit ist das Verhältnis von Ertrag zu Aufwand. Liegt der Ertrag über dem Aufwand, arbeitet das Unternehmen wirtschaftlich. Diese Kennzahl ist einfach, aber zentral für alle Leistungsbereiche.",
+    "esel": "Ertrag > Aufwand = wirtschaftlich.",
+    "quelle": {
+      "kapitel": "10.5 Wirtschaftlichkeitskennzahlen",
+      "seite": "101"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-038",
+    "typ": "order",
+    "tag": "Cashflow-Arten",
+    "fall": "Ein Finanzanalyst möchte den Cashflow differenziert darstellen.",
+    "frage": "Bringe die Cashflow-Arten in logische Reihenfolge.",
+    "richtigeReihenfolge": [
+      "Operativer Cashflow",
+      "Investitions-Cashflow",
+      "Finanzierungs-Cashflow"
+    ],
+    "erklaerung": "Die Reihenfolge zeigt, wie liquide Mittel erwirtschaftet, investiert und finanziert werden. Der operative Cashflow stammt aus der laufenden Geschäftstätigkeit, der Investitions-Cashflow aus Anlagebewegungen und der Finanzierungs-Cashflow aus Eigen- und Fremdkapitalströmen. Zusammen ergeben sie den Gesamtmittelzufluss.",
+    "esel": "Operativ – investieren – finanzieren.",
+    "quelle": {
+      "kapitel": "11 Kapitalflussrechnung",
+      "seite": "102–103"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-039",
+    "typ": "match",
+    "tag": "Finanzierungsarten",
+    "fall": "Ein Unternehmen sucht die passende Finanzierungsform für neue Maschinen.",
+    "frage": "Ordne die Finanzierungsarten ihren Merkmalen zu.",
+    "paare": {
+      "Eigenfinanzierung": "Kapital stammt aus dem Unternehmen selbst oder den Eigentümern",
+      "Fremdfinanzierung": "Kapital stammt von Gläubigern gegen Zins- und Rückzahlungspflicht",
+      "Innenfinanzierung": "Kapitalbildung durch einbehaltene Gewinne oder Abschreibungen",
+      "Außenfinanzierung": "Kapitalzufluss von außen"
+    },
+    "erklaerung": "Finanzierung lässt sich nach Herkunft und Art unterscheiden. Eigen- und Fremdfinanzierung beziehen sich auf Kapitalgeber, Innen- und Außenfinanzierung auf die Herkunft der Mittel. Die Kombination ergibt ein vollständiges Finanzierungsbild.",
+    "esel": "Eigen/Fremd = wer gibt; Innen/Außen = woher kommt’s.",
+    "quelle": {
+      "kapitel": "12 Finanzierungsarten",
+      "seite": "104–107"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-040",
+    "typ": "falltext",
+    "tag": "Finanzanalyse Gesamtüberblick",
+    "fall": "Die ‚Hofmann Maschinenbau AG‘ erstellt eine Finanzanalyse zur Beurteilung ihrer Leistungsfähigkeit.",
+    "frage": "Beantworte die Teilfragen zum Fall.",
+    "fragen": [
+      {
+        "typ": "mc",
+        "frage": "Welche Kennzahl misst die Zahlungsfähigkeit eines Unternehmens?",
+        "optionen": [
+          "Liquidität",
+          "Rentabilität",
+          "Wirtschaftlichkeit",
+          "Produktivität"
+        ],
+        "loesung": "Liquidität"
+      },
+      {
+        "typ": "input",
+        "frage": "Nenne die Formel der Gesamtkapitalrentabilität.",
+        "korrekteAntworten": [
+          "(Gewinn + Fremdkapitalzinsen) × 100 / Gesamtkapital"
+        ]
+      },
+      {
+        "typ": "matrix",
+        "frage": "Ordne die Kennzahlen der Kategorie zu.",
+        "paare": {
+          "Cashflow": "Liquidität",
+          "Eigenkapitalquote": "Struktur",
+          "Umsatzrendite": "Rentabilität"
+        },
+        "kategorien": [
+          "Liquidität",
+          "Struktur",
+          "Rentabilität"
+        ]
+      },
+      {
+        "typ": "sequence",
+        "frage": "Bringe die Schritte der Finanzanalyse in logische Reihenfolge.",
+        "richtigeReihenfolge": [
+          "Daten erfassen",
+          "Kennzahlen berechnen",
+          "Interpretieren",
+          "Maßnahmen ableiten"
+        ]
+      }
+    ],
+    "erklaerung": "Die Finanzanalyse verknüpft Kennzahlen aus Liquidität, Rentabilität und Struktur. Sie beginnt mit Datenerfassung, gefolgt von Berechnung und Interpretation. Daraus entstehen Maßnahmen zur Sicherung der Zahlungsfähigkeit und Rentabilität. Sie ist zentrales Instrument des Controllings.",
+    "esel": "Erfassen → Rechnen → Deuten → Handeln.",
+    "quelle": {
+      "kapitel": "10–12 Kennzahlen & Finanzierung",
+      "seite": "96–107"
+    },
+    "schwierigkeit": "schwer"
+  },
+  {
+    "id": "BWLB02N-041",
+    "typ": "mc",
+    "tag": "Eigenfinanzierung",
+    "fall": "Ein Unternehmen möchte seinen Kapitalbedarf langfristig decken, ohne neue Schulden aufzunehmen.",
+    "frage": "Welche Aussage beschreibt die Eigenfinanzierung richtig?",
+    "optionen": [
+      "Kapital wird durch die Eigentümer oder aus Gewinnen bereitgestellt",
+      "Kapital stammt ausschließlich von Banken",
+      "Eigenfinanzierung ist immer kurzfristig",
+      "Sie führt zu einer Zinsverpflichtung gegenüber Dritten"
+    ],
+    "loesung": "Kapital wird durch die Eigentümer oder aus Gewinnen bereitgestellt",
+    "erklaerung": "Eigenfinanzierung erfolgt durch Einlagen der Eigentümer oder einbehaltene Gewinne. Sie stärkt die Eigenkapitalbasis und verbessert die Kreditwürdigkeit. Eine Zinsverpflichtung entsteht dabei nicht, da kein Fremdkapitalgeber beteiligt ist.",
+    "esel": "Eigen = von innen oder Eigentümern.",
+    "quelle": {
+      "kapitel": "12.1 Eigenfinanzierung",
+      "seite": "108–109"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-042",
+    "typ": "mc",
+    "tag": "Fremdfinanzierung",
+    "fall": "Zur Anschaffung einer neuen Maschine nimmt das Unternehmen ein Darlehen auf.",
+    "frage": "Was kennzeichnet Fremdfinanzierung?",
+    "optionen": [
+      "Kapital stammt von Gläubigern und ist rückzahlbar",
+      "Sie erfolgt ausschließlich durch Aktienausgabe",
+      "Fremdkapital erhöht dauerhaft das Eigenkapital",
+      "Zinsen sind freiwillige Gewinnbeteiligungen"
+    ],
+    "loesung": "Kapital stammt von Gläubigern und ist rückzahlbar",
+    "erklaerung": "Fremdfinanzierung bedeutet Kapitalaufnahme mit Rückzahlungs- und Zinsverpflichtung. Sie wird häufig über Kredite, Anleihen oder Lieferantenverbindlichkeiten realisiert. Vorteil ist schnelle Liquiditätsbeschaffung, Nachteil ist die feste Belastung durch Zins- und Tilgungszahlungen.",
+    "esel": "Fremd = geliehen mit Rückzahlungspflicht.",
+    "quelle": {
+      "kapitel": "12.2 Fremdfinanzierung",
+      "seite": "110–111"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-043",
+    "typ": "match",
+    "tag": "Beteiligungsarten",
+    "fall": "Ein Gründer prüft verschiedene Beteiligungsformen für sein Unternehmen.",
+    "frage": "Ordne die Beteiligungsarten den passenden Merkmalen zu.",
+    "paare": {
+      "Einzelunternehmer": "Trägt allein Risiko und erhält vollen Gewinn",
+      "OHG-Gesellschafter": "Haftet unbeschränkt mit Privatvermögen",
+      "Kommanditist": "Haftet nur bis zur Höhe seiner Einlage",
+      "Aktionär": "Erhält Gewinnanteil in Form von Dividenden"
+    },
+    "erklaerung": "Die Beteiligungsform bestimmt Rechte und Pflichten des Kapitalgebers. Während Einzelunternehmer und OHG-Gesellschafter voll haften, ist das Risiko des Kommanditisten begrenzt. Aktionäre beteiligen sich durch Aktienerwerb und haben Anspruch auf Dividenden.",
+    "esel": "Vollhaftung: Einzel/OHG – begrenzt: KG/Aktien.",
+    "quelle": {
+      "kapitel": "12.3 Beteiligungsfinanzierung",
+      "seite": "112–113"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-044",
+    "typ": "truefalse",
+    "tag": "Innenfinanzierung",
+    "fall": "Das Unternehmen erwirtschaftet hohe Abschreibungen und thesauriert Gewinne.",
+    "frage": "Innenfinanzierung bedeutet Kapitalbildung aus dem laufenden Umsatzprozess.",
+    "antwort": true,
+    "erklaerung": "Innenfinanzierung erfolgt durch Rücklagenbildung, Gewinnthesaurierung oder Abschreibungen. Das Kapital entsteht im Unternehmen selbst und stärkt die Unabhängigkeit von externen Gläubigern. Sie verbessert zudem die Eigenkapitalquote.",
+    "esel": "Innen = Geld bleibt im Betrieb.",
+    "quelle": {
+      "kapitel": "12.4 Innenfinanzierung",
+      "seite": "114–115"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-045",
+    "typ": "matrix",
+    "tag": "Kreditarten",
+    "fall": "Ein Betrieb überlegt, ob ein Lieferantenkredit oder Bankkredit sinnvoller ist.",
+    "frage": "Ordne die Kreditarten den passenden Beschreibungen zu.",
+    "paare": {
+      "Lieferantenkredit": "Kurzfristige Finanzierung über Zahlungsziel",
+      "Kontokorrentkredit": "Flexibler Kreditrahmen zur Überbrückung von Liquiditätsschwankungen",
+      "Darlehen": "Langfristige Kreditform mit festen Tilgungsraten",
+      "Avalkredit": "Bank übernimmt Bürgschaft gegenüber Dritten"
+    },
+    "kategorien": [
+      "Kurzfristig",
+      "Langfristig",
+      "Besondere Form"
+    ],
+    "erklaerung": "Kredite unterscheiden sich nach Laufzeit und Zweck. Kurzfristige dienen der Liquidität, langfristige der Investition. Der Avalkredit ist eine Sonderform ohne Kapitalfluss, bei der die Bank als Bürge auftritt.",
+    "esel": "Lieferant kurz – Darlehen lang – Aval nur Bürgschaft.",
+    "quelle": {
+      "kapitel": "12.5 Kreditfinanzierung",
+      "seite": "116–118"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-046",
+    "typ": "order",
+    "tag": "Leasingprozess",
+    "fall": "Die Geschäftsführung erwägt, anstelle eines Kaufs eine Maschine zu leasen.",
+    "frage": "Bringe die Schritte eines typischen Leasingvorgangs in die richtige Reihenfolge.",
+    "richtigeReihenfolge": [
+      "Vertragsabschluss",
+      "Überlassung des Leasingguts",
+      "Zahlung der Leasingraten",
+      "Rückgabe oder Kaufoption am Ende der Laufzeit"
+    ],
+    "erklaerung": "Leasing ist eine Mischform aus Miete und Finanzierung. Nach Vertragsabschluss wird das Leasinggut überlassen, während der Leasingnehmer Nutzungsraten zahlt. Nach Laufzeitende kann das Gut oft zurückgegeben oder gekauft werden.",
+    "esel": "Leasen = nutzen, nicht besitzen.",
+    "quelle": {
+      "kapitel": "12.6 Leasing",
+      "seite": "119–121"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-047",
+    "typ": "calc",
+    "tag": "Kapitalbedarf",
+    "fall": "Ein Start-up plant eine Produktionsanlage und möchte den Kapitalbedarf berechnen.",
+    "frage": "Berechne den Kapitalbedarf: {AK} + {NBK} + {Betriebsstoff} − {Verbindlichkeiten}.",
+    "parameter": {
+      "AK": [
+        50000,
+        150000
+      ],
+      "NBK": [
+        2000,
+        10000
+      ],
+      "Betriebsstoff": [
+        5000,
+        20000
+      ],
+      "Verbindlichkeiten": [
+        10000,
+        50000
+      ]
+    },
+    "formel": "AK + NBK + Betriebsstoff - Verbindlichkeiten",
+    "toleranz": 0.01,
+    "erklaerung": "Der Kapitalbedarf ergibt sich aus der Summe der Anschaffungs- und Nebenkosten zuzüglich des Umlaufvermögens abzüglich kurzfristiger Verbindlichkeiten. Diese Berechnung zeigt, wie viel Finanzierungsmittel tatsächlich erforderlich sind. Sie ist Grundlage für Finanzierungsentscheidungen.",
+    "esel": "Bedarf = Investitionen + Umlauf − Schulden.",
+    "quelle": {
+      "kapitel": "13 Kapitalbedarfsermittlung",
+      "seite": "122–123"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-048",
+    "typ": "mc",
+    "tag": "Investitionsarten",
+    "fall": "Ein Unternehmen modernisiert seine Fertigung und plant mehrere Projekte.",
+    "frage": "Welche Investition zählt zu den Ersatzinvestitionen?",
+    "optionen": [
+      "Erneuerung einer alten Maschine durch ein gleichwertiges Modell",
+      "Anschaffung einer neuen Maschine zur Kapazitätserweiterung",
+      "Kauf eines Gebäudes zur Diversifikation",
+      "Erwerb von Wertpapieren"
+    ],
+    "loesung": "Erneuerung einer alten Maschine durch ein gleichwertiges Modell",
+    "erklaerung": "Ersatzinvestitionen dienen dem Erhalt der bisherigen Produktionskapazität. Sie ersetzen veraltete oder verschlissene Anlagen. Im Gegensatz dazu erweitern Erweiterungs- oder Diversifikationsinvestitionen das Produktionsspektrum.",
+    "esel": "Ersatz = gleichwertig neu statt alt.",
+    "quelle": {
+      "kapitel": "14 Investitionsarten",
+      "seite": "124–125"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-049",
+    "typ": "mc",
+    "tag": "Statische Verfahren",
+    "fall": "Der Controller vergleicht zwei Maschinen über Kosten und Gewinn.",
+    "frage": "Welches Verfahren gehört zu den statischen Investitionsrechnungen?",
+    "optionen": [
+      "Kostenvergleichsrechnung",
+      "Kapitalwertmethode",
+      "Annuitätenmethode",
+      "Interne Zinsfußmethode"
+    ],
+    "loesung": "Kostenvergleichsrechnung",
+    "erklaerung": "Statische Verfahren betrachten eine Durchschnittsperiode, ohne Zeitwert des Geldes. Typische Verfahren sind Kosten-, Gewinn-, Rentabilitäts- und Amortisationsrechnung. Sie sind einfach anzuwenden, aber weniger präzise als dynamische Methoden.",
+    "esel": "Statisch = ohne Zeitfaktor.",
+    "quelle": {
+      "kapitel": "14.2 Statische Verfahren",
+      "seite": "126–127"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-050",
+    "typ": "falltext",
+    "tag": "Investitionsrechnung Praxis",
+    "fall": "Die ‚Keller GmbH‘ prüft zwei alternative Maschineninvestitionen und will eine fundierte Entscheidung treffen.",
+    "frage": "Beantworte die Teilfragen zum Fall.",
+    "fragen": [
+      {
+        "typ": "mc",
+        "frage": "Welche Investitionsart liegt vor, wenn eine alte Maschine ersetzt wird?",
+        "optionen": [
+          "Ersatzinvestition",
+          "Erweiterungsinvestition",
+          "Rationalisierungsinvestition",
+          "Neuinvestition"
+        ],
+        "loesung": "Ersatzinvestition"
+      },
+      {
+        "typ": "input",
+        "frage": "Wie lautet die Formel der Amortisationsdauer?",
+        "korrekteAntworten": [
+          "Anschaffungskosten / jährlicher Rückfluss"
+        ]
+      },
+      {
+        "typ": "sequence",
+        "frage": "Ordne die Schritte einer Investitionsentscheidung.",
+        "richtigeReihenfolge": [
+          "Investitionsanlass prüfen",
+          "Daten erfassen",
+          "Wirtschaftlichkeit berechnen",
+          "Entscheidung treffen"
+        ]
+      },
+      {
+        "typ": "matrix",
+        "frage": "Ordne die Verfahren den Gruppen zu.",
+        "paare": {
+          "Kostenvergleich": "statisch",
+          "Kapitalwertmethode": "dynamisch",
+          "Amortisationsrechnung": "statisch"
+        },
+        "kategorien": [
+          "statisch",
+          "dynamisch"
+        ]
+      }
+    ],
+    "erklaerung": "Investitionsrechnungen dienen der Beurteilung von Wirtschaftlichkeit und Rentabilität geplanter Ausgaben. Statische Verfahren sind einfach, dynamische berücksichtigen den Zeitwert des Geldes. Die Kombination aus beiden Ansätzen liefert praxisnahe Ergebnisse für Unternehmensentscheidungen.",
+    "esel": "Erst prüfen, dann rechnen, dann entscheiden.",
+    "quelle": {
+      "kapitel": "14 Investitionsrechnung",
+      "seite": "124–129"
+    },
+    "schwierigkeit": "schwer"
+  },
+  {
+    "id": "BWLB02N-051",
+    "typ": "mc",
+    "tag": "Kapitalwertmethode",
+    "fall": "Ein Controller möchte zwei Investitionen mit unterschiedlichen Laufzeiten vergleichen.",
+    "frage": "Welche Aussage beschreibt die Kapitalwertmethode korrekt?",
+    "optionen": [
+      "Zukünftige Zahlungen werden auf den heutigen Zeitpunkt abgezinst",
+      "Nur Kosten werden verglichen, Einnahmen bleiben unberücksichtigt",
+      "Sie ignoriert den Zeitwert des Geldes",
+      "Der Kapitalwert ist immer negativ"
+    ],
+    "loesung": "Zukünftige Zahlungen werden auf den heutigen Zeitpunkt abgezinst",
+    "erklaerung": "Die Kapitalwertmethode ermittelt den heutigen Wert aller zukünftigen Zahlungsüberschüsse. Ein positiver Kapitalwert zeigt, dass die Investition einen Überschuss über den Kalkulationszins hinaus erwirtschaftet. Sie gehört zu den dynamischen Verfahren, da der Zeitwert des Geldes berücksichtigt wird.",
+    "esel": "Kapitalwert = heute bewertete Zukunft.",
+    "quelle": {
+      "kapitel": "14.3 Dynamische Verfahren",
+      "seite": "130–132"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-052",
+    "typ": "calc",
+    "tag": "Kapitalwertberechnung",
+    "fall": "Eine Investition bringt jährlich gleichbleibende Rückflüsse.",
+    "frage": "Berechne den Kapitalwert: {R} × ((1 - (1 + {i})^-{n}) / {i}) − {A}.",
+    "parameter": {
+      "R": [
+        5000,
+        15000
+      ],
+      "i": [
+        0.05,
+        0.1
+      ],
+      "n": [
+        3,
+        6
+      ],
+      "A": [
+        20000,
+        60000
+      ]
+    },
+    "formel": "R * ((1 - (1 + i) ** (-n)) / i) - A",
+    "toleranz": 0.01,
+    "erklaerung": "Der Kapitalwert ergibt sich aus der Summe aller abgezinsten Rückflüsse abzüglich der Anschaffungsauszahlung. Ist der Kapitalwert positiv, lohnt sich die Investition. So lassen sich Investitionen mit unterschiedlichen Laufzeiten und Rückflüssen vergleichen.",
+    "esel": "KW = Barwert aller Rückflüsse − Investition.",
+    "quelle": {
+      "kapitel": "14.3.1 Kapitalwertmethode",
+      "seite": "130–132"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-053",
+    "typ": "mc",
+    "tag": "Annuitätenmethode",
+    "fall": "Das Unternehmen möchte die jährliche Rückzahlung gleichmäßig verteilen.",
+    "frage": "Was ermittelt die Annuitätenmethode?",
+    "optionen": [
+      "Eine gleichbleibende Jahreszahlung, die Kapitalwert und Zinsen berücksichtigt",
+      "Die Zeit bis zur Amortisation",
+      "Nur den Zinsaufwand pro Jahr",
+      "Den Gewinn vor Steuern"
+    ],
+    "loesung": "Eine gleichbleibende Jahreszahlung, die Kapitalwert und Zinsen berücksichtigt",
+    "erklaerung": "Die Annuitätenmethode wandelt den Kapitalwert in eine gleichmäßige Jahresgröße um. So wird sichtbar, wie hoch die jährliche Belastung oder Rückflussrate ist. Sie ist hilfreich, um Projekte mit unterschiedlicher Laufzeit vergleichbar zu machen.",
+    "esel": "Annuität = gleichbleibende Jahresrate aus KW.",
+    "quelle": {
+      "kapitel": "14.3.2 Annuitätenmethode",
+      "seite": "132–133"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-054",
+    "typ": "input",
+    "tag": "Interner Zinsfuß",
+    "fall": "Ein Analyst möchte die Rentabilität einer Investition ermitteln, bei der der Kapitalwert null wird.",
+    "frage": "Wie nennt man den Zinssatz, bei dem der Kapitalwert einer Investition null ist?",
+    "korrekteAntworten": [
+      "Interner Zinsfuß",
+      "Internal Rate of Return"
+    ],
+    "erklaerung": "Der interne Zinsfuß ist der Zinssatz, bei dem die abgezinsten Rückflüsse genau die Investitionsausgabe decken. Er gibt an, welche Rendite eine Investition intern erzielt. Liegt der interne Zinsfuß über dem Kalkulationszins, ist die Investition vorteilhaft.",
+    "esel": "i* = Zins, bei dem KW = 0.",
+    "quelle": {
+      "kapitel": "14.3.3 Interner Zinsfuß",
+      "seite": "133–134"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-055",
+    "typ": "truefalse",
+    "tag": "Finanzplanung",
+    "fall": "Das Controlling erstellt eine Übersicht zukünftiger Einnahmen und Ausgaben.",
+    "frage": "Finanzplanung dient der Sicherstellung der Zahlungsfähigkeit und Liquiditätssteuerung.",
+    "antwort": true,
+    "erklaerung": "Finanzplanung prognostiziert Einnahmen und Ausgaben, um Liquiditätsengpässe frühzeitig zu erkennen. Sie ist zentrales Element des Finanzmanagements. Ziel ist, jederzeit zahlungsfähig zu bleiben und Mittel optimal einzusetzen.",
+    "esel": "Planung = zahlen können, bevor’s brennt.",
+    "quelle": {
+      "kapitel": "15 Finanzplanung",
+      "seite": "135–136"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-056",
+    "typ": "matrix",
+    "tag": "Controlling-Arten",
+    "fall": "Ein Unternehmen möchte strategische und operative Steuerung unterscheiden.",
+    "frage": "Ordne die Aufgaben dem jeweiligen Controlling-Typ zu.",
+    "paare": {
+      "Budgetüberwachung": "Operatives Controlling",
+      "Langfristige Zielplanung": "Strategisches Controlling",
+      "Kennzahlensysteme entwickeln": "Strategisches Controlling",
+      "Soll-Ist-Abweichungen analysieren": "Operatives Controlling"
+    },
+    "kategorien": [
+      "Operatives Controlling",
+      "Strategisches Controlling"
+    ],
+    "erklaerung": "Operatives Controlling befasst sich mit kurzfristiger Steuerung und Kontrolle der Wirtschaftlichkeit. Strategisches Controlling plant langfristige Unternehmensziele und Erfolgspotenziale. Beide ergänzen sich zur umfassenden Unternehmenssteuerung.",
+    "esel": "Operativ = heute steuern, strategisch = morgen sichern.",
+    "quelle": {
+      "kapitel": "16 Controlling-Grundlagen",
+      "seite": "137–139"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-057",
+    "typ": "mc",
+    "tag": "Kennzahlensysteme",
+    "fall": "Das Management möchte finanzielle und operative Kennzahlen in Beziehung setzen.",
+    "frage": "Was ist das Ziel eines Kennzahlensystems?",
+    "optionen": [
+      "Verknüpfung einzelner Kennzahlen zu einem Gesamtbild",
+      "Erhöhung der Bilanzsumme",
+      "Vermeidung von Kostenstellen",
+      "Reduzierung des Eigenkapitals"
+    ],
+    "loesung": "Verknüpfung einzelner Kennzahlen zu einem Gesamtbild",
+    "erklaerung": "Kennzahlensysteme verbinden verschiedene Einzelkennzahlen logisch miteinander. Dadurch entsteht ein umfassendes Bild der Unternehmensleistung. Sie unterstützen Analyse, Steuerung und Kommunikation wirtschaftlicher Zusammenhänge.",
+    "esel": "System = Kennzahlen im Zusammenhang.",
+    "quelle": {
+      "kapitel": "17 Kennzahlensysteme",
+      "seite": "140–141"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-058",
+    "typ": "match",
+    "tag": "DuPont-Kennzahlensystem",
+    "fall": "Ein Controller erläutert das DuPont-Schema zur Rentabilitätsanalyse.",
+    "frage": "Ordne die Teilgrößen ihren Beziehungen zu.",
+    "paare": {
+      "Umsatzrendite": "Gewinn ÷ Umsatz",
+      "Kapitalumschlag": "Umsatz ÷ Gesamtkapital",
+      "Gesamtkapitalrentabilität": "Umsatzrendite × Kapitalumschlag"
+    },
+    "erklaerung": "Das DuPont-System verknüpft Rentabilität und Kapitalumschlag zu einer logischen Struktur. Es zeigt, dass Rendite sowohl durch höhere Gewinnmargen als auch durch effizientere Kapitalnutzung gesteigert werden kann. Damit wird die Rentabilität ganzheitlich analysiert.",
+    "esel": "Rendite × Umschlag = Rentabilität.",
+    "quelle": {
+      "kapitel": "17.1 DuPont-Schema",
+      "seite": "141–143"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-059",
+    "typ": "order",
+    "tag": "Controlling-Prozess",
+    "fall": "Die Controllerin beschreibt den Ablauf eines typischen Controlling-Zyklus.",
+    "frage": "Bringe die Schritte in die richtige Reihenfolge.",
+    "richtigeReihenfolge": [
+      "Ziele festlegen",
+      "Planwerte bestimmen",
+      "Soll-Ist-Vergleich durchführen",
+      "Abweichungen analysieren",
+      "Maßnahmen einleiten"
+    ],
+    "erklaerung": "Der Controlling-Prozess verläuft zyklisch und verbindet Planung, Kontrolle und Steuerung. Durch den Soll-Ist-Vergleich werden Abweichungen erkannt, analysiert und Maßnahmen eingeleitet. So entsteht ein lernendes, anpassungsfähiges System.",
+    "esel": "Planen – prüfen – handeln.",
+    "quelle": {
+      "kapitel": "16 Controlling-Prozess",
+      "seite": "137–139"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-060",
+    "typ": "falltext",
+    "tag": "Rechnungswesen Gesamtüberblick",
+    "fall": "Die ‚Schneider AG‘ will den Zusammenhang zwischen externem und internem Rechnungswesen verstehen.",
+    "frage": "Beantworte die Teilfragen zum Fall.",
+    "fragen": [
+      {
+        "typ": "mc",
+        "frage": "Welche Aufgabe erfüllt das externe Rechnungswesen?",
+        "optionen": [
+          "Dokumentation und Information externer Adressaten",
+          "Kostenplanung",
+          "Preiskalkulation",
+          "Budgetierung"
+        ],
+        "loesung": "Dokumentation und Information externer Adressaten"
+      },
+      {
+        "typ": "matrix",
+        "frage": "Ordne die Bereiche zu.",
+        "paare": {
+          "Bilanz": "Extern",
+          "GuV": "Extern",
+          "Kostenrechnung": "Intern",
+          "Deckungsbeitragsrechnung": "Intern"
+        },
+        "kategorien": [
+          "Extern",
+          "Intern"
+        ]
+      },
+      {
+        "typ": "input",
+        "frage": "Nenne zwei Hauptziele des Rechnungswesens.",
+        "korrekteAntworten": [
+          "Information",
+          "Kontrolle"
+        ]
+      },
+      {
+        "typ": "sequence",
+        "frage": "Bringe die Phasen der Rechnungswesens-Aufgaben in logische Reihenfolge.",
+        "richtigeReihenfolge": [
+          "Erfassen",
+          "Verarbeiten",
+          "Auswerten",
+          "Steuern"
+        ]
+      }
+    ],
+    "erklaerung": "Das Rechnungswesen erfasst und verarbeitet finanzielle Vorgänge zur Informations- und Entscheidungsunterstützung. Es teilt sich in externes und internes Rechnungswesen auf. Extern erfüllt gesetzliche Dokumentationspflichten, intern dient der Steuerung und Planung. Zusammen bilden beide die Basis für Unternehmensführung.",
+    "esel": "Extern zeigt – intern steuert.",
+    "quelle": {
+      "kapitel": "1–17 Gesamtüberblick",
+      "seite": "3–143"
+    },
+    "schwierigkeit": "schwer"
+  },
+  {
+    "id": "BWLB02N-061",
+    "typ": "tkonten",
+    "tag": "Bareinlage",
+    "fall": "Der Inhaber zahlt zu Beginn des Geschäftsjahres 10.000 € bar als Eigenkapital in die Firmenkasse ein.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Kasse",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Eigenkapital",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Durch die Bareinlage steigt der Bargeldbestand und damit das Aktivkonto „Kasse“. Gleichzeitig erhöht sich das Eigenkapital auf der Passivseite. Aktiv-Passiv-Mehrung ohne Erfolgsauswirkung.",
+    "esel": "Bares kommt ins Soll, Kapital ins Haben.",
+    "quelle": {
+      "kapitel": "3 Buchführung – Eröffnungsbuchungen",
+      "seite": "18–19"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-062",
+    "typ": "tkonten",
+    "tag": "Warenkauf mit Vorsteuer",
+    "fall": "Die Firma kauft Handelswaren im Wert von 5.000 € netto auf Ziel. Die gesetzliche Umsatzsteuer beträgt 19 %.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Wareneingang",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Vorsteuer",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Verbindlichkeiten",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Ein Wareneinkauf auf Ziel erhöht den Aufwand und die Forderung des Lieferanten. Zusätzlich entsteht ein Vorsteueranspruch gegenüber dem Finanzamt. Beide Sollbuchungen werden durch eine Verbindlichkeit ausgeglichen.",
+    "esel": "Einkauf = Ware + Steuer ins Soll, Lieferant ins Haben.",
+    "quelle": {
+      "kapitel": "3.4 Buchung laufender Geschäftsvorfälle",
+      "seite": "21–22"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-063",
+    "typ": "tkonten",
+    "tag": "Warenverkauf mit Umsatzsteuer",
+    "fall": "Ein Kunde kauft Waren im Wert von 3.000 € netto auf Ziel. Umsatzsteuer 19 %.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Forderungen",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Umsatzerlöse",
+        "seite": "Haben"
+      },
+      {
+        "konto": "Umsatzsteuer",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Beim Verkauf auf Ziel entsteht eine Forderung gegenüber dem Kunden. Der Umsatz wird als Ertrag gebucht, die Umsatzsteuer als Schuld gegenüber dem Finanzamt. Ergebnis: Aktiv- und Passiv-Mehrung.",
+    "esel": "Verkauf = Kunde an Erlös + Steuer.",
+    "quelle": {
+      "kapitel": "3.5 Erlösbuchungen",
+      "seite": "23–24"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-064",
+    "typ": "tkonten",
+    "tag": "Lohnabrechnung",
+    "fall": "Die Firma zahlt Löhne in Höhe von 5.000 € aus; davon 1.000 € Lohnsteuer und 500 € Sozialabgaben, Rest bar.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Lohnaufwand",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Verb. ggü. Finanzamt",
+        "seite": "Haben"
+      },
+      {
+        "konto": "Verb. ggü. Sozialversicherung",
+        "seite": "Haben"
+      },
+      {
+        "konto": "Kasse",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Die Löhne werden als Aufwand verbucht. Gleichzeitig entstehen Verbindlichkeiten gegenüber Finanzamt und Krankenkasse; der ausgezahlte Nettolohn mindert die Kasse. Typischer zusammengesetzter Buchungssatz.",
+    "esel": "Bruttolohn ins Soll, Abzüge und Auszahlung ins Haben.",
+    "quelle": {
+      "kapitel": "3.6 Personalaufwand",
+      "seite": "25–26"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-065",
+    "typ": "tkonten",
+    "tag": "Skonto bei Lieferantenzahlung",
+    "fall": "Eine offene Lieferantenrechnung über 1.190 € (inkl. 19 % USt) wird unter 2 % Skonto per Bank überwiesen.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Verbindlichkeiten",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Bank",
+        "seite": "Haben"
+      },
+      {
+        "konto": "Nachlässe",
+        "seite": "Haben"
+      },
+      {
+        "konto": "Vorsteuer",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Das Skonto reduziert sowohl den Warenwert als auch die Vorsteuer. Die Restzahlung erfolgt über Bank. Damit sinkt die Verbindlichkeit vollständig, und der Nachlass wird als Ertrag gebucht.",
+    "esel": "Skonto mindert Ware und Steuer.",
+    "quelle": {
+      "kapitel": "3.7 Preisnachlässe",
+      "seite": "27–28"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-066",
+    "typ": "tkonten",
+    "tag": "Zinsaufwand",
+    "fall": "Die Bank bucht monatlich 200 € Zinsen für ein Darlehen ab.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Zinsaufwand",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Bank",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Zinsaufwand stellt eine periodische Aufwandsbuchung dar. Er mindert das Ergebnis und gleichzeitig das Bankguthaben. Erfolgswirksamer Geschäftsvorfall mit Aufwand.",
+    "esel": "Zinsen belasten Soll, Bank sinkt im Haben.",
+    "quelle": {
+      "kapitel": "3.8 Zinsbuchungen",
+      "seite": "29"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-067",
+    "typ": "tkonten",
+    "tag": "Privatentnahme",
+    "fall": "Der Inhaber entnimmt 1.000 € aus der Firmenkasse für private Zwecke.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Privatentnahme",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Kasse",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Die Privatentnahme mindert das Eigenkapital und den Bargeldbestand. Es handelt sich um einen erfolgsneutralen Eigenkapitalvorgang. Das Konto Privatentnahme ist ein Unterkonto des Eigenkapitals.",
+    "esel": "Entnahme: Privat im Soll, Kasse im Haben.",
+    "quelle": {
+      "kapitel": "3.9 Privateinlagen und -entnahmen",
+      "seite": "30–31"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-068",
+    "typ": "tkonten",
+    "tag": "Abschreibung",
+    "fall": "Eine Maschine im Wert von 10.000 € wird linear über 5 Jahre abgeschrieben.",
+    "frage": "Wie lautet der jährliche Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Abschreibungen auf Sachanlagen",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Maschinen",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Die Abschreibung erfasst den planmäßigen Werteverzehr des Anlagevermögens. Dadurch sinkt der Buchwert der Maschine und ein Aufwand entsteht. Typischer erfolgswirksamer Aktiv-Minderungsvorgang.",
+    "esel": "Abschreibung: Aufwand Soll, Anlage Haben.",
+    "quelle": {
+      "kapitel": "6 Abschreibungen",
+      "seite": "58–59"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-069",
+    "typ": "tkonten",
+    "tag": "Bestandsveränderung",
+    "fall": "Der Endbestand an fertigen Erzeugnissen steigt gegenüber dem Anfangsbestand um 2.000 €.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Bestand fertige Erzeugnisse",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Bestandsveränderung fertige Erzeugnisse",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Ein Bestandszuwachs erhöht das Vermögen und wird als Ertrag erfasst. Der Bestand selbst ist ein Aktivkonto, die Bestandsveränderung ein Erfolgskonto. So wird die Veränderung korrekt in der GuV berücksichtigt.",
+    "esel": "Mehr Bestand = Soll Bestand, Haben Ertrag.",
+    "quelle": {
+      "kapitel": "3.10 Bestandsveränderungen",
+      "seite": "32–33"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-070",
+    "typ": "tkonten",
+    "tag": "GuV-Abschluss",
+    "fall": "Am Jahresende sollen alle Aufwands- und Ertragskonten über die GuV abgeschlossen werden.",
+    "frage": "Wie lautet der abschließende Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "GuV",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Ertragskonten",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Zum Abschluss werden alle Aufwendungen im Soll und Erträge im Haben der GuV zusammengeführt. Ergibt sich ein Gewinn, wird dieser über das Eigenkapital abgeschlossen. Damit ist der Periodenerfolg ermittelt.",
+    "esel": "Erträge an GuV – GuV an EK.",
+    "quelle": {
+      "kapitel": "3.11 Abschlussarbeiten",
+      "seite": "34–35"
+    },
+    "schwierigkeit": "schwer"
+  },
+  {
+    "id": "BWLB02N-071",
+    "typ": "tkonten",
+    "tag": "Bankeinzahlung",
+    "fall": "Die Firma zahlt 2.000 € aus der Kasse auf das Bankkonto ein.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Bank",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Kasse",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Die Einzahlung mindert die Kasse und erhöht das Bankguthaben. Es handelt sich um einen Aktivtausch, da sich nur Positionen innerhalb der Aktivseite verändern. Kein Erfolg, keine Veränderung des Eigenkapitals.",
+    "esel": "Geld bleibt im Unternehmen – Aktivtausch.",
+    "quelle": {
+      "kapitel": "3.3 Zahlungsverkehr",
+      "seite": "20"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-072",
+    "typ": "tkonten",
+    "tag": "Lieferantenzahlung per Bank",
+    "fall": "Eine offene Lieferantenrechnung über 3.000 € wird per Bank überwiesen.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Verbindlichkeiten",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Bank",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Mit der Zahlung erlischt die Verbindlichkeit gegenüber dem Lieferanten. Gleichzeitig vermindert sich das Bankguthaben. Aktiv-Passiv-Minderung, keine Erfolgsauswirkung.",
+    "esel": "Verbindlichkeit ausgleichen = Schuld Soll, Bank Haben.",
+    "quelle": {
+      "kapitel": "3.4 Buchungen mit Bank",
+      "seite": "21"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-073",
+    "typ": "tkonten",
+    "tag": "Forderungsausgleich",
+    "fall": "Ein Kunde begleicht eine offene Rechnung über 4.760 € (inkl. 19 % USt) per Banküberweisung.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Bank",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Forderungen",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Durch die Zahlung des Kunden steigt das Bankguthaben, und die offene Forderung wird getilgt. Aktivtausch ohne Einfluss auf Erfolg oder Kapital. Buchung schließt den Verkaufsvorgang ab.",
+    "esel": "Kunde zahlt = Bank Soll, Forderung Haben.",
+    "quelle": {
+      "kapitel": "3.4 Forderungsausgleich",
+      "seite": "22"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-074",
+    "typ": "tkonten",
+    "tag": "Anlagenkauf auf Ziel",
+    "fall": "Die Firma kauft eine Maschine für 15.000 € auf Ziel.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Maschinen",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Verbindlichkeiten",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Beim Anlagenkauf steigt das Anlagevermögen, gleichzeitig entsteht eine Verbindlichkeit. Aktiv-Passiv-Mehrung. Der Vorgang ist erfolgsneutral, weil noch kein Aufwand entsteht.",
+    "esel": "Anlage im Soll, Schuld im Haben.",
+    "quelle": {
+      "kapitel": "6.1 Anschaffung von Anlagevermögen",
+      "seite": "58"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-075",
+    "typ": "tkonten",
+    "tag": "Anzahlung Kunde",
+    "fall": "Ein Kunde leistet eine Anzahlung in Höhe von 5.000 € auf eine spätere Warenlieferung.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Bank",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Erhaltene Anzahlungen",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Durch die Anzahlung steigt das Bankguthaben, gleichzeitig entsteht eine Verbindlichkeit gegenüber dem Kunden. Der Betrag darf noch nicht als Erlös gebucht werden. Erfolg erst nach Lieferung.",
+    "esel": "Anzahlung = Geld jetzt, Leistung später.",
+    "quelle": {
+      "kapitel": "3.12 Anzahlungen",
+      "seite": "36–37"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-076",
+    "typ": "tkonten",
+    "tag": "Privateinlage",
+    "fall": "Der Inhaber überweist privat 2.500 € auf das Geschäftskonto.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Bank",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Privateinlage",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Die Privateinlage erhöht das Bankguthaben und damit das Unternehmensvermögen. Gleichzeitig steigt das Eigenkapital über das Unterkonto „Privateinlage“. Der Vorgang ist erfolgsneutral.",
+    "esel": "Einlage = Bank Soll, Privat Haben.",
+    "quelle": {
+      "kapitel": "3.9 Einlagen/Entnahmen",
+      "seite": "30–31"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-077",
+    "typ": "tkonten",
+    "tag": "Reparatur einer Maschine",
+    "fall": "Eine Maschine wird repariert, die Rechnung über 800 € zzgl. USt wird per Bank bezahlt.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Instandhaltungsaufwand",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Vorsteuer",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Bank",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Reparaturen sind Erhaltungsaufwand und werden als Aufwand gebucht. Zusätzlich entsteht Vorsteuer, die vom Finanzamt erstattet werden kann. Bank vermindert sich um den Bruttobetrag.",
+    "esel": "Erhalt = Aufwand + Vorsteuer an Bank.",
+    "quelle": {
+      "kapitel": "4 Aufwendungen",
+      "seite": "33"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-078",
+    "typ": "tkonten",
+    "tag": "Abschluss Bestandskonten",
+    "fall": "Die Aktiv- und Passivkonten sollen am Jahresende über das Schlussbilanzkonto abgeschlossen werden.",
+    "frage": "Wie lautet der Buchungssatz allgemein?",
+    "buchungenLoesung": [
+      {
+        "konto": "Schlussbilanzkonto",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Passivkonten",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Die Passivkonten werden ins Haben des Schlussbilanzkontos abgeschlossen, Aktivkonten ins Soll. Dadurch entsteht die Bilanz für das neue Jahr. Der Abschluss selbst ist erfolgsneutral.",
+    "esel": "SBK = Spiegel der Bilanz.",
+    "quelle": {
+      "kapitel": "3.11 Abschlussarbeiten",
+      "seite": "34–35"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-079",
+    "typ": "tkonten",
+    "tag": "Umbuchung Gewinn",
+    "fall": "Am Jahresende wird der Gewinn laut GuV auf das Eigenkapitalkonto übertragen.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "GuV",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Eigenkapital",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Der Gewinn erhöht das Eigenkapital. Dazu wird das GuV-Konto im Soll entlastet und das Eigenkapital im Haben vermehrt. Damit ist der Jahresabschluss vollständig verbucht.",
+    "esel": "Gewinn erhöht EK: GuV an EK.",
+    "quelle": {
+      "kapitel": "3.11 Abschlussarbeiten",
+      "seite": "35"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-080",
+    "typ": "tkonten",
+    "tag": "Eröffnungsbuchung",
+    "fall": "Zu Beginn des neuen Geschäftsjahres werden die Bestände der Aktiv- und Passivkonten übernommen.",
+    "frage": "Wie lautet der Buchungssatz allgemein?",
+    "buchungenLoesung": [
+      {
+        "konto": "Aktivkonten",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Eröffnungsbilanzkonto",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Zu Jahresbeginn werden die Bilanzwerte aus dem Vorjahr in die Konten übernommen. Aktivkonten werden im Soll eröffnet, Passivkonten im Haben. Der Vorgang stellt den Startpunkt der neuen Buchungsperiode dar.",
+    "esel": "Eröffnung = SBK umkehren.",
+    "quelle": {
+      "kapitel": "3.2 Eröffnungsbuchungen",
+      "seite": "18–19"
+    },
+    "schwierigkeit": "schwer"
+  },
+  {
+    "id": "BWLB02N-081",
+    "typ": "tkonten",
+    "tag": "Wareneinkauf mit Skonto und Zahlung",
+    "fall": "Die Firma kauft Waren im Wert von 10.000 € + 19 % USt auf Ziel. Nach 10 Tagen zahlt sie unter 2 % Skonto per Bank.",
+    "frage": "Wie lauten die Buchungssätze?",
+    "buchungenLoesung": [
+      {
+        "konto": "Wareneingang",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Vorsteuer",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Verbindlichkeiten",
+        "seite": "Haben"
+      },
+      {
+        "konto": "Verbindlichkeiten",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Bank",
+        "seite": "Haben"
+      },
+      {
+        "konto": "Nachlässe",
+        "seite": "Haben"
+      },
+      {
+        "konto": "Vorsteuer",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Zuerst wird der Einkauf auf Ziel gebucht. Bei Zahlung mindern Skonto und anteilige Vorsteuer den Rechnungsbetrag; der Rest geht per Bank. So wird der wirtschaftliche Aufwand korrekt erfasst.",
+    "esel": "Einkauf = Ware+Steuer; Skonto = Nachlass + weniger Vorsteuer.",
+    "quelle": {
+      "kapitel": "3.7 Preisnachlässe",
+      "seite": "27–28"
+    },
+    "schwierigkeit": "schwer"
+  },
+  {
+    "id": "BWLB02N-082",
+    "typ": "tkonten",
+    "tag": "Anlagenverkauf mit Gewinn",
+    "fall": "Eine Maschine (AK 10.000 €, bisher AfA 8.000 €) wird bar für 3.000 € verkauft.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Kasse",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Abschreibungen auf Sachanlagen",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Maschinen",
+        "seite": "Haben"
+      },
+      {
+        "konto": "Erträge aus Anlagenverkäufen",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Der Verkaufserlös übersteigt den Restbuchwert von 2.000 €. Die Maschine wird ausgebucht, die kumulierte Abschreibung gegengebucht. Die Differenz ist ein außerordentlicher Ertrag.",
+    "esel": "Erlös > Restwert = Verkaufsertrag.",
+    "quelle": {
+      "kapitel": "6.3 Anlagenabgänge",
+      "seite": "63–64"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-083",
+    "typ": "tkonten",
+    "tag": "Anlagenverkauf mit Verlust",
+    "fall": "Ein Fahrzeug (AK 20.000 €, AfA 17.000 €) wird für 2.000 € per Bank verkauft.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Bank",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Abschreibungen auf Sachanlagen",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Verluste aus Anlagenverkäufen",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Fahrzeuge",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Der Verkaufserlös liegt unter dem Restbuchwert von 3.000 €. Die Differenz wird als Aufwand gebucht. So wird der Verlust periodengerecht im Ergebnis berücksichtigt.",
+    "esel": "Erlös < Restwert = Verlust Soll.",
+    "quelle": {
+      "kapitel": "6.3 Anlagenabgänge",
+      "seite": "64"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-084",
+    "typ": "tkonten",
+    "tag": "Privatverbrauch von Waren",
+    "fall": "Der Inhaber entnimmt Waren im Wert von 500 € + 19 % USt für private Zwecke.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Privatentnahme",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Umsatzsteuer",
+        "seite": "Haben"
+      },
+      {
+        "konto": "Waren",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Private Entnahmen aus dem Warenbestand gelten als Eigenverbrauch. Sie mindern das Warenkonto und lösen Umsatzsteuerpflicht aus. Der Vorgang ist erfolgsneutral, beeinflusst aber die USt-Zahllast.",
+    "esel": "Privat = Ware raus + Steuer drauf.",
+    "quelle": {
+      "kapitel": "3.9 Privatvorgänge",
+      "seite": "30–31"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-085",
+    "typ": "tkonten",
+    "tag": "Bestandsabnahme fertiger Erzeugnisse",
+    "fall": "Der Bestand fertiger Erzeugnisse sinkt um 1.500 €.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Bestandsveränderung fertige Erzeugnisse",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Bestand fertige Erzeugnisse",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Eine Bestandsminderung reduziert das Vermögen und wird als Aufwand erfasst. Damit wird der tatsächliche Werteverzehr in der GuV berücksichtigt. Aktiv-Erfolgsminderung ohne Geldfluss.",
+    "esel": "Weniger Bestand = Aufwand Soll.",
+    "quelle": {
+      "kapitel": "3.10 Bestandsveränderungen",
+      "seite": "33"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-086",
+    "typ": "tkonten",
+    "tag": "Zinsgutschrift Bank",
+    "fall": "Die Bank schreibt 100 € Zinsen gut.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Bank",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Zinserträge",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Die Gutschrift erhöht das Bankguthaben und führt zu einem Ertrag. Damit verbessert sich sowohl Liquidität als auch Periodenergebnis. Erfolgskonto auf der Habenseite.",
+    "esel": "Zinsen rein = Bank Soll, Ertrag Haben.",
+    "quelle": {
+      "kapitel": "3.8 Zinsbuchungen",
+      "seite": "29"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-087",
+    "typ": "tkonten",
+    "tag": "Abschluss Aufwandskonto",
+    "fall": "Das Konto „Mietaufwand“ mit 12.000 € soll über die GuV abgeschlossen werden.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "GuV",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Mietaufwand",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Am Periodenende werden Aufwandskonten über das GuV-Konto abgeschlossen. Der Aufwand wird auf die Sollseite der GuV übertragen. So fließen alle Aufwendungen in das Ergebnis ein.",
+    "esel": "Aufwand an GuV = Soll der GuV.",
+    "quelle": {
+      "kapitel": "3.11 Abschlussarbeiten",
+      "seite": "34"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-088",
+    "typ": "tkonten",
+    "tag": "Abschluss Ertragskonto",
+    "fall": "Das Konto „Umsatzerlöse“ weist 300.000 € aus und soll über GuV abgeschlossen werden.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Umsatzerlöse",
+        "seite": "Soll"
+      },
+      {
+        "konto": "GuV",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Ertragskonten werden über die Habenseite der GuV abgeschlossen. So wird der Gewinnbeitrag der Erlöse sichtbar. Zusammen mit den Aufwandskonten ergibt sich der Periodenerfolg.",
+    "esel": "Ertrag = GuV Haben.",
+    "quelle": {
+      "kapitel": "3.11 Abschlussarbeiten",
+      "seite": "34–35"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-089",
+    "typ": "tkonten",
+    "tag": "Gewinnverbuchung ins Eigenkapital",
+    "fall": "Die GuV zeigt einen Jahresgewinn von 25.000 €. Dieser soll dem Eigenkapital zugeschlagen werden.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "GuV",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Eigenkapital",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Der Gewinn wird aus der GuV auf das Eigenkapitalkonto übertragen. Dadurch steigt das Eigenkapital um den Jahresüberschuss. Letzter Schritt vor Bilanzabschluss.",
+    "esel": "Gewinn erhöht EK: GuV an EK.",
+    "quelle": {
+      "kapitel": "3.11 Abschlussarbeiten",
+      "seite": "35"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-090",
+    "typ": "tkonten",
+    "tag": "SBK-Abschluss Bilanz",
+    "fall": "Nach allen Abschlussbuchungen soll das Schlussbilanzkonto aufgestellt werden.",
+    "frage": "Wie lautet der abschließende Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Schlussbilanzkonto",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Passivkonten",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Alle Passivkonten werden in das Schlussbilanzkonto abgeschlossen, Aktivkonten ins Soll. Damit wird die Bilanzsumme ausgeglichen und das neue Jahr vorbereitet. Das SBK entspricht der Schlussbilanz.",
+    "esel": "SBK = Bilanz in Kontenform.",
+    "quelle": {
+      "kapitel": "3.11 Abschlussarbeiten",
+      "seite": "35"
+    },
+    "schwierigkeit": "schwer"
+  },
+  {
+    "id": "BWLB02N-091",
+    "typ": "tkonten",
+    "tag": "Rabattgewährung",
+    "fall": "Ein Kunde erhält nachträglich 5 % Rabatt auf eine Rechnung von 2.380 € (inkl. 19 % USt). Der Betrag wird per Bank erstattet.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Nachlässe an Kunden",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Umsatzsteuer",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Bank",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Nachträgliche Rabatte mindern den Umsatz und die geschuldete Umsatzsteuer. Der Kunde erhält die Erstattung über die Bank. Erfolgswirksame Umsatzertragsminderung.",
+    "esel": "Rabatt: Umsatz runter, Steuer runter, Bank raus.",
+    "quelle": {
+      "kapitel": "3.7 Preisnachlässe",
+      "seite": "28"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-092",
+    "typ": "tkonten",
+    "tag": "Forderungsabschreibung",
+    "fall": "Ein Kunde ist insolvent. Seine offene Rechnung über 1.190 € (inkl. 19 % USt) wird ausgebucht.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Abschreibungen auf Forderungen",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Umsatzsteuer",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Forderungen",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Uneinbringliche Forderungen werden als Aufwand gebucht, da der Ertrag nicht mehr realisierbar ist. Gleichzeitig wird die Umsatzsteuer korrigiert, weil keine Zahlung erfolgt. Aktiv- und Erfolgs-Minderung.",
+    "esel": "Forderung futsch → Aufwand Soll, Steuer zurück.",
+    "quelle": {
+      "kapitel": "4.2 Forderungsbewertung",
+      "seite": "40–41"
+    },
+    "schwierigkeit": "schwer"
+  },
+  {
+    "id": "BWLB02N-093",
+    "typ": "tkonten",
+    "tag": "Rückstellung",
+    "fall": "Zum Jahresende wird eine Rückstellung für eine drohende Prozesskostenforderung über 8.000 € gebildet.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Sonstige betriebliche Aufwendungen",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Rückstellungen",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Rückstellungen werden für ungewisse Verbindlichkeiten gebildet. Sie erfassen Aufwendungen, die wirtschaftlich ins laufende Jahr gehören, aber erst später bezahlt werden. Damit wird das Periodenergebnis korrekt abgegrenzt.",
+    "esel": "Ungewiss = Aufwand jetzt, Zahlung später.",
+    "quelle": {
+      "kapitel": "4.3 Rückstellungen",
+      "seite": "42–43"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-094",
+    "typ": "tkonten",
+    "tag": "Auflösung Rückstellung",
+    "fall": "Im Folgejahr wird die gebildete Rückstellung über 8.000 € nicht benötigt und vollständig aufgelöst.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Rückstellungen",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Erträge aus der Auflösung von Rückstellungen",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Da keine Verpflichtung eintritt, wird die Rückstellung ertragswirksam aufgelöst. Das erhöht den Gewinn des Folgejahres. Die Passivposition entfällt vollständig.",
+    "esel": "Rückstellung weg → Ertrag Haben.",
+    "quelle": {
+      "kapitel": "4.3 Rückstellungen",
+      "seite": "43"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-095",
+    "typ": "tkonten",
+    "tag": "Abgrenzung Aufwand",
+    "fall": "Die Januarmiete (1.000 €) wird im Dezember vorausbezahlt.",
+    "frage": "Wie lautet der Buchungssatz zum Jahresende?",
+    "buchungenLoesung": [
+      {
+        "konto": "Mietaufwand",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Bank",
+        "seite": "Haben"
+      },
+      {
+        "konto": "Aktive Rechnungsabgrenzung",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Mietaufwand",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Die Vorauszahlung betrifft das Folgejahr und wird abgegrenzt. Der Aufwand wird korrigiert und eine Forderung (aktive Rechnungsabgrenzung) gebildet. So bleibt das Ergebnis periodenrichtig.",
+    "esel": "Voraus bezahlt = ARA Soll, Aufwand raus.",
+    "quelle": {
+      "kapitel": "4.4 Rechnungsabgrenzung",
+      "seite": "44–45"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-096",
+    "typ": "tkonten",
+    "tag": "Abgrenzung Ertrag",
+    "fall": "Zinsen für Dezember (200 €) gehen erst im Januar ein.",
+    "frage": "Wie lautet der Buchungssatz zum Jahresende?",
+    "buchungenLoesung": [
+      {
+        "konto": "Sonstige Forderungen",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Zinserträge",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Der Ertrag gehört wirtschaftlich ins laufende Jahr, Zahlung erfolgt aber später. Mit der sonstigen Forderung wird der Ertrag vorweggenommen und die Periodengerechtigkeit gewahrt. Zahlung im neuen Jahr gleicht die Forderung aus.",
+    "esel": "Ertrag jetzt, Geld später = Forderung Soll.",
+    "quelle": {
+      "kapitel": "4.4 Rechnungsabgrenzung",
+      "seite": "45"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-097",
+    "typ": "tkonten",
+    "tag": "Abschreibung auf geringwertiges Wirtschaftsgut",
+    "fall": "Ein Laptop wird für 800 € bar gekauft und sofort vollständig abgeschrieben.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Abschreibungen auf geringwertige Wirtschaftsgüter",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Kasse",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Geringwertige Wirtschaftsgüter bis zur steuerlichen Grenze können sofort abgeschrieben werden. Die Anschaffung wird direkt als Aufwand erfasst. Der Vorgang ist erfolgswirksam und mindert den Gewinn.",
+    "esel": "GWG = Sofort absetzen.",
+    "quelle": {
+      "kapitel": "6.4 GWG",
+      "seite": "65"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-098",
+    "typ": "tkonten",
+    "tag": "Umsatzsteuer-Vorauszahlung",
+    "fall": "Die monatliche Umsatzsteuer-Zahllast von 2.000 € wird an das Finanzamt überwiesen.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Umsatzsteuer",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Bank",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Die Zahlung an das Finanzamt mindert die Umsatzsteuerschuld. Damit sinkt sowohl das Bankguthaben als auch die Verbindlichkeit gegenüber dem Staat. Erfolg bleibt unverändert.",
+    "esel": "USt-Zahlung = Schuld Soll, Bank Haben.",
+    "quelle": {
+      "kapitel": "3.5 Umsatzsteuer",
+      "seite": "24–25"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-099",
+    "typ": "tkonten",
+    "tag": "periodenfremder Aufwand",
+    "fall": "Im aktuellen Jahr wird eine Rechnung über 1.200 € für ein Vorjahresereignis gezahlt.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Periodenfremder Aufwand",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Bank",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Aufwand, der nicht in das laufende Jahr gehört, wird als periodenfremd gekennzeichnet. So bleibt die Erfolgsanalyse nachvollziehbar. Liquiditätswirksam, aber kein betrieblicher Aufwand der laufenden Periode.",
+    "esel": "Vorjahr zahlt man heute = fremd.",
+    "quelle": {
+      "kapitel": "4.5 Abgrenzung nach Perioden",
+      "seite": "46"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-100",
+    "typ": "tkonten",
+    "tag": "Jahresabschlussmix",
+    "fall": "Am Jahresende werden Restposten bereinigt: Umsatzsteuer 2.500 €, Vorsteuer 1.800 €, Saldo über Bank.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Umsatzsteuer",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Vorsteuer",
+        "seite": "Haben"
+      },
+      {
+        "konto": "Bank",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Die Umsatzsteuer- und Vorsteuerkonten werden miteinander verrechnet. Der verbleibende Saldo wird an das Finanzamt überwiesen. Damit ist die Steuerperiode abgeschlossen und das Konto ausgeglichen.",
+    "esel": "USt minus VSt = Zahlbetrag an Finanzamt.",
+    "quelle": {
+      "kapitel": "3.5 Umsatzsteuer-Verrechnung",
+      "seite": "24–25"
+    },
+    "schwierigkeit": "schwer"
+  },
+  {
+    "id": "BWLB02N-101",
+    "typ": "tkonten",
+    "tag": "Anschaffungskosten-Zusatz",
+    "fall": "Eine Maschine wird für 20.000 € gekauft. Zusätzlich fallen 1.200 € Transport und 800 € Montagekosten an, bezahlt per Bank.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Maschinen",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Bank",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Transport- und Montagekosten gehören zu den Anschaffungsnebenkosten und erhöhen den Aktivwert. Der Gesamtbetrag wird aktiviert und über die Nutzungsdauer abgeschrieben. Erfolgsneutraler Aktivtausch.",
+    "esel": "Nebenkosten → immer mit aktivieren.",
+    "quelle": {
+      "kapitel": "6.1 Anschaffungskosten",
+      "seite": "58–59"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-102",
+    "typ": "tkonten",
+    "tag": "Abschreibung monatsgenau",
+    "fall": "Eine Maschine wird am 1. Oktober für 12.000 € angeschafft und über 5 Jahre linear abgeschrieben.",
+    "frage": "Wie lautet der Abschreibungsbetrag und der Buchungssatz zum Jahresende?",
+    "buchungenLoesung": [
+      {
+        "konto": "Abschreibungen auf Sachanlagen",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Maschinen",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Lineare Abschreibung: 12.000 € ÷ 5 Jahre = 2.400 €/Jahr. Für drei Monate: 2.400 × 3/12 = 600 €. Der Teilbetrag wird aufwandswirksam verbucht, um periodengerecht abzuschreiben.",
+    "esel": "Teiljahres-AfA anteilig nach Monaten.",
+    "quelle": {
+      "kapitel": "6 Abschreibungen",
+      "seite": "59–60"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-103",
+    "typ": "justify",
+    "tag": "Abschreibung begründen und berechnen",
+    "fall": "Ein Fuhrpark von 50.000 € soll über 10 Jahre abgeschrieben werden. Begründe und berechne die jährliche AfA.",
+    "frage": "Warum wird abgeschrieben und wie hoch ist die jährliche Abschreibung?",
+    "formel": "Anschaffungskosten / Nutzungsdauer",
+    "parameter": {
+      "Anschaffungskosten": [
+        50000
+      ],
+      "Nutzungsdauer": [
+        10
+      ]
+    },
+    "toleranz": 0.01,
+    "erklaerung": "Abschreibungen erfassen den planmäßigen Werteverzehr von abnutzbarem Anlagevermögen. Sie verteilen die Anschaffungskosten verursachungsgerecht auf die Nutzungsjahre. 50.000 € / 10 = 5.000 € pro Jahr.",
+    "esel": "AfA = AK ÷ ND.",
+    "quelle": {
+      "kapitel": "6.2 Abschreibungsverfahren",
+      "seite": "61–62"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-104",
+    "typ": "tkonten",
+    "tag": "Reparatur vs. Investition",
+    "fall": "Ein alter Gabelstapler erhält für 2.000 € eine Generalüberholung. Dabei wird auch ein neuer Motor eingebaut.",
+    "frage": "Wie lautet der Buchungssatz, wenn es sich um eine wertsteigernde Maßnahme handelt?",
+    "buchungenLoesung": [
+      {
+        "konto": "Fuhrpark",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Bank",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Da der neue Motor die Nutzungsdauer und Leistungsfähigkeit erhöht, handelt es sich um eine aktivierungspflichtige Investition. Nur reine Instandhaltungen wären Aufwand. Erfolgsneutraler Aktivtausch.",
+    "esel": "Wertsteigerung = aktivieren.",
+    "quelle": {
+      "kapitel": "6.1 Abgrenzung Instandhaltung/Erweiterung",
+      "seite": "58–59"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-105",
+    "typ": "input",
+    "tag": "Eigenkapitalquote",
+    "fall": "Das Eigenkapital beträgt 400.000 €, die Bilanzsumme 1.000.000 €.",
+    "frage": "Wie hoch ist die Eigenkapitalquote in %?",
+    "formel": "(EK / Bilanzsumme) * 100",
+    "parameter": {
+      "EK": [
+        400000
+      ],
+      "Bilanzsumme": [
+        1000000
+      ]
+    },
+    "toleranz": 0.01,
+    "erklaerung": "Die Eigenkapitalquote zeigt den Anteil des Eigenkapitals an der Bilanzsumme. 400.000 ÷ 1.000.000 × 100 = 40 %. Eine Quote über 30 % gilt als solide Finanzstruktur.",
+    "esel": "EK ÷ Gesamt = Quote.",
+    "quelle": {
+      "kapitel": "10 Kennzahlen",
+      "seite": "97–98"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-106",
+    "typ": "tkonten",
+    "tag": "Maschinenverkauf mit USt",
+    "fall": "Eine Maschine mit Buchwert 5.000 € wird für 7.000 € + 19 % USt verkauft. Der Kunde zahlt per Bank.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Bank",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Umsatzsteuer",
+        "seite": "Haben"
+      },
+      {
+        "konto": "Maschinen",
+        "seite": "Haben"
+      },
+      {
+        "konto": "Erträge aus Anlagenverkäufen",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Der Verkaufserlös liegt über dem Buchwert, daher entsteht ein Ertrag. Zusätzlich fällt Umsatzsteuer an. Die Maschine wird ausgebucht, Bankbestand steigt.",
+    "esel": "Verkauf mit USt = Erlös + Steuer.",
+    "quelle": {
+      "kapitel": "6.3 Anlagenabgänge",
+      "seite": "63–64"
+    },
+    "schwierigkeit": "schwer"
+  },
+  {
+    "id": "BWLB02N-107",
+    "typ": "justify",
+    "tag": "Abzinsung Rückstellung",
+    "fall": "Eine Rückstellung über 10.000 € wird in 3 Jahren fällig. Kalkulationszins 5 %.",
+    "frage": "Warum wird abgezinst und wie hoch ist der heutige Barwert?",
+    "formel": "Rückstellung / (1 + i) ** n",
+    "parameter": {
+      "Rückstellung": [
+        10000
+      ],
+      "i": [
+        0.05
+      ],
+      "n": [
+        3
+      ]
+    },
+    "toleranz": 0.01,
+    "erklaerung": "Langfristige Rückstellungen müssen abgezinst werden, um den heutigen Wert der Verpflichtung auszuweisen. Barwert = 10.000 ÷ (1,05³) ≈ 8.638 €. Das sichert Bilanzklarheit und Vorsichtsprinzip.",
+    "esel": "Zukunft minus Zeit = Barwert.",
+    "quelle": {
+      "kapitel": "4.3 Rückstellungen",
+      "seite": "42–43"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-108",
+    "typ": "tkonten",
+    "tag": "Bewertung von Forderungen",
+    "fall": "Eine zweifelhafte Forderung über 2.380 € (inkl. USt) wird zu 50 % wertberichtigt.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Zweifelhafte Forderungen",
+        "seite": "Soll"
+      },
+      {
+        "konto": "Einzelwertberichtigung",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Zweifelhafte Forderungen werden erfolgsneutral umgebucht und teilweise wertberichtigt. Erst bei Ausfall erfolgt Aufwand. Das erhöht Transparenz und erfüllt das Niederstwertprinzip.",
+    "esel": "Unsicher? – Teilwert mindern.",
+    "quelle": {
+      "kapitel": "4.2 Bewertung von Forderungen",
+      "seite": "40–41"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-109",
+    "typ": "input",
+    "tag": "Anlagendeckungsgrad II",
+    "fall": "Eigenkapital = 400.000 €, langfristiges FK = 250.000 €, Anlagevermögen = 550.000 €.",
+    "frage": "Berechne den Anlagendeckungsgrad II in %.",
+    "formel": "((EK + lFK) / AV) * 100",
+    "parameter": {
+      "EK": [
+        400000
+      ],
+      "lFK": [
+        250000
+      ],
+      "AV": [
+        550000
+      ]
+    },
+    "toleranz": 0.01,
+    "erklaerung": "Anlagendeckungsgrad II misst, ob das Anlagevermögen langfristig finanziert ist. (400.000 + 250.000) ÷ 550.000 × 100 ≈ 118 %. Werte > 100 % gelten als goldene Bilanzregel erfüllt.",
+    "esel": "Langfristig deckt Anlage – > 100 % = gut.",
+    "quelle": {
+      "kapitel": "10 Kennzahlen",
+      "seite": "98–99"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-110",
+    "typ": "tkonten",
+    "tag": "Eigenkapitalveränderung durch Verlust",
+    "fall": "Die GuV weist einen Jahresverlust von 15.000 € aus, der das Eigenkapital mindern soll.",
+    "frage": "Wie lautet der Buchungssatz?",
+    "buchungenLoesung": [
+      {
+        "konto": "Eigenkapital",
+        "seite": "Soll"
+      },
+      {
+        "konto": "GuV",
+        "seite": "Haben"
+      }
+    ],
+    "erklaerung": "Ein Verlust mindert das Eigenkapital. Der Betrag wird aus der GuV ins Eigenkapitalkonto umgebucht. Damit schließt sich der Rechnungszyklus erfolgswirksam ab.",
+    "esel": "Verlust senkt EK: EK Soll, GuV Haben.",
+    "quelle": {
+      "kapitel": "3.11 Abschlussarbeiten",
+      "seite": "35"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-111",
+    "typ": "matrix",
+    "tag": "Zuschlagskalkulation",
+    "fall": "Ein Produkt verursacht Materialeinzelkosten von 80 € und Fertigungseinzelkosten von 40 €. Zuschläge: Materialgemeinkosten 20 %, Fertigungsgemeinkosten 50 %, Verwaltungs- und Vertriebsgemeinkosten 10 %.",
+    "frage": "Berechne den Selbstkostenpreis.",
+    "paare": {
+      "Materialeinzelkosten": "80",
+      "Materialgemeinkosten (20 %)": "16",
+      "Fertigungseinzelkosten": "40",
+      "Fertigungsgemeinkosten (50 %)": "20",
+      "Verwaltung + Vertrieb (10 %)": "15,6",
+      "Selbstkosten": "171,6"
+    },
+    "erklaerung": "Zuschlagskalkulation addiert Einzel- und Gemeinkosten. 80 + 16 + 40 + 20 = 156 €; darauf 10 % = 15,6 €. Ergebnis: 171,6 €. Dieses Verfahren dient der Preisuntergrenzen- und Angebotsermittlung.",
+    "esel": "Einzel + Gemein = Selbst.",
+    "quelle": {
+      "kapitel": "5.8 Zuschlagskalkulation",
+      "seite": "56–57"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-112",
+    "typ": "justify",
+    "tag": "Materialgemeinkostenzuschlag",
+    "fall": "Materialeinzelkosten = 200 000 €, Materialgemeinkosten = 50 000 €.",
+    "frage": "Begründe den Zweck und berechne den Materialgemeinkostenzuschlag in %.",
+    "formel": "(MGK / MEK) * 100",
+    "parameter": {
+      "MGK": [
+        50000
+      ],
+      "MEK": [
+        200000
+      ]
+    },
+    "toleranz": 0.01,
+    "erklaerung": "Zuschlagssätze dienen der verursachungsgerechten Verteilung der Gemeinkosten. 50 000 ÷ 200 000 × 100 = 25 %. So können künftige Kalkulationen proportional gesteuert werden.",
+    "esel": "MGK ÷ MEK × 100 = Zuschlag %.",
+    "quelle": {
+      "kapitel": "5.8 Zuschlagskalkulation",
+      "seite": "56"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-113",
+    "typ": "matrix",
+    "tag": "Betriebsabrechnungsbogen (BAB)",
+    "fall": "Die Gemeinkosten sollen auf Kostenstellen verteilt werden.",
+    "frage": "Fülle den vereinfachten BAB aus.",
+    "paare": {
+      "Kostenarten": "Summe",
+      "Hilfskostenstelle Energie": "5 000 €",
+      "Hauptkostenstelle Fertigung I": "20 000 €",
+      "Hauptkostenstelle Fertigung II": "25 000 €",
+      "Verwaltung + Vertrieb": "10 000 €",
+      "Gesamt": "60 000 €"
+    },
+    "erklaerung": "Der BAB dient der innerbetrieblichen Leistungsverrechnung. Hilfskosten werden auf Hauptkostenstellen verteilt, anschließend über Zuschläge weiterverrechnet. Ergebnis ist eine verursachungsgerechte Kostenzuordnung.",
+    "esel": "Hilf → Haupt → Träger.",
+    "quelle": {
+      "kapitel": "5.5 Kostenstellenrechnung",
+      "seite": "47–50"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-114",
+    "typ": "fallanalyse",
+    "tag": "Fixkostenentscheid",
+    "fall": "Ein Betrieb überlegt, ob er eine Fertigung auslagert. Variante A: Fixkosten 60 000 €, variable 20 €/Stk. Variante B (Einkauf): 30 €/Stk., keine Fixkosten. Absatz = 5 000 Stk.",
+    "frage": "Welche Variante ist günstiger?",
+    "optionen": [
+      "Variante A (Eigenfertigung)",
+      "Variante B (Fremdbezug)",
+      "Beide gleich teuer"
+    ],
+    "loesung": "Variante A (Eigenfertigung)",
+    "erklaerung": "Eigenfertigung: 60 000 + (20 × 5 000) = 160 000 €. Fremdbezug: 30 × 5 000 = 150 000 €. Bei höherem Absatz können Fixkosten besser verteilt werden; Break-even hier bei 6 000 Stk.",
+    "esel": "Fix teuer, Masse billiger.",
+    "quelle": {
+      "kapitel": "8 Make-or-Buy-Analyse",
+      "seite": "86–87"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-115",
+    "typ": "justify",
+    "tag": "Kalkulatorischer Unternehmerlohn",
+    "fall": "Ein Einzelunternehmer kalkuliert 4 000 € monatlichen Unternehmerlohn.",
+    "frage": "Warum wird der Unternehmerlohn kalkulatorisch erfasst und wie hoch sind die Jahreskosten?",
+    "formel": "Monatslohn * 12",
+    "parameter": {
+      "Monatslohn": [
+        4000
+      ]
+    },
+    "toleranz": 0.01,
+    "erklaerung": "Da der Unternehmer keinen buchhalterischen Lohn erhält, wird ein kalkulatorischer Ansatz gebildet. Er spiegelt den tatsächlichen Werteverzehr der Arbeitsleistung wider. 4 000 × 12 = 48 000 € pro Jahr.",
+    "esel": "Lohn ohne Lohnzettel.",
+    "quelle": {
+      "kapitel": "5.6 Kalkulatorische Kosten",
+      "seite": "53–54"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-116",
+    "typ": "input",
+    "tag": "Kostenstruktur",
+    "fall": "Gesamtkosten = 500 000 €, davon = Fix = 200 000 €, variabel = 300 000 €.",
+    "frage": "Berechne den Fixkostenanteil in %.",
+    "formel": "(Fix / Gesamt) * 100",
+    "parameter": {
+      "Fix": [
+        200000
+      ],
+      "Gesamt": [
+        500000
+      ]
+    },
+    "toleranz": 0.01,
+    "erklaerung": "200 000 ÷ 500 000 × 100 = 40 %. Der Fixkostenanteil zeigt die Kostenelastizität und das Betriebsrisiko. Je höher der Fixanteil, desto empfindlicher reagiert das Ergebnis auf Mengenänderungen.",
+    "esel": "Fix ÷ Gesamt = Anteil.",
+    "quelle": {
+      "kapitel": "7 Voll-/Teilkostenrechnung",
+      "seite": "69–70"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-117",
+    "typ": "matrix",
+    "tag": "Deckungsbeitrag III",
+    "fall": "Für drei Produktgruppen liegen folgende Daten vor (in €):",
+    "frage": "Ermittle DB I–III und Unternehmensgewinn.",
+    "paare": {
+      "Produkt A DB I": "20 000",
+      "Produkt B DB I": "15 000",
+      "Produkt C DB I": "10 000",
+      "DB II (- Bereichskosten)": "-5 000",
+      "DB III (- Unternehmensfixkosten)": "-10 000",
+      "Gesamtgewinn": "30 000"
+    },
+    "erklaerung": "Deckungsbeitrag III zeigt den Beitrag nach Abzug aller Bereichs- und Unternehmensfixkosten. Er dient der Ergebnissteuerung. Positive Werte bedeuten Gesamtgewinn.",
+    "esel": "DB III = I – II – Fix.",
+    "quelle": {
+      "kapitel": "8 Deckungsbeitragsrechnung",
+      "seite": "81–83"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-118",
+    "typ": "fallanalyse",
+    "tag": "Kostenabweichung",
+    "fall": "Sollkosten = 100 000 €, Istkosten = 120 000 €. Der Mehrverbrauch entstand durch ineffiziente Materialnutzung.",
+    "frage": "Welche Art der Kostenabweichung liegt vor?",
+    "optionen": [
+      "Preisabweichung",
+      "Verbrauchsabweichung",
+      "Beschäftigungsabweichung"
+    ],
+    "loesung": "Verbrauchsabweichung",
+    "erklaerung": "Die Mehrkosten resultieren aus übermäßigem Verbrauch, nicht aus Preisänderungen oder Auslastung. Verbrauchsabweichungen zeigen Effizienzprobleme und sind intern zu analysieren.",
+    "esel": "Zu viel Material = Verbrauchsabweichung.",
+    "quelle": {
+      "kapitel": "9 Kostenkontrolle",
+      "seite": "94–95"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-119",
+    "typ": "justify",
+    "tag": "Wirtschaftlichkeit",
+    "fall": "Ertrag = 250 000 €, Aufwand = 200 000 €.",
+    "frage": "Begründe den Zweck und berechne die Wirtschaftlichkeitskennzahl.",
+    "formel": "Ertrag / Aufwand",
+    "parameter": {
+      "Ertrag": [
+        250000
+      ],
+      "Aufwand": [
+        200000
+      ]
+    },
+    "toleranz": 0.01,
+    "erklaerung": "Wirtschaftlichkeit zeigt das Verhältnis von Ertrag zu Aufwand. 250 000 ÷ 200 000 = 1,25. Werte > 1 bedeuten effizientes Arbeiten. Die Kennzahl dient als zentrale Erfolgsgröße im Controlling.",
+    "esel": "W = E ÷ A > 1 = gut.",
+    "quelle": {
+      "kapitel": "10.5 Wirtschaftlichkeitskennzahlen",
+      "seite": "101"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-120",
+    "typ": "falltext",
+    "tag": "Kostenrechnung integriert",
+    "fall": "Die ‚Becker AG‘ möchte die Kostenrechnung optimieren.",
+    "frage": "Beantworte die Teilfragen zum Fall.",
+    "fragen": [
+      {
+        "typ": "mc",
+        "frage": "Welche Kostenart ist kalkulatorisch?",
+        "optionen": [
+          "Abschreibung",
+          "Unternehmerlohn",
+          "Materialverbrauch"
+        ],
+        "loesung": "Unternehmerlohn"
+      },
+      {
+        "typ": "input",
+        "frage": "Nenne eine Aufgabe des BAB.",
+        "korrekteAntworten": [
+          "Verteilung der Gemeinkosten"
+        ]
+      },
+      {
+        "typ": "sequence",
+        "frage": "Bringe die KLR-Stufen in Reihenfolge.",
+        "richtigeReihenfolge": [
+          "Kostenarten",
+          "Kostenstellen",
+          "Kostenträger"
+        ]
+      },
+      {
+        "typ": "matrix",
+        "frage": "Ordne zu.",
+        "paare": {
+          "Rohstoffkosten": "Kostenart",
+          "Fertigung II": "Kostenstelle",
+          "Produkt X": "Kostenträger"
+        },
+        "kategorien": [
+          "Kostenart",
+          "Kostenstelle",
+          "Kostenträger"
+        ]
+      }
+    ],
+    "erklaerung": "Die integrierte Kostenrechnung verbindet Erfassung, Verteilung und Auswertung. Sie ermöglicht Transparenz über Kostenentstehung und Wirtschaftlichkeit. Grundlage jeder internen Steuerung.",
+    "esel": "Art–Stelle–Träger = was-wo-wofür.",
+    "quelle": {
+      "kapitel": "5.4–5.8 Kostenrechnungssystematik",
+      "seite": "43–57"
+    },
+    "schwierigkeit": "schwer"
+  },
+  {
+    "id": "BWLB02N-121",
+    "typ": "mc",
+    "tag": "Leasing vs. Kauf",
+    "fall": "Eine Maschine soll 5 Jahre genutzt werden. Zur Wahl stehen Barkauf oder Leasing mit festen Raten.",
+    "frage": "Welcher Vorteil spricht typischerweise für Leasing gegenüber dem Kauf?",
+    "optionen": [
+      "Schonung der Liquidität durch verteilte Zahlungen",
+      "Immer geringere Gesamtkosten als Kauf",
+      "Bilanzielle Aktivierung entfällt in jedem Fall",
+      "Keine vertraglichen Bindungen"
+    ],
+    "loesung": "Schonung der Liquidität durch verteilte Zahlungen",
+    "erklaerung": "Leasing verteilt Zahlungen über die Nutzungszeit und schont so die kurzfristige Liquidität. Die Gesamtkosten können je nach Vertrag höher als beim Kauf sein. Bilanzielle Effekte hängen von Vertragsgestaltung und Rechtslage ab.",
+    "esel": "Leasing: Liquidität schonen, nicht automatisch billiger.",
+    "quelle": {
+      "kapitel": "12.6 Leasing",
+      "seite": "119–121"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-122",
+    "typ": "calc",
+    "tag": "Annuitätendarlehen",
+    "fall": "Ein Kredit wird über {n} Jahre zu {i}% p. a. in gleichbleibenden Jahresraten getilgt. Kreditsumme {K} €.",
+    "frage": "Berechne die jährliche Annuität: A = K · [i · (1+i)^n] / [(1+i)^n − 1].",
+    "parameter": {
+      "K": [
+        50000,
+        150000
+      ],
+      "i": [
+        0.03,
+        0.08
+      ],
+      "n": [
+        3,
+        7
+      ]
+    },
+    "formel": "K * (i * (1 + i) ** n) / ((1 + i) ** n - 1)",
+    "toleranz": 0.01,
+    "erklaerung": "Die Annuität vereint Zins- und Tilgungsanteil zu einer konstanten Rate. Zu Beginn ist der Zinsanteil hoch, der Tilgungsanteil steigt über die Laufzeit. Die Formel diskontiert die Zahlungsreihe auf eine gleichbleibende Jahresrate.",
+    "esel": "Annuität = konstante Rate aus K, i, n.",
+    "quelle": {
+      "kapitel": "12.5 Kreditfinanzierung",
+      "seite": "116–118"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-123",
+    "typ": "input",
+    "tag": "Verschuldungsgrad",
+    "fall": "Eigenkapital = 400.000 €, Fremdkapital = 600.000 €.",
+    "frage": "Berechne den Verschuldungsgrad (FK / EK × 100) in %.",
+    "formel": "(FK / EK) * 100",
+    "parameter": {
+      "FK": [
+        600000
+      ],
+      "EK": [
+        400000
+      ]
+    },
+    "toleranz": 0.01,
+    "erklaerung": "Der Verschuldungsgrad misst das Verhältnis von Fremd- zu Eigenkapital. 600.000 ÷ 400.000 × 100 = 150 %. Höhere Werte bedeuten höheres Finanzierungsrisiko und ggf. schwächere Bonität.",
+    "esel": "Mehr FK zu EK = höheres Risiko.",
+    "quelle": {
+      "kapitel": "10 Kennzahlen – Struktur",
+      "seite": "98–101"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-124",
+    "typ": "justify",
+    "tag": "Tilgungsplan – Jahr 1",
+    "fall": "Kredit {K} €, Zinssatz {i}, Laufzeit {n} Jahre, Annuität wie berechnet. Ermittle Zins- und Tilgungsanteil im 1. Jahr sowie Restschuld.",
+    "frage": "Warum steigt der Tilgungsanteil im Zeitverlauf und wie hoch sind Zins, Tilgung und Restschuld nach Jahr 1?",
+    "formel": "Zins1 = K * i; Tilgung1 = Annuität − Zins1; Rest1 = K − Tilgung1",
+    "parameter": {
+      "K": [
+        80000
+      ],
+      "i": [
+        0.05
+      ],
+      "n": [
+        5
+      ]
+    },
+    "toleranz": 0.01,
+    "erklaerung": "Bei Annuitäten bleibt die Rate konstant, aber die Zinsbasis (Restschuld) sinkt. Dadurch fallen weniger Zinsen an und der Tilgungsanteil wächst. Jahr 1: Zins = K·i; Tilgung = A−Zins; Restschuld = K−Tilgung.",
+    "esel": "Sinkende Restschuld → weniger Zins → mehr Tilgung.",
+    "quelle": {
+      "kapitel": "12.5 Kreditfinanzierung",
+      "seite": "116–118"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-125",
+    "typ": "matrix",
+    "tag": "Liquiditätsbudget",
+    "fall": "Quartalsplanung (in €): Einzahlungen 300.000; Auszahlungen: Material 120.000, Personal 130.000, Sonstiges 30.000, Zinsen 10.000.",
+    "frage": "Ermittle den Quartalssaldo und die Steuerungsmaßnahme.",
+    "paare": {
+      "Einzahlungen": "300000",
+      "Auszahlungen gesamt": "290000",
+      "Saldo (Überschuss/Fehlbetrag)": "10000",
+      "Maßnahme (Beispiel)": "Überschuss zum Schuldenabbau oder Liquiditätsreserve"
+    },
+    "erklaerung": "Budget = Einzahlungen − Auszahlungen. Bei +10.000 € liegt ein Überschuss vor, der zur Tilgung oder als Reserve genutzt werden kann. Liquiditätsplanung verhindert Engpässe und ermöglicht Zinsoptimierung.",
+    "esel": "Cash in − Cash out = Spielraum.",
+    "quelle": {
+      "kapitel": "15 Finanzplanung",
+      "seite": "135–136"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-126",
+    "typ": "fallanalyse",
+    "tag": "Sale-and-Lease-Back",
+    "fall": "Maschine Buchwert 80.000 €, Verkauf 90.000 € mit anschließendem Leasing (Rate 1.800 €/Monat, 5 Jahre). Liquidität ist aktuell knapp.",
+    "frage": "Welche Entscheidung ist wahrscheinlicher sinnvoll?",
+    "optionen": [
+      "Sale-and-Lease-Back zur Liquiditätsfreisetzung",
+      "Behalten der Maschine und Bankkredit aufnehmen",
+      "Sofortige Verschrottung ohne Ersatz"
+    ],
+    "loesung": "Sale-and-Lease-Back zur Liquiditätsfreisetzung",
+    "erklaerung": "Der Verkauf generiert kurzfristig 90.000 € Liquidität, die Engpässe überbrücken kann. Die Nutzung bleibt über Leasing erhalten, Kosten verteilen sich planbar. Entscheidung ist abhängig von Gesamtkosten und Alternativzinssatz.",
+    "esel": "Verkaufen, weiter nutzen, Liquidität sichern.",
+    "quelle": {
+      "kapitel": "12 Finanzierung – Leasingvarianten",
+      "seite": "119–121"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-127",
+    "typ": "match",
+    "tag": "Tilgungsformen",
+    "fall": "Ein CFO vergleicht Darlehensarten nach Tilgungslogik.",
+    "frage": "Ordne Tilgungsformen den Merkmalen zu.",
+    "paare": {
+      "Annuitätendarlehen": "Konstante Rate, sinkender Zins- und steigender Tilgungsanteil",
+      "Ratentilgungsdarlehen": "Konstante Tilgung, fallende Gesamtzahlung",
+      "Endfälliges Darlehen": "Zinsen laufend, Tilgung einmalig am Ende"
+    },
+    "erklaerung": "Tilgungsformen unterscheiden Zahlungsprofile und Zinslastverlauf. Annuitäten glätten die Rate, Raten tilgen konstant, endfällige verschieben Tilgung in die Zukunft. Wahl beeinflusst Liquidität und Gesamtkosten.",
+    "esel": "Annuität = gleich; Rate: gleich / Tilgung: gleich / Tilgung: am Ende.",
+    "quelle": {
+      "kapitel": "12.5 Kreditfinanzierung",
+      "seite": "116–118"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-128",
+    "typ": "order",
+    "tag": "Kauf vs. Leasing – Entscheidungsprozess",
+    "fall": "Vor einer Maschinenanschaffung soll die Finanzierungsmethode entschieden werden.",
+    "frage": "Bringe die Schritte in eine sinnvolle Reihenfolge.",
+    "richtigeReihenfolge": [
+      "Kapitalbedarf ermitteln",
+      "Alternative Finanzierungswege identifizieren",
+      "Zahlungsreihen & Risiken bewerten (Barwert/Annuität)",
+      "Entscheidung & Vertragsprüfung"
+    ],
+    "erklaerung": "Zuerst wird der Finanzierungsbedarf präzisiert. Danach werden Alternativen mit Zahlungs- und Risikoprofilen verglichen (z. B. Kapitalwert/Annuität). Abschließend erfolgt die Entscheidung und die vertragliche Ausgestaltung.",
+    "esel": "Bedarf → Optionen → Bewertung → Vertrag.",
+    "quelle": {
+      "kapitel": "13–14 Kapitalbedarf & Investition",
+      "seite": "122–133"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-129",
+    "typ": "matrix",
+    "tag": "Liquiditätssteuerung",
+    "fall": "Maßnahmen zur Sicherung der Zahlungsfähigkeit werden kategorisiert.",
+    "frage": "Ordne die Instrumente den Horizonten zu.",
+    "paare": {
+      "Kontokorrentkredit": "Kurzfristig",
+      "Skonti nutzen": "Kurzfristig",
+      "Factoring": "Kurz-/Mittelfristig",
+      "Leasing": "Mittelfristig",
+      "Darlehen": "Mittel-/Langfristig",
+      "Beteiligungskapital": "Langfristig"
+    },
+    "kategorien": [
+      "Kurzfristig",
+      "Kurz-/Mittelfristig",
+      "Mittelfristig",
+      "Mittel-/Langfristig",
+      "Langfristig"
+    ],
+    "erklaerung": "Liquiditätssicherung nutzt verschiedene Instrumente je nach Zeithorizont. Kurzfristige Maßnahmen wirken sofort, langfristige stabilisieren die Struktur. Eine ausgewogene Mischung reduziert Zins- und Refinanzierungsrisiken.",
+    "esel": "Kurz: schnell; lang: stabil.",
+    "quelle": {
+      "kapitel": "12 Finanzierung & 15 Finanzplanung",
+      "seite": "104–121, 135–136"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-130",
+    "typ": "falltext",
+    "tag": "Finanzierung – Gesamtfall",
+    "fall": "Die ‚Alpha GmbH‘ plant eine Anlage. Zur Wahl stehen Kredit (5 %), Leasing (1.900 €/Monat) oder Innenfinanzierung.",
+    "frage": "Beantworte die Teilfragen zum Fall.",
+    "fragen": [
+      {
+        "typ": "mc",
+        "frage": "Welches Ziel hat die Finanzplanung primär?",
+        "optionen": [
+          "Zahlungsfähigkeit sichern",
+          "Bilanzsumme erhöhen",
+          "Steuern minimieren"
+        ],
+        "loesung": "Zahlungsfähigkeit sichern"
+      },
+      {
+        "typ": "input",
+        "frage": "Nenne ein Kriterium für die Wahl Leasing vs. Kauf.",
+        "korrekteAntworten": [
+          "Gesamtkosten",
+          "Liquidität"
+        ]
+      },
+      {
+        "typ": "sequence",
+        "frage": "Ordne die Bewertungsschritte.",
+        "richtigeReihenfolge": [
+          "Cashflows schätzen",
+          "Barwert/Annuität berechnen",
+          "Risiken beurteilen",
+          "Entscheiden"
+        ]
+      },
+      {
+        "typ": "matrix",
+        "frage": "Ordne zu.",
+        "paare": {
+          "Leasingrate": "Liquidität kurzfristig",
+          "Kreditrate": "Zins-/Tilgungsprofil",
+          "Gewinnthesaurierung": "Innenfinanzierung"
+        },
+        "kategorien": [
+          "Liquidität kurzfristig",
+          "Zins-/Tilgungsprofil",
+          "Innenfinanzierung"
+        ]
+      }
+    ],
+    "erklaerung": "Der Gesamtfall verbindet Zahlungsfähigkeit, Kostenvergleich und Risikobetrachtung. Zuerst werden Cashflows geschätzt und auf Barwert/Annuität geprüft. Danach folgt die Entscheidung unter Berücksichtigung von Liquidität, Flexibilität und Struktur.",
+    "esel": "Cashflows → Barwert → Risiko → Wahl.",
+    "quelle": {
+      "kapitel": "12–15 Finanzierung & Planung",
+      "seite": "108–136"
+    },
+    "schwierigkeit": "schwer"
+  },
+  {
+    "id": "BWLB02N-131",
+    "typ": "justify",
+    "tag": "Sensitivitätsanalyse Kapitalwert",
+    "fall": "Ein Projekt hat einen Kapitalwert von 12.000 € bei einem Kalkulationszins von 8 %.",
+    "frage": "Wie verändert sich der Kapitalwert bei einer Zinserhöhung um 2 Prozentpunkte?",
+    "formel": "KW_neu = KW / (1 + Δi)",
+    "parameter": {
+      "KW": [
+        12000
+      ],
+      "Δi": [
+        0.02
+      ]
+    },
+    "toleranz": 0.01,
+    "erklaerung": "Bei steigenden Zinsen sinkt der Kapitalwert, da zukünftige Rückflüsse stärker abgezinst werden. 12 000 ÷ 1,02 ≈ 11 765 €. Die Sensitivitätsanalyse zeigt, wie empfindlich das Ergebnis auf Zinsänderungen reagiert.",
+    "esel": "Zins rauf → Kapitalwert runter.",
+    "quelle": {
+      "kapitel": "14.3 Dynamische Verfahren",
+      "seite": "130–133"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-132",
+    "typ": "fallanalyse",
+    "tag": "Investitionsrisiko",
+    "fall": "Projekt A bringt hohen Gewinn, aber starke Schwankungen; Projekt B stabile Erträge bei geringerem Gewinn.",
+    "frage": "Welches Projekt ist bei Risikoaversion vorzuziehen?",
+    "optionen": [
+      "Projekt A",
+      "Projekt B",
+      "Beide gleich"
+    ],
+    "loesung": "Projekt B",
+    "erklaerung": "Risikovermeidung bedeutet, dass stabile, planbare Cashflows bevorzugt werden. Trotz geringerer Rendite bietet Projekt B höhere Sicherheit und damit höheren Nutzen für risikoaverse Entscheider.",
+    "esel": "Sicherheit schlägt Rendite.",
+    "quelle": {
+      "kapitel": "14.4 Risikoanalyse",
+      "seite": "134"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-133",
+    "typ": "input",
+    "tag": "ROI-Berechnung",
+    "fall": "Gewinn = 60 000 €, Umsatz = 800 000 €, Kapitalbindung = 300 000 €.",
+    "frage": "Berechne den Return on Investment (ROI).",
+    "formel": "(Gewinn / Umsatz) * (Umsatz / Kapital) * 100",
+    "parameter": {
+      "Gewinn": [
+        60000
+      ],
+      "Umsatz": [
+        800000
+      ],
+      "Kapital": [
+        300000
+      ]
+    },
+    "toleranz": 0.01,
+    "erklaerung": "ROI = (60 000 / 800 000) × (800 000 / 300 000) × 100 ≈ 25 %. Die Kennzahl verknüpft Umsatzrendite und Kapitalumschlag und misst die Gesamtrentabilität des eingesetzten Kapitals.",
+    "esel": "ROI = Rendite × Umschlag.",
+    "quelle": {
+      "kapitel": "17 Kennzahlensysteme",
+      "seite": "140–142"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-134",
+    "typ": "matrix",
+    "tag": "Balanced Scorecard",
+    "fall": "Das Management definiert strategische Perspektiven.",
+    "frage": "Ordne Kennzahlen den Perspektiven der Balanced Scorecard zu.",
+    "paare": {
+      "Kapitalrendite": "Finanzen",
+      "Kundenzufriedenheit": "Kunden",
+      "Prozessdurchlaufzeit": "Interne Prozesse",
+      "Schulungsstunden je Mitarbeiter": "Lernen & Entwicklung"
+    },
+    "kategorien": [
+      "Finanzen",
+      "Kunden",
+      "Interne Prozesse",
+      "Lernen & Entwicklung"
+    ],
+    "erklaerung": "Die Balanced Scorecard verbindet finanzielle und nicht-finanzielle Ziele. Sie misst Erfolg aus vier Perspektiven und schafft strategische Balance zwischen kurzfristiger Wirtschaftlichkeit und langfristiger Entwicklung.",
+    "esel": "Vier Blicke = Balance.",
+    "quelle": {
+      "kapitel": "16 Controlling – Balanced Scorecard",
+      "seite": "138–139"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-135",
+    "typ": "order",
+    "tag": "Budgetabweichungsanalyse",
+    "fall": "Ein Controller untersucht Plan-Ist-Differenzen.",
+    "frage": "Ordne die Schritte des Abweichungsmanagements in logische Reihenfolge.",
+    "richtigeReihenfolge": [
+      "Abweichung feststellen",
+      "Ursache analysieren",
+      "Maßnahmen ableiten",
+      "Ergebnis kontrollieren"
+    ],
+    "erklaerung": "Der Soll-Ist-Vergleich zeigt Differenzen. Anschließend werden Ursachen identifiziert, Maßnahmen ergriffen und deren Wirkung geprüft. Dieser Zyklus sichert die Wirtschaftlichkeit und Lernfähigkeit des Unternehmens.",
+    "esel": "Sehen – Verstehen – Handeln – Kontrollieren.",
+    "quelle": {
+      "kapitel": "9 Kostenkontrolle",
+      "seite": "94–95"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-136",
+    "typ": "fallanalyse",
+    "tag": "Target Costing",
+    "fall": "Das Management setzt einen Marktpreis von 100 € und eine Zielrendite von 20 %.",
+    "frage": "Wie hoch dürfen die maximalen Kosten sein?",
+    "optionen": [
+      "80 €",
+      "100 €",
+      "120 €"
+    ],
+    "loesung": "80 €",
+    "erklaerung": "Zielkosten = Preis − Gewinnaufschlag → 100 € − 20 € = 80 €. Beim Target Costing wird vom Marktpreis rückwärts gerechnet, um Kostenziele festzulegen. Dieses Verfahren integriert Kundenorientierung in die Produktentwicklung.",
+    "esel": "Preis – Zielrendite = max. Kosten.",
+    "quelle": {
+      "kapitel": "8 Kostensteuerung",
+      "seite": "82–83"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-137",
+    "typ": "justify",
+    "tag": "Budgetabweichung %",
+    "fall": "Sollkosten = 120 000 €, Istkosten = 132 000 €.",
+    "frage": "Wie groß ist die Kostenabweichung in % und wie wird sie interpretiert?",
+    "formel": "((Ist − Soll) / Soll) * 100",
+    "parameter": {
+      "Ist": [
+        132000
+      ],
+      "Soll": [
+        120000
+      ]
+    },
+    "toleranz": 0.01,
+    "erklaerung": "Abweichung = (132 000 − 120 000) ÷ 120 000 × 100 = 10 %. Positive Werte zeigen Kostenüberschreitungen. Die Kennzahl unterstützt Abweichungsanalysen und Frühwarnsysteme im Controlling.",
+    "esel": "Mehr als geplant = + Abweichung.",
+    "quelle": {
+      "kapitel": "9 Abweichungsanalyse",
+      "seite": "95"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-138",
+    "typ": "matrix",
+    "tag": "Controlling-Instrumente",
+    "fall": "Ein Unternehmen nutzt operative und strategische Steuerungsinstrumente.",
+    "frage": "Ordne die Instrumente den Controlling-Ebenen zu.",
+    "paare": {
+      "Break-even-Analyse": "Operativ",
+      "Benchmarking": "Strategisch",
+      "Budgetierung": "Operativ",
+      "SWOT-Analyse": "Strategisch"
+    },
+    "kategorien": [
+      "Operativ",
+      "Strategisch"
+    ],
+    "erklaerung": "Operatives Controlling fokussiert kurzfristige Effizienz, strategisches Controlling langfristige Erfolgspotenziale. Beide Instrumentengruppen sichern das Gleichgewicht zwischen Gegenwart und Zukunft.",
+    "esel": "Kurz = Zahl; Lang = Ziel.",
+    "quelle": {
+      "kapitel": "16 Controlling-Grundlagen",
+      "seite": "137–139"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-139",
+    "typ": "input",
+    "tag": "Produktivität",
+    "fall": "Output = 5 000 Stück, Input = 1 000 Arbeitsstunden.",
+    "frage": "Berechne die Arbeitsproduktivität (Stück je Stunde).",
+    "formel": "Output / Input",
+    "parameter": {
+      "Output": [
+        5000
+      ],
+      "Input": [
+        1000
+      ]
+    },
+    "toleranz": 0.01,
+    "erklaerung": "Produktivität misst die mengenmäßige Leistungsfähigkeit. 5 000 ÷ 1 000 = 5 Stück pro Stunde. Sie dient als Basiskennzahl für Effizienz- und Leistungsanalysen.",
+    "esel": "Produktivität = Output ÷ Input.",
+    "quelle": {
+      "kapitel": "10 Produktivitätskennzahlen",
+      "seite": "100–101"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-140",
+    "typ": "falltext",
+    "tag": "Strategisches Controlling – Gesamtfall",
+    "fall": "Die ‚Delta AG‘ will ihre strategische Steuerung professionalisieren.",
+    "frage": "Beantworte die Teilfragen zum Fall.",
+    "fragen": [
+      {
+        "typ": "mc",
+        "frage": "Welches Ziel verfolgt strategisches Controlling primär?",
+        "optionen": [
+          "Ergebnissteigerung im laufenden Jahr",
+          "Sicherung langfristiger Erfolgspotenziale",
+          "Steuerliche Optimierung"
+        ],
+        "loesung": "Sicherung langfristiger Erfolgspotenziale"
+      },
+      {
+        "typ": "input",
+        "frage": "Nenne zwei typische Instrumente.",
+        "korrekteAntworten": [
+          "SWOT-Analyse",
+          "Balanced Scorecard"
+        ]
+      },
+      {
+        "typ": "sequence",
+        "frage": "Reihenfolge strategischer Planungsschritte?",
+        "richtigeReihenfolge": [
+          "Analyse",
+          "Zieldefinition",
+          "Maßnahmenplanung",
+          "Kontrolle"
+        ]
+      },
+      {
+        "typ": "matrix",
+        "frage": "Ordne zu.",
+        "paare": {
+          "Kennzahlensystem": "Messinstrument",
+          "SWOT": "Analyseinstrument",
+          "Benchmarking": "Vergleichsinstrument"
+        },
+        "kategorien": [
+          "Messinstrument",
+          "Analyseinstrument",
+          "Vergleichsinstrument"
+        ]
+      }
+    ],
+    "erklaerung": "Strategisches Controlling zielt auf Zukunftssicherung durch Analyse, Planung und Kontrolle strategischer Ziele. Es verbindet qualitative und quantitative Kennzahlen zur nachhaltigen Unternehmensführung.",
+    "esel": "Heute planen, morgen bestehen.",
+    "quelle": {
+      "kapitel": "16–17 Strategisches Controlling",
+      "seite": "137–142"
+    },
+    "schwierigkeit": "schwer"
+  },
+  {
+    "id": "BWLB02N-141",
+    "typ": "falltext",
+    "tag": "Bilanzanalyse",
+    "fall": "Die ‚Lenz GmbH‘ möchte ihre Bilanzstruktur verbessern.",
+    "frage": "Beantworte die Teilfragen zum Fall.",
+    "fragen": [
+      {
+        "typ": "ratio",
+        "frage": "EK = 400 000 €, Bilanzsumme = 1 200 000 €. Berechne EK-Quote.",
+        "formel": "(EK / Bilanzsumme) * 100",
+        "parameter": {
+          "EK": [
+            400000
+          ],
+          "Bilanzsumme": [
+            1200000
+          ]
+        }
+      },
+      {
+        "typ": "mc",
+        "frage": "Was bedeutet eine EK-Quote von 33 %?",
+        "optionen": [
+          "hohe Eigenfinanzierung",
+          "geringe Eigenfinanzierung",
+          "Überschuldung"
+        ],
+        "loesung": "hohe Eigenfinanzierung"
+      },
+      {
+        "typ": "input",
+        "frage": "Nenne eine Maßnahme zur EK-Stärkung.",
+        "korrekteAntworten": [
+          "Gewinnthesaurierung",
+          "Kapitalerhöhung"
+        ]
+      }
+    ],
+    "erklaerung": "Bilanzanalyse misst Stabilität und Sicherheit. Die EK-Quote zeigt finanzielle Unabhängigkeit. Maßnahmen zur Verbesserung sind Thesaurierung oder Kapitalzufuhr.",
+    "esel": "Mehr Eigen = mehr Unabhängigkeit.",
+    "quelle": {
+      "kapitel": "10 Kennzahlen",
+      "seite": "98–101"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-142",
+    "typ": "falltext",
+    "tag": "Kostenabweichung – Produktionsbereich",
+    "fall": "In der Fertigung liegen Istkosten 12 % über den Sollkosten.",
+    "frage": "Analysiere die Abweichung.",
+    "fragen": [
+      {
+        "typ": "justify+calc",
+        "frage": "Soll = 100 000 €, Ist = 112 000 €. Berechne % und begründe.",
+        "formel": "((Ist - Soll) / Soll) * 100",
+        "parameter": {
+          "Ist": [
+            112000
+          ],
+          "Soll": [
+            100000
+          ]
+        }
+      },
+      {
+        "typ": "mc",
+        "frage": "Welche Ursache ist wahrscheinlich?",
+        "optionen": [
+          "Preissteigerung",
+          "Mehrverbrauch",
+          "Planfehler"
+        ],
+        "loesung": "Mehrverbrauch"
+      },
+      {
+        "typ": "truefalse",
+        "frage": "Eine Verbrauchsabweichung ist stets positiv.",
+        "antwort": false
+      }
+    ],
+    "erklaerung": "Kostenabweichungen werden in Preis- und Verbrauchsabweichungen aufgeteilt. Ein Plus von 12 % weist auf Mehrverbrauch hin. Nicht jede Abweichung ist negativ; sie dient als Analyseinstrument.",
+    "esel": "Abweichung zeigt Lernchance.",
+    "quelle": {
+      "kapitel": "9 Kostenkontrolle",
+      "seite": "94–95"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-143",
+    "typ": "falltext",
+    "tag": "Investitionsvergleich",
+    "fall": "Zwei Maschinen stehen zur Wahl.",
+    "frage": "Berechne und beurteile.",
+    "fragen": [
+      {
+        "typ": "calc",
+        "frage": "Maschine A: 50 000 € Kosten, jährl. Rückfluss 12 000 €, 5 Jahre. Kapitalwert bei 5 %?",
+        "formel": "R * ((1 - (1 + i) ** -n) / i) - K",
+        "parameter": {
+          "R": [
+            12000
+          ],
+          "i": [
+            0.05
+          ],
+          "n": [
+            5
+          ],
+          "K": [
+            50000
+          ]
+        }
+      },
+      {
+        "typ": "calc",
+        "frage": "Maschine B: 60 000 € Kosten, Rückfluss 15 000 €, 5 Jahre. Kapitalwert bei 5 %?",
+        "formel": "R * ((1 - (1 + i) ** -n) / i) - K",
+        "parameter": {
+          "R": [
+            15000
+          ],
+          "i": [
+            0.05
+          ],
+          "n": [
+            5
+          ],
+          "K": [
+            60000
+          ]
+        }
+      },
+      {
+        "typ": "mc",
+        "frage": "Welche Investition ist vorteilhafter?",
+        "optionen": [
+          "A",
+          "B",
+          "gleich"
+        ],
+        "loesung": "B"
+      }
+    ],
+    "erklaerung": "Kapitalwertvergleich berücksichtigt Zeitwert des Geldes. Hier liefert Maschine B den höheren Kapitalwert und ist wirtschaftlich besser.",
+    "esel": "Mehr KW = besser.",
+    "quelle": {
+      "kapitel": "14.3 Kapitalwertmethode",
+      "seite": "130–132"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-144",
+    "typ": "falltext",
+    "tag": "Break-even-Analyse",
+    "fall": "Die ‚Nord AG‘ prüft ihre Gewinnschwelle.",
+    "frage": "Berechne den Break-even-Point.",
+    "fragen": [
+      {
+        "typ": "input",
+        "frage": "Nenne die Formel des Break-even-Points (Menge).",
+        "korrekteAntworten": [
+          "Fixkosten / (Preis - variable Kosten)"
+        ]
+      },
+      {
+        "typ": "calc",
+        "frage": "Fixkosten = 50 000 €, Preis = 20 €, var. Kosten = 10 €. Berechne BEP.",
+        "formel": "Fixkosten / (Preis - Var)",
+        "parameter": {
+          "Fixkosten": [
+            50000
+          ],
+          "Preis": [
+            20
+          ],
+          "Var": [
+            10
+          ]
+        }
+      },
+      {
+        "typ": "mc",
+        "frage": "Was bedeutet das Ergebnis?",
+        "optionen": [
+          "Ab dieser Menge wird Gewinn erzielt",
+          "Hier endet die Produktion",
+          "Ab dieser Menge sinken Fixkosten"
+        ],
+        "loesung": "Ab dieser Menge wird Gewinn erzielt"
+      }
+    ],
+    "erklaerung": "Der Break-even-Point zeigt die Absatzmenge, ab der Erlöse die Kosten decken. Unterhalb entsteht Verlust, oberhalb Gewinn. Zentrale Steuerungsgröße der Kostenrechnung.",
+    "esel": "Deckung = Nullpunkt.",
+    "quelle": {
+      "kapitel": "8 Deckungsbeitragsrechnung",
+      "seite": "81–83"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-145",
+    "typ": "falltext",
+    "tag": "Liquiditätssteuerung",
+    "fall": "Die ‚SolarTech GmbH‘ hat Zahlungsschwierigkeiten.",
+    "frage": "Finde kurzfristige Maßnahmen.",
+    "fragen": [
+      {
+        "typ": "mc",
+        "frage": "Welche Maßnahme verbessert Liquidität sofort?",
+        "optionen": [
+          "Lagerabbau",
+          "Neuinvestition",
+          "Zinsbindung verlängern"
+        ],
+        "loesung": "Lagerabbau"
+      },
+      {
+        "typ": "matrix",
+        "frage": "Ordne Maßnahmen den Zeithorizonten zu.",
+        "paare": {
+          "Factoring": "Kurzfristig",
+          "Leasing": "Mittelfristig",
+          "Kapitalerhöhung": "Langfristig"
+        },
+        "kategorien": [
+          "Kurzfristig",
+          "Mittelfristig",
+          "Langfristig"
+        ]
+      },
+      {
+        "typ": "truefalse",
+        "frage": "Liquidität bedeutet, dass Forderungen kurzfristig beglichen werden können.",
+        "antwort": true
+      }
+    ],
+    "erklaerung": "Liquiditätssteuerung nutzt operative (Factoring, Lagerabbau) und strukturelle (Leasing, EK-Erhöhung) Maßnahmen. Kurzfristige Liquidität ist überlebenswichtig.",
+    "esel": "Liquid = zahlungsfähig bleiben.",
+    "quelle": {
+      "kapitel": "15 Finanzplanung",
+      "seite": "135–136"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-146",
+    "typ": "falltext",
+    "tag": "Rückstellungen & Bewertung",
+    "fall": "Ein Prozess droht, Kosten ungewiss.",
+    "frage": "Beantworte die Teilfragen.",
+    "fragen": [
+      {
+        "typ": "input",
+        "frage": "Wann darf eine Rückstellung gebildet werden?",
+        "korrekteAntworten": [
+          "wenn Verpflichtung wahrscheinlich und Höhe schätzbar ist"
+        ]
+      },
+      {
+        "typ": "calc",
+        "frage": "Rückstellung 10 000 €, Diskont 5 %, 3 Jahre → Barwert?",
+        "formel": "R / (1 + i) ** n",
+        "parameter": {
+          "R": [
+            10000
+          ],
+          "i": [
+            0.05
+          ],
+          "n": [
+            3
+          ]
+        }
+      },
+      {
+        "typ": "mc",
+        "frage": "Welche Bilanzseite ist betroffen?",
+        "optionen": [
+          "Passiva",
+          "Aktiva"
+        ],
+        "loesung": "Passiva"
+      }
+    ],
+    "erklaerung": "Rückstellungen berücksichtigen ungewisse Verpflichtungen. Sie gehören zum Fremdkapital und sichern das Vorsichtsprinzip. Langfristige Rückstellungen müssen abgezinst werden.",
+    "esel": "Unsicher? → Rückstellen.",
+    "quelle": {
+      "kapitel": "4.3 Rückstellungen",
+      "seite": "42–43"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-147",
+    "typ": "falltext",
+    "tag": "Kostenarten & KLR",
+    "fall": "Die Kostenrechnung der ‚Berg AG‘ wird überarbeitet.",
+    "frage": "Kategorisiere die Kosten.",
+    "fragen": [
+      {
+        "typ": "matrix",
+        "frage": "Ordne zu.",
+        "paare": {
+          "Stromkosten": "Gemeinkosten",
+          "Fertigungslöhne": "Einzelkosten",
+          "Gehalt Geschäftsführer": "Sondereinzelkosten"
+        },
+        "kategorien": [
+          "Einzelkosten",
+          "Gemeinkosten",
+          "Sondereinzelkosten"
+        ]
+      },
+      {
+        "typ": "sequence",
+        "frage": "Bringe Kostenrechnungsstufen in Reihenfolge.",
+        "richtigeReihenfolge": [
+          "Kostenartenrechnung",
+          "Kostenstellenrechnung",
+          "Kostenträgerrechnung"
+        ]
+      },
+      {
+        "typ": "mc",
+        "frage": "Welche Aussage ist korrekt?",
+        "optionen": [
+          "Kostenarten zeigen was, Stellen wo, Träger wofür",
+          "Kostenarten zeigen wofür, Träger wo",
+          "Kostenstellen zeigen was"
+        ],
+        "loesung": "Kostenarten zeigen was, Stellen wo, Träger wofür"
+      }
+    ],
+    "erklaerung": "Die Kostenrechnung gliedert sich in drei Stufen. Jede analysiert die Kosten aus einer anderen Perspektive. So wird Transparenz über Kostenentstehung und Wirtschaftlichkeit geschaffen.",
+    "esel": "Was–Wo–Wofür.",
+    "quelle": {
+      "kapitel": "5 Kostenrechnungssystematik",
+      "seite": "43–47"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-148",
+    "typ": "falltext",
+    "tag": "Abschreibungspraxis",
+    "fall": "Eine Maschine kostet 30 000 € und wird über 6 Jahre genutzt.",
+    "frage": "Berechne und buche.",
+    "fragen": [
+      {
+        "typ": "calc",
+        "frage": "Berechne jährliche lineare AfA.",
+        "formel": "AK / ND",
+        "parameter": {
+          "AK": [
+            30000
+          ],
+          "ND": [
+            6
+          ]
+        }
+      },
+      {
+        "typ": "tkonten",
+        "frage": "Buchungssatz für AfA.",
+        "buchungenLoesung": [
+          {
+            "konto": "Abschreibungen auf Sachanlagen",
+            "seite": "Soll"
+          },
+          {
+            "konto": "Maschinen",
+            "seite": "Haben"
+          }
+        ]
+      },
+      {
+        "typ": "truefalse",
+        "frage": "Abschreibung mindert den Gewinn.",
+        "antwort": true
+      }
+    ],
+    "erklaerung": "Abschreibungen verteilen Anschaffungskosten planmäßig auf Nutzungsjahre. Sie senken Buchwert und Gewinn, ohne die Liquidität direkt zu beeinflussen.",
+    "esel": "AfA = Aufwand ohne Auszahlung.",
+    "quelle": {
+      "kapitel": "6 Abschreibungen",
+      "seite": "58–60"
+    },
+    "schwierigkeit": "leicht"
+  },
+  {
+    "id": "BWLB02N-149",
+    "typ": "falltext",
+    "tag": "Kostenvergleich",
+    "fall": "Die ‚Werkbau GmbH‘ vergleicht Eigenfertigung vs. Fremdbezug.",
+    "frage": "Bewerte die Alternativen.",
+    "fragen": [
+      {
+        "typ": "calc",
+        "frage": "Eigenfertigung: Fix 50 000 €, var. 30 €/Stk., Menge 3 000. Berechne Gesamtkosten.",
+        "formel": "Fix + var * Menge",
+        "parameter": {
+          "Fix": [
+            50000
+          ],
+          "var": [
+            30
+          ],
+          "Menge": [
+            3000
+          ]
+        }
+      },
+      {
+        "typ": "calc",
+        "frage": "Fremdbezug: 45 €/Stk., Menge 3 000.",
+        "formel": "Preis * Menge",
+        "parameter": {
+          "Preis": [
+            45
+          ],
+          "Menge": [
+            3000
+          ]
+        }
+      },
+      {
+        "typ": "mc",
+        "frage": "Welche Variante ist günstiger?",
+        "optionen": [
+          "Eigenfertigung",
+          "Fremdbezug",
+          "beide gleich"
+        ],
+        "loesung": "Eigenfertigung"
+      }
+    ],
+    "erklaerung": "Eigenfertigung: 50 000 + 90 000 = 140 000 €, Fremdbezug: 135 000 €. Bei höherem Absatz überwiegt Eigenfertigungsvorteil. Entscheidung hängt von Fixkosten und Auslastung ab.",
+    "esel": "Fix teilt sich mit Menge.",
+    "quelle": {
+      "kapitel": "8 Make-or-Buy",
+      "seite": "86–87"
+    },
+    "schwierigkeit": "mittel"
+  },
+  {
+    "id": "BWLB02N-150",
+    "typ": "falltext",
+    "tag": "Abschlussprüfung – Gesamtfall",
+    "fall": "Die ‚Omega AG‘ schließt das Geschäftsjahr ab.",
+    "frage": "Simuliere eine Jahresabschlussprüfung.",
+    "fragen": [
+      {
+        "typ": "mc",
+        "frage": "Welche Aufgabe hat der Jahresabschluss?",
+        "optionen": [
+          "Information & Rechenschaft",
+          "Steuerermittlung",
+          "Liquiditätsplanung"
+        ],
+        "loesung": "Information & Rechenschaft"
+      },
+      {
+        "typ": "matrix",
+        "frage": "Ordne zu.",
+        "paare": {
+          "Aktiva": "Mittelverwendung",
+          "Passiva": "Mittelherkunft",
+          "GuV": "Erfolgsermittlung"
+        },
+        "kategorien": [
+          "Mittelverwendung",
+          "Mittelherkunft",
+          "Erfolgsermittlung"
+        ]
+      },
+      {
+        "typ": "input",
+        "frage": "Nenne zwei GoB.",
+        "korrekteAntworten": [
+          "Vorsichtsprinzip",
+          "Klarheitsprinzip"
+        ]
+      },
+      {
+        "typ": "sequence",
+        "frage": "Bringe Abschlussphasen in Reihenfolge.",
+        "richtigeReihenfolge": [
+          "Inventur",
+          "Buchung",
+          "Abschluss",
+          "Bilanz"
+        ]
+      },
+      {
+        "typ": "truefalse",
+        "frage": "GuV ist Teil des externen Rechnungswesens.",
+        "antwort": true
+      }
+    ],
+    "erklaerung": "Der Jahresabschluss dokumentiert Vermögen, Schulden und Erfolg. GoB sichern Vergleichbarkeit und Wahrheit. Inventur und Abschluss bilden den formalen Prozess zur Rechenschaft.",
+    "esel": "Bilanz zeigt, was ist – GuV, was war.",
+    "quelle": {
+      "kapitel": "1–4 Rechnungswesen Grundlagen",
+      "seite": "3–45"
+    },
+    "schwierigkeit": "schwer"
+  }
+]
